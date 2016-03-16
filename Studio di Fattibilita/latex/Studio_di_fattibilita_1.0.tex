@@ -1,0 +1,136 @@
+\documentclass[a4paper,11pt]{article}
+
+
+\input{../../template.tex}
+%\title{Studio di fattibilità}
+\title{\textbf{{\fontsize{8mm}{5mm}\selectfont QUIZZIPEDIA}}}
+	\date{}
+	\author{}
+	
+	\begin{document}
+	\pagenumbering{roman}
+	\maketitle
+	\thispagestyle{empty}
+	\begin{center}
+	\includegraphics{../../team_not_found.jpg}\\
+	\fontsize{5mm}{3mm}\url{team404swe@gmail.com}\\
+	
+	\vspace{50mm}
+	\textbf{Studio di fattibilità 1.0}
+	\end{center}
+	
+	%qui
+	\introtab{Studio di fattibilità}			%1 nome documento
+			{1.0} 							%2 versione
+			{Interno} 						%3 Uso
+			{18 dicembre 2015} 				%4 Data cre
+			{\today} 						%5 Data mod
+			{Luca Alessio}		%6 Redazione1
+			{Andrea Multineddu} 			%7 Verifica
+			{Alex Beccaro} 				%8 Approvazione
+	%qui
+	
+
+
+	\newpage	
+	\newpage
+	\fancyhead[R]{REGISTRO DELLE MODIFICHE}
+	\fancyfoot[R]{\thepage}
+	
+	\hspace{30 mm}
+\section*{Registro delle modifiche}
+		%\begin{longtable}{{|p{0.10\textwidth}|p{0.15\textwidth}|p{0.15\textwidth}|p{0.50\textwidth}|}} 
+	 		%\hline	
+	 	\beginregistro		
+			\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}{\hspace{5 mm} \textbf{Descrizione}}
+			\rigaregistro{1.0}{Alex Beccaro (Responsabile)}{29/12/2015}{Approvazione del documento}
+			\rigaregistro{0.1.2}{Luca Alessio (Analista)}{28/12/2015}{Correzione discrepanze sorte dalla fase di verifica}
+			\rigaregistro{0.1.1}{Martin Mbouenda (Amministratore)}{28/12/2015}{Adeguamento del documento alle norme di progetto}
+			\rigaregistro{0.1}{Andrea Multineddu (Verificatore)}{27/12/2015}{Verifica del documento}
+			\rigaregistro{0.0.3}{Luca Alessio (Analista)}{22/12/2015}{Modifiche in seguito a revisione comune dei membri}
+			\rigaregistro{0.0.2}{Luca Alessio (Analista)}{21/12/2015}{Completamento prima stesura del documento}
+			\rigaregistro{0.0.1}{Luca Alessio (Analista)}{18/12/2015}{Inizio prima stesura del documento}
+			
+			
+			
+			
+			
+			
+			\caption{Versionamento del documento} 
+		%\end{longtable}
+		\fineregistro
+	
+\newpage
+	\fancyhead[R]{\leftmark}
+	\tableofcontents
+	\newpage
+
+	\pagenumbering{arabic}
+\section{Introduzione}
+
+\subsection{Scopo del documento}
+Il presente documento ha lo scopo di analizzare i capitolati proposti quest'anno per il progetto di gruppo del corso di Ingegneria del Software e di motivare le decisioni che hanno portato il nostro il gruppo a scegliere di sviluppare la piattaforma Quizzipedia.
+\subsection{Scopo del progetto}
+Il progetto Quizzipedia si pone come traguardo la costruzione di un software di gestione questionari, accessibile a qualsiasi tipo di utenza tramite interfaccia web.
+\subsection{Glossario}
+Viene allegato il glossario nel file “glossario.pdf” nel quale vengono definiti tutti i
+termini qui utilizzati.
+\subsection{Riferimenti}
+forse meglio mettere i link per esteso in caso il documento venga stampato?
+\subsubsection{Normativi}
+\begin{itemize}
+	\item norme\_di\_progetto\_1.0.pdf
+	\item \href{http://www.math.unipd.it/~tullio/IS-1/2015/Progetto/C5.pdf}{Capitolato d'appalto Quizzipedia}	
+\end{itemize}
+\subsubsection{Informativi}
+\begin{itemize}
+	\item \href{http://www.math.unipd.it/~tullio/IS-1/2015/}{Materiale del corso di Ingegneria del Software 2015-2016}
+	\item \href{http://www.math.unipd.it/~tullio/IS-1/2015/Dispense/PD01.pdf}{Regole del progetto didattico}
+	\item \href{http://www.computer.org/web/swebok/index}{Swebok - Guide to the Software Engineering Body of Knowledge}
+	\item glossario\_1.0.pdf
+\end{itemize}
+
+\newpage
+
+\section{Studio di fattibilità}
+
+
+\subsection{Studio del capitolato scelto (Quizzipedia)}
+
+Dopo un'attenta valutazione dei capitolati proposti , accesi dibattiti tra i componenti del gruppo e una votazione finale, la scelta del gruppo è ricaduta su Quizzipedia (C05: software per la gestione di questionari). Le motivazioni principali che hanno portato a questa decisione sono le seguenti:
+\begin{itemize}
+\item Alto interesse dei membri del team a sperimentare ed apprendere la tecnologia Node.js;
+\item Interesse del gruppo a creare un'applicazione basata su una base di dati;
+\item Curiosità verso la struttura e gli utilizzi dei linguaggi markup, in particolare QML \\(vedi analisi\_dei\_requisiti\_1.0.pdf);
+\item (In minor modo) la familiarità con gli altri linguaggi utilizzati nel settore web acquisita con precedenti esperienze;
+\item Requisiti chiari e precisi ma allo stesso tempo accattivanti e originali;
+\item Quizzipedia è riusabile e riadattabile, è un prodotto di cui gli utenti si serviranno e potenzialmente continueranno a servirsi, è un software il cui ciclo di vita potrà continuare anche dopo il termine del progetto didattico, impressione che la maggior parte degli altri capitolati non ci ha dato, vogliamo realizzare qualcosa che verrà poi utilizzato e di cui non resti semplicemente un voto.
+\end{itemize}
+
+\newpage
+
+\subsection{Studio degli altri capitolati proposti}
+
+\subsubsection{C01 (Actorbase: a NoSQL DB based on the Actor model)}
+\label{c1}
+Non abbiamo potuto prendere in considerazione la scelta di questo capitolato perché, al momento della formazione del gruppo, era stato già raggiunto il limite massimo di gruppi assegnati allo sviluppo di questo progetto. 
+
+\subsubsection{C02 (CLIPS: Communication and Localization with Indoor Positioning Systems)}
+Dopo una scrupolosa analisi del capitolato, questo progetto è stato scartato per le seguenti principali ragioni: 
+\begin{itemize}
+\item Basso interesse generale dei componenti del gruppo verso il settore dell' Internet Of Things, in quanto visto come qualcosa di difficilmente proponibile nell'ambito quotidiano  e in generale come una tecnologia ancora acerba.
+\item Mancanza di un obiettivo prefissato da perseguire; da un punto di vista didattico è certamente stimolante sperimentare la tecnologia Beacon, infatti il capitolato lascia una vasta libertà sull'utilizzo di questa tecnologia promuovendo la ricerca e la sperimentazione di nuovi scenari per il suo utilizzo. Nonostante ciò il gruppo non è riuscito ad individuare sufficienti spunti di lavoro.
+%RIVEDERE GRAMMATICA DI QUESTO PUNTO PERCHE' LA FRASE NON ESPRIME BENE IL SENSO DI QUELLO CHE INTENDO
+\end{itemize}
+In base a ciò il team si è dichiarato più propenso a rivolgere la propria attenzione ad altri ambiti.
+
+\subsubsection{C03 (UMAP: un motore per l'analisi predittiva in ambiente Internet of Things)}
+Vedi motivazione in sezione \ref{c1} .
+
+\subsubsection{C04 (MaaS: MongoDB as an admin Service)}
+Per quanto riguarda questo capitolato, inizialmente è stato considerato abbastanza interessante dalla maggioranza del gruppo, poi però scartato perché ritenuto troppo ampio. Dopo un'attenta analisi infatti, siamo arrivati alla conclusione di non poter affrontare il problema con le sole conoscenze a nostra disposizione al momento perché sarebbe stato necessario investire troppe risorse umane nell'acquisizione di conoscenze nei campi in cui si presentavano queste lacune.
+
+\subsubsection{C06 (SiVoDiM: Sintesi Vocale per Dispositivi Mobili)}
+Dopo una prima analisi preliminare, il progetto è stato valutato come fattibile, inoltre la maggior parte del gruppo era propenso a scegliere questo capitolato vista la curiosità globale verso la ricerca nel settore della sintesi vocale e le sue applicazioni. Questo capitolato è stato però scartato durante la votazione finale che ha visto come vincitore Quizzipedia.
+
+\end{document}

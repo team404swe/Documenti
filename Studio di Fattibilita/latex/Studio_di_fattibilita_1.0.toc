@@ -1,0 +1,17 @@
+\select@language {italian}
+\select@language {italian}
+\contentsline {section}{\numberline {1}Introduzione}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Scopo del documento}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Scopo del progetto}{1}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Glossario}{1}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Riferimenti}{1}{subsection.1.4}
+\contentsline {subsubsection}{\numberline {1.4.1}Normativi}{1}{subsubsection.1.4.1}
+\contentsline {subsubsection}{\numberline {1.4.2}Informativi}{1}{subsubsection.1.4.2}
+\contentsline {section}{\numberline {2}Studio di fattibilit\IeC {\`a}}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Studio del capitolato scelto (Quizzipedia)}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Studio degli altri capitolati proposti}{3}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}C01 (Actorbase: a NoSQL DB based on the Actor model)}{3}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}C02 (CLIPS: Communication and Localization with Indoor Positioning Systems)}{3}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}C03 (UMAP: un motore per l'analisi predittiva in ambiente Internet of Things)}{3}{subsubsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.4}C04 (MaaS: MongoDB as an admin Service)}{3}{subsubsection.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.5}C06 (SiVoDiM: Sintesi Vocale per Dispositivi Mobili)}{3}{subsubsection.2.2.5}
