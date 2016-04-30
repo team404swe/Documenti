@@ -49,9 +49,10 @@
 		\begin{longtable}{{|p{0.10\textwidth}|p{0.15\textwidth}|p{0.15\textwidth}|p{0.50\textwidth}|}} 
 	 		\hline			
 			\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}						{\hspace{5 mm} \textbf{Descrizione}}
-			\rigaregistro{1.0.3}{M. Mbouenda \newline(Responsabile)}{28/04/2016}{Definita le sezioni 8.1.2.2, 8.1.2.3 e la sezione "Preventivo" 8.1.2.4 con le relative tabelle.}
-			\rigaregistro{1.0.2}{M. Mbouenda \newline(Responsabile)}{25/04/2016}{Definita la sezione 8.1.1, prima stesura di 8.1.2, generate le tabelle e il grafico di 8.1.2.1}
-			\rigaregistro{1.0.1}{M. Mbouenda \newline(Responsabile)}{23/04/2016}{Prima stesura del capitolo 8, "Consuntivi". Definita la sezione 8.1, generato grafico e tabella.}
+			\rigaregistro{1.0.4}{M. Mbouenda \newline(Responsabile)}{29/04/2016}{Definite le sezioni §8.1.2.2, §8.1.2.3 e la sezione "Preventivo" §8.1.2.4 con le relative tabelle.}
+			\rigaregistro{1.0.3}{M. Mbouenda \newline(Responsabile)}{26/04/2016}{Definita la sezione §8.1.1, prima stesura di §8.1.2, generate le tabelle e il grafico di §8.1.2.1}	
+			\rigaregistro{1.0.2}{M. Mbouenda \newline(Responsabile)}{24/04/2016}{Introdotta la parte di analisi dinamica dei rischi. Modificato l'impianto del capitolo §5, ora ogni rischio comprende anche gli elementi: 'Controllo','Gestione' e 'Analisi Dinamica'. Modificati di conseguenza l'introduzione di "Analisi dei rischi" e la specifica di ogni rischio (per ora comprendendo solo il periodo "Analisi iniziale" in 'Analisi dinamica'). Integrati i contenuti di §5.5 in  §5.4.1.}
+			\rigaregistro{1.0.1}{M. Mbouenda \newline(Responsabile)}{23/04/2016}{Prima stesura del capitolo §8, "Consuntivi". Definita la sezione §8.1, generato grafico e tabella.}
 			\rigaregistro{1.0}{D. Bortot \newline(Responsabile)}{06/04/2016}{Approvazione documento.}
 			\rigaregistro{0.4}{A. Multineddu \newline(Verificatore)}{05/04/2016}{Revisione sezioni modificate.}
 			\rigaregistro{0.3.2}{D. Bortot \newline(Responsabile)}{04/04/2016}{Aggiunta la scelta "RP-max" alla sezione 6.2.3. Aggiunte valutazioni sul costo dell'analisi iniziale in 7.2. Aggiunta la sezione 5.5 "Controllo dei rischi" e la Figura 1.}
@@ -223,93 +224,156 @@ Altri modelli possibili sono stati scartati per le seguenti motivazioni:
 	\item \textbf{Descrizione:} descrizione testuale del problema in analisi.
 	\item \textbf{Probabilità:} una stima probabilistica che il problema si presenti, valutata in una scala da 1 a 3, dove 3 è il massimo.
 	\item \textbf{Impatto:} l'influenza negativa che avrebbe il presentarsi del problema in analisi, valutato con una scala a tre livelli (A, B, C) dove:
-	\begin{itemize}
-		\item \textbf{A)} problema poco impattante e facilmente risolvibile;
-		\item \textbf{B)} problema impattante ma risolvibile con soluzioni adeguate;
-		\item \textbf{C)} problema molto impattante e difficilmente risolvibile.
+		\begin{itemize}
+			\item \textbf{A)} problema poco impattante e facilmente risolvibile;
+			\item \textbf{B)} problema impattante ma risolvibile con soluzioni adeguate;
+			\item \textbf{C)} problema molto impattante e difficilmente risolvibile.
+		\end{itemize}
+	\item \textbf{Controllo:} le tecniche da attuare per tenere sotto controllo il livello del rischio;
+	\item \textbf{Gestione:} verrà suggerita per ogni rischio una strategia indicata a ridurne l'impatto, ove possibile;
+	\item \textbf{Analisi dinamica:} per ogni periodo di progetto viene riportato se il rischio si è presentato e se la gestione attuata si è dimostrata efficace. 
 	\end{itemize}
-	\end{itemize}
-	Inoltre verrà suggerita per ogni rischio una strategia indicata a ridurne l'impatto, ove possibile, e nel caso il problema si sia già presentato verrà riportata la soluzione effettivamente adottata dal gruppo.
+	
 	\subsection{Risorse Umane}
 		\subsubsection{Incompatibilità componenti del gruppo}
 		Rappresenta la possibilità che tra i componenti del gruppo sorgano incongruenze tali da impedire il corretto avanzamento del progetto.
 		\begin{itemize}
 		\item \textbf{Probabilità:} 1
 		\item \textbf{Impatto:} B
+		\item \textbf{Controllo:} sarà compito del Responsabile assicurare la corretta comunicazione tra i componenti e monitorare le problematiche.
+		\item \textbf{Gestione:} nel caso il problema si verificasse sarà necessario l'intervento di un'autorità maggiore (prima fra tutte il Responsabile di progetto) che appiani le divergenze. Nel caso le controversie persistano è valutabile l'opzione di estromettere dal gruppo l'elemento più problematico;
+		\item \textbf{Analisi dinamica:}
+			\begin{itemize}
+				\item\textbf{Analisi Iniziale:} il rischio non si è presentato.
+				\item\textbf{Progettazione:} il rischio non si è presentato. Fino al momento della stesura del presente documento, il gruppo è stato coeso e propenso a trovare facilmente strategie e idee di comune accordo.
+			\end{itemize}
 		\end{itemize}
-		Fino al momento della stesura del presente documento, il gruppo è stato coeso e propenso a trovare facilmente strategie e idee di comune accordo. Nel caso il problema si verificasse sarà necessario l'intervento di un'autorità maggiore (prima fra tutte il Responsabile di progetto) che appiani le divergenze. Nel caso le controversie persistano è valutabile l'opzione di estromettere dal gruppo l'elemento più problematico.
 		\subsubsection{Impegni esterni al progetto didattico}
 		Rappresenta la possibilità che alcuni elementi del gruppo non riescano ad adempiere ai propri doveri progettuali a causa di impegni personali o universitari.
 		\begin{itemize}
 		\item \textbf{Probabilità:} 2
 		\item \textbf{Impatto:} B
+		\item \textbf{Controllo:} questo tipo di problema è stimabile ed evitabile fin dall'inizio del progetto tramite una dichiarazione, anche informale, dei propri obiettivi ed impegni da parte di tutti i componenti del gruppo. Così facendo si possono adeguatamente preventivare le ore di lavoro necessarie venendo incontro ad alle esigenze personali.
+		\item \textbf{Gestione:} nel caso di eventi/impegni inaspettati la scelta più ovvia è un'immediata redistribuzione delle ore individuali in modo da garantire il completamento efficiente dei compiti.
+		\item \textbf{Analisi dinamica:}
+			\begin{itemize}
+				\item\textbf{Analisi Iniziale:} durante l'ultima metà di Gennaio e le prime settimane di Febbraio la maggior parte dei membri del gruppo ha dovuto affrontare molteplici esami, dedicando meno ore al progetto didattico. Non è stato però necessario rivedere la pianificazione preventivata, che è continuata subito dopo gli esami, grazie all'ampiezza temporale del periodo precedente la Revisione dei Requisiti. Si dovrà tenere conto di questo problema particolarmente nel mese di Giugno, nel quale con buona probabilità si presenterà un rischio analogo, con un'adeguata pianificazione.
+				\item\textbf{Progettazione:} il rischio non si è presentato.
+			\end{itemize}
 		\end{itemize}
-		Questo tipo di problema è stimabile ed evitabile fin dall'inizio del progetto tramite una dichiarazione, anche informale, dei propri obiettivi ed impegni da parte di tutti i componenti del gruppo. Così facendo si possono adeguatamente preventivare le ore di lavoro necessarie venendo incontro ad alle esigenze personali. Nel caso di eventi/impegni inaspettati la scelta più ovvia è un'immediata redistribuzione delle ore individuali in modo da garantire il completamento efficiente dei compiti.
 		\subsubsection{Indisponibilità prolungata}
 		Rappresenta la possibilità che qualche elemento, per ragioni inaspettate, si ritrovi impossibilitato a partecipare attivamente allo sviluppo del progetto per un lasso di tempo prolungato. 
 		\begin{itemize}
 		\item \textbf{Probabilità: }1
 		\item \textbf{Impatto: }C
+		\item \textbf{Controllo:} è compito del Responsabile assicurarsi che tale problema venga comunicato quanto prima dagli elementi in questione.
+		\item \textbf{Gestione:} questo problema, seppur poco probabile, è particolarmente impattante e difficile da mitigare. Prima di tutto va valutata la possibilità di accollare tutto il lavoro dell'elemento indisposto ai compagni; in caso non sia possibile, il progetto subirà un'inevitabile ritardo.
+		\item \textbf{Analisi dinamica:}
+			\begin{itemize}
+				\item\textbf{Analisi Iniziale:} il rischio non si è presentato.
+				\item\textbf{Progettazione:} il rischio non si è presentato.
+			\end{itemize}
 		\end{itemize}
-		Questo problema, seppur poco probabile, è particolarmente impattante e difficile da mitigare. Prima di tutto va valutata la possibilità di accollare tutto il lavoro dell'elemento indisposto ai compagni; in caso non sia possibile, il progetto subirà un'inevitabile ritardo.
 	\subsection{Conoscenze e Strumenti}
 		\subsubsection{Carenza di conoscenze tecniche}
 		Rappresenta la possibilità che uno o più componenti del gruppo non dispongano delle conoscenze tecniche necessarie ad utilizzare proficuamente le tecnologie e gli strumenti di progetto.
 		\begin{itemize}
 		\item \textbf{Probabilità: }3
 		\item \textbf{Impatto: }A
+		\item \textbf{Controllo:} è essenziale trarre fin dall'inizio dal capitolato e dall'Analisi dei Requisiti tutte le tecnologie in gioco ed aggiornarne la lista durante l'avanzamento del progetto. Il Responsabile deve assicurarsi che i membri del gruppo acquisiscano tali competenze.
+		\item \textbf{Gestione:} la maggior parte delle conoscenze necessarie è nota fin dall'inizio del progetto, quindi per ridurre l'impatto è sufficiente preventivare alcune ore di formazione individuale tese ad appianare le carenze evidenziate.
+		\item \textbf{Analisi dinamica:}
+			\begin{itemize}
+				\item\textbf{Analisi Iniziale:} il rischio non si è presentato.
+				\item\textbf{Progettazione:}
+			\end{itemize}
 		\end{itemize}
-		La maggior parte delle conoscenze necessarie è nota fin dall'inizio del progetto, quindi per ridurre l'impatto è sufficiente preventivare alcune ore di formazione individuale tese ad appianare le carenze evidenziate.
 		\subsubsection{Carenza di strumenti adeguati}
 		Rappresenta la possibilità che il progetto non possa proseguire, o venga pesantemente rallentato, a causa della mancanza (o utilizzo scorretto) degli strumenti di supporto allo sviluppo.
 		\begin{itemize}
 		\item \textbf{Probabilità: }1
 		\item \textbf{Impatto: }B
+		\item \textbf{Controllo:} l'Amministratore deve tenere sott'occhio le necessità  del gruppo, ascoltarne le richieste, e assicurasi che gli strumenti scelti supportino al meglio i bisogni dichiarati.
+		\item \textbf{Gestione:} al verificarsi del problema è necessario agire tempestivamente ricercando strumenti alternativi minimizzando la perdita del lavoro già fatto. Nel caso di utilizzo scorretto, si rimanda alla sezione 5.2.1.
+		\item \textbf{Analisi dinamica:}
+			\begin{itemize}
+				\item\textbf{Analisi Iniziale:} il rischio non si è presentato.
+				\item\textbf{Progettazione:} %migrazione su Teamwork
+			\end{itemize}
 		\end{itemize}
-		Al verificarsi del problema è necessario agire tempestivamente ricercando strumenti alternativi minimizzando la perdita del lavoro già fatto. Nel caso di utilizzo scorretto, si rimanda alla sezione 5.2.1.
 	\subsection{Errori d'analisi}
-		\subsubsection{Errore in fase di analisi dei requisiti}
-		Rappresenta la possibilità che i requisiti rilevati durante la fase di analisi dei requisiti siano errati o insufficienti a definire adeguatamente il sistema che si andrà a sviluppare.
+		\subsubsection{Errore nell'analisi dei requisiti}
+		Rappresenta la possibilità che i requisiti rilevati nell'analisi dei requisiti siano errati o insufficienti a definire adeguatamente il sistema che si andrà a sviluppare.
 		\begin{itemize}
 		\item \textbf{Probabilità:} 2
 		\item \textbf{Impatto:} B
+		\item \textbf{Controllo:} i requisiti rilevati devono essere il più precisi possibile; a tal riguardo sarà utile, oltre al lavoro degli analisti, organizzare più incontri col proponente per meglio comprendere il problema e dissipare eventuali dubbi.
+		\item \textbf{Gestione:} la gravità del problema è maggiore quanto più tardi nello sviluppo si presenta. E' normale ed auspicabile che durante le prime parti dello sviluppo il numero dei requisiti continui ad aumentare. E' però necessario che prima di iniziare la progettazione architetturale del prodotto la maggior parte dei requisiti sia analizzata e confermata. Requisiti che emergessero in fasi più avanzate di sviluppo comporterebbero ore di lavoro straordinarie per definire ed integrare il nuovo requisito nel sistema. Per assicurare una miglior completezza ed un lavoro di maggior qualità, più componenti hanno lavorato contemporaneamente all' analisi dei requisiti nella prima fase del progetto.
+		\item \textbf{Analisi dinamica:}
+			\begin{itemize}
+				\item\textbf{Analisi Iniziale:} L'analisi dei Requisiti prodotta alla fine di questa fase si è rivelata insufficientemente dettagliata. E' stato quindi subito organizzato un incontro col proponente che ci ha aiutato a comprendere meglio il prodotto e a trarre ulteriori requisiti. Per integrare velocemente i nuovi requisiti e tenere conto di possibili aggiunte future la pianificazione è stata rivisita, introducendo più ore di analisi, come presentato nella sezione "Preventivo a finire" relativa a questo periodo (sez. 8.1.2).
+				\item\textbf{Progettazione:}
+			\end{itemize}
 		\end{itemize}
-		La gravità del problema è maggiore quanto più tardi nello sviluppo si presenta. E' normale ed auspicabile che durante le prime parti dello sviluppo il numero dei requisiti continui ad aumentare. E' però necessario che prima di iniziare la progettazione architetturale del prodotto la maggior parte dei requisiti sia analizzata e confermata. Requisiti che emergessero in fasi più avanzate di sviluppo comporterebbero ore di lavoro straordinarie per definire ed integrare il nuovo requisito nel sistema. Per assicurare una miglior completezza ed un lavoro di maggior qualità, più componenti hanno lavorato contemporaneamente all' analisi dei requisiti nella prima fase del progetto.
 		\subsubsection{Errore in fase di studio di fattibilità}
 		Rappresenta la possibilità che lo studio di fattibilità contenga considerazioni particolarmente errate.
 		\begin{itemize}
 		\item \textbf{Probabilità:} 1
 		\item \textbf{Impatto:} A
+		\item \textbf{Controllo:}
+		\item \textbf{Gestione:}
+		\item \textbf{Analisi dinamica:}
+			\begin{itemize}
+				\item\textbf{Analisi Iniziale:} il rischio non si è presentato.
+			\end{itemize}
 		\end{itemize}
 		Eventuali mancanze non preventivate nello studio di fattibilità vanno immediatamente documentate e risolte il prima possibile.
 		\subsubsection{Errore di stima risorse/costi}
-		Rappresenta la possibilità che, nella fase di analisi iniziale, la pianificazione sia basata su di un'errata valutazione delle risorse necessarie e dei costi correlati.
+		Rappresenta la possibilità che la pianificazione sia basata su di un'errata valutazione delle risorse necessarie e dei costi correlati.
 		\begin{itemize}
 		\item \textbf{Probabilità:} 2
 		\item \textbf{Impatto:} B
+		\item \textbf{Controllo:} è compito del Responsabile produrre per ogni periodo un consuntivo da confrontare col preventivo, analizzare le tendenze emergenti dal confronto e produrre un preventivo a finire riadattato. 
+		\item \textbf{Gestione:} a seconda dell'importanza dell'errore, è necessario un tempestivo aggiornamento della pianificazione e un'adatta redistribuzione delle ore di lavoro, con conseguente aggiustamento del preventivo. È necessario che la pianificazione venga attentamente controllata e validata per evitare tali complicazioni future.
+		\item \textbf{Analisi dinamica:}
+			\begin{itemize}
+				\item\textbf{Analisi Iniziale:} questo rischio si è verificato, ed è stato evidenziato dal primo consuntivo. L'impatto è stato mitigato proponendo una nuova pianificazione che coprisse le mancanze evidenziate.
+				\item\textbf{Progettazione:}
+			\end{itemize}
 		\end{itemize}
-		A seconda dell'importanza dell'errore, è necessario un tempestivo aggiornamento della pianificazione e un'adatta redistribuzione delle ore di lavoro, con conseguente aggiustamento del consuntivo. È necessario che la pianificazione venga più volte controllata e validata per evitare tali complicazioni future.
 	\subsection{Ritardi}
 		\subsubsection{Ritardo nel completamento di un'attività}
 		Rappresenta il rischio che un'attività importante non venga completata nella data prefissata, causando potenziali ritardi in altre attività dipendenti dalla stessa.
 		\begin{itemize}
-		\item \textbf{Probabilità:2}
+		\item \textbf{Probabilità:} 2
 		\item \textbf{Impatto:} B
+		\item \textbf{Controllo:} per riconoscere la presenza dei rischi sopracitati, in particolare per gestire eventuali ritardi, e valutarne la pericolosità, il Responsabile dovrà costantemente monitorare lo stato del cruscotto della piattaforma Trello\addglos per controllare che i ticket\addglos assegnati vengano completati entro i tempi specificati. In questo modo risulta immediato controllare lo stato di avanzamento del progetto ed attuare azioni correttive al sorgere di problemi e ritardi.
+		\begin{figure}[h!]
+		\begin{center}
+			\hspace{1cm}
+			\includegraphics[scale=0.35]{../Images/ticketing-example.png}
+			\caption{Esempio di cruscotto Trello}	
+		\end{center}
+		\end{figure}	
+		\item \textbf{Gestione:} nonostante non sia auspicabile è possibile che un evento del genere accada. È essenziale quindi che, attraverso un attento controllo dei tempi di progetto, il responsabile dell'attività comunichi prima della data di scadenza che  il task\addglos sta procedendo a rilento, chiedendo risorse aggiuntive per colmare il ritardo. Se il ritardo fosse incolmabile sarà necessario procedere ad una revisione della pianificazione che permetta di rispettare le scadenze.
+		\item \textbf{Analisi dinamica:}
+			\begin{itemize}
+				\item\textbf{Analisi Iniziale:} il rischio non si è presentato.
+				\item\textbf{Progettazione:}
+			\end{itemize}
 		\end{itemize}
-		Nonostante non sia auspicabile è possibile che un evento del genere accada. È essenziale quindi che, attraverso un attento controllo dei tempi di progetto, il responsabile dell'attività comunichi prima della data di scadenza che  il task\addglos sta procedendo a rilento, chiedendo risorse aggiuntive per colmare il ritardo. Se il ritardo fosse incolmabile sarà necessario procedere ad una revisione della pianificazione che permetta di rispettare le scadenze.
 		\subsubsection{Ritardata partecipazione ad una revisione}							Rappresenta il rischio che per un sommarsi dei problemi sopra elencati il gruppo non possa partecipare ad una revisione nelle date prefissate.
 		\begin{itemize}
 		\item \textbf{Probabilità:} 1
 		\item \textbf{Impatto:} C
+		\item \textbf{Controllo:} è compito del Responsabile controllare lo stato del progetto e attuare le adeguate contromisure come riportato nelle precedenti sezioni.
+		\item \textbf{Gestione:} tale rischio non è risolvibile, ma obbliga il gruppo a far slittare la propria pianificazione alla data di revisione successiva. Nel caso di un evento così impattante è necessario individuare esattamente i fattori che lo hanno causato e prendere tutte le contromisure necessarie in modo che non possa verificarsi nuovamente alla revisioni successive. Il gruppo \textbf{Team404} ha tutti gli interessi e le intenzioni a non permettere che tale rischio si avveri, imprescindibilmente dagli eventi.
+		\item \textbf{Analisi dinamica:}
+			\begin{itemize}
+				\item\textbf{Analisi Iniziale:} il rischio non si è presentato.
+				\item\textbf{Progettazione:}
+			\end{itemize}
 		\end{itemize}
-		Tale rischio non è risolvibile, ma obbliga il gruppo a far slittare la propria pianificazione alla data di revisione successiva. Nel caso di un evento così impattante è necessario individuare esattamente i fattori che lo hanno causato e prendere tutte le contromisure necessarie in modo che non possa verificarsi nuovamente alla revisioni successive. Il gruppo \textbf{Team404} ha tutti gli interessi e le intenzioni a non permettere che tale rischio si avveri, imprescindibilmente dagli eventi.
-		\subsection{Controllo dei rischi}
-		Per riconoscere la presenza dei rischi sopracitati, in particolare per gestire eventuali ritardi, e valutarne la pericolosità, il Responsabile dovrà costantemente monitorare lo stato del cruscotto della piattaforma Trello\addglos per controllare che i ticket\addglos assegnati vengano completati entro i tempi specificati. In questo modo risulta immediato controllare lo stato di avanzamento del progetto ed attuare azioni correttive al sorgere di problemi e ritardi.
-		\begin{figure}[h!]
-			\includegraphics[scale=0.4]{../Images/ticketing-example.png}
-			\caption{Esempio di cruscotto Trello}	
-		\end{figure}	
-		
 	\pagebreak	
 		
 	\newpage
