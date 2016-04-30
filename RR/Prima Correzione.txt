@@ -1,0 +1,24 @@
+Visto.
+
+Per avere già da soli una idea generale delle carenze tipiche dei documenti in ingresso alla RR, vi aiuterà, 
+prendere visione dei commenti ricevuti dai gruppi che hanno sostenuto la RR "regolare".
+
+Ciò detto, vi riporto di seguito qualche osservazione sulla vostra documentazione, nell'intesa che 
+la revisione formale avverrà solo in occasione della RR vera e propria.
+
+- Studio di Fattibilità: piuttosto superficiale.
+
+- Norme di Progetto: buona la struttura; contenuto insufficiente per profondità.
+
+- Piano di Progetto: evitate di includere documentazione che solo copia-incolla di informazione presente altrove 
+  (p.es. la specifica dei ruoli, la descrizione-sommario dei modelli di sviluppo).
+
+- Piano di Qualifica: come sopra. Ricordate che i piani trattano di strategie: molto di quanto dite 
+  in §4 sono premesse alle strategie e non strategie per se, ed è quindi materia per le norme. Fate inoltre attenzione
+  che quanto fissate negli obiettivi di qualità sia comprensibile al momento in cui lo dite: allo stato attuale, dite cose
+  in §2 che sono in parte spiegate in §4.
+
+- Glossario: discreto.
+
+Per l'Analisi dei Requisiti, formulate specifiche domande di chiarimento o di consiglio e rivolgetele al docente Cardin,
+evitandogli però di dover leggere l'intero documento.
