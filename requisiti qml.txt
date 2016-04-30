@@ -1,49 +1,52 @@
-1 qml Ë un linguaggio per la formattazione delle domande (funzionamento simile a wikipedia markup language)
-	1.1 una domanda Ë caratterizata da un testo e da delle risposte
+1 qml √® un linguaggio per la formattazione delle domande (funzionamento simile a wikipedia markup language) (alex dici che non √® verificabile, come si dovrebbe formulare per renderlo tale quindi?)
+	1.1 una domanda √® caratterizata da un testo, da delle risposte e da una categoria
 	1.2 una domanda deve avere (almeno) una risposta corretta
-	1.3 qml ha la possibilit‡ di gestire immagini all'interno di una domanda
+	1.3 qml ha la possibilit√† di gestire immagini all'interno di una domanda
 2 qml permette la definizione di varie tipologie di domande
 	2.1 definizione di domande vero/falso
-	2.2 domande risposta multipla
-		2.2.1 domande con pi˘ opzioni e una sola risposta
-		2.2.2 domande con pi˘ opzioni e pi˘ di una risposta
-	2.3 domande di associazione tra elementi di due insiemi
-		2.3.1 domande di associazione con uguale numero di corrispondenze singole
-		2.3.2 domande di associazione con risposte disturbatori (da inserire nel glossario)
-			2.3.2.1 disturbatori presenti nel primo gruppo
-			2.3.2.2 disturbatori presenti nel secondo gruppo
-	2.4 domande a completamento testuale
-		2.4.1 completamento con parole fornite dalla domanda
-		2.4.2 completamento con parole fornite dalla domanda + disturbatori
-	2.5 domanda timeline
-		2.5.1 senza disturbatori
-		2.5.2 con disturbatori
+	2.2 definizione di domande a risposta multipla
+		2.2.1 domande a risposta multipla con pi√π opzioni e una sola risposta corretta
+		2.2.2 domande a risposta multipla con pi√π opzioni e pi√π di una risposta corretta
+	2.3 definizione di quesiti di associazione tra elementi di due insiemi
+		2.3.1 quesiti di associazione tra insiemi con uguale numero di elementi
+		2.3.2 quesiti di associazione tra insiemi con elementi disturbatori (dare definizione precisa nel glossario)
+			//questa ulteriore classificazione secondo me pu√≤ essere omessa
+			//andrea diceva che secondo lui √® necessario che venga specificato, altri pareri?
+			2.3.2.1 quesiti di associazione con disturbatori presenti nel primo gruppo
+			2.3.2.2 quesiti di associazione con disturbatori presenti nel secondo gruppo
+	2.4 definizione di domande a completamento testuale
+		//questa suddivisone non riesco a descriverla in italiano, qualcuno riesce a riformularla meglio?
+		2.4.1 domande a completamento con parole (di esatto numero) fornite dalla domanda
+		2.4.2 domande a completamento con parole fornite dalla domanda ed elementi aggiuntivi (disturbatori)
+	2.5 definizione di domanda "timeline" (dare definizione precisa nel glossario)
+		2.5.1 definizione di domanda "timeline" senza elementi disturbatori
+		2.5.2 definizione di domanda "timeline" con elementi disturbatori
+	//il punto 2.6 non mi avete ancora detto se pensavate di realizzarlo o no
 	//2.6 domanda causa effetto (ordinamento di eventi correlati) : lista di cose da ordinare con un numeretto vicino
-3 (forse requisiti di qualit‡) qml ha una sintassi semplice e immediata
+//il punto 3 + i sottopunti vanno spostati nei requisiti di qualit√†?
+3 qml ha una sintassi semplice e immediata //so che non √® verificabile ma non saprei in che altro modo esprimerlo ¬Ø\_(„ÉÑ)_/¬Ø
 	3.1 l'utente usufruisce della sintassi qml solamente al momento della creazione di una nuova domanda
-	3.2 l'utente puÚ fare uso della sintassi qml solo se Ë autenticato (vedi requisito ... )
+	3.2 l'utente pu√≤ fare uso della sintassi qml solo se √® autenticato (vedi requisito ... )
 	3.3 l'input di testo qml avviene tramite form sul sito
-	3.4 Ë presente una spiegazione della sintassi all'interno del sito
-	// l'utente puÚ modificare una domanda gi‡ creata? decidere in base a 4.3 e poi correggere 3.1 se viene violato
-4 qml Ë memorizzato su un database
-	4.1 il database Ë mysql
+	3.4 √® presente una spiegazione della sintassi sia all'interno del sito che su manuale cartaceo fornito al committente
+	// l'utente pu√≤ modificare una domanda gi√† creata? decidere in base a 4.3 e poi correggere 3.1 se viene violato
+4 qml √® memorizzato su un database //n.b. quindi alla fine xml per cosa lo usiamo di preciso? 
+	4.1 il database √® PostGreSQL
 	4.2 scrittura e lettura dal database vengono regolate tramite nodejs
-	4.3 (decidere) memorizzato in formato testuale opppure boh
+	4.3 //DECIDERE memorizzato in formato testuale opppure boh
 5 requisiti implemetavi
-	5.1 l'utente puÚ submittare solo una domanda alla volta 
-	5.2 Ë presente un parser e un interprete
+	5.1 l'utente pu√≤ creare solo una domanda alla volta //quello che si intende alex √® che l'utente nel form dove crea la domanda ne pu√≤ creare solo una alla volta, se ne vuole creare di pi√π gli verr√† riproposto il form  (mi ha spiegato il motivo andrea anche se non mi √® ben chiaro ancora, ne discutiamo assieme quando ci vediamo)
+	5.2 √® presente un parser e un interprete
 		5.2.1 il parser verifica la correttezza sintattica dell'input sottoposto dall'utente
-			5.2.1.1 se l'input Ë corretto sintatticamente viene salvato nel database
-			5.2.1.2 se l'input Ë errato, viene fornita all'utente un messaggio d'errore esaustivo	
-		5.2.2 l'interprete elzabora il testo qml salvato nel database e lo converte in formato HTML
-	5.3 nel database ogni domanda Ë contraddistinta dalla tupla(ID, testo qml della domanda, categoria, autore/*, data_inserimento*/)
-		5.3.1 l'ID della domanda Ë il numero di inserimento della domanda che permetter‡ poi agli utenti autori di questionari di utilizzarla nello stesso
-		5.3.2 la categoria Ë unica e puÚ essere comune a pi˘ domande
+			//rileggendoli mi √® parso che forse i due seguenti sottorequisiti vanno troppo in dettaglio, meglio eliminarli (e magari descriverli in un caso d'uso)?
+			//5.2.1.1 se l'input √® corretto sintatticamente viene salvato nel database
+			//5.2.1.2 se l'input √® errato, viene fornita all'utente un messaggio d'errore esplicativo	
+		5.2.2 l'interprete elzabora il testo qml salvato nel database e lo converte in formato HTML //n.b. davide non va bene questo requisito per dire che "QML pu√≤ essere tradotto in HTML"? come lo riformuleresti? 
+	5.3 nel database ogni domanda √® contraddistinta dalla tupla(ID, testo qml della domanda, categoria, autore/*, data_inserimento*/)
+		5.3.1 l'ID della domanda √® il numero di inserimento della domanda che permetter√† poi agli utenti autori di questionari di utilizzarla nello stesso
+		5.3.2 la categoria √® unica e pu√≤ essere comune a pi√π domande
 			5.3.2.1 le categorie verranno fornite dal sistema
 		//5.3.3 requisito data eventuale
 
 // qml NON specifica la categoria delle domande
 // qml NON definisce questionari ma solo singole domande (che poi in qualche modo verranno raggruppate in quetionari)
-
-
-	
