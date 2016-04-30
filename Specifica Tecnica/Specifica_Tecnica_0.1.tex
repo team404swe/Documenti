@@ -1,0 +1,103 @@
+\documentclass[a4paper,11pt]{article}
+	%INCLUDE DEL TEMPLATE
+	\input{../../template.tex}
+
+	\title{\textbf{{\fontsize{8mm}{5mm}\selectfont QUIZZIPEDIA}}}
+	\date{}
+	\author{}	
+
+
+\begin{document}
+	%\title{Piano di Qualifica} comment by Martin
+	%\author{Andrea Multineddu}
+	\maketitle
+	% da qui : add by Martin
+	\thispagestyle{empty}
+	\begin{center}	
+	\includegraphics{../team_not_found.jpg}\\
+	\fontsize{5mm}{3mm}\url{team404swe@gmail.com}\\
+	
+	\vspace{50mm}
+	\textbf{Specifica Tecnica 0.1}
+	%\'end{center}
+	%\'begin{center}
+	%\vspace{4mm}
+	\end{center}
+	\introtab{Specifica Tecnica}			%1 nome documento
+			{0.1} 							%2 versione
+			{Esterno} 						%3 Uso
+			{12 aprile 2016} 				%4 Data cre
+			{\today} 						%5 Data mod
+			{Marco Crivellaro}	%6 Redazione
+			{Alessandro Beccaro } 			%7 Verifica
+			{Martin } 				%8 Approvazione
+	%fino a qui : add by Martin
+	\newpage
+	\thispagestyle{empty}
+	\null  % add by Martin
+
+	%\null	comment by Martin
+	\newpage
+	\newpage
+	\fancyhead[R]{REGISTRO DELLE MODIFICHE}
+	\fancyfoot[R]{\thepage}
+	
+	\hspace{30 mm}
+	\section*{Registro delle modifiche}
+	
+	\beginregistro
+	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm} \textbf{Descrizione}}
+	\rigaregistro{0.1}{Marco Crivellaro (Progettista)}{12/04/2016}{Creazione documento.}
+	
+			
+	\fineregistro
+	\newpage
+	\fancyhead[R]{\leftmark} % add by Martin 
+	\tableofcontents
+	\pagenumbering{Roman}
+
+	%\newpage %Comment by Martin
+	\listoffigures	
+	
+	\newpage
+	\pagenumbering{arabic}
+	
+	\section*{Sommario}
+	
+	
+	\newpage
+	\section{Introduzione}
+	\subsection{Scopo del documento}
+	
+	
+	\subsection{Scopo del prodotto}
+	Il progetto \textbf{Quizzipedia} ha come obiettivo lo sviluppo di un sistema software basato su tecnologie Web (Javascript\addglos, Node.js\addglos, HTML5\addglos, CSS3\addglos) che permetta la creazione, gestione e fruizione di questionari. Il sistema dovrà quindi poter archiviare i questionari suddivisi per argomento, le cui domande dovranno essere raccolte attraverso uno specifico linguaggio di markup (Quiz Markup Language) d'ora in poi denominato QML\addglos. In un caso d'uso a titolo esemplificativo, un "esaminatore" dovrà poter costruire il proprio questionario scegliendo tra le domande archiviate, ed il questionario così composto sarà presentato e fruibile all' "esaminando", traducendo l'oggetto QML in una pagina HTML\addglos, tramite un'apposita interfaccia web. Il sistema presentato dovrà inoltre poter proporre questionari preconfezionati e valutare le risposte fornite dall'utente finale.
+	\\
+	Per un'analisi più precisa ed approfondita del progetto si rimanda al documento\\ "\textit{analisi\_dei\_requisiti\_1.0.pdf}".
+	\subsection{Glossario}
+	Viene allegato un glossario nel file ``\textit{glossario\_1.0.pdf}'' nel quale viene data una definizione a tutti i termini che in questo documento appaiono con il simbolo '\addglos' a pedice.
+	\newpage
+	\subsection{Riferimenti}
+		\subsubsection{Normativi}
+		\begin{itemize}
+			\item Capitolato d'appalto Quizzipedia:\\
+			\url{http://www.math.unipd.it/~tullio/IS-1/2015/Progetto/C5.pdf}
+			\item Norme di Progetto: "\textit{norme\_di\_progetto\_1.0.pdf}"
+		\end{itemize}
+		\subsubsection{Informativi}
+		\begin{itemize}
+			\item Corso di Ingegneria del Software anno 2015/2016:\\
+			\url{http://www.math.unipd.it/~tullio/IS-1/2015/}
+			\item Regole del progetto didattico:\\
+			\url{http://www.math.unipd.it/~tullio/IS-1/2015/Dispense/PD01.pdf}
+			\url{http://www.math.unipd.it/~tullio/IS-1/2015/Progetto/}\\
+			
+	\pagebreak
+	
+\newpage
+
+
+
+
+
+\end{document}
