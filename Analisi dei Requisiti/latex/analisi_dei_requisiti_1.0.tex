@@ -657,7 +657,7 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \\
 \textbf{Postcondizioni:} l’utente ha creato una nuova domanda.\\
 \\
-\textbf{Scenario:} l’utente inserisce i dati della domanda (UC 7.1, UC 7.2) e li invia al sistema che memorizza la nuova domanda (UC 7.3). Se all'invio alcuni dati essenziali mancano viene visualizzato un messaggio di errore (UC 7.4).\\
+\textbf{Scenario:} l’utente inserisce i dati della domanda (UC 7.1, UC 7.2) e li invia al sistema che memorizza la nuova domanda (UC 7.3). Se all'invio alcuni dati essenziali mancano o il codice QML inserito non è valido viene visualizzato un messaggio di errore (UC 7.4, UC 7.5).\\
 
 
 \subsubsection{UC 7.1 - Inserimento categorie domanda}
@@ -701,6 +701,7 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \textbf{Extension points:} 
 \begin{itemize}
 	\item \textbf{Dati domanda mancanti:} almeno un dato richiesto non è stato inserito dall'utente, viene visualizzato un messaggio di errore (UC 7.4)
+	\item \textbf{QML non valido:} il codice QML inserito dall'utente non rispetta la sintassi del QML, viene visualizzato un messaggio di errore (UC 7.5)
 \end{itemize}
 
 
@@ -721,7 +722,7 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \\
 \textbf{Postcondizioni:} l’utente ha creato un nuovo questionario.\\
 \\
-\textbf{Scenario:} l’utente inserisce i dati del questionario (UC 8.1, UC 8.2, UC 8.3) e li invia al sistema che memorizza il nuovo questionario (UC 8.4). Se all'invio il questionario risulta vuoto viene visualizzato un messaggio di errore (UC 8.5). Se all'invio alcuni dati essenziali mancano viene visualizzato un messaggio di errore (UC 8.6).\\
+\textbf{Scenario:} l’utente inserisce i dati del questionario (UC 8.1, UC 8.2, UC 8.3) e li invia al sistema che memorizza il nuovo questionario (UC 8.4). Se all'invio il questionario risulta vuoto, alcuni dati essenziali mancano o il codice QML inserito non è valido viene visualizzato un messaggio di errore (UC 8.5, UC 8.6, UC 8.7).\\
 
 
 \subsubsection{UC 8.1 - Inserimento nome questionario}
@@ -779,6 +780,7 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \begin{itemize}
 	\item \textbf{Questionario vuoto:} l'utente non ha inserito nessuna domanda nel questionario, viene visualizzato un messaggio di errore (UC 8.5)
 	\item \textbf{Dati richiesti mancanti:} il nome e/o la categoria del questionario non sono stati inseriti dall'utente, viene visualizzato un messaggio di errore (UC 8.6)
+	\item \textbf{QML non valido:} il codice QML inserito dall'utente non rispetta la sintassi del QML, viene visualizzato un messaggio di errore (UC 8.7)
 \end{itemize}
 
 
