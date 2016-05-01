@@ -1,0 +1,88 @@
+\documentclass[a4paper,11pt]{article}
+\input{template.tex}
+
+\graphicspath{ {./Images/} }
+\title{\textbf{{\fontsize{10mm}{6mm}\selectfont QUIZZIPEDIA}}}
+
+\makeindex
+
+\begin{document}
+	\maketitle
+	
+	\begin{center}
+
+	\includegraphics{../../team_not_found.jpg}\\	
+	\fontsize{5mm}{3mm}\url{team404swe@gmail.com}\\
+	\vspace{40mm}
+	\textbf{ Verbale Esterno 22/04/2016 }
+	\end{center}
+	\thispagestyle{empty}	% per togliere il numero in fondo pagina
+	\introtab{Verbale Esterno 22/04/2016}			%1 nome documento
+			{1.0} 							%2 versione
+			{Esterno} 						%3 Uso
+			{25 Aprile 2016} 				%4 Data cre
+			{\today} 						%5 Data mod
+			{Davide Bortot}					%6 Redazione1
+			%{} 							%7 Redazione2
+			{Andrea Multineddu} 			%8 Verifica
+			{Davide Bortot} 				%9 Approvazione
+	
+	\newpage
+	\section{Sommario}
+	Questo documento ha lo scopo di formalizzare l'incontro tra i membri del gruppo \textbf{Team404} e il proponente \textbf{Zucchetti S.p.A.} avvenuto il 22/04/2016. Obiettivo dell'incontro era dissipare alcuni dubbi del gruppo riguardo la definizione del linguaggio QML, i tipi di domande che "Quizzipedia" dovrà trattare e il server web da utilizzare.
+	\subsection{Generalità}
+	\begin{itemize}
+	\item\textbf{Data}: 22 Aprile 2016.
+	\item\textbf{Luogo}: Padova, Via Giovanni Cittadella 7, Sede dedicata alle attività di ricerca e sviluppo per le soluzioni e i servizi Zucchetti.
+	\item\textbf{Ora d'inizio}: 09:30.
+	\item\textbf{Durata}: 110 minuti.
+	\item\textbf{Partecipanti}:
+	\begin{itemize}
+		\item\textbf{Interni}: Davide Bortot, Andrea Multineddu, Marco Crivellaro e Luca Alessio.
+		\item\textbf{Esterni}: Dott. Gregorio Piccoli.
+	\end{itemize}
+	\end{itemize}
+
+	\newpage
+	\section{Argomenti discussi}
+		La prima parte dell'incontro si è svolta con una sessione di Q\&A\addglos riassunta di seguito:
+		\begin{itemize}
+			\item\textbf{Q}: QML è da intendere come un linguaggio di markup simile all'XML, quindi un insieme di tag nel quale racchiudere gli elementi della domanda per meglio strutturarla?
+			\newline
+			
+			\textbf{A}: Non proprio. QML è pensato per essere un linguaggio di formattazione, un insieme di elementi di markup di facile interpretazione e scrittura che permetta la definizione di domande di svariati generi. Un linguaggio come l'XML risulta troppo verboso per tale scopo.
+			\item\textbf{Q}: Non sarebbe più facile fornire un'interfaccia grafica per la creazione delle domande?
+			\newline
+			
+			\textbf{A}: E' un opzione. Bisogna valutare però che ogni diverso tipo di domanda avrà bisogno di un'interfaccia di creazione apposita. Lo scopo del QML è proprio di fornire un linguaggio di formattazione sufficientemente espressivo (ma al contempo semplice) da permettere la scrittura di svariati tipi di domande tramite semplice input testuale.
+			\item\textbf{Q}: Quanto complicato dev'essere QML?
+			\newline
+			
+			\textbf{A}: Dev'essere sufficientemente semplice e intuitivo da poter essere utilizzato da persone con scarse competenze nell'utilizzo di linguaggi di questo tipo.
+			\item\textbf{Q}: Quizzipedia dovrà poter trattare domande a risposta aperta?
+			\newline
+			
+			\textbf{A}: Opzionalmente. Un caso abbastanza semplice e trattabile potrebbe essere una risposta aperta di due/tre parole.
+			\item\textbf{Q}: Per quanto riguarda il server che utilizzeremo, come dobbiamo regolarci?
+			\newline
+			
+			\textbf{A}: Fate come preferite. Potete utilizzare uno qualsiasi dei servizi free di hosting online.
+		\end{itemize}
+		La discussione è poi continuata vertendo sulle aspettative del proponente riguardo al prodotto. E' emerso che il proponente ha particolare interesse nei seguenti punti:
+		\begin{itemize}
+			\item L'ideazione e definizione di nuovi tipi di domande.
+			\item L'esplorazione di tecniche per l'analisi statistica, valutare la difficoltà e la correttezza delle domande.
+			\item Sviluppare tecniche che impediscano all'utente di barare durante la compilazione del questionario.
+			\item Produrre un grafo della conoscenza a partire dal database delle domande, per poterle meglio somministrare agli utenti.
+		\end{itemize}
+		\newpage
+		
+		\section{Conclusioni}
+		A seguito di quanto appreso durante l'incontro il gruppo ha deciso di attuare i seguenti cambiamenti:
+		\begin{itemize}
+			\item Rivedere profondamente i requisiti riguardanti il linguaggio QML analizzati in passato.
+			\item Rivedere la pianificazione in modo da includere più ore per l'analisi e correzione dei requisiti.
+			\item Proporre nuovi tipi di domande (opzionali). Una prima proposta valida riguarda domande di tipo "Timeline", cioè l'inserimento in ordine cronologico esatto di una serie di eventi (si immagini di dover mettere in ordine gli avvenimenti della Grande Guerra).
+		\end{itemize}
+		Abbiamo inoltre iniziato a cercare un servizio di hosting web che soddisfi le nostre esigenze.
+\end{document}
