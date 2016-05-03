@@ -43,5 +43,6 @@ requisiti implemetavi di qml
 	5.4 l'utente usufruisce della sintassi qml solamente al momento della creazione di una nuova domanda
 	5.5 l'utente può fare uso della sintassi qml solo se è autenticato (vedi requisito ... )
 	5.6 l'input di testo qml avviene tramite form sul sito
+	5.7 l'utente ha la possibilita' di modificare le domande che ha precedentemente creato
 // qml NON specifica la categoria delle domande
 // qml NON definisce questionari ma solo singole domande (che poi in qualche modo verranno raggruppate in questionari)
