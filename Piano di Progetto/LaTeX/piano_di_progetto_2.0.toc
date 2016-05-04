@@ -49,8 +49,8 @@
 \contentsline {subsection}{\numberline {8.1}Fase di Analisi}{24}{subsection.8.1}
 \contentsline {subsubsection}{\numberline {8.1.1}Analisi di periodo}{24}{subsubsection.8.1.1}
 \contentsline {subsubsection}{\numberline {8.1.2}Preventivo a finire}{25}{subsubsection.8.1.2}
-\contentsline {subsubsubsection}{\numberline {8.1.2.1}Nuova pianificazione della Progettazione}{25}{subsubsubsection.8.1.2.1}
-\contentsline {subsubsubsection}{\numberline {8.1.2.2}Nuova pianificazione della Codifica}{26}{subsubsubsection.8.1.2.2}
+\contentsline {subsubsubsection}{\numberline {8.1.2.1}Progettazione Architetturale}{25}{subsubsubsection.8.1.2.1}
+\contentsline {subsubsubsection}{\numberline {8.1.2.2}Progettazione di Dettaglio e Codifica}{27}{subsubsubsection.8.1.2.2}
 \contentsline {subsubsubsection}{\numberline {8.1.2.3}Prospetto Orario Aggiornato}{28}{subsubsubsection.8.1.2.3}
-\contentsline {subsubsubsection}{\numberline {8.1.2.4}Preventivo}{28}{subsubsubsection.8.1.2.4}
-\contentsline {subsection}{\numberline {8.2}Fase di Progettazione}{29}{subsection.8.2}
+\contentsline {subsubsubsection}{\numberline {8.1.2.4}Preventivo}{29}{subsubsubsection.8.1.2.4}
+\contentsline {subsection}{\numberline {8.2}Fase di Progettazione Architetturale}{30}{subsection.8.2}

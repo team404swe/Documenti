@@ -9,6 +9,7 @@
 \usepackage{eurosym}	%Inserimento del simbolo €
 \usepackage{geometry}	%Spostamento di elementi nella pagina
 \usepackage{color}		%Cambiare colore al font
+\usepackage{fancyref}	%riferimenti più strutturati
 \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
 
 
@@ -49,11 +50,12 @@
 		\begin{longtable}{{|p{0.10\textwidth}|p{0.15\textwidth}|p{0.15\textwidth}|p{0.50\textwidth}|}} 
 	 		\hline			
 			\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}						{\hspace{5 mm} \textbf{Descrizione}}
-			\rigaregistro{1.0.5}{M. Mbouenda \newline(Responsabile)}{01/04/2016}{Inserita corretta nomenclatura del verbale in §8.1.1. Aggiornata versione dei documenti di riferimento in §2.2 e §2.3}
-			\rigaregistro{1.0.4}{M. Mbouenda \newline(Responsabile)}{29/04/2016}{Definite le sezioni §8.1.2.2, §8.1.2.3 e la sezione "Preventivo" §8.1.2.4 con le relative tabelle.}
-			\rigaregistro{1.0.3}{M. Mbouenda \newline(Responsabile)}{26/04/2016}{Definita la sezione §8.1.1, prima stesura di §8.1.2, generate le tabelle e il grafico di §8.1.2.1}	
-			\rigaregistro{1.0.2}{M. Mbouenda \newline(Responsabile)}{24/04/2016}{Introdotta la parte di analisi dinamica dei rischi. Modificato l'impianto del capitolo §5, ora ogni rischio comprende anche gli elementi: 'Controllo','Gestione' e 'Analisi Dinamica'. Modificati di conseguenza l'introduzione di "Analisi dei rischi" e la specifica di ogni rischio (per ora comprendendo solo il periodo "Analisi iniziale" in 'Analisi dinamica'). Integrati i contenuti di §5.5 in  §5.4.1.}
-			\rigaregistro{1.0.1}{M. Mbouenda \newline(Responsabile)}{23/04/2016}{Prima stesura del capitolo §8, "Consuntivi". Definita la sezione §8.1, generato grafico e tabella.}
+			\rigaregistro{1.0.6}{D. Bortot \newline(Responsabile)}{02/04/2016}{Aggiunte considerazioni finali in §8.1.2.4}
+			\rigaregistro{1.0.5}{D. Bortot \newline(Responsabile)}{01/04/2016}{Inserita corretta nomenclatura del verbale in §8.1.1. Aggiornata versione dei documenti di riferimento in §2.2 e §2.3}
+			\rigaregistro{1.0.4}{D. Bortot \newline(Responsabile)}{29/04/2016}{Definite le sezioni §8.1.2.2, §8.1.2.3 e la sezione "Preventivo" §8.1.2.4 con le relative tabelle.}
+			\rigaregistro{1.0.3}{D. Bortot \newline(Responsabile)}{26/04/2016}{Definita la sezione §8.1.1, prima stesura di §8.1.2, generate le tabelle e il grafico di §8.1.2.1}	
+			\rigaregistro{1.0.2}{D. Bortot \newline(Responsabile)}{24/04/2016}{Introdotta la parte di analisi dinamica dei rischi. Modificato l'impianto del capitolo §5, ora ogni rischio comprende anche gli elementi: 'Controllo','Gestione' e 'Analisi Dinamica'. Modificati di conseguenza l'introduzione di "Analisi dei rischi" e la specifica di ogni rischio (per ora comprendendo solo il periodo "Analisi iniziale" in 'Analisi dinamica'). Integrati i contenuti di §5.5 in  §5.4.1.}
+			\rigaregistro{1.0.1}{D. Bortot \newline(Responsabile)}{23/04/2016}{Prima stesura del capitolo §8, "Consuntivi". Definita la sezione §8.1, generato grafico e tabella.}
 			\rigaregistro{1.0}{D. Bortot \newline(Responsabile)}{06/04/2016}{Approvazione documento.}
 			\rigaregistro{0.4}{A. Multineddu \newline(Verificatore)}{05/04/2016}{Revisione sezioni modificate.}
 			\rigaregistro{0.3.2}{D. Bortot \newline(Responsabile)}{04/04/2016}{Aggiunta la scelta "RP-max" alla sezione 6.2.3. Aggiunte valutazioni sul costo dell'analisi iniziale in 7.2. Aggiunta la sezione 5.5 "Controllo dei rischi" e la Figura 1.}
@@ -360,7 +362,7 @@ Altri modelli possibili sono stati scartati per le seguenti motivazioni:
 		\item \textbf{Analisi dinamica:}
 			\begin{itemize}
 				\item\textbf{Analisi Iniziale:} il rischio non si è presentato.
-				\item\textbf{Progettazione:}
+				\item\textbf{Progettazione:} il ritardo causato dalla necessità di rivedere i requisiti ha di conseguenza fatto slittare l'inizio delle attività proprie della progettazione, quali la stesura della Specifica Tecnica e Definizione di Prodotto. Essendo il ritardo troppo ampio per partecipare alla RP-max, per mitigarne gli effetti si è deciso di rivedere la pianificazione, come descritto nella \underline{sezione~\ref{Preventivo a finire}} dei Consuntivi, in modo da partecipare alla revisione allo stato RP-min, concentrando quindi l'impegno nella Progettazione Architetturale.
 			\end{itemize}
 		\end{itemize}
 		\subsubsection{Ritardata partecipazione ad una revisione}							Rappresenta il rischio che per un sommarsi dei problemi sopra elencati il gruppo non possa partecipare ad una revisione nelle date prefissate.
@@ -775,7 +777,7 @@ La pianificazione deve inoltre assicurare un'equa distribuzione del carico di la
 			Amministratore 	& 500 	& 460	& -40	\\
 			Verificatore 	& 525 	& 630	& +105	\\
 			\midrule
-			\textbf{Totale} & \textbf{3055} & \textbf{2960}	& \textbf{-95}
+			\textbf{Totale} & \textbf{3055 \euro} & \textbf{2960 \euro}	& \textbf{-95 \euro}
 		\end{tabular}
 		\end{center}
 	\caption{Consuntivo Costi Analisi}
@@ -787,10 +789,11 @@ La pianificazione deve inoltre assicurare un'equa distribuzione del carico di la
 	Dal confronto tra consuntivo e preventivo risulta in modo evidente una sottostima delle ore dedicate al ruolo di verificatore e una sovrastima delle ore dedicate agli analisti; i due errori di stima hanno di fatto pareggiato il costo consuntivo, che non si discosta di molto da quanto preventivato. Durante questo periodo il gruppo ha lavorato con diligenza rispettando i tempi di consegna; è degno di nota che l'assegnazione di specifici task corredati da deadline adeguate ha impatto particolarmente positivo sulla produttività del gruppo. \newline
 	Il minor numero di ore utilizzate effettivamente per il ruolo di "Analista" potrebbe far pensare che l'analisi dei requisiti prodotta fosse sufficientemente corposa. Le correzioni successive alla Revisione dei Requisiti e l'incontro col proponente riportato nel verbale \emph{"Verbale\_Esterno-22-04-2016"} hanno dimostrato invece che l'attività di analisi e categorizzazione dei requisiti necessiterà di ulteriore impegno; a tal riguardo sono state applicate le correzioni riportate nel preventivo a finire.
 	\subsubsection{Preventivo a finire}
+	\label{Preventivo a finire}
 	La sottostima delle ore di verifica ha portato a rivalutare la pianificazione presentata in sede di Revisione dei Requisiti. In particolare sono state ripartite le ore di verifica delle fasi di Progettazione e Codifica in favore di una distribuzione più equa che assesta l'impegno della verifica a circa un terzo dell'impegno totale per ogni periodo. La sovrastima delle ore di analisi, unita alle considerazioni della sezione precedente, ha portato ad un ulteriore rivisitazione della pianificazione che comprendesse più ore per il ruolo di "Analista" durante i medesimi periodi.
-	Viene di seguito presentata la pianificazione rivisitata per i periodi soggetti e il preventivo a finire calcolato sulla nuova pianificazione, dove col colore rosso vengono evidenziati i cambiamenti tra le due versioni. 
+	Viene di seguito presentata la pianificazione rivisitata per i periodi soggetti e il preventivo a finire calcolato sulla nuova pianificazione, dove col colore rosso vengono evidenziati i cambiamenti tra le due versioni. La nuova pianificazione tiene anche conto dell'analisi dinamica dei rischi dalla fase di Analisi iniziale fino ai primi giorni del periodo di Progettazione, che ha portato a rivalutare la scelta di partecipare alla RP-max. Il gruppo parteciperà alla RP-min, quindi le attività della progettazione verranno suddivise in due: la Progettazione Architetturale e la Progettazione di Dettaglio; la seconda andrà ad aggiungersi al periodo che nel preventivo precedente veniva denominato "Codifica".
 	
-	\subsubsubsection{Nuova pianificazione della Progettazione}	
+	\subsubsubsection{Progettazione Architetturale}	
 	\begin{table}[h!]			
 		\begin{center}
 			\begin{tabular}{l c c}
@@ -805,7 +808,7 @@ La pianificazione deve inoltre assicurare un'equa distribuzione del carico di la
 			\midrule
 			\end{tabular}
 		\end{center}
-		\caption{Ruoli Progettazione v2}
+		\caption{Ruoli Progettazione Architetturale}
 		\end{table}
 
 		\begin{table}[h!]			
@@ -813,49 +816,49 @@ La pianificazione deve inoltre assicurare un'equa distribuzione del carico di la
 			\begin{tabular}{l l l l}
 			\textbf{Componente} & \textbf{Ore Ruolo I} & \textbf{Ore Ruolo II} & \textbf{Totale Ore}\\
 			\midrule
-			Davide Bortot & 10/18 & 7\textcolor{red}{(+2)}/13\textcolor{red}{(-2)} & 48\\
-			Martin Vadice Mbouenda & 7\textcolor{red}{(+2)}/15\textcolor{red}{(+1)} & 5/17\textcolor{red}{(-1)} & 44\textcolor{red}{(+2)}\\
-			Marco Crivellaro & 7\textcolor{red}{(+2)}/13\textcolor{red}{(-2)} & 20 & 40 \\
-			Alex Beccaro & 20 & 7\textcolor{red}{(+2)}/13\textcolor{red}{(-2)} & 40\\
-			Luca Alessio & 18/5 & 6\textcolor{red}{(+1)}/13\textcolor{red}{(-2)} & 42\textcolor{red}{(-1)}\\
-			Andrea Multineddu & 7\textcolor{red}{(+2)}/13\textcolor{red}{(-2)} & 18/10 & 48\\
+			Davide Bortot & 10/12\textcolor{red}{(-6)} & 7\textcolor{red}{(+2)}/10\textcolor{red}{(-5)} & 39\textcolor{red}{(-9)}\\
+			Martin Vadice Mbouenda & 7\textcolor{red}{(+2)}/14 & 5/11\textcolor{red}{(-7)} & 37\textcolor{red}{(-5)}\\
+			Marco Crivellaro & 7\textcolor{red}{(+2)}/13\textcolor{red}{(-2)} & 14\textcolor{red}{(-6)} & 34\textcolor{red}{(-6)}\\
+			Alex Beccaro & 14\textcolor{red}{(-6)} & 7\textcolor{red}{(+2)}/13\textcolor{red}{(-2)} & 34\textcolor{red}{(-6)}\\
+			Luca Alessio & 12\textcolor{red}{(-6)}/5 & 6\textcolor{red}{(+1)}/11\textcolor{red}{(-4)} & 34\textcolor{red}{(-9)}\\
+			Andrea Multineddu & 7\textcolor{red}{(+2)}/13\textcolor{red}{(-2)} & 12\textcolor{red}{(-6)}/10 & 42\textcolor{red}{(-6)}\\
 			\midrule
-			\textbf{Ore medie per persona} & & & \textbf{43,3}\\
+			\textbf{Ore medie per persona} & & & \textbf{36,6}\\
 			\end{tabular}
 		\end{center}
-		\caption{Ore/persona Progettazione v2}
+		\caption{Ore/persona Progettazione Architetturale}
 		\end{table}
 		\begin{table}[h!]			
 		\begin{center}
 			\begin{tabular}{l l l}
 			\textbf{Ruolo} & \textbf{Ore Totali} & \textbf{Costi} \\
 			\midrule
-			Progettista & 111\textcolor{red}{(-1)} & 2442\textcolor{red}{(-22)}\\
-			Verificatore & 80\textcolor{red}{(-9)} & 1200\textcolor{red}{(-135)}\\
+			Progettista & 75\textcolor{red}{(-37)} & 1650\textcolor{red}{(-814)}\\
+			Verificatore & 74\textcolor{red}{(-15)} & 1110\textcolor{red}{(-225)}\\
 			Analista & 41\textcolor{red}{(+11)} & 1025\textcolor{red}{(+275)}\\
 			Amministratore & 15 & 300\\
 			Responsabile & 15 & 450\\
 			\midrule
-			\textbf{Totale} & \textbf{262}\textcolor{red}{(+1)} & \textbf{5417 \euro}\textcolor{red}{(+118\euro)}\\
+			\textbf{Totale} & \textbf{220}\textcolor{red}{(-41)} & \textbf{4535 \euro}\textcolor{red}{(-764\euro)}\\
 			\end{tabular}
 		\end{center}
-		\caption{Ore e Costi Progettazione v2}
+		\caption{Ore e Costi Progettazione Architetturale}
 		\end{table}
 		\begin{figure}[h!]
 		    \centering
 			\includegraphics[scale=0.7]{../Images/chart-Confronto_Pianificazioni1vs2_Progettazione.png}
-			\caption{Confronto Ore Pianificazione v1 e Pianificazione v2 per la progettazione}
+			\caption{Confronto Ore Pianificazione v1 e Pianificazione v2 per la Progettazione}
 		\end{figure}	
-		\newpage
+		\clearpage
 		
-		\subsubsubsection{Nuova pianificazione della Codifica}
+		\subsubsubsection{Progettazione di Dettaglio e Codifica}
 		\begin{table}[h!]			
 		\begin{center}
 			\begin{tabular}{l c c}
 			\textbf{Componente} & \textbf{Ruolo I} & \textbf{Ruolo II} \\
 			\midrule
 			Davide Bortot & Progettista/Ver & Programmatore\\
-			Martin Vadice Mbouenda & Programmatore & \textcolor{red}{Analista}/Ver\\
+			Martin Vadice Mbouenda & Programm/\textcolor{red}{Analista} & \textcolor{red}{Progettista}/Ver\\
 			Marco Crivellaro & Resp/Programm & Verificatore/Amm\\
 			Alex Beccaro & Verificatore/Amm & Resp/Programm\\
 			Luca Alessio & Programm/\textcolor{red}{Analista} & Progettista/Ver\\
@@ -863,7 +866,7 @@ La pianificazione deve inoltre assicurare un'equa distribuzione del carico di la
 			\midrule
 			\end{tabular}
 		\end{center}
-		\caption{Ruoli Codifica v2}
+		\caption{Ruoli Progettazione di Dettaglio e Codifica}
 		\end{table}
 		
 		\begin{table}[h!]			
@@ -871,60 +874,61 @@ La pianificazione deve inoltre assicurare un'equa distribuzione del carico di la
 			\begin{tabular}{l l l l}
 			\textbf{Componente} & \textbf{Ore Ruolo I} & \textbf{Ore Ruolo II} & \textbf{Totale Ore}\\
 			\midrule
-			Davide Bortot & 5/12\textcolor{red}{(+2)} & 19\textcolor{red}{(-1)} & 36\textcolor{red}{(+1)}\\
-			Martin Vadice Mbouenda & 17\textcolor{red}{(-1)} & 5\textcolor{red}{(+5)}/11\textcolor{red}{(+1)} & 33\\
-			Marco Crivellaro & 10/17\textcolor{red}{(-1)} & 12\textcolor{red}{(+2)}/5 & 44\textcolor{red}{(+1)} \\
-			Alex Beccaro & 12\textcolor{red}{(+2)}/10 & 5/19\textcolor{red}{(-1)} & 46\textcolor{red}{(+1)}\\
-			Luca Alessio & 15\textcolor{red}{(-5)}/5\textcolor{red}{(+5)} & 10/12\textcolor{red}{(+2)} & 42\textcolor{red}{(+2)}\\
-			Andrea Multineddu & 5/13\textcolor{red}{(+3)} & 20\textcolor{red}{(-2)} & 38\textcolor{red}{(+1)}\\
+			Davide Bortot & 11\textcolor{red}{(+6)}/16\textcolor{red}{(+6)} & 18\textcolor{red}{(-2)} & 45\textcolor{red}{(+10)}\\
+			Martin Vadice Mbouenda & 15\textcolor{red}{(-3)}/6\textcolor{red}{(+6)} & 6\textcolor{red}{(+1)}/13\textcolor{red}{(+3)} & 40\textcolor{red}{(+7)}\\
+			Marco Crivellaro & 10/17\textcolor{red}{(-1)} & 18\textcolor{red}{(+8)}/5 & 50\textcolor{red}{(+7)} \\
+			Alex Beccaro & 16\textcolor{red}{(+6)}/10 & 5/21\textcolor{red}{(+1)} & 52\textcolor{red}{(+7)}\\
+			Luca Alessio & 15\textcolor{red}{(-5)}/6\textcolor{red}{(+6)} & 16\textcolor{red}{(+6)}/13\textcolor{red}{(+3)} & 50\textcolor{red}{(+10)}\\
+			Andrea Multineddu & 11\textcolor{red}{(+6)}/15\textcolor{red}{(+5)} & 18\textcolor{red}{(-4)} & 44\textcolor{red}{(+7)}\\
 			\midrule
-			\textbf{Ore medie per persona} & & & \textbf{39,8}\\
+			\textbf{Ore medie per persona} & & & \textbf{46,8}\\
 			\end{tabular}
 		\end{center}
-		\caption{Ore/persona Codifica v2}
+		\caption{Ore/persona Progettazione di Dettaglio e Codifica}
 		\end{table}
 		\begin{table}[h!]			
 		\begin{center}
 			\begin{tabular}{l l l}
 			\textbf{Ruolo} & \textbf{Ore Totali} & \textbf{Costi}\\
 			\midrule
-			Programmatore & 108\textcolor{red}{(-10)} & 1620\textcolor{red}{(-150)} \\
-			Verificatore & 71\textcolor{red}{(+11)} & 1065\textcolor{red}{(+165)}\\
-			Progettista & 20\textcolor{red}{(-5)} & 440\textcolor{red}{(-110)}\\
-			Analista & 10\textcolor{red}{(+10)} & 250\textcolor{red}{(+250)}\\		
+			Programmatore & 104\textcolor{red}{(-14)} & 1560\textcolor{red}{(-210)} \\
+			Verificatore & 91\textcolor{red}{(+31)} & 1365\textcolor{red}{(+465)}\\
+			Progettista & 44\textcolor{red}{(+19)} & 968\textcolor{red}{(+418)}\\
+			Analista & 12\textcolor{red}{(+12)} & 300\textcolor{red}{(+300)}\\		
 			Responsabile & 15 & 450\\
 			Amministratore & 15 & 300\\
 			\midrule
-			\textbf{Totale} & \textbf{239}\textcolor{red}{(+6)} & \textbf{4125 \euro}\textcolor{red}{(+155\euro)}\\
+			\textbf{Totale} & \textbf{281}\textcolor{red}{(+48)} & \textbf{4943 \euro}\textcolor{red}{(+973\euro)}\\
 			\end{tabular}
 		\end{center}
-		\caption{Ore e Costi Codifica v2}
+		\caption{Ore e Costi Progettazione di Dettaglio e Codifica}
 		\end{table}
+		\clearpage
 		
 		\begin{figure}[h!]
 		    \centering
 			\includegraphics[scale=0.7]{../Images/chart-Confronto_Pianificazioni1vs2_Codifica.png}
-			\caption{Confronto Ore Pianificazione v1 e Pianificazione v2 per la codifica}
-		\end{figure}
-		\clearpage	
+			\caption{Confronto Ore Pianificazione v1 e Pianificazione v2 per la Codifica}
+		\end{figure}		
 		
 		\subsubsubsection{Prospetto Orario Aggiornato}
 		\begin{table}[h!]
 		\hspace{0.2cm}\begin{tabular}{l l l l l l l}
 		 	& \textbf{Davide} & \textbf{Martin} & \textbf{Marco} & \textbf{Alex} & \textbf{Luca} & \textbf{Andrea}\\
-			 & \textbf{Bortot} & \textbf{V.Mbouenda} & \textbf{Crivellaro} & \textbf{Beccaro} & \textbf{Alessio} & \textbf{Multineddu}\\
+			 & \textbf{Bortot} & \textbf{Mbouenda} & \textbf{Crivellaro} & \textbf{Beccaro} & \textbf{Alessio} & \textbf{Multineddu}\\
 			\midrule
 			Responsabile 	& 10 & 5  & 10  & 5  & 10 & 5 \\
-			Analista 		& 7\textcolor{red}{(+2)}  & 12\textcolor{red}{(+7)} & 7\textcolor{red}{(+2)}   & 7\textcolor{red}{(+2)}  & 11\textcolor{red}{(+6)} & 7\textcolor{red}{(+2)} \\
+			Analista 		& 7\textcolor{red}{(+2)}  & 13\textcolor{red}{(+8)}  & 7\textcolor{red}{(+2)}   & 7\textcolor{red}{(+2)}  & 12\textcolor{red}{(+7)}  & 7\textcolor{red}{(+2)} \\
 			Amministratore 	& 5  & 10 & 5   & 10 & 5  & 10\\
-			Progettista 	& 23 & 20\textcolor{red}{(-6)} & 20  & 25 & 28 & 28\\
-			Programmatore 	& 24\textcolor{red}{(-2)} & 17\textcolor{red}{(-1)} & 22\textcolor{red}{(-1)}  & 19 & 20\textcolor{red}{(-5)} & 21\textcolor{red}{(-1)}\\
-			Verificatore 	& 35 & 36\textcolor{red}{(+2)} & 40  & 38 & 30 & 33\\
+			Progettista 	& 23 & 20\textcolor{red}{(-6)} & 14\textcolor{red}{(-6)}  & 19\textcolor{red}{(-6)} & 28 & 28\\
+			Programmatore 	& 23\textcolor{red}{(-2)} & 15\textcolor{red}{(-3)} & 22\textcolor{red}{(-1)}  & 21\textcolor{red}{(+1)} & 20\textcolor{red}{(-5)} & 18\textcolor{red}{(-4)}\\
+			Verificatore 	& 36\textcolor{red}{(+1)} & 37\textcolor{red}{(+3)} & 46\textcolor{red}{(+6)}  & 42\textcolor{red}{(+4)} & 29\textcolor{red}{(-1)} & 36\textcolor{red}{(+3)}\\
 			\midrule
-			\textbf{Totale} & \textbf{104} & \textbf{100} & \textbf{104} & \textbf{104} & \textbf{104} & \textbf{104}
+			\textbf{Totale} & \textbf{104}\textcolor{red}{(+1)} & \textbf{100}\textcolor{red}{(+2)} & \textbf{104}\textcolor{red}{(+1)} & \textbf{104}\textcolor{red}{(+1)} & \textbf{104}\textcolor{red}{(+1)} & \textbf{104}\textcolor{red}{(+1)}
 		\end{tabular}
 	\caption{Prospetto Orario v2}
-	\end{table}		
+	\end{table}	
+	\clearpage	
 		
 		\subsubsubsection{Preventivo}
 		Il preventivo a finire basato sulle precedenti modifiche è il seguente
@@ -935,36 +939,39 @@ La pianificazione deve inoltre assicurare un'equa distribuzione del carico di la
 			\textbf{Ruolo} & \textbf{Ore} & \textbf{Costo}\\
 			\midrule
 				Responsabile & 45 & 1 350\\
-				Analista & 51\textcolor{red}{(+21)} & 1275 \textcolor{red}{(+525)}\\
+				Analista & 53\textcolor{red}{(+23)} & 1 325 \textcolor{red}{(+575)}\\
 				Amministratore & 45 & 900\\
-				Progettista & 144\textcolor{red}{(-6)} & 3 168 \textcolor{red}{(-132)}\\
-				Programmatore & 123\textcolor{red}{(-10)} & 1 845 \textcolor{red}{(-150)}\\
-				Verificatore & 212\textcolor{red}{(+2)} & 3 180 \textcolor{red}{(+30)}\\
+				Progettista & 132\textcolor{red}{(-18)} & 2 904 \textcolor{red}{(-396)}\\
+				Programmatore & 119\textcolor{red}{(-14)} & 1 785 \textcolor{red}{(-210)}\\
+				Verificatore & 226\textcolor{red}{(+16)} & 3 390 \textcolor{red}{(+240)}\\
 			\midrule
-			\textbf{Totale} & \textbf{620}\textcolor{red}{(+7)} & \textbf{11 718 \euro}\textcolor{red}{(+273\euro)}
+			\textbf{Totale} & \textbf{620}\textcolor{red}{(+7)} & \textbf{11 654 \euro}\textcolor{red}{(+209\euro)}
 			\end{tabular}
 		\end{center}
 			\caption{Preventivo a finire}
 		\end{table}
 	\noindent
-	Il preventivo a finire si discosta dal preventivo precedente con una maggiorazione di \textbf{273 \euro}, inevitabile con l'aumento delle ore del ruolo di "Analista". Col procedere del progetto e con i successivi consuntivi si valuterà se il budget aggiunto sarà utilizzato e se sarà possibile produrre un preventivo a finire che risparmi costi aggiuntivi. L'impegno per singola persona rimane comunque entro i limiti prefissati (non più di 105 ore). Seguono  le differenze di costo divise per fase.
+	Il preventivo a finire si discosta dal preventivo precedente con una maggiorazione di \textbf{209 \euro}, inevitabile con l'aumento delle ore del ruolo di "Analista". Col procedere del progetto e con i successivi consuntivi si valuterà se il budget aggiunto sarà utilizzato e se sarà possibile produrre un preventivo a finire che risparmi costi aggiuntivi. L'impegno per singola persona rimane comunque entro i limiti prefissati (non più di 105 ore). Seguono  le differenze di costo divise per periodo.
 	\begin{table}[h!]
 	\begin{center}
 		\begin{tabular}{l l l}
-			\textbf{Fase di Progetto} & \textbf{Ore} & \textbf{Costo}\\
+			\textbf{Periodo di Progetto} & \textbf{Ore} & \textbf{Costo}\\
 			\midrule
-			Progettazione & 262\textcolor{red}{(-1)} & 5 417\textcolor{red}{(+118)} \\
-			Codifica & 239\textcolor{red}{(+3)} & 4 125\textcolor{red}{(+155)} \\
+			Progettazione Architetturale & 220\textcolor{red}{(-41)} & 4 535\textcolor{red}{(+118)} \\
+			Prog. di Dettaglio e Codifica & 281\textcolor{red}{(+48)} & 4 943\textcolor{red}{(+155)} \\
 			Verifica e Validazione & 119 & 2 176\\
 			\midrule
-			\textbf{Totale} & \textbf{620}\textcolor{red}{(+7)} & \textbf{11 718 \euro}\textcolor{red}{(+273\euro)}
+			\textbf{Totale} & \textbf{620}\textcolor{red}{(+7)} & \textbf{11 654 \euro}\textcolor{red}{(+209\euro)}
 		\end{tabular} 
 		\end{center}
-	\caption{Costi per fase preventivo a finire}
+	\caption{Costi per periodo preventivo a finire}
 	\end{table}	
+	
+	Con la suddivisione delle attività di progettazione anche il rispettivo impegno è stato diviso e ridistribuito. Ora il periodo più corposo, sia per ore preventivate che per costi, è il periodo di Progettazione di Dettaglio e Codifica. Eventuali aggiustamenti alla pianificazione e al preventivo dei periodi di progetto rimanenti verranno valutati con il calcolo del prossimo consuntivo e controllando dinamicamente il livello dei rischi.
+	
 	\newpage
 	
-	\subsection{Fase di Progettazione}
+	\subsection{Fase di Progettazione Architetturale}
 	ToDo	
 	
 \end{document}
