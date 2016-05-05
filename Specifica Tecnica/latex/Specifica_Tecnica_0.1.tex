@@ -18,19 +18,19 @@
 	\fontsize{5mm}{3mm}\url{team404swe@gmail.com}\\
 	
 	\vspace{50mm}
-	\textbf{Specifica Tecnica 0.1}
+	\textbf{Specifica Tecnica 1.0}
 	%\'end{center}
 	%\'begin{center}
 	%\vspace{4mm}
 	\end{center}
-	\introtab{Specifica Tecnica}			%1 nome documento
-			{0.1} 							%2 versione
+	\introtab{Specifica Tecnica 1.0}			%1 nome documento
+			{1.0} 							%2 versione
 			{Esterno} 						%3 Uso
-			{12 aprile 2016} 				%4 Data cre
+			{24 aprile 2016} 				%4 Data cre
 			{\today} 						%5 Data mod
-			{Marco Crivellaro}	%6 Redazione
-			{Alessandro Beccaro } 			%7 Verifica
-			{Martin } 				%8 Approvazione
+			{M. Crivellaro - L. Alessio}	%6 Redazione
+			{Alex Beccaro } 			%7 Verifica
+			{Martin V. Mbouenda} 				%8 Approvazione
 	%fino a qui : add by Martin
 	\newpage
 	\thispagestyle{empty}
@@ -55,9 +55,10 @@
 	\fancyhead[R]{\leftmark} % add by Martin 
 	\tableofcontents
 	\pagenumbering{Roman}
-
+	\newpage
 	%\newpage %Comment by Martin
-	\listoffigures	
+	\listoffigures
+	\listoftables
 	
 	\newpage
 	\pagenumbering{arabic}
@@ -73,16 +74,15 @@
 	\subsection{Scopo del prodotto}
 	Il progetto \textbf{Quizzipedia} ha come obiettivo lo sviluppo di un sistema software basato su tecnologie Web (Javascript\addglos, Node.js\addglos, HTML5\addglos, CSS3\addglos) che permetta la creazione, gestione e fruizione di questionari. Il sistema dovrà quindi poter archiviare i questionari suddivisi per argomento, le cui domande dovranno essere raccolte attraverso uno specifico linguaggio di markup (Quiz Markup Language) d'ora in poi denominato QML\addglos. In un caso d'uso a titolo esemplificativo, un "esaminatore" dovrà poter costruire il proprio questionario scegliendo tra le domande archiviate, ed il questionario così composto sarà presentato e fruibile all' "esaminando", traducendo l'oggetto QML in una pagina HTML\addglos, tramite un'apposita interfaccia web. Il sistema presentato dovrà inoltre poter proporre questionari preconfezionati e valutare le risposte fornite dall'utente finale.
 	\\
-	Per un'analisi più precisa ed approfondita del progetto si rimanda al documento\\ "\textit{analisi\_dei\_requisiti\_1.0.pdf}".
+	Per un'analisi più precisa ed approfondita del progetto si rimanda al documento\\ "\textit{analisi\_dei\_requisiti\_2.0.pdf}".
 	\subsection{Glossario}
-	Viene allegato un glossario nel file ``\textit{glossario\_1.0.pdf}'' nel quale viene data una definizione a tutti i termini che in questo documento appaiono con il simbolo '\addglos' a pedice.
-	\newpage
+	Viene allegato un glossario nel file ``\textit{glossario\_2.0.pdf}'' nel quale viene data una definizione a tutti i termini che in questo documento appaiono con il simbolo '\addglos' a pedice.
 	\subsection{Riferimenti}
 		\subsubsection{Normativi}
 		\begin{itemize}
 			\item Capitolato d'appalto Quizzipedia:\\
 			\url{http://www.math.unipd.it/~tullio/IS-1/2015/Progetto/C5.pdf}
-			\item Norme di Progetto: "\textit{norme\_di\_progetto\_1.0.pdf}"
+			\item Norme di Progetto: "\textit{norme\_di\_progetto\_2.0.pdf}"
 		\end{itemize}
 		\subsubsection{Informativi}
 		\begin{itemize}
@@ -93,8 +93,66 @@
 			\url{http://www.math.unipd.it/~tullio/IS-1/2015/Progetto/}\\
 			\end{itemize}
 	\pagebreak
+	\newpage
+	\section{Specifiche del prodotto}
+	I contenuti della specifica saranno presentati seguendo l'approccio top-down: dalla descrizione macroscopica del sistema si scenderà sempre più in dettaglio passando alla descrizione delle singole componenti. Verranno inoltre descritti i design pattern utilizzati e come essi sono stati applicati. Per agevolare la comprensione si è scelto di utilizzare i diagrammi dei package, delle classi, di attività e di sequenza, descritti attraverso lo standard UML 2.0.
 	
-\newpage
+	\subsection{Architettura generale del sistema}
+	//parla del mvc e delle funzionalità principali dei componenti
+	\subsection{Descrizione del componente Model}
+	\subsection{Descrizione del componente View}	
+	\subsection{Descrizione del componente Controller}
+	\section{Tecnologie e strumenti utilizzati}
+	\subsection{HTML5}
+	per ognuno
+	breve frase di descrizione della tecnologia
+	paragrafetto di spigazione sul che cosa fa ne lprogetto
+	vantgaggi
+	svatggi
+	(optional) alternative valutate ma scartate.
+	\begin{itemize}
+		\item\textbf{Utilizzo}
+		\item\textbf{Vantaggi}
+		\item\textbf{Svantaggi}
+	\end{itemize}
+	\subsection{CSS3}
+	\begin{itemize}
+		\item\textbf{Utilizzo}
+		\item\textbf{Vantaggi}
+		\item\textbf{Svantaggi}
+	\end{itemize}
+	\subsection{Javascript}
+	\begin{itemize}
+		\item\textbf{Utilizzo}
+		\item\textbf{Vantaggi}
+		\item\textbf{Svantaggi}
+	\end{itemize}
+	\subsection{Node.js}
+	\begin{itemize}
+		\item\textbf{Utilizzo}
+		\item\textbf{Vantaggi}
+		\item\textbf{Svantaggi}
+	\end{itemize}
+	\subsection{PostGreSQL}
+	\begin{itemize}
+		\item\textbf{Utilizzo}
+		\item\textbf{Vantaggi}
+		\item\textbf{Svantaggi}
+	\end{itemize}
+	
+	\section{Diagrammi dei packages}
+	\subsection{Package della componente Model}
+	\subsection{Package della componente View}
+	\subsection{Package della componente Controller}
+			
+	\section{Diagrammi delle classi}
+		\subsection{Diagrammi delle classi del Model}
+		\subsection{Diagrammi delle classi del View}
+		\subsection{Diagrammi delle classi del Controller}
+	\section{Diagrammi di attività}
+	\section{Diagrammi di sequenza}
+	\section{Tracciamento}
+	\section{Analisi di fattibilità}
 
 
 
