@@ -14,7 +14,7 @@
 	% da qui : add by Martin
 	\thispagestyle{empty}
 	\begin{center}	
-	\includegraphics{../team_not_found.jpg}\\
+	\includegraphics{../../team_not_found}\\
 	\fontsize{5mm}{3mm}\url{team404swe@gmail.com}\\
 	
 	\vspace{50mm}
@@ -118,11 +118,16 @@
 Il gruppo di lavoro, per garantire la qualità del prodotto software \textbf{Quizzipedia} e dei processi coinvolti al suo sviluppo, intende adottare metodologie standard ed il più possibile automatizzabili per ridurre al minimo l'attività umana e favorire processi automatici laddove sia possibile.\\
 Vengono di seguito quindi elencati gli obiettivi di qualità che si vogliono raggiungere per quanto riguarda il prodotto finale e i processi coinvolti per lo sviluppo dello stesso, e le strategie necessarie all'attuazione della corretta verifica e validazione del prodotto.\\
 Lo scopo principale è quello di rendere definibili e misurabili tutti i processi di sviluppo e verifica per poterne controllare l'andamento e la produttività. 
-\subsection{Qualità di processo}
-Per quanto riguarda la valutazione qualitativa dei processi si fa riferimento allo standard\\ \underline{ISO/IEC 15504:1998} denominato SPICE\addglos (Software Process Improvement Capability dEtermination) che definisce un modello per la valutazione del livello di “maturità”
+\subsubsection{Qualità di processo}
+Per quanto riguarda la valutazione qualitativa dei processi si fa riferimento a due modelli: 
+\begin{itemize}
+\item SPICE\addglos : definito dallo standard \underline{ISO/IEC 15504:1998}, fornisce un modello per la valutazione del livello di “maturità”
 dei processi per identificare quali azioni possono essere necessarie per migliorare un processo specifico.
+\item PDCA\addglos : metodo di gestione iterativo utilizzato per il controllo e il miglioramento continuo dei processi e dei prodotti. 
+\end{itemize}
 
-\subsection{Qualità di prodotto}
+\textbf{DA DESCRIVERE IN APPENDICE I DUE MODELLI}
+\subsubsection{Qualità di prodotto}
 Come punto di riferimento per la qualità del prodotto software si fa riferimento allo standard \underline{ISO/IEC 9126:2001}.\\
 L'immagine seguente elenca le principali caratteristiche a cui un prodotto software di qualità deve aspirare:\\
 \begin{figure}[h!]
@@ -130,22 +135,45 @@ L'immagine seguente elenca le principali caratteristiche a cui un prodotto softw
 \includegraphics[scale=0.55]{../images/ISO-9126-cut}
 \caption{Riepilogo caratteristiche ISO/IEC 9126:2001}
 \end{figure}
-\subsection{Pianificazione attività di sviluppo}
-La suddivisione temporale delle diverse fasi di sviluppo segue il cosiddetto modello a V ed è descritta nel documento allegato \textit{Piano-di-Progetto-1.0.pdf}.
+
+\textbf{DA DESCRIVERE IN APPENDICE}
+%\subsection{Pianificazione attività di sviluppo}
+%La suddivisione temporale delle diverse fasi di sviluppo segue il cosiddetto modello a V ed è descritta nel documento allegato \textit{Piano-di-Progetto-1.0.pdf}.
+%\begin{figure}[h!]
+%\centering
+%\includegraphics[scale=0.4]{../images/vmodel-final4.png}
+%\caption{Fasi di sviluppo}
+%\end{figure} 
+%%questo paragrafo era abbastanza da rivedere, ora credo sia più chiaro ma aspetto anche la revisione di andrea e casomai lo modificheremo ancora
+%Questo modello prevede un lavoro di controllo e verifica corrispondente ad ogni attività per evitare l'accumulo di errori difficilmente gestibili in seguito.\\
+%La divisione in diverse fasi, e l'attività di verifica abbinata ad ogni fase e processo, hanno come scopo quello di facilitare l'integrazione e il corretto funzionamento delle parti che comporranno il sistema finale.
+%Il ramo discendente descritto nella precedente figura rappresenta la successione delle fasi di sviluppo: ciascuna fase è accompagnata da una costante attività di verifica in modo da poter permettere il passaggio alla fase successiva esclusivamente quando si è sicuri che non ci siano errori. Ciò è essenziale durante la delicata attività di raccolta e documentazione dei requisiti, nella progettazione architetturale ad alto livello ed in seguito nella progettazione di dettaglio.\\ 
+%%in questa frase non capivo proprio cosa volevi dire, nel dubbio sotto la mia frase ti lascio quello che avevi scritto se vuoi rimetterlo
+%Del ramo ascendente che attraversa le attività di testing è importante sottolineare l'utilizzo dell'approccio bottom-up.
+%%Per quanto riguarda il ramo ascendente, da notare l'essenziale importanza, per l'attività di testing,  dell'approccio bottom-up che inizia nel ramo più basso del diagramma. 
+%Dalla fase di codifica quindi, per mezzo di test specifici sulle singole componenti (test di unità), si è in grado di garantire la correttezza del lavoro svolto prima che le singole componenti vengano integrate tra loro. Ovviamente l'esito positivo di ogni test su ogni unità non garantisce la correttezza dell'integrazione tra le stesse. \\
+%Nelle sezioni successive verranno elencate le varie fasi del ramo discendente e ne verranno descritte le strategie di verifica qualitativa inerenti.
+\newpage
+\subsection{Procedure di controllo di qualità di processo}
+Il modello PDCA\addglos fornisce le linee guida per l'attività di controllo ed il miglioramento continuo dei processi: 
+\begin{itemize}
+\item Pianificazione dettagliata
+\item Monitoraggio costante delle attività pianificate in esecuzione
+\item Definizione delle risorse umane e tecnologiche necessarie per il conseguimento degli obiettivi
+\item Utilizzo di metriche per quantificare e verificare il miglioramento della qualità del processo
+\end{itemize}  
+La descrizione delle attività di controllo e la loro pianificazione è descritta nel documento \textit{Piano\_di\_Progetto\_2.0.pdf}
+\subsection{Procedure di controllo di qualità di prodotto}
+
+\newpage
+\subsection{Verifica e validazione}
+
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.4]{../images/vmodel-final4.png}
 \caption{Fasi di sviluppo}
 \end{figure} 
-%questo paragrafo era abbastanza da rivedere, ora credo sia più chiaro ma aspetto anche la revisione di andrea e casomai lo modificheremo ancora
-Questo modello prevede un lavoro di controllo e verifica corrispondente ad ogni attività per evitare l'accumulo di errori difficilmente gestibili in seguito.\\
-La divisione in diverse fasi, e l'attività di verifica abbinata ad ogni fase e processo, hanno come scopo quello di facilitare l'integrazione e il corretto funzionamento delle parti che comporranno il sistema finale.
-Il ramo discendente descritto nella precedente figura rappresenta la successione delle fasi di sviluppo: ciascuna fase è accompagnata da una costante attività di verifica in modo da poter permettere il passaggio alla fase successiva esclusivamente quando si è sicuri che non ci siano errori. Ciò è essenziale durante la delicata attività di raccolta e documentazione dei requisiti, nella progettazione architetturale ad alto livello ed in seguito nella progettazione di dettaglio.\\ 
-%in questa frase non capivo proprio cosa volevi dire, nel dubbio sotto la mia frase ti lascio quello che avevi scritto se vuoi rimetterlo
-Del ramo ascendente che attraversa le attività di testing è importante sottolineare l'utilizzo dell'approccio bottom-up.
-%Per quanto riguarda il ramo ascendente, da notare l'essenziale importanza, per l'attività di testing,  dell'approccio bottom-up che inizia nel ramo più basso del diagramma. 
-Dalla fase di codifica quindi, per mezzo di test specifici sulle singole componenti (test di unità), si è in grado di garantire la correttezza del lavoro svolto prima che le singole componenti vengano integrate tra loro. Ovviamente l'esito positivo di ogni test su ogni unità non garantisce la correttezza dell'integrazione tra le stesse. \\
-Nelle sezioni successive verranno elencate le varie fasi del ramo discendente e ne verranno descritte le strategie di verifica qualitativa inerenti.
+\newpage
 \subsection{Gestione amministrativa della revisione}
 Ogni processo coinvolto nell'attività di sviluppo ha bisogno di una costante attività di verifica di supporto in grado di identificare possibili miglioramenti o peggioramenti ed apportare eventuali correzioni. \\
 Il modello che il gruppo intende quindi seguire è il cosiddetto PDCA (o Ciclo di Deming), modello volto al miglioramento continuo che definisce quattro fasi cicliche:
@@ -171,16 +199,16 @@ Per il coordinamento delle attività giornaliere ci si affida ad un sistema di \
 %da qui in poi il resto del documento è abbastanza incompleto (quello che c'è però va bene) e ti darò una mano a finirlo in questi giorni
 %ti prego però, non scrivere ancora la parola "verifica", usa qualche sinonimo che l'hai ripetuta tipo 40 volte XD
 
-\newpage
-\section{Risorse per la verifica}
 
-\subsection{Risorse umane}
-Le risorse attivamente coinvolte nel processo di verifica sono le seguenti: 
-\begin{itemize}
-\item \textbf{Responsabile}: Ha il compito di coordinare le attività di verifica e il controllo di qualità dei processi interni. Distribuisce le risorse sulle attività e ne monitora il corretto svolgimento.
-\item \textbf{Verificatore}: svolge l'effettiva attività di verifica su ogni prodotto. I risultati di tali compiti, che saranno gli esiti delle attività di misurazione, vengono presentati al Responsabile di progetto per la gestione della loro risoluzione.
-\end{itemize}
-Per una più completa ed approfondita descrizione di ogni ruolo si rimanda ai documenti  \textit{Piano-di-progetto-1.0.pdf} e \textit{Norme-di-Progetto.pdf} (sezione 4.2).
+%\section{Risorse per la verifica}
+
+%\subsection{Risorse umane}
+%Le risorse attivamente coinvolte nel processo di verifica sono le seguenti: 
+%\begin{itemize}
+%\item \textbf{Responsabile}: Ha il compito di coordinare le attività di verifica e il controllo di qualità dei processi interni. Distribuisce le risorse sulle attività e ne monitora il corretto svolgimento.
+%\item \textbf{Verificatore}: svolge l'effettiva attività di verifica su ogni prodotto. I risultati di tali compiti, che saranno gli esiti delle attività di misurazione, vengono presentati al Responsabile di progetto per la gestione della loro risoluzione.
+%\end{itemize}
+%Per una più completa ed approfondita descrizione di ogni ruolo si rimanda ai documenti  \textit{Piano-di-progetto-1.0.pdf} e \textit{Norme-di-Progetto.pdf} (sezione 4.2).
 %\begin{itemize} 
 %\item \textbf{Amministratore}: coordina l’attività di verifica e ne definisce metodologie e norme. Ha l’incarico di gestire la risoluzione di anomalie e discrepanze.
 %\item \textbf{Analista}: aggiorna/modifica i requisiti ed i casi d’uso in caso di necessità in seguito a verifica.
@@ -189,19 +217,82 @@ Per una più completa ed approfondita descrizione di ogni ruolo si rimanda ai do
 %del codice, di attività di debugging per il controllo e/o correzione del codice da lui prodotto. Si occupa anche di applicare le correzioni riscontrate dall’attività di verifica da parte del Verificatore.
 %\end{itemize}
 
-\subsection{Risorse tecnologiche}
-
-Le risorse tecnologiche coinvolte nel processo di verifica sono principalmente le seguenti: 
-\begin{itemize}
-\item \textbf{Complexity-report}: strumento software per l'analisi statica del codice JavaScript;
-\item \textbf{MySpell}: correttore ortografico integrato all'interno di TexMaker;
-\item \textbf{Trello}: piattaforma online per l'organizzazione e la gestione di progetti. 
-\end{itemize}
-\textit{Si rimanda alla sezione Misure e Metriche del presente documento per una spiegazione dettagliata delle metriche utilizzate da Complexity-report, e al documento Norme-di-progetto.pdf per quanto riguarda le modalità di utilizzo dei sopracitati software.} 
+%\subsection{Risorse tecnologiche}
+%
+%Le risorse tecnologiche coinvolte nel processo di verifica sono principalmente le seguenti: 
+%\begin{itemize}
+%\item \textbf{Complexity-report}: strumento software per l'analisi statica del codice JavaScript;
+%\item \textbf{MySpell}: correttore ortografico integrato all'interno di TexMaker;
+%\item \textbf{Trello}: piattaforma online per l'organizzazione e la gestione di progetti. 
+%\end{itemize}
+%\textit{Si rimanda alla sezione Misure e Metriche del presente documento per una spiegazione dettagliata delle metriche utilizzate da Complexity-report, e al documento Norme-di-progetto.pdf per quanto riguarda le modalità di utilizzo dei sopracitati software.} 
 
 
 \newpage
+
+\newpage
+
+\section{Misure e metriche: parametri di tolleranza}
+\subsection{Processi}
+\begin{center}
+\begin{tabular}{{p{8cm} p{2.5cm} p{2cm}}}
+\textbf{Metrica} & \textbf{Accettazione} & \textbf{Ottimale}\\ \hline
+Schedule Variance &  \begin{math}\ge -(P*5\%)\end{math} & \begin{math} \ge 0\end{math} \\ \hline
+Budget Variance & \begin{math} \ge -(P*10\%) \end{math} & \begin{math} \ge 0 \end{math}\\ \hline
+\end{tabular}
+\end{center}
+\textit{P = PreventivoFase}
+\subsection{Documenti}
+\begin{center}
+\begin{tabular}{{p{8cm} p{2.5cm} p{2cm}}}
+\textbf{Metrica} & \textbf{Accettazione} & \textbf{Ottimale}\\ \hline
+Gulpease Index &  \begin{math}[50 - 100]\end{math} & \begin{math}[60 - 100]\end{math} \\ \hline
+\end{tabular}
+\end{center}
+
+\subsection{Software}
+
+\begin{center}
+\begin{tabular}{{p{8cm} p{2.5cm} p{2cm}}}
+\textbf{Metrica} & \textbf{Accettazione} & \textbf{Ottimale}\\ \hline
+Parameters count & \begin{math}[0 - 7]\end{math} & \begin{math}[0 - 5]\end{math}\\ \hline
+Dependency count & \begin{math} \le 5 \end{math} &\begin{math} = 0 \end{math}\\ \hline
+Halstead's Volume & \begin{math}[20 - 1500]\end{math} & \begin{math}[20 - 1000]\end{math}\\ \hline
+Halstead's Difficulty &  \begin{math}[0 - 30]\end{math} & \begin{math}[0 - 15]\end{math}\\ \hline
+Cyclomatic complexity & \begin{math}[0 - 15]\end{math} & \begin{math}[0 - 10]\end{math}\\ \hline
+First-order density & \begin{math} \le 20\% \end{math} & \begin{math} \le 15\%  \end{math}\\ \hline
+Change cost & \begin{math} \le 50\% \end{math} & \begin{math} \le 40\%\end{math}\\ \hline
+Core size & \begin{math} \le 30\% \end{math} & \begin{math} \le 25\%\end{math}\\ \hline
+Maintainability Index & \begin{math}[20 - 100]\end{math} & \begin{math}[70 - 100]\end{math}\\ \hline
+Copertura dei test & \begin{math}[70 - 100]\end{math}& \begin{math}[80 - 100]\end{math}\\ \hline
+\end{tabular}
+\end{center}
+
+\newpage
+\appendix
+\addappheadtotoc
+\setcounter{table}{0}
+\renewcommand{\thetable}{A.\arabic{table}}
+\section{Pianificazione attività di sviluppo}
+\label{Appendice A}
+ \textbf{DA RIVEDERE, AMPLIARE E CORREGGERE IMMAGINE MODELLO A V}\\
+La suddivisione temporale delle diverse fasi di sviluppo segue il cosiddetto modello a V ed è descritta nel documento allegato \textit{Piano-di-Progetto-1.0.pdf}.
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.4]{../images/vmodel-final4.png}
+\caption{Fasi di sviluppo}
+\end{figure} 
+%questo paragrafo era abbastanza da rivedere, ora credo sia più chiaro ma aspetto anche la revisione di andrea e casomai lo modificheremo ancora
+Questo modello prevede un lavoro di controllo e verifica corrispondente ad ogni attività per evitare l'accumulo di errori difficilmente gestibili in seguito.\\
+La divisione in diverse fasi, e l'attività di verifica abbinata ad ogni fase e processo, hanno come scopo quello di facilitare l'integrazione e il corretto funzionamento delle parti che comporranno il sistema finale.
+Il ramo discendente descritto nella precedente figura rappresenta la successione delle fasi di sviluppo: ciascuna fase è accompagnata da una costante attività di verifica in modo da poter permettere il passaggio alla fase successiva esclusivamente quando si è sicuri che non ci siano errori. Ciò è essenziale durante la delicata attività di raccolta e documentazione dei requisiti, nella progettazione architetturale ad alto livello ed in seguito nella progettazione di dettaglio.\\ 
+%in questa frase non capivo proprio cosa volevi dire, nel dubbio sotto la mia frase ti lascio quello che avevi scritto se vuoi rimetterlo
+Del ramo ascendente che attraversa le attività di testing è importante sottolineare l'utilizzo dell'approccio bottom-up.
+%Per quanto riguarda il ramo ascendente, da notare l'essenziale importanza, per l'attività di testing,  dell'approccio bottom-up che inizia nel ramo più basso del diagramma. 
+Dalla fase di codifica quindi, per mezzo di test specifici sulle singole componenti (test di unità), si è in grado di garantire la correttezza del lavoro svolto prima che le singole componenti vengano integrate tra loro. Ovviamente l'esito positivo di ogni test su ogni unità non garantisce la correttezza dell'integrazione tra le stesse. \\
+\newpage
 \section{Misure e Metriche}
+\label{Appendice B}
 \subsection{Di progetto}
 \subsubsection{Schedule Variance}
 Il valore SV (schedule variance) indica se si è in linea, in anticipo o in ritardo rispetto alla schedulazione delle attività di progetto pianificate nella baseline.\\
@@ -433,44 +524,7 @@ Per la validazione delle pagine HTML e i file CSS sviluppati si intende affidars
 %\item \textbf{Branch Coverage}:
 %\item \textbf{Validazione W3C}:
 %\end{itemize}
-\newpage
 
-\section{Riepilogo parametri di tolleranza}
-\subsection{Processi}
-\begin{center}
-\begin{tabular}{{p{8cm} p{2.5cm} p{2cm}}}
-\textbf{Metrica} & \textbf{Accettazione} & \textbf{Ottimale}\\ \hline
-Schedule Variance &  \begin{math}\ge -(P*5\%)\end{math} & \begin{math} \ge 0\end{math} \\ \hline
-Budget Variance & \begin{math} \ge -(P*10\%) \end{math} & \begin{math} \ge 0 \end{math}\\ \hline
-\end{tabular}
-\end{center}
-\textit{P = PreventivoFase}
-\subsection{Documenti}
-\begin{center}
-\begin{tabular}{{p{8cm} p{2.5cm} p{2cm}}}
-\textbf{Metrica} & \textbf{Accettazione} & \textbf{Ottimale}\\ \hline
-Gulpease Index &  \begin{math}[50 - 100]\end{math} & \begin{math}[60 - 100]\end{math} \\ \hline
-\end{tabular}
-\end{center}
-
-\subsection{Software}
-
-\begin{center}
-\begin{tabular}{{p{8cm} p{2.5cm} p{2cm}}}
-\textbf{Metrica} & \textbf{Accettazione} & \textbf{Ottimale}\\ \hline
-Parameters count & \begin{math}[0 - 7]\end{math} & \begin{math}[0 - 5]\end{math}\\ \hline
-Dependency count & \begin{math} \le 5 \end{math} &\begin{math} = 0 \end{math}\\ \hline
-Halstead's Volume & \begin{math}[20 - 1500]\end{math} & \begin{math}[20 - 1000]\end{math}\\ \hline
-Halstead's Difficulty &  \begin{math}[0 - 30]\end{math} & \begin{math}[0 - 15]\end{math}\\ \hline
-Cyclomatic complexity & \begin{math}[0 - 15]\end{math} & \begin{math}[0 - 10]\end{math}\\ \hline
-First-order density & \begin{math} \le 20\% \end{math} & \begin{math} \le 15\%  \end{math}\\ \hline
-Change cost & \begin{math} \le 50\% \end{math} & \begin{math} \le 40\%\end{math}\\ \hline
-Core size & \begin{math} \le 30\% \end{math} & \begin{math} \le 25\%\end{math}\\ \hline
-Maintainability Index & \begin{math}[20 - 100]\end{math} & \begin{math}[70 - 100]\end{math}\\ \hline
-Copertura dei test & \begin{math}[70 - 100]\end{math}& \begin{math}[80 - 100]\end{math}\\ \hline
-\end{tabular}
-\end{center}
-\newpage
 \section{Resoconto attività di verifica}
 Di seguito viene fornito il resoconto dell'attività di verifica inerente ad ogni fase di sviluppo.
 \subsection{Analisi}
@@ -529,9 +583,9 @@ Riassunto attività di verifica per quello che concerne la fase di analisi:
 
 \newpage
 \section{Esito dei test}
+\label{Appendice D}
 In questa sezione verranno presentati gli esiti dei test effettuati per ogni fase di sviluppo. 
 %\subsection{Analisi}
-
 
 
 \end{document}

@@ -7,34 +7,35 @@
 \BOOKMARK [3][-]{subsubsection.1.4.2}{Informativi}{subsection.1.4}% 7
 \BOOKMARK [1][-]{section.2}{Strategia generale di qualifica}{}% 8
 \BOOKMARK [2][-]{subsection.2.1}{Definizione obiettivi}{section.2}% 9
-\BOOKMARK [2][-]{subsection.2.2}{Qualit\340 di processo}{section.2}% 10
-\BOOKMARK [2][-]{subsection.2.3}{Qualit\340 di prodotto}{section.2}% 11
-\BOOKMARK [2][-]{subsection.2.4}{Pianificazione attivit\340 di sviluppo}{section.2}% 12
-\BOOKMARK [2][-]{subsection.2.5}{Gestione amministrativa della revisione}{section.2}% 13
-\BOOKMARK [1][-]{section.3}{Risorse per la verifica}{}% 14
-\BOOKMARK [2][-]{subsection.3.1}{Risorse umane}{section.3}% 15
-\BOOKMARK [2][-]{subsection.3.2}{Risorse tecnologiche}{section.3}% 16
-\BOOKMARK [1][-]{section.4}{Misure e Metriche}{}% 17
-\BOOKMARK [2][-]{subsection.4.1}{Di progetto}{section.4}% 18
-\BOOKMARK [3][-]{subsubsection.4.1.1}{Schedule Variance}{subsection.4.1}% 19
-\BOOKMARK [3][-]{subsubsection.4.1.2}{Budget variance}{subsection.4.1}% 20
-\BOOKMARK [2][-]{subsection.4.2}{Per i documenti}{section.4}% 21
-\BOOKMARK [3][-]{subsubsection.4.2.1}{Indice Gulpease}{subsection.4.2}% 22
-\BOOKMARK [2][-]{subsection.4.3}{Per il software}{section.4}% 23
-\BOOKMARK [3][-]{subsubsection.4.3.1}{Parameter count}{subsection.4.3}% 24
-\BOOKMARK [3][-]{subsubsection.4.3.2}{Cyclomatic complexity}{subsection.4.3}% 25
-\BOOKMARK [3][-]{subsubsection.4.3.3}{Metriche di Halstead}{subsection.4.3}% 26
-\BOOKMARK [3][-]{subsubsection.4.3.4}{Dependency count}{subsection.4.3}% 27
-\BOOKMARK [3][-]{subsubsection.4.3.5}{Maintainability Index}{subsection.4.3}% 28
-\BOOKMARK [3][-]{subsubsection.4.3.6}{First-order density}{subsection.4.3}% 29
-\BOOKMARK [3][-]{subsubsection.4.3.7}{Change cost}{subsection.4.3}% 30
-\BOOKMARK [3][-]{subsubsection.4.3.8}{Core size}{subsection.4.3}% 31
-\BOOKMARK [3][-]{subsubsection.4.3.9}{Copertura dei test}{subsection.4.3}% 32
-\BOOKMARK [3][-]{subsubsection.4.3.10}{W3C - Markup Validation Service}{subsection.4.3}% 33
-\BOOKMARK [1][-]{section.5}{Riepilogo parametri di tolleranza}{}% 34
-\BOOKMARK [2][-]{subsection.5.1}{Processi}{section.5}% 35
-\BOOKMARK [2][-]{subsection.5.2}{Documenti}{section.5}% 36
-\BOOKMARK [2][-]{subsection.5.3}{Software}{section.5}% 37
-\BOOKMARK [1][-]{section.6}{Resoconto attivit\340 di verifica}{}% 38
-\BOOKMARK [2][-]{subsection.6.1}{Analisi}{section.6}% 39
-\BOOKMARK [1][-]{section.7}{Esito dei test}{}% 40
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Qualit\340 di processo}{subsection.2.1}% 10
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Qualit\340 di prodotto}{subsection.2.1}% 11
+\BOOKMARK [2][-]{subsection.2.2}{Procedure di controllo di qualit\340 di processo}{section.2}% 12
+\BOOKMARK [2][-]{subsection.2.3}{Procedure di controllo di qualit\340 di prodotto}{section.2}% 13
+\BOOKMARK [2][-]{subsection.2.4}{Verifica e validazione}{section.2}% 14
+\BOOKMARK [2][-]{subsection.2.5}{Gestione amministrativa della revisione}{section.2}% 15
+\BOOKMARK [1][-]{section.3}{Misure e metriche: parametri di tolleranza}{}% 16
+\BOOKMARK [2][-]{subsection.3.1}{Processi}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.2}{Documenti}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.3}{Software}{section.3}% 19
+\BOOKMARK [1][-]{section*.5}{Appendici}{}% 20
+\BOOKMARK [1][-]{appendix.Alph1}{Pianificazione attivit\340 di sviluppo}{}% 21
+\BOOKMARK [1][-]{appendix.Alph2}{Misure e Metriche}{}% 22
+\BOOKMARK [2][-]{subsection.Alph2.1}{Di progetto}{appendix.Alph2}% 23
+\BOOKMARK [3][-]{subsubsection.Alph2.1.1}{Schedule Variance}{subsection.Alph2.1}% 24
+\BOOKMARK [3][-]{subsubsection.Alph2.1.2}{Budget variance}{subsection.Alph2.1}% 25
+\BOOKMARK [2][-]{subsection.Alph2.2}{Per i documenti}{appendix.Alph2}% 26
+\BOOKMARK [3][-]{subsubsection.Alph2.2.1}{Indice Gulpease}{subsection.Alph2.2}% 27
+\BOOKMARK [2][-]{subsection.Alph2.3}{Per il software}{appendix.Alph2}% 28
+\BOOKMARK [3][-]{subsubsection.Alph2.3.1}{Parameter count}{subsection.Alph2.3}% 29
+\BOOKMARK [3][-]{subsubsection.Alph2.3.2}{Cyclomatic complexity}{subsection.Alph2.3}% 30
+\BOOKMARK [3][-]{subsubsection.Alph2.3.3}{Metriche di Halstead}{subsection.Alph2.3}% 31
+\BOOKMARK [3][-]{subsubsection.Alph2.3.4}{Dependency count}{subsection.Alph2.3}% 32
+\BOOKMARK [3][-]{subsubsection.Alph2.3.5}{Maintainability Index}{subsection.Alph2.3}% 33
+\BOOKMARK [3][-]{subsubsection.Alph2.3.6}{First-order density}{subsection.Alph2.3}% 34
+\BOOKMARK [3][-]{subsubsection.Alph2.3.7}{Change cost}{subsection.Alph2.3}% 35
+\BOOKMARK [3][-]{subsubsection.Alph2.3.8}{Core size}{subsection.Alph2.3}% 36
+\BOOKMARK [3][-]{subsubsection.Alph2.3.9}{Copertura dei test}{subsection.Alph2.3}% 37
+\BOOKMARK [3][-]{subsubsection.Alph2.3.10}{W3C - Markup Validation Service}{subsection.Alph2.3}% 38
+\BOOKMARK [1][-]{appendix.Alph3}{Resoconto attivit\340 di verifica}{}% 39
+\BOOKMARK [2][-]{subsection.Alph3.1}{Analisi}{appendix.Alph3}% 40
+\BOOKMARK [1][-]{appendix.Alph4}{Esito dei test}{}% 41
