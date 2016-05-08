@@ -26,7 +26,7 @@
 	\introtab{Specifica Tecnica 1.0}			%1 nome documento
 			{1.0} 							%2 versione
 			{Esterno} 						%3 Uso
-			{24 aprile 2016} 				%4 Data cre
+			{22 aprile 2016} 				%4 Data cre
 			{\today} 						%5 Data mod
 			{M. Crivellaro - L. Alessio}	%6 Redazione
 			{Alex Beccaro } 			%7 Verifica
@@ -46,13 +46,13 @@
 	\section*{Registro delle modifiche}
 	
 	\beginregistro
-	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm} \textbf{Descrizione}}
-	\rigaregistro{0.3}{Luca Alessio (Progettista)}{14/04/2016}{Stesura parziale sezione "Architettura generale del sistema"}
-	\rigaregistro{0.2}{Davide Bortot (Progettista)}{13/04/2016}{Strutturazione iniziale del documento e stesura sezione introduttiva}
-	\rigaregistro{0.1}{Marco Crivellaro (Progettista)}{12/04/2016}{Creazione documento.}
 	
-			
+	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm} \textbf{Descrizione}}
+	\rigaregistro{0.0.3}{Luca Alessio (Progettista)}{24/04/2016}{Stesura parziale sezione "Architettura generale del sistema"}
+	\rigaregistro{0.0.2}{Davide Bortot (Progettista)}{23/04/2016}{Strutturazione iniziale del documento e stesura sezione introduttiva}
+	\rigaregistro{0.0.1}{Marco Crivellaro (Progettista)}{22/04/2016}{Creazione documento.}
 	\fineregistro
+
 	\newpage
 	\fancyhead[R]{\leftmark} % add by Martin 
 	\tableofcontents
@@ -100,14 +100,16 @@
 	I contenuti della specifica saranno presentati seguendo l'approccio top-down: dalla descrizione macroscopica del sistema si scenderà sempre più in dettaglio passando alla descrizione delle singole componenti. Verranno inoltre descritti i design pattern utilizzati e come essi sono stati applicati. Per agevolare la comprensione si è scelto di utilizzare i diagrammi dei package, delle classi, di attività e di sequenza, descritti attraverso lo standard UML 2.0.
 	
 	\subsection{Architettura generale del sistema}
-	Quizzipedia viene identificato come (server based web-service); l'utente interagisce col sistema tramite interfaccia web su browser mentre i dati vengono organizzati su server esterno. La base di dati raccoglie principalmente questiti memorizzati in QML, che su richiesta verrano elaborati da un interprete.
-Il suddetto interprete processa l'input QML, precedentemente validato nella forma da un parser apposito, traducendolo in linguaggio HTML5 visualizzabile da broswer.
+	Quizzipedia viene identificato come (server based web-service); l'utente interagisce col sistema tramite interfaccia web su browser mentre i dati vengono organizzati su server esterno. La base di dati raccoglie principalmente quesiti memorizzati in QML, che su richiesta verranno elaborati da un interprete.
+Il suddetto interprete processa l'input QML, precedentemente validato nella forma da un parser apposito, traducendolo in linguaggio HTML5 visualizzabile da browser.
 Nella realizzazione del sistema Quizzipedia verrà adottato il design pattern Model View Controller.
-[figura da fare]
+\begin{center}
+	\includegraphics[scale=0.6]{../images/mvc.PNG}
+\end{center}
 \begin {itemize}
-\item Model: definisce l'organizzazione dei dati e ne specifica le modalità di accesso, nel sistema Quizzipedia è costituito dalla parte server e la base di dati sottostante. Fanno parte del Model anche le componenti parser e interprete che operano sui dati del DBMS.
-\item View: rappresenta l'interfaccia grafica presentata all'utilizzatore, la quale visualizza i dati e cattura le interazioni dell'utente.
-\item Controller: Inoltra le richieste della view al model
+\item\textbf{Model}: definisce l'organizzazione dei dati e ne specifica le modalità di accesso, nel sistema Quizzipedia è costituito dalla parte server e la base di dati sottostante. Fanno parte del Model anche le componenti parser e interprete che operano sui dati del DBMS.
+\item\textbf{View}: rappresenta l'interfaccia grafica presentata all'utilizzatore, la quale visualizza i dati e cattura le interazioni dell'utente.
+\item\textbf{Controller}: Inoltra le richieste della View al Model
 	\end {itemize}
 	\subsection{Descrizione del componente Model}
 	\subsection{Descrizione del componente View}	
@@ -116,7 +118,7 @@ Nella realizzazione del sistema Quizzipedia verrà adottato il design pattern Mo
 	\subsection{HTML5}
 	per ognuno
 	breve frase di descrizione della tecnologia
-	paragrafetto di spigazione sul che cosa fa ne lprogetto
+	paragrafetto di spigazione sul che cosa fa nel progetto
 	vantgaggi
 	svatggi
 	(optional) alternative valutate ma scartate.
