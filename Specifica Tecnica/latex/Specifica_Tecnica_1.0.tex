@@ -1,5 +1,4 @@
 \documentclass[a4paper,11pt]{article}
-	%INCLUDE DEL TEMPLATE
 	\input{../../template.tex}
 
 	\title{\textbf{{\fontsize{8mm}{5mm}\selectfont QUIZZIPEDIA}}}
@@ -8,10 +7,7 @@
 
 
 \begin{document}
-	%\title{Piano di Qualifica} comment by Martin
-	%\author{Andrea Multineddu}
 	\maketitle
-	% da qui : add by Martin
 	\thispagestyle{empty}
 	\begin{center}	
 	\includegraphics{../team_not_found.jpg}\\
@@ -19,9 +15,6 @@
 	
 	\vspace{50mm}
 	\textbf{Specifica Tecnica 1.0}
-	%\'end{center}
-	%\'begin{center}
-	%\vspace{4mm}
 	\end{center}
 	\introtab{Specifica Tecnica 1.0}			%1 nome documento
 			{1.0} 							%2 versione
@@ -31,12 +24,10 @@
 			{M. Crivellaro - L. Alessio}	%6 Redazione
 			{Alex Beccaro } 			%7 Verifica
 			{Martin V. Mbouenda} 				%8 Approvazione
-	%fino a qui : add by Martin
 	\newpage
 	\thispagestyle{empty}
-	\null  % add by Martin
+	\null  
 
-	%\null	comment by Martin
 	\newpage
 	\newpage
 	\fancyhead[R]{REGISTRO DELLE MODIFICHE}
@@ -48,7 +39,7 @@
 	\beginregistro
 	
 	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm} \textbf{Descrizione}}
-	\rigaregistro{0.0.5}{Luca Alessio (Progettista)}{26/04/2016}{Stesura parziale sezione "Tecnologie e strumenti utilizzati"}
+	\rigaregistro{0.0.5}{Luca Alessio (Progettista)}{27/04/2016}{Stesura parziale sezione "Tecnologie e strumenti utilizzati"}
 	\rigaregistro{0.0.4}{Davide Bortot (Progettista)}{25/04/2016}{Ampliata la sezione "Architettura generale del sistema".}
 	\rigaregistro{0.0.3}{Luca Alessio (Progettista)}{24/04/2016}{Stesura parziale sezione "Architettura generale del sistema"}
 	\rigaregistro{0.0.2}{Davide Bortot (Progettista)}{23/04/2016}{Strutturazione iniziale del documento e stesura sezione introduttiva}
@@ -56,11 +47,10 @@
 	\fineregistro
 
 	\newpage
-	\fancyhead[R]{\leftmark} % add by Martin 
+	\fancyhead[R]{\leftmark}
 	\tableofcontents
 	\pagenumbering{Roman}
 	\newpage
-	%\newpage %Comment by Martin
 	\listoffigures
 	\listoftables
 	
@@ -120,17 +110,20 @@ Nella realizzazione del sistema Quizzipedia verrà adottato il design pattern Mo
 	\subsection{HTML5}
 	Linguaggio di markup per la progettazione di pagine Web. Richiesto espressamente nel capitolato per la creazione dell'interfaccia utente (mi pare, devo controllare).
 	\begin{itemize}
-		\item\textbf{Utilizzo}: 
+		\item\textbf{Utilizzo}: viene utilizzato per creare la GUI che permette all'utente di accedere al sistema mediante browser.
 		\item\textbf{Vantaggi}: favorisce la portabilità su diversi dispositivi (desktop, smartphone, tablet...) e browser.
 Sono punti a favore anche l'elevata compatibilità con tecnologie quali CSS3 e Javascript.
 		\item\textbf{Svantaggi}: essendo HTML5 un linguaggio non ancora standard il rischio nel suo utilizzo è l'instabilità dei tag utilizzati. Un tag oggi accettato potrebbe essere modificato
 in un futuro prossimo, rendendo la visualizzazione dell'interfaccia utente dipendente dal stabilità dei tag utilizzati. 
 	\end{itemize}
 	\subsection{CSS3}
+	Principale linguaggio usato per la formattazione di pagine HTML.
 	\begin{itemize}
-		\item\textbf{Utilizzo}: 
-		\item\textbf{Vantaggi}: 
-		\item\textbf{Svantaggi}: 
+		\item\textbf{Utilizzo}: Viene utilizzato per formattare il codice HTML,
+ovvero creare fogli di stile che permettono all'utente di modificare alcuni aspetti grafici della
+pagina Web
+		\item\textbf{Vantaggi}: Richiede un minor sforzo di interpretazione da parte del browser ed è leggero da scaricare
+		\item\textbf{Svantaggi}: Può presentare problemi di compatibilità con browser meno recenti
 	\end{itemize}
 	\subsection{Javascript}
 	E' un linguaggio di scripting debolmente orientato agli oggetti, utilizzato nelle applicazioni
@@ -155,15 +148,16 @@ con vettori associativi, che associano nomi di proprietà a valori.
 	\end{itemize}
 	\subsection{Node.js}
 	\begin{itemize}
-		\item\textbf{Utilizzo}: 
-		\item\textbf{Vantaggi}: 
-		\item\textbf{Svantaggi}: 
+		\item\textbf{Utilizzo}:
+		\item\textbf{Vantaggi}:
+		\item\textbf{Svantaggi}:
 	\end{itemize}
-	\subsection{PostGreSQL}
+	\subsection{PostgreSQL}
+	DBMS ad oggetti open-source.
 	\begin{itemize}
-		\item\textbf{Utilizzo}: 
-		\item\textbf{Vantaggi}: 
-		\item\textbf{Svantaggi}: 
+		\item\textbf{Utilizzo}: Base di dati con lo scopo di memorizzare domande e altri dati necessari al funzionamento del sistema.
+		\item\textbf{Vantaggi}: Tecnologia più robusta, stabile e performante di MySQL (inizialmente preso in considerazione ma poi scartato in favore di PostgreSQL).
+		\item\textbf{Svantaggi}: Complessità maggiore rispetto al classico MySQL.
 	\end{itemize}
 	
 	\section{Diagrammi dei packages}
