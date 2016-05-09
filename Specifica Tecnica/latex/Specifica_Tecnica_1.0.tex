@@ -48,8 +48,8 @@
 	\beginregistro
 	
 	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm} \textbf{Descrizione}}
-	\rigaregistro{0.0.5}{Luca Alessio (Progettista)}{26/04/2016}{Stesura parziale sezione "Tecnologie e strumenti utilizzat"}
-	\rigaregistro{0.0.4}{Davide Bortot (Progettista)}{25/04/2016}{BORTY SCRIVI CHE CAMBIAMENTI HAI FATTO}
+	\rigaregistro{0.0.5}{Luca Alessio (Progettista)}{26/04/2016}{Stesura parziale sezione "Tecnologie e strumenti utilizzati"}
+	\rigaregistro{0.0.4}{Davide Bortot (Progettista)}{25/04/2016}{Ampliata la sezione "Architettura generale del sistema".}
 	\rigaregistro{0.0.3}{Luca Alessio (Progettista)}{24/04/2016}{Stesura parziale sezione "Architettura generale del sistema"}
 	\rigaregistro{0.0.2}{Davide Bortot (Progettista)}{23/04/2016}{Strutturazione iniziale del documento e stesura sezione introduttiva}
 	\rigaregistro{0.0.1}{Marco Crivellaro (Progettista)}{22/04/2016}{Creazione documento.}
@@ -109,7 +109,7 @@ Nella realizzazione del sistema Quizzipedia verrà adottato il design pattern Mo
 	\includegraphics[scale=0.6]{../images/mvc.PNG}
 \end{center}
 \begin {itemize}
-\item\textbf{Model}: definisce l'organizzazione dei dati e ne specifica le modalità di accesso, nel sistema Quizzipedia è costituito dalla parte server e la base di dati sottostante. Fanno parte del Model anche le componenti parser e interprete che operano sui dati del DBMS.
+\item\textbf{Model}: definisce l'organizzazione dei dati e ne specifica le modalità di accesso. Nel sistema Quizzipedia è costituito dalla parte server che opera sulla sottostante la base di dati. Fanno parte del Model anche le componenti \emph{Parser} e \emph{Interprete} che operano sui dati del DBMS.
 \item\textbf{View}: rappresenta l'interfaccia grafica presentata all'utilizzatore, la quale visualizza i dati e cattura le interazioni dell'utente.
 \item\textbf{Controller}: Inoltra le richieste della View al Model
 	\end {itemize}
@@ -120,51 +120,50 @@ Nella realizzazione del sistema Quizzipedia verrà adottato il design pattern Mo
 	\subsection{HTML5}
 	Linguaggio di markup per la progettazione di pagine Web. Richiesto espressamente nel capitolato per la creazione dell'interfaccia utente (mi pare, devo controllare).
 	\begin{itemize}
-		\item\textbf{Utilizzo}
-		\item\textbf{Vantaggi}Favorisce la portabilità su diversi dispositivi (desktop, smartphone, tablet...) e browser.
+		\item\textbf{Utilizzo}: 
+		\item\textbf{Vantaggi}: favorisce la portabilità su diversi dispositivi (desktop, smartphone, tablet...) e browser.
 Sono punti a favore anche l'elevata compatibilità con tecnologie quali CSS3 e Javascript.
-		\item\textbf{Svantaggi}essendo HTML5 un linguaggio non ancora standard il rischio nel suo utilizzo è l'istabilità dei tag utilizzati. Un tag oggi accettato potrebbe essere modificato
+		\item\textbf{Svantaggi}: essendo HTML5 un linguaggio non ancora standard il rischio nel suo utilizzo è l'instabilità dei tag utilizzati. Un tag oggi accettato potrebbe essere modificato
 in un futuro prossimo, rendendo la visualizzazione dell'interfaccia utente dipendente dal stabilità dei tag utilizzati. 
 	\end{itemize}
 	\subsection{CSS3}
 	\begin{itemize}
-		\item\textbf{Utilizzo}
-		\item\textbf{Vantaggi}
-		\item\textbf{Svantaggi}
+		\item\textbf{Utilizzo}: 
+		\item\textbf{Vantaggi}: 
+		\item\textbf{Svantaggi}: 
 	\end{itemize}
 	\subsection{Javascript}
 	E' un linguaggio di scripting debolmente orientato agli oggetti, utilizzato nelle applicazioni
 Web. Viene interpretato all'interno del browser. Permette di definire funzionalità simili a
 quelle offerte da C++ e Java, quali cicli e strutture di controllo.
-Viene solitamente affancato a pagine statiche HTML per poter gestire i contenuti dina-
-micamente, offrendo funzionalità che il linguaggio di markup non può offrire.
+Viene solitamente affiancato a pagine statiche HTML per poter gestire i contenuti dinamicamente, offrendo funzionalità che il linguaggio di markup non può offrire.
 	\begin{itemize}
-		\item\textbf{Utilizzo}Nel sistema Quizzipedia Javascript rivestirà un ruolo importante, verrà infatti utilizzato nella realizzazione del parser/interprete/boh andrea dimmi te.
-		\item\textbf{Vantaggi}eseguito lato Client (sul browser) non sovraccarica il Server per l'esecuzione di richieste, anche se lo script è complesso.
-		\item\textbf{Svantaggi}per script sorgenti molto corposi, puo risultare oneroso in termini di
-tempo lo scaricamento dei contenuti. Deve, inoltre, fare affdamento ad un linguaggio
+		\item\textbf{Utilizzo}: nel sistema Quizzipedia Javascript rivestirà un ruolo importante, verrà infatti utilizzato nella realizzazione del parser/interprete/boh andrea dimmi te.
+		\item\textbf{Vantaggi}: eseguito lato Client (sul browser) non sovraccarica il Server per l'esecuzione di richieste, anche se lo script è complesso.
+		\item\textbf{Svantaggi}: per script sorgenti molto corposi, può risultare oneroso in termini di
+tempo lo scaricamento dei contenuti. Deve, inoltre, fare affidamento ad un linguaggio
 che possa fisicamente effettuare transazioni di dati quando lo script esegue operazioni
 su oggetti remoti (eg: database).
 E' altresì un linguaggio non tipizzato, quindi occorre porre attenzione ai tipi delle
 variabili che non sono dichiarati, ma variano dinamicamente.
-		\item\textbf{Variabili e oggetti}le variabili se sono dichiarate all'interno di una funzione sono
+		\item\textbf{Variabili e oggetti}: le variabili se sono dichiarate all'interno di una funzione sono
 visibili solo all'interno di essa; se sono invece esterne sono globali. Vengono dichiarate
-con la keyword var o semplicemente assegnando loro un valore.
+con la keyword \emph{var} o semplicemente assegnando loro un valore.
 Ogni elemento in JavaScript è un tipo primitivo o un oggetto.
-Gli oggetti sono entità dotate di unicità (sono uguali solo a sè stessi) e identificabili
+Gli oggetti sono entità dotate di unicità (sono uguali solo a sé stessi) e identificabili
 con vettori associativi, che associano nomi di proprietà a valori.
 	\end{itemize}
 	\subsection{Node.js}
 	\begin{itemize}
-		\item\textbf{Utilizzo}
-		\item\textbf{Vantaggi}
-		\item\textbf{Svantaggi}
+		\item\textbf{Utilizzo}: 
+		\item\textbf{Vantaggi}: 
+		\item\textbf{Svantaggi}: 
 	\end{itemize}
 	\subsection{PostGreSQL}
 	\begin{itemize}
-		\item\textbf{Utilizzo}
-		\item\textbf{Vantaggi}
-		\item\textbf{Svantaggi}
+		\item\textbf{Utilizzo}: 
+		\item\textbf{Vantaggi}: 
+		\item\textbf{Svantaggi}: 
 	\end{itemize}
 	
 	\section{Diagrammi dei packages}
