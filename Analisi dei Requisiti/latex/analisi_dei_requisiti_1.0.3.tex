@@ -257,6 +257,16 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 	\item \textbf{Combinazione email password non corretta:} I dati inseriti e inviati al sistema non sono corretti, viene visualizzato un messaggio di errore (UC 1.5)
 \end{itemize}
 
+\subsubsection{UC 1.5 - Errore dati login}
+
+\textbf{Descrizione:} i dati inseriti nella form risultano invalidi e il sistema reagisce di conseguenza.\\
+\\
+\textbf{Precondizioni:} l'utente ha inserito i propri dati (errati) e li ha inviati al sistema per l'autenticazione.\\
+\\
+\textbf{Postcondizioni:} l’utente è stato notificato dal sistema della presenza di errori.\\
+\\
+\textbf{Scenario:} l’utente invia i propri dati e il sistema segnala le incongruenze presenti.\\
+\\
 
 \newpage
 \subsection{UC 2 - Registrazione}
@@ -327,6 +337,27 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 	\item \textbf{Email già in uso:} l'email inserita è già stata registrata da un utente, viene visualizzato un messaggio di errore (UC 2.6)
 \end{itemize}
 
+\subsubsection{UC 2.5 - Errore dati non inseriti}
+
+\textbf{Descrizione:} i dati inseriti nella form risultano assenti.\\
+\\
+\textbf{Precondizioni:} l'utente non ha inserito i propri dati.\\
+\\
+\textbf{Postcondizioni:} l’utente è stato notificato dal sistema della mancanza di dati.\\
+\\
+\textbf{Scenario:} l’utente richiede l'invio di dati non ancora inseriti.\\
+\\
+
+\subsubsection{UC 2.6 - Errore mail gia' in uso}
+
+\textbf{Descrizione:} i dati inseriti nella form sono corretti ma la mail risulta gia' registrata da un'altro utente.\\
+\\
+\textbf{Precondizioni:} l'utente ha inserito i propri dati e li ha inviati al sistema per la registrazione.\\
+\\
+\textbf{Postcondizioni:} l’utente è stato notificato dal sistema della presenza di errori.\\
+\\
+\textbf{Scenario:} l’utente invia i propri dati e il sistema segnala le incongruenze presenti.\\
+\\
 
 \subsection{UC 3 - Visualizzazione categorie}
 
@@ -903,8 +934,6 @@ F 4.2.1 & Se la domanda ha delle risposte preimpostate queste vengono visualizza
 \midrule
 F 4.2.1.1 & Deve essere possibile selezionare una risposta\\
 \midrule
-F 4.2.2 & Se la domanda richiede una risposta inserita dal'utente allora viene fornito un campo per l'inserimento della risposta\\
-\midrule
 F 4.3 & L'utente può cambiare la risposta di una domanda in qualsiasi momento prima della consegna del questionario\\
 \midrule
 F 4.4 & Le domande possono essere compilate in un ordine qualsiasi\\
@@ -955,15 +984,13 @@ F 6.1.1 & La sezione dedicata alla creazione di un questionario deve permettere 
 \midrule
 F 6.1.2 & La sezione dedicata alla creazione di un questionario deve permettere l'inserimento della categoria del questionario\\
 \midrule
-F 6.1.2.1 & Se il codice QML inserito non risulta valido viene visualizzato un messaggio di errore\\
-\midrule
-F 6.1.3 & La sezione dedicata alla creazione di un questionario deve permettere l'inserimento del codice QML che lo definisce\\
-\midrule
 F 6.2 & La sezione dedicata alla creazione di un nuovo questionario deve permettere l'invio dei dati inseriti\\
 \midrule
 F 6.2.1 & Prima di inviare i dati viene effettuato un controllo su di essi\\
 \midrule
 F 6.2.1.1 & Se i dati obbligatori non risultano inseriti viene visualizzato un messaggio di errore\\
+\midrule
+F 6.2.1.2 & Se i dati inseriti risultano corretti l'utente viene notificato e puo' continuare la navigazione\\
 \midrule
 F 6.2.1.3 & Se i dati obbligatori non risultano inseriti o il codice QML non è valido nessun dato viene inviato\\
 \midrule
@@ -992,8 +1019,6 @@ F 8.1.4.1 & QML definisce domande di tipo vero o falso\\
 F 8.1.4.2 & QML definisce domande a scelta multipla con una sola risposta esatta\\
 \midrule
 F 8.1.4.3 & QML definisce domande a scelta multipla con più risposte esatte\\
-\midrule
-F 8.1.4.4 & QML definisce domande a risposta testuale\\
 \midrule
 F 8.1.4.5 & QML definisce domande di associazione tra elementi di due insiemi\\
 \midrule
@@ -1057,19 +1082,17 @@ ID & Descrizione \\
 \multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Vincoli di sistema}
 \endlastfoot
 			
-V 1 & Il sistema deve essere utilizzabile attraverso un browser che supporti html 5, css 3 e javascript\\
+V 1 & Il sistema deve essere utilizzabile attraverso un browser che supporti HTML 5, CSS 3 e javascript\\
 \midrule
 V 1.1 & L'interfaccia utente deve essere fruibile via desktop, tablet e smartphone\\
 \midrule
-V 1.2 & L'interfaccia utente deve essere strutturata con html 5\\
+V 1.2 & L'interfaccia utente deve essere strutturata con HTML 5\\
 \midrule
-V 1.3 & Lo stile dell'interfaccia utente deve essere realizzato tramite fogli di stile css 3\\
+V 1.3 & Lo stile dell'interfaccia utente deve essere realizzato tramite fogli di stile CSS 3\\
 \midrule
 V 1.4 & La parte attiva dell'interfaccia utente deve essere gestita utilizzando javascript\\
 \midrule
-V 2 & Domande e questionari vengono gestiti con il linguaggio QML\\
-\midrule
-V 3 & La parte server viene realizzata in javascript con server Node.js\\
+V 2 & La parte server viene realizzata in javascript con server Node.js\\
 			
 			\end{longtable}
 	
