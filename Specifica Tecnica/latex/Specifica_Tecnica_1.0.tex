@@ -104,7 +104,8 @@ Nella realizzazione del sistema Quizzipedia verrà adottato il design pattern Mo
 \item\textbf{Presenter}: Inoltra le richieste della View al Model
 	\end {itemize}
 	\subsection{Descrizione del componente Model}
-	\subsection{Descrizione del componente View}	
+	\subsection{Descrizione del componente View}
+	La componente View è un'interfaccia che visualizza i dati del Model e inoltra i comandi dell'utente (o gli eventi da esso generati) al Presenter che si occuperà di gestire tali richieste sui dati; la View si occupa quindi solamente della rappresentazione grafica dei dati e non ha alcun contatto diretto con essi.
 	\subsection{Descrizione del componente Presenter}
 	\section{Tecnologie e strumenti utilizzati}
 	\subsection{HTML5}
@@ -163,6 +164,52 @@ con vettori associativi, che associano nomi di proprietà a valori.
 	\section{Diagrammi dei packages}
 	\subsection{Package della componente Model}
 	\subsection{Package della componente View}
+	QUESTA E' UNA BOZZA, CONTENUTO DA AMPLIARE, RIVEDERE E FORMATTARE
+	Descrizione: Package per il componente View del pattern architetturale MVP.
+Contiene le seguenti classi:
+Navigation
+UserAuthentication
+QuizExecution
+QuizManagement
+e i seguenti sotto-package:
+Sender -> singola classe UserEventSender (contiene tanti sottometodi ognuno per ogni situazione)
+Receiver -> ReceiveUpdate
+
+UserAuthentication: regola la registrazione, l'accesso e l'uscita di un utente
+	- login
+	- register
+	- logout
+
+Navigation: regola la navigazione nel sito e la visualizzazione a schermo degli elementi richiesti
+- showHome
+- viewCategory
+	-orderBy
+- chooseCategory
+- viewQuizList
+	- search
+	- orderBy
+- chooseQuiz
+- viewQMLTutorial
+- viewSiteInfo
+
+QuizExecution: gestisce lo svolgimento dei questionari
+- doQuiz
+	- viewQuestion
+	- doQuestion
+		- submitAnswer
+	- nextQuestion
+	- prevQuestion
+	- endQuiz
+		- viewResult
+			(- reDo)
+
+QuizManagement: gestisce creazione, modifica ed eliminazione di questionari e singoli quesiti
+- createQuiz
+- modifyQuiz
+- deleteQuiz
+- submitQuestion
+- modifyQuestion
+- deleteQuestion
 	\subsection{Package della componente Presenter}
 			
 	\section{Diagrammi delle classi}
