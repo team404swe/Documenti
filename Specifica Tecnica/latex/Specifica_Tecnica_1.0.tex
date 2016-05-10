@@ -94,18 +94,18 @@
 	\subsection{Architettura generale del sistema}
 	Quizzipedia viene identificato come (server based web-service); l'utente interagisce col sistema tramite interfaccia web su browser mentre i dati vengono organizzati su server esterno. La base di dati raccoglie principalmente quesiti memorizzati in QML, che su richiesta verranno elaborati da un interprete.
 Il suddetto interprete processa l'input QML, precedentemente validato nella forma da un parser apposito, traducendolo in linguaggio HTML5 visualizzabile da browser.
-Nella realizzazione del sistema Quizzipedia verrà adottato il design pattern Model View Controller.
+Nella realizzazione del sistema Quizzipedia verrà adottato il design pattern Model View Presenter.
 \begin{center}
-	\includegraphics[scale=0.6]{../images/mvc.PNG}
+	\includegraphics[scale=0.6]{../images/IMMAGINE DA INSERIRE}
 \end{center}
 \begin {itemize}
 \item\textbf{Model}: definisce l'organizzazione dei dati e ne specifica le modalità di accesso. Nel sistema Quizzipedia è costituito dalla parte server che opera sulla sottostante la base di dati. Fanno parte del Model anche le componenti \emph{Parser} e \emph{Interprete} che operano sui dati del DBMS.
 \item\textbf{View}: rappresenta l'interfaccia grafica presentata all'utilizzatore, la quale visualizza i dati e cattura le interazioni dell'utente.
-\item\textbf{Controller}: Inoltra le richieste della View al Model
+\item\textbf{Presenter}: Inoltra le richieste della View al Model
 	\end {itemize}
 	\subsection{Descrizione del componente Model}
 	\subsection{Descrizione del componente View}	
-	\subsection{Descrizione del componente Controller}
+	\subsection{Descrizione del componente Presenter}
 	\section{Tecnologie e strumenti utilizzati}
 	\subsection{HTML5}
 	Linguaggio di markup per la progettazione di pagine Web. Richiesto espressamente nel capitolato per la creazione dell'interfaccia utente (mi pare, devo controllare).
@@ -163,19 +163,16 @@ con vettori associativi, che associano nomi di proprietà a valori.
 	\section{Diagrammi dei packages}
 	\subsection{Package della componente Model}
 	\subsection{Package della componente View}
-	\subsection{Package della componente Controller}
+	\subsection{Package della componente Presenter}
 			
 	\section{Diagrammi delle classi}
 		\subsection{Diagrammi delle classi del Model}
 		\subsection{Diagrammi delle classi del View}
-		\subsection{Diagrammi delle classi del Controller}
+		\subsection{Diagrammi delle classi del Presenter}
 	\section{Diagrammi di attività}
 	\section{Diagrammi di sequenza}
 	\section{Tracciamento}
 	\section{Analisi di fattibilità}
-
-
-
 
 
 \end{document}
