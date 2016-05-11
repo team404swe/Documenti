@@ -95,6 +95,7 @@
 	\subsection{Architettura generale del sistema}
 	Il sistema Quizzipedia è di tipo \emph{client-server}; il \emph{client} fornisce all'utente un'interfaccia web su browser per la creazione e fruizione di questionari, mentre il lato \emph{server} si occupa di gestire e salvare i dati su DBMS PostgreSQL. La base di dati raccoglie principalmente quesiti memorizzati in QML, che su richiesta verranno elaborati da un interprete.
 Il suddetto interprete processa l'input QML, precedentemente validato nella forma da un parser apposito, traducendolo in linguaggio HTML5 visualizzabile da browser.
+<<<<<<< HEAD
 Nella realizzazione del sistema Quizzipedia verrà adottato il design pattern \emph{Model View Presenter} nella sua variante \emph{Passive View}.
 \begin{center}
 	\includegraphics[scale=1.3]{../images/mvp.png}
@@ -104,6 +105,16 @@ Nella realizzazione del sistema Quizzipedia verrà adottato il design pattern \e
 \item\textbf{View (Passive)}: rappresenta l'interfaccia grafica presentata all'utilizzatore, la quale visualizza i dati e cattura le interazioni dell'utente. L'aggettivo "Passive" indica che la View non è responsabile del proprio aggiornamento al variare del Model, compito che ricade sul Presenter.
 \item\textbf{Presenter}: controlla la View e ne gestisce il comportamento in reazione alle interazioni dell'utente, interagisce di conseguenza col Model per ottenere i dati necessari.
 Una volta ottenuti i dati si preoccupa di aggiornare la View. Nel sistema Quizzipedia implementa la parte logica, affiancata a quella grafica, del Client. Realizza un totale disaccoppiamento tra Model e View, controllandone i flussi di comunicazione.
+=======
+Nella realizzazione del sistema Quizzipedia verrà adottato il design pattern Model View Presenter.
+\begin{center}
+	\includegraphics[scale=0.6]{../images/IMMAGINE DA INSERIRE}
+\end{center}
+\begin {itemize}
+\item\textbf{Model}: definisce l'organizzazione dei dati e ne specifica le modalità di accesso. Nel sistema Quizzipedia è costituito dalla parte server che opera sulla sottostante la base di dati. Fanno parte del Model anche le componenti \emph{Parser} e \emph{Interprete} che operano sui dati del DBMS.
+\item\textbf{View}: rappresenta l'interfaccia grafica presentata all'utilizzatore, la quale visualizza i dati e cattura le interazioni dell'utente.
+\item\textbf{Presenter}: Inoltra le richieste della View al Model
+>>>>>>> origin/master
 	\end {itemize}
 	Altre possibili architetture che sono state prese in considerazione sono definite dai design pattern \emph{Model View Controller (MVC)} con \emph{Front Controller}, \emph{Model View Presenter (MVP)} nelle varianti \emph{Presentation Model} e \emph{Supervising Controller}, e il design pattern \emph{Model View ViewModel (MVVM)}.
 	\begin{itemize}
@@ -113,6 +124,7 @@ Una volta ottenuti i dati si preoccupa di aggiornare la View. Nel sistema Quizzi
 	\item Il pattern \emph{MVVM} prevede di creare per ogni View un ViewModel, che rappresenta tutte le informazioni e i comportamenti della corrispondente View. La View si limita infatti, a visualizzare graficamente quanto esposto dal ViewModel, a riflettere in esso i suoi cambi di stato oppure ad attivarne dei comportamenti (tramite data-binding). Tale architettura è indicata per applicazioni particolarmente dinamiche in cui View e Model devono essere costantemente aggiornati. Non è questo il caso di Quizzipedia.
 	\end{itemize}
 	\subsection{Descrizione del componente Model}
+<<<<<<< HEAD
 	Il Model, situato nella parte server del sistema svolge le seguenti funzioni:
 	\begin{itemize}
 		\item Interagisce con un database PostgreSQL nel quale vengono salvati i dati del sistema (ad es. domande, statistiche, utenti). Fornisce quindi adeguate funzionalità di salvataggio e caricamento da database di tali dati.
@@ -133,6 +145,11 @@ che conosce entrambe le altre e facendo da singolo tramite tra Model e View perm
 \end{itemize}
 \newpage
 
+=======
+	\subsection{Descrizione del componente View}
+	La componente View è un'interfaccia che visualizza i dati del Model e inoltra i comandi dell'utente (o gli eventi da esso generati) al Presenter che si occuperà di gestire tali richieste sui dati; la View si occupa quindi solamente della rappresentazione grafica dei dati e non ha alcun contatto diretto con essi.
+	\subsection{Descrizione del componente Presenter}
+>>>>>>> origin/master
 	\section{Tecnologie e strumenti utilizzati}
 	\subsection{HTML5}
 	Linguaggio di markup per la progettazione di pagine Web. Richiesto espressamente nel capitolato per la creazione dell'interfaccia utente (mi pare, devo controllare).
