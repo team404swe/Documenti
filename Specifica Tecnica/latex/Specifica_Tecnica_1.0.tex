@@ -105,16 +105,6 @@ Nella realizzazione del sistema Quizzipedia verrà adottato il design pattern \e
 \item\textbf{View (Passive)}: rappresenta l'interfaccia grafica presentata all'utilizzatore, la quale visualizza i dati e cattura le interazioni dell'utente. L'aggettivo "Passive" indica che la View non è responsabile del proprio aggiornamento al variare del Model, compito che ricade sul Presenter.
 \item\textbf{Presenter}: controlla la View e ne gestisce il comportamento in reazione alle interazioni dell'utente, interagisce di conseguenza col Model per ottenere i dati necessari.
 Una volta ottenuti i dati si preoccupa di aggiornare la View. Nel sistema Quizzipedia implementa la parte logica, affiancata a quella grafica, del Client. Realizza un totale disaccoppiamento tra Model e View, controllandone i flussi di comunicazione.
-=======
-Nella realizzazione del sistema Quizzipedia verrà adottato il design pattern Model View Presenter.
-\begin{center}
-	\includegraphics[scale=0.6]{../images/IMMAGINE DA INSERIRE}
-\end{center}
-\begin {itemize}
-\item\textbf{Model}: definisce l'organizzazione dei dati e ne specifica le modalità di accesso. Nel sistema Quizzipedia è costituito dalla parte server che opera sulla sottostante la base di dati. Fanno parte del Model anche le componenti \emph{Parser} e \emph{Interprete} che operano sui dati del DBMS.
-\item\textbf{View}: rappresenta l'interfaccia grafica presentata all'utilizzatore, la quale visualizza i dati e cattura le interazioni dell'utente.
-\item\textbf{Presenter}: Inoltra le richieste della View al Model
->>>>>>> origin/master
 	\end {itemize}
 	Altre possibili architetture che sono state prese in considerazione sono definite dai design pattern \emph{Model View Controller (MVC)} con \emph{Front Controller}, \emph{Model View Presenter (MVP)} nelle varianti \emph{Presentation Model} e \emph{Supervising Controller}, e il design pattern \emph{Model View ViewModel (MVVM)}.
 	\begin{itemize}
@@ -124,7 +114,6 @@ Nella realizzazione del sistema Quizzipedia verrà adottato il design pattern Mo
 	\item Il pattern \emph{MVVM} prevede di creare per ogni View un ViewModel, che rappresenta tutte le informazioni e i comportamenti della corrispondente View. La View si limita infatti, a visualizzare graficamente quanto esposto dal ViewModel, a riflettere in esso i suoi cambi di stato oppure ad attivarne dei comportamenti (tramite data-binding). Tale architettura è indicata per applicazioni particolarmente dinamiche in cui View e Model devono essere costantemente aggiornati. Non è questo il caso di Quizzipedia.
 	\end{itemize}
 	\subsection{Descrizione del componente Model}
-<<<<<<< HEAD
 	Il Model, situato nella parte server del sistema svolge le seguenti funzioni:
 	\begin{itemize}
 		\item Interagisce con un database PostgreSQL nel quale vengono salvati i dati del sistema (ad es. domande, statistiche, utenti). Fornisce quindi adeguate funzionalità di salvataggio e caricamento da database di tali dati.
@@ -136,20 +125,15 @@ Nella realizzazione del sistema Quizzipedia verrà adottato il design pattern Mo
 	\subsection{Descrizione del componente Presenter}
 	Il Presenter ricopre tre ruoli fondamentali: recepire ed elaborare gli input dell'utente,
 comunicare col Model, ed aggiornare il View con i dati ottenuti. Per poterlo fare possiede le seguenti caratteristiche:
-\begin{itemize}
-	\item Conosce i riferimenti alle altre due componenti. Il Presenter è l'unica componente
+	\begin{itemize}
+		\item Conosce i riferimenti alle altre due componenti. Il Presenter è l'unica componente
 che conosce entrambe le altre e facendo da singolo tramite tra Model e View permette il loro totale disaccoppiamento;
-	\item E' in grado di elaborare gli input della View e tradurli in azioni sul Model. Viceversa ad ogni modifica del Model si preoccupa di aggiornare di conseguenza la View.  
-	\item Al momento della creazione di una nuova domanda esegue il \emph{parsing} del codice QML tramite un componente chiamato \emph{Parser}. Se la domanda è sintatticamente corretta può richiedere al Model di salvarla nel database.
-	\item Possiede dei gestori che possano modificare l'aspetto del View in reazione all'interazione dell'utente o ai dati ricevuti dal Model. Al suo interno il Presenter contiene delle classi che in risposta ad un evento, quale l'interazione dell'utente con il View o il ricevimento di una risposta dal Model, modificano l'aspetto della GUI presentata.
-\end{itemize}
-\newpage
+		\item E' in grado di elaborare gli input della View e tradurli in azioni sul Model. Viceversa ad ogni modifica del Model si preoccupa di aggiornare di conseguenza la View.  
+		\item Al momento della creazione di una nuova domanda esegue il \emph{parsing} del codice QML tramite un componente chiamato \emph{Parser}. Se la domanda è sintatticamente corretta può richiedere al Model di salvarla nel database.
+		\item Possiede dei gestori che possano modificare l'aspetto del View in reazione all'interazione dell'utente o ai dati ricevuti dal Model. Al suo interno il Presenter contiene delle classi che in risposta ad un evento, quale l'interazione dell'utente con il View o il ricevimento di una risposta dal Model, modificano l'aspetto della GUI presentata.
+	\end{itemize}
+	\newpage
 
-=======
-	\subsection{Descrizione del componente View}
-	La componente View è un'interfaccia che visualizza i dati del Model e inoltra i comandi dell'utente (o gli eventi da esso generati) al Presenter che si occuperà di gestire tali richieste sui dati; la View si occupa quindi solamente della rappresentazione grafica dei dati e non ha alcun contatto diretto con essi.
-	\subsection{Descrizione del componente Presenter}
->>>>>>> origin/master
 	\section{Tecnologie e strumenti utilizzati}
 	\subsection{HTML5}
 	Linguaggio di markup per la progettazione di pagine Web. Richiesto espressamente nel capitolato per la creazione dell'interfaccia utente (mi pare, devo controllare).
