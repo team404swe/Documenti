@@ -1,0 +1,36 @@
+PACKAGE MODEL: DESCRIZIONE
+
+Descrizione: Package per il componente Model del pattern architetturale MVP.
+Contiene i seguenti sotto packages:
+Model: contiene la classe Database che si occupera' di gestire le richieste in arrivo dal Presenter e avvisera' quest'ultimo ogni qualvota si verifica un cambiamento dei dati salvati nel sistema tramite appositi eventi;
+Interpreter: formato da un'unica classe che fornira' la traduzione del quesito salvato nella base di dati in formato QML in linguaggio HTML5
+Parser: formato da un'unica classe che controllera' se il testo fornito e' corretto secondo le regole sintattiche di QML
+
+
+Model:
+Contiene le classi:
+  --Database: gestira' tutte le operazioni di lettura/scrittura che il Presenter richiedera';
+  --tipologiaEvento: serve per notificare al Presenter l'occorenza di un evento che neccessita di essere gestito da quest'ultimo;
+  //Decidere se creare una classe apposita' per gestire i criteri evitando magari le stringhe o roba simile
+  --Criteri: classe che servira' per identificare delle tipologie di scelte che verranno richeste dalla classe Database per effettuare le operazioni di scrittura e lettura;
+  
+Database:
+  -- saveData (testo, Criteri[])
+  -- retrieveData (Criteri[])
+  -- updateData (testo, Criteri[])
+  -- deleteData (Criteri[])
+  -- search (testo, Criteri[])
+  -- sendStateChangeEvent (tipologiaEvento) toPresenter
+Funzione del componente: La classe permettera' l'inserimento, la modifica e la rimozione dei dati all'interno del database;
+Relazioni d'uso di altri componenti: Interagisce con il Presenter, inviando o ricevendo dati;
+Attivita' svolte e dati trattati: gestisce la lettura, la modifica e la rimozione dei dati dal database;
+
+
+Interpreter:
+  --Interprete: Contiene un'unica funzionalita' di traduzione;
+  
+Interprete:
+  --translate (testo)
+Funzione del componente: Tradurre il testo fornito in sintassi QML in codice HTML5;
+Relazioni d'uso di altri componenti: Viene invocata dal Presenter goni qualvolta verra' l'utente dovra' rispondere ad una domanda di unquestionario;
+Attivita' svolte e dati trattati: traduzione di un testo in codice HTML5;
