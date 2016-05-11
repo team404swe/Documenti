@@ -1,0 +1,104 @@
+PACKAGE VIEW: DESCRIZIONE PACKAGE + CLASSI (BOZZA)
+
+Descrizione: Package per il componente View del pattern architetturale MVP.
+Contiene i seguenti sotto packages:
+Pages: contiene la classe CurrentView e la classe astratta Page più tutte le sue concretizzazioni derivate
+UserAuthentication contiene funzionalità per l'autenticazione dell'utente (comuni a più pagine)
+Sender -> singola classe UserEventSender (contiene tanti sottometodi ognuno per ogni situazione)
+Receiver -> classe ReceiveUpdate che riceve aggiornamenti dal presenter e gestisce le pagine di conseguenza
+
+Pages:
+Contiene le seguenti classi:
+MainPage gestisce l'aspetto iniziale del sistema. Questa classe presenta all'utente le generiche funzionalità di registrazione, login e logout (ricordiamo facoltativi nel sistema Quizzipedia ma obbligatori nel caso l'utente voglia tenere traccia dei propri progressi). Questa classe serve principalmente da portale verso le altre funzionalità offerte dal sistema.
+CategoryListPage regola la visualizzazione delle categorie di questionari disponibili. Rende disponibili all'utente una funzionalità di sorting delle categorie secondo vari parametri (n.d.r tipo ordine alfabetico o questionari più recenti o questionari più svolti?)
+QuizListPage si occupa della visualizzazione dei questionari appartenenti a una certa categoria, anche qui sono presenti funzionalità di ordinamento dei questionari secondo diversi parametri oltre ad una funzionalità di ricerca più dettagliata.
+QuizExecutionPage questa classe gestisce lo svolgimento di un questionario da parte dell'utente e ne regola le possibili interazioni
+QuizManagmentPage gestisce l'interfaccia per la creazione, modifica ed elminazione di nuovi questionari e singoli quesiti
+QuizTutorialPage ha come scopo quello di presentare all'utente varie indicazioni sulla sintassi e l' utilizzo del QML
+
+Page
+	- getUserInput(form,clickableArea)
+	- updateContent()
+Funzione del componente: rappresenta una pagina web //meglio renderla interfaccia?
+Relazioni d'uso di altri componenti: classe astratta che viene concretizzata dalle sue classi derivate (MainPage, CategoryListPage, QuizListPage,QuizTutorialPage, QuizExecutionPage, QuizManagementPage)
+Attività svolte e dati trattati: le funzionalità offerte dalla classe sono compiti fondamentali che una pagina web deve svolgere ovvero ricevere gli input dell'utente (quali click su link o dati inseriti in un form che poi andranno passati al presenter) e aggiornarsi quando nuovi dati sono disponibili
+
+CurrentView
+	- UserAutentication::User currentUser
+	- Page currentPage
+	- Sender::UserEventSender toPresenter
+	- Receiver::ReceiveUpdate fromPresenter
+	- enterLink(Page)
+	//- sendUserInput() gestito da toPresenter
+	- backToHome()
+	- open()
+	- close()
+Funzione del componente: lo scopo di questa classe è quello di rappresentare la vista del sistema attualmente disponibile all'utente e di gestirne eventuali cambiamenti
+Relazioni d'uso di altri componenti:(da dire bene) toPresenter, fromPresenter e currentUser sono parametri di tipi appartenenti ad altri package percui c'è una relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed UserAutentication
+Attività svolte e dati trattati: sono presenti dei parametri per la memorizzazione dell'utente corrente, della pagina corrente e per l'invio e la ricezione di informazioni dal Presenter. La funzionalità principale offerta è enterLink (nome da rivedere) che, come suggerisce il nome, permette all'utente di spostarsi nell'applicazione cambiando pagina. Sono presenti altre funzionalità minori che gestiscono l'avvio e la chiusura della sessione e il ritorno alla homepage.
+
+MainPage
+	- viewSiteInfo()
+	- showPopularQuiz()
+Funzione del componente: mostra la pagina principale a cui l'utente arriva entrando nella piattaforma Quizzipedia
+Relazioni d'uso di altri componenti: concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage)
+Attività svolte e dati trattati: permette l'autenticazione/registrazione dell'utente nel sistema, da una panoramica del sistema generale all'utente
+
+CategoryListPage
+	- viewCategory()
+	- orderBy(criterio)
+	- chooseCategory()
+Funzione del componente: pagina che elenca gli argomenti tra i quali l'utente può scegliere e fornisce operazioni di ordinamento sulla vista
+Relazioni d'uso di altri componenti: concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage)
+Attività svolte e dati trattati: le funzionalità di questa classe permettono la visualizzazione delle varie categorie, l'ordinamento per diversi criteri (alfabetico, categorie più visitate, ultimi questionari disponibili...) e la scelta di una tra di esse
+
+QuizListPage
+	- viewQuizList()
+	- search(what)
+	- orderBy(criterio)
+	- chooseQuiz()
+Funzione del componente: pagina che elenca i questionari (su uno stesso argomento) tra i quali l'utente può scegliere e fornisce operazioni di ordinamento sulla vista
+Relazioni d'uso di altri componenti: concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage). L'argomento visualizzato è quello scelto nella precedente pagina CategoryListPage
+Attività svolte e dati trattati: le funzionalità di questa classe permettono la visualizzazione di informazioni sui vari questionari, l'ordinamento per diversi criteri (alfabetico, più visitato, novità...) e la scelta di uno tra essi
+
+QuizTutorialPage
+	- viewQMLTutorial()
+Funzione del componente: questa pagina visualizza un breve manuale che spiega l'uso e la sintassi del linguaggio QML (vedi analisi_dei_requisiti_2.0.pdf)
+Relazioni d'uso di altri componenti: concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage)
+Attività svolte e dati trattati: questa classe svolge solamente una semplice attività di visualizzazione di informazioni
+
+QuizExecutionPage
+	- viewQuestion(questionNumber)
+	- answerQuestion(userAnswer)
+	- nextQuestion()
+	- prevQuestion()
+	- endQuiz()
+		- viewResult()
+Funzione del componente: questa classe rappresenta il punto focale del sistema Quizzipedia ovvero la parte in cui l'utente svolge i questionari scelti
+Relazioni d'uso di altri componenti: concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage). Il questionario visualizzato è quello scelto nella precedente pagina QuizListPage.
+Attività svolte e dati trattati: l'utente può navigare tra le domande del questionario nell'ordine che preferisce, dare le proprie risposte e, al termine del questionario, visualizzarne il risultato; per ognuna di queste funzionalità è presente un metodo della classe
+
+QuizManagementPage
+	- createQuiz()
+	- modifyQuiz()
+	- deleteQuiz()
+	- submitQuestion()
+	- modifyQuestion()
+	- deleteQuestion()
+Funzione del componente: gestisce creazione, modifica ed eliminazione di singole domande e interi questionari
+Relazioni d'uso di altri componenti: concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage)
+Attività svolte e dati trattati: [...]
+
+TODO
+UserAuthentication::User? regola la registrazione, l'accesso e l'uscita di un utente
+	- login(mail,password)
+	- register(newMail,newPassword)
+	- logout()
+Funzione del componente:
+Relazioni d'uso di altri componenti:
+Attività svolte e dati trattati:
+
+Sender
+[...]
+Receiver
+[...]

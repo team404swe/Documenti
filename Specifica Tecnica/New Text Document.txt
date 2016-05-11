@@ -1,0 +1,163 @@
+mvc
+<invasionePolonia>
+	anteprima domanda	
+</invasionePolonia>
+
+#multiple_ans
+
+??? di che colore era il cavallo bianco di naèpoleone ???
+
+\question{in che anno venne invasa la polonia}
+[476]
+[] \[2016
+X-[19X-[39]asdkasdl
+[*]149[2
+[*]jghuhjh
+
+
+Quizzipedia viene identificato come (server based web-service); l'utente interagisce col sistema tramite interfaccia web su browser mentre i dati vengono organizzati su server esterno. La base di dati raccoglie principalmente questiti memorizzati in QML, che su richiesta verrano elaborati da un interprete.
+Il suddetto interprete processa l'input QML, precedentemente validato nella forma da un parser apposito, traducendolo in linguaggio HTML5 visualizzabile da broswer.
+Nella realizzazione del sistema Quizzipedia verrà adottato il design pattern Model View Controller.
+[figura]
+-? Model: definisce l'organizzazione dei dati e ne specifica le modalità di accesso, nel sistema Quizzipedia è costituito dalla parte server e la base di dati sottostante. Fanno parte del Model anche le componenti parser e interprete che operano sui dati del DBMS.
+- View: rappresenta l'interfaccia grafica presentata all'utilizzatore, la quale visualizza i dati e cattura le interazioni dell'utente.
+- Controller: Inoltra le richieste della view al model
+
+3.1 Metodo e formalismo di specifica
+I contenuti della specifica saranno presentati seguendo l'approccio top-down, secondo la
+logica seguita nella fase di progettazione: dalla descrizione macroscopica del sistema si
+scenderà sempre più in dettaglio passando alla descrizione delle singole componenti. Infne
+verranno descritti i design pattern utilizzati e come essi sono stati applicati.
+Per agevolare la comprensione si è scelto di utilizzare i diagrammi dei package, delle classi,
+di attività e di sequenza, degli standard UML 2.0.
+
+Tecnologie e strumenti utilizzati
+ HTML5
+Linguaggio di markup per la progettazione di pagine Web. Richiesto espressamente nel
+capitolato per la creazione dell'interfaccia utente (mi pare, devo controllare).
+? Vantaggi: Favorisce la portabilità su diversi dispositivi (desktop, smartphone, tablet...) e browser.
+Sono punti a favore anche l'elevata compatibilità con tecnologie quali CSS3 e Javascript.
+? Svantaggi: essendo HTML5 un linguaggio non ancora standard il rischio nel suo uti-
+lizzo è l'istabilità dei tag utilizzati. Un tag oggi accettato potrebbe essere modificato
+in un futuro prossimo, rendendo la visualizzazione dell'interfaccia utente dipenden-
+te dal stabilità dei tag utilizzati. 
+Utilizzo nel sistema Quizzipedia: ---
+ JavaScript
+E' un linguaggio di scripting debolmente orientato agli oggetti, utilizzato nelle applicazioni
+Web. Viene interpretato all'interno del browser. Permette di definire funzionalità simili a
+quelle offerte da C++ e Java, quali cicli e strutture di controllo.
+Viene solitamente affancato a pagine statiche HTML per poter gestire i contenuti dina-
+micamente, offrendo funzionalità che il linguaggio di markup non può offrire.
+? Vantaggi: eseguito lato Client (sul browser) non sovraccarica il Server per l'esecuzione di richieste, anche se lo script è complesso.
+Nel sistema Quizzipedia Javascript rivestirà un ruolo importante, verrà infatti utilizzato nella realizzazione del parser/interprete/boh andrea dimmi te.
+? Svantaggi: per script sorgenti molto corposi, puo risultare oneroso in termini di
+tempo lo scaricamento dei contenuti. Deve, inoltre, fare affdamento ad un linguaggio
+che possa fisicamente effettuare transazioni di dati quando lo script esegue operazioni
+su oggetti remoti (eg: database).
+E' altresì un linguaggio non tipizzato, quindi occorre porre attenzione ai tipi delle
+variabili che non sono dichiarati, ma variano dinamicamente.
+? Variabili e oggetti: le variabili se sono dichiarate all'interno di una funzione sono
+visibili solo all'interno di essa; se sono invece esterne sono globali. Vengono dichiarate
+con la keyword var o semplicemente assegnando loro un valore.
+Ogni elemento in JavaScript è un tipo primitivo o un oggetto.
+Gli oggetti sono entità dotate di unicità (sono uguali solo a sè stessi) e identificabili
+con vettori associativi, che associano nomi di proprietà a valori.
+Utilizzo nel sistema Quizzipedia: ---
+
+
+
+			<-----UPDATE VIEWS<----			<-----STATE CHANGE EVENTS<-----
+		VIEW				  PRESENTER   						MODEL
+			----->USER EVENTS----->			----->UPDATE MODEL----->
+
+
+BIG PACKAGE: QUIZZIPEDIA
+SUB-PACKAGES: FRONT-END; BACK-END;
+
+BIG PACKAGE: FRONT-END;
+SUB: VIEW;
+
+BIG: BACK-END
+SUB: PRESENTER; MODEL;
+
+PACKAGE VIEW:
+- login
+- register
+- logout
+- viewCategory
+	-orderBy
+- chooseCategory
+- viewQuizList
+	- search
+	- orderBy
+- chooseQuiz
+- doQuiz
+	- viewQuestion
+	- doQuestion
+		- submitAnswer
+	- nextQuestion
+	- prevQuestion
+	- endQuiz
+		- viewResult
+			(- reDo)
+- createQuiz
+- modifyQuiz
+- deleteQuiz
+- submitQuestion
+- modifyQuestion
+- deleteQuestion
+- viewQMLTutorial
+SUB: Sender	
+	- sendUserEvent
+SUB: Receiver
+	- receiveUpdate  
+
+PACKAGE PRESENTER:
+SUB: UpdateView
+	- updateQuiz
+	- updateResult
+	- update...
+SUB: RequestToModel
+	- callParser
+	- callInterpreter
+	- requestQuiz
+	- requestQuestion
+	- requestStats
+	- requestSave
+	- ...
+
+PACKAGE MODEL:
+- saveData
+- retrieveData
+- updateData
+- deleteData
+- search
+- sendStateChangeEvent
+SUB: Parser
+	- check
+SUB: Interpreter
+	- translate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
