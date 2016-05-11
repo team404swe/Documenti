@@ -32,5 +32,15 @@ Interpreter:
 Interprete:
   --translate (testo)
 Funzione del componente: Tradurre il testo fornito in sintassi QML in codice HTML5;
-Relazioni d'uso di altri componenti: Viene invocata dal Presenter goni qualvolta verra' l'utente dovra' rispondere ad una domanda di unquestionario;
+Relazioni d'uso di altri componenti: Viene invocata dal Presenter ogni qualvolta l'utente dovra' rispondere ad una domanda di unquestionario;
 Attivita' svolte e dati trattati: traduzione di un testo in codice HTML5;
+
+
+Parser:
+  --Parser: Contiene un'unica funzionalita' di traduzione;
+  
+Parser:
+  --parsing (testo)
+Funzione del componente: controlla che il testo fornito risulti corretto secondo la sintassi QML;
+Relazioni d'uso di altri componenti: Viene invocata dal Presenter ogni qualvolta l'utente compilera' il form per l'inserimento di un nuovo quesito all'interno del sistema;
+Attivita' svolte e dati trattati: controllo sintattico;
