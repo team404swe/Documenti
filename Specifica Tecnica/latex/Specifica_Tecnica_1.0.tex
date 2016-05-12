@@ -38,9 +38,8 @@
 	
 	\beginregistro
 	
-	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm} 
-	\textbf{Descrizione}}
-	\rigaregistro{0.1.0}{Luca Alessio (Progettista)}{30/04/2016}{Prima stesura sezioni "Package della componente View" e "Diagrammi delle classi del View"}	
+	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm} \textbf{Descrizione}}
+	\rigaregistro{0.0.7}{Davide Bortot (Progettista)}{29/04/2016}{Stesura della sezione §4.3 "Package Presenter" e delle sue sottosezioni.}
 	\rigaregistro{0.0.6}{Davide Bortot (Progettista)}{28/04/2016}{Stesura delle sezioni §2.2, §2.3, §2.4 con la descrizione d'alto livello delle componenti MVP.}
 	\rigaregistro{0.0.5}{Luca Alessio (Progettista)}{27/04/2016}{Stesura parziale sezione "Tecnologie e strumenti utilizzati"}
 	\rigaregistro{0.0.4}{Davide Bortot (Progettista)}{25/04/2016}{Ampliata la sezione "Architettura generale del sistema".}
@@ -121,6 +120,7 @@ Una volta ottenuti i dati si preoccupa di aggiornare la View. Nel sistema Quizzi
 		\item Interagisce con un database PostgreSQL nel quale vengono salvati i dati del sistema (ad es. domande, statistiche, utenti). Fornisce quindi adeguate funzionalità di salvataggio e caricamento da database di tali dati.
 		\item Al momento del salvataggio di una nuova domanda esegue il \emph{parsing} del codice QML tramite un componente chiamato \emph{Parser}. Se la domanda è sintatticamente corretta può essere salvata nel database.
 		\item Offre un'interfaccia logica di accesso al Presenter attraverso la quale richiedere dati e operazioni su di essi. Quest'interfaccia sarà l'unico punto di accesso disponibile al Presenter. Per accentrare le funzionalità d'accesso si farà uso del design pattern \emph{Façade}.
+		\item E' responsabile del calcolo ed aggiornamento delle statistiche relative a domande, questionari e utenti.
 	\end{itemize}
 	\subsection{Descrizione del componente View}
 	La componente View rappresenta l'interfaccia grafica che visualizza i dati del Model e inoltra i comandi dell'utente (o gli eventi da esso generati) al Presenter che si occuperà di gestire tali richieste sui dati interagendo col Model; la View si occupa quindi solamente della rappresentazione grafica dei dati e non ha alcun contatto diretto con essi. Essendo un'interfaccia web verrà realizzata tramite HTML5 e CSS3 per le parti statiche e con l'utilizzo di Javascript per le parti dinamiche. Per assicurare uno stile coerente tra le pagine web e migliorare l'adattabilità a piattaforme mobile verrà utilizzato il framework \emph{Materialize}.
@@ -154,6 +154,13 @@ ovvero creare fogli di stile che permettono all'utente di modificare alcuni aspe
 pagina Web
 		\item\textbf{Vantaggi}: Richiede un minor sforzo di interpretazione da parte del browser ed è leggero da scaricare
 		\item\textbf{Svantaggi}: Può presentare problemi di compatibilità con browser meno recenti
+	\end{itemize}
+	\subsection{Materialize}
+	Framework
+	\begin{itemize}
+		\item\textbf{Utilizzo}: 
+		\item\textbf{Vantaggi}: 
+		\item\textbf{Svantaggi}: 
 	\end{itemize}
 	\subsection{Javascript}
 	E' un linguaggio di scripting debolmente orientato agli oggetti, utilizzato nelle applicazioni
@@ -193,31 +200,98 @@ con vettori associativi, che associano nomi di proprietà a valori.
 	\section{Diagrammi dei packages}
 	\subsection{Package della componente Model}
 	\subsection{Package della componente View}
-	\\\\[DA INSERIRE FIGURA PACKAGE VIEW]\\\\
-	Il package per il componente View del pattern architetturale MVP contiene i seguenti sotto packages:
-	\begin{itemize}
-		\item\textbf{CurrentViewManager:} questo sotto package ha lo scopo di definire lo stato attuale del sistema Quizzipedia; per fare ciò si avvale delle classi:
-			\begin{itemize}
-				\item\textit{CurrentView}%mettere link alla sezione in cui è spiegata
-				\item\textit{Sender}%mettere link alla sezione in cui è spiegata
-			\end{itemize}
-		\item\textbf{Pages:} contiene la classe astratta \textit{Page}, che rappresenta una specifica situazione del sistema (ovvero una pagina web del sito), più tutte le sue derivazioni concrete:
-			\begin{itemize}
-				\item\textit{MainPage}%mettere link alla sezione in cui è spiegata
-				\item\textit{CategoryListPage}%mettere link alla sezione in cui è spiegata
-				\item\textit{QuizListPage}%mettere link alla sezione in cui è spiegata
-				\item\textit{QuizExecutionPage}%mettere link alla sezione in cui è spiegata
-				\item\textit{QuizManagementPage}%mettere link alla sezione in cui è spiegata
-				\item\textit{ViewTutorialPage}%mettere link alla sezione in cui è spiegata
-			\end{itemize}
-		\item\textbf{UserAuthentication:} contiene la classe \textit{User} e la sua derivata \textit{Admin} che raggruppano le funzionalità di autenticazione di un utente generico sulla piattaforma Quizzipedia; come \textit{Pages} anche \textit{UserAuthentication} è un package d'appoggio per la classe \textit{CurrentViewManager}::\textit{CurrentView}.\\\\
-	\end{itemize}
+	QUESTA E' UNA BOZZA, CONTENUTO DA AMPLIARE, RIVEDERE E FORMATTARE
+	Descrizione: Package per il componente View del pattern architetturale MVP.
+Contiene le seguenti classi:
+Navigation
+UserAuthentication
+QuizExecution
+QuizManagement
+e i seguenti sotto-package:
+Sender -> singola classe UserEventSender (contiene tanti sottometodi ognuno per ogni situazione)
+Receiver -> ReceiveUpdate
+
+UserAuthentication: regola la registrazione, l'accesso e l'uscita di un utente
+	- login
+	- register
+	- logout
+
+Navigation: regola la navigazione nel sito e la visualizzazione a schermo degli elementi richiesti
+- showHome
+- viewCategory
+	-orderBy
+- chooseCategory
+- viewQuizList
+	- search
+	- orderBy
+- chooseQuiz
+- viewQMLTutorial
+- viewSiteInfo
+
+QuizExecution: gestisce lo svolgimento dei questionari
+- doQuiz
+	- viewQuestion
+	- doQuestion
+		- submitAnswer
+	- nextQuestion
+	- prevQuestion
+	- endQuiz
+		- viewResult
+			(- reDo)
+
+QuizManagement: gestisce creazione, modifica ed eliminazione di questionari e singoli quesiti
+- createQuiz
+- modifyQuiz
+- deleteQuiz
+- submitQuestion
+- modifyQuestion
+- deleteQuestion
+
 	\subsection{Package della componente Presenter}
+	\begin{center}
+		\includegraphics[scale=0.6]{../images/PresenterPackage.png}
+	\end{center}
+	Il package del Presenter contiene i seguenti sub-package:
+	\begin{itemize}
+		\item \emph{UserInputManager}
+		\item \emph{ModelUpdater}
+		\item \emph{ViewUpdater}
+		\item \emph{Interpreter}
+	\end{itemize}
+	Gli elementi del package collaborano e interagiscono con l'obiettivo comune di trattare il flusso di dati tra View e Model e mantenere aggiornato lo stato di entrambi.
+	\subsubsection{Presenter::UserInputManager}
+	Il package \emph{UserInputManager} gestisce gli input degli utenti ricevuti dalla View, realizzando la logica dell'applicazione web. Per svolgere il proprio compito si interfaccia con i package \emph{ViewUpdater} e \emph{ModelUpdater} a seconda di quale componente deve aggiornare. Il package contiene al suo interno le seguenti classi:
+	\begin{itemize}
+		\item InputReceiver
+		\item ModelUpdater
+		\item ViewUpdater
+	\end{itemize}
+	\subsubsection{Presenter::ModelUpdater}
+	Il package \emph{ModelUpdater} ha il compito di riflettere le modifiche della View sul Model. Riceve dalla View i dati, se necessario li elabora, e li passa al Model. Il package contiene al suo interno le seguenti classi:
+	\begin{itemize}
+		\item ViewDataReceiver
+		\item ToModelSender
+	\end{itemize}
+	\subsubsection{Presenter::ViewUpdater}
+	Il package \emph{ViewUpdater} ha il compito di riflettere le modifiche del Model sulla View. Se i dati che riceve dal Model sono domande QML, queste vanno prima tradotte in linguaggio HTML per essere utilizzate nella View; per fare ciò si interfaccia con il package \emph{Interpreter}. Il package contiene al suo interno le seguenti classi:
+	\begin{itemize}
+		\item ModelDataReceiver
+		\item ToViewSender
+		\item Translator
+	\end{itemize}
+	\subsubsection{Presenter::Interpreter}
+	Il package \emph{Interpreter} è responsabile della traduzione di testo QML in codice HTML5 visualizzabile da browser. Per permettere al package di essere estendibile in futuro con nuovi tipi di "Interprete", le classi al suo interno sono organizzate seguendo il pattern \emph{Abstract Factory} . Il package contiene al suo interno le seguenti classi:
+	\begin{itemize}
+	\item Interpreter (<<interface>>)
+	\item AbsInterpreterFactory
+	\item QMLInterpreterFactory
+	\item QMLInterpreter
+	\item QML2HTMLInterpreter
+	\end{itemize}
 			
 	\section{Diagrammi delle classi}
 		\subsection{Diagrammi delle classi del Model}
 		\subsection{Diagrammi delle classi del View}
-		
 		\subsection{Diagrammi delle classi del Presenter}
 	\section{Diagrammi di attività}
 	\section{Diagrammi di sequenza}
