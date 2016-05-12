@@ -101,7 +101,7 @@ Nella realizzazione del sistema Quizzipedia verrà adottato il design pattern \e
 	\includegraphics[scale=1.3]{../images/mvp.png}
 \end{center}
 \begin {itemize}
-\item\textbf{Model}: definisce l'organizzazione dei dati e ne specifica le modalità di accesso. Nel sistema Quizzipedia è situato nella parte server che opera sulla sottostante base di dati. Fanno parte del Model anche le componenti \emph{Parser} e \emph{Interprete} che operano sui dati del DBMS.
+\item\textbf{Model}: definisce l'organizzazione dei dati e ne specifica le modalità di accesso. Nel sistema Quizzipedia è situato nella parte server che opera sulla sottostante base di dati. Fa parte del Model anche la componente \emph{Parser} che opera sui dati prima che essi vengano salvati nel DBMS.
 \item\textbf{View (Passive)}: rappresenta l'interfaccia grafica presentata all'utilizzatore, la quale visualizza i dati e cattura le interazioni dell'utente. L'aggettivo "Passive" indica che la View non è responsabile del proprio aggiornamento al variare del Model, compito che ricade sul Presenter.
 \item\textbf{Presenter}: controlla la View e ne gestisce il comportamento in reazione alle interazioni dell'utente, interagisce di conseguenza col Model per ottenere i dati necessari.
 Una volta ottenuti i dati si preoccupa di aggiornare la View. Nel sistema Quizzipedia implementa la parte logica, affiancata a quella grafica, del Client. Realizza un totale disaccoppiamento tra Model e View, controllandone i flussi di comunicazione.
@@ -117,7 +117,7 @@ Una volta ottenuti i dati si preoccupa di aggiornare la View. Nel sistema Quizzi
 	Il Model, situato nella parte server del sistema svolge le seguenti funzioni:
 	\begin{itemize}
 		\item Interagisce con un database PostgreSQL nel quale vengono salvati i dati del sistema (ad es. domande, statistiche, utenti). Fornisce quindi adeguate funzionalità di salvataggio e caricamento da database di tali dati.
-		\item E' responsabile della traduzione delle domande dal formato QML a formato HTML visualizzabile da browser.  Tale funzionalità viene richiesta al momento del caricamento da database di una domanda se non è stata preventivamente tradotta, o una volta per tutte al momento del salvataggio di una domanda.
+		\item Al momento del salvataggio di una nuova domanda esegue il \emph{parsing} del codice QML tramite un componente chiamato \emph{Parser}. Se la domanda è sintatticamente corretta può essere salvata nel database.
 		\item Offre un'interfaccia logica di accesso al Presenter attraverso la quale richiedere dati e operazioni su di essi. Quest'interfaccia sarà l'unico punto di accesso disponibile al Presenter. Per accentrare le funzionalità d'accesso si farà uso del design pattern \emph{Façade}.
 	\end{itemize}
 	\subsection{Descrizione del componente View}
@@ -126,11 +126,11 @@ Una volta ottenuti i dati si preoccupa di aggiornare la View. Nel sistema Quizzi
 	Il Presenter ricopre tre ruoli fondamentali: recepire ed elaborare gli input dell'utente,
 comunicare col Model, ed aggiornare il View con i dati ottenuti. Per poterlo fare possiede le seguenti caratteristiche:
 	\begin{itemize}
-		\item Conosce i riferimenti alle altre due componenti. Il Presenter è l'unica componente
-che conosce entrambe le altre e facendo da singolo tramite tra Model e View permette il loro totale disaccoppiamento;
+		\item Conosce i riferimenti alle altre due componenti. Il Presenter è l'unica componente che conosce entrambe le altre e facendo da singolo tramite tra Model e View permette il loro totale disaccoppiamento;
 		\item E' in grado di elaborare gli input della View e tradurli in azioni sul Model. Viceversa ad ogni modifica del Model si preoccupa di aggiornare di conseguenza la View.  
-		\item Al momento della creazione di una nuova domanda esegue il \emph{parsing} del codice QML tramite un componente chiamato \emph{Parser}. Se la domanda è sintatticamente corretta può richiedere al Model di salvarla nel database.
-		\item Possiede dei gestori che possano modificare l'aspetto del View in reazione all'interazione dell'utente o ai dati ricevuti dal Model. Al suo interno il Presenter contiene delle classi che in risposta ad un evento, quale l'interazione dell'utente con il View o il ricevimento di una risposta dal Model, modificano l'aspetto della GUI presentata.
+		\item E' responsabile della traduzione delle domande dal formato QML a formato HTML visualizzabile da browser, tramite un componente \emph{Interpreter}.  Tale funzionalità viene richiesta ogni qualvolta il Presenter richiede e riceve dal Model una domanda in formato QML.
+		\item Possiede dei gestori che possano modificare l'aspetto della View in reazione all'interazione dell'utente o ai dati ricevuti dal Model. Al suo interno il Presenter contiene delle classi che in risposta ad un evento, quale l'interazione dell'utente con la View o il ricevimento di una risposta dal Model, modificano l'aspetto della GUI presentata.
+		\item Gestisce la somministrazione di un questionario ad un utente, domanda dopo domanda, fino alla consegna e valutazione.
 	\end{itemize}
 	\newpage
 
