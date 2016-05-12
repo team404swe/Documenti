@@ -38,7 +38,9 @@
 	
 	\beginregistro
 	
-	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm} \textbf{Descrizione}}
+	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm} 
+	\textbf{Descrizione}}
+	\rigaregistro{0.1.0}{Luca Alessio (Progettista)}{30/04/2016}{Prima stesura sezioni "Package della componente View" e "Diagrammi delle classi del View"}	
 	\rigaregistro{0.0.6}{Davide Bortot (Progettista)}{28/04/2016}{Stesura delle sezioni §2.2, §2.3, §2.4 con la descrizione d'alto livello delle componenti MVP.}
 	\rigaregistro{0.0.5}{Luca Alessio (Progettista)}{27/04/2016}{Stesura parziale sezione "Tecnologie e strumenti utilizzati"}
 	\rigaregistro{0.0.4}{Davide Bortot (Progettista)}{25/04/2016}{Ampliata la sezione "Architettura generale del sistema".}
@@ -191,57 +193,31 @@ con vettori associativi, che associano nomi di proprietà a valori.
 	\section{Diagrammi dei packages}
 	\subsection{Package della componente Model}
 	\subsection{Package della componente View}
-	QUESTA E' UNA BOZZA, CONTENUTO DA AMPLIARE, RIVEDERE E FORMATTARE
-	Descrizione: Package per il componente View del pattern architetturale MVP.
-Contiene le seguenti classi:
-Navigation
-UserAuthentication
-QuizExecution
-QuizManagement
-e i seguenti sotto-package:
-Sender -> singola classe UserEventSender (contiene tanti sottometodi ognuno per ogni situazione)
-Receiver -> ReceiveUpdate
-
-UserAuthentication: regola la registrazione, l'accesso e l'uscita di un utente
-	- login
-	- register
-	- logout
-
-Navigation: regola la navigazione nel sito e la visualizzazione a schermo degli elementi richiesti
-- showHome
-- viewCategory
-	-orderBy
-- chooseCategory
-- viewQuizList
-	- search
-	- orderBy
-- chooseQuiz
-- viewQMLTutorial
-- viewSiteInfo
-
-QuizExecution: gestisce lo svolgimento dei questionari
-- doQuiz
-	- viewQuestion
-	- doQuestion
-		- submitAnswer
-	- nextQuestion
-	- prevQuestion
-	- endQuiz
-		- viewResult
-			(- reDo)
-
-QuizManagement: gestisce creazione, modifica ed eliminazione di questionari e singoli quesiti
-- createQuiz
-- modifyQuiz
-- deleteQuiz
-- submitQuestion
-- modifyQuestion
-- deleteQuestion
+	\\\\[DA INSERIRE FIGURA PACKAGE VIEW]\\\\
+	Il package per il componente View del pattern architetturale MVP contiene i seguenti sotto packages:
+	\begin{itemize}
+		\item\textbf{CurrentViewManager:} questo sotto package ha lo scopo di definire lo stato attuale del sistema Quizzipedia; per fare ciò si avvale delle classi:
+			\begin{itemize}
+				\item\textit{CurrentView}%mettere link alla sezione in cui è spiegata
+				\item\textit{Sender}%mettere link alla sezione in cui è spiegata
+			\end{itemize}
+		\item\textbf{Pages:} contiene la classe astratta \textit{Page}, che rappresenta una specifica situazione del sistema (ovvero una pagina web del sito), più tutte le sue derivazioni concrete:
+			\begin{itemize}
+				\item\textit{MainPage}%mettere link alla sezione in cui è spiegata
+				\item\textit{CategoryListPage}%mettere link alla sezione in cui è spiegata
+				\item\textit{QuizListPage}%mettere link alla sezione in cui è spiegata
+				\item\textit{QuizExecutionPage}%mettere link alla sezione in cui è spiegata
+				\item\textit{QuizManagementPage}%mettere link alla sezione in cui è spiegata
+				\item\textit{ViewTutorialPage}%mettere link alla sezione in cui è spiegata
+			\end{itemize}
+		\item\textbf{UserAuthentication:} contiene la classe \textit{User} e la sua derivata \textit{Admin} che raggruppano le funzionalità di autenticazione di un utente generico sulla piattaforma Quizzipedia; come \textit{Pages} anche \textit{UserAuthentication} è un package d'appoggio per la classe \textit{CurrentViewManager}::\textit{CurrentView}.\\\\
+	\end{itemize}
 	\subsection{Package della componente Presenter}
 			
 	\section{Diagrammi delle classi}
 		\subsection{Diagrammi delle classi del Model}
 		\subsection{Diagrammi delle classi del View}
+		
 		\subsection{Diagrammi delle classi del Presenter}
 	\section{Diagrammi di attività}
 	\section{Diagrammi di sequenza}
