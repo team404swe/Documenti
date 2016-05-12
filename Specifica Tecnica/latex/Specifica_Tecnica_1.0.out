@@ -23,8 +23,11 @@
 \BOOKMARK [1][-]{section.5}{Diagrammi delle classi}{}% 23
 \BOOKMARK [2][-]{subsection.5.1}{Diagrammi delle classi del Model}{section.5}% 24
 \BOOKMARK [2][-]{subsection.5.2}{Diagrammi delle classi del View}{section.5}% 25
-\BOOKMARK [2][-]{subsection.5.3}{Diagrammi delle classi del Presenter}{section.5}% 26
-\BOOKMARK [1][-]{section.6}{Diagrammi di attivit\340}{}% 27
-\BOOKMARK [1][-]{section.7}{Diagrammi di sequenza}{}% 28
-\BOOKMARK [1][-]{section.8}{Tracciamento}{}% 29
-\BOOKMARK [1][-]{section.9}{Analisi di fattibilit\340}{}% 30
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Package CurrentViewManager}{subsection.5.2}% 26
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Package Pages}{subsection.5.2}% 27
+\BOOKMARK [2][-]{subsection.5.3}{UserAuthentication}{section.5}% 28
+\BOOKMARK [2][-]{subsection.5.4}{Diagrammi delle classi del Presenter}{section.5}% 29
+\BOOKMARK [1][-]{section.6}{Diagrammi di attivit\340}{}% 30
+\BOOKMARK [1][-]{section.7}{Diagrammi di sequenza}{}% 31
+\BOOKMARK [1][-]{section.8}{Tracciamento}{}% 32
+\BOOKMARK [1][-]{section.9}{Analisi di fattibilit\340}{}% 33
