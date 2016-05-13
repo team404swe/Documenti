@@ -6,7 +6,7 @@
 	\author{}	
 
 
-\begin{document}
+	\begin{document}
 	\maketitle
 	\thispagestyle{empty}
 	\begin{center}	
@@ -40,7 +40,8 @@
 	
 	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm} 
 	\textbf{Descrizione}}
-	\rigaregistro{0.0.9}{Andrea Multineddu (Progettista)}{01/05/2016}{Stesura sezione "Package della componente Presenter" e prima stesura di "Diagrammi delle classi del Model".}
+	\rigaregistro{0.0.10}{Luca Alessio (Progettista)}{04/05/2016}{Stesura sezione "Diagrammi delle attività" e correzioni varie su altre sezioni.}
+	\rigaregistro{0.0.9}{Andrea Multineddu (Progettista)}{03/05/2016}{Stesura sezione "Package della componente Presenter" e prima stesura di "Diagrammi delle classi del Model".}
 	\rigaregistro{0.0.8}{Andrea Multineddu (Progettista)}{01/05/2016}{Prima stesura sezioni "Package della componente Model" e "Diagrammi delle classi del Model".}
 	\rigaregistro{0.0.7}{Luca Alessio (Progettista)}{30/04/2016}{Prima stesura sezioni "Package della componente View" e "Diagrammi delle classi del View".}	
 	\rigaregistro{0.0.6}{Davide Bortot (Progettista)}{28/04/2016}{Stesura delle sezioni §2.2, §2.3, §2.4 con la descrizione d'alto livello delle componenti MVP.}
@@ -190,7 +191,7 @@ con vettori associativi, che associano nomi di proprietà a valori.
 		\item\textbf{Vantaggi}: Tecnologia più robusta, stabile e performante di MySQL (inizialmente preso in considerazione ma poi scartato in favore di PostgreSQL).
 		\item\textbf{Svantaggi}: Complessità maggiore rispetto al classico MySQL.
 	\end{itemize}
-	
+	\newpage
 	\section{Diagrammi dei packages}
 	\subsection{Package della componente Model}
 	\begin{center}
@@ -218,6 +219,7 @@ con vettori associativi, che associano nomi di proprietà a valori.
 			\begin{itemize}
 				\item\textit{Statistiche}
 			\end{itemize}
+		\end{itemize}
 	
 	\subsection{Package della componente View}
 	\begin{center}
@@ -283,95 +285,95 @@ con vettori associativi, che associano nomi di proprietà a valori.
 	\item QMLInterpreter
 	\item QML2HTMLInterpreter
 	\end{itemize}
-			
+\newpage			
 	\section{Diagrammi delle classi}
 		\subsection{Diagrammi delle classi del Model}
 			\subsubsection{Package Database}
 			IMMAGINE
- 			\subsubsubsection{Classe Database}\\
-		    	\textbf{Funzione del componente:} la classe permettera' l'inserimento, la lettura, la modifica e la rimozione dei dati all'interno del database
-			\textbf{Relazioni d'uso di altri componenti:} interagisce con il Presenter, inviando o ricevendo dati sulla base delle richieste di quest'ultimo
-			\textbf{Attivita' svolte e dati trattati:} ogni metodo della classe consente l'inserimento, la lettura, la modifica e la rimozione di dati dal database, in seguito alla quale si possono verificare eventi per notificare al Presenter
-			\subsubsubsection{Interfaccia tipologiaEvento}\\
-		    	\textbf{Funzione del componente:} l'interfaccia identifichera' dei particolari eventi che richiedono l'intervento del Presenter
-			\textbf{Relazioni d'uso di altri componenti:} questa interfaccia verra implementata da classi che andranno a specificare un particolare tipo di evento
-			\subsubsubsection{Classe QuestionModifiedEvent}\\
-		    	\textbf{Funzione del componente:} la classe specifica la modifica di un quesito nel database
-				\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia tipologiaEvento
-				\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della modifica di un quesito
-			\subsubsubsection{Classe QuestionRemovedEvent}\\
-		    	\textbf{Funzione del componente:} la classe specifica la rimozione di un quesito nel database
-				\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia tipologiaEvento
-				\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della rimozione di un quesito
-			\subsubsubsection{Classe QuizModifiedEvent}\\
-		    	\textbf{Funzione del componente:} la classe specifica la modifica di un quiz nel database
-				\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia tipologiaEvento
-				\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della modifica di un quiz
-			\subsubsubsection{Classe QuizRemovedEvent}\\
-		    	\textbf{Funzione del componente:} la classe specifica la rimozione di un quiz nel database
-				\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia tipologiaEvento
-				\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della rimozione di un quiz
+ 			\subsubsubsection{Classe Database}
+		    	\textbf{Funzione del componente:} la classe permettera' l'inserimento, la lettura, la modifica e la rimozione dei dati all'interno del database\\
+			\textbf{Relazioni d'uso di altri componenti:} interagisce con il Presenter, inviando o ricevendo dati sulla base delle richieste di quest'ultimo\\
+			\textbf{Attivita' svolte e dati trattati:} ogni metodo della classe consente l'inserimento, la lettura, la modifica e la rimozione di dati dal database, in seguito alla quale si possono verificare eventi per notificare al Presenter\\
+			\subsubsubsection{Interfaccia tipologiaEvento}
+		    	\textbf{Funzione del componente:} l'interfaccia identifichera' dei particolari eventi che richiedono l'intervento del Presenter\\
+			\textbf{Relazioni d'uso di altri componenti:} questa interfaccia verra implementata da classi che andranno a specificare un particolare tipo di evento\\
+			\subsubsubsection{Classe QuestionModifiedEvent}
+		    	\textbf{Funzione del componente:} la classe specifica la modifica di un quesito nel database\\
+				\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia tipologiaEvento\\
+				\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della modifica di un quesito\\
+			\subsubsubsection{Classe QuestionRemovedEvent}
+		    	\textbf{Funzione del componente:} la classe specifica la rimozione di un quesito nel database\\
+				\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia tipologiaEvento\\
+				\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della rimozione di un quesito\\
+			\subsubsubsection{Classe QuizModifiedEvent}
+		    	\textbf{Funzione del componente:} la classe specifica la modifica di un quiz nel database\\
+				\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia tipologiaEvento\\
+				\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della modifica di un quiz\\
+			\subsubsubsection{Classe QuizRemovedEvent}
+		    	\textbf{Funzione del componente:} la classe specifica la rimozione di un quiz nel database\\
+				\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia tipologiaEvento\\
+				\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della rimozione di un quiz\\
 				
 			\subsubsection{Package Parser}
 			IMMAGINE
- 			\subsubsubsection{Classe Parser}\\
-		    	\textbf{Funzione del componente:} controlla che il testo fornito risulti corretto secondo la sintassi QML
-			\textbf{Attivita' svolte e dati trattati:} il Parser controlla che il testo fornito in input rispetta la sintassi QML e fornisce in caso di errore un messaggio avvertendo l'utente di dove si trova l'errore e la tipologia
+ 			\subsubsubsection{Classe Parser}
+		    	\textbf{Funzione del componente:} controlla che il testo fornito risulti corretto secondo la sintassi QML\\
+			\textbf{Attivita' svolte e dati trattati:} il Parser controlla che il testo fornito in input rispetta la sintassi QML e fornisce in caso di errore un messaggio avvertendo l'utente di dove si trova l'errore e la tipologia\\
 			
 			\subsubsection{Package Statistiche}
 			IMMAGINE
- 			\subsubsubsection{Classe Statistiche}\\
-		    	\textbf{Funzione del componente:} questa classe fornisce funzionalita' per il raccoglimento delle statistiche all'interno di Quizzipedia
+ 			\subsubsubsection{Classe Statistiche}
+		    	\textbf{Funzione del componente:} questa classe fornisce funzionalita' per il raccoglimento delle statistiche all'interno di Quizzipedia\\
 			\textbf{Attivita' svolte e dati trattati:} la classe aggiornera' le statistiche relative ai quesiti, questionari ed utenti.
 			Per i quesiti verranno indicati il numero di volte che e' stato proposto e il numero di risposte corrette.
 			Per i questionari verranno indicati le valutazioni medie ottenute dagli utenti e il numero di volte che e' stato proposto.
-			Per gli utenti verranno indicati la valutazione migliore e la media dei tentativi eseguiti su singolo quiz
+			Per gli utenti verranno indicati la valutazione migliore e la media dei tentativi eseguiti su singolo quiz\\
 			
 			\subsection{Diagrammi delle classi del View}
 		     \subsubsection{Package CurrentViewManager}
 			IMMAGINE		    
-		    	\subsubsubsection{Classe CurrentView}\\
-		    \textbf{Funzione del componente:} lo scopo di questa classe è quello di rappresentare la vista del sistema attualmente disponibile all'utente e di gestirne eventuali cambiamenti 
+		    	\subsubsubsection{Classe CurrentView}
+		    \textbf{Funzione del componente:} lo scopo di questa classe è quello di rappresentare la vista del sistema attualmente disponibile all'utente e di gestirne eventuali cambiamenti \\
 			\textbf{Relazioni d'uso di altri componenti:} (da dire bene) toPresenter, fromPresenter e currentUser sono parametri di tipi appartenenti ad altri package percui c'è una 
-relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed UserAuthentication
-			\textbf{Attività svolte e dati trattati:} sono presenti dei parametri per la memorizzazione dell'utente corrente, della pagina corrente e per l'invio e la ricezione di informazioni dal Presenter. La funzionalità principale offerta è enterLink (nome da rivedere) che, come suggerisce il nome, permette all'utente di spostarsi nell'applicazione cambiando pagina. Sono presenti altre funzionalità minori che gestiscono l'avvio e la chiusura della sessione e il ritorno alla homepage.
-			\subsubsubsection{Classe Sender}\\
-			\textbf{Funzione del componente:} inoltra le richieste dell'utente al presenter
-			\textbf{Relazioni d'uso di altri componenti:}  viene utilizzata all'interno di CurrentViewManager::CurrentView in risposta agli eventi che accadono sull'interfaccia web in seguito alle azioni compiute dall'utente; l'output dei metodi di questa classe viene poi processato dal presenter
+relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed UserAuthentication\\
+			\textbf{Attività svolte e dati trattati:} sono presenti dei parametri per la memorizzazione dell'utente corrente, della pagina corrente e per l'invio e la ricezione di informazioni dal Presenter. La funzionalità principale offerta è enterLink (nome da rivedere) che, come suggerisce il nome, permette all'utente di spostarsi nell'applicazione cambiando pagina. Sono presenti altre funzionalità minori che gestiscono l'avvio e la chiusura della sessione e il ritorno alla homepage.\\
+			\subsubsubsection{Classe Sender}
+			\textbf{Funzione del componente:} inoltra le richieste dell'utente al presenter\\
+			\textbf{Relazioni d'uso di altri componenti:}  viene utilizzata all'interno di CurrentViewManager::CurrentView in risposta agli eventi che accadono sull'interfaccia web in seguito alle azioni compiute dall'utente; l'output dei metodi di questa classe viene poi processato dal presenter\\
 			\textbf{Attività svolte e dati trattati:} ogni metodo di questa classe corrisponde ad una situazione che si verifica, attraverso un rispettivo metodo, in una classe derivata da Pages::Page; i dati restituiti da questi primi metodi verranno reinoltrati da questa classe al presenter\\
 			\subsubsection{Package Pages}
 			IMMAGINE\\
-			\subsubsubsection{Classe Page}\\
+			\subsubsubsection{Classe Page}
 		    \textbf{Funzione del componente:} rappresenta una pagina web //meglio renderla interfaccia?\\ 
 			\textbf{Relazioni d'uso di altri componenti:} classe astratta che viene concretizzata dalle sue classi derivate (MainPage, CategoryListPage, QuizListPage,QuizTutorialPage, QuizExecutionPage, QuizManagementPage)\\
 			\textbf{Attività svolte e dati trattati:} le funzionalità offerte dalla classe sono compiti fondamentali che una pagina web deve svolgere ovvero ricevere gli input dell'utente (quali click su link o dati inseriti in un form che poi andranno passati al presenter) e aggiornarsi quando nuovi dati sono disponibili\\
 			
-			\subsubsubsection{Classe MainPage}\\
+			\subsubsubsection{Classe MainPage}
 		    \textbf{Funzione del componente:} mostra la pagina principale a cui l'utente arriva entrando nella piattaforma Quizzipedia \\
 			\textbf{Relazioni d'uso di altri componenti:} concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage)\\
 			\textbf{Attività svolte e dati trattati:} permette l'autenticazione/registrazione dell'utente nel sistema, da una panoramica del sistema generale all'utente\\
 			
-			\subsubsubsection{Classe CategoryListPage}\\
+			\subsubsubsection{Classe CategoryListPage}
 		    \textbf{Funzione del componente:} pagina che elenca gli argomenti tra i quali l'utente può scegliere e fornisce operazioni di ordinamento sulla vista \\
 			\textbf{Relazioni d'uso di altri componenti:} concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage)\\
 			\textbf{Attività svolte e dati trattati:} le funzionalità di questa classe permettono la visualizzazione delle varie categorie, l'ordinamento per diversi criteri (alfabetico, categorie più visitate, ultimi questionari disponibili...) e la scelta di una tra di esse\\
 			
-			\subsubsubsection{Classe QuizListPage}\\
+			\subsubsubsection{Classe QuizListPage}
 		    \textbf{Funzione del componente:} pagina che elenca i questionari (su uno stesso argomento) tra i quali l'utente può scegliere e fornisce operazioni di ordinamento sulla vista\\
 			\textbf{Relazioni d'uso di altri componenti:} concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage). L'argomento visualizzato è quello scelto nella precedente pagina CategoryListPage\\
 			\textbf{Attività svolte e dati trattati:} le funzionalità di questa classe permettono la visualizzazione di informazioni sui vari questionari, l'ordinamento per diversi criteri (alfabetico, più visitato, novità...) e la scelta di uno tra essi\\
 			
-			\subsubsubsection{Classe QuizExecutionPage}\\
+			\subsubsubsection{Classe QuizExecutionPage}
 		    \textbf{Funzione del componente:} questa classe rappresenta il punto focale del sistema Quizzipedia ovvero la parte in cui l'utente svolge i questionari scelti\\
 			\textbf{Relazioni d'uso di altri componenti:} concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage). Il questionario visualizzato è quello scelto nella precedente pagina QuizListPage.\\
 			\textbf{Attività svolte e dati trattati:} l'utente può navigare tra le domande del questionario nell'ordine che preferisce, dare le proprie risposte e, al termine del questionario, visualizzarne il risultato; per ognuna di queste funzionalità è presente un metodo della classe\\
 			
-			\subsubsubsection{Classe QuizManagementPage}\\
+			\subsubsubsection{Classe QuizManagementPage}
 		    \textbf{Funzione del componente:} gestisce creazione, modifica ed eliminazione di singole domande e interi questionari\\
 			\textbf{Relazioni d'uso di altri componenti:} concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage)\\
 			\textbf{Attività svolte e dati trattati:} le funzionalità offerte dalla classe consentono creazione, modifca ed eliminazione di singoli quesiti e di interi questionari\\
 			
-			\subsubsubsection{Classe QuizTutorialPage}\\
+			\subsubsubsection{Classe QuizTutorialPage}
 		    \textbf{Funzione del componente:} questa pagina visualizza un breve manuale che spiega l'uso e la sintassi del linguaggio QML (vedi analisi\_dei\_requisiti\_2.0.pdf)\\
 			\textbf{Relazioni d'uso di altri componenti:} concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage)\\
 			\textbf{Attività svolte e dati trattati:} questa classe svolge solamente una semplice attività di visualizzazione di informazioni\\
@@ -381,10 +383,34 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 \textbf{Funzione del componente:} classe che rappresenta il singolo utilizzatore attuale del sistema nella propria sessione
 \textbf{Relazioni d'uso di altri componenti:} User viene utilizzato dalla classe CurrentViewManager::CurrentView
 \textbf{Attività svolte e dati trattati:} questa classe prevede le funzionalità basilari per l'autenticazione dell'utente all'interno del sistema come registrazione, login e  logout ed altre operazioni secondarie come il cambio o il recupero della password smarrita
+\newpage	
 			\subsection{Diagrammi delle classi del Presenter}
+\newpage	
 	\section{Diagrammi di attività}
+	
+\subsubsection{Creazione Questionario}
+IMMAGINE DIAGRAMMA 1\\
+\textbf{Precondizioni:} l'utente è autenticato nel sistema Quizzipedia e accede all'area del sito dedicata alla gestione (creazione, eliminazione e modifica) dei propri questionari\\
+\textbf{Postcondizioni:} l'utente ha creato con successo (o ha annullato la creazione di) un questionario su un argomento a piacere contenente domande già disponibili o create precedentemente da lui stesso. L'utente viene reindirizzato alla pagina principale. Il questionario creato può ora essere svolto da altri utenti del sistema Quizzipedia.\\ %da rivedere dove viene reindirizzato l'utente
+\textbf{Descrizione:} l'utente inizialmente assegna un titolo al questionario, sceglie l'argomento trattato tra le categorie presenti nel sistema e assegna un tempo limite entro il quale il questionario deve essere completato. A questo punto l'utente può iniziare ad inserire domande nel questionario: di volta in volta può scegliere tra le domande già disponibili sull'argomento (domande precaricate dal team404 e domande create da altri utenti del sistema) o tra le domande create da lui stesso (vedi diagramma d'attività in sezione successiva). Quando l'utente ha terminato di inserire le domande nel proprio questionario ne verrà presentata un'anteprima. L'utente ha infine la possibilità di annullare la creazione del questionario (e quindi tornare alla schermata precedente perdendo però i dati immessi in precedenza) o di confermarla con conseguente pubblicazione nel sito dove sarà disponibile agli altri utenti.\\
+
+\newpage
+\subsubsection{Creazione Domanda}
+IMMAGINE DIAGRAMMA 2\\
+\textbf{Precondizioni:} l'utente è autenticato nel sistema Quizzipedia e accede all'area del sito dedicata alla gestione (creazione, eliminazione e modifica) dei propri singoli quesiti\\
+\textbf{Postcondizioni:} l'utente ha creato con successo una nuova domanda. La nuova domanda sarà disponibile a tutti gli utenti qualora essi decidano di creare un questionario appartente alla stessa categoria. L'utente viene reindirizzato alla pagina di gestione questionari.\\ %anche qua decidere redirect
+\textbf{Descrizione:} l'utente inizialmente sceglie una categoria (argomento trattato) per la domanda, successivamente procede con la stesura del codice QML in un'area di testo apposita. Qualora l'utente abbia dubbi sull'uso della sintassi è presente nella pagina un link al tutorial interno al sistema. Quando l'utente ha terminato l'inserimento del codice può sottoporlo al sistema che lo valuterà. L'input viene parsato per controllare anomalie nella sintassi, se sono presenti errori ciò viene segnalato all'utente che ha la possibilità di correggere il codice errato, altrimenti la domanda viene considerata valida e il sistema procede alla sua memorizzazione nel sistema (con conseguente notifica positiva all'utente). Al termine del procedimento la domanda sarà disponibile a tutti gli utenti registrati durante la fase di creazione di questionari.\\
+\newpage
+\subsubsection{Compilazione Questionario}
+IMMAGINE DIAGRAMMA 3\\
+\textbf{Precondizioni:} durante le sue ultime interazioni con il sistema Quizzipedia, l'utente ha scelto un'argomento e un questionario inerente a quell'argomento che è intenzionato a svolgere. Alternativamente l'utente arriva dall'esterno seguendo un link ad un preciso questionario\\
+\textbf{Postcondizioni:} L'utente ha terminato lo svolgimento del questionario (ha risposto a tutte le domande oppure è scaduto il tempo limite). L'utente viene reindirizzato ad una pagina contenente i risultati della sua prestazione cognitiva\\
+\textbf{Descrizione:} Al momento dell'inizio del questionario (coincidente con il momento in cui l'utente accede alla pagina del questionario) il tempo limite inizia a scorrere, l'utente dovrà rispondere al maggior numero di domande possibili entro lo scadere del tempo (prefisatto dal creatore del questionario, vedi sezioni precedenti). Viene presentato un singolo quesito per volta all'utente. L'utente può dare una risposta oppure cambiare domanda. L'utente ha la libertà di scorrere le domande del questionario e di svolgerle in qualsiasi ordine. Se l'utente ha dato una risposta a tutte le domande può consegnare il questionario. Se il tempo limite scade il questionario verrà immediatamente consegnato anche se ancora incompleto. Al momento della consegna il questionario verrà valutato dal sistema che informerà poi l'utente sull'esito della sua performance mediante un redirect ad una apposita pagina contente statistiche e correzioni.\\
+\newpage
 	\section{Diagrammi di sequenza}
+	\newpage
 	\section{Tracciamento}
+	\newpage
 	\section{Analisi di fattibilità}
 
 

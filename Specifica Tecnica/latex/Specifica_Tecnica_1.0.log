@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.20)  12 MAY 2016 20:32
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.3.14)  12 MAY 2016 17:38
->>>>>>> 137e5b2634e2e9cd797f7304026938b72c8e48e3
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.3.14)  13 MAY 2016 21:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1000,11 +996,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 11.
-<<<<<<< HEAD
-<../team_not_found.jpg, id=143, 382.42876pt x 153.57375pt>
-=======
-<../team_not_found.jpg, id=136, 382.42876pt x 153.57375pt>
->>>>>>> 137e5b2634e2e9cd797f7304026938b72c8e48e3
+<../team_not_found.jpg, id=249, 382.42876pt x 153.57375pt>
 File: ../team_not_found.jpg Graphic file (type jpg)
 
 <use ../team_not_found.jpg>
@@ -1043,92 +1035,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--43
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|\T1/fca/m/n/9 Davide Bor-tot
- []
-
-
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
-[]|\T1/fca/m/n/9 Davide Bor-tot
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|\T1/fca/m/n/9 Luca Ales-sio
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
-[]|\T1/fca/m/n/9 Davide Bor-tot
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 46--46
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
 []|\T1/fca/m/n/9 Luca Ales-sio
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
-[]|\T1/fca/m/n/9 Davide Bor-tot
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 47--47
->>>>>>> 137e5b2634e2e9cd797f7304026938b72c8e48e3
+[]|\T1/fca/m/n/9 Davide Bor-tot
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 []|\T1/fca/m/n/9 Luca Ales-sio
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 3679) in paragraph at lines 46--46
-=======
-Underfull \hbox (badness 3679) in paragraph at lines 47--47
->>>>>>> 137e5b2634e2e9cd797f7304026938b72c8e48e3
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+[]|\T1/fca/m/n/9 Davide Bor-tot
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+[]|\T1/fca/m/n/9 Luca Ales-sio
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 50--50
 []|\T1/fca/m/n/9 Stesura par-zia-le se-zio-ne "Ar-chi-tet-tu-ra ge-ne-ra-le del
 
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
->>>>>>> 137e5b2634e2e9cd797f7304026938b72c8e48e3
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 []|\T1/fca/m/n/9 Davide Bor-tot
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 2671) in paragraph at lines 48--48
-=======
-Underfull \hbox (badness 2671) in paragraph at lines 49--49
->>>>>>> 137e5b2634e2e9cd797f7304026938b72c8e48e3
+Underfull \hbox (badness 2671) in paragraph at lines 52--52
 []|\T1/fca/m/n/9 Marco Cri-vel-la-ro
  []
 
 
-<<<<<<< HEAD
-Underfull \vbox (badness 10000) detected at line 49
+Underfull \vbox (badness 10000) detected at line 53
  []
 
-<../../team404_small.jpg, id=156, 382.42876pt x 153.57375pt>
+<../../team404_small.jpg, id=262, 382.42876pt x 153.57375pt>
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 51.
-=======
-Underfull \vbox (badness 10000) detected at line 50
- []
-
-<../../team404_small.jpg, id=149, 382.42876pt x 153.57375pt>
-File: ../../team404_small.jpg Graphic file (type jpg)
-
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 52.
->>>>>>> 137e5b2634e2e9cd797f7304026938b72c8e48e3
+Package pdftex.def Info: ../../team404_small.jpg used on input line 55.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
 
 
@@ -1137,309 +1092,356 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2 <../../team404_small.jpg>] (./Specifica_Tecnica_1.0.toc)
+[2 <../../team404_small.jpg>] (./Specifica_Tecnica_1.0.toc
+File: ../../team404_small.jpg Graphic file (type jpg)
+
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 47.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [3])
 \tf@toc=\write4
 \openout4 = `Specifica_Tecnica_1.0.toc'.
 
 File: ../../team404_small.jpg Graphic file (type jpg)
-
-<use ../../team404_small.jpg>
-<<<<<<< HEAD
-Package pdftex.def Info: ../../team404_small.jpg used on input line 55.
-=======
-Package pdftex.def Info: ../../team404_small.jpg used on input line 56.
->>>>>>> 137e5b2634e2e9cd797f7304026938b72c8e48e3
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 59.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [1] (./Specifica_Tecnica_1.0.lof)
+ [1]
+(./Specifica_Tecnica_1.0.lof)
 \tf@lof=\write5
 \openout5 = `Specifica_Tecnica_1.0.lof'.
 
-
-(./Specifica_Tecnica_1.0.lot)
+ (./Specifica_Tecnica_1.0.lot)
 \tf@lot=\write6
 \openout6 = `Specifica_Tecnica_1.0.lot'.
 
 File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
-<<<<<<< HEAD
-Package pdftex.def Info: ../../team404_small.jpg used on input line 59.
-=======
-Package pdftex.def Info: ../../team404_small.jpg used on input line 60.
->>>>>>> 137e5b2634e2e9cd797f7304026938b72c8e48e3
+
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 63.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [2]
 File: ../../team404_small.jpg Graphic file (type jpg)
-
-<use ../../team404_small.jpg>
-<<<<<<< HEAD
-Package pdftex.def Info: ../../team404_small.jpg used on input line 65.
-=======
-Package pdftex.def Info: ../../team404_small.jpg used on input line 66.
->>>>>>> 137e5b2634e2e9cd797f7304026938b72c8e48e3
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 69.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-<<<<<<< HEAD
-l.65 	\newpage
+l.69 	\newpage
                [1]
 LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <12> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 67.
-LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <8> not available
 (Font)              Font shape `T1/fca/b/n' tried instead on input line 71.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 71.
-LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <6> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 71.
-LaTeX Font Info:    Font shape `T1/fca/m/it' in size <10.95> not available
-(Font)              Font shape `T1/fca/m/sl' tried instead on input line 73.
-LaTeX Font Info:    Try loading font information for TS1+fca on input line 79.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\cantarell\ts1fca.fd"
-File: ts1fca.fd 2012/06/11 Fontinst v1.933 font definitions for TS1/fca.
-)
-Overfull \hbox (4.93379pt too wide) in paragraph at lines 87--90
-=======
-l.66 	\newpage
-               [1]
-LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <12> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <8> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 72.
+(Font)              Font shape `T1/fca/b/n' tried instead on input line 75.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 72.
+(Font)              <5> on input line 75.
 LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <6> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 72.
+(Font)              Font shape `T1/fca/b/n' tried instead on input line 75.
 LaTeX Font Info:    Font shape `T1/fca/m/it' in size <10.95> not available
-(Font)              Font shape `T1/fca/m/sl' tried instead on input line 74.
-LaTeX Font Info:    Try loading font information for TS1+fca on input line 80.
+(Font)              Font shape `T1/fca/m/sl' tried instead on input line 77.
+LaTeX Font Info:    Try loading font information for TS1+fca on input line 83.
  (c:/texlive/2015/texmf-dist/tex/latex/cantarell/ts1fca.fd
 File: ts1fca.fd 2012/06/11 Fontinst v1.933 font definitions for TS1/fca.
 )
-Overfull \hbox (4.93379pt too wide) in paragraph at lines 88--91
->>>>>>> 137e5b2634e2e9cd797f7304026938b72c8e48e3
+Overfull \hbox (4.93379pt too wide) in paragraph at lines 91--94
 [][]$\T1/cmtt/m/n/10.95 http : / / www . math . unipd . it / ~tullio / IS-[]1 /
  2015 / Dispense / PD01 . pdf$[][] [][]$http : / / www . math .
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 87--90
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 88--91
->>>>>>> 137e5b2634e2e9cd797f7304026938b72c8e48e3
+Underfull \hbox (badness 10000) in paragraph at lines 91--94
 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-<<<<<<< HEAD
-Package pdftex.def Info: ../../team404_small.jpg used on input line 92.
-=======
-Package pdftex.def Info: ../../team404_small.jpg used on input line 93.
->>>>>>> 137e5b2634e2e9cd797f7304026938b72c8e48e3
+Package pdftex.def Info: ../../team404_small.jpg used on input line 96.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-<<<<<<< HEAD
-l.92 	\newpage
-               [2] <../images/mvp.png, id=223, 196.0926pt x 123.3408pt>
+l.96 	\newpage
+               [2] <../images/mvp.png, id=362, 196.0926pt x 123.3408pt>
 File: ../images/mvp.png Graphic file (type png)
 
 <use ../images/mvp.png>
-Package pdftex.def Info: ../images/mvp.png used on input line 102.
+Package pdftex.def Info: ../images/mvp.png used on input line 105.
 (pdftex.def)             Requested size: 254.92035pt x 160.343pt.
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 113.
-=======
-l.93 	\newpage
-               [2] <../images/mvp.png, id=215, 196.0926pt x 123.3408pt>
-File: ../images/mvp.png Graphic file (type png)
-
-<use ../images/mvp.png>
-Package pdftex.def Info: ../images/mvp.png used on input line 103.
-(pdftex.def)             Requested size: 254.92035pt x 160.343pt.
-File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 114.
->>>>>>> 137e5b2634e2e9cd797f7304026938b72c8e48e3
+Package pdftex.def Info: ../../team404_small.jpg used on input line 116.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [3 <../images/mvp.png (PNG copy)>]
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.116 	\item I
+              l \emph{Presentation Model} invece è affine al design pattern...
+[3 <../images/mvp.png (PNG copy)>]
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 132.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 134.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [4]
 File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 137.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
 
-[5]
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 139.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [5]
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-<<<<<<< HEAD
-Package pdftex.def Info: ../../team404_small.jpg used on input line 179.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 184.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [6]
-<../images/PresenterPackage.png, id=245, 644.4075pt x 411.5375pt>
+File: ../../team404_small.jpg Graphic file (type jpg)
+
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 194.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [7]
+Underfull \hbox (badness 10000) in paragraph at lines 244--246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--246
+
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 246.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [8]
+<../images/PresenterPackage.png, id=394, 644.4075pt x 411.5375pt>
 File: ../images/PresenterPackage.png Graphic file (type png)
 
 <use ../images/PresenterPackage.png>
-Package pdftex.def Info: ../images/PresenterPackage.png used on input line 252.
+Package pdftex.def Info: ../images/PresenterPackage.png used on input line 249.
 
 (pdftex.def)             Requested size: 386.64748pt x 246.92441pt.
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 253.
-=======
-Package pdftex.def Info: ../../team404_small.jpg used on input line 182.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 265.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [6]
-Underfull \hbox (badness 10000) in paragraph at lines 213--215
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--215
-
- []
-
+ [9 <../images/PresenterPackage.png>]
 File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 223.
->>>>>>> 137e5b2634e2e9cd797f7304026938b72c8e48e3
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [7]
-Underfull \hbox (badness 10000) in paragraph at lines 224--234
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 235--240
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--245
-
- []
-
-File: ../../team404_small.jpg Graphic file (type jpg)
-<<<<<<< HEAD
-
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 277.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [8 <../images/PresenterPackage.png>]
-
-AED: lastpage setting LastPage
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 302.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 302.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
- (Specifica_Tecnica_1.0.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 302.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 302.
-Package rerunfilecheck Info: File `Specifica_Tecnica_1.0.out' has not changed.
-(rerunfilecheck)             Checksum: A77660ED2EB6A44C8D8EC1F95B145F65;2446.
- ) 
-Here is how much of TeX's memory you used:
- 10767 strings out of 493698
- 157046 string characters out of 3144408
- 285344 words of memory out of 3000000
- 13837 multiletter control sequences out of 15000+200000
- 27202 words of font info for 79 fonts, out of 3000000 for 9000
- 1025 hyphenation exceptions out of 8191
- 38i,16n,47p,973b,455s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cantarell/cantarell-01.enc}{C:/P
-rogram Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Program Fi
-les/MiKTeX 2.9/fonts/enc/dvips/cantarell/cantarell-03.enc}<C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/cantarell/Cantarell-Bold.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/cantarell/Cantarell-Regular.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/cantarell/Cantarell-Regular.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/cm-super/sftt1095.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/cm-super/sftt1440.pfb>
-Output written on Specifica_Tecnica_1.0.pdf (13 pages, 237747 bytes).
-PDF statistics:
- 300 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
- 301 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 245.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [8]
-Underfull \hbox (badness 10000) in paragraph at lines 246--250
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 251--255
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 256--260
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--265
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 266--270
-
- []
-
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 275.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [9] 
-AED: lastpage setting LastPage
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 292.
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 288.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 292.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 292.
+Underfull \hbox (badness 10000) in paragraph at lines 294--297
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--316
+
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 316.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [11]
+Underfull \hbox (badness 10000) in paragraph at lines 320--322
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--331
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--340
+
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 340.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [12]
+Overfull \hbox (33.90245pt too wide) in paragraph at lines 341--344
+\T1/fca/b/n/10.95 Relazioni d'u-so di al-tri com-po-nen-ti: \T1/fca/m/n/10.95 v
+ie-ne uti-liz-za-ta al-l'in-ter-no di Cur-rent-View-Ma-na-ger::CurrentView
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--355
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--360
+
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 361.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [13]
+Underfull \hbox (badness 10000) in paragraph at lines 362--365
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--370
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--375
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--380
+
+ []
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 382.
+
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 386.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [14]
+File: ../../team404_small.jpg Graphic file (type jpg)
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 386.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [15]
+File: ../../team404_small.jpg Graphic file (type jpg)
+
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 388.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [16]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 391.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--396
+
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 397.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [17]
+Underfull \hbox (badness 10000) in paragraph at lines 399--403
+
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 403.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [18]
+Underfull \hbox (badness 10000) in paragraph at lines 405--409
+
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 409.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [19]
+File: ../../team404_small.jpg Graphic file (type jpg)
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 411.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [20]
+File: ../../team404_small.jpg Graphic file (type jpg)
+
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 413.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [21] 
+AED: lastpage setting LastPage
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 417.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [22]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 417.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 417.
  (./Specifica_Tecnica_1.0.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 292.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 292.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 417.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 417.
 Package rerunfilecheck Info: File `Specifica_Tecnica_1.0.out' has not changed.
-(rerunfilecheck)             Checksum: 128D616445AB2D939B4C3C07758E8A88;2243.
+(rerunfilecheck)             Checksum: CD7597DA91654378B4B98C3E22009C76;4675.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 10930 strings out of 493033
- 158855 string characters out of 6137754
- 286915 words of memory out of 5000000
- 14210 multiletter control sequences out of 15000+600000
+ 11009 strings out of 493033
+ 160534 string characters out of 6137754
+ 290915 words of memory out of 5000000
+ 14248 multiletter control sequences out of 15000+600000
  27202 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,16n,47p,975b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2015/texmf-dist/fonts/enc/dvips/cantarell/cantarell-01.enc}{c:/te
-xlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texlive/2015
-/texmf-dist/fonts/enc/dvips/cantarell/cantarell-03.enc}<c:/texlive/2015/texmf-d
+ 38i,17n,47p,1001b,534s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2015/texmf-dist/fonts/enc/dvips/cantarell/cantarell-03.enc}{c:/te
+xlive/2015/texmf-dist/fonts/enc/dvips/cantarell/cantarell-01.enc}{c:/texlive/20
+15/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2015/texmf-d
 ist/fonts/type1/public/cantarell/Cantarell-Bold.pfb><c:/texlive/2015/texmf-dist
 /fonts/type1/public/cantarell/Cantarell-Regular.pfb><c:/texlive/2015/texmf-dist
 /fonts/type1/public/cantarell/Cantarell-Regular.pfb><c:/texlive/2015/texmf-dist
 /fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2015/texmf-dist/fonts/typ
 e1/public/cm-super/sftt1440.pfb>
-Output written on Specifica_Tecnica_1.0.pdf (14 pages, 201333 bytes).
+Output written on Specifica_Tecnica_1.0.pdf (27 pages, 231697 bytes).
 PDF statistics:
- 295 PDF objects out of 1000 (max. 8388607)
- 268 compressed objects within 3 object streams
- 48 named destinations out of 1000 (max. 500000)
- 280 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> 137e5b2634e2e9cd797f7304026938b72c8e48e3
+ 516 PDF objects out of 1000 (max. 8388607)
+ 472 compressed objects within 5 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 509 words of extra memory for PDF output out of 10000 (max. 10000000)
 
