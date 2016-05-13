@@ -23,6 +23,7 @@
 \contentsline {subsection}{\numberline {4.1}Package della componente Model}{7}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Package della componente View}{7}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Package della componente Presenter}{8}{subsection.4.3}
+<<<<<<< HEAD
 \contentsline {subsubsection}{\numberline {4.3.1}Presenter::UserInputManager}{8}{subsubsection.4.3.1}
 \contentsline {subsubsection}{\numberline {4.3.2}Presenter::ModelUpdater}{8}{subsubsection.4.3.2}
 \contentsline {subsubsection}{\numberline {4.3.3}Presenter::ViewUpdater}{9}{subsubsection.4.3.3}
@@ -35,3 +36,16 @@
 \contentsline {section}{\numberline {7}Diagrammi di sequenza}{9}{section.7}
 \contentsline {section}{\numberline {8}Tracciamento}{9}{section.8}
 \contentsline {section}{\numberline {9}Analisi di fattibilit\IeC {\`a}}{9}{section.9}
+=======
+\contentsline {section}{\numberline {5}Diagrammi delle classi}{8}{section.5}
+\contentsline {subsection}{\numberline {5.1}Diagrammi delle classi del Model}{8}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Diagrammi delle classi del View}{8}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Package CurrentViewManager}{8}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Package Pages}{8}{subsubsection.5.2.2}
+\contentsline {subsection}{\numberline {5.3}UserAuthentication}{10}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Diagrammi delle classi del Presenter}{10}{subsection.5.4}
+\contentsline {section}{\numberline {6}Diagrammi di attivit\IeC {\`a}}{10}{section.6}
+\contentsline {section}{\numberline {7}Diagrammi di sequenza}{10}{section.7}
+\contentsline {section}{\numberline {8}Tracciamento}{10}{section.8}
+\contentsline {section}{\numberline {9}Analisi di fattibilit\IeC {\`a}}{10}{section.9}
+>>>>>>> 137e5b2634e2e9cd797f7304026938b72c8e48e3
