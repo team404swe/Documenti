@@ -201,6 +201,13 @@ con vettori associativi, che associano nomi di proprietà a valori.
 		\item\textbf{Database:} questo package si occupera' di gestire le richieste in arrivo dal Presenter e avvisera' quest'ultimo ogni qualvota si verifica un cambiamento dei dati salvati nel sistema tramite appositi eventi; Per fare ciò si avvale delle classi:
 			\begin{itemize}
 				\item\textit{Database}
+				\item\textit{QuestionModifiedEvent}
+				\item\textit{QuestionRemovedEvent}
+				\item\textit{QuizModifiedEvent}
+				\item\textit{QuizRemovedEvent}
+			\end{itemize}
+				e delle seguenti interfacce:
+			\begin{itemize}
 				\item\textit{tipologiaEvento}
 			\end{itemize}
 		\item\textbf{Parser:} questo package fornisce funzionalita' per il controllo sintattico rispetto a QML; Per fare ciò si avvale delle classi:
@@ -278,7 +285,48 @@ con vettori associativi, che associano nomi di proprietà a valori.
 	\end{itemize}
 			
 	\section{Diagrammi delle classi}
-			\subsection{Diagrammi delle classi del Model}
+		\subsection{Diagrammi delle classi del Model}
+			\subsubsection{Package Database}
+			IMMAGINE
+ 			\subsubsubsection{Classe Database}\\
+		    	\textbf{Funzione del componente:} la classe permettera' l'inserimento, la lettura, la modifica e la rimozione dei dati all'interno del database
+			\textbf{Relazioni d'uso di altri componenti:} interagisce con il Presenter, inviando o ricevendo dati sulla base delle richieste di quest'ultimo
+			\textbf{Attivita' svolte e dati trattati:} ogni metodo della classe consente l'inserimento, la lettura, la modifica e la rimozione di dati dal database, in seguito alla quale si possono verificare eventi per notificare al Presenter
+			\subsubsubsection{Interfaccia tipologiaEvento}\\
+		    	\textbf{Funzione del componente:} l'interfaccia identifichera' dei particolari eventi che richiedono l'intervento del Presenter
+			\textbf{Relazioni d'uso di altri componenti:} questa interfaccia verra implementata da classi che andranno a specificare un particolare tipo di evento
+			\subsubsubsection{Classe QuestionModifiedEvent}\\
+		    	\textbf{Funzione del componente:} la classe specifica la modifica di un quesito nel database
+				\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia tipologiaEvento
+				\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della modifica di un quesito
+			\subsubsubsection{Classe QuestionRemovedEvent}\\
+		    	\textbf{Funzione del componente:} la classe specifica la rimozione di un quesito nel database
+				\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia tipologiaEvento
+				\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della rimozione di un quesito
+			\subsubsubsection{Classe QuizModifiedEvent}\\
+		    	\textbf{Funzione del componente:} la classe specifica la modifica di un quiz nel database
+				\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia tipologiaEvento
+				\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della modifica di un quiz
+			\subsubsubsection{Classe QuizRemovedEvent}\\
+		    	\textbf{Funzione del componente:} la classe specifica la rimozione di un quiz nel database
+				\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia tipologiaEvento
+				\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della rimozione di un quiz
+				
+			\subsubsection{Package Parser}
+			IMMAGINE
+ 			\subsubsubsection{Classe Parser}\\
+		    	\textbf{Funzione del componente:} controlla che il testo fornito risulti corretto secondo la sintassi QML
+			\textbf{Attivita' svolte e dati trattati:} il Parser controlla che il testo fornito in input rispetta la sintassi QML e fornisce in caso di errore un messaggio avvertendo l'utente di dove si trova l'errore e la tipologia
+			
+			\subsubsection{Package Statistiche}
+			IMMAGINE
+ 			\subsubsubsection{Classe Statistiche}\\
+		    	\textbf{Funzione del componente:} questa classe fornisce funzionalita' per il raccoglimento delle statistiche all'interno di Quizzipedia
+			\textbf{Attivita' svolte e dati trattati:} la classe aggiornera' le statistiche relative ai quesiti, questionari ed utenti.
+			Per i quesiti verranno indicati il numero di volte che e' stato proposto e il numero di risposte corrette.
+			Per i questionari verranno indicati le valutazioni medie ottenute dagli utenti e il numero di volte che e' stato proposto.
+			Per gli utenti verranno indicati la valutazione migliore e la media dei tentativi eseguiti su singolo quiz
+			
 			\subsection{Diagrammi delle classi del View}
 		     \subsubsection{Package CurrentViewManager}
 			IMMAGINE		    
