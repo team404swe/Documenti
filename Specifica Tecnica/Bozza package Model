@@ -8,13 +8,11 @@ Parser: formato da un'unica classe che controllera' se il testo fornito e' corre
 Statistic: formato da classi per il raccoglimento delle statistiche relative ad ogni quesito, che verranno aggionate al completamento dei questionari
 
 
-Model:
+Database:
 Contiene le classi:
   --Database: gestira' tutte le operazioni di lettura/scrittura che il Presenter richiedera';
   --tipologiaEvento: serve per notificare al Presenter l'occorenza di un evento che neccessita di essere gestito da quest'ultimo;
-  //Decidere se creare una classe apposita' per gestire i criteri evitando magari le stringhe o roba simile
-  --Impostazioni: classe che contiene delle direttive che verranno usate dalla classe Database per effettuare le operazioni di scrittura e lettura richieste dal Presenter;
-  
+
 Database:
   Funzione del componente: La classe permettera' l'inserimento, la modifica e la rimozione dei dati all'interno del database;
   Relazioni d'uso di altri componenti: Interagisce con il Presenter, inviando o ricevendo dati;
