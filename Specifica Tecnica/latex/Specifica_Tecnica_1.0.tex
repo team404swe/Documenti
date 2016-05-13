@@ -214,6 +214,46 @@ DA INSERIRE FIGURA PACKAGE VIEW\\
 		\\
 	\end{itemize}
 	\subsection{Package della componente Presenter}
+	\begin{center}
+		\includegraphics[scale=0.6]{../images/PresenterPackage.png}
+	\end{center}
+	Il package del Presenter contiene i seguenti sub-package:
+	\begin{itemize}
+		\item \emph{UserInputManager}
+		\item \emph{ModelUpdater}
+		\item \emph{ViewUpdater}
+		\item \emph{Interpreter}
+	\end{itemize}
+	Gli elementi del package collaborano e interagiscono con l'obiettivo comune di trattare il flusso di dati tra View e Model e mantenere aggiornato lo stato di entrambi.
+	\subsubsection{Presenter::UserInputManager}
+	Il package \emph{UserInputManager} gestisce gli input degli utenti ricevuti dalla View, realizzando la logica dell'applicazione web. Per svolgere il proprio compito si interfaccia con i package \emph{ViewUpdater} e \emph{ModelUpdater} a seconda di quale componente deve aggiornare. Il package contiene al suo interno le seguenti classi:
+	\begin{itemize}
+		\item InputReceiver
+		\item ModelUpdater
+		\item ViewUpdater
+	\end{itemize}
+	\subsubsection{Presenter::ModelUpdater}
+	Il package \emph{ModelUpdater} ha il compito di riflettere le modifiche della View sul Model. Riceve dalla View i dati, se necessario li elabora, e li passa al Model. Il package contiene al suo interno le seguenti classi:
+	\begin{itemize}
+		\item ViewDataReceiver
+		\item ToModelSender
+	\end{itemize}
+	\subsubsection{Presenter::ViewUpdater}
+	Il package \emph{ViewUpdater} ha il compito di riflettere le modifiche del Model sulla View. Se i dati che riceve dal Model sono domande QML, queste vanno prima tradotte in linguaggio HTML per essere utilizzate nella View; per fare ciò si interfaccia con il package \emph{Interpreter}. Il package contiene al suo interno le seguenti classi:
+	\begin{itemize}
+		\item ModelDataReceiver
+		\item ToViewSender
+		\item Translator
+	\end{itemize}
+	\subsubsection{Presenter::Interpreter}
+	Il package \emph{Interpreter} è responsabile della traduzione di testo QML in codice HTML5 visualizzabile da browser. Per permettere al package di essere estendibile in futuro con nuovi tipi di "Interprete", le classi al suo interno sono organizzate seguendo il pattern \emph{Abstract Factory} . Il package contiene al suo interno le seguenti classi:
+	\begin{itemize}
+	\item Interpreter (<<interface>>)
+	\item AbsInterpreterFactory
+	\item QMLInterpreterFactory
+	\item QMLInterpreter
+	\item QML2HTMLInterpreter
+	\end{itemize}
 			
 	\section{Diagrammi delle classi}
 			\subsection{Diagrammi delle classi del Model}
