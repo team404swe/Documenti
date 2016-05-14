@@ -1,8 +1,7 @@
-PACKAGE VIEW
+﻿PACKAGE VIEW
 
-Descrizione: Package per il componente View del pattern architetturale MVP.
-Contiene i seguenti sotto packages:
-CurrentViewManager: contiene la classe CurrentView e la classe Sender
+Il package per il componente View del pattern architetturale MVP contiene i seguenti sotto packages:
+CurrentViewManager: questo sotto package ha lo scopo di definire lo stato attuale del sistema Quizzipedia. Per fare ciò si avvale delle classi CurrentView, che definisce lo stato globale del sistema, e Sender, che si occupa di inoltrare gli input dell'utente dalla view al presenter 
 Pages: contiene la classe astratta Page più tutte le sue concretizzazioni derivate
 UserAuthentication: contiene funzionalità per l'autenticazione dell'utente (comuni a più pagine)
 
@@ -34,7 +33,7 @@ CurrentView
 	- close()
 Funzione del componente: lo scopo di questa classe è quello di rappresentare la vista del sistema attualmente disponibile all'utente e di gestirne eventuali cambiamenti
 Relazioni d'uso di altri componenti:(da dire bene) toPresenter, fromPresenter e currentUser sono parametri di tipi appartenenti ad altri package percui c'è una 
-relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed UserAutentication
+relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed UserAuthentication
 Attività svolte e dati trattati: sono presenti dei parametri per la memorizzazione dell'utente corrente, della pagina corrente e per l'invio e la ricezione di informazioni dal Presenter. La funzionalità principale offerta è enterLink (nome da rivedere) che, come suggerisce il nome, permette all'utente di spostarsi nell'applicazione cambiando pagina. Sono presenti altre funzionalità minori che gestiscono l'avvio e la chiusura della sessione e il ritorno alla homepage.
 
 Pages:
