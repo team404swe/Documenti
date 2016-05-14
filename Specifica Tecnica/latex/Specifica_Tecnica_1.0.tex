@@ -21,7 +21,7 @@
 			{Esterno} 						%3 Uso
 			{22 aprile 2016} 				%4 Data cre
 			{\today} 						%5 Data mod
-			{M. Crivellaro - L. Alessio}	%6 Redazione
+			{M. Crivellaro - L. Alessio - D. Bortot}	%6 Redazione
 			{Alex Beccaro } 			%7 Verifica
 			{Martin V. Mbouenda} 				%8 Approvazione
 	\newpage
@@ -40,9 +40,11 @@
 	
 	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm} 
 	\textbf{Descrizione}}
-	\rigaregistro{0.0.11}{Andrea Multineddu (Progettista)}{06/05/2016}{Aggiunte immagini sezione "Diagrammi delle attività".}
+
+	\rigaregistro{0.0.12}{Andrea Multineddu (Progettista)}{06/05/2016}{Aggiunte immagini sezione "Diagrammi delle attività".}
+	\rigaregistro{0.0.11}{Davide Bortot (Progettista)}{05/05/2016}{Completata la parte descrittiva della sezione "Diagrammi delle classi del Presenter". Riadattamento allo stile del documento di §4.3. Inseriti grafici UML dei Package del Model e della View.}
 	\rigaregistro{0.0.10}{Luca Alessio (Progettista)}{04/05/2016}{Stesura sezione "Diagrammi delle attività" e correzioni varie su altre sezioni.}
-	\rigaregistro{0.0.9}{Andrea Multineddu (Progettista)}{03/05/2016}{Stesura sezione "Package della componente Presenter" e prima stesura di "Diagrammi delle classi del Model".}
+	\rigaregistro{0.0.9}{Davide Bortot (Progettista)}{03/05/2016}{Stesura sezione "Package della componente Presenter", inserito rispettivo grafico UML, e prima stesura di "Diagrammi delle classi del Presenter".}
 	\rigaregistro{0.0.8}{Andrea Multineddu (Progettista)}{01/05/2016}{Prima stesura sezioni "Package della componente Model" e "Diagrammi delle classi del Model".}
 	\rigaregistro{0.0.7}{Luca Alessio (Progettista)}{30/04/2016}{Prima stesura sezioni "Package della componente View" e "Diagrammi delle classi del View".}	
 	\rigaregistro{0.0.6}{Davide Bortot (Progettista)}{28/04/2016}{Stesura delle sezioni §2.2, §2.3, §2.4 con la descrizione d'alto livello delle componenti MVP.}
@@ -102,9 +104,12 @@
 	Il sistema Quizzipedia è di tipo \emph{client-server}; il \emph{client} fornisce all'utente un'interfaccia web su browser per la creazione e fruizione di questionari, mentre il lato \emph{server} si occupa di gestire e salvare i dati su DBMS PostgreSQL. La base di dati raccoglie principalmente quesiti memorizzati in QML, che su richiesta verranno elaborati da un interprete.
 Il suddetto interprete processa l'input QML, precedentemente validato nella forma da un parser apposito, traducendolo in linguaggio HTML5 visualizzabile da browser.
 Nella realizzazione del sistema Quizzipedia verrà adottato il design pattern \emph{Model View Presenter} nella sua variante \emph{Passive View}.
+\begin{figure}[h!]
 \begin{center}
 	\includegraphics[scale=1.3]{../images/mvp.png}
+	\caption{Il design pattern Model View Presenter (Passive View)}
 \end{center}
+\end{figure}
 \begin {itemize}
 \item\textbf{Model}: definisce l'organizzazione dei dati e ne specifica le modalità di accesso. Nel sistema Quizzipedia è situato nella parte server che opera sulla sottostante base di dati. Fa parte del Model anche la componente \emph{Parser} che opera sui dati prima che essi vengano salvati nel DBMS.
 \item\textbf{View (Passive)}: rappresenta l'interfaccia grafica presentata all'utilizzatore, la quale visualizza i dati e cattura le interazioni dell'utente. L'aggettivo "Passive" indica che la View non è responsabile del proprio aggiornamento al variare del Model, compito che ricade sul Presenter.
@@ -195,9 +200,12 @@ con vettori associativi, che associano nomi di proprietà a valori.
 	\newpage
 	\section{Diagrammi dei packages}
 	\subsection{Package della componente Model}
+	\begin{figure}[h!]
 	\begin{center}
-		%\includegraphics[scale=0.6]{../images/PresenterPackage.png}
+		\includegraphics[scale=0.65]{../images/ModelPackage.png}
+		\caption{Package della componente Model}
 	\end{center}
+	\end{figure}
 	Il package per il componente Model del pattern architetturale MVP contiene i seguenti sotto packages:
 	\begin{itemize}
 		\item\textbf{Database:} questo package si occupera' di gestire le richieste in arrivo dal Presenter e avvisera' quest'ultimo ogni qualvota si verifica un cambiamento dei dati salvati nel sistema tramite appositi eventi; Per fare ciò si avvale delle classi:
@@ -221,11 +229,15 @@ con vettori associativi, che associano nomi di proprietà a valori.
 				\item\textit{Statistiche}
 			\end{itemize}
 		\end{itemize}
+		\newpage
 	
 	\subsection{Package della componente View}
+	\begin{figure}[h!]
 	\begin{center}
-		%\includegraphics[scale=0.6]{../images/PresenterPackage.png}
+		\includegraphics[scale=0.6]{../images/ViewPackage.png}
+		\caption{Package della componente View}
 	\end{center}
+	\end{figure}
 	Il package per il componente View del pattern architetturale MVP contiene i seguenti sotto packages:
 	\begin{itemize}
 		\item\textbf{CurrentViewManager:} questo sotto package ha lo scopo di definire lo stato attuale del sistema Quizzipedia; per fare ciò si avvale delle classi:
@@ -249,144 +261,243 @@ con vettori associativi, che associano nomi di proprietà a valori.
 	\begin{center}
 		\includegraphics[scale=0.6]{../images/PresenterPackage.png}
 	\end{center}
+	Gli elementi del package collaborano e interagiscono con l'obiettivo comune di trattare il flusso di dati tra View e Model e mantenere aggiornato lo stato di entrambi. \\
 	Il package del Presenter contiene i seguenti sub-package:
 	\begin{itemize}
-		\item \emph{UserInputManager}
-		\item \emph{ModelUpdater}
-		\item \emph{ViewUpdater}
-		\item \emph{Interpreter}
-	\end{itemize}
-	Gli elementi del package collaborano e interagiscono con l'obiettivo comune di trattare il flusso di dati tra View e Model e mantenere aggiornato lo stato di entrambi.
-	\subsubsection{Presenter::UserInputManager}
-	Il package \emph{UserInputManager} gestisce gli input degli utenti ricevuti dalla View, realizzando la logica dell'applicazione web. Per svolgere il proprio compito si interfaccia con i package \emph{ViewUpdater} e \emph{ModelUpdater} a seconda di quale componente deve aggiornare. Il package contiene al suo interno le seguenti classi:
+	\item \textbf{UserInputManager}
+	Il package \emph{UserInputManager} gestisce gli input degli utenti ricevuti dalla View, realizzando la logica dell'applicazione web. Per svolgere il proprio compito si interfaccia con i package \emph{ViewUpdater} e \emph{ModelUpdater} a seconda di quale componente deve aggiornare. Il package contiene al suo interno la classe:
 	\begin{itemize}
-		\item InputReceiver
-		\item ModelUpdater
-		\item ViewUpdater
+		\item \textit{InputManager}
 	\end{itemize}
-	\subsubsection{Presenter::ModelUpdater}
+	
+	\item \textbf{ModelUpdater}
 	Il package \emph{ModelUpdater} ha il compito di riflettere le modifiche della View sul Model. Riceve dalla View i dati, se necessario li elabora, e li passa al Model. Il package contiene al suo interno le seguenti classi:
 	\begin{itemize}
-		\item ViewDataReceiver
-		\item ToModelSender
+		\item \textit{ViewDataReceiver}
+		\item \textit{ToModelSender}
 	\end{itemize}
-	\subsubsection{Presenter::ViewUpdater}
+	\item \textbf{ViewUpdater}
 	Il package \emph{ViewUpdater} ha il compito di riflettere le modifiche del Model sulla View. Se i dati che riceve dal Model sono domande QML, queste vanno prima tradotte in linguaggio HTML per essere utilizzate nella View; per fare ciò si interfaccia con il package \emph{Interpreter}. Il package contiene al suo interno le seguenti classi:
 	\begin{itemize}
-		\item ModelDataReceiver
-		\item ToViewSender
-		\item Translator
+		\item \textit{ModelDataReceiver}
+		\item \textit{ToViewSender}
+		\item \textit{Translator}
 	\end{itemize}
-	\subsubsection{Presenter::Interpreter}
-	Il package \emph{Interpreter} è responsabile della traduzione di testo QML in codice HTML5 visualizzabile da browser. Per permettere al package di essere estendibile in futuro con nuovi tipi di "Interprete", le classi al suo interno sono organizzate seguendo il pattern \emph{Abstract Factory} . Il package contiene al suo interno le seguenti classi:
+	\newpage
+	\item \textbf{Interpreter}
+	Il package \emph{Interpreter} è responsabile della traduzione di testo QML in codice HTML5 visualizzabile da browser. Per permettere al package di essere estendibile in futuro con nuovi tipi di "Interpreter", le classi al suo interno sono organizzate seguendo il pattern \emph{Abstract Factory} . Il package contiene al suo interno le seguenti classi:
 	\begin{itemize}
-	\item Interpreter (<<interface>>)
-	\item AbsInterpreterFactory
-	\item QMLInterpreterFactory
-	\item QMLInterpreter
-	\item QML2HTMLInterpreter
+	\item \textit{Interpreter}
+	\item \textit{InterpreterFactory}
+	\item \textit{QMLInterpreterFactory}
+	\item \textit{QMLInterpreter}
+	\item \textit{QML2HTMLInterpreter}
 	\end{itemize}
-\newpage			
+	
+	\end{itemize}		
 	\section{Diagrammi delle classi}
 		\subsection{Diagrammi delle classi del Model}
 			\subsubsection{Package Database}
 			IMMAGINE
  			\subsubsubsection{Classe Database}
-		    	\textbf{Funzione del componente:} la classe permettera' l'inserimento, la lettura, la modifica e la rimozione dei dati all'interno del database\\
-			\textbf{Relazioni d'uso di altri componenti:} interagisce con il Presenter, inviando o ricevendo dati sulla base delle richieste di quest'ultimo\\
-			\textbf{Attivita' svolte e dati trattati:} ogni metodo della classe consente l'inserimento, la lettura, la modifica e la rimozione di dati dal database, in seguito alla quale si possono verificare eventi per notificare al Presenter\\
+ 			\begin{itemize}
+		    	\item\textbf{Funzione del componente:} la classe permettera' l'inserimento, la lettura, la modifica e la rimozione dei dati all'interno del database
+			\item\textbf{Relazioni d'uso di altri componenti:} interagisce con il Presenter, inviando o ricevendo dati sulla base delle richieste di quest'ultimo
+			\item\textbf{Attivita' svolte e dati trattati:} ogni metodo della classe consente l'inserimento, la lettura, la modifica e la rimozione di dati dal database, in seguito alla quale si possono verificare eventi per notificare al Presenter
+			\end{itemize}
 			\subsubsubsection{Interfaccia tipologiaEvento}
-		    	\textbf{Funzione del componente:} l'interfaccia identifichera' dei particolari eventi che richiedono l'intervento del Presenter\\
-			\textbf{Relazioni d'uso di altri componenti:} questa interfaccia verra implementata da classi che andranno a specificare un particolare tipo di evento\\
+			\begin{itemize}
+		    	\item\textbf{Funzione del componente:} l'interfaccia identifichera' dei particolari eventi che richiedono l'intervento del Presenter
+			\item\textbf{Relazioni d'uso di altri componenti:} questa interfaccia verra implementata da classi che andranno a specificare un particolare tipo di evento
+			\end{itemize}
 			\subsubsubsection{Classe QuestionModifiedEvent}
-		    	\textbf{Funzione del componente:} la classe specifica la modifica di un quesito nel database\\
-				\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia tipologiaEvento\\
-				\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della modifica di un quesito\\
+			\begin{itemize}
+		    	\item\textbf{Funzione del componente:} la classe specifica la modifica di un quesito nel database
+				\item\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia tipologiaEvento
+				\item\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della modifica di un quesito
+			\end{itemize}
 			\subsubsubsection{Classe QuestionRemovedEvent}
-		    	\textbf{Funzione del componente:} la classe specifica la rimozione di un quesito nel database\\
-				\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia tipologiaEvento\\
-				\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della rimozione di un quesito\\
+			\begin{itemize}
+		    	\item\textbf{Funzione del componente:} la classe specifica la rimozione di un quesito nel database
+				\item\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia tipologiaEvento
+				\item\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della rimozione di un quesito
+			\end{itemize}
 			\subsubsubsection{Classe QuizModifiedEvent}
-		    	\textbf{Funzione del componente:} la classe specifica la modifica di un quiz nel database\\
-				\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia tipologiaEvento\\
-				\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della modifica di un quiz\\
+			\begin{itemize}
+		    	\item\textbf{Funzione del componente:} la classe specifica la modifica di un quiz nel database
+				\item\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia tipologiaEvento
+				\item\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della modifica di un quiz
+			\end{itemize}
 			\subsubsubsection{Classe QuizRemovedEvent}
-		    	\textbf{Funzione del componente:} la classe specifica la rimozione di un quiz nel database\\
-				\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia tipologiaEvento\\
-				\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della rimozione di un quiz\\
-				
+			\begin{itemize}
+		    	\item\textbf{Funzione del componente:} la classe specifica la rimozione di un quiz nel database
+				\item\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia tipologiaEvento
+				\item\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della rimozione di un quiz
+			\end{itemize}
+			
 			\subsubsection{Package Parser}
 			IMMAGINE
  			\subsubsubsection{Classe Parser}
-		    	\textbf{Funzione del componente:} controlla che il testo fornito risulti corretto secondo la sintassi QML\\
-			\textbf{Attivita' svolte e dati trattati:} il Parser controlla che il testo fornito in input rispetta la sintassi QML e fornisce in caso di errore un messaggio avvertendo l'utente di dove si trova l'errore e la tipologia\\
+ 			\begin{itemize}
+		    	\item\textbf{Funzione del componente:} controlla che il testo fornito risulti corretto secondo la sintassi QML
+			\item\textbf{Attivita' svolte e dati trattati:} il Parser controlla che il testo fornito in input rispetta la sintassi QML e fornisce in caso di errore un messaggio avvertendo l'utente di dove si trova l'errore e la tipologia
+			\end{itemize}
 			
 			\subsubsection{Package Statistiche}
 			IMMAGINE
  			\subsubsubsection{Classe Statistiche}
-		    	\textbf{Funzione del componente:} questa classe fornisce funzionalita' per il raccoglimento delle statistiche all'interno di Quizzipedia\\
-			\textbf{Attivita' svolte e dati trattati:} la classe aggiornera' le statistiche relative ai quesiti, questionari ed utenti.
+ 			\begin{itemize}
+		    	\item\textbf{Funzione del componente:} questa classe fornisce funzionalita' per il raccoglimento delle statistiche all'interno di Quizzipedia
+			\item\textbf{Attivita' svolte e dati trattati:} la classe aggiornera' le statistiche relative ai quesiti, questionari ed utenti.
 			Per i quesiti verranno indicati il numero di volte che e' stato proposto e il numero di risposte corrette.
 			Per i questionari verranno indicati le valutazioni medie ottenute dagli utenti e il numero di volte che e' stato proposto.
-			Per gli utenti verranno indicati la valutazione migliore e la media dei tentativi eseguiti su singolo quiz\\
+			Per gli utenti verranno indicati la valutazione migliore e la media dei tentativi eseguiti su singolo quiz
+			\end{itemize}
 			
 			\subsection{Diagrammi delle classi del View}
 		     \subsubsection{Package CurrentViewManager}
 			IMMAGINE		    
 		    	\subsubsubsection{Classe CurrentView}
-		    \textbf{Funzione del componente:} lo scopo di questa classe è quello di rappresentare la vista del sistema attualmente disponibile all'utente e di gestirne eventuali cambiamenti \\
-			\textbf{Relazioni d'uso di altri componenti:} (da dire bene) toPresenter, fromPresenter e currentUser sono parametri di tipi appartenenti ad altri package percui c'è una 
-relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed UserAuthentication\\
-			\textbf{Attività svolte e dati trattati:} sono presenti dei parametri per la memorizzazione dell'utente corrente, della pagina corrente e per l'invio e la ricezione di informazioni dal Presenter. La funzionalità principale offerta è enterLink (nome da rivedere) che, come suggerisce il nome, permette all'utente di spostarsi nell'applicazione cambiando pagina. Sono presenti altre funzionalità minori che gestiscono l'avvio e la chiusura della sessione e il ritorno alla homepage.\\
+		    	\begin{itemize}
+		    \item\textbf{Funzione del componente:} lo scopo di questa classe è quello di rappresentare la vista del sistema attualmente disponibile all'utente e di gestirne eventuali cambiamenti 
+			\item\textbf{Relazioni d'uso di altri componenti:} (da dire bene) toPresenter, fromPresenter e currentUser sono parametri di tipi appartenenti ad altri package percui c'è una 
+relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed UserAuthentication
+			\item\textbf{Attività svolte e dati trattati:} sono presenti dei parametri per la memorizzazione dell'utente corrente, della pagina corrente e per l'invio e la ricezione di informazioni dal Presenter. La funzionalità principale offerta è enterLink (nome da rivedere) che, come suggerisce il nome, permette all'utente di spostarsi nell'applicazione cambiando pagina. Sono presenti altre funzionalità minori che gestiscono l'avvio e la chiusura della sessione e il ritorno alla homepage.
+			\end{itemize}
 			\subsubsubsection{Classe Sender}
-			\textbf{Funzione del componente:} inoltra le richieste dell'utente al presenter\\
-			\textbf{Relazioni d'uso di altri componenti:}  viene utilizzata all'interno di CurrentViewManager::CurrentView in risposta agli eventi che accadono sull'interfaccia web in seguito alle azioni compiute dall'utente; l'output dei metodi di questa classe viene poi processato dal presenter\\
-			\textbf{Attività svolte e dati trattati:} ogni metodo di questa classe corrisponde ad una situazione che si verifica, attraverso un rispettivo metodo, in una classe derivata da Pages::Page; i dati restituiti da questi primi metodi verranno reinoltrati da questa classe al presenter\\
+			\begin{itemize}
+			\item\textbf{Funzione del componente:} inoltra le richieste dell'utente al presenter
+			\item\textbf{Relazioni d'uso di altri componenti:}  viene utilizzata all'interno di CurrentViewManager::CurrentView in risposta agli eventi che accadono sull'interfaccia web in seguito alle azioni compiute dall'utente; l'output dei metodi di questa classe viene poi processato dal presenter
+			\item\textbf{Attività svolte e dati trattati:} ogni metodo di questa classe corrisponde ad una situazione che si verifica, attraverso un rispettivo metodo, in una classe derivata da Pages::Page; i dati restituiti da questi primi metodi verranno reinoltrati da questa classe al presenter
+			\end{itemize}
+			
 			\subsubsection{Package Pages}
 			IMMAGINE\\
 			\subsubsubsection{Classe Page}
-		    \textbf{Funzione del componente:} rappresenta una pagina web //meglio renderla interfaccia?\\ 
-			\textbf{Relazioni d'uso di altri componenti:} classe astratta che viene concretizzata dalle sue classi derivate (MainPage, CategoryListPage, QuizListPage,QuizTutorialPage, QuizExecutionPage, QuizManagementPage)\\
-			\textbf{Attività svolte e dati trattati:} le funzionalità offerte dalla classe sono compiti fondamentali che una pagina web deve svolgere ovvero ricevere gli input dell'utente (quali click su link o dati inseriti in un form che poi andranno passati al presenter) e aggiornarsi quando nuovi dati sono disponibili\\
-			
+			\begin{itemize}
+		    \item\textbf{Funzione del componente:} rappresenta una pagina web //meglio renderla interfaccia?
+			\item\textbf{Relazioni d'uso di altri componenti:} classe astratta che viene concretizzata dalle sue classi derivate (MainPage, CategoryListPage, QuizListPage,QuizTutorialPage, QuizExecutionPage, QuizManagementPage)
+			\item\textbf{Attività svolte e dati trattati:} le funzionalità offerte dalla classe sono compiti fondamentali che una pagina web deve svolgere ovvero ricevere gli input dell'utente (quali click su link o dati inseriti in un form che poi andranno passati al presenter) e aggiornarsi quando nuovi dati sono disponibili
+			\end{itemize}
 			\subsubsubsection{Classe MainPage}
-		    \textbf{Funzione del componente:} mostra la pagina principale a cui l'utente arriva entrando nella piattaforma Quizzipedia \\
-			\textbf{Relazioni d'uso di altri componenti:} concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage)\\
-			\textbf{Attività svolte e dati trattati:} permette l'autenticazione/registrazione dell'utente nel sistema, da una panoramica del sistema generale all'utente\\
-			
+			\begin{itemize}
+		    \item\textbf{Funzione del componente:} mostra la pagina principale a cui l'utente arriva entrando nella piattaforma Quizzipedia 
+			\item\textbf{Relazioni d'uso di altri componenti:} concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage)
+			\item\textbf{Attività svolte e dati trattati:} permette l'autenticazione/registrazione dell'utente nel sistema, da una panoramica del sistema generale all'utente
+			\end{itemize}
 			\subsubsubsection{Classe CategoryListPage}
-		    \textbf{Funzione del componente:} pagina che elenca gli argomenti tra i quali l'utente può scegliere e fornisce operazioni di ordinamento sulla vista \\
-			\textbf{Relazioni d'uso di altri componenti:} concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage)\\
-			\textbf{Attività svolte e dati trattati:} le funzionalità di questa classe permettono la visualizzazione delle varie categorie, l'ordinamento per diversi criteri (alfabetico, categorie più visitate, ultimi questionari disponibili...) e la scelta di una tra di esse\\
-			
+			\begin{itemize}
+		    \item\textbf{Funzione del componente:} pagina che elenca gli argomenti tra i quali l'utente può scegliere e fornisce operazioni di ordinamento sulla vista 
+			\item\textbf{Relazioni d'uso di altri componenti:} concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage)
+			\item\textbf{Attività svolte e dati trattati:} le funzionalità di questa classe permettono la visualizzazione delle varie categorie, l'ordinamento per diversi criteri (alfabetico, categorie più visitate, ultimi questionari disponibili...) e la scelta di una tra di esse
+			\end{itemize}
 			\subsubsubsection{Classe QuizListPage}
-		    \textbf{Funzione del componente:} pagina che elenca i questionari (su uno stesso argomento) tra i quali l'utente può scegliere e fornisce operazioni di ordinamento sulla vista\\
-			\textbf{Relazioni d'uso di altri componenti:} concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage). L'argomento visualizzato è quello scelto nella precedente pagina CategoryListPage\\
-			\textbf{Attività svolte e dati trattati:} le funzionalità di questa classe permettono la visualizzazione di informazioni sui vari questionari, l'ordinamento per diversi criteri (alfabetico, più visitato, novità...) e la scelta di uno tra essi\\
-			
+			\begin{itemize}
+		    \item\textbf{Funzione del componente:} pagina che elenca i questionari (su uno stesso argomento) tra i quali l'utente può scegliere e fornisce operazioni di ordinamento sulla vista
+			\item\textbf{Relazioni d'uso di altri componenti:} concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage). L'argomento visualizzato è quello scelto nella precedente pagina CategoryListPage
+			\item\textbf{Attività svolte e dati trattati:} le funzionalità di questa classe permettono la visualizzazione di informazioni sui vari questionari, l'ordinamento per diversi criteri (alfabetico, più visitato, novità...) e la scelta di uno tra essi
+			\end{itemize}
 			\subsubsubsection{Classe QuizExecutionPage}
-		    \textbf{Funzione del componente:} questa classe rappresenta il punto focale del sistema Quizzipedia ovvero la parte in cui l'utente svolge i questionari scelti\\
-			\textbf{Relazioni d'uso di altri componenti:} concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage). Il questionario visualizzato è quello scelto nella precedente pagina QuizListPage.\\
-			\textbf{Attività svolte e dati trattati:} l'utente può navigare tra le domande del questionario nell'ordine che preferisce, dare le proprie risposte e, al termine del questionario, visualizzarne il risultato; per ognuna di queste funzionalità è presente un metodo della classe\\
-			
+			\begin{itemize}
+		    \item\textbf{Funzione del componente:} questa classe rappresenta il punto focale del sistema Quizzipedia ovvero la parte in cui l'utente svolge i questionari scelti
+			\item\textbf{Relazioni d'uso di altri componenti:} concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage). Il questionario visualizzato è quello scelto nella precedente pagina QuizListPage.
+			\item\textbf{Attività svolte e dati trattati:} l'utente può navigare tra le domande del questionario nell'ordine che preferisce, dare le proprie risposte e, al termine del questionario, visualizzarne il risultato; per ognuna di queste funzionalità è presente un metodo della classe
+			\end{itemize}
 			\subsubsubsection{Classe QuizManagementPage}
-		    \textbf{Funzione del componente:} gestisce creazione, modifica ed eliminazione di singole domande e interi questionari\\
-			\textbf{Relazioni d'uso di altri componenti:} concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage)\\
-			\textbf{Attività svolte e dati trattati:} le funzionalità offerte dalla classe consentono creazione, modifca ed eliminazione di singoli quesiti e di interi questionari\\
-			
+			\begin{itemize}
+		    \item\textbf{Funzione del componente:} gestisce creazione, modifica ed eliminazione di singole domande e interi questionari
+			\item\textbf{Relazioni d'uso di altri componenti:} concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage)
+			\item\textbf{Attività svolte e dati trattati:} le funzionalità offerte dalla classe consentono creazione, modifca ed eliminazione di singoli quesiti e di interi questionari
+			\end{itemize}
 			\subsubsubsection{Classe QuizTutorialPage}
-		    \textbf{Funzione del componente:} questa pagina visualizza un breve manuale che spiega l'uso e la sintassi del linguaggio QML (vedi analisi\_dei\_requisiti\_2.0.pdf)\\
-			\textbf{Relazioni d'uso di altri componenti:} concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage)\\
-			\textbf{Attività svolte e dati trattati:} questa classe svolge solamente una semplice attività di visualizzazione di informazioni\\
-			
-			\subsection{Package UserAuthentication}
+			\begin{itemize}
+		    \item\textbf{Funzione del componente:} questa pagina visualizza un breve manuale che spiega l'uso e la sintassi del linguaggio QML (vedi analisi\_dei\_requisiti\_2.0.pdf)
+			\item\textbf{Relazioni d'uso di altri componenti:} concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage)
+			\item\textbf{Attività svolte e dati trattati:} questa classe svolge solamente una semplice attività di visualizzazione di informazioni
+			\end{itemize}
+			\subsubsection{Package UserAuthentication}
 			\subsubsubsection{Classe User}
-\textbf{Funzione del componente:} classe che rappresenta il singolo utilizzatore attuale del sistema nella propria sessione
-\textbf{Relazioni d'uso di altri componenti:} User viene utilizzato dalla classe CurrentViewManager::CurrentView
-\textbf{Attività svolte e dati trattati:} questa classe prevede le funzionalità basilari per l'autenticazione dell'utente all'interno del sistema come registrazione, login e  logout ed altre operazioni secondarie come il cambio o il recupero della password smarrita
-\newpage	
+			\begin{itemize}
+\item\textbf{Funzione del componente:} classe che rappresenta il singolo utilizzatore attuale del sistema nella propria sessione
+\item\textbf{Relazioni d'uso di altri componenti:} User viene utilizzato dalla classe CurrentViewManager::CurrentView
+\item\textbf{Attività svolte e dati trattati:} questa classe prevede le funzionalità basilari per l'autenticazione dell'utente all'interno del sistema come registrazione, login e  logout ed altre operazioni secondarie come il cambio o il recupero della password smarrita.
+			\end{itemize}
+			\newpage
+			
 			\subsection{Diagrammi delle classi del Presenter}
-\newpage	
+			\subsubsection{Package UserInputManager}
+			\subsubsubsection{InputManager}
+			\begin{itemize}
+				\item\textbf{Funzione del componente}: riceve gli input dalla View e li indirizza verso le classi ModelUpdater e ViewUpdater.
+				\item\textbf{Relazione d'uso di altre componenti}: si interfaccia con i package ModelUpdater e ViewUpdater e con il package View dal quale riceve gli input.
+				\item\textbf{Attività svolte e dati trattati}: questa classe possiede operazioni per ricevere e trattare gli input che gli arrivano dalla View. Possiede inoltre i riferimenti alle classi ViewDataReceiver e ToModelSender alle quali inoltra i rispettivi input d'interesse.
+			\end{itemize}
+
+			\subsubsection{Package ModelUpdater}
+			\subsubsubsection{ViewDataReceiver}
+			\begin{itemize}
+				\item\textbf{Funzione del componente}: ricevere e strutturare i dati da mandare al Model.
+				\item\textbf{Relazione d'uso di altre componenti}: riceve dalla classe InputManager gli input, richiede alla View dati.
+				\item\textbf{Attività svolte e dati trattati}: A seconda dell'input richiede alla View i dati da trasmettere al Model e li inoltra alla componente ToModelSender.
+			\end{itemize}
+			\subsubsubsection{ToModelSender}
+			\begin{itemize}
+				\item\textbf{Funzione del componente}: inoltra al Model i dati da salvare su database.
+				\item\textbf{Relazione d'uso di altre componenti}: collabora con la classe ViewDataReceiver e s'interfaccia con la classe Database del Model esterna al package Presenter.
+				\item\textbf{Attività svolte e dati trattati}: possiede un riferimento al Model e, una volta ricevuti i dati da ViewDataReceiver, li trasmette alla classe Database per il salvataggio.
+			\end{itemize}
+			\subsubsection{Package ViewUpdater}
+			\subsubsubsection{ModelDataReceiver}
+			\begin{itemize}
+				\item\textbf{Funzione del componente}: riceve dal Model nuovi dati  con i quali aggiornare la View.
+				\item\textbf{Relazione d'uso di altre componenti}: s'interfaccia con la classe Database per la ricezione dei dati e con la classe ToViewSender per l'inoltro.
+				\item\textbf{Attività svolte e dati trattati}: riceve dal database  eventi e i dati modificati da tali eventi e li inoltra alla classe ToViewSender. 
+			\end{itemize}
+			\subsubsubsection{ToViewSender}
+			\begin{itemize}
+				\item\textbf{Funzione del componente}: è responsabile dell'aggiornamento della View rispetto agli input utente e rispetto alle modifiche del Model.
+				\item\textbf{Relazione d'uso di altre componenti}: s'interfaccia con le classi InputManager, ModelDataReceiver e Translator.
+				\item\textbf{Attività svolte e dati trattati}: la componente può ricevere input che non necessitano di interazione col Model; in tal caso provvede direttamente all'aggiornamento della View. Se è richiesta interazione col Model essa riceve i dati dalla classe ModelDataReceiver e li prepara per aggiornare la view. Se i dati sono in formato QML e necessitano di traduzione in HTML la componente richiede i servizi della classe Translator.
+			\end{itemize}
+			\subsubsubsection{Translator}
+			\begin{itemize}
+				\item\textbf{Funzione del componente}: s'interfaccia con le componenti del package Interpreter per la traduzione di quesiti QML in HTML.
+				\item\textbf{Relazione d'uso di altre componenti}: collabora con le interfacce Interpreter e InterpreterFactory. Interagisce con la classe ToViewSender.
+				\item\textbf{Attività svolte e dati trattati}: riceve dalla classe ToViewSender le richieste di traduzione e il codice QML da tradurre. Attraverso la factory InterpreterFactory (una sua concretizzazione) costruisce un Interpreter concreto e lo utilizza per la traduzione del codice. L'esito della traduzione viene reso disponibile a ToViewSender.
+			\end{itemize}
+			\subsubsection{Package Interpreter}
+			\subsubsubsection{Interpreter}
+			\begin{itemize}
+				\item\textbf{Funzione del componente}: interfaccia di base del tipo Interpreter.
+				\item\textbf{Relazione d'uso di altre componenti}: può essere concretizzata in diversi tipi di Interpreter. Viene riferita dalla classe Translator.
+				\item\textbf{Attività svolte e dati trattati}: definisce il contratto degli Interpreter, cioè le operazioni di traduzione che saranno definite in ogni concretizzazione.
+			\end{itemize}
+			\subsubsubsection{InterpreterFactory}
+			\begin{itemize}
+				\item\textbf{Funzione del componente}: interfaccia di base delle Factory di tipi Interpreter.
+				\item\textbf{Relazione d'uso di altre componenti}: può essere concretizzata in diversi tipi di InterpreterFactory. Viene riferita dalla classe Translator.
+				\item\textbf{Attività svolte e dati trattati}: definisce il contratto delle factory, cioè le operazioni di costruzione di Interpreter che saranno definite in ogni concretizzazione.
+			\end{itemize}
+			\subsubsubsection{QMLInterpreterFactory}
+			La classe QMLInterpreterFactory è un \emph{singleton}.
+			\begin{itemize}
+				\item\textbf{Funzione del componente}: crea oggetti di tipo QMLInterpreter.
+				\item\textbf{Relazione d'uso di altre componenti}: è concretizzazione della classe InterpreterFactory. Crea oggetti QMLInterpreter.
+				\item\textbf{Attività svolte e dati trattati}: crea su richiesta oggetti di tipo QMLInterpreter.
+			\end{itemize}
+			\subsubsubsection{QMLInterpreter}
+			\begin{itemize}
+				\item\textbf{Funzione del componente}: classe astratta che rappresenta gli Interpreter che traducono codice QML in un altro formato.
+				\item\textbf{Relazione d'uso di altre componenti}: è sottotipo di Interpreter. Può essere concretizzata in più tipi di QMLInterpreter.
+				\item\textbf{Attività svolte e dati trattati}: definisce il contratto dei QMLInterpreter, cioè le operazioni di traduzione da QML verso altri linguaggi.
+			\end{itemize}
+			\subsubsubsection{QML2HTMLInterpreter}	
+			\begin{itemize}
+				\item\textbf{Funzione del componente}: traduce codice QML in codice HTML.
+				\item\textbf{Relazione d'uso di altre componenti}: è concretizzazione di QMLInterpreter.
+				\item\textbf{Attività svolte e dati trattati}: riceve in input domande in QML e le traduce in codice HTML visualizzabile da browser.
+			\end{itemize}
+			\newpage	
 	\section{Diagrammi di attività}
 	
 \subsubsection{Creazione Questionario}
