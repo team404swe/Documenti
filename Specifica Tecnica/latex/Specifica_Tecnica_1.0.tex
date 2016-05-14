@@ -40,6 +40,7 @@
 	
 	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm} 
 	\textbf{Descrizione}}
+	\rigaregistro{0.0.11}{Andrea Multineddu (Progettista)}{06/05/2016}{Aggiunte immagini sezione "Diagrammi delle attività".}
 	\rigaregistro{0.0.10}{Luca Alessio (Progettista)}{04/05/2016}{Stesura sezione "Diagrammi delle attività" e correzioni varie su altre sezioni.}
 	\rigaregistro{0.0.9}{Andrea Multineddu (Progettista)}{03/05/2016}{Stesura sezione "Package della componente Presenter" e prima stesura di "Diagrammi delle classi del Model".}
 	\rigaregistro{0.0.8}{Andrea Multineddu (Progettista)}{01/05/2016}{Prima stesura sezioni "Package della componente Model" e "Diagrammi delle classi del Model".}
@@ -389,22 +390,28 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 	\section{Diagrammi di attività}
 	
 \subsubsection{Creazione Questionario}
-IMMAGINE DIAGRAMMA 1\\
-\textbf{Precondizioni:} l'utente è autenticato nel sistema Quizzipedia e accede all'area del sito dedicata alla gestione (creazione, eliminazione e modifica) dei propri questionari\\
+\begin{center}
+	\centerline{\includegraphics[scale=0.1]{"../images/diagramma 1".png}}
+\end{center}
+\textbf{Precondizioni:} l'utente è autenticato nel sistema Quizzipedia e accede all'area del sito dedicata alla gestione (creazione, eliminazione e modifica) dei propri questionari.\\
 \textbf{Postcondizioni:} l'utente ha creato con successo (o ha annullato la creazione di) un questionario su un argomento a piacere contenente domande già disponibili o create precedentemente da lui stesso. L'utente viene reindirizzato alla pagina principale. Il questionario creato può ora essere svolto da altri utenti del sistema Quizzipedia.\\ %da rivedere dove viene reindirizzato l'utente
 \textbf{Descrizione:} l'utente inizialmente assegna un titolo al questionario, sceglie l'argomento trattato tra le categorie presenti nel sistema e assegna un tempo limite entro il quale il questionario deve essere completato. A questo punto l'utente può iniziare ad inserire domande nel questionario: di volta in volta può scegliere tra le domande già disponibili sull'argomento (domande precaricate dal team404 e domande create da altri utenti del sistema) o tra le domande create da lui stesso (vedi diagramma d'attività in sezione successiva). Quando l'utente ha terminato di inserire le domande nel proprio questionario ne verrà presentata un'anteprima. L'utente ha infine la possibilità di annullare la creazione del questionario (e quindi tornare alla schermata precedente perdendo però i dati immessi in precedenza) o di confermarla con conseguente pubblicazione nel sito dove sarà disponibile agli altri utenti.\\
 
 \newpage
 \subsubsection{Creazione Domanda}
-IMMAGINE DIAGRAMMA 2\\
-\textbf{Precondizioni:} l'utente è autenticato nel sistema Quizzipedia e accede all'area del sito dedicata alla gestione (creazione, eliminazione e modifica) dei propri singoli quesiti\\
+\begin{center}
+	\centerline{\includegraphics[scale=0.1]{"../images/diagramma 2".png}}
+\end{center}
+\textbf{Precondizioni:} l'utente è autenticato nel sistema Quizzipedia e accede all'area del sito dedicata alla gestione (creazione, eliminazione e modifica) dei propri singoli quesiti.\\
 \textbf{Postcondizioni:} l'utente ha creato con successo una nuova domanda. La nuova domanda sarà disponibile a tutti gli utenti qualora essi decidano di creare un questionario appartente alla stessa categoria. L'utente viene reindirizzato alla pagina di gestione questionari.\\ %anche qua decidere redirect
 \textbf{Descrizione:} l'utente inizialmente sceglie una categoria (argomento trattato) per la domanda, successivamente procede con la stesura del codice QML in un'area di testo apposita. Qualora l'utente abbia dubbi sull'uso della sintassi è presente nella pagina un link al tutorial interno al sistema. Quando l'utente ha terminato l'inserimento del codice può sottoporlo al sistema che lo valuterà. L'input viene parsato per controllare anomalie nella sintassi, se sono presenti errori ciò viene segnalato all'utente che ha la possibilità di correggere il codice errato, altrimenti la domanda viene considerata valida e il sistema procede alla sua memorizzazione nel sistema (con conseguente notifica positiva all'utente). Al termine del procedimento la domanda sarà disponibile a tutti gli utenti registrati durante la fase di creazione di questionari.\\
 \newpage
 \subsubsection{Compilazione Questionario}
-IMMAGINE DIAGRAMMA 3\\
-\textbf{Precondizioni:} durante le sue ultime interazioni con il sistema Quizzipedia, l'utente ha scelto un'argomento e un questionario inerente a quell'argomento che è intenzionato a svolgere. Alternativamente l'utente arriva dall'esterno seguendo un link ad un preciso questionario\\
-\textbf{Postcondizioni:} L'utente ha terminato lo svolgimento del questionario (ha risposto a tutte le domande oppure è scaduto il tempo limite). L'utente viene reindirizzato ad una pagina contenente i risultati della sua prestazione cognitiva\\
+\begin{center}
+	\includegraphics[scale=0.1]{"../images/diagramma 3".png}
+\end{center}
+\textbf{Precondizioni:} durante le sue ultime interazioni con il sistema Quizzipedia, l'utente ha scelto un'argomento e un questionario inerente a quell'argomento che è intenzionato a svolgere. Alternativamente l'utente arriva dall'esterno seguendo un link ad un preciso questionario.\\
+\textbf{Postcondizioni:} L'utente ha terminato lo svolgimento del questionario (ha risposto a tutte le domande oppure è scaduto il tempo limite). L'utente viene reindirizzato ad una pagina contenente i risultati della sua prestazione cognitiva.\\
 \textbf{Descrizione:} Al momento dell'inizio del questionario (coincidente con il momento in cui l'utente accede alla pagina del questionario) il tempo limite inizia a scorrere, l'utente dovrà rispondere al maggior numero di domande possibili entro lo scadere del tempo (prefisatto dal creatore del questionario, vedi sezioni precedenti). Viene presentato un singolo quesito per volta all'utente. L'utente può dare una risposta oppure cambiare domanda. L'utente ha la libertà di scorrere le domande del questionario e di svolgerle in qualsiasi ordine. Se l'utente ha dato una risposta a tutte le domande può consegnare il questionario. Se il tempo limite scade il questionario verrà immediatamente consegnato anche se ancora incompleto. Al momento della consegna il questionario verrà valutato dal sistema che informerà poi l'utente sull'esito della sua performance mediante un redirect ad una apposita pagina contente statistiche e correzioni.\\
 \newpage
 	\section{Diagrammi di sequenza}
