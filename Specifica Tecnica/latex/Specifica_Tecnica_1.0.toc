@@ -25,31 +25,31 @@
 \contentsline {section}{\numberline {5}Diagrammi delle classi}{11}{section.5}
 \contentsline {subsection}{\numberline {5.1}Diagrammi delle classi del Model}{11}{subsection.5.1}
 \contentsline {subsubsection}{\numberline {5.1.1}Package Database}{11}{subsubsection.5.1.1}
-\contentsline {subsubsubsection}{\numberline {5.1.1.1}Classe Database}{11}{subsubsubsection.5.1.1.1}
-\contentsline {subsubsubsection}{\numberline {5.1.1.2}Interfaccia ModelTypeEvent}{11}{subsubsubsection.5.1.1.2}
-\contentsline {subsubsubsection}{\numberline {5.1.1.3}Classe QuestionModifiedEvent}{11}{subsubsubsection.5.1.1.3}
+\contentsline {subsubsubsection}{\numberline {5.1.1.1}Classe Database}{12}{subsubsubsection.5.1.1.1}
+\contentsline {subsubsubsection}{\numberline {5.1.1.2}Interfaccia ModelEvent}{12}{subsubsubsection.5.1.1.2}
+\contentsline {subsubsubsection}{\numberline {5.1.1.3}Classe QuestionModifiedEvent}{12}{subsubsubsection.5.1.1.3}
 \contentsline {subsubsubsection}{\numberline {5.1.1.4}Classe QuestionRemovedEvent}{12}{subsubsubsection.5.1.1.4}
 \contentsline {subsubsubsection}{\numberline {5.1.1.5}Classe QuizModifiedEvent}{12}{subsubsubsection.5.1.1.5}
 \contentsline {subsubsubsection}{\numberline {5.1.1.6}Classe QuizRemovedEvent}{12}{subsubsubsection.5.1.1.6}
-\contentsline {subsubsubsection}{\numberline {5.1.1.7}Classe UserCreatedEvent}{12}{subsubsubsection.5.1.1.7}
-\contentsline {subsubsubsection}{\numberline {5.1.1.8}Classe UserModifiedEvent}{12}{subsubsubsection.5.1.1.8}
-\contentsline {subsubsubsection}{\numberline {5.1.1.9}Classe UserRemovedEvent}{12}{subsubsubsection.5.1.1.9}
+\contentsline {subsubsubsection}{\numberline {5.1.1.7}Classe UserCreatedEvent}{13}{subsubsubsection.5.1.1.7}
+\contentsline {subsubsubsection}{\numberline {5.1.1.8}Classe UserModifiedEvent}{13}{subsubsubsection.5.1.1.8}
+\contentsline {subsubsubsection}{\numberline {5.1.1.9}Classe UserRemovedEvent}{13}{subsubsubsection.5.1.1.9}
 \contentsline {subsubsection}{\numberline {5.1.2}Package Parser}{13}{subsubsection.5.1.2}
 \contentsline {subsubsubsection}{\numberline {5.1.2.1}Classe Parser}{13}{subsubsubsection.5.1.2.1}
 \contentsline {subsubsection}{\numberline {5.1.3}Package Statistiche}{13}{subsubsection.5.1.3}
-\contentsline {subsubsubsection}{\numberline {5.1.3.1}Classe Statistic}{13}{subsubsubsection.5.1.3.1}
-\contentsline {subsection}{\numberline {5.2}Diagrammi delle classi del View}{13}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Package CurrentViewManager}{13}{subsubsection.5.2.1}
-\contentsline {subsubsubsection}{\numberline {5.2.1.1}Classe CurrentView}{13}{subsubsubsection.5.2.1.1}
+\contentsline {subsubsubsection}{\numberline {5.1.3.1}Classe Statistic}{14}{subsubsubsection.5.1.3.1}
+\contentsline {subsection}{\numberline {5.2}Diagrammi delle classi del View}{14}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Package CurrentViewManager}{14}{subsubsection.5.2.1}
+\contentsline {subsubsubsection}{\numberline {5.2.1.1}Classe CurrentView}{14}{subsubsubsection.5.2.1.1}
 \contentsline {subsubsubsection}{\numberline {5.2.1.2}Classe Sender}{14}{subsubsubsection.5.2.1.2}
 \contentsline {subsubsection}{\numberline {5.2.2}Package Pages}{14}{subsubsection.5.2.2}
-\contentsline {subsubsubsection}{\numberline {5.2.2.1}Classe Page}{14}{subsubsubsection.5.2.2.1}
-\contentsline {subsubsubsection}{\numberline {5.2.2.2}Classe MainPage}{14}{subsubsubsection.5.2.2.2}
-\contentsline {subsubsubsection}{\numberline {5.2.2.3}Classe CategoryListPage}{14}{subsubsubsection.5.2.2.3}
+\contentsline {subsubsubsection}{\numberline {5.2.2.1}Classe Page}{15}{subsubsubsection.5.2.2.1}
+\contentsline {subsubsubsection}{\numberline {5.2.2.2}Classe MainPage}{15}{subsubsubsection.5.2.2.2}
+\contentsline {subsubsubsection}{\numberline {5.2.2.3}Classe CategoryListPage}{15}{subsubsubsection.5.2.2.3}
 \contentsline {subsubsubsection}{\numberline {5.2.2.4}Classe QuizListPage}{15}{subsubsubsection.5.2.2.4}
-\contentsline {subsubsubsection}{\numberline {5.2.2.5}Classe QuizExecutionPage}{15}{subsubsubsection.5.2.2.5}
-\contentsline {subsubsubsection}{\numberline {5.2.2.6}Classe QuizManagementPage}{15}{subsubsubsection.5.2.2.6}
-\contentsline {subsubsubsection}{\numberline {5.2.2.7}Classe QuizTutorialPage}{15}{subsubsubsection.5.2.2.7}
+\contentsline {subsubsubsection}{\numberline {5.2.2.5}Classe QuizExecutionPage}{16}{subsubsubsection.5.2.2.5}
+\contentsline {subsubsubsection}{\numberline {5.2.2.6}Classe QuizManagementPage}{16}{subsubsubsection.5.2.2.6}
+\contentsline {subsubsubsection}{\numberline {5.2.2.7}Classe QuizTutorialPage}{16}{subsubsubsection.5.2.2.7}
 \contentsline {subsubsection}{\numberline {5.2.3}Package UserAuthentication}{16}{subsubsection.5.2.3}
 \contentsline {subsubsubsection}{\numberline {5.2.3.1}Classe User}{16}{subsubsubsection.5.2.3.1}
 \contentsline {subsection}{\numberline {5.3}Diagrammi delle classi del Presenter}{17}{subsection.5.3}
@@ -69,10 +69,10 @@
 \contentsline {subsubsubsection}{\numberline {5.3.4.4}QMLInterpreter}{19}{subsubsubsection.5.3.4.4}
 \contentsline {subsubsubsection}{\numberline {5.3.4.5}QML2HTMLInterpreter}{19}{subsubsubsection.5.3.4.5}
 \contentsline {section}{\numberline {6}Diagrammi di attivit\IeC {\`a}}{20}{section.6}
-\contentsline {subsubsection}{\numberline {6.0.5}Creazione Questionario}{20}{subsubsection.6.0.5}
-\contentsline {subsubsection}{\numberline {6.0.6}Creazione Domanda}{21}{subsubsection.6.0.6}
-\contentsline {subsubsection}{\numberline {6.0.7}Compilazione Questionario}{22}{subsubsection.6.0.7}
-\contentsline {subsubsection}{\numberline {6.0.8}Scelta Questionario}{23}{subsubsection.6.0.8}
+\contentsline {subsubsection}{\numberline {6.0.1}Creazione Questionario}{20}{subsubsection.6.0.1}
+\contentsline {subsubsection}{\numberline {6.0.2}Creazione Domanda}{21}{subsubsection.6.0.2}
+\contentsline {subsubsection}{\numberline {6.0.3}Compilazione Questionario}{22}{subsubsection.6.0.3}
+\contentsline {subsubsection}{\numberline {6.0.4}Scelta Questionario}{23}{subsubsection.6.0.4}
 \contentsline {section}{\numberline {7}Diagrammi di sequenza}{24}{section.7}
 \contentsline {section}{\numberline {8}Tracciamento}{25}{section.8}
 \contentsline {section}{\numberline {9}Analisi di fattibilit\IeC {\`a}}{26}{section.9}
