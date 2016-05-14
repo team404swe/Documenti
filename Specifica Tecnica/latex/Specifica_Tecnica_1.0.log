@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.20)  14 MAY 2016 17:12
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.3.14)  14 MAY 2016 17:13
+>>>>>>> origin/master
 entering extended mode
 **Specifica_Tecnica_1.0.tex
 (Specifica_Tecnica_1.0.tex
@@ -899,7 +903,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 11.
+<<<<<<< HEAD
 <../team_not_found.jpg, id=307, 382.42876pt x 153.57375pt>
+=======
+<../team_not_found.jpg, id=309, 382.42876pt x 153.57375pt>
+>>>>>>> origin/master
 File: ../team_not_found.jpg Graphic file (type jpg)
 
 <use ../team_not_found.jpg>
@@ -996,7 +1004,11 @@ Underfull \hbox (badness 2671) in paragraph at lines 55--55
 Underfull \vbox (badness 10000) detected at line 56
  []
 
+<<<<<<< HEAD
 <../../team404_small.jpg, id=320, 382.42876pt x 153.57375pt>
+=======
+<../../team404_small.jpg, id=322, 382.42876pt x 153.57375pt>
+>>>>>>> origin/master
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
@@ -1075,7 +1087,11 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.99 	\newpage
+<<<<<<< HEAD
                [2] <../images/mvp.png, id=440, 196.0926pt x 123.3408pt>
+=======
+               [2] <../images/mvp.png, id=443, 196.0926pt x 123.3408pt>
+>>>>>>> origin/master
 File: ../images/mvp.png Graphic file (type png)
 
 <use ../images/mvp.png>
@@ -1113,7 +1129,11 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../../team404_small.jpg used on input line 200.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [7]
+<<<<<<< HEAD
 <../images/ModelPackage.png, id=465, 451.6875pt x 315.1775pt>
+=======
+<../images/ModelPackage.png, id=469, 451.6875pt x 315.1775pt>
+>>>>>>> origin/master
 File: ../images/ModelPackage.png Graphic file (type png)
 
 <use ../images/ModelPackage.png>
@@ -1123,7 +1143,11 @@ File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 232.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+<<<<<<< HEAD
  [8 <../images/ModelPackage.png>] <../images/ViewPackage.png, id=475, 507.8975p
+=======
+ [8 <../images/ModelPackage.png>] <../images/ViewPackage.png, id=479, 507.8975p
+>>>>>>> origin/master
 t x 339.2675pt>
 File: ../images/ViewPackage.png Graphic file (type png)
 
@@ -1140,7 +1164,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 257--259
 
  []
 
+<<<<<<< HEAD
 <../images/PresenterPackage.png, id=476, 644.4075pt x 411.5375pt>
+=======
+<../images/PresenterPackage.png, id=480, 644.4075pt x 411.5375pt>
+>>>>>>> origin/master
 File: ../images/PresenterPackage.png Graphic file (type png)
 
 <use ../images/PresenterPackage.png>
@@ -1213,7 +1241,11 @@ Package pdftex.def Info: ../../team404_small.jpg used on input line 518.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 521.
 
+<<<<<<< HEAD
 <"../images/diagramma 1".png, id=535, 5083.99374pt x 2287.54625pt>
+=======
+<"../images/diagramma 1".png, id=540, 5083.99374pt x 2287.54625pt>
+>>>>>>> origin/master
 File: "../images/diagramma 1".png Graphic file (type png)
 
 <use "../images/diagramma 1".png>
@@ -1229,7 +1261,11 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../../team404_small.jpg used on input line 529.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [20 <../images/diagramma 1.png>]
+<<<<<<< HEAD
 <"../images/diagramma 2".png, id=543, 3497.065pt x 2698.08pt>
+=======
+<"../images/diagramma 2".png, id=548, 3497.065pt x 2698.08pt>
+>>>>>>> origin/master
 File: "../images/diagramma 2".png Graphic file (type png)
 
 <use "../images/diagramma 2".png>
@@ -1245,7 +1281,11 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../../team404_small.jpg used on input line 537.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [21 <../images/diagramma 2.png>]
+<<<<<<< HEAD
 <"../images/diagramma 3".png, id=550, 2673.99pt x 3041.3625pt>
+=======
+<"../images/diagramma 3".png, id=555, 2673.99pt x 3041.3625pt>
+>>>>>>> origin/master
 File: "../images/diagramma 3".png Graphic file (type png)
 
 <use "../images/diagramma 3".png>
@@ -1261,7 +1301,11 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../../team404_small.jpg used on input line 545.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [22 <../images/diagramma 3.png>]
+<<<<<<< HEAD
 <"../images/diagramma 4".png, id=557, 3781.12625pt x 2714.14pt>
+=======
+<"../images/diagramma 4".png, id=562, 3781.12625pt x 2714.14pt>
+>>>>>>> origin/master
 File: "../images/diagramma 4".png Graphic file (type png)
 
 <use "../images/diagramma 4".png>
@@ -1301,6 +1345,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 562.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 562.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 562.
 Package rerunfilecheck Info: File `Specifica_Tecnica_1.0.out' has not changed.
+<<<<<<< HEAD
 (rerunfilecheck)             Checksum: 35CF7E6FEDF9E5D7612C028FD721ED6F;6048.
  ) 
 Here is how much of TeX's memory you used:
@@ -1322,6 +1367,30 @@ onts/type1/public/cm-super/sftt1440.pfb>
 Output written on Specifica_Tecnica_1.0.pdf (31 pages, 899357 bytes).
 PDF statistics:
  629 PDF objects out of 1000 (max. 8388607)
+=======
+(rerunfilecheck)             Checksum: 30983FBDC99E62E0E3F10E0F1A748987;5972.
+ ) 
+Here is how much of TeX's memory you used:
+ 11078 strings out of 493033
+ 162245 string characters out of 6137754
+ 293915 words of memory out of 5000000
+ 14289 multiletter control sequences out of 15000+600000
+ 27202 words of font info for 79 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,17n,47p,1001b,534s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2015/texmf-dist/fonts/enc/dvips/cantarell/cantarell-03.enc}{c:/te
+xlive/2015/texmf-dist/fonts/enc/dvips/cantarell/cantarell-01.enc}{c:/texlive/20
+15/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2015/texmf-d
+ist/fonts/type1/public/cantarell/Cantarell-Bold.pfb><c:/texlive/2015/texmf-dist
+/fonts/type1/public/cantarell/Cantarell-Regular.pfb><c:/texlive/2015/texmf-dist
+/fonts/type1/public/cantarell/Cantarell-Regular.pfb><c:/texlive/2015/texmf-dist
+/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2015/texmf-dist/fonts/typ
+e1/public/cm-super/sftt1440.pfb>
+Output written on Specifica_Tecnica_1.0.pdf (31 pages, 845476 bytes).
+PDF statistics:
+ 636 PDF objects out of 1000 (max. 8388607)
+ 575 compressed objects within 6 object streams
+>>>>>>> origin/master
  110 named destinations out of 1000 (max. 500000)
  659 words of extra memory for PDF output out of 10000 (max. 10000000)
 
