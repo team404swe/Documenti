@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.3.14)  14 MAY 2016 15:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.3.14)  14 MAY 2016 16:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1268,143 +1268,158 @@ Package pdftex.def Info: ../../team404_small.jpg used on input line 324.
  [11]
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 360.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 361.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 375--376
+File: ../../team404_small.jpg Graphic file (type jpg)
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 389.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [13]
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 385.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [13]
-File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 410.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 415.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [14]
 File: ../../team404_small.jpg Graphic file (type jpg)
-
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 425.
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 441.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [15]
 File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 461.
+
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 443.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [16]
 File: ../../team404_small.jpg Graphic file (type jpg)
-
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 486.
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 479.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [17]
 File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 500.
+
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 504.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [18]
+File: ../../team404_small.jpg Graphic file (type jpg)
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 518.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [19]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 503.
+(hyperref)                than one, level fixed on input line 521.
 
-<"../images/diagramma 1".png, id=519, 5083.99374pt x 2287.54625pt>
+<"../images/diagramma 1".png, id=527, 5083.99374pt x 2287.54625pt>
 File: "../images/diagramma 1".png Graphic file (type png)
 
 <use "../images/diagramma 1".png>
-Package pdftex.def Info: "../images/diagramma 1".png used on input line 505.
+Package pdftex.def Info: "../images/diagramma 1".png used on input line 523.
 (pdftex.def)             Requested size: 508.42917pt x 228.76802pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 507--510
+Underfull \hbox (badness 10000) in paragraph at lines 525--528
 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 511.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 529.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [19 <../images/diagramma 1.png>]
-<"../images/diagramma 2".png, id=526, 3497.065pt x 2698.08pt>
+ [20 <../images/diagramma 1.png>]
+<"../images/diagramma 2".png, id=536, 3497.065pt x 2698.08pt>
 File: "../images/diagramma 2".png Graphic file (type png)
 
 <use "../images/diagramma 2".png>
-Package pdftex.def Info: "../images/diagramma 2".png used on input line 514.
+Package pdftex.def Info: "../images/diagramma 2".png used on input line 532.
 (pdftex.def)             Requested size: 349.72699pt x 269.8238pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 516--519
+Underfull \hbox (badness 10000) in paragraph at lines 534--537
 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 519.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 537.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [20 <../images/diagramma 2.png>]
-<"../images/diagramma 3".png, id=534, 2673.99pt x 3041.3625pt>
+ [21 <../images/diagramma 2.png>]
+<"../images/diagramma 3".png, id=543, 2673.99pt x 3041.3625pt>
 File: "../images/diagramma 3".png Graphic file (type png)
 
 <use "../images/diagramma 3".png>
-Package pdftex.def Info: "../images/diagramma 3".png used on input line 522.
+Package pdftex.def Info: "../images/diagramma 3".png used on input line 540.
 (pdftex.def)             Requested size: 267.41466pt x 304.15407pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--527
+Underfull \hbox (badness 10000) in paragraph at lines 542--545
 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 527.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 545.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [21 <../images/diagramma 3.png>]
-<"../images/diagramma 4".png, id=542, 3781.12625pt x 2714.14pt>
+ [22 <../images/diagramma 3.png>]
+<"../images/diagramma 4".png, id=550, 3781.12625pt x 2714.14pt>
 File: "../images/diagramma 4".png Graphic file (type png)
 
 <use "../images/diagramma 4".png>
-Package pdftex.def Info: "../images/diagramma 4".png used on input line 530.
+Package pdftex.def Info: "../images/diagramma 4".png used on input line 548.
 (pdftex.def)             Requested size: 378.13478pt x 271.4299pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 533--536
+Underfull \hbox (badness 10000) in paragraph at lines 551--554
 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 536.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 554.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [22 <../images/diagramma 4.png>]
+ [23 <../images/diagramma 4.png>]
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 538.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [23]
-File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 540.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 556.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [24]
+File: ../../team404_small.jpg Graphic file (type jpg)
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 558.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [25]
 
 AED: lastpage setting LastPage
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 544.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 562.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [25]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 544.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 544.
+ [26]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 562.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 562.
  (./Specifica_Tecnica_1.0.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 544.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 544.
-Package rerunfilecheck Info: File `Specifica_Tecnica_1.0.out' has not changed.
-(rerunfilecheck)             Checksum: F25A51CA8AD5C01D9159B393D82EE9CD;5695.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 562.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 562.
+
+
+Package rerunfilecheck Warning: File `Specifica_Tecnica_1.0.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Specifica_Tecnica_1.0.out':
+(rerunfilecheck)             Before: F25A51CA8AD5C01D9159B393D82EE9CD;5695
+(rerunfilecheck)             After:  30983FBDC99E62E0E3F10E0F1A748987;5972.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 11071 strings out of 493033
- 162088 string characters out of 6137754
+ 11075 strings out of 493033
+ 162167 string characters out of 6137754
  293915 words of memory out of 5000000
  14286 multiletter control sequences out of 15000+600000
  27202 words of font info for 79 fonts, out of 8000000 for 9000
@@ -1418,10 +1433,10 @@ ist/fonts/type1/public/cantarell/Cantarell-Bold.pfb><c:/texlive/2015/texmf-dist
 /fonts/type1/public/cantarell/Cantarell-Regular.pfb><c:/texlive/2015/texmf-dist
 /fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2015/texmf-dist/fonts/typ
 e1/public/cm-super/sftt1440.pfb>
-Output written on Specifica_Tecnica_1.0.pdf (30 pages, 836597 bytes).
+Output written on Specifica_Tecnica_1.0.pdf (31 pages, 844772 bytes).
 PDF statistics:
- 613 PDF objects out of 1000 (max. 8388607)
- 553 compressed objects within 6 object streams
- 106 named destinations out of 1000 (max. 500000)
+ 624 PDF objects out of 1000 (max. 8388607)
+ 563 compressed objects within 6 object streams
+ 110 named destinations out of 1000 (max. 500000)
  635 words of extra memory for PDF output out of 10000 (max. 10000000)
 
