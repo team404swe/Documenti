@@ -385,7 +385,7 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 			\subsubsubsection{Classe Sender}
 			\begin{itemize}
 			\item\textbf{Funzione del componente:} inoltra le richieste dell'utente al presenter
-			\item\textbf{Relazioni d'uso di altri componenti:}  viene utilizzata all'interno di CurrentViewManager::CurrentView in risposta agli eventi che accadono sull'interfaccia web in seguito alle azioni compiute dall'utente; l'output dei metodi di questa classe viene poi processato dal presenter
+			\item\textbf{Relazioni d'uso di altri componenti:}  viene utilizzata all'interno di CurrentViewManager::CurrentView in risposta agli eventi che accadono sull'interfaccia web in seguito alle azioni compiute dall'utente; l'output dei metodi di questa classe viene poi processato dalle classi del package Presenter::UserInputManager.
 			\item\textbf{Attività svolte e dati trattati:} ogni metodo di questa classe corrisponde ad una situazione che si verifica, attraverso un rispettivo metodo, in una classe derivata da Pages::Page; la classe conosce il tipo Presenter::UserInputManager::Input, e genera messaggi per ogni evento passando oggetti di tipo Input al Presenter.
 			\end{itemize}
 			
