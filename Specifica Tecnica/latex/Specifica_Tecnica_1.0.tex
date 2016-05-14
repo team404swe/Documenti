@@ -305,7 +305,7 @@ con vettori associativi, che associano nomi di proprietà a valori.
 			\item\textbf{Relazioni d'uso di altri componenti:} interagisce con il Presenter, inviando o ricevendo dati sulla base delle richieste di quest'ultimo
 			\item\textbf{Attivita' svolte e dati trattati:} ogni metodo della classe consente l'inserimento, la lettura, la modifica e la rimozione di dati dal database, in seguito alla quale si possono verificare eventi per notificare al Presenter
 			\end{itemize}
-			\subsubsubsection{Interfaccia tipologiaEvento}
+			\subsubsubsection{Interfaccia ModelTypeEvent}
 			\begin{itemize}
 		    	\item\textbf{Funzione del componente:} l'interfaccia identifichera' dei particolari eventi che richiedono l'intervento del Presenter
 			\item\textbf{Relazioni d'uso di altri componenti:} questa interfaccia verra implementata da classi che andranno a specificare un particolare tipo di evento
@@ -313,26 +313,44 @@ con vettori associativi, che associano nomi di proprietà a valori.
 			\subsubsubsection{Classe QuestionModifiedEvent}
 			\begin{itemize}
 		    	\item\textbf{Funzione del componente:} la classe specifica la modifica di un quesito nel database
-				\item\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia tipologiaEvento
+				\item\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia ModelTypeEvent
 				\item\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della modifica di un quesito
 			\end{itemize}
 			\subsubsubsection{Classe QuestionRemovedEvent}
 			\begin{itemize}
 		    	\item\textbf{Funzione del componente:} la classe specifica la rimozione di un quesito nel database
-				\item\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia tipologiaEvento
+				\item\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia ModelTypeEvent
 				\item\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della rimozione di un quesito
 			\end{itemize}
 			\subsubsubsection{Classe QuizModifiedEvent}
 			\begin{itemize}
 		    	\item\textbf{Funzione del componente:} la classe specifica la modifica di un quiz nel database
-				\item\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia tipologiaEvento
+				\item\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia ModelTypeEvent
 				\item\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della modifica di un quiz
 			\end{itemize}
 			\subsubsubsection{Classe QuizRemovedEvent}
 			\begin{itemize}
 		    	\item\textbf{Funzione del componente:} la classe specifica la rimozione di un quiz nel database
-				\item\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia tipologiaEvento
+				\item\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia ModelTypeEvent
 				\item\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della rimozione di un quiz
+			\end{itemize}
+			\subsubsubsection{Classe UserCreatedEvent}
+			\begin{itemize}
+		    	\item\textbf{Funzione del componente:} la classe specifica l'aggiunta di un nuovo utente nel database
+				\item\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia ModelTypeEvent
+				\item\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi dell'aggiunta di un nuovo utente
+			\end{itemize}
+			\subsubsubsection{Classe UserModifiedEvent}
+			\begin{itemize}
+		    	\item\textbf{Funzione del componente:} la classe specifica la modifica di un utente nel database
+				\item\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia ModelTypeEvent
+				\item\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della modifica di un utente
+			\end{itemize}
+			\subsubsubsection{Classe UserRemovedEvent}
+			\begin{itemize}
+		    	\item\textbf{Funzione del componente:} la classe specifica la rimozione di un utente nel database
+				\item\textbf{Relazioni d'uso di altri componenti:} implementa l'interfaccia ModelTypeEvent
+				\item\textbf{Attivita' svolte e dati trattati:} segnala al Presenter il verificarsi della rimozione di un utente
 			\end{itemize}
 			
 			\subsubsection{Package Parser}
@@ -345,7 +363,7 @@ con vettori associativi, che associano nomi di proprietà a valori.
 			
 			\subsubsection{Package Statistiche}
 			IMMAGINE
- 			\subsubsubsection{Classe Statistiche}
+ 			\subsubsubsection{Classe Statistic}
  			\begin{itemize}
 		    	\item\textbf{Funzione del componente:} questa classe fornisce funzionalita' per il raccoglimento delle statistiche all'interno di Quizzipedia
 			\item\textbf{Attivita' svolte e dati trattati:} la classe aggiornera' le statistiche relative ai quesiti, questionari ed utenti.
