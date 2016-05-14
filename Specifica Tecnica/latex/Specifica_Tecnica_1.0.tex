@@ -41,6 +41,7 @@
 	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm} 
 	\textbf{Descrizione}}
 
+	\rigaregistro{0.0.13}{Davide Bortot (Progettista)}{06/05/2016}{Completata la sezione "Diagrammi delle classi del Presenter" con l'aggiunta dei grafici UML.}
 	\rigaregistro{0.0.12}{Andrea Multineddu (Progettista)}{06/05/2016}{Aggiunte immagini sezione "Diagrammi delle attività".}
 	\rigaregistro{0.0.11}{Davide Bortot (Progettista)}{05/05/2016}{Completata la parte descrittiva della sezione "Diagrammi delle classi del Presenter". Riadattamento allo stile del documento di §4.3. Inseriti grafici UML dei Package del Model e della View.}
 	\rigaregistro{0.0.10}{Luca Alessio (Progettista)}{04/05/2016}{Stesura sezione "Diagrammi delle attività" e correzioni varie su altre sezioni.}
@@ -265,30 +266,48 @@ con vettori associativi, che associano nomi di proprietà a valori.
 		\includegraphics[scale=0.6]{../images/PresenterPackage.png}
 	\end{center}
 	Gli elementi del package collaborano e interagiscono con l'obiettivo comune di trattare il flusso di dati tra View e Model e mantenere aggiornato lo stato di entrambi. \\
-	Il package del Presenter contiene i seguenti sub-package:
+	Il package del Presenter contiene i seguenti sub-packages:
 	\begin{itemize}
 	\item \textbf{UserInputManager}
-	Il package \emph{UserInputManager} gestisce gli input degli utenti ricevuti dalla View, realizzando la logica dell'applicazione web. Per svolgere il proprio compito si interfaccia con i package \emph{ViewUpdater} e \emph{ModelUpdater} a seconda di quale componente deve aggiornare. Il package contiene al suo interno la classe:
+	Il package \emph{UserInputManager} gestisce gli input degli utenti ricevuti dalla View, realizzando la logica dell'applicazione web. Per svolgere il proprio compito si interfaccia con il package \emph{Updaters} per aggiornare e interagire con View e Model. \\
+	Il package contiene al suo interno le classi:
 	\begin{itemize}
 		\item \textit{InputManager}
+		\item \textit{Input}
+		\item \textit{sottoclassi di Input}
 	\end{itemize}
 	
-	\item \textbf{ModelUpdater}
-	Il package \emph{ModelUpdater} ha il compito di riflettere le modifiche della View sul Model. Riceve dalla View i dati, se necessario li elabora, e li passa al Model. Il package contiene al suo interno le seguenti classi:
+	\item \textbf{Updaters}
+	Il package \emph{Updaters} ha la responsabilità di aggiornare View e Model in risposta agli input utente. per svolgere i suoi compiti collabora con i packages \emph{QuizManger} e \emph{QuestionManager}. Il package contiene al suo interno le classi:
 	\begin{itemize}
-		\item \textit{ViewDataReceiver}
-		\item \textit{ToModelSender}
+		\item \textit{Updater}
+		\item \textit{ModelUpdater}
+		\item \textit{ViewUpdater}
 	\end{itemize}
-	\item \textbf{ViewUpdater}
-	Il package \emph{ViewUpdater} ha il compito di riflettere le modifiche del Model sulla View. Se i dati che riceve dal Model sono domande QML, queste vanno prima tradotte in linguaggio HTML per essere utilizzate nella View; per fare ciò si interfaccia con il package \emph{Interpreter}. Il package contiene al suo interno le seguenti classi:
+	
+	\item \textit{QuestionManager}
+	Il package \emph{QuestionManager} espone le funzionalità necessarie alla creazione e gestione di domande. Per permettere al package di essere estendibile in futuro con domande in diversi formati, le classi al suo interno sono organizzate seguendo il pattern \emph{Abstract Factory}. \\
+	Il package contiene al suo interno le classi:
 	\begin{itemize}
-		\item \textit{ModelDataReceiver}
-		\item \textit{ToViewSender}
+		\item \textit{QuestionFactory}
+		\item \textit{Question}
+		\item \textit{QML2HTMLFactory}
+		\item \textit{HTMLQuestion}
 		\item \textit{Translator}
 	\end{itemize}
-	\newpage
+	
+	\item\textit{QuizManager}
+	Il Package \emph{QuizManager} espone le funzionalità necessarie alla creazione e gestione di quiz, collaborando con il package \emph{QuestionManager}. Per disaccoppiare la creazione di un quiz dalle domande che lo compongono, la classi all'interno del package seguono la struttura del design pattern \emph{Builder}.\\ 
+	Il package contiene al suo interno le classi:
+	\begin{itemize}
+		\item \textit{QuizDirector}
+		\item \textit{QuizBuilder}
+		\item \textit{Quiz}
+	\end{itemize}
+	
 	\item \textbf{Interpreter}
-	Il package \emph{Interpreter} è responsabile della traduzione di testo QML in codice HTML5 visualizzabile da browser. Per permettere al package di essere estendibile in futuro con nuovi tipi di "Interpreter", le classi al suo interno sono organizzate seguendo il pattern \emph{Abstract Factory} . Il package contiene al suo interno le seguenti classi:
+	Il package \emph{Interpreter} è responsabile della traduzione di testo QML in codice HTML5 visualizzabile da browser. Per permettere al package di essere estendibile in futuro con nuovi tipi di "Interpreter", le classi al suo interno sono organizzate seguendo il pattern \emph{Abstract Factory} . \\
+	Il package contiene al suo interno le seguenti classi:
 	\begin{itemize}
 	\item \textit{Interpreter}
 	\item \textit{InterpreterFactory}
@@ -297,7 +316,7 @@ con vettori associativi, che associano nomi di proprietà a valori.
 	\item \textit{QML2HTMLInterpreter}
 	\end{itemize}
 	
-	\end{itemize}		
+	\end{itemize}
 	\section{Diagrammi delle classi}
 		\subsection{Diagrammi delle classi del Model}
 			\subsubsection{Package Database}
@@ -452,79 +471,188 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 			\newpage
 			
 			\subsection{Diagrammi delle classi del Presenter}
+			\begin{figure}[h!]
+			\begin{center}
+				\includegraphics[scale=0.65]{../images/UserInputManagerClass.png}
+				\caption{Diagramma delle classi del package UserInputManager}
+			\end{center}
+			\end{figure}
 			\subsubsection{Package UserInputManager}
-			\subsubsubsection{InputManager}
+
+			\subsubsubsection{Classe InputManager}
+			La classe implementa, in una semplificazione del pattern \emph{Command}, il componente Invoker del Command.
 			\begin{itemize}
-				\item\textbf{Funzione del componente}: riceve gli input dalla View e li indirizza verso le classi ModelUpdater e ViewUpdater.
-				\item\textbf{Relazione d'uso di altre componenti}: si interfaccia con i package ModelUpdater e ViewUpdater e con il package View dal quale riceve gli input.
-				\item\textbf{Attività svolte e dati trattati}: questa classe possiede operazioni per ricevere e trattare gli input che gli arrivano dalla View. Possiede inoltre i riferimenti alle classi ViewDataReceiver e ToModelSender alle quali inoltra i rispettivi input d'interesse.
+				\item\textbf{Funzione del componente}: riceve gli input dalla View e li indirizza verso le classi del package Updaters.
+				\item\textbf{Relazione d'uso di altre componenti}: si interfaccia con il package Updaters (che sono i suoi \emph{Receivers}) e con il package View dal quale riceve gli input.
+				\item\textbf{Attività svolte e dati trattati}: questa classe possiede operazioni per ricevere e indirizzare ai giusti componenti gli input che le arrivano dalla View.
+			\end{itemize}
+			
+			\subsubsubsection{Interfaccia Input}
+			\begin{itemize}
+				\item\textbf{Funzione del componente}: interfaccia di base degli input.
+				\item\textbf{Relazione d'uso di altre componenti}: viene concretizzata in più sottoclassi. Oggetti delle sue sottoclassi vengono creati da View::Sender. Le sottoclassi concrete s'interfacciano con Updaters::ViewUpdater e Updaters::ModelUpdater.
+				\item\textbf{Attività svolte e dati trattati}: definisce il contratto di ogni classe di tipo Input. Le classi concrete s'interfacciano con le classi del package Updaters in modo specializzato per ogni input.
+				\item\textbf{Concretizzazioni}: Attualmente l'interfaccia Input viene concretizzata nelle seguenti sottoclassi:
+				\begin{itemize}
+				\item\textit{CreateQuiz}
+				\item\textit{AddQuestion}
+				\item\textit{RemoveQuestion}
+				\item\textit{SaveQuiz}
+				\item\textit{StartQuiz}
+				\item\textit{NextQuestion}
+				\item\textit{PreviousQuestion}
+				\item\textit{EndQuiz}
+				\item\textit{ViewProfile}
+				\item\textit{UpdateProfile}
+				\item\textit{ViewQuizTutorial}
+				\item\textit{ViewQuizList}
+				\item\textit{OrderQuizList}
+				\end{itemize}
 			\end{itemize}
 
-			\subsubsection{Package ModelUpdater}
-			\subsubsubsection{ViewDataReceiver}
+			\subsubsection{Package Updaters}
+			\begin{figure}[h!]
+			\begin{center}
+				\includegraphics[scale=0.65]{../images/UpdatersClass.png}
+				\caption{Diagramma delle classi del package Updaters}
+			\end{center}
+			\end{figure}
+			\subsubsubsection{Interfaccia Updater}
 			\begin{itemize}
-				\item\textbf{Funzione del componente}: ricevere e strutturare i dati da mandare al Model.
-				\item\textbf{Relazione d'uso di altre componenti}: riceve dalla classe InputManager gli input, richiede alla View dati.
-				\item\textbf{Attività svolte e dati trattati}: A seconda dell'input richiede alla View i dati da trasmettere al Model e li inoltra alla componente ToModelSender.
+				\item\textbf{Funzione del componente}: definisce le operazioni di base che andranno implementate nelle sottoclassi.
+				\item\textbf{Relazione d'uso di altre componenti}: viene concretizzata in ViewUpdater e ModelUpdater.
+				\item\textbf{Attività svolte e dati trattati}: nessuno.
 			\end{itemize}
-			\subsubsubsection{ToModelSender}
+			
+			\subsubsubsection{Classe ModelUpdater}
 			\begin{itemize}
-				\item\textbf{Funzione del componente}: inoltra al Model i dati da salvare su database.
-				\item\textbf{Relazione d'uso di altre componenti}: collabora con la classe ViewDataReceiver e s'interfaccia con la classe Database del Model esterna al package Presenter.
-				\item\textbf{Attività svolte e dati trattati}: possiede un riferimento al Model e, una volta ricevuti i dati da ViewDataReceiver, li trasmette alla classe Database per il salvataggio.
+				\item\textbf{Funzione del componente}: inoltra al Model i dati da salvare su database. Riceve eventi dal Database.
+				\item\textbf{Relazione d'uso di altre componenti}: collabora con le classi ViewUpdater, QuizManager e QuestionManager e s'interfaccia con la classe Database del Model esterna al package Presenter.
+				\item\textbf{Attività svolte e dati trattati}: possiede un riferimento al Model e ne riceve gli eventi; tali eventi possono comportare l'aggiornamento della View, in tal caso collabora con la classe ViewUpdater. E' il \emph{Receiver} degli input che modificano il Model. Alcuni input possono richiedere la sua collaborazione con le classi QuizManager e QuestionManager.
 			\end{itemize}
-			\subsubsection{Package ViewUpdater}
-			\subsubsubsection{ModelDataReceiver}
-			\begin{itemize}
-				\item\textbf{Funzione del componente}: riceve dal Model nuovi dati  con i quali aggiornare la View.
-				\item\textbf{Relazione d'uso di altre componenti}: s'interfaccia con la classe Database per la ricezione dei dati e con la classe ToViewSender per l'inoltro.
-				\item\textbf{Attività svolte e dati trattati}: riceve dal database  eventi e i dati modificati da tali eventi e li inoltra alla classe ToViewSender. 
-			\end{itemize}
-			\subsubsubsection{ToViewSender}
+
+			\subsubsubsection{Classe ViewUpdater}
 			\begin{itemize}
 				\item\textbf{Funzione del componente}: è responsabile dell'aggiornamento della View rispetto agli input utente e rispetto alle modifiche del Model.
-				\item\textbf{Relazione d'uso di altre componenti}: s'interfaccia con le classi InputManager, ModelDataReceiver e Translator.
-				\item\textbf{Attività svolte e dati trattati}: la componente può ricevere input che non necessitano di interazione col Model; in tal caso provvede direttamente all'aggiornamento della View. Se è richiesta interazione col Model essa riceve i dati dalla classe ModelDataReceiver e li prepara per aggiornare la view. Se i dati sono in formato QML e necessitano di traduzione in HTML la componente richiede i servizi della classe Translator.
+				\item\textbf{Relazione d'uso di altre componenti}: s'interfaccia con le classi ViewUpdater, QuizManager e QuestionManager e con le classi del package View.
+				\item\textbf{Attività svolte e dati trattati}: la componente può ricevere input che non necessitano di interazione col Model; in tal caso provvede direttamente all'aggiornamento della View. Se è richiesta interazione col Model essa interagisce con la classe ModelUpdater. Alcuni input possono richiedere la sua collaborazione con le classi QuizManager e QuestionManager.
 			\end{itemize}
-			\subsubsubsection{Translator}
+			\newpage
+			
+			\subsubsection{Package QuestionManager}	
+			Il package fa uso del design pattern \emph{Abstract Factory}.
+			\begin{figure}[h!]
+			\begin{center}
+				\includegraphics[scale=0.65]{../images/QuestionManagerClass.png}
+				\caption{Diagramma delle classi del package QuestionManager}
+			\end{center}
+			\end{figure}
+			\subsubsubsection{Interfaccia QuestionFactory}
+			\begin{itemize}
+				\item\textbf{Funzione del componente}: interfaccia di base delle Factory di tipi Question.
+				\item\textbf{Relazione d'uso di altre componenti}: può essere concretizzata in diversi tipi di QuestionFactory.
+				\item\textbf{Attività svolte e dati trattati}: definisce il contratto delle factory Question, cioè le operazioni di costruzione di Question che saranno definite in ogni concretizzazione.
+			\end{itemize}
+			
+			\subsubsubsection{Classe astratta Question}
+			\begin{itemize}
+				\item\textbf{Funzione del componente}: classe di base del tipo Question.
+				\item\textbf{Relazione d'uso di altre componenti}: può essere concretizzata in diversi tipi di Question.
+				\item\textbf{Attività svolte e dati trattati}: definisce il contratto generale delle Question, cioè le loro operazioni e dati.
+			\end{itemize}
+			
+			\subsubsubsection{Classe QML2HTMLQuestionFactory}
+			La classe QML2HTMLQuestionFactory è un \emph{singleton}.
+			\begin{itemize}
+				\item\textbf{Funzione del componente}: crea oggetti di tipo HTMLQuestion.
+				\item\textbf{Relazione d'uso di altre componenti}: è concretizzazione della classe QuestionFactory. Crea oggetti HTMLQuestion. Si interfaccia con la classe Translator.
+				\item\textbf{Attività svolte e dati trattati}: crea su richiesta oggetti di tipo HTMLQuestion, delegando la traduzione del codice QML alla classe Translator.
+			\end{itemize}
+			
+			\subsubsubsection{Classe HTMLQuestion}	
+			\begin{itemize}
+				\item\textbf{Funzione del componente}: rappresenta una domanda in formato HTML.
+				\item\textbf{Relazione d'uso di altre componenti}: è concretizzazione di Question.
+				\item\textbf{Attività svolte e dati trattati}: eredita e specializza le funzionalità dell'interfaccia Question.
+			\end{itemize}
+			
+			\subsubsubsection{Classe Translator}
 			\begin{itemize}
 				\item\textbf{Funzione del componente}: s'interfaccia con le componenti del package Interpreter per la traduzione di quesiti QML in HTML.
-				\item\textbf{Relazione d'uso di altre componenti}: collabora con le interfacce Interpreter e InterpreterFactory. Interagisce con la classe ToViewSender.
+				\item\textbf{Relazione d'uso di altre componenti}: collabora con le interfacce Interpreter e InterpreterFactory.
 				\item\textbf{Attività svolte e dati trattati}: riceve dalla classe ToViewSender le richieste di traduzione e il codice QML da tradurre. Attraverso la factory InterpreterFactory (una sua concretizzazione) costruisce un Interpreter concreto e lo utilizza per la traduzione del codice. L'esito della traduzione viene reso disponibile a ToViewSender.
 			\end{itemize}
+			\newpage
+			
+			\subsubsection{Package QuizManager}
+			Il package fa uso del design pattern \emph{Builder}.
+			\begin{figure}[h!]
+			\begin{center}
+				\includegraphics[scale=0.65]{../images/QuizManagerClass.png}
+				\caption{Diagramma delle classi del package QuizManager}
+			\end{center}
+			\end{figure}
+			\subsubsubsection{Classe QuizDirector}
+			\begin{itemize}
+			\item\textbf{Funzione del componente}: è responsabile della costruzione di un oggetto di tipo Quiz.
+				\item\textbf{Relazione d'uso di altre componenti}: utilizza la classe QuizBuilder.
+				\item\textbf{Attività svolte e dati trattati}: la classe, a partire da un set di domande (in questo caso in QML), utilizza il Builder per costruire un Quiz.ì
+			\end{itemize}
+			
+			\subsubsubsection{Classe QuizBuilder}
+			\begin{itemize}
+			\item\textbf{Funzione del componente}: Costruisce domanda per domanda un questionario.
+				\item\textbf{Relazione d'uso di altre componenti}: interagisce con il package QuestionManager.
+				\item\textbf{Attività svolte e dati trattati}: Costruisce passo pe r passo un oggetto di tipo Quiz. Si appoggia al package QuestionManager per la creazione delle singole domande.
+			\end{itemize}
+			
+			\subsubsubsection{Classe Quiz}
+			\begin{itemize}
+			\item\textbf{Funzione del componente}: la classe rappresenta un Quiz, una raccolta di domande.
+				\item\textbf{Relazione d'uso di altre componenti}: nessuna.
+				\item\textbf{Attività svolte e dati trattati}: la classe possiede i dati e fornisce le operazioni necessaria alla fruizione di un Quiz.
+			\end{itemize}
+			\clearpage			
+			
 			\subsubsection{Package Interpreter}
-			\subsubsubsection{Interpreter}
+			\begin{figure}[h!]
+			\begin{center}
+				\includegraphics[scale=0.65]{../images/InterpreterClass.png}
+				\caption{Diagramma delle classi del package Interpreter}
+			\end{center}
+			\end{figure}
+			\subsubsubsection{Interfaccia Interpreter}
 			\begin{itemize}
 				\item\textbf{Funzione del componente}: interfaccia di base del tipo Interpreter.
 				\item\textbf{Relazione d'uso di altre componenti}: può essere concretizzata in diversi tipi di Interpreter. Viene riferita dalla classe Translator.
 				\item\textbf{Attività svolte e dati trattati}: definisce il contratto degli Interpreter, cioè le operazioni di traduzione che saranno definite in ogni concretizzazione.
 			\end{itemize}
-			\subsubsubsection{InterpreterFactory}
+			\subsubsubsection{Interfaccia InterpreterFactory}
 			\begin{itemize}
 				\item\textbf{Funzione del componente}: interfaccia di base delle Factory di tipi Interpreter.
 				\item\textbf{Relazione d'uso di altre componenti}: può essere concretizzata in diversi tipi di InterpreterFactory. Viene riferita dalla classe Translator.
 				\item\textbf{Attività svolte e dati trattati}: definisce il contratto delle factory, cioè le operazioni di costruzione di Interpreter che saranno definite in ogni concretizzazione.
 			\end{itemize}
-			\subsubsubsection{QMLInterpreterFactory}
+			\subsubsubsection{Classe QMLInterpreterFactory}
 			La classe QMLInterpreterFactory è un \emph{singleton}.
 			\begin{itemize}
 				\item\textbf{Funzione del componente}: crea oggetti di tipo QMLInterpreter.
 				\item\textbf{Relazione d'uso di altre componenti}: è concretizzazione della classe InterpreterFactory. Crea oggetti QMLInterpreter.
 				\item\textbf{Attività svolte e dati trattati}: crea su richiesta oggetti di tipo QMLInterpreter.
 			\end{itemize}
-			\subsubsubsection{QMLInterpreter}
+			\subsubsubsection{Classe QMLInterpreter}
 			\begin{itemize}
 				\item\textbf{Funzione del componente}: classe astratta che rappresenta gli Interpreter che traducono codice QML in un altro formato.
 				\item\textbf{Relazione d'uso di altre componenti}: è sottotipo di Interpreter. Può essere concretizzata in più tipi di QMLInterpreter.
 				\item\textbf{Attività svolte e dati trattati}: definisce il contratto dei QMLInterpreter, cioè le operazioni di traduzione da QML verso altri linguaggi.
 			\end{itemize}
-			\subsubsubsection{QML2HTMLInterpreter}	
+			\subsubsubsection{Classe QML2HTMLInterpreter}	
 			\begin{itemize}
 				\item\textbf{Funzione del componente}: traduce codice QML in codice HTML.
 				\item\textbf{Relazione d'uso di altre componenti}: è concretizzazione di QMLInterpreter.
 				\item\textbf{Attività svolte e dati trattati}: riceve in input domande in QML e le traduce in codice HTML visualizzabile da browser.
 			\end{itemize}
-			\newpage	
+			\newpage
 	\section{Diagrammi di attività}
 	
 \subsubsection{Creazione Questionario}

@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.14)  14 MAY 2016 22:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.20)  15 MAY 2016 00:09
 entering extended mode
-**./Specifica_Tecnica_1.0.tex
+**Specifica_Tecnica_1.0.tex
 (Specifica_Tecnica_1.0.tex
-LaTeX2e <2015/10/01> patch level 2
-Babel <3.9n> and hyphenation patterns for 69 languages loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 68 languages loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size11.clo"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -20,27 +20,24 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(../../template.tex
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-Package: inputenc 2015/03/17 v1.2c Input encoding file
+) (../../template.tex
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2014/04/30 v1.2b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2015/09/07 v1.1p UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
-   defining Unicode char U+00AD (decimal 173)
    defining Unicode char U+00BB (decimal 187)
    defining Unicode char U+00BF (decimal 191)
    defining Unicode char U+00C0 (decimal 192)
@@ -161,10 +158,6 @@ File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+016F (decimal 367)
    defining Unicode char U+0170 (decimal 368)
    defining Unicode char U+0171 (decimal 369)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
    defining Unicode char U+0178 (decimal 376)
    defining Unicode char U+0179 (decimal 377)
    defining Unicode char U+017A (decimal 378)
@@ -172,10 +165,6 @@ File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+017C (decimal 380)
    defining Unicode char U+017D (decimal 381)
    defining Unicode char U+017E (decimal 382)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
    defining Unicode char U+200C (decimal 8204)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
@@ -194,12 +183,10 @@ File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AD (decimal 173)
    defining Unicode char U+00B8 (decimal 184)
    defining Unicode char U+00BF (decimal 191)
    defining Unicode char U+00C5 (decimal 197)
@@ -217,14 +204,6 @@ File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+0142 (decimal 322)
    defining Unicode char U+0152 (decimal 338)
    defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
    defining Unicode char U+2018 (decimal 8216)
@@ -235,8 +214,8 @@ File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -259,39 +238,45 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2016/01/08 3.9n The Babel package
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel\babel.sty"
+Package: babel 2014/09/25 3.9l The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel-italian\italian.ldf"
-Language: italian 2015/03/26 v1.3n Italian support from the babel system
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-italian\italian.ldf"
+Language: italian 2014/03/29 v1.3k Italian support from the babel system
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2016/01/08 3.9n Babel common definitions
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel\babel.def"
+File: babel.def 2014/09/25 3.9l Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
 \it@lettering=\count88
 \it@doublequoteactive=\count89
 \it@ISOcompliance=\count90
+\Virgola=\count91
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
-Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count91
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2015/03/10 v2.1b e-TeX tools for LaTeX (JAW)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\misc\etex.sty"
+Package: etex 2015/03/02 v2.1 eTeX basic definition package (PEB,DPC)
+\et@xins=\count92
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+\etb@tempcnta=\count93
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
@@ -331,31 +316,31 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen104
-\Hy@linkcounter=\count92
-\Hy@pagecounter=\count93
+\Hy@linkcounter=\count94
+\Hy@pagecounter=\count95
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count94
+\Hy@SavedSpaceFactor=\count96
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -365,15 +350,15 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count95
+\c@Hy@tempcnt=\count97
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen105
-\Fld@menulength=\count96
+\Fld@menulength=\count98
 \Field@Width=\dimen106
 \Fld@charsize=\dimen107
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -385,26 +370,26 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count97
-\c@Item=\count98
-\c@Hfootnote=\count99
+\Hy@abspage=\count99
+\c@Item=\count100
+\c@Hfootnote=\count101
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count100
-\c@bookmark@seq@number=\count101
+\Fld@listcount=\count102
+\c@bookmark@seq@number=\count103
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip43
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen108
 \lightrulewidth=\dimen109
@@ -416,36 +401,36 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen115
 \cmidrulekern=\dimen116
 \defaultaddspace=\dimen117
-\@cmidla=\count102
-\@cmidlb=\count103
+\@cmidla=\count104
+\@cmidlb=\count105
 \@aboverulesep=\dimen118
 \@belowrulesep=\dimen119
-\@thisruleclass=\count104
-\@lastruleclass=\count105
+\@thisruleclass=\count106
+\@lastruleclass=\count107
 \@thisrulewidth=\dimen120
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip44
 \LTright=\skip45
 \LTpre=\skip46
 \LTpost=\skip47
-\LTchunksize=\count106
+\LTchunksize=\count108
 \LTcapwidth=\dimen121
 \LT@head=\box26
 \LT@firsthead=\box27
 \LT@foot=\box28
 \LT@lastfoot=\box29
-\LT@cols=\count107
-\LT@rows=\count108
-\c@LT@tables=\count109
-\c@LT@chunks=\count110
+\LT@cols=\count109
+\LT@rows=\count110
+\c@LT@tables=\count111
+\c@LT@chunks=\count112
 \LT@p@ftn=\toks17
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
 Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen122
 \extrarowheight=\dimen123
@@ -458,67 +443,67 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \TX@old@col=\dimen126
 \TX@target=\dimen127
 \TX@delta=\dimen128
-\TX@cols=\count111
+\TX@cols=\count113
 \TX@ftn=\toks19
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
-\lst@mode=\count112
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count114
 \lst@gtempboxa=\box30
 \lst@token=\toks20
-\lst@length=\count113
+\lst@length=\count115
 \lst@currlwidth=\dimen129
-\lst@column=\count114
-\lst@pos=\count115
+\lst@column=\count116
+\lst@pos=\count117
 \lst@lostspace=\dimen130
 \lst@width=\dimen131
-\lst@newlines=\count116
-\lst@lineno=\count117
+\lst@newlines=\count118
+\lst@lineno=\count119
 \lst@maxwidth=\dimen132
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count118
-\lst@skipnumbers=\count119
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+\c@lstnumber=\count120
+\lst@skipnumbers=\count121
 \lst@framebox=\box31
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
-File: listings.cfg 2015/06/04 1.6 listings configuration
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
-Package: listings 2015/06/04 1.6 (Carsten Heinz)
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count120
-\c@@ppsavesec=\count121
-\c@@ppsaveapp=\count122
+\c@@pps=\count122
+\c@@ppsavesec=\count123
+\c@@ppsaveapp=\count124
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 94.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count123
+\Gread@gobject=\count125
 ))
 \Gin@req@height=\dimen133
 \Gin@req@width=\dimen134
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
-Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen135
 \captionmargin@=\dimen136
 \captionwidth=\dimen137
@@ -527,15 +512,15 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen140
 \caption@hangindent=\dimen141
 )
-\c@ContinuedFloat=\count124
+\c@ContinuedFloat=\count126
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
-Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 \fancy@headwidth=\skip50
 \f@ncyO@elh=\skip51
 \f@ncyO@erh=\skip52
@@ -546,11 +531,11 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 \f@ncyO@olf=\skip57
 \f@ncyO@orf=\skip58
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count125
-\Gm@cntv=\count126
-\c@Gm@tempcnt=\count127
+\Gm@cnth=\count127
+\Gm@cntv=\count128
+\c@Gm@tempcnt=\count129
 \Gm@bindingoffset=\dimen142
 \Gm@wd@mp=\dimen143
 \Gm@odd@mp=\dimen144
@@ -561,11 +546,11 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutvoffset=\dimen149
 \Gm@dimlist=\toks21
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\makeidx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\makeidx.sty"
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -578,15 +563,15 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             only a restricted character set as indicated.
 (textcomp)             Family '?' is the default used for unknown fonts.
 (textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
-File: ts1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+File: ts1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00A4 (decimal 164)
@@ -657,91 +642,90 @@ File: ts1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+25EF (decimal 9711)
    defining Unicode char U+266A (decimal 9834)
 ))
-LaTeX Info: Redefining \oldstylenums on input line 334.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
 
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
-Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen150
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\rotfloat\rotfloat.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\rotfloat\rotfloat.sty"
 Package: rotfloat 2004/01/04 v1.2 Combining float+rotating package (AS)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count128
+\c@float@type=\count130
 \float@exts=\toks22
 \float@box=\box32
 \@float@everytoks=\toks23
 \@floatcapt=\box33
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\rotating\rotating.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\rotating\rotating.sty"
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count129
+\c@r@tfl@t=\count131
 \rotFPtop=\skip59
 \rotFPbot=\skip60
 \rot@float@box=\box34
@@ -749,11 +733,11 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 Package rotfloat Info: float package v1.3 detected on input line 74.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
-Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+("C:\Program Files\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
+Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
-Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box35
 \beforetitleunit=\skip61
 \aftertitleunit=\skip62
@@ -764,33 +748,31 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen154
 \titlewidthfirst=\dimen155
 )
-\c@subsubsubsection=\count130
+\c@subsubsubsection=\count132
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
-File: lstlang1.sty 2015/06/04 1.6 listings language file
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cantarell\cantarell.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\cantarell\cantarell.sty"
 Package: cantarell 2012/01/03 Cantarell
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\slantsc\slantsc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\slantsc\slantsc.sty"
 Package: slantsc 2012/01/01 v2.11 Provide Slanted an Italic Small Caps
 LaTeX Info: Redefining \upshape on input line 35.
 LaTeX Info: Redefining \slshape on input line 45.
 LaTeX Info: Redefining \itshape on input line 55.
 LaTeX Info: Redefining \scshape on input line 65.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
 Package hyperref Info: Option `colorlinks' set `true' on input line 89.
 )
 (Specifica_Tecnica_1.0.aux)
-\openout1 = `Specifica_Tecnica_1.0.aux'.
-
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
@@ -808,36 +790,36 @@ LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 9.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Try loading font information for T1+fca on input line 9.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cantarell\t1fca.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\cantarell\t1fca.fd"
 File: t1fca.fd 2012/06/11 Fontinst v1.933 font definitions for T1/fca.
 )
 LaTeX Info: Redefining \it@ocap on input line 9.
 LaTeX Info: Redefining \it@ccap on input line 9.
 \AtBeginShipoutBox=\box36
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 142.
+Package color Info: Driver file: pdftex.def on input line 137.
 )
 Package hyperref Info: Link coloring ON on input line 9.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count131
+\c@section@level=\count133
 )
 LaTeX Info: Redefining \ref on input line 9.
 LaTeX Info: Redefining \pageref on input line 9.
@@ -845,22 +827,20 @@ LaTeX Info: Redefining \nameref on input line 9.
 
 (Specifica_Tecnica_1.0.out) (Specifica_Tecnica_1.0.out)
 \@outlinefile=\write3
-\openout3 = `Specifica_Tecnica_1.0.out'.
+\c@lstlisting=\count134
 
-\c@lstlisting=\count132
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count133
+\scratchcounter=\count135
 \scratchdimen=\dimen156
 \scratchbox=\box37
-\nofMPsegments=\count134
-\nofMParguments=\count135
+\nofMPsegments=\count136
+\nofMParguments=\count137
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count136
+\MPscratchCnt=\count138
 \MPscratchDim=\dimen157
-\MPnumerator=\count137
-\makeMPintoPDFobject=\count138
+\MPnumerator=\count139
+\makeMPintoPDFobject=\count140
 \everyMPtoPDFconversion=\toks27
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -903,7 +883,11 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package lastpage Info: Please have a look at the pageslts package at
-(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             macros/latex/contrib/pageslts/ 
+(lastpage)             or
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
 (lastpage)             ! on input line 9.
 LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/fca/b/n' tried instead on input line 11.
@@ -915,7 +899,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 11.
-<../team_not_found.jpg, id=307, 382.42876pt x 153.57375pt>
+<../team_not_found.jpg, id=339, 382.42876pt x 153.57375pt>
 File: ../team_not_found.jpg Graphic file (type jpg)
 
 <use ../team_not_found.jpg>
@@ -923,7 +907,7 @@ Package pdftex.def Info: ../team_not_found.jpg used on input line 13.
 (pdftex.def)             Requested size: 382.42781pt x 153.57336pt.
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 14.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Calculating math sizes for size <14.22636> on input line 14
@@ -942,82 +926,91 @@ LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/fca/b/n' tried instead on input line 27.
  [1
 
-{C:/Users/Manuel/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <../team_no
-t_found.jpg>]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <../team_not_found.jpg>]
 LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/fca/b/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <9> not available
 (Font)              Font shape `T1/fca/b/n' tried instead on input line 42.
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
 []|\T1/fca/m/n/9 Davide Bor-tot
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 44--44
+[]|\T1/fca/m/n/9 Completata la se-zio-ne "Dia-gram-mi del-le clas-si del
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 46--46
-[]|\T1/fca/m/n/9 Luca Ales-sio
+[]|\T1/fca/m/n/9 Davide Bor-tot
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[]|\T1/fca/m/n/9 Luca Ales-sio
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 []|\T1/fca/m/n/9 Davide Bor-tot
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 47--47
+Underfull \hbox (badness 1442) in paragraph at lines 48--48
 []|\T1/fca/m/n/9 Stesura se-zio-ne "Pac-ka-ge del-la com-po-nen-te Pre-sen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-[]|\T1/fca/m/n/9 Luca Ales-sio
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 50--50
-[]|\T1/fca/m/n/9 Davide Bor-tot
+[]|\T1/fca/m/n/9 Luca Ales-sio
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 51--51
-[]|\T1/fca/m/n/9 Luca Ales-sio
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
 []|\T1/fca/m/n/9 Davide Bor-tot
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
 []|\T1/fca/m/n/9 Luca Ales-sio
  []
 
 
-Underfull \hbox (badness 3679) in paragraph at lines 53--53
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+[]|\T1/fca/m/n/9 Davide Bor-tot
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+[]|\T1/fca/m/n/9 Luca Ales-sio
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 54--54
 []|\T1/fca/m/n/9 Stesura par-zia-le se-zio-ne "Ar-chi-tet-tu-ra ge-ne-ra-le del
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
 []|\T1/fca/m/n/9 Davide Bor-tot
  []
 
 
-Underfull \hbox (badness 2671) in paragraph at lines 55--55
+Underfull \hbox (badness 2671) in paragraph at lines 56--56
 []|\T1/fca/m/n/9 Marco Cri-vel-la-ro
  []
 
 
-Underfull \vbox (badness 10000) detected at line 56
+Underfull \vbox (badness 10000) detected at line 57
  []
 
-<../../team404_small.jpg, id=320, 382.42876pt x 153.57375pt>
+<../../team404_small.jpg, id=352, 382.42876pt x 153.57375pt>
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 58.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 59.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
 
 
@@ -1034,336 +1027,407 @@ Package pdftex.def Info: ../../team404_small.jpg used on input line 47.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [3])
 \tf@toc=\write4
-\openout4 = `Specifica_Tecnica_1.0.toc'.
-
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 62.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 63.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [1]
 (Specifica_Tecnica_1.0.lof)
 \tf@lof=\write5
-\openout5 = `Specifica_Tecnica_1.0.lof'.
-
  (Specifica_Tecnica_1.0.lot)
 \tf@lot=\write6
-\openout6 = `Specifica_Tecnica_1.0.lot'.
-
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 66.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 67.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [2]
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 72.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 73.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.72 	\newpage
+l.73 	\newpage
                [1]
 LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <12> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 74.
+(Font)              Font shape `T1/fca/b/n' tried instead on input line 75.
 LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <8> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 78.
+(Font)              Font shape `T1/fca/b/n' tried instead on input line 79.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 78.
+(Font)              <5> on input line 79.
 LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <6> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 78.
+(Font)              Font shape `T1/fca/b/n' tried instead on input line 79.
 LaTeX Font Info:    Font shape `T1/fca/m/it' in size <10.95> not available
-(Font)              Font shape `T1/fca/m/sl' tried instead on input line 80.
-LaTeX Font Info:    Try loading font information for TS1+fca on input line 86.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cantarell\ts1fca.fd"
+(Font)              Font shape `T1/fca/m/sl' tried instead on input line 81.
+LaTeX Font Info:    Try loading font information for TS1+fca on input line 87.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\cantarell\ts1fca.fd"
 File: ts1fca.fd 2012/06/11 Fontinst v1.933 font definitions for TS1/fca.
 )
-Overfull \hbox (4.93379pt too wide) in paragraph at lines 94--97
+Overfull \hbox (4.93379pt too wide) in paragraph at lines 95--98
 [][]$\T1/cmtt/m/n/10.95 http : / / www . math . unipd . it / ~tullio / IS-[]1 /
  2015 / Dispense / PD01 . pdf$[][] [][]$http : / / www . math .$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--97
+Underfull \hbox (badness 10000) in paragraph at lines 95--98
 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 99.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 100.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.99 	\newpage
-               [2] <../images/mvp.png, id=440, 196.0926pt x 123.3408pt>
+l.100 	\newpage
+                [2] <../images/mvp.png, id=490, 196.0926pt x 123.3408pt>
 File: ../images/mvp.png Graphic file (type png)
 
 <use ../images/mvp.png>
-Package pdftex.def Info: ../images/mvp.png used on input line 109.
+Package pdftex.def Info: ../images/mvp.png used on input line 110.
 (pdftex.def)             Requested size: 254.92035pt x 160.343pt.
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 120.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 121.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.120 	\begin{itemize}
+l.121 	\begin{itemize}
                        [3 <../images/mvp.png (PNG copy)>]
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 138.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 139.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [4]
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 145.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 146.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [5]
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 190.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 191.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [6]
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 200.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 201.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [7]
-<../images/ModelPackage.png, id=465, 451.6875pt x 315.1775pt>
+<../images/ModelPackage.png, id=515, 451.6875pt x 315.1775pt>
 File: ../images/ModelPackage.png Graphic file (type png)
 
 <use ../images/ModelPackage.png>
-Package pdftex.def Info: ../images/ModelPackage.png used on input line 205.
+Package pdftex.def Info: ../images/ModelPackage.png used on input line 206.
 (pdftex.def)             Requested size: 293.59338pt x 204.86295pt.
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 235.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 236.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [8 <../images/ModelPackage.png>] <../images/ViewPackage.png, id=475, 507.8975p
+ [8 <../images/ModelPackage.png>] <../images/ViewPackage.png, id=525, 507.8975p
 t x 339.2675pt>
 File: ../images/ViewPackage.png Graphic file (type png)
 
 <use ../images/ViewPackage.png>
-Package pdftex.def Info: ../images/ViewPackage.png used on input line 240.
+Package pdftex.def Info: ../images/ViewPackage.png used on input line 241.
 (pdftex.def)             Requested size: 304.74086pt x 203.56206pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--262
+Underfull \hbox (badness 10000) in paragraph at lines 261--263
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--262
+Underfull \hbox (badness 10000) in paragraph at lines 261--263
 
  []
 
-<../images/PresenterPackage.png, id=476, 644.4075pt x 411.5375pt>
+<../images/PresenterPackage.png, id=526, 459.7175pt x 363.3575pt>
 File: ../images/PresenterPackage.png Graphic file (type png)
 
 <use ../images/PresenterPackage.png>
-Package pdftex.def Info: ../images/PresenterPackage.png used on input line 265.
+Package pdftex.def Info: ../images/PresenterPackage.png used on input line 266.
 
-(pdftex.def)             Requested size: 386.64748pt x 246.92441pt.
+(pdftex.def)             Requested size: 275.83263pt x 218.01617pt.
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 266.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 267.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [9 <../images/ViewPackage.png>]
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 289.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 302.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [10 <../images/PresenterPackage.png>] <../images/Database.jpg, id=489, 647.418
+ [10 <../images/PresenterPackage.png>] <../images/Database.jpg, id=539, 647.418
 75pt x 680.5425pt>
 File: ../images/Database.jpg Graphic file (type jpg)
 
 <use ../images/Database.jpg>
-Package pdftex.def Info: ../images/Database.jpg used on input line 305.
+Package pdftex.def Info: ../images/Database.jpg used on input line 324.
 (pdftex.def)             Requested size: 388.45424pt x 408.32864pt.
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 310.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 325.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [11 <../images/Database.jpg>]
+ [11]
 File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 345.
+
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 335.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [12]
-<../images/Parser.jpg, id=500, 460.72125pt x 109.40875pt>
+ [12 <../images/Database.jpg>]
+File: ../../team404_small.jpg Graphic file (type jpg)
+
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 371.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [13]
+<../images/Parser.jpg, id=555, 460.72125pt x 109.40875pt>
 File: ../images/Parser.jpg Graphic file (type jpg)
 
 <use ../images/Parser.jpg>
-Package pdftex.def Info: ../images/Parser.jpg used on input line 363.
+Package pdftex.def Info: ../images/Parser.jpg used on input line 382.
 (pdftex.def)             Requested size: 276.43488pt x 65.64574pt.
 
-<../images/Statistics.jpg, id=501, 503.8825pt x 121.45375pt>
+<../images/Statistics.jpg, id=556, 503.8825pt x 121.45375pt>
 File: ../images/Statistics.jpg Graphic file (type jpg)
 
 <use ../images/Statistics.jpg>
-Package pdftex.def Info: ../images/Statistics.jpg used on input line 373.
+Package pdftex.def Info: ../images/Statistics.jpg used on input line 392.
 (pdftex.def)             Requested size: 302.33183pt x 72.87279pt.
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 378.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 406.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [13 <../images/Parser.jpg> <../images/Statistics.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 402--403
+ [14 <../images/Parser.jpg> <../images/Statistics.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 421--422
 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 406.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [14]
-File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 431.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [15]
 File: ../../team404_small.jpg Graphic file (type jpg)
-
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 452.
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 456.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [16]
 File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 488.
+
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 471.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [17]
-File: ../../team404_small.jpg Graphic file (type jpg)
+<../images/UserInputManagerClass.png, id=578, 724.7075pt x 427.5975pt>
+File: ../images/UserInputManagerClass.png Graphic file (type png)
 
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 513.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [18]
-File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 527.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [19]
+<use ../images/UserInputManagerClass.png>
+Package pdftex.def Info: ../images/UserInputManagerClass.png used on input line
+ 476.
+(pdftex.def)             Requested size: 471.05429pt x 277.93507pt.
 
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 530.
-
-<"../images/diagramma 1".png, id=538, 5083.99374pt x 2287.54625pt>
-File: "../images/diagramma 1".png Graphic file (type png)
-
-<use "../images/diagramma 1".png>
-Package pdftex.def Info: "../images/diagramma 1".png used on input line 532.
-(pdftex.def)             Requested size: 508.42917pt x 228.76802pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 534--537
-
+Overfull \hbox (15.81018pt too wide) in paragraph at lines 476--477
+ [] 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 538.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 495.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [20 <../images/diagramma 1.png>]
-<"../images/diagramma 2".png, id=546, 3497.065pt x 2698.08pt>
-File: "../images/diagramma 2".png Graphic file (type png)
+ [18 <../images/UserInputManagerClass.png>]
+<../images/UpdatersClass.png, id=585, 748.7975pt x 355.3275pt>
+File: ../images/UpdatersClass.png Graphic file (type png)
 
-<use "../images/diagramma 2".png>
-Package pdftex.def Info: "../images/diagramma 2".png used on input line 541.
-(pdftex.def)             Requested size: 349.72699pt x 269.8238pt.
+<use ../images/UpdatersClass.png>
+Package pdftex.def Info: ../images/UpdatersClass.png used on input line 516.
+(pdftex.def)             Requested size: 486.7126pt x 230.96013pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--546
-
+Overfull \hbox (31.46849pt too wide) in paragraph at lines 516--517
+ [] 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 546.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 524.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [21 <../images/diagramma 2.png>]
-<"../images/diagramma 3".png, id=553, 2673.99pt x 3041.3625pt>
-File: "../images/diagramma 3".png Graphic file (type png)
-
-<use "../images/diagramma 3".png>
-Package pdftex.def Info: "../images/diagramma 3".png used on input line 549.
-(pdftex.def)             Requested size: 267.41466pt x 304.15407pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 551--554
-
- []
-
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 554.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [22 <../images/diagramma 3.png>]
-<"../images/diagramma 4".png, id=560, 3781.12625pt x 2714.14pt>
-File: "../images/diagramma 4".png Graphic file (type png)
-
-<use "../images/diagramma 4".png>
-Package pdftex.def Info: "../images/diagramma 4".png used on input line 557.
-(pdftex.def)             Requested size: 378.13478pt x 271.4299pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 560--563
-
- []
-
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 563.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [23 <../images/diagramma 4.png>]
+ [19 <../images/UpdatersClass.png>]
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 565.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 540.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [24]
+ [20]
+<../images/QuestionManagerClass.png, id=598, 566.115pt x 467.7475pt>
+File: ../images/QuestionManagerClass.png Graphic file (type png)
+
+<use ../images/QuestionManagerClass.png>
+Package pdftex.def Info: ../images/QuestionManagerClass.png used on input line 
+546.
+(pdftex.def)             Requested size: 367.97038pt x 304.03226pt.
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 567.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [21 <../images/QuestionManagerClass.png>]
+File: ../../team404_small.jpg Graphic file (type jpg)
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 585.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [22]
+<../images/QuizManagerClass.png, id=610, 521.95pt x 315.1775pt>
+File: ../images/QuizManagerClass.png Graphic file (type png)
+
+<use ../images/QuizManagerClass.png>
+Package pdftex.def Info: ../images/QuizManagerClass.png used on input line 591.
+
+(pdftex.def)             Requested size: 339.26347pt x 204.86295pt.
+File: ../../team404_small.jpg Graphic file (type jpg)
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 615.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [23 <../images/QuizManagerClass.png>]
+<../images/InterpreterClass.png, id=617, 604.2575pt x 411.5375pt>
+File: ../images/InterpreterClass.png Graphic file (type png)
+
+<use ../images/InterpreterClass.png>
+Package pdftex.def Info: ../images/InterpreterClass.png used on input line 620.
+
+(pdftex.def)             Requested size: 392.76273pt x 267.4962pt.
+File: ../../team404_small.jpg Graphic file (type jpg)
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 641.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [24
+
+ <../images/InterpreterClass.png>]
+File: ../../team404_small.jpg Graphic file (type jpg)
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 655.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [25]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 658.
+
+<"../images/diagramma 1".png, id=629, 5083.99374pt x 2287.54625pt>
+File: "../images/diagramma 1".png Graphic file (type png)
+
+<use "../images/diagramma 1".png>
+Package pdftex.def Info: "../images/diagramma 1".png used on input line 660.
+(pdftex.def)             Requested size: 508.42917pt x 228.76802pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 662--665
+
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 666.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [26 <../images/diagramma 1.png>]
+<"../images/diagramma 2".png, id=637, 3497.065pt x 2698.08pt>
+File: "../images/diagramma 2".png Graphic file (type png)
+
+<use "../images/diagramma 2".png>
+Package pdftex.def Info: "../images/diagramma 2".png used on input line 669.
+(pdftex.def)             Requested size: 349.72699pt x 269.8238pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 671--674
+
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 674.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [27 <../images/diagramma 2.png>]
+<"../images/diagramma 3".png, id=644, 2673.99pt x 3041.3625pt>
+File: "../images/diagramma 3".png Graphic file (type png)
+
+<use "../images/diagramma 3".png>
+Package pdftex.def Info: "../images/diagramma 3".png used on input line 677.
+(pdftex.def)             Requested size: 267.41466pt x 304.15407pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 679--682
+
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 682.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [28 <../images/diagramma 3.png>]
+<"../images/diagramma 4".png, id=651, 3781.12625pt x 2714.14pt>
+File: "../images/diagramma 4".png Graphic file (type png)
+
+<use "../images/diagramma 4".png>
+Package pdftex.def Info: "../images/diagramma 4".png used on input line 685.
+(pdftex.def)             Requested size: 378.13478pt x 271.4299pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 688--691
+
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 691.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [29 <../images/diagramma 4.png>]
+File: ../../team404_small.jpg Graphic file (type jpg)
+
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 693.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [30]
+File: ../../team404_small.jpg Graphic file (type jpg)
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 695.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [31]
 
 AED: lastpage setting LastPage
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 571.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 699.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [26]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 571.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 571.
+ [32]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 699.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 699.
  (Specifica_Tecnica_1.0.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 571.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 571.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 699.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 699.
 Package rerunfilecheck Info: File `Specifica_Tecnica_1.0.out' has not changed.
-(rerunfilecheck)             Checksum: 95CDD46917764F1EFC59FA191D66E2C0;6044.
+(rerunfilecheck)             Checksum: 1FCCDADC15CD897B838952444B9134C4;6843.
  ) 
 Here is how much of TeX's memory you used:
- 10913 strings out of 493634
- 161460 string characters out of 3141311
- 292686 words of memory out of 3000000
- 13976 multiletter control sequences out of 15000+200000
+ 10974 strings out of 493698
+ 161898 string characters out of 3144408
+ 294344 words of memory out of 3000000
+ 13950 multiletter control sequences out of 15000+200000
  27202 words of font info for 79 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 38i,17n,47p,1001b,534s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cantarell/cantarell-03.enc
-}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cantarell/cantarell-01.enc}
- <C:\Users\Manuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
-ctt1095.pk> <C:\Users\Manuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ectt1440.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/can
-tarell/Cantarell-Bold.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
-/cantarell/Cantarell-Regular.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
-/public/cantarell/Cantarell-Regular.pfb>
-Output written on Specifica_Tecnica_1.0.pdf (31 pages, 970899 bytes).
+ 38i,17n,47p,999b,534s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cantarell/cantarell-03.enc}{C:/P
+rogram Files/MiKTeX 2.9/fonts/enc/dvips/cantarell/cantarell-01.enc}{C:/Program 
+Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/cantarell/Cantarell-Bold.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/cantarell/Cantarell-Regular.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/cantarell/Cantarell-Regular.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/cm-super/sftt1095.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/cm-super/sftt1440.pfb>
+Output written on Specifica_Tecnica_1.0.pdf (37 pages, 1152056 bytes).
 PDF statistics:
- 680 PDF objects out of 1000 (max. 8388607)
- 110 named destinations out of 1000 (max. 500000)
- 674 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 728 PDF objects out of 1000 (max. 8388607)
+ 129 named destinations out of 1000 (max. 500000)
+ 763 words of extra memory for PDF output out of 10000 (max. 10000000)
 
