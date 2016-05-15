@@ -68,12 +68,15 @@
 	\pagenumbering{arabic}
 	
 	\section*{Sommario}
-	
+	Questo documento, redatto dal gruppo \textbf{Team404}, contiene la descrizione dell'architettura software sulla quale verrà sviluppato il progetto Quizzipedia, commissionato da Zucchetti S.p.A..
+Scopo del documento è quello di illustrare le scelte progettuali che il gruppo ha deciso di
+seguire per realizzare il prodotto.
 	
 	\newpage
 	\section{Introduzione}
 	\subsection{Scopo del documento}
-	
+	Lo scopo della Specifica Tecnica è quello di illustrare le scelte progettuali che il gruppo ha deciso di seguire nella realizzazione del prodotto. Vengono presentati, pur restando ad alto
+livello, la gerarchia dei package, le loro interazioni e le principali classi in essi contenute, specificandone lo scopo e l'utilizzo. Verranno presentati inoltre i design pattern utilizzati nell'architettura.
 	
 	\subsection{Scopo del prodotto}
 	Il progetto \textbf{Quizzipedia} ha come obiettivo lo sviluppo di un sistema software basato su tecnologie Web (Javascript\addglos, Node.js\addglos, HTML5\addglos, CSS3\addglos) che permetta la creazione, gestione e fruizione di questionari. Il sistema dovrà quindi poter archiviare i questionari suddivisi per argomento, le cui domande dovranno essere raccolte attraverso uno specifico linguaggio di markup (Quiz Markup Language) d'ora in poi denominato QML\addglos. In un caso d'uso a titolo esemplificativo, un "esaminatore" dovrà poter costruire il proprio questionario scegliendo tra le domande archiviate, ed il questionario così composto sarà presentato e fruibile all' "esaminando", traducendo l'oggetto QML in una pagina HTML\addglos, tramite un'apposita interfaccia web. Il sistema presentato dovrà inoltre poter proporre questionari preconfezionati e valutare le risposte fornite dall'utente finale.
@@ -739,7 +742,7 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 	\subsection{Visualizzazione e scelta di un Questionario}
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[scale=0.5]{../images/ChooseViewQuiz.png}
+		\includegraphics[scale=0.6]{../images/ChooseViewQuiz.png}
 		\caption{Diagramma di sequenza della visualizzazione e scelta di un questionario}
 	\end{center}
 	\end{figure}
