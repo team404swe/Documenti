@@ -47,6 +47,8 @@
 	
 	\beginregistro
 	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm} \textbf{Descrizione}}
+	\rigaregistro{1.5}{A. Beccaro (Verificatore)}{27/04/2016}{Rivista sezione gestione amministrativa, aggiunta sezione procedure controllo qualità processi, rifatta sezione organizzazione}
+	\rigaregistro{1.4}{A. Beccaro (Verificatore)}{26/04/2016}{rivista sezione verifica fasi di sviluppo}
 	\rigaregistro{1.3}{A. Beccaro (Verificatore)}{25/04/2016}{Ampliato paragrafo sui parametri di tolleranza}
 	\rigaregistro{1.2}{A. Beccaro (Verificatore)}{17/04/2016}{Aggiunto paragrafo "Procedure di controllo di qualità processi"}
 	\rigaregistro{1.1}{A. Beccaro (Verificatore)}{16/04/2016}{Modifica struttura documento in seguito alla RR}
@@ -157,9 +159,9 @@ L'immagine seguente elenca le principali caratteristiche a cui un prodotto softw
 %Dalla fase di codifica quindi, per mezzo di test specifici sulle singole componenti (test di unità), si è in grado di garantire la correttezza del lavoro svolto prima che le singole componenti vengano integrate tra loro. Ovviamente l'esito positivo di ogni test su ogni unità non garantisce la correttezza dell'integrazione tra le stesse. \\
 %Nelle sezioni successive verranno elencate le varie fasi del ramo discendente e ne verranno descritte le strategie di verifica qualitativa inerenti.
 \newpage
-\subsection{Verifica fasi di sviluppo}
+\subsection{Organizzazione}
 Di seguito vengono descritte le attività di verifica da effettuare per ogni fase di sviluppo. Tali fasi seguono la pianificazione definita nel documento allegato \textit{Piano-di-progetto-2.0.pdf}.
-\subsection{Analisi}
+\subsubsection{Analisi}
 \begin{itemize}
 \item \textbf{Organizzazione interna}:
 \begin{itemize}
@@ -171,7 +173,7 @@ Di seguito vengono descritte le attività di verifica da effettuare per ogni fas
 
 \end{itemize} 
  
-\item \textbf{Documentazione}: il processo di verifica per la documentazione deve seguire le procedure descritte nella sezione 3 (Misure e metriche: parametri di tolleranza).
+\item \textbf{Documentazione}: il processo di verifica per la documentazione deve seguire le linee guida descritte nella sezione 3 (Misure e metriche: parametri di tolleranza).
 %\begin{itemize}
 %\item Verifica della presenza di tutti i documenti necessari;
 %\item Attinenza di ogni documento alle specifiche di stile e formattazione presenti nel documento \textit{Norme-di-progetto-1.0};
@@ -196,7 +198,6 @@ Di seguito vengono descritte le attività di verifica da effettuare per ogni fas
 
 \end{itemize}
 
-\subsection{Progettazione}
 \subsubsection{Progettazione architetturale}
 In questa fase è necessaria la verifica dei nuovi documenti prodotti (la Specifica tecnica) e la correttezza delle modifiche apportate alla documentazione in seguito alla prima revisione. In particolare deve essere verificato che la progettazione ad alto livello soddisfi i requisiti emersi nella precedente fase e descritti nel documento \textit{Analisi-dei-requisiti-2.0.pdf}. \\
 Di fondamentale importanza è la pianificazione dei test di sistema e la verifica che i requisiti siano soddisfatti.
@@ -239,6 +240,7 @@ Il codice prodotto deve seguire le regole definite nel documento \textit{Norme-d
 %\includegraphics[scale=0.4]{../images/vmodel-final4.png}
 %\caption{Fasi di sviluppo}
 %\end{figure} 
+
 \newpage
 \subsection{Gestione amministrativa della revisione}
 Ogni processo coinvolto nell'attività di sviluppo ha bisogno di una costante attività di verifica di supporto in grado di identificare possibili miglioramenti o peggioramenti ed apportare eventuali correzioni. \\
@@ -264,7 +266,7 @@ Tali misurazioni, da effettuare alla fine di ogni fase, si basano sui valori dei
 Per il coordinamento delle attività giornaliere ci si affida ad un sistema di \textbf{ticketing\addglos} fornito dalla piattaforma online \textbf{Trello}\addglos (vedere documento \textit{norme\_di\_progetto\_1.0.pdf} per una spiegazione dettagliata del suo utilizzo). Tale sistema permette di tenere costantemente sotto controllo l'andamento dei compiti (\textbf{Task}\addglos) e la loro realizzazione. 
 
 
-\subsubsection{Procedure di controllo di qualità di processo}
+\subsection{Procedure di controllo di qualità di processo}
 Le linee guida fornite dal modell PDCA per l'attività di controllo ed il miglioramento continuo dei processi sono:
 \begin{itemize}
 \item Pianificazione dettagliata
@@ -316,10 +318,13 @@ In periodi di alta attività il numero di commit per persona deve essere maggior
 %\item \textbf{Trello}: piattaforma online per l'organizzazione e la gestione di progetti. 
 %\end{itemize}
 %\textit{Si rimanda alla sezione Misure e Metriche del presente documento per una spiegazione dettagliata delle metriche utilizzate da Complexity-report, e al documento Norme-di-progetto.pdf per quanto riguarda le modalità di utilizzo dei sopracitati software.} 
+\subsection{Procedure di controllo qualità di prodotto}
+\begin{itemize}
+\item \textbf{Software Quality Assurance}: insieme delle attività volte al fine di garantire il raggiungimento degli obiettivi di qualità. Queste attività prevedono l'utilizzo di tecniche di analisi statica e dinamica
+\item \textbf{Verifica}: attività costante durante l'intera fase del progetto; serve a controllare che l'output aspettato dalle entità in oggetto di verifica.
+\item \textbf{Validazione}: la conferma oggettiva che il sistema soddisfa i requisiti. 
 
-
-\newpage
-
+\end{itemize}
 \newpage
 
 \section{Misure e metriche: parametri di tolleranza}
@@ -386,25 +391,10 @@ I valori di tolleranza fissati per tale indice sono:
 \addappheadtotoc
 \setcounter{table}{0}
 \renewcommand{\thetable}{A.\arabic{table}}
-\section{Pianificazione attività di sviluppo}
-\label{Appendice A}
-La suddivisione temporale delle diverse fasi di sviluppo segue il cosiddetto modello a V ed è descritta nel documento allegato \textit{Piano-di-Progetto-1.0.pdf}.
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.4]{../images/vmodel-final4.png}
-\caption{Fasi di sviluppo}
-\end{figure} 
-%questo paragrafo era abbastanza da rivedere, ora credo sia più chiaro ma aspetto anche la revisione di andrea e casomai lo modificheremo ancora
-Questo modello prevede un lavoro di controllo e verifica corrispondente ad ogni attività per evitare l'accumulo di errori difficilmente gestibili in seguito.\\
-La divisione in diverse fasi, e l'attività di verifica abbinata ad ogni fase e processo, hanno come scopo quello di facilitare l'integrazione e il corretto funzionamento delle parti che comporranno il sistema finale.
-Il ramo discendente descritto nella precedente figura rappresenta la successione delle fasi di sviluppo: ciascuna fase è accompagnata da una costante attività di verifica in modo da poter permettere il passaggio alla fase successiva esclusivamente quando si è sicuri che non ci siano errori. Ciò è essenziale durante la delicata attività di raccolta e documentazione dei requisiti, nella progettazione architetturale ad alto livello ed in seguito nella progettazione di dettaglio.\\ 
-%in questa frase non capivo proprio cosa volevi dire, nel dubbio sotto la mia frase ti lascio quello che avevi scritto se vuoi rimetterlo
-Del ramo ascendente che attraversa le attività di testing è importante sottolineare l'utilizzo dell'approccio bottom-up.
-%Per quanto riguarda il ramo ascendente, da notare l'essenziale importanza, per l'attività di testing,  dell'approccio bottom-up che inizia nel ramo più basso del diagramma. 
-Dalla fase di codifica quindi, per mezzo di test specifici sulle singole componenti (test di unità), si è in grado di garantire la correttezza del lavoro svolto prima che le singole componenti vengano integrate tra loro. Ovviamente l'esito positivo di ogni test su ogni unità non garantisce la correttezza dell'integrazione tra le stesse. \\
+
 \newpage
 \section{Misure e Metriche}
-\label{Appendice B}
+\label{Appendice A}
 \subsection{Di progetto}
 \subsubsection{Schedule Variance}
 Il valore SV (schedule variance) indica se si è in linea, in anticipo o in ritardo rispetto alla schedulazione delle attività di progetto pianificate nella baseline.\\
@@ -637,12 +627,263 @@ Per la validazione delle pagine HTML e i file CSS sviluppati si intende affidars
 %\item \textbf{Validazione W3C}:
 %\end{itemize}
 %\newpage
-\section{Resoconto attività di verifica}
-Di seguito viene fornito il resoconto dell'attività di verifica inerente ad ogni fase di sviluppo.
-
 
 \newpage
-\section{Pianificazione dei test}
-\label{Appendice D}
-\subsection{Test di validazione}
+\section{Specifica test}
+\label{Appendice B} 
+La suddivisione temporale delle diverse fasi di sviluppo segue il cosiddetto modello a V ed è descritta nel documento allegato \textit{Piano-di-Progetto-1.0.pdf}.
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.4]{../images/vmodel-final4.png}
+\caption{Fasi di sviluppo}
+\end{figure} 
+%questo paragrafo era abbastanza da rivedere, ora credo sia più chiaro ma aspetto anche la revisione di andrea e casomai lo modificheremo ancora
+Questo modello prevede un lavoro di controllo e verifica corrispondente ad ogni attività per evitare l'accumulo di errori difficilmente gestibili in seguito.\\
+La divisione in diverse fasi, e l'attività di verifica abbinata ad ogni fase e processo, hanno come scopo quello di facilitare l'integrazione e il corretto funzionamento delle parti che comporranno il sistema finale.
+Il ramo discendente descritto nella precedente figura rappresenta la successione delle fasi di sviluppo: ciascuna fase è accompagnata da una costante attività di verifica in modo da poter permettere il passaggio alla fase successiva esclusivamente quando si è sicuri che non ci siano errori. Ciò è essenziale durante la delicata attività di raccolta e documentazione dei requisiti, nella progettazione architetturale ad alto livello ed in seguito nella progettazione di dettaglio.\\ 
+%in questa frase non capivo proprio cosa volevi dire, nel dubbio sotto la mia frase ti lascio quello che avevi scritto se vuoi rimetterlo
+Del ramo ascendente che attraversa le attività di testing è importante sottolineare l'utilizzo dell'approccio bottom-up.
+%Per quanto riguarda il ramo ascendente, da notare l'essenziale importanza, per l'attività di testing,  dell'approccio bottom-up che inizia nel ramo più basso del diagramma. 
+Dalla fase di codifica quindi, per mezzo di test specifici sulle singole componenti (test di unità), si è in grado di garantire la correttezza del lavoro svolto prima che le singole componenti vengano integrate tra loro. Ovviamente l'esito positivo di ogni test su ogni unità non garantisce la correttezza dell'integrazione tra le stesse. \\
+\subsection{Livelli di testing}
+I test da pianificare ed effettuare, come spiegato nel documento \textit{Norme-di-progetto-2.0.pdf}, sono divisi in quattro categorie:
+\begin{itemize}
+\item \textbf{Test di Accettazione (TA)}
+\item \textbf{Test di Sistema (TS)}
+\item \textbf{Test di Integrazione (TI)}
+\item \textbf{Test di Unità (TU)}
+\end{itemize}
+\subsection{Test di accettazione}
+	\subsubsection{Requisiti funzionali}
+			\begin{longtable}{p{0.15\columnwidth}p{0.15\textwidth}p{0.5\columnwidth}p{0.2\textwidth}}
+			\caption{Test di accettazione} \\
+
+\textbf{ID requisito} & \textbf{ID test} & \textbf{Descrizione} & \textbf{Stato} \\
+\midrule
+\endfirsthead
+
+ID & Descrizione & Stato \\
+\midrule
+\endhead
+
+\multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Requisiti funzionali}
+\endfoot
+
+\multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Requisiti funzionali}
+\endlastfoot
+
+F 1 & TA 1& Viene verificato che il sistema fornisca la possibilità ad un utente non autenticato di registrarsi & Pianificato\\
+\midrule
+F 1.1 &TA 1.1& La sezione dedicata alla registrazione deve permettere l'inserimento dei dati necessari & Pianificato\\
+\midrule
+F 1.1.1 &TA 1.1.1& La sezione dedicata alla registrazione deve permettere l'inserimento di una e-mail & Pianificato\\
+\midrule
+F 1.1.2 &TA 1.1.2& La sezione dedicata alla registrazione deve permettere l'inserimento di una password & Pianificato\\
+\midrule
+F 1.1.2.1 &TA 1.1.2.1& Se la password inserita ha meno di 8 caratteri viene visualizzato un messaggio di errore & Pianificato\\
+\midrule
+F 1.2 & TA 1.2&La sezione dedicata alla registrazione deve permettere l'invio dei dati inseriti & Pianificato\\
+\midrule
+F 1.2.1 &TA 1.2.1&Prima di inviare i dati viene effettuato un controllo su di essi & Pianificato\\
+\midrule
+F 1.2.1.1 & TA 1.2.1.1&Se i dati richiesti non sono stati inseriti viene visualizzato un messaggio di errore & Pianificato\\
+\midrule
+F 1.2.1.2 &TA 1.2.1.2&Se la email inserita risulta già in uso viene visualizzato un messaggio di errore & Pianificato\\
+\midrule
+F 1.2.1.3 & TA 1.2.1.3&Se i dati non risultano corretti ne viene bloccato l'invio & Pianificato\\
+\midrule
+F 1.2.2 & TA 1.2.2&Quando dei dati corretti vengono inviati il sistema memorizza un nuovo account con essi & Pianificato\\
+\midrule
+F 1.2.3 & TA 1.2.3&Quando viene creato un nuovo account con la procedura di registrazione viene automaticamente effettuato il login con quell'account & Pianificato\\
+\midrule
+F 2 & TA 2&Il sistema deve fornire la possibilità ad un utente non autenticato di autenticarsi & Pianificato\\
+\midrule
+F 2.1 &TA 2.1 & La sezione dedicata all'autenticazione deve permettere l'inserimento dei dati necessari & Pianificato\\
+\midrule
+F 2.1.1 &TA 2.1.1&La sezione dedicata all'autenticazione deve permettere l'inserimento di una e-mail & Pianificato\\
+\midrule
+F 2.1.2 &TA 2.1.2&La sezione dedicata all'autenticazione deve permettere l'inserimento di una password & Pianificato\\
+\midrule
+F 2.2 &TA 2.2&La sezione dedicata all'autenticazione deve fornire una procedura di recupero password & Pianificato\\
+\midrule
+F 2.2.1 &TA 2.2.1&La procedura di recupero password deve permettere l'inserimento della e-mail & Pianificato\\
+\midrule
+F 2.2.2 &TA 2.2.2&La procedura di recupero password deve effettuare un controllo sulla e-mail inserita & Pianificato\\
+\midrule
+F 2.2.2.1 &TA 2.2.2.1&Se la e-mail non risulta registrata viene visualizzato un messaggio di errore & Pianificato\\
+\midrule
+F 2.2.2.2 & TA 2.2.2.2&Se la e-mail non risulta registrata viene bloccato l'invio della mail a quell'indirizzo & Pianificato\\
+\midrule
+F 2.2.3 & TA 2.2.3&La procedura di recupero password deve mandare una mail all'indirizzo inserito con la password dimenticata & Pianificato\\
+\midrule
+F 2.3 & TA 2.3&La sezione dedicata all'autenticazione deve permettere l'invio dei dati inseriti & Pianificato\\
+\midrule
+F 2.3.1 & TA 2.3.1&Prima di inviare i dati viene effettuato un controllo su di essi & Pianificato\\
+\midrule
+F 2.3.1.1 & TA 2.3.1.1 &Se la combinazione e-mail/password non è registrata viene visualizzato un messaggio di errore & Pianificato\\
+\midrule
+F 2.3.2 & TA 2.3.2 &Se la combinazione e-mail/password è registrata l'utente viene autenticato & Pianificato\\
+\midrule
+F 3 & TA 3 &Il sistema deve permettere la navigazione dei questionari per categoria & Pianificato\\
+\midrule
+F 3.1 & TA 3.1 &Il sistema deve fornire una sezione con un elenco delle categorie di questionari presenti nel database & Pianificato\\
+\midrule
+F 3.1.1 & TA 3.1.1 &Quando l'utente seleziona una categoria viene visualizzata la sezione che elenca i questionari della categoria scelta & Pianificato\\
+\midrule
+F 3.1.2 & TA 3.1.2 &Per ogni elemento dell'elenco viene visualizzato il nome della categoria & Pianificato\\
+\midrule
+F 3.1.3 & TA 3.1.3 &Per ogni elemento dell'elenco viene visualizzato il numero di questionari della categoria & Pianificato\\
+\midrule
+F 3.2 & TA 3.2 &Il sistema deve fornire una sezione con un elenco dei questionari relativi ad una categoria & Pianificato\\
+\midrule
+F 3.2.1 &TA 3.2.1&Quando l'utente seleziona un questionario viene visualizzata la sezione della compilazione del questionario scelto & Pianificato\\
+\midrule
+F 3.2.2 &TA 3.2.2&Per ogni elemento dell'elenco viene visualizzato il nome del questionario & Pianificato\\
+\midrule
+F 3.2.3 & TA 3.2.3 &Per ogni elemento dell'elenco viene visualizzato il numero di domande del questionario & Pianificato\\
+\midrule
+F 3.2.4 &TA 3.2.4 &Per ogni elemento dell'elenco viene visualizzato l'autore & Pianificato\\
+\midrule
+F 4 & TA 4&Il sistema deve fornire la possibilità di compilare un questionario & Pianificato\\
+\midrule
+F 4.1 &TA 4.1 &Durante la compilazione del questionario un utente può navigare liberamente tra le domande che lo compongono & Pianificato\\
+\midrule
+F 4.2 & TA 4.2 &L'utente può rispondere alle domande & Pianificato\\
+\midrule
+F 4.2.1 &TA 4.2.1&Viene visualizzato il testo della domanda & Pianificato\\
+\midrule
+F 4.2.2 &TA 4.2.2 &Viene visualizzata la risposta data & Pianificato\\
+\midrule
+F 4.2.3 & TA 4.2.3 &Se la domanda richiede una risposta inserita dal'utente allora viene fornito un campo per l'inserimento della risposta & Pianificato\\
+\midrule
+F 4.2.4 &TA 4.2.4 &Se la domanda ha delle risposte preimpostate di qualsiasi tipo queste vengono visualizzate & Pianificato\\
+\midrule
+F 4.2.4.1 & TA 4.2.4.1 &Deve essere possibile selezionare una risposta & Pianificato\\
+\midrule
+F 4.2.5 & TA 4.2.5 &Se la domanda permette associazioni tra elementi deve visualizzare tutti gli elementi associabili & Pianificato\\
+\midrule
+F 4.2.5.1 & TA 4.2.5.1 &Deve essere possibile associare due elementi di insiemi diversi & Pianificato\\
+\midrule
+F 4.2.6 & TA 4.2.6 &Se la domanda prevede il completamento del testo con delle parole vengono visualizzate le possibili parole & Pianificato\\
+\midrule
+F 4.2.6.1 & TA 4.2.6.1 &Deve essere possibile selezionare una parola dalla lista & Pianificato\\
+\midrule
+F 4.3 & TA 4.3&L'utente può cambiare la risposta di una domanda in qualsiasi momento prima della consegna del questionario & Pianificato\\
+\midrule
+F 4.4 & TA 4.4 &Le domande possono essere compilate in un ordine qualsiasi & Pianificato\\
+\midrule
+F 4.5 &TA 4.5 &L'utente può consegnare il questionario & Pianificato\\
+\midrule
+F 4.5.1 & TA 4.5.1 &Se alla consegna una o più domande non sono state compilate il sistema avverte l'utente di ciò & Pianificato\\
+\midrule
+F 4.5.2 & TA 4.5.2 &Quando un questionario viene confermato e consegnato viene valutato dal sistema & Pianificato\\
+\midrule
+F 4.5.2.1 & TA 4.5.2.1 &La valutazione del questionario viene visualizzata all'utente & Pianificato\\
+\midrule
+F 4.5.2.1.1 &TA 4.5.2.1.1 &Viene visualizzato il nome del questionario & Pianificato\\
+\midrule
+F 4.5.2.1.2 & TA 4.5.2.1.2 &Viene visualizzato il punteggio ottenuto & Pianificato\\
+\midrule
+F 4.5.2.1.3 & TA 4.5.2.1.3 &Viene visualizzata la percentuale delle risposte corrette & Pianificato\\
+\midrule
+F 4.6 & TA 4.6&La compilazione del questionario ha un tempo massimo & Pianificato\\
+\midrule
+F 4.6.1 & TA 4.6.1 &Allo scadere del tempo il questionario verrà consegnato automaticamente anche se incompleto & Pianificato\\
+\midrule
+F 4.6.2 & TA 4.6.2 &Il tempo inizia a scorrere da quando l'utente accede alla pagina & Pianificato\\
+\midrule
+F 4.7 &TA 4.7 &Viene visualizzato il tempo restante & Pianificato\\
+\midrule
+F 5 & TA 5&Il sistema deve fornire la possibilità ad un utente autenticato di creare una nuova domanda & Pianificato\\
+\midrule
+F 5.1 &TA 5.1&La sezione dedicata alla creazione di una domanda deve permettere l'inserimento dei dati necessari & Pianificato\\
+\midrule
+F 5.1.1 & TA 5.1.1 &La sezione dedicata alla creazione di una domanda deve permettere la scelta di una o più categorie & Pianificato\\
+\midrule
+F 5.1.2 & TA 5.1.2 &La sezione dedicata alla creazione di una domanda deve permettere l'inserimento del codice QML che definisce la domanda & Pianificato\\
+\midrule
+F 5.2 & TA 5.2&La sezione dedicata alla creazione di una domanda deve permettere l'invio dei dati inseriti & Pianificato\\
+\midrule
+F 5.2.1 & TA 5.2.1&Prima di inviare i dati viene effettuato un controllo su di essi & Pianificato\\
+\midrule
+F 5.2.1.1 & TA 5.2.1.1 &Se i dati obbligatori non risultano inseriti viene visualizzato un messaggio di errore & Pianificato\\
+\midrule
+F 5.2.1.2 & TA 5.2.1.2 &Se il codice QML inserito non risulta valido viene visualizzato un messaggio di errore & Pianificato\\
+\midrule
+F 5.2.1.3 &TA 5.2.1.3 &Se i dati obbligatori non risultano inseriti o il codice QML non è valido la creazione della nuova domanda viene bloccata & Pianificato\\
+\midrule
+F 5.2.2 & TA 5.2.2 &Quando dei dati che superano i controlli vengono inviati viene creata una nuova domanda con essi e inserita nel database & Pianificato\\
+\midrule
+F 5.2.2.1 & TA 5.2.2.1 &Se la creazione di una nuova domanda va a buon fine il sistema avvisa l'utente & Pianificato\\
+\midrule
+F 5.2.2.2 & TA 5.2.2.2 & Se la creazione di una nuova domanda non va a buon fine il sistema visualizza un messaggio di errore & Pianificato\\
+\midrule
+F 6 & TA 6&Il sistema deve fornire la possibilità ad un utente autenticato di creare un nuovo questionario & Pianificato\\
+\midrule
+F 6.1 &TA 6.1&La sezione dedicata alla creazione di un questionario deve permettere l'inserimento dei dati necessari & Pianificato\\
+\midrule
+F 6.1.1 & TA 6.1.1&La sezione dedicata alla creazione di un questionario deve permettere l'inserimento del nome del questionario & Pianificato\\
+\midrule
+F 6.1.2 &TA 6.1.2 &La sezione dedicata alla creazione di un questionario deve permettere l'inserimento della categoria del questionario & Pianificato\\
+\midrule
+F 6.1.3 &TA 6.1.3 &La sezione dedicata alla creazione di un questionario deve visualizzare la lista delle domande della categoria selezionata & Pianificato\\
+\midrule
+F 6.1.3.1 &TA 6.1.3.1 &Se nessuna categoria è stata selezionata non viene visualizzata alcuna domanda & Pianificato\\
+\midrule
+F 6.1.3.2 & TA 6.1.3.2 &Ogni domanda deve essere selezionabile & Pianificato\\
+\midrule
+F 6.2 & TA 6.2 &La sezione dedicata alla creazione di un nuovo questionario deve permettere l'invio dei dati inseriti & Pianificato\\
+\midrule
+F 6.2.1 & TA 6.2.1 &Prima di inviare i dati viene effettuato un controllo su di essi & Pianificato\\
+\midrule
+F 6.2.1.1 & TA 6.2.1.1 &Se i dati obbligatori non risultano inseriti viene visualizzato un messaggio di errore & Pianificato\\
+\midrule
+F 6.2.1.2 &TA 6.2.1.2 &Se nessuna domanda è selezionata viene visualizzato un messaggio di errore & Pianificato\\
+\midrule
+F 6.2.1.3 & TA 6.2.1.3 &Se i dati obbligatori non risultano inseriti non è valido nessun dato viene inviato & Pianificato\\
+\midrule
+F 6.2.2 &TA 6.2.2 &Quando dei dati che superano i controlli vengono inviati viene creato un nuovo questionario con essi e inserito nel database & Pianificato\\
+\midrule
+F 6.2.2.1 &TA 6.2.2.1 &Se la creazione di un nuovo questionario va a buon fine il sistema avvisa l'utente & Pianificato\\
+\midrule
+F 6.2.2.2 & TA 6.2.2.2 &Se la creazione di un nuovo questionario non va a buon fine il sistema visualizza un messaggio di errore & Pianificato\\
+\midrule
+F 7 & TA 7&Il sistema deve fornire la possibilità ad un utente autenticato di uscire facendo il logout & Pianificato\\
+\midrule
+F 8 & TA 8&Il sistema deve essere in grado di interpretare il codice QML & Pianificato\\
+\midrule
+F 8.1 & TA 8.1&QML definisce domande & Pianificato\\
+\midrule
+F 8.1.1 &TA 8.1.1&Una domanda è formata dal testo del quesito e da una o più risposte & Pianificato\\
+\midrule
+F 8.1.2 &TA 8.1.2&Una domanda deve avere almeno una risposta esatta & Pianificato\\
+\midrule
+F 8.1.3 & TA 8.1.3&Una domanda può avere una lista di possibili risposte & Pianificato\\
+\midrule
+F 8.1.4 & TA 8.1.4 &QML permette la definizione di diverse tipologie di domande & Pianificato\\
+\midrule
+F 8.1.4.1 &TA 8.1.4.1 &QML definisce domande di tipo vero o falso & Pianificato\\
+\midrule
+F 8.1.4.2 & TA&QML definisce domande a scelta multipla con una sola risposta esatta & Pianificato\\
+\midrule
+F 8.1.4.3 & TA 8.1.4.3 &QML definisce domande a scelta multipla con più risposte esatte & Pianificato\\
+\midrule
+F 8.1.4.4 & TA 8.1.4.4 &QML definisce domande a risposta testuale & Pianificato\\
+\midrule
+F 8.1.4.5 & TA 8.1.4.5 &QML definisce domande di associazione tra elementi di due insiemi & Pianificato\\
+\midrule
+F 8.1.4.5.1 &TA 8.1.4.5.1 &Gli insiemi possono contenere elementi non associabili di disturbo & Pianificato\\
+\midrule
+F 8.1.4.6 & TA 8.1.4.6&QML definisce domande a completamento testuale a scelta da un gruppo di parole date & Pianificato\\
+\midrule
+F 8.1.4.6.1 & TA 8.1.4.6.1 &Il gruppo di parole può contenere elementi di disturbo & Pianificato\\
+\midrule
+F 8.1.4.7 & TA 8.1.4.7&QML definisce domande di associazione tra date poste in una timeline e avvenimenti & Pianificato\\
+\midrule
+F 8.2 &TA 8.2 &QML gestisce immagini all'interno di domande e risposte preimpostate & Pianificato\\
+			
+\end{longtable}
+\section{Resoconto attività di verifica}
+\label{Appendice C}
+Di seguito viene fornito il resoconto dell'attività di verifica inerente ad ogni fase di sviluppo.
 \end{document}
