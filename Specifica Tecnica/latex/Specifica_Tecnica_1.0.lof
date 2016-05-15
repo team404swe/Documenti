@@ -8,6 +8,10 @@
 \contentsline {figure}{\numberline {6}{\ignorespaces Diagramma delle classi del package QuestionManager\relax }}{22}{figure.caption.7}
 \contentsline {figure}{\numberline {7}{\ignorespaces Diagramma delle classi del package QuizManager\relax }}{24}{figure.caption.8}
 \contentsline {figure}{\numberline {8}{\ignorespaces Diagramma delle classi del package Interpreter\relax }}{25}{figure.caption.9}
-\contentsline {figure}{\numberline {9}{\ignorespaces Diagramma di sequenza del salvataggio di una domanda\relax }}{31}{figure.caption.10}
-\contentsline {figure}{\numberline {10}{\ignorespaces Diagramma di sequenza sello svlogimento di un questionario\relax }}{32}{figure.caption.11}
-\contentsline {figure}{\numberline {11}{\ignorespaces Diagramma di sequenza del caricamento di un questionario\relax }}{34}{figure.caption.12}
+\contentsline {figure}{\numberline {9}{\ignorespaces Diagramma di attivit\IeC {\`a} della creazione di un questionario\relax }}{27}{figure.caption.10}
+\contentsline {figure}{\numberline {10}{\ignorespaces Diagramma di attivit\IeC {\`a} della creazione di una domanda\relax }}{28}{figure.caption.11}
+\contentsline {figure}{\numberline {11}{\ignorespaces Diagramma di attivit\IeC {\`a} della compilazione di un questionario\relax }}{29}{figure.caption.12}
+\contentsline {figure}{\numberline {12}{\ignorespaces Diagramma di attivit\IeC {\`a} della scelta di un questionario\relax }}{30}{figure.caption.13}
+\contentsline {figure}{\numberline {13}{\ignorespaces Diagramma di sequenza del salvataggio di una domanda\relax }}{31}{figure.caption.14}
+\contentsline {figure}{\numberline {14}{\ignorespaces Diagramma di sequenza sello svlogimento di un questionario\relax }}{32}{figure.caption.15}
+\contentsline {figure}{\numberline {15}{\ignorespaces Diagramma di sequenza del caricamento di un questionario\relax }}{34}{figure.caption.16}
