@@ -973,6 +973,100 @@ La pianificazione deve inoltre assicurare un'equa distribuzione del carico di la
 	\newpage
 	
 	\subsection{Fase di Progettazione Architetturale}
-	ToDo	
+	Viene proposto di seguito il consuntivo relativo alla fase di Progettazione Architetturale. Il grafico a barre seguente illustra il rapporto tra ore di lavoro pianificate e ore effettuate per
+ruolo. 	
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[scale=0.7]{../Images/chart-Consuntivo_Ore_Progettazione}
+	\caption{Consuntivo Ore Progettazione Architetturale}
+	\end{figure}
+	
+	\begin{table}[h!]
+	\begin{center}
+		\begin{tabular}{l c c c}
+			\textbf{Ruolo} & \textbf{Preventivo} & \textbf{Consuntivo} &\textbf{Bilancio}\\
+			\midrule
+			Responsabile 	& 450 	& 330	& -120	\\
+			Analista 		& 1025 	& 575	& -450	\\
+			Amministratore 	& 300 	& 160	& -140	\\			
+			Progettista 	& 1650 	& 1078	& -572	\\
+			Verificatore 	& 1110 	& 810	& -300	\\
+			\midrule
+			\textbf{Totale} & \textbf{4535 \euro} & \textbf{2953 \euro}	& \textbf{-1582 \euro}
+		\end{tabular}
+		\end{center}
+	\caption{Consuntivo Costi Progettazione Architetturale}
+	\end{table}
+	
+La fase si è conclusa con un costo di \textbf{2953 \euro}, inferiore di \textbf{1582 \euro} rispetto a quanto preventivato.
+	\subsubsection{Analisi di periodo}
+	In questo periodo, si osserva una grande differenza tra il costo preventivato e il costo effettivo. 
+	 Questo è dovuto principalmente alla scelta di andare non in RPmax\addglos ma in RPmin\addglos, il che ha spostato la progettazione di dettaglio alla prossima fase. Durante questo periodo il gruppo ha lavorato con maggior precisione e collaborazione, provvedendo a verifiche continue lungo il periodo in modo da tenere tutti i lavori allineati con gli obbiettivi fissati.  
+	
+	
+	\subsubsection{Preventivo a finire}
+		
+	\subsubsubsection{Progettazione di Dettaglio e Codifica}
+		\begin{table}[h!]			
+		\begin{center}
+			\begin{tabular}{l c c}
+			\textbf{Componente} & \textbf{Ruolo I} & \textbf{Ruolo II} \\
+			\midrule
+			Davide Bortot & Progettista/Ver & Programmatore\\
+			Martin Vadice Mbouenda & Programm/Analista & Progettista/Ver\\
+			Marco Crivellaro & Resp/Programm & Verificatore/Amm\\
+			Alex Beccaro & Verificatore/Amm & Resp/Programm\\
+			Luca Alessio & Programm/Analista & Progettista/Ver\\
+			Andrea Multineddu & Progettista/Ver & Programmatore\\
+			\midrule
+			\end{tabular}
+		\end{center}
+		\caption{Ruoli Progettazione di Dettaglio e Codifica}
+		\end{table}
+		
+		\begin{table}[h!]			
+		\begin{center}
+			\begin{tabular}{l l l l}
+			\textbf{Componente} & \textbf{Ore Ruolo II} & \textbf{Ore Ruolo III} & \textbf{Totale Ore}\\
+			\midrule
+			Davide Bortot & 11\textcolor{red}{(+6)}/16\textcolor{red}{(+6)} & 18\textcolor{red}{(-2)} & 56\textcolor{red}{(+11)}\\
+			Martin Vadice Mbouenda & 15\textcolor{red}{(-3)}/6\textcolor{red}{(+6)} & 6\textcolor{red}{(+1)}/13\textcolor{red}{(+3)} & 55\textcolor{red}{(+15)}\\
+			Marco Crivellaro & 10/17\textcolor{red}{(-1)} & 18\textcolor{red}{(+8)}/5 & 63\textcolor{red}{(+13)} \\
+			Alex Beccaro & 16\textcolor{red}{(+6)}/10 & 5/21\textcolor{red}{(+1)} & 64\textcolor{red}{(+12)}\\
+			Luca Alessio & 15\textcolor{red}{(-5)}/6\textcolor{red}{(+6)} & 16\textcolor{red}{(+6)}/13\textcolor{red}{(+3)} & 59\textcolor{red}{(+9)}\\
+			Andrea Multineddu & 11\textcolor{red}{(+6)}/15\textcolor{red}{(+5)} & 18\textcolor{red}{(-4)} & 59\textcolor{red}{(+15)}\\
+			\midrule
+			\textbf{Ore medie per persona} & & & \textbf{59,3\textcolor{red}{(+)}}\\
+			\end{tabular}
+		\end{center}
+		\caption{Ore/persona Progettazione di Dettaglio e Codifica}
+		\end{table}
+		\begin{table}[h!]			
+		\begin{center}
+			\begin{tabular}{l l l}
+			\textbf{Ruolo} & \textbf{Ore Totali} & \textbf{Costi}\\
+			\midrule
+			Programmatore & 122\textcolor{green}{(+18)} & 1830\textcolor{red}{(+270)} \\
+			Verificatore & 107\textcolor{red}{(+16)} & 1605\textcolor{red}{(+240)}\\
+			Progettista & 64\textcolor{red}{(+22)} & 1452\textcolor{red}{(+484)}\\
+			Analista & 31\textcolor{red}{(+19)} & 775\textcolor{red}{(+475)}\\		
+			Responsabile & 15 & 510 \\
+			Amministratore & 15 & 340 \\
+			\midrule
+			\textbf{Totale} & \textbf{356}\textcolor{red}{(+75)} & \textbf{6412 \euro}\textcolor{red}{(+1469\euro)}\\
+			\end{tabular}
+		\end{center}
+		\caption{Ore e Costi Progettazione di Dettaglio e Codifica}
+		\end{table}
+		\clearpage
+		
+		\begin{figure}[h!]
+		    \centering
+			\includegraphics[scale=0.7]{../Images/chart-Confronto_Pianificazioni2vs3_Progettazione.png}
+			\caption{Confronto Ore Pianificazione v2 e Pianificazione v3 per la Codifica}
+		\end{figure}		
+		
+	
 	
 \end{document}

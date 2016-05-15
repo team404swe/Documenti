@@ -16,12 +16,12 @@
 	\fontsize{5mm}{3mm}\url{team404swe@gmail.com}\\
 	
 	\vspace{50mm}
-	\textbf{Norme di Progetto 1.0}	
+	\textbf{Norme di Progetto 2.0}	
 	\end{center}
 	
 	%qui
 	\introtab{Norme di Progetto}			%1 nome documento
-			{1.0} 							%2 versione
+			{2.0} 							%2 versione
 			{Interno} 						%3 Uso
 			{21 dicembre 2015} 				%4 Data cre
 			{\today} 						%5 Data mod
@@ -43,7 +43,12 @@
 	%\begin{longtable}{{p{0.10\textwidth}p{0.15\textwidth}p{0.12\textwidth}p{0.50\textwidth}}}
 		%\begin{longtable}{{|p{0.10\textwidth}|p{0.15\textwidth}|p{0.15\textwidth}|p{0.50\textwidth}|}} 
 		\beginregistro
+		
 			\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}{\hspace{5 mm} \textbf{Descrizione}}
+			\rigaregistro{1.0.4}{M. Mbouenda  (Amministratore)}{12/05/2016}{Aggiunta sottosezione Git Modo d'uso.}
+			\rigaregistro{1.0.3}{M. Mbouenda  (Amministratore)}{10/05/2016}{Modifica sottosezione Versionamento.}
+			\rigaregistro{1.0.2}{M. Mbouenda  (Amministratore)}{05/05/2016}{Modifica sottosezione Analisi dei requisiti.}
+			\rigaregistro{1.0.1}{M. Mbouenda  (Amministratore)}{04/05/2016}{Modifica sottosezione Ticketing.}
 			\rigaregistro{1.0}{Davide Bortot (Responsabile)}{16/03/2016}{Approvazione del documento.}
 			\rigaregistro{0.2}{A. Multineddu (Verificatore)}{15/03/2016}{Verifica completa del documento.}
 			\rigaregistro{0.1.7}{D. Bortot (Amministratore)}{11/03/2016}{Modifica sottosezione "Componenti grafiche".}
@@ -83,16 +88,16 @@
 		\subsection{Scopo del Prodotto}
 			Il progetto \textbf{Quizzipedia} ha come obiettivo lo sviluppo di un sistema software basato su tecnologie Web (Javascript\addglos, Node.js\addglos, HTML5\addglos, CSS3\addglos) che permetta la creazione, gestione e fruizione di questionari. Il sistema dovrà quindi poter archiviare i questionari suddivisi per argomento, le cui domande dovranno essere raccolte attraverso uno specifico linguaggio di markup\addglos che verrà chiamato "Quiz Markup Language" e d'ora in poi denominato QML\addglos. In un caso d'uso a titolo esemplificativo, un "esaminatore" dovrà poter costruire il proprio questionario scegliendo tra le domande archiviate, ed il questionario così composto sarà presentato e fruibile all' "esaminando", traducendo l'oggetto QML in una pagina HTML\addglos, tramite un'apposita interfaccia web. Il sistema presentato dovrà inoltre poter proporre questionari preconfezionati e valutare le risposte fornite dall'utente finale.	\\
 		\subsection{Glossario}
-			Viene allegato un glossario nel file "\textit{glossario\_1.0.pdf}" nel quale viene data una definizione a tutti i termini che in questo documento appaiono con il simbolo \textbf{'\addglos'}  a pedice.
+			Viene allegato un glossario nel file "\textit{glossario\_2.0.pdf}" nel quale viene data una definizione a tutti i termini che in questo documento appaiono con il simbolo \textbf{'\addglos'}  a pedice.
 		\subsection{Riferimenti}
 			\subsubsection{Normativi}
 				\begin{itemize}
 					\item \textbf{Capitolato d'appalto Quizzipedia:}\\
 					\url{http://www.math.unipd.it/~tullio/IS-1/2015/Progetto/C5.pdf}
-					\item \textbf{Analisi dei Requisiti:} "\textit{analisi\_dei\_requisiti\_1.0.pdf}"
-					\item \textbf{Piano di Progetto:} "\textit{piano\_di\_progetto\_1.0.pdf}"
-					\item \textbf{Piano di Qualifica:} "\textit{piano\_di\_qualifica\_1.0.pdf}"
-					\item \textbf{Studio di Fattibilità:} "\textit{studio\_di\_fattibilità\_1.0.pdf}"
+					\item \textbf{Analisi dei Requisiti:} "\textit{analisi\_dei\_requisiti\_2.0.pdf}"
+					\item \textbf{Piano di Progetto:} "\textit{piano\_di\_progetto\_2.0.pdf}"
+					\item \textbf{Piano di Qualifica:} "\textit{piano\_di\_qualifica\_2.0.pdf}"
+					\item \textbf{Studio di Fattibilità:} "\textit{studio\_di\_fattibilità\_2.0.pdf}"
 					\item \textbf{Introduzione all'uso di git:} \\
 					\url{http://git-scm.com/book/it} 
 				\end{itemize}
@@ -124,14 +129,7 @@
 			\subsubsection{Scopo del processo}
 			Sarà compito degli analisti estrarre i requisiti del progetto dal capitolato e/o da eventuali incontri col proponente. 
 			Questo processo ha per obiettivo la stesura di un documento affidabile e consistente che descrive le richieste ed esigenze del proponente.
-				
-			\subsubsection{Requisiti}
-			Ogni requisito dovrà avere i seguenti campi:
-			\begin{itemize}
-			\item Codice identificativo
-			\item Descrizione
-			\item Fonti
-			\end{itemize}
+
 			\subsubsection{Casi d'uso}
 			Ogni caso d'uso dovrà presentare i seguenti campi:
 			\begin{itemize}
@@ -146,6 +144,26 @@
 			\item Flusso principale degli eventi
 			\item Scenari alternativi
 			\end{itemize}
+							
+			\subsubsection{Requisiti}
+			Ogni requisito dovrà avere i seguenti campi:
+			\begin{itemize}
+			\item Codice identificativo
+			Ogni requisito sarà rappresentato secondo la seguente formulazione:
+					\begin{center}
+					\begin{Large} A\end{Large}  \begin{normalsize}1.2.*.n	\end{normalsize}					
+					\end{center}
+			\item Descrizione
+			\item Fonti
+			\end{itemize}
+			Nel documento di Analisi dei requisiti 2.0
+			I requisiti dovranno essere dettagliati  e suddivisi come segue:
+			\begin{itemize}
+			\item Requisiti Funzionali
+			\item Requisiti di qualità
+			\item Requisiti 
+			\end{itemize}
+
 	
 			\subsubsection{Strumenti per il tracciamento dei requisiti}
 			Per il tracciamento dei requisiti verrà usato il tool\addglos Astah\addglos nella sua versione gratuita per studenti e per l'utilizzo del quale ogni membro si dovrà registrare usando la mail rilasciata dall'Università degli studi di Padova per ottenere una licenza.  
@@ -206,7 +224,7 @@ che tutto il codice sia formattato in maniera chiara e attendibile. A questo sco
 
 Per l'analisi statica del codice JavaScript prodotto, si intende usare lo strumento software \textbf{Complexity-report\addglos}, fornito dalla piattaforma GitHub.
 Esso fornisce una valutazione delle metriche sull'intero progetto analizzando ogni singolo file e fornendo un report in formato testuale.
-Per una descrizione dettagliata delle metriche utilizzate per l'analisi statica del codice si rimanda al documento \textit{piano\_di\_qualifica\_1.0.pdf}.
+Per una descrizione dettagliata delle metriche utilizzate per l'analisi statica del codice si rimanda al documento \textit{piano\_di\_qualifica\_2.0.pdf}.
 		
 	\section{Processo di supporto}
 		\subsection{Documentazione}
@@ -343,6 +361,22 @@ Per una descrizione dettagliata delle metriche utilizzate per l'analisi statica 
 				\end{itemize}
 				\item \textbf{Link:} i link ipertestuali dovranno essere di colore blu.
 			\end{itemize}
+			\subsubsection{Sigle}
+			Sono stare adottate le seguente sigle:
+			\begin{itemize}
+			\item \textbf{AR} -> Analisi dei Requisiti;
+			\item \textbf{PP} -> Piano di progetto;
+			\item \textbf{NP} -> Norme di progetto;
+			\item \textbf{SF} -> Studio di fattibilità;
+			\item \textbf{PQ} -> Piano di qualifica;
+			\item \textbf{ST} -> Specifica tecnica;
+			\item \textbf{MU} -> Manuale utente;
+			\item \textbf{DP} -> Definizione di prodotto;
+			\item \textbf{RR} -> Revisione dei requisiti;
+			\item \textbf{RP} -> Revisione di progettazione;
+			\item \textbf{RQ} -> Revisione di qualifica;
+			\item \textbf{RA} -> Revisione di accettazione.
+			\end{itemize}
 			\subsubsection{Componenti grafiche}
 			\subsubsubsection{Tabelle}
 				Ogni tabella nei documenti dovrà avere sotto di essa un numero identificativo e una didascalia. Inoltre dopo l'indice di ogni documento dovrà apparire un elenco delle tabelle inserite.
@@ -438,9 +472,10 @@ Redige la parte retrospettiva del Piano di Qualifica che illustra l'esito e la c
 		
 		\subsection{Ticketing}
 		\label{subsec:ticketing}
-		Per gestire i compiti all'interno del gruppo è stato scelto il tool\addglos di gestione di progetti online Trello\addglos con il quale è possibile creare, assegnare, seguire e commentare delle liste composte da uno o più task\addglos personalizzabili. 
+		Nella gestione dei Task, Trello abbiamo ritenuto Trello meno efficiente anche perché non avendo una funzionalità adhoc per quest'ultimi, risultava un pò complesso la costruzione del diagramma di Gantt associato ai Task di interesse. Per questo motivo il gruppo dopo un voto all'unanimità ha deciso di sostituirlo con TeamWork\addglos che include la gestione dei task, la visualizzazione dei progressi, la possibilità di settare delle milestones, la possibilità di scambiare messaggi tra membri di un team e un App mobile per aver tutto a portata di mano.
 		\subsubsection{Struttura del ticket}
-		Usando Trello\addglos ogni task\addglos  avrà le seguenti caratteristiche:
+		Con la gestione dei task di Teamwork, ogni task ha diverse funzionalità raggruppate in tab:
+		
 		
 		\begin{enumerate}
 		\item \textbf{Titolo:} riassume in modo conciso il task\addglos;
@@ -452,17 +487,16 @@ Redige la parte retrospettiva del Piano di Qualifica che illustra l'esito e la c
 		\item \textbf{Stato:} rappresenta lo stato del task che può essere successivamente 'Accettato', 'Eseguito' e poi 'Verificato' ed include anche una barra di progressione da 0 a 100\%; 
 		\item \textbf{Commenti:} è una funzionalità che permette ai membri di scambiare parere e informazioni riguardanti il task.
 		
+	
 		\end{enumerate}
-		
-		% da sistemare perché 
+				% da sistemare perché 
 		\begin{figure}[htbp]
 		\centering
 		\includegraphics[scale=0.50]{../images/tuto2.png}
 		\caption{Esempio di configurazione di un task su Trello}			
 			
 		\end{figure}
-		
-		
+			
 		
 		\subsection{Strumenti di progetto} \label{s:strum} 	
 	
@@ -471,14 +505,34 @@ Redige la parte retrospettiva del Piano di Qualifica che illustra l'esito e la c
 		\subsubsection{Codifica dei caratteri}
 		Per assicurarsi la corretta visualizzazione dei caratteri accentati tutti i file testuali presenti nel repository\addglos(sia codice sorgente che documentazione) devono essere memorizzati con la codifica\textbf{ UTF-8\addglos.}
 		\subsubsection{Versionamento}
-		Per il versionamento dei documenti e del codice viene usato \textbf{Git\addglos} (\url{http://git-scm.com/}). Si utilizzerà il servizio \textbf{GitHub\addglos} per creare e gestire i repository privati utilizzati dal gruppo.
-			
+		Per il versionamento dei documenti e del codice sorgente è stato creato un account per il gruppo sul servizio di hosting\addglos GitHub\addglos con username\addglos \textbf{team404swe\addglos} con tutti i membri del gruppo come contributors\addglos . Nell'account sono stati creati le repository\addglos \textbf{"team404swe/Documenti"} per i documenti e \textbf{"team404swe/Quizzipedia"\addglos} per il codice sorgente.Quest'ultimi verranno aggiornati in tutta sicurezza attraverso  il software \textbf{GitHub Desktop\addglos} dai sistemi compatibili (Windows\addglos e Mac OSX\addglos)per la gestione delle repository\addglos GitHub\addglos. 
+				
+		\subsubsubsection{Git - Modo d'uso} \label{git_modo} 
+		Qualche comandi utili per prendere in mano Git\addglos .
+		\begin{enumerate}			
+			\item Per creare una copia di un repository locale
+			\begin{enumerate} \item[] \texttt{\$ git clone /percorso/del/repository}\end{enumerate}
+			\item Per creare una copia di un repository locale usando invece un server remoto 
+			\begin{enumerate} \item[] \texttt{\$ git clone nomeutente@host:/percorso/del/repository} \end{enumerate}
+			\item Per proporre modifiche al file <nomedelfile>		
+			\begin{enumerate} \item[] \texttt{\$ git add <nomedelfile> } \end{enumerate}
+			\item Per proporre modifiche a tutti i file
+			\begin{enumerate} \item[] \texttt{\$ git add * }\end{enumerate}
+			\item Per validare queste modifiche proposte 
+			\begin{enumerate} \item[] \texttt{\$ git commit -m "Messaggio per la commit"}  \end{enumerate}
+			\item Per inviare queste modifiche al repository remoto
+			\begin{enumerate} \item[] \texttt{\$ git push origin master }\end{enumerate}
+			\item Per aggiornare il tuo repository locale alla commit più recente	
+			\begin{enumerate} \item[] \texttt{\$ git pull } \end{enumerate}
+		\end{enumerate}
+			\subsubsubsection{GitHub - Modo d'uso}
+			GitHub Desktop essendo molto intuitivo, si farà riferimento direttamente alla guida ufficiale disponibile all'indirizzo: https://guides.github.com/introduction/getting-your-project-on-github/  o direttamente tramite riga di comando come in \ref{git_modo} 
 	\subsection{Produzione dei documenti}
 	
 	\subsubsection{Dropbox}
 	Per la condivisione di file e documenti non soggetti a controllo di versione tra i membri del gruppo. A questo scopo è stata creata una cartella che contiene anche i vari  manuali degli strumenti di interesse per il progetto.
 	\subsubsection{Editor}
-	Come editor per i documenti viene scelto TexMaker\addglos, un programma open source per scrivere documenti in \LaTeX  che offre multiple funzionalità quali il supporto dell'unicode, la colorazione sintattica e la correzione autografica nonché la possibilità di esportare il documento in HTML o in formato OpenDocument\addglos.
+	Come editor per i documenti viene scelto TexMaker\addglos, un programma open source per scrivere documenti in \LaTeX   che offre multiple funzionalità quali il supporto dell'unicode, la colorazione sintattica e la correzione autografica nonché la possibilità di esportare il documento in HTML o in formato OpenDocument\addglos.
 	\subsubsection{Correttore ortografico}
 	Come correttore ortografico dei documenti prodotti verrà utilizzato il software \textbf{MySpell}\addglos integrato nell'editor TexMaker.
 	\newpage
