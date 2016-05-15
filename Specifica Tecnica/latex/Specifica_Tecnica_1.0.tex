@@ -754,10 +754,8 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 	\begin{itemize}
 	\item\textbf{Precondizioni:} L'utente, intenzionato a svolgere un questionario, accede alla pagina adibita alla selezione dell'argomento.\\
 	\item\textbf{Postcondizioni:} L'utente ha scelto un questionario da svolgere e viene reindirizzato alla pagina contenente tale questionario.\\ %è giusta solo questa post o c'è altro?
-	\item\textbf{Descrizione:} SCRIVERE APPENA ARRIVA IMMAGINE DEFINITIVA
+	\item\textbf{Descrizione:} La classe CurrentView della View interagisce con la classe InputManager del Presenter richiedendo un elenco di questionari da visualizzare. La richiesta viene inoltrata al Model che procede a recuperare i dati richiesti e a restituirli alla View. Opzionalmente l'utente ha la possibilità di ordinare i questionari su schermo secondo vari criteri (alfabetico o cronologico). L'utente ha poi la possibilità di scegliere un questionario e il flusso di eventi si collegherà con quello espresso nel diagramma della sezione "Caricamento di un Questionario".\\
 	\end{itemize}
-	\newpage
-	
 	\subsection{Caricamento di un Questionario}
 	\begin{figure}[h!]
 	\begin{center}
@@ -779,9 +777,9 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 	\end{center}
 	\end{figure}
 	\begin{itemize}
-	\item\textbf{Precondizioni:}
-	\item\textbf{Postcondizioni:}
-	\item\textbf{Descrizione:}
+	\item\textbf{Precondizioni:} Viene richiesta la visualizzazione su schermo di una domanda
+	\item\textbf{Postcondizioni:} La domanda viene convertita dal precedente formato QML al formato HTML interpretabile dal browser
+	\item\textbf{Descrizione:} MANCA SOLO QUESTO
 	\end{itemize}
 	\newpage
 	
