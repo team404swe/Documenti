@@ -13,77 +13,78 @@
 \BOOKMARK [1][-]{section.3}{Tecnologie e strumenti utilizzati}{}% 13
 \BOOKMARK [2][-]{subsection.3.1}{HTML5}{section.3}% 14
 \BOOKMARK [2][-]{subsection.3.2}{CSS3}{section.3}% 15
-\BOOKMARK [2][-]{subsection.3.3}{Javascript}{section.3}% 16
-\BOOKMARK [2][-]{subsection.3.4}{Node.js}{section.3}% 17
-\BOOKMARK [2][-]{subsection.3.5}{PostgreSQL}{section.3}% 18
-\BOOKMARK [1][-]{section.4}{Diagrammi dei packages}{}% 19
-\BOOKMARK [2][-]{subsection.4.1}{Package della componente Model}{section.4}% 20
-\BOOKMARK [2][-]{subsection.4.2}{Package della componente View}{section.4}% 21
-\BOOKMARK [2][-]{subsection.4.3}{Package della componente Presenter}{section.4}% 22
-\BOOKMARK [1][-]{section.5}{Diagrammi delle classi}{}% 23
-\BOOKMARK [2][-]{subsection.5.1}{Diagrammi delle classi del Model}{section.5}% 24
-\BOOKMARK [3][-]{subsubsection.5.1.1}{Package Database}{subsection.5.1}% 25
-\BOOKMARK [4][-]{subsubsubsection.5.1.1.1}{Classe Database}{subsubsection.5.1.1}% 26
-\BOOKMARK [4][-]{subsubsubsection.5.1.1.2}{Interfaccia ModelEvent}{subsubsection.5.1.1}% 27
-\BOOKMARK [4][-]{subsubsubsection.5.1.1.3}{Classe QuestionModifiedEvent}{subsubsection.5.1.1}% 28
-\BOOKMARK [4][-]{subsubsubsection.5.1.1.4}{Classe QuestionRemovedEvent}{subsubsection.5.1.1}% 29
-\BOOKMARK [4][-]{subsubsubsection.5.1.1.5}{Classe QuizModifiedEvent}{subsubsection.5.1.1}% 30
-\BOOKMARK [4][-]{subsubsubsection.5.1.1.6}{Classe QuizRemovedEvent}{subsubsection.5.1.1}% 31
-\BOOKMARK [4][-]{subsubsubsection.5.1.1.7}{Classe UserCreatedEvent}{subsubsection.5.1.1}% 32
-\BOOKMARK [4][-]{subsubsubsection.5.1.1.8}{Classe UserModifiedEvent}{subsubsection.5.1.1}% 33
-\BOOKMARK [4][-]{subsubsubsection.5.1.1.9}{Classe UserRemovedEvent}{subsubsection.5.1.1}% 34
-\BOOKMARK [3][-]{subsubsection.5.1.2}{Package Parser}{subsection.5.1}% 35
-\BOOKMARK [4][-]{subsubsubsection.5.1.2.1}{Classe Parser}{subsubsection.5.1.2}% 36
-\BOOKMARK [3][-]{subsubsection.5.1.3}{Package Statistiche}{subsection.5.1}% 37
-\BOOKMARK [4][-]{subsubsubsection.5.1.3.1}{Classe Statistic}{subsubsection.5.1.3}% 38
-\BOOKMARK [2][-]{subsection.5.2}{Diagrammi delle classi della View}{section.5}% 39
-\BOOKMARK [3][-]{subsubsection.5.2.1}{Package CurrentViewManager}{subsection.5.2}% 40
-\BOOKMARK [4][-]{subsubsubsection.5.2.1.1}{Classe CurrentView}{subsubsection.5.2.1}% 41
-\BOOKMARK [4][-]{subsubsubsection.5.2.1.2}{Classe Sender}{subsubsection.5.2.1}% 42
-\BOOKMARK [3][-]{subsubsection.5.2.2}{Package Pages}{subsection.5.2}% 43
-\BOOKMARK [4][-]{subsubsubsection.5.2.2.1}{Classe Page}{subsubsection.5.2.2}% 44
-\BOOKMARK [4][-]{subsubsubsection.5.2.2.2}{Classe MainPage}{subsubsection.5.2.2}% 45
-\BOOKMARK [4][-]{subsubsubsection.5.2.2.3}{Classe CategoryListPage}{subsubsection.5.2.2}% 46
-\BOOKMARK [4][-]{subsubsubsection.5.2.2.4}{Classe QuizListPage}{subsubsection.5.2.2}% 47
-\BOOKMARK [4][-]{subsubsubsection.5.2.2.5}{Classe QuizExecutionPage}{subsubsection.5.2.2}% 48
-\BOOKMARK [4][-]{subsubsubsection.5.2.2.6}{Classe QuizManagementPage}{subsubsection.5.2.2}% 49
-\BOOKMARK [4][-]{subsubsubsection.5.2.2.7}{Classe QuizTutorialPage}{subsubsection.5.2.2}% 50
-\BOOKMARK [3][-]{subsubsection.5.2.3}{Package UserAuthentication}{subsection.5.2}% 51
-\BOOKMARK [4][-]{subsubsubsection.5.2.3.1}{Classe User}{subsubsection.5.2.3}% 52
-\BOOKMARK [2][-]{subsection.5.3}{Diagrammi delle classi del Presenter}{section.5}% 53
-\BOOKMARK [3][-]{subsubsection.5.3.1}{Package UserInputManager}{subsection.5.3}% 54
-\BOOKMARK [4][-]{subsubsubsection.5.3.1.1}{Classe InputManager}{subsubsection.5.3.1}% 55
-\BOOKMARK [4][-]{subsubsubsection.5.3.1.2}{Interfaccia Input}{subsubsection.5.3.1}% 56
-\BOOKMARK [3][-]{subsubsection.5.3.2}{Package Updaters}{subsection.5.3}% 57
-\BOOKMARK [4][-]{subsubsubsection.5.3.2.1}{Interfaccia Updater}{subsubsection.5.3.2}% 58
-\BOOKMARK [4][-]{subsubsubsection.5.3.2.2}{Classe ModelUpdater}{subsubsection.5.3.2}% 59
-\BOOKMARK [4][-]{subsubsubsection.5.3.2.3}{Classe ViewUpdater}{subsubsection.5.3.2}% 60
-\BOOKMARK [3][-]{subsubsection.5.3.3}{Package QuestionManager}{subsection.5.3}% 61
-\BOOKMARK [4][-]{subsubsubsection.5.3.3.1}{Interfaccia QuestionFactory}{subsubsection.5.3.3}% 62
-\BOOKMARK [4][-]{subsubsubsection.5.3.3.2}{Classe astratta Question}{subsubsection.5.3.3}% 63
-\BOOKMARK [4][-]{subsubsubsection.5.3.3.3}{Classe QML2HTMLQuestionFactory}{subsubsection.5.3.3}% 64
-\BOOKMARK [4][-]{subsubsubsection.5.3.3.4}{Classe HTMLQuestion}{subsubsection.5.3.3}% 65
-\BOOKMARK [4][-]{subsubsubsection.5.3.3.5}{Classe Translator}{subsubsection.5.3.3}% 66
-\BOOKMARK [3][-]{subsubsection.5.3.4}{Package QuizManager}{subsection.5.3}% 67
-\BOOKMARK [4][-]{subsubsubsection.5.3.4.1}{Classe QuizDirector}{subsubsection.5.3.4}% 68
-\BOOKMARK [4][-]{subsubsubsection.5.3.4.2}{Classe QuizBuilder}{subsubsection.5.3.4}% 69
-\BOOKMARK [4][-]{subsubsubsection.5.3.4.3}{Classe Quiz}{subsubsection.5.3.4}% 70
-\BOOKMARK [3][-]{subsubsection.5.3.5}{Package Interpreter}{subsection.5.3}% 71
-\BOOKMARK [4][-]{subsubsubsection.5.3.5.1}{Interfaccia Interpreter}{subsubsection.5.3.5}% 72
-\BOOKMARK [4][-]{subsubsubsection.5.3.5.2}{Interfaccia InterpreterFactory}{subsubsection.5.3.5}% 73
-\BOOKMARK [4][-]{subsubsubsection.5.3.5.3}{Classe QMLInterpreterFactory}{subsubsection.5.3.5}% 74
-\BOOKMARK [4][-]{subsubsubsection.5.3.5.4}{Classe QMLInterpreter}{subsubsection.5.3.5}% 75
-\BOOKMARK [4][-]{subsubsubsection.5.3.5.5}{Classe QML2HTMLInterpreter}{subsubsection.5.3.5}% 76
-\BOOKMARK [1][-]{section.6}{Diagrammi di attivit\340}{}% 77
-\BOOKMARK [2][-]{subsubsection.6.0.6}{Creazione Questionario}{section.6}% 78
-\BOOKMARK [3][-]{subsubsection.6.0.7}{Creazione Domanda}{subsubsection.6.0.6}% 79
-\BOOKMARK [3][-]{subsubsection.6.0.8}{Compilazione Questionario}{subsubsection.6.0.6}% 80
-\BOOKMARK [3][-]{subsubsection.6.0.9}{Scelta Questionario}{subsubsection.6.0.6}% 81
-\BOOKMARK [1][-]{section.7}{Diagrammi di sequenza}{}% 82
-\BOOKMARK [2][-]{subsection.7.1}{Salvataggio di una Domanda}{section.7}% 83
-\BOOKMARK [2][-]{subsection.7.2}{Visualizzazione e scelta di un Questionario}{section.7}% 84
-\BOOKMARK [2][-]{subsection.7.3}{Caricamento di un Questionario}{section.7}% 85
-\BOOKMARK [2][-]{subsection.7.4}{Traduzione di una domanda}{section.7}% 86
-\BOOKMARK [2][-]{subsection.7.5}{Svolgimento di un Questionario}{section.7}% 87
-\BOOKMARK [1][-]{section.8}{Tracciamento}{}% 88
-\BOOKMARK [1][-]{section.9}{Analisi di fattibilit\340}{}% 89
+\BOOKMARK [2][-]{subsection.3.3}{Materialize}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.4}{Javascript}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.5}{Node.js}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.6}{PostgreSQL}{section.3}% 19
+\BOOKMARK [1][-]{section.4}{Diagrammi dei packages}{}% 20
+\BOOKMARK [2][-]{subsection.4.1}{Package della componente Model}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.2}{Package della componente View}{section.4}% 22
+\BOOKMARK [2][-]{subsection.4.3}{Package della componente Presenter}{section.4}% 23
+\BOOKMARK [1][-]{section.5}{Diagrammi delle classi}{}% 24
+\BOOKMARK [2][-]{subsection.5.1}{Diagrammi delle classi del Model}{section.5}% 25
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Package Database}{subsection.5.1}% 26
+\BOOKMARK [4][-]{subsubsubsection.5.1.1.1}{Classe Database}{subsubsection.5.1.1}% 27
+\BOOKMARK [4][-]{subsubsubsection.5.1.1.2}{Interfaccia ModelEvent}{subsubsection.5.1.1}% 28
+\BOOKMARK [4][-]{subsubsubsection.5.1.1.3}{Classe QuestionModifiedEvent}{subsubsection.5.1.1}% 29
+\BOOKMARK [4][-]{subsubsubsection.5.1.1.4}{Classe QuestionRemovedEvent}{subsubsection.5.1.1}% 30
+\BOOKMARK [4][-]{subsubsubsection.5.1.1.5}{Classe QuizModifiedEvent}{subsubsection.5.1.1}% 31
+\BOOKMARK [4][-]{subsubsubsection.5.1.1.6}{Classe QuizRemovedEvent}{subsubsection.5.1.1}% 32
+\BOOKMARK [4][-]{subsubsubsection.5.1.1.7}{Classe UserCreatedEvent}{subsubsection.5.1.1}% 33
+\BOOKMARK [4][-]{subsubsubsection.5.1.1.8}{Classe UserModifiedEvent}{subsubsection.5.1.1}% 34
+\BOOKMARK [4][-]{subsubsubsection.5.1.1.9}{Classe UserRemovedEvent}{subsubsection.5.1.1}% 35
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Package Parser}{subsection.5.1}% 36
+\BOOKMARK [4][-]{subsubsubsection.5.1.2.1}{Classe Parser}{subsubsection.5.1.2}% 37
+\BOOKMARK [3][-]{subsubsection.5.1.3}{Package Statistiche}{subsection.5.1}% 38
+\BOOKMARK [4][-]{subsubsubsection.5.1.3.1}{Classe Statistic}{subsubsection.5.1.3}% 39
+\BOOKMARK [2][-]{subsection.5.2}{Diagrammi delle classi della View}{section.5}% 40
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Package CurrentViewManager}{subsection.5.2}% 41
+\BOOKMARK [4][-]{subsubsubsection.5.2.1.1}{Classe CurrentView}{subsubsection.5.2.1}% 42
+\BOOKMARK [4][-]{subsubsubsection.5.2.1.2}{Classe Sender}{subsubsection.5.2.1}% 43
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Package Pages}{subsection.5.2}% 44
+\BOOKMARK [4][-]{subsubsubsection.5.2.2.1}{Classe Page}{subsubsection.5.2.2}% 45
+\BOOKMARK [4][-]{subsubsubsection.5.2.2.2}{Classe MainPage}{subsubsection.5.2.2}% 46
+\BOOKMARK [4][-]{subsubsubsection.5.2.2.3}{Classe CategoryListPage}{subsubsection.5.2.2}% 47
+\BOOKMARK [4][-]{subsubsubsection.5.2.2.4}{Classe QuizListPage}{subsubsection.5.2.2}% 48
+\BOOKMARK [4][-]{subsubsubsection.5.2.2.5}{Classe QuizExecutionPage}{subsubsection.5.2.2}% 49
+\BOOKMARK [4][-]{subsubsubsection.5.2.2.6}{Classe QuizManagementPage}{subsubsection.5.2.2}% 50
+\BOOKMARK [4][-]{subsubsubsection.5.2.2.7}{Classe QuizTutorialPage}{subsubsection.5.2.2}% 51
+\BOOKMARK [3][-]{subsubsection.5.2.3}{Package UserAuthentication}{subsection.5.2}% 52
+\BOOKMARK [4][-]{subsubsubsection.5.2.3.1}{Classe User}{subsubsection.5.2.3}% 53
+\BOOKMARK [2][-]{subsection.5.3}{Diagrammi delle classi del Presenter}{section.5}% 54
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Package UserInputManager}{subsection.5.3}% 55
+\BOOKMARK [4][-]{subsubsubsection.5.3.1.1}{Classe InputManager}{subsubsection.5.3.1}% 56
+\BOOKMARK [4][-]{subsubsubsection.5.3.1.2}{Interfaccia Input}{subsubsection.5.3.1}% 57
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Package Updaters}{subsection.5.3}% 58
+\BOOKMARK [4][-]{subsubsubsection.5.3.2.1}{Interfaccia Updater}{subsubsection.5.3.2}% 59
+\BOOKMARK [4][-]{subsubsubsection.5.3.2.2}{Classe ModelUpdater}{subsubsection.5.3.2}% 60
+\BOOKMARK [4][-]{subsubsubsection.5.3.2.3}{Classe ViewUpdater}{subsubsection.5.3.2}% 61
+\BOOKMARK [3][-]{subsubsection.5.3.3}{Package QuestionManager}{subsection.5.3}% 62
+\BOOKMARK [4][-]{subsubsubsection.5.3.3.1}{Interfaccia QuestionFactory}{subsubsection.5.3.3}% 63
+\BOOKMARK [4][-]{subsubsubsection.5.3.3.2}{Classe astratta Question}{subsubsection.5.3.3}% 64
+\BOOKMARK [4][-]{subsubsubsection.5.3.3.3}{Classe QML2HTMLQuestionFactory}{subsubsection.5.3.3}% 65
+\BOOKMARK [4][-]{subsubsubsection.5.3.3.4}{Classe HTMLQuestion}{subsubsection.5.3.3}% 66
+\BOOKMARK [4][-]{subsubsubsection.5.3.3.5}{Classe Translator}{subsubsection.5.3.3}% 67
+\BOOKMARK [3][-]{subsubsection.5.3.4}{Package QuizManager}{subsection.5.3}% 68
+\BOOKMARK [4][-]{subsubsubsection.5.3.4.1}{Classe QuizDirector}{subsubsection.5.3.4}% 69
+\BOOKMARK [4][-]{subsubsubsection.5.3.4.2}{Classe QuizBuilder}{subsubsection.5.3.4}% 70
+\BOOKMARK [4][-]{subsubsubsection.5.3.4.3}{Classe Quiz}{subsubsection.5.3.4}% 71
+\BOOKMARK [3][-]{subsubsection.5.3.5}{Package Interpreter}{subsection.5.3}% 72
+\BOOKMARK [4][-]{subsubsubsection.5.3.5.1}{Interfaccia Interpreter}{subsubsection.5.3.5}% 73
+\BOOKMARK [4][-]{subsubsubsection.5.3.5.2}{Interfaccia InterpreterFactory}{subsubsection.5.3.5}% 74
+\BOOKMARK [4][-]{subsubsubsection.5.3.5.3}{Classe QMLInterpreterFactory}{subsubsection.5.3.5}% 75
+\BOOKMARK [4][-]{subsubsubsection.5.3.5.4}{Classe QMLInterpreter}{subsubsection.5.3.5}% 76
+\BOOKMARK [4][-]{subsubsubsection.5.3.5.5}{Classe QML2HTMLInterpreter}{subsubsection.5.3.5}% 77
+\BOOKMARK [1][-]{section.6}{Diagrammi di attivit\340}{}% 78
+\BOOKMARK [2][-]{subsubsection.6.0.6}{Creazione Questionario}{section.6}% 79
+\BOOKMARK [3][-]{subsubsection.6.0.7}{Creazione Domanda}{subsubsection.6.0.6}% 80
+\BOOKMARK [3][-]{subsubsection.6.0.8}{Compilazione Questionario}{subsubsection.6.0.6}% 81
+\BOOKMARK [3][-]{subsubsection.6.0.9}{Scelta Questionario}{subsubsection.6.0.6}% 82
+\BOOKMARK [1][-]{section.7}{Diagrammi di sequenza}{}% 83
+\BOOKMARK [2][-]{subsection.7.1}{Salvataggio di una Domanda}{section.7}% 84
+\BOOKMARK [2][-]{subsection.7.2}{Visualizzazione e scelta di un Questionario}{section.7}% 85
+\BOOKMARK [2][-]{subsection.7.3}{Caricamento di un Questionario}{section.7}% 86
+\BOOKMARK [2][-]{subsection.7.4}{Traduzione di una domanda}{section.7}% 87
+\BOOKMARK [2][-]{subsection.7.5}{Svolgimento di un Questionario}{section.7}% 88
+\BOOKMARK [1][-]{section.8}{Tracciamento}{}% 89
+\BOOKMARK [1][-]{section.9}{Analisi di fattibilit\340}{}% 90

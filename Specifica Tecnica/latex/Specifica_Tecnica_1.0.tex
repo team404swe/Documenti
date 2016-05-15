@@ -156,17 +156,22 @@ comunicare col Model, ed aggiornare il View con i dati ottenuti. Per poterlo far
 		\item\textbf{Utilizzo}: viene utilizzato per creare la GUI che permette all'utente di accedere al sistema mediante browser.
 		\item\textbf{Vantaggi}: favorisce la portabilità su diversi dispositivi (desktop, smartphone, tablet...) e browser.
 Sono punti a favore anche l'elevata compatibilità con tecnologie quali CSS3 e Javascript.
-		\item\textbf{Svantaggi}: essendo HTML5 un linguaggio non ancora standard il rischio nel suo utilizzo è l'instabilità dei tag utilizzati. Un tag oggi accettato potrebbe essere modificato
-in un futuro prossimo, rendendo la visualizzazione dell'interfaccia utente dipendente dal stabilità dei tag utilizzati. 
+		\item\textbf{Svantaggi}: essendo HTML5 un linguaggio non ancora standard il rischio nel suo utilizzo è l'instabilità dei tag utilizzati. Un tag oggi accettato potrebbe essere modificato in un futuro prossimo, rendendo la visualizzazione dell'interfaccia utente dipendente dal stabilità dei tag utilizzati. 
 	\end{itemize}
 	\subsection{CSS3}
 	Principale linguaggio usato per la formattazione di pagine HTML.
 	\begin{itemize}
 		\item\textbf{Utilizzo}: Viene utilizzato per formattare il codice HTML,
-ovvero creare fogli di stile che permettono all'utente di modificare alcuni aspetti grafici della
-pagina Web
-		\item\textbf{Vantaggi}: Richiede un minor sforzo di interpretazione da parte del browser ed è leggero da scaricare
-		\item\textbf{Svantaggi}: Può presentare problemi di compatibilità con browser meno recenti
+ovvero creare fogli di stile che permettono allo sviluppatore di modificare alcuni aspetti grafici della pagina Web.
+		\item\textbf{Vantaggi}: Richiede un minor sforzo di interpretazione da parte del browser ed è leggero da scaricare.
+		\item\textbf{Svantaggi}: Può presentare problemi di compatibilità con browser meno recenti.
+	\end{itemize}
+	\subsection{Materialize}
+	Materialize è un framework CSS basato sull'idea di design "Material Design" di Google.
+	\begin{itemize}
+		\item\textbf{Utilizzo}: verrà utilizzato per la formattazione delle pagine web.
+		\item\textbf{Vantaggi}: un tale framework aiuta l'applicazione a mantenere uno stile coerente in tutte le sue parti, e mette a disposizione una vasta scelta ci classi CSS preconfezionate, esonerando lo sviluppatore dalla necessita di definirne di proprie. Aumenta inoltra l'adattabilità (responsiveness) delle pagine HTML a diversi supporti (desktop, mobile, etc.).
+		\item\textbf{Svantaggi}: necessità di un breve tempo di studio per impararne le classi e il corretto utilizzo.
 	\end{itemize}
 	\subsection{Javascript}
 	E' un linguaggio di scripting debolmente orientato agli oggetti, utilizzato nelle applicazioni
@@ -192,7 +197,7 @@ con vettori associativi, che associano nomi di proprietà a valori.
 	\subsection{Node.js}
 	\begin{itemize}
 		\item\textbf{Utilizzo}: Tecnologia imposta dal proponente per la gestione della base di dati su cui poggia il sistema Quizzipedia.
-		\item\textbf{Vantaggi}: Tecnologia simil javascript dotata di robusta sistema di packaging e di una velocità superiore rispetto alla concorrenza. Secondariamente, questa tecnologia cross-platform ha suscitato molto di più l'interesse  del team che se ne intende avvalere rispetto a Tomcat, l'altra tecnologia proposta dal proponente.
+		\item\textbf{Vantaggi}: Tecnologia simil javascript dotata di robusta sistema di packaging e di una velocità superiore rispetto alla concorrenza. Secondariamente, questa tecnologia cross-platform ha suscitato molto di più l'interesse del team che se ne intende avvalere rispetto a Tomcat, l'altra tecnologia proposta dal proponente.
 		\item\textbf{Svantaggi}: Il design del linguaggio impedisce alcune ottimizzazioni delle operazioni e la gestione dei tipi non è confortevole come in altri concorrenti.
 	\end{itemize}
 	\subsection{PostgreSQL}
@@ -201,7 +206,7 @@ con vettori associativi, che associano nomi di proprietà a valori.
 		\item\textbf{Utilizzo}: Base di dati con lo scopo di memorizzare domande e altri dati necessari al funzionamento del sistema.
 		\item\textbf{Vantaggi}: Tecnologia più robusta, stabile e performante di MySQL (inizialmente preso in considerazione ma poi scartato in favore di PostgreSQL).
 		\item\textbf{Svantaggi}: Complessità maggiore rispetto al classico MySQL.
-	\end{itemize}
+	\end{itemize}	
 	\newpage
 	\section{Diagrammi dei packages}
 	\subsection{Package della componente Model}
@@ -213,7 +218,7 @@ con vettori associativi, che associano nomi di proprietà a valori.
 	\end{figure}
 	Il package per il componente Model del pattern architetturale MVP contiene i seguenti sotto packages:
 	\begin{itemize}
-		\item\textbf{Database:} questo package si occupera' di gestire le richieste in arrivo dal Presenter e avvisera' quest'ultimo ogni qualvota si verifica un cambiamento dei dati salvati nel sistema tramite appositi eventi; Per fare ciò si avvale delle classi:
+		\item\textbf{Database:} questo package si occuperà di gestire le richieste in arrivo dal Presenter e avviserà quest'ultimo ogni qualvolta si verifica un cambiamento dei dati salvati nel sistema tramite appositi eventi; Per fare ciò si avvale delle classi:
 			\begin{itemize}
 				\item\textit{Database}
 				\item\textit{QuestionModifiedEvent}
@@ -228,11 +233,11 @@ con vettori associativi, che associano nomi di proprietà a valori.
 			\begin{itemize}
 				\item\textit{ModelEvent}
 			\end{itemize}
-		\item\textbf{Parser:} questo package fornisce funzionalita' per il controllo sintattico rispetto a QML; Per fare ciò si avvale delle classi:
+		\item\textbf{Parser:} questo package fornisce funzionalità per il controllo sintattico rispetto a QML; Per fare ciò si avvale delle classi:
 			\begin{itemize}
 				\item\textit{Parser}
 			\end{itemize}
-		\item\textbf{Statistiche:} questo package fornisce classi per il raccoglimento delle statistiche relative ai quesiti, questionari ed utenti; Per fare ciò si avvale delle classi:
+		\item\textbf{Statistic:} questo package fornisce classi per il raccoglimento delle statistiche relative ai quesiti, questionari ed utenti; Per fare ciò si avvale delle classi:
 			\begin{itemize}
 				\item\textit{Statistics}
 			\end{itemize}
@@ -272,7 +277,7 @@ con vettori associativi, che associano nomi di proprietà a valori.
 	Gli elementi del package collaborano e interagiscono con l'obiettivo comune di trattare il flusso di dati tra View e Model e mantenere aggiornato lo stato di entrambi. \\
 	Il package del Presenter contiene i seguenti sub-packages:
 	\begin{itemize}
-	\item \textbf{UserInputManager}
+	\item \textbf{UserInputManager}:
 	Il package \emph{UserInputManager} gestisce gli input degli utenti ricevuti dalla View, realizzando la logica dell'applicazione web. Per svolgere il proprio compito si interfaccia con il package \emph{Updaters} per aggiornare e interagire con View e Model. \\
 	Il package contiene al suo interno le classi:
 	\begin{itemize}
@@ -281,7 +286,7 @@ con vettori associativi, che associano nomi di proprietà a valori.
 		\item \textit{sottoclassi di Input}
 	\end{itemize}
 	
-	\item \textbf{Updaters}
+	\item \textbf{Updaters}:
 	Il package \emph{Updaters} ha la responsabilità di aggiornare View e Model in risposta agli input utente. per svolgere i suoi compiti collabora con i packages \emph{QuizManger} e \emph{QuestionManager}. Il package contiene al suo interno le classi:
 	\begin{itemize}
 		\item \textit{Updater}
@@ -289,7 +294,7 @@ con vettori associativi, che associano nomi di proprietà a valori.
 		\item \textit{ViewUpdater}
 	\end{itemize}
 	
-	\item \textit{QuestionManager}
+	\item \textbf{QuestionManager}:
 	Il package \emph{QuestionManager} espone le funzionalità necessarie alla creazione e gestione di domande. Per permettere al package di essere estendibile in futuro con domande in diversi formati, le classi al suo interno sono organizzate seguendo il pattern \emph{Abstract Factory}. \\
 	Il package contiene al suo interno le classi:
 	\begin{itemize}
@@ -300,7 +305,7 @@ con vettori associativi, che associano nomi di proprietà a valori.
 		\item \textit{Translator}
 	\end{itemize}
 	
-	\item\textit{QuizManager}
+	\item\textit{QuizManager}:
 	Il Package \emph{QuizManager} espone le funzionalità necessarie alla creazione e gestione di quiz, collaborando con il package \emph{QuestionManager}. Per disaccoppiare la creazione di un quiz dalle domande che lo compongono, la classi all'interno del package seguono la struttura del design pattern \emph{Builder}.\\ 
 	Il package contiene al suo interno le classi:
 	\begin{itemize}
@@ -309,7 +314,7 @@ con vettori associativi, che associano nomi di proprietà a valori.
 		\item \textit{Quiz}
 	\end{itemize}
 	
-	\item \textbf{Interpreter}
+	\item \textbf{Interpreter}:
 	Il package \emph{Interpreter} è responsabile della traduzione di testo QML in codice HTML5 visualizzabile da browser. Per permettere al package di essere estendibile in futuro con nuovi tipi di "Interpreter", le classi al suo interno sono organizzate seguendo il pattern \emph{Abstract Factory} . \\
 	Il package contiene al suo interno le seguenti classi:
 	\begin{itemize}
@@ -482,13 +487,13 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 			\newpage
 			
 			\subsection{Diagrammi delle classi del Presenter}
+			\subsubsection{Package UserInputManager}
 			\begin{figure}[h!]
 			\begin{center}
 				\includegraphics[scale=0.65]{../images/UserInputManagerClass.png}
 				\caption{Diagramma delle classi del package UserInputManager}
 			\end{center}
 			\end{figure}
-			\subsubsection{Package UserInputManager}
 
 			\subsubsubsection{Classe InputManager}
 			La classe implementa, con riferimento al pattern \emph{Command}, il componente Invoker del Command. In questo modo il trattamento degli input viene disaccoppiato dalle componenti che ne eseguiranno le richieste.
@@ -548,7 +553,7 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 
 			\subsubsubsection{Classe ViewUpdater}
 			\begin{itemize}
-				\item\textbf{Funzione del componente}: è responsabile dell'aggiornamento della View rispetto agli input utente e rispetto alle modifiche del Model.
+				\item\textbf{Funzione del componente}: è responsabile dell'aggiornamento della View rispetto agli input utente e rispetto alle modifiche del Model. E' il \emph{Receiver} degli input che modificano la View.
 				\item\textbf{Relazione d'uso di altre componenti}: s'interfaccia con le classi ViewUpdater, QuizManager e QuestionManager e con le classi del package View.
 				\item\textbf{Attività svolte e dati trattati}: la componente può ricevere input che non necessitano di interazione col Model; in tal caso provvede direttamente all'aggiornamento della View. Se è richiesta interazione col Model essa interagisce con la classe ModelUpdater. Alcuni input possono richiedere la sua collaborazione con le classi QuizManager e QuestionManager.
 			\end{itemize}
@@ -595,7 +600,7 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 			\begin{itemize}
 				\item\textbf{Funzione del componente}: s'interfaccia con le componenti del package Interpreter per la traduzione di quesiti QML in HTML.
 				\item\textbf{Relazione d'uso di altre componenti}: collabora con le interfacce Interpreter e InterpreterFactory.
-				\item\textbf{Attività svolte e dati trattati}: riceve dalla classe ToViewSender le richieste di traduzione e il codice QML da tradurre. Attraverso la factory InterpreterFactory (una sua concretizzazione) costruisce un Interpreter concreto e lo utilizza per la traduzione del codice. L'esito della traduzione viene reso disponibile a ToViewSender.
+				\item\textbf{Attività svolte e dati trattati}: riceve dalla classe ViewUpdater le richieste di traduzione e il codice QML da tradurre. Attraverso la factory InterpreterFactory (una sua concretizzazione) costruisce un Interpreter concreto e lo utilizza per la traduzione del codice. L'esito della traduzione viene reso disponibile a ViewUpdater.
 			\end{itemize}
 			\newpage
 			

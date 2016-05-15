@@ -15,9 +15,10 @@
 \contentsline {section}{\numberline {3}Tecnologie e strumenti utilizzati}{6}{section.3}
 \contentsline {subsection}{\numberline {3.1}HTML5}{6}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}CSS3}{6}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Javascript}{6}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Node.js}{7}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}PostgreSQL}{7}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.3}Materialize}{6}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Javascript}{6}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Node.js}{7}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}PostgreSQL}{7}{subsection.3.6}
 \contentsline {section}{\numberline {4}Diagrammi dei packages}{8}{section.4}
 \contentsline {subsection}{\numberline {4.1}Package della componente Model}{8}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Package della componente View}{9}{subsection.4.2}
