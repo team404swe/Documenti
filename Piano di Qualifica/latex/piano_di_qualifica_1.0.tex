@@ -157,13 +157,88 @@ L'immagine seguente elenca le principali caratteristiche a cui un prodotto softw
 %Dalla fase di codifica quindi, per mezzo di test specifici sulle singole componenti (test di unità), si è in grado di garantire la correttezza del lavoro svolto prima che le singole componenti vengano integrate tra loro. Ovviamente l'esito positivo di ogni test su ogni unità non garantisce la correttezza dell'integrazione tra le stesse. \\
 %Nelle sezioni successive verranno elencate le varie fasi del ramo discendente e ne verranno descritte le strategie di verifica qualitativa inerenti.
 \newpage
-\subsection{Verifica e validazione}
+\subsection{Verifica fasi di sviluppo}
+Di seguito vengono descritte le attività di verifica da effettuare per ogni fase di sviluppo. Tali fasi seguono la pianificazione definita nel documento allegato \textit{Piano-di-progetto-2.0.pdf}.
+\subsection{Analisi}
+\begin{itemize}
+\item \textbf{Organizzazione interna}:
+\begin{itemize}
+\item \textbf{Assegnazione dei ruoli} secondo la pianificazione specificata nel documento \textit{Piano-di-Progetto-1.0.pdf} redatto dal Responsabile di progetto;
+\item \textbf{Corretta pianificazione di sviluppo} secondo quanto stilato sempre nel documento \textit{Piano-di-Progetto-1.0.pdf}. In particolare viene verificata la corretta divisione temporale delle diverse fasi di progetto (vedere sezione precedente) e la correttezza del preventivo in base al budget disponibile;
+\item \textbf{Disponibilità delle risorse umane e tecnologiche} e dell'ambiente di lavoro;
+\item \textbf{Lettura e sottoscrizione delle Norme di Progetto}. Il responsabile deve accertarsi che ogni membro del gruppo abbia letto e compreso il documento \textit{Norme-di-progetto-1.0}. Il documento deve essere quindi preventivamente redatto.
 
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.4]{../images/vmodel-final4.png}
-\caption{Fasi di sviluppo}
-\end{figure} 
+
+\end{itemize} 
+ 
+\item \textbf{Documentazione}: il processo di verifica per la documentazione deve seguire le procedure descritte nella sezione 3 (Misure e metriche: parametri di tolleranza).
+%\begin{itemize}
+%\item Verifica della presenza di tutti i documenti necessari;
+%\item Attinenza di ogni documento alle specifiche di stile e formattazione presenti nel documento \textit{Norme-di-progetto-1.0};
+%\item Verifica della presenza e del corretto utilizzo del registro delle modifiche interno ad ogni documento;
+%\item Verifica iniziale dei documenti tramite la tecnica di analisi statica \textbf{walkthrough};
+%\item Verifica dei documenti tramite tecnica di analisi statica di tipo \textbf{inspection}. In questo caso l'attenzione del verificatore si focalizza solo su particolari aspetti del testo (per esempio accenti, sillabazione, maiuscole, ecc);
+%\item Monitoraggio da parte dei verificatori del registro delle modifiche in modo da poter attuare la verifica solo alla parte inerente alla sezione modificata;
+%\item \textbf{Coerenza} di informazioni tra i diversi documenti;
+%\item Verifica di assenza di \textbf{ridondanza} di determinati contenuti tra i diversi documenti;
+%\item Calcolo dell'indice di leggibilità \textbf{Gulpease}.
+%\end{itemize}
+\item \textbf{Requisiti e Use Case}: 
+\begin{itemize}
+\item Correttezza dei diagrammi UML per quanto riguarda l'adeguata rappresentazione grafica degli Use Case. Verifica, leggibilità e adeguato livello di granularità;
+\item Verifica della correttezza degli Use Case (testuali e grafici) secondo lo standard UML2.0;
+\item Verifica delle precondizioni e delle postcondizioni di ogni Use Case;
+\item Completezza dei requisiti in base alle esigenze di capitolato;
+\item Tracciabilità dei requisiti tramite tabella di mappatura requisiti - casi d'uso;
+\item Controllo eventuali conflitti o imprecisioni nella codifica dei requisiti e dei casi d'uso.
+\end{itemize}
+ 
+
+\end{itemize}
+
+\subsection{Progettazione}
+\subsubsection{Progettazione architetturale}
+In questa fase è necessaria la verifica dei nuovi documenti prodotti (la Specifica tecnica) e la correttezza delle modifiche apportate alla documentazione in seguito alla prima revisione. In particolare deve essere verificato che la progettazione ad alto livello soddisfi i requisiti emersi nella precedente fase e descritti nel documento \textit{Analisi-dei-requisiti-2.0.pdf}. \\
+Di fondamentale importanza è la pianificazione dei test di sistema e la verifica che i requisiti siano soddisfatti.
+Per la Specifica Tecnica, il documento principale di questa fase, deve essere verificata la correttezza di tutti i diagrammi secondo lo standard UML 2. \\
+I diagrammi presenti devono essere verificati secondo le seguenti linee guida: 
+\begin{itemize}
+\item \textbf{diagrammi dei package:} 
+\begin{itemize}
+\item correttezza delle relazioni tra i package
+\item i package devono essere descritti per struttura e a livello logico
+\end{itemize}
+\item \textbf{diagrammi delle classi:}
+\begin{itemize}
+\item verifica del corretto utilizzo di interfacce e classi astratte
+\item le classi inserite non devono essere ridondanti o addirittura inutilizzate
+\item verifica che nei diagrammi di ogni classe siano presenti i tipi di ogni parametro dei metodi e degli attributi di classe
+\item verifica mirata al controllo della visibilità dei metodi, dei costruttori (se presenti nel diagramma) e degli attributi. I metodi pubblici devono essere limitati allo stretto necessario
+\end{itemize}
+\item \textbf{diagrammi di attività:}
+\begin{itemize}
+\item verifica della correttezza del flusso di ogni diagramma
+\item verifica dell'utilizzo delle entità atomiche opportune
+\end{itemize}
+\item \textbf{diagrammi di sequenza:}
+\begin{itemize}
+\item verifica della corretta individuazione degli attori
+\end{itemize}
+\end{itemize}
+\subsubsection{Progettazione di dettaglio e Codifica}
+Durante questa fase la verifica è volta al controllo del corretto funzionamento dell'applicazione tramite tecniche di analisi statica (walkthrough e inspection) e dinamica. Durante lo sviluppo del codice è di fondamentale importanza procedere di pari passo con la verifica tramite i test di unità.
+Il codice prodotto deve seguire le regole definite nel documento \textit{Norme-di-progetto-2.0.pdf}.
+%\subsection{Verifica e validazione}
+%RAMO ASCENDENTE DEL MODELLO A V\\
+%-test di unità\\
+%-test di integrazione\\
+%-test di sistema\\
+%-test di accettazione\\
+%\begin{figure}[h!]
+%\centering
+%\includegraphics[scale=0.4]{../images/vmodel-final4.png}
+%\caption{Fasi di sviluppo}
+%\end{figure} 
 \newpage
 \subsection{Gestione amministrativa della revisione}
 Ogni processo coinvolto nell'attività di sviluppo ha bisogno di una costante attività di verifica di supporto in grado di identificare possibili miglioramenti o peggioramenti ed apportare eventuali correzioni. \\
@@ -206,15 +281,15 @@ In generale, tali misurazioni tengono conto dei seguenti elementi:
 \end{itemize}
 Tramite le piattaforme Trello e GitHub i verificatori possono tenere traccia dello storico dei ticket assegnati, valutarne quindi i tempi di completamento e agire in modo propositivo nel caso si verifichino ritardi nella realizzazione di compiti assegnati.
 La verifica del completamento dei ticket viene integrata con un controllo altrettanto costante dell'attività dei commit sulla piattaforma GitHub. Sarà quindi necessario osservare e verificare l'andamento dei commit, verificandone sia correttezza che frequenza.
-In periodi di alta attività il numero di commit per persona deve essere maggiore o uguale a 1.  
+In periodi di alta attività il numero di commit per persona deve essere maggiore o uguale a 1 (viene inteso un commit significativo relativo all'intera giornata di lavoro) 
 %da qui in poi il resto del documento è abbastanza incompleto (quello che c'è però va bene) e ti darò una mano a finirlo in questi giorni
 %ti prego però, non scrivere ancora la parola "verifica", usa qualche sinonimo che l'hai ripetuta tipo 40 volte XD
-\subsubsection{Procedure di controllo fi qualità prodotto}
-\begin{itemize}
-\item \textbf{Software Quality Assurance}
-\item \textbf{Verifica}
-\item \textbf{Validazione}
-\end{itemize}
+%\subsubsection{Procedure di controllo fi qualità prodotto}
+%\begin{itemize}
+%\item \textbf{Software Quality Assurance}
+%\item \textbf{Verifica}
+%\item \textbf{Validazione}
+%\end{itemize}
 %\section{Risorse per la verifica}
 
 %\subsection{Risorse umane}
@@ -313,7 +388,6 @@ I valori di tolleranza fissati per tale indice sono:
 \renewcommand{\thetable}{A.\arabic{table}}
 \section{Pianificazione attività di sviluppo}
 \label{Appendice A}
- \textbf{DA RIVEDERE, AMPLIARE E CORREGGERE IMMAGINE MODELLO A V}\\
 La suddivisione temporale delle diverse fasi di sviluppo segue il cosiddetto modello a V ed è descritta nel documento allegato \textit{Piano-di-Progetto-1.0.pdf}.
 \begin{figure}[h!]
 \centering
@@ -562,68 +636,13 @@ Per la validazione delle pagine HTML e i file CSS sviluppati si intende affidars
 %\item \textbf{Branch Coverage}:
 %\item \textbf{Validazione W3C}:
 %\end{itemize}
-\newpage
+%\newpage
 \section{Resoconto attività di verifica}
 Di seguito viene fornito il resoconto dell'attività di verifica inerente ad ogni fase di sviluppo.
-\subsection{Analisi}
-Riassunto attività di verifica per quello che concerne la fase di analisi:
-\begin{itemize}
-\item \textbf{Organizzazione interna}:
-\begin{itemize}
-\item \textbf{Assegnazione dei ruoli} secondo la pianificazione specificata nel documento \textit{Piano-di-Progetto-1.0.pdf} redatto dal Responsabile di progetto;
-\item \textbf{Corretta pianificazione di sviluppo} secondo quanto stilato sempre nel documento \textit{Piano-di-Progetto-1.0.pdf}. In particolare viene verificata la corretta divisione temporale delle diverse fasi di progetto (vedere sezione precedente) e la correttezza del preventivo in base al budget disponibile;
-\item \textbf{Disponibilità delle risorse umane e tecnologiche} e dell'ambiente di lavoro;
-\item \textbf{Lettura e sottoscrizione delle Norme di Progetto}. Il responsabile deve accertarsi che ogni membro del gruppo abbia letto e compreso il documento \textit{Norme-di-progetto-1.0}. Il documento deve essere quindi preventivamente redatto.
 
-
-\end{itemize} 
- 
-\item \textbf{Documentazione}:
-%\begin{itemize}
-%\item Verifica della presenza di tutti i documenti necessari;
-%\item Attinenza di ogni documento alle specifiche di stile e formattazione presenti nel documento \textit{Norme-di-progetto-1.0};
-%\item Verifica della presenza e del corretto utilizzo del registro delle modifiche interno ad ogni documento;
-%\item Verifica iniziale dei documenti tramite la tecnica di analisi statica \textbf{walkthrough};
-%\item Verifica dei documenti tramite tecnica di analisi statica di tipo \textbf{inspection}. In questo caso l'attenzione del verificatore si focalizza solo su particolari aspetti del testo (per esempio accenti, sillabazione, maiuscole, ecc);
-%\item Monitoraggio da parte dei verificatori del registro delle modifiche in modo da poter attuare la verifica solo alla parte inerente alla sezione modificata;
-%\item \textbf{Coerenza} di informazioni tra i diversi documenti;
-%\item Verifica di assenza di \textbf{ridondanza} di determinati contenuti tra i diversi documenti;
-%\item Calcolo dell'indice di leggibilità \textbf{Gulpease}.
-%\end{itemize}
-\item \textbf{Requisiti e Use Case}: 
-\begin{itemize}
-\item Correttezza dei diagrammi UML per quanto riguarda l'adeguata rappresentazione grafica degli Use Case. Verifica, leggibilità e adeguato livello di granularità;
-\item Verifica della correttezza degli Use Case (testuali e grafici) secondo lo standard UML2.0;
-\item Verifica delle precondizioni e delle postcondizioni di ogni Use Case;
-\item Completezza dei requisiti in base alle esigenze di capitolato;
-\item Tracciabilità dei requisiti tramite tabella di mappatura requisiti - casi d'uso;
-\item Controllo eventuali conflitti o imprecisioni nella codifica dei requisiti e dei casi d'uso.
-\end{itemize}
- 
-
-\end{itemize}
-
-%\subsection{Progettazione}
-
-
-%\subsubsection{Progettazione architetturale}
-
-%\subsubsection{Progettazione di dettaglio}
-
-%\subsection{Codifica}
-
-%\subsection{Verifica e validazione}
-%RAMO ASCENDENTE DEL MODELLO A V\\
-%-test di unità\\
-%-test di integrazione\\
-%-test di sistema\\
-%-test di accettazione\\
 
 \newpage
-\section{Esito dei test}
+\section{Pianificazione dei test}
 \label{Appendice D}
-In questa sezione verranno presentati gli esiti dei test effettuati per ogni fase di sviluppo. 
-\subsection{Analisi}
-\subsection{Progettazione architetturale}
-
+\subsection{Test di validazione}
 \end{document}
