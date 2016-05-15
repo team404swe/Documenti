@@ -47,9 +47,9 @@
 	
 		\beginregistro
 			\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}{\hspace{5 mm} \textbf{Descrizione}}
-	 		\rigaregistro{2.0}{Andrea Multineddu (Verificatore)}{11/05/2016}{Verifica e revisione documento.}
-			\rigaregistro{1.0.5}{Alex Beccaro (Analista)}{10/05/2016}{Modificati casi d'uso 1.6, 1.6.2. Modificate mappature per riflettere i cambiamenti recenti.}
-			\rigaregistro{1.0.4}{Alex Beccaro (Analista)}{09/05/2016}{Modificati casi d'uso 1.8, modificati requisiti relativi e aggiunti 4.6 e 4.7. Aggiunte priorità dei requisiti.}
+	 		\rigaregistro{2.0}{Andrea Multineddu (Verificatore)}{13/05/2016}{Verifica e revisione documento.}
+			\rigaregistro{1.0.5}{Alex Beccaro (Analista)}{11/05/2016}{Correzione sui casi d'uso e requisiti recentemente introdotti. Inserimento di nuovi casi d'uso e requisiti ulteriori. Modificate mappature per riflettere i cambiamenti.}
+			\rigaregistro{1.0.4}{Alex Beccaro (Analista)}{09/05/2016}{Modificati casi d'uso, modificati requisiti relativi e aggiunti di nuovi. Aggiunte priorità dei requisiti.}
 	 		\rigaregistro{1.0.3}{Alex Beccaro (Analista)}{07/05/2016}{Modificati requisiti 8.x, aggiornate le versioni dei documenti a cui sono presenti riferimenti.}
 	 		\rigaregistro{1.0.2}{Alex Beccaro (Analista)}{02/05/2016}{Correzione e ampliamento requisiti.}
 	 		\rigaregistro{1.0.1}{Alex Beccaro (Analista)}{28/04/2016}{Ampliamento contesto d'uso. Correzione e ampliamento casi d'uso.}
@@ -463,7 +463,7 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \\
 \textbf{Postcondizioni:} l’utente ha compilato un questionario e ne vede la valutazione.\\
 \\
-\textbf{Scenario:} l’utente compila il questionario. Questo comprende la compilazione delle domande (UC 6.2) e la consegna (UC 6.3). In caso alla consegna ci siano domande non compilate viene visualizzato un messaggio di errore (UC 6.4). Dopo la consegna avviene la valutazione del questionario e la visualizzazione dei risultati (UC 6.5).\\
+\textbf{Scenario:} l’utente compila il questionario. Questo comprende la visualizzazione e la compilazione delle domande (UC 6.1, UC 6.2) e la consegna (UC 6.3). In caso alla consegna ci siano domande non compilate viene visualizzato un messaggio di errore (UC 6.4). Dopo la consegna avviene la valutazione del questionario e la visualizzazione dei risultati (UC 6.5). Durante la compilazione viene visualizzato il tempo rimanente (UC 6.6).\\
 
 
 \subsubsection{UC 6.1 - Visualizzazione domande}
@@ -769,7 +769,7 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.6]{../immagini/UC8.png}
+\includegraphics[scale=0.45]{../immagini/UC8.png}
 \caption{Creazione questionario}
 \end{figure}
 \ \\
@@ -781,7 +781,7 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \\
 \textbf{Postcondizioni:} l’utente ha creato un nuovo questionario.\\
 \\
-\textbf{Scenario:} l’utente inserisce i dati del questionario (UC 8.1, UC 8.2, UC 8.4) e li invia al sistema che memorizza il nuovo questionario (UC 8.5). L'inserimento della categoria fa visualizzare la lista delle domande relative a quella categoria (UC 8.3). Se all'invio il questionario risulta vuoto, alcuni dati essenziali mancano viene visualizzato un messaggio di errore (UC 8.6, UC 8.7).\\
+\textbf{Scenario:} l’utente inserisce i dati del questionario (UC 8.1, UC 8.2, UC 8.4, UC 8.8) e li invia al sistema che memorizza il nuovo questionario (UC 8.5). L'inserimento della categoria fa visualizzare la lista delle domande relative a quella categoria (UC 8.3). Se all'invio il questionario risulta vuoto o alcuni dati essenziali mancano viene visualizzato un messaggio di errore (UC 8.6, UC 8.7).\\
 
 
 \subsubsection{UC 8.1 - Inserimento nome questionario}
@@ -855,6 +855,19 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \end{itemize}
 
 
+\subsubsection{UC 8.8 - Inserimento tempo di compilazione}
+
+\textbf{Attori:} \textit{utente autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive l'inserimento del tempo di compilazione del questionario.\\
+\\
+\textbf{Precondizioni:} il sistema permette l'inserimento di un tempo di compilazione.\\
+\\
+\textbf{Postcondizioni:} l’utente ha inserito il tempo di compilazione del questionario.\\
+\\
+\textbf{Scenario:} l'utente inserisce il tempo di compilazione del questionario nell'apposito campo.\\
+
+
 \subsection{UC 9 - Logout}
 
 \textbf{Attori:} \textit{utente autenticato}
@@ -891,7 +904,218 @@ ID & Descrizione & Priorità \\
 
 \multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Requisiti funzionali}
 \endlastfoot
-F 1 & Il sistema deve fornire la possibilità ad un utente non autenticato di registrarsi & Obbligatorio\\\midruleF 1.1 & La sezione dedicata alla registrazione deve permettere l'inserimento dei dati necessari & Obbligatorio\\\midruleF 1.1.1 & La sezione dedicata alla registrazione deve permettere l'inserimento di una e-mail & Obbligatorio\\\midruleF 1.1.2 & La sezione dedicata alla registrazione deve permettere l'inserimento di una password & Obbligatorio\\\midruleF 1.1.2.1 & Se la password inserita ha meno di 8 caratteri viene visualizzato un messaggio di errore & Desiderabile\\\midruleF 1.2 & La sezione dedicata alla registrazione deve permettere l'invio dei dati inseriti & Obbligatorio\\\midruleF 1.2.1 & Prima di inviare i dati viene effettuato un controllo su di essi & Obbligatorio\\\midruleF 1.2.1.1 & Se i dati richiesti non sono stati inseriti viene visualizzato un messaggio di errore & Desiderabile\\\midruleF 1.2.1.2 & Se la email inserita risulta già in uso viene visualizzato un messaggio di errore & Desiderabile\\\midruleF 1.2.1.3 & Se i dati non risultano corretti ne viene bloccato l'invio & Obbligatorio\\\midruleF 1.2.2 & Quando dei dati corretti vengono inviati il sistema memorizza un nuovo account con essi & Obbligatorio\\\midruleF 1.2.3 & Quando viene creato un nuovo account con la procedura di registrazione viene automaticamente effettuato il login con quell'account & Desiderabile\\\midruleF 2 & Il sistema deve fornire la possibilità ad un utente non autenticato di autenticarsi & Obbligatorio\\\midruleF 2.1 & La sezione dedicata all'autenticazione deve permettere l'inserimento dei dati necessari & Obbligatorio\\\midruleF 2.1.1 & La sezione dedicata all'autenticazione deve permettere l'inserimento di una e-mail & Obbligatorio\\\midruleF 2.1.2 & La sezione dedicata all'autenticazione deve permettere l'inserimento di una password & Obbligatorio\\\midruleF 2.2 & La sezione dedicata all'autenticazione deve fornire una procedura di recupero password & Facoltativo\\\midruleF 2.2.1 & La procedura di recupero password deve permettere l'inserimento della e-mail & Facoltativo\\\midruleF 2.2.2 & La procedura di recupero password deve effettuare un controllo sulla e-mail inserita & Facoltativo\\\midruleF 2.2.2.1 & Se la e-mail non risulta registrata viene visualizzato un messaggio di errore & Facoltativo\\\midruleF 2.2.2.2 & Se la e-mail non risulta registrata viene bloccato l'invio della mail a quell'indirizzo & Facoltativo\\\midruleF 2.2.3 & La procedura di recupero password deve mandare una mail all'indirizzo inserito con la password dimenticata & Facoltativo\\\midruleF 2.3 & La sezione dedicata all'autenticazione deve permettere l'invio dei dati inseriti & Obbligatorio\\\midruleF 2.3.1 & Prima di inviare i dati viene effettuato un controllo su di essi & Obbligatorio\\\midruleF 2.3.1.1 & Se la combinazione e-mail/password non è registrata viene visualizzato un messaggio di errore & Desiderabile\\\midruleF 2.3.2 & Se la combinazione e-mail/password è registrata l'utente viene autenticato & Obbligatorio\\\midruleF 3 & Il sistema deve permettere la navigazione dei questionari per categoria & Obbligatorio\\\midruleF 3.1 & Il sistema deve fornire una sezione con un elenco delle categorie di questionari presenti nel database & Obbligatorio\\\midruleF 3.1.1 & Quando l'utente seleziona una categoria viene visualizzata la sezione che elenca i questionari della categoria scelta & Obbligatorio\\\midruleF 3.1.2 & Per ogni elemento dell'elenco viene visualizzato il nome della categoria & Obbligatorio\\\midruleF 3.1.3 & Per ogni elemento dell'elenco viene visualizzato il numero di questionari della categoria & Facoltativo\\\midruleF 3.2 & Il sistema deve fornire una sezione con un elenco dei questionari relativi ad una categoria & Obbligatorio\\\midruleF 3.2.1 & Quando l'utente seleziona un questionario viene visualizzata la sezione della compilazione del questionario scelto & Obbligatorio\\\midruleF 3.2.2 & Per ogni elemento dell'elenco viene visualizzato il nome del questionario & Obbligatorio\\\midruleF 3.2.3 & Per ogni elemento dell'elenco viene visualizzato il numero di domande del questionario & Facoltativo\\\midruleF 3.2.4 & Per ogni elemento dell'elenco viene visualizzato l'autore & Facoltativo\\\midruleF 4 & Il sistema deve fornire la possibilità di compilare un questionario & Obbligatorio\\\midruleF 4.1 & Durante la compilazione del questionario un utente può navigare liberamente tra le domande che lo compongono & Desiderabile\\\midruleF 4.2 & L'utente può rispondere alle domande & Obbligatorio\\\midruleF 4.2.1 & Viene visualizzato il testo della domanda & Obbligatorio\\\midruleF 4.2.2 & Viene visualizzata la risposta data & Obbligatorio\\\midruleF 4.2.3 & Se la domanda richiede una risposta inserita dal'utente allora viene fornito un campo per l'inserimento della risposta & Obbligatorio\\\midruleF 4.2.4 & Se la domanda ha delle risposte preimpostate di qualsiasi tipo queste vengono visualizzate & Obbligatorio\\\midruleF 4.2.4.1 & Deve essere possibile selezionare una risposta & Obbligatorio\\\midruleF 4.2.5 & Se la domanda permette associazioni tra elementi deve visualizzare tutti gli elementi associabili & Facoltativo\\\midruleF 4.2.5.1 & Deve essere possibile associare due elementi di insiemi diversi & Facoltativo\\\midruleF 4.2.6 & Se la domanda prevede il completamento del testo con delle parole vengono visualizzate le possibili parole & Facoltativo\\\midruleF 4.2.6.1 & Deve essere possibile selezionare una parola dalla lista & Facoltativo\\\midruleF 4.3 & L'utente può cambiare la risposta di una domanda in qualsiasi momento prima della consegna del questionario & Desiderabile\\\midruleF 4.4 & Le domande possono essere compilate in un ordine qualsiasi & Desiderabile\\\midruleF 4.5 & L'utente può consegnare il questionario & Obbligatorio\\\midruleF 4.5.1 & Se alla consegna una o più domande non sono state compilate il sistema avverte l'utente di ciò & Desiderabile\\\midruleF 4.5.2 & Quando un questionario viene confermato e consegnato viene valutato dal sistema & Obbligatorio\\\midruleF 4.5.2.1 & La valutazione del questionario viene visualizzata all'utente & Obbligatorio\\\midruleF 4.5.2.1.1 & Viene visualizzato il nome del questionario & Obbligatorio\\\midruleF 4.5.2.1.2 & Viene visualizzato il punteggio ottenuto & Obbligatorio\\\midruleF 4.5.2.1.3 & Viene visualizzata la percentuale delle risposte corrette & Desiderabile\\\midruleF 4.6 & La compilazione del questionario ha un tempo massimo & Facoltativo\\\midruleF 4.6.1 & Allo scadere del tempo il questionario verrà consegnato automaticamente anche se incompleto & Facoltativo\\\midruleF 4.6.2 & Il tempo inizia a scorrere da quando l'utente accede alla pagina & Facoltativo\\\midruleF 4.7 & Viene visualizzato il tempo restante & Facoltativo\\\midruleF 5 & Il sistema deve fornire la possibilità ad un utente autenticato di creare una nuova domanda & Obbligatorio\\\midruleF 5.1 & La sezione dedicata alla creazione di una domanda deve permettere l'inserimento dei dati necessari & Obbligatorio\\\midruleF 5.1.1 & La sezione dedicata alla creazione di una domanda deve permettere la scelta di una o più categorie & Obbligatorio\\\midruleF 5.1.2 & La sezione dedicata alla creazione di una domanda deve permettere l'inserimento del codice QML che definisce la domanda & Obbligatorio\\\midruleF 5.2 & La sezione dedicata alla creazione di una domanda deve permettere l'invio dei dati inseriti & Obbligatorio\\\midruleF 5.2.1 & Prima di inviare i dati viene effettuato un controllo su di essi & Obbligatorio\\\midruleF 5.2.1.1 & Se i dati obbligatori non risultano inseriti viene visualizzato un messaggio di errore & Desiderabile\\\midruleF 5.2.1.2 & Se il codice QML inserito non risulta valido viene visualizzato un messaggio di errore & Desiderabile\\\midruleF 5.2.1.3 & Se i dati obbligatori non risultano inseriti o il codice QML non è valido la creazione della nuova domanda viene bloccata & Obbligatorio\\\midruleF 5.2.2 & Quando dei dati che superano i controlli vengono inviati viene creata una nuova domanda con essi e inserita nel database & Obbligatorio\\\midruleF 5.2.2.1 & Se la creazione di una nuova domanda va a buon fine il sistema avvisa l'utente & Desiderabile\\\midruleF 5.2.2.2 & Se la creazione di una nuova domanda non va a buon fine il sistema visualizza un messaggio di errore & Desiderabile\\\midruleF 6 & Il sistema deve fornire la possibilità ad un utente autenticato di creare un nuovo questionario & Obbligatorio\\\midruleF 6.1 & La sezione dedicata alla creazione di un questionario deve permettere l'inserimento dei dati necessari & Obbligatorio\\\midruleF 6.1.1 & La sezione dedicata alla creazione di un questionario deve permettere l'inserimento del nome del questionario & Obbligatorio\\\midruleF 6.1.2 & La sezione dedicata alla creazione di un questionario deve permettere l'inserimento della categoria del questionario & Obbligatorio\\\midruleF 6.1.3 & La sezione dedicata alla creazione di un questionario deve visualizzare la lista delle domande della categoria selezionata & Obbligatorio\\\midruleF 6.1.3.1 & Se nessuna categoria è stata selezionata non viene visualizzata alcuna domanda & Obbligatorio\\\midruleF 6.1.3.2 & Ogni domanda deve essere selezionabile & Obbligatorio\\\midruleF 6.2 & La sezione dedicata alla creazione di un nuovo questionario deve permettere l'invio dei dati inseriti & Obbligatorio\\\midruleF 6.2.1 & Prima di inviare i dati viene effettuato un controllo su di essi & Obbligatorio\\\midruleF 6.2.1.1 & Se i dati obbligatori non risultano inseriti viene visualizzato un messaggio di errore & Desiderabile\\\midruleF 6.2.1.2 & Se nessuna domanda è selezionata viene visualizzato un messaggio di errore & Desiderabile\\\midruleF 6.2.1.3 & Se i dati obbligatori non risultano inseriti non è valido nessun dato viene inviato & Obbligatorio\\\midruleF 6.2.2 & Quando dei dati che superano i controlli vengono inviati viene creato un nuovo questionario con essi e inserito nel database & Obbligatorio\\\midruleF 6.2.2.1 & Se la creazione di un nuovo questionario va a buon fine il sistema avvisa l'utente & Desiderabile\\\midruleF 6.2.2.2 & Se la creazione di un nuovo questionario non va a buon fine il sistema visualizza un messaggio di errore & Desiderabile\\\midruleF 7 & Il sistema deve fornire la possibilità ad un utente autenticato di uscire facendo il logout & Obbligatorio\\\midruleF 8 & Il sistema deve essere in grado di interpretare il codice QML & Obbligatorio\\\midruleF 8.1 & QML definisce domande & Obbligatorio\\\midruleF 8.1.1 & Una domanda è formata dal testo del quesito e da una o più risposte & Obbligatorio\\\midruleF 8.1.2 & Una domanda deve avere almeno una risposta esatta & Obbligatorio\\\midruleF 8.1.3 & Una domanda può avere una lista di possibili risposte & Obbligatorio\\\midruleF 8.1.4 & QML permette la definizione di diverse tipologie di domande & Obbligatorio\\\midruleF 8.1.4.1 & QML definisce domande di tipo vero o falso & Obbligatorio\\\midruleF 8.1.4.2 & QML definisce domande a scelta multipla con una sola risposta esatta & Obbligatorio\\\midruleF 8.1.4.3 & QML definisce domande a scelta multipla con più risposte esatte & Desiderabile\\\midruleF 8.1.4.4 & QML definisce domande a risposta testuale & Obbligatorio\\\midruleF 8.1.4.5 & QML definisce domande di associazione tra elementi di due insiemi & Desiderabile\\\midruleF 8.1.4.5.1 & Gli insiemi possono contenere elementi non associabili di disturbo & Facoltativo\\\midruleF 8.1.4.6 & QML definisce domande a completamento testuale a scelta da un gruppo di parole date & Facoltativo\\\midruleF 8.1.4.6.1 & Il gruppo di parole può contenere elementi di disturbo & Facoltativo\\\midruleF 8.1.4.7 & QML definisce domande di associazione tra date poste in una timeline e avvenimenti & Facoltativo\\\midruleF 8.2 & QML gestisce immagini all'interno di domande e risposte preimpostate & Desiderabile\\
+
+F 1 & Il sistema deve fornire la possibilità ad un utente non autenticato di registrarsi & Obbligatorio\\
+\midrule
+F 1.1 & La sezione dedicata alla registrazione deve permettere l'inserimento dei dati necessari & Obbligatorio\\
+\midrule
+F 1.1.1 & La sezione dedicata alla registrazione deve permettere l'inserimento di una e-mail & Obbligatorio\\
+\midrule
+F 1.1.2 & La sezione dedicata alla registrazione deve permettere l'inserimento di una password & Obbligatorio\\
+\midrule
+F 1.1.2.1 & Se la password inserita ha meno di 8 caratteri viene visualizzato un messaggio di errore & Desiderabile\\
+\midrule
+F 1.2 & La sezione dedicata alla registrazione deve permettere l'invio dei dati inseriti & Obbligatorio\\
+\midrule
+F 1.2.1 & Prima di inviare i dati viene effettuato un controllo su di essi & Obbligatorio\\
+\midrule
+F 1.2.1.1 & Se i dati richiesti non sono stati inseriti viene visualizzato un messaggio di errore & Desiderabile\\
+\midrule
+F 1.2.1.2 & Se la email inserita risulta già in uso viene visualizzato un messaggio di errore & Desiderabile\\
+\midrule
+F 1.2.1.3 & Se i dati non risultano corretti ne viene bloccato l'invio & Obbligatorio\\
+\midrule
+F 1.2.2 & Quando dei dati corretti vengono inviati il sistema memorizza un nuovo account con essi & Obbligatorio\\
+\midrule
+F 1.2.3 & Quando viene creato un nuovo account con la procedura di registrazione viene automaticamente effettuato il login con quell'account & Desiderabile\\
+\midrule
+F 2 & Il sistema deve fornire la possibilità ad un utente non autenticato di autenticarsi & Obbligatorio\\
+\midrule
+F 2.1 & La sezione dedicata all'autenticazione deve permettere l'inserimento dei dati necessari & Obbligatorio\\
+\midrule
+F 2.1.1 & La sezione dedicata all'autenticazione deve permettere l'inserimento di una e-mail & Obbligatorio\\
+\midrule
+F 2.1.2 & La sezione dedicata all'autenticazione deve permettere l'inserimento di una password & Obbligatorio\\
+\midrule
+F 2.2 & La sezione dedicata all'autenticazione deve fornire una procedura di recupero password & Facoltativo\\
+\midrule
+F 2.2.1 & La procedura di recupero password deve permettere l'inserimento della e-mail & Facoltativo\\
+\midrule
+F 2.2.2 & La procedura di recupero password deve effettuare un controllo sulla e-mail inserita & Facoltativo\\
+\midrule
+F 2.2.2.1 & Se la e-mail non risulta registrata viene visualizzato un messaggio di errore & Facoltativo\\
+\midrule
+F 2.2.2.2 & Se la e-mail non risulta registrata viene bloccato l'invio della mail a quell'indirizzo & Facoltativo\\
+\midrule
+F 2.2.3 & La procedura di recupero password deve mandare una mail all'indirizzo inserito con la password dimenticata & Facoltativo\\
+\midrule
+F 2.3 & La sezione dedicata all'autenticazione deve permettere l'invio dei dati inseriti & Obbligatorio\\
+\midrule
+F 2.3.1 & Prima di inviare i dati viene effettuato un controllo su di essi & Obbligatorio\\
+\midrule
+F 2.3.1.1 & Se la combinazione e-mail/password non è registrata viene visualizzato un messaggio di errore & Desiderabile\\
+\midrule
+F 2.3.2 & Se la combinazione e-mail/password è registrata l'utente viene autenticato & Obbligatorio\\
+\midrule
+F 3 & Il sistema deve permettere la navigazione dei questionari per categoria & Obbligatorio\\
+\midrule
+F 3.1 & Il sistema deve fornire una sezione con un elenco delle categorie di questionari presenti nel database & Obbligatorio\\
+\midrule
+F 3.1.1 & Quando l'utente seleziona una categoria viene visualizzata la sezione che elenca i questionari della categoria scelta & Obbligatorio\\
+\midrule
+F 3.1.2 & Per ogni elemento dell'elenco viene visualizzato il nome della categoria & Obbligatorio\\
+\midrule
+F 3.1.3 & Per ogni elemento dell'elenco viene visualizzato il numero di questionari della categoria & Facoltativo\\
+\midrule
+F 3.2 & Il sistema deve fornire una sezione con un elenco dei questionari relativi ad una categoria & Obbligatorio\\
+\midrule
+F 3.2.1 & Quando l'utente seleziona un questionario viene visualizzata la sezione della compilazione del questionario scelto & Obbligatorio\\
+\midrule
+F 3.2.2 & Per ogni elemento dell'elenco viene visualizzato il nome del questionario & Obbligatorio\\
+\midrule
+F 3.2.3 & Per ogni elemento dell'elenco viene visualizzato il numero di domande del questionario & Facoltativo\\
+\midrule
+F 3.2.4 & Per ogni elemento dell'elenco viene visualizzato l'autore & Facoltativo\\
+\midrule
+F 4 & Il sistema deve fornire la possibilità di compilare un questionario & Obbligatorio\\
+\midrule
+F 4.1 & Durante la compilazione del questionario un utente può navigare liberamente tra le domande che lo compongono & Desiderabile\\
+\midrule
+F 4.2 & L'utente può rispondere alle domande & Obbligatorio\\
+\midrule
+F 4.2.1 & Viene visualizzato il testo della domanda & Obbligatorio\\
+\midrule
+F 4.2.2 & Viene visualizzata la risposta data & Obbligatorio\\
+\midrule
+F 4.2.3 & Se la domanda richiede una risposta inserita dal'utente allora viene fornito un campo per l'inserimento della risposta & Obbligatorio\\
+\midrule
+F 4.2.4 & Se la domanda ha delle risposte preimpostate di qualsiasi tipo queste vengono visualizzate & Obbligatorio\\
+\midrule
+F 4.2.4.1 & Deve essere possibile selezionare una risposta & Obbligatorio\\
+\midrule
+F 4.2.5 & Se la domanda permette associazioni tra elementi deve visualizzare tutti gli elementi associabili & Facoltativo\\
+\midrule
+F 4.2.5.1 & Deve essere possibile associare due elementi di insiemi diversi & Facoltativo\\
+\midrule
+F 4.2.6 & Se la domanda prevede il completamento del testo con delle parole vengono visualizzate le possibili parole & Facoltativo\\
+\midrule
+F 4.2.6.1 & Deve essere possibile selezionare una parola dalla lista & Facoltativo\\
+\midrule
+F 4.3 & L'utente può cambiare la risposta di una domanda in qualsiasi momento prima della consegna del questionario & Desiderabile\\
+\midrule
+F 4.4 & Le domande possono essere compilate in un ordine qualsiasi & Desiderabile\\
+\midrule
+F 4.5 & L'utente può consegnare il questionario & Obbligatorio\\
+\midrule
+F 4.5.1 & Se alla consegna una o più domande non sono state compilate il sistema avverte l'utente di ciò & Desiderabile\\
+\midrule
+F 4.5.2 & Quando un questionario viene confermato e consegnato viene valutato dal sistema & Obbligatorio\\
+\midrule
+F 4.5.2.1 & La valutazione del questionario viene visualizzata all'utente & Obbligatorio\\
+\midrule
+F 4.5.2.1.1 & Viene visualizzato il nome del questionario & Obbligatorio\\
+\midrule
+F 4.5.2.1.2 & Viene visualizzato il punteggio ottenuto & Obbligatorio\\
+\midrule
+F 4.5.2.1.3 & Viene visualizzata la percentuale delle risposte corrette & Desiderabile\\
+\midrule
+F 4.6 & La compilazione del questionario ha un tempo massimo & Facoltativo\\
+\midrule
+F 4.6.1 & Allo scadere del tempo il questionario verrà consegnato automaticamente anche se incompleto & Facoltativo\\
+\midrule
+F 4.6.2 & Il tempo inizia a scorrere da quando l'utente accede alla pagina & Facoltativo\\
+\midrule
+F 4.7 & Viene visualizzato il tempo restante & Facoltativo\\
+\midrule
+F 5 & Il sistema deve fornire la possibilità ad un utente autenticato di creare una nuova domanda & Obbligatorio\\
+\midrule
+F 5.1 & La sezione dedicata alla creazione di una domanda deve permettere l'inserimento dei dati necessari & Obbligatorio\\
+\midrule
+F 5.1.1 & La sezione dedicata alla creazione di una domanda deve permettere la scelta di una o più categorie & Obbligatorio\\
+\midrule
+F 5.1.2 & La sezione dedicata alla creazione di una domanda deve permettere l'inserimento del codice QML che definisce la domanda & Obbligatorio\\
+\midrule
+F 5.2 & La sezione dedicata alla creazione di una domanda deve permettere l'invio dei dati inseriti & Obbligatorio\\
+\midrule
+F 5.2.1 & Prima di inviare i dati viene effettuato un controllo su di essi & Obbligatorio\\
+\midrule
+F 5.2.1.1 & Se i dati obbligatori non risultano inseriti viene visualizzato un messaggio di errore & Desiderabile\\
+\midrule
+F 5.2.1.2 & Se il codice QML inserito non risulta valido viene visualizzato un messaggio di errore & Desiderabile\\
+\midrule
+F 5.2.1.3 & Se i dati obbligatori non risultano inseriti o il codice QML non è valido la creazione della nuova domanda viene bloccata & Obbligatorio\\
+\midrule
+F 5.2.2 & Quando dei dati che superano i controlli vengono inviati viene creata una nuova domanda con essi e inserita nel database & Obbligatorio\\
+\midrule
+F 5.2.2.1 & Se la creazione di una nuova domanda va a buon fine il sistema avvisa l'utente & Desiderabile\\
+\midrule
+F 5.2.2.2 & Se la creazione di una nuova domanda non va a buon fine il sistema visualizza un messaggio di errore & Desiderabile\\
+\midrule
+F 6 & Il sistema deve fornire la possibilità ad un utente autenticato di creare un nuovo questionario & Obbligatorio\\
+\midrule
+F 6.1 & La sezione dedicata alla creazione di un questionario deve permettere l'inserimento dei dati necessari & Obbligatorio\\
+\midrule
+F 6.1.1 & La sezione dedicata alla creazione di un questionario deve permettere l'inserimento del nome del questionario & Obbligatorio\\
+\midrule
+F 6.1.2 & La sezione dedicata alla creazione di un questionario deve permettere l'inserimento della categoria del questionario & Obbligatorio\\
+\midrule
+F 6.1.3 & La sezione dedicata alla creazione di un questionario deve visualizzare la lista delle domande della categoria selezionata & Obbligatorio\\
+\midrule
+F 6.1.3.1 & Se nessuna categoria è stata selezionata non viene visualizzata alcuna domanda & Obbligatorio\\
+\midrule
+F 6.1.3.2 & Ogni domanda deve essere selezionabile & Obbligatorio\\
+\midrule
+F 6.1.4 & La sezione dedicata alla creazione di un questionario deve permettere l'inserimento del tempo di compilazione & Facoltativo\\
+\midrule
+F 6.2 & La sezione dedicata alla creazione di un nuovo questionario deve permettere l'invio dei dati inseriti & Obbligatorio\\
+\midrule
+F 6.2.1 & Prima di inviare i dati viene effettuato un controllo su di essi & Obbligatorio\\
+\midrule
+F 6.2.1.1 & Se i dati obbligatori non risultano inseriti viene visualizzato un messaggio di errore & Desiderabile\\
+\midrule
+F 6.2.1.2 & Se nessuna domanda è selezionata viene visualizzato un messaggio di errore & Desiderabile\\
+\midrule
+F 6.2.1.3 & Se i dati obbligatori non risultano inseriti non è valido nessun dato viene inviato & Obbligatorio\\
+\midrule
+F 6.2.2 & Quando dei dati che superano i controlli vengono inviati viene creato un nuovo questionario con essi e inserito nel database & Obbligatorio\\
+\midrule
+F 6.2.2.1 & Se la creazione di un nuovo questionario va a buon fine il sistema avvisa l'utente & Desiderabile\\
+\midrule
+F 6.2.2.2 & Se la creazione di un nuovo questionario non va a buon fine il sistema visualizza un messaggio di errore & Desiderabile\\
+\midrule
+F 7 & Il sistema deve fornire la possibilità ad un utente autenticato di uscire facendo il logout & Obbligatorio\\
+\midrule
+F 8 & Il sistema deve essere in grado di interpretare il codice QML & Obbligatorio\\
+\midrule
+F 8.1 & QML definisce domande & Obbligatorio\\
+\midrule
+F 8.1.1 & Una domanda è formata dal testo del quesito e da una o più risposte & Obbligatorio\\
+\midrule
+F 8.1.2 & Una domanda deve avere almeno una risposta esatta & Obbligatorio\\
+\midrule
+F 8.1.3 & Una domanda può avere una lista di possibili risposte & Obbligatorio\\
+\midrule
+F 8.1.4 & QML permette la definizione di diverse tipologie di domande & Obbligatorio\\
+\midrule
+F 8.1.4.1 & QML definisce domande di tipo vero o falso & Obbligatorio\\
+\midrule
+F 8.1.4.2 & QML definisce domande a scelta multipla con una sola risposta esatta & Obbligatorio\\
+\midrule
+F 8.1.4.3 & QML definisce domande a scelta multipla con più risposte esatte & Desiderabile\\
+\midrule
+F 8.1.4.4 & QML definisce domande a risposta testuale & Obbligatorio\\
+\midrule
+F 8.1.4.5 & QML definisce domande di associazione tra elementi di due insiemi & Desiderabile\\
+\midrule
+F 8.1.4.5.1 & Gli insiemi possono contenere elementi non associabili di disturbo & Facoltativo\\
+\midrule
+F 8.1.4.6 & QML definisce domande a completamento testuale a scelta da un gruppo di parole date & Facoltativo\\
+\midrule
+F 8.1.4.6.1 & Il gruppo di parole può contenere elementi di disturbo & Facoltativo\\
+\midrule
+F 8.1.4.7 & QML definisce domande di associazione tra date poste in una timeline e avvenimenti & Facoltativo\\
+\midrule
+F 8.2 & QML gestisce immagini all'interno di domande e risposte preimpostate & Desiderabile\\
 			
 			\end{longtable}
 		\subsection{Requisiti di qualità}
@@ -1139,6 +1363,162 @@ F 1.2.2 & UC 2.4\\
 F 1.2.3 & UC 2.4\\
 \midrule
 F 2 & UC 1\\
+\midrule
+F 2.1 & UC 1.1, UC 1.2\\
+\midrule
+F 2.1.1 & UC 1.1\\
+\midrule
+F 2.1.2 & UC 1.2\\
+\midrule
+F 2.2 & UC 1.3\\
+\midrule
+F 2.2.1 & UC 1.3.1\\
+\midrule
+F 2.2.2 & UC 1.3.2\\
+\midrule
+F 2.2.2.1 & UC 1.3.3\\
+\midrule
+F 2.2.2.2 & UC 1.3.3\\
+\midrule
+F 2.2.3 & UC 1.3.2\\
+\midrule
+F 2.3 & UC 1.4\\
+\midrule
+F 2.3.1 & UC 1.4\\
+\midrule
+F 2.3.1.1 & UC 1.5\\
+\midrule
+F 2.3.2 & UC 1.4\\
+\midrule
+F 3 & UC 3\\
+\midrule
+F 3.1 & UC 3\\
+\midrule
+F 3.1.1 & UC 4\\
+\midrule
+F 3.1.2 & UC 3.1\\
+\midrule
+F 3.1.3 & UC 3.2\\
+\midrule
+F 3.2 & UC 4\\
+\midrule
+F 3.2.1 & UC 5\\
+\midrule
+F 3.2.2 & UC 4.1\\
+\midrule
+F 3.2.3 & UC 4.2\\
+\midrule
+F 3.2.4 & UC 4.3\\
+\midrule
+F 4 & UC 6\\
+\midrule
+F 4.1 & 6.1\\
+\midrule
+F 4.2 & UC 6.2\\
+\midrule
+F 4.2.1 & UC 6.1.1\\
+\midrule
+F 4.2.2 & UC 6.1.3\\
+\midrule
+F 4.2.3 & UC 6.2.2\\
+\midrule
+F 4.2.4 & UC 6.1.2\\
+\midrule
+F 4.2.4.1 & UC 6.2.1\\
+\midrule
+F 4.2.5 & UC 6.1.2\\
+\midrule
+F 4.2.5.1 & UC 6.2.3, UC 6.2.5\\
+\midrule
+F 4.2.6 & UC 6.1.2\\
+\midrule
+F 4.2.6.1 & UC 6.2.4\\
+\midrule
+F 4.3 & UC 6.2\\
+\midrule
+F 4.4 & Non mappabile\\
+\midrule
+F 4.5 & UC 6.3\\
+\midrule
+F 4.5.1 & UC 6.4\\
+\midrule
+F 4.5.2 & UC 6.5\\
+\midrule
+F 4.5.2.1 & UC 6.5\\
+\midrule
+F 4.5.2.1.1 & UC 6.5.1\\
+\midrule
+F 4.5.2.1.2 & UC 6.5.2\\
+\midrule
+F 4.5.2.1.3 & UC 6.5.3\\
+\midrule
+F 4.6 & UC 6.6\\
+\midrule
+F 4.6.1 & Non mappabile\\
+\midrule
+F 4.6.2 & UC 6.6\\
+\midrule
+F 4.7 & UC 6.6\\
+\midrule
+F 5 & UC 7\\
+\midrule
+F 5.1 & UC 7.1, UC 7.2\\
+\midrule
+F 5.1.1 & UC 7.1\\
+\midrule
+F 5.1.2 & UC 7.2\\
+\midrule
+F 5.2 & UC 7.3\\
+\midrule
+F 5.2.1 & UC 7.3\\
+\midrule
+F 5.2.1.1 & UC 7.4\\
+\midrule
+F 5.2.1.2 & UC 7.5\\
+\midrule
+F 5.2.1.3 & UC 7.3\\
+\midrule
+F 5.2.2 & UC 7.3\\
+\midrule
+F 5.2.2.1 & UC 7.3\\
+\midrule
+F 5.2.2.2 & UC 7.3\\
+\midrule
+F 6 & UC 8\\
+\midrule
+F 6.1 & UC 8.1, UC 8.2, UC 8.4, UC 8.8\\
+\midrule
+F 6.1.1 & UC 8.1\\
+\midrule
+F 6.1.2 & UC 8.2\\
+\midrule
+F 6.1.3 & UC 8.3\\
+\midrule
+F 6.1.3.1 & UC 8.3\\
+\midrule
+F 6.1.3.2 & UC 8.4\\
+\midrule
+F 6.1.4 & UC 8.8\\
+\midrule
+F 6.2 & UC 8.5\\
+\midrule
+F 6.2.1 & UC 8.5\\
+\midrule
+F 6.2.1.1 & UC 8.7\\
+\midrule
+F 6.2.1.2 & UC 8.6\\
+\midrule
+F 6.2.1.3 & UC 8.5\\
+\midrule
+F 6.2.2 & UC 8.5\\
+\midrule
+F 6.2.2.1 & UC 8.5\\
+\midrule
+F 6.2.2.2 & UC 8.5\\
+\midrule
+F 7 & UC 9\\
+\midrule
+F 8 e figli & Non mappabili (riguardano caratteristiche del QML su cui l'utente non agisce)\\
 
 			
 			\end{longtable}

@@ -78,15 +78,20 @@
 \contentsline {subsubsubsection}{\numberline {5.3.5.4}Classe QMLInterpreter}{26}{subsubsubsection.5.3.5.4}
 \contentsline {subsubsubsection}{\numberline {5.3.5.5}Classe QML2HTMLInterpreter}{26}{subsubsubsection.5.3.5.5}
 \contentsline {section}{\numberline {6}Diagrammi di attivit\IeC {\`a}}{27}{section.6}
-\contentsline {subsubsection}{\numberline {6.0.1}Creazione Questionario}{27}{subsubsection.6.0.1}
-\contentsline {subsubsection}{\numberline {6.0.2}Creazione Domanda}{28}{subsubsection.6.0.2}
-\contentsline {subsubsection}{\numberline {6.0.3}Compilazione Questionario}{29}{subsubsection.6.0.3}
-\contentsline {subsubsection}{\numberline {6.0.4}Scelta Questionario}{30}{subsubsection.6.0.4}
+\contentsline {subsection}{\numberline {6.1}Creazione Questionario}{27}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Creazione Domanda}{28}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Compilazione Questionario}{29}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Scelta Questionario}{30}{subsection.6.4}
 \contentsline {section}{\numberline {7}Diagrammi di sequenza}{31}{section.7}
 \contentsline {subsection}{\numberline {7.1}Salvataggio di una Domanda}{31}{subsection.7.1}
 \contentsline {subsection}{\numberline {7.2}Visualizzazione e scelta di un Questionario}{32}{subsection.7.2}
 \contentsline {subsection}{\numberline {7.3}Caricamento di un Questionario}{33}{subsection.7.3}
 \contentsline {subsection}{\numberline {7.4}Traduzione di una domanda}{34}{subsection.7.4}
 \contentsline {subsection}{\numberline {7.5}Svolgimento di un Questionario}{35}{subsection.7.5}
-\contentsline {section}{\numberline {8}Tracciamento}{36}{section.8}
-\contentsline {section}{\numberline {9}Analisi di fattibilit\IeC {\`a}}{37}{section.9}
+\contentsline {section}{\numberline {8}Design pattern utilizzati}{36}{section.8}
+\contentsline {subsection}{\numberline {8.1}Abstract Factory}{36}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Singleton}{37}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Builder}{38}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Command}{39}{subsection.8.4}
+\contentsline {section}{\numberline {9}Tracciamento}{40}{section.9}
+\contentsline {section}{\numberline {10}Analisi di fattibilit\IeC {\`a}}{41}{section.10}
