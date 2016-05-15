@@ -47,6 +47,8 @@
 	
 	\beginregistro
 	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm} \textbf{Descrizione}}
+	\rigaregistro{1.3}{A. Beccaro (Verificatore)}{25/04/2016}{Ampliato paragrafo sui parametri di tolleranza}
+	\rigaregistro{1.2}{A. Beccaro (Verificatore)}{17/04/2016}{Aggiunto paragrafo "Procedure di controllo di qualità processi"}
 	\rigaregistro{1.1}{A. Beccaro (Verificatore)}{16/04/2016}{Modifica struttura documento in seguito alla RR}
 	\rigaregistro{1.0}{D. Bortot (Responsabile)}{16/03/2016}{Approvazione documento.}
 	\rigaregistro{0.2}{L. Alessio (Verificatore)}{15/03/2016}{Verifica documento completo.}
@@ -246,7 +248,9 @@ In periodi di alta attività il numero di commit per persona deve essere maggior
 \newpage
 
 \section{Misure e metriche: parametri di tolleranza}
+Di seguito vengono elencate le metriche adottate per il controllo qualitativo dei processi, dei documenti e del prodotto software in sviluppo. Per una dettagliata descrizione di ogni metrica vedere la sezione appendici in coda al documento. 
 \subsection{Processi}
+Metriche utilizzate per il controllo dell'andamento dei processi di supporto allo sviluppo:
 \begin{center}
 \begin{tabular}{{p{8cm} p{2.5cm} p{2cm}}}
 \textbf{Metrica} & \textbf{Accettazione} & \textbf{Ottimale}\\ \hline
@@ -254,17 +258,32 @@ Schedule Variance &  \begin{math}\ge -(P*5\%)\end{math} & \begin{math} \ge 0\end
 Budget Variance & \begin{math} \ge -(P*10\%) \end{math} & \begin{math} \ge 0 \end{math}\\ \hline
 \end{tabular}
 \end{center}
-\textit{P = PreventivoFase}
+\textit{P = PreventivoFase}\\\\
+\textit{Schedule variance} e \textit{budget variance} danno un resoconto in termini di tempo e di costi effettuati confrontati con il preventivo.\\
+I margini di tolleranza di errore sono stati impostati al 5\% sulle scadenze prefissate e al 10\% sul budget.
 \subsection{Documenti}
+La metrica che si è scelto di utilizzare per un'analisi il più possibile oggettiva sul contenuto dei documenti è l'indice Gullpease (vedere appendice X per una descrizione più completa). 
 \begin{center}
 \begin{tabular}{{p{8cm} p{2.5cm} p{2cm}}}
 \textbf{Metrica} & \textbf{Accettazione} & \textbf{Ottimale}\\ \hline
 Gulpease Index &  \begin{math}[50 - 100]\end{math} & \begin{math}[60 - 100]\end{math} \\ \hline
 \end{tabular}
 \end{center}
+Oltre a questo, la documentazione subisce un processo di verifica più approfondito secondo le seguenti linee guida:  
+\begin{itemize}
+\item Verifica della presenza di tutti i documenti necessari;
+\item Attinenza di ogni documento alle specifiche di stile e formattazione presenti nel documento \textit{Norme-di-progetto-1.0};
+\item Verifica della presenza e del corretto utilizzo del registro delle modifiche interno ad ogni documento;
+\item Verifica iniziale dei documenti tramite la tecnica di analisi statica \textbf{walkthrough};
+\item Verifica dei documenti tramite tecnica di analisi statica di tipo \textbf{inspection}. In questo caso l'attenzione del verificatore si focalizza solo su particolari aspetti del testo (per esempio accenti, sillabazione, maiuscole, ecc);
+\item Monitoraggio da parte dei verificatori del registro delle modifiche in modo da poter attuare la verifica solo alla parte inerente alla sezione modificata;
+\item \textbf{Coerenza} di informazioni tra i diversi documenti;
+\item Verifica di assenza di \textbf{ridondanza} di determinati contenuti tra i diversi documenti;
+\item Calcolo dell'indice di leggibilità \textbf{Gulpease}.
+\end{itemize}
 
 \subsection{Software}
-
+Per l'analisi statica del codice prodotto viene utilizzato il software di analisi Complexity-report, per una descrizione dettagliata delle metriche utilizzate dal software vedere appendice B sezione 3.5.
 \begin{center}
 \begin{tabular}{{p{8cm} p{2.5cm} p{2cm}}}
 \textbf{Metrica} & \textbf{Accettazione} & \textbf{Ottimale}\\ \hline
@@ -280,7 +299,13 @@ Maintainability Index & \begin{math}[20 - 100]\end{math} & \begin{math}[70 - 100
 Copertura dei test & \begin{math}[70 - 100]\end{math}& \begin{math}[80 - 100]\end{math}\\ \hline
 \end{tabular}
 \end{center}
-
+La metrica fondamentale di questo software è il \textbf{Maintainability Index} che offre un valore sul livello di manutenibilità del codice.\\
+I valori di tolleranza fissati per tale indice sono:
+\begin{itemize}
+\item  \begin{math} MI \ge 20: \end{math} alta manutenibilità
+\item \begin{math}10 \leq MI \geq 20: \end{math} moderata manutenibilità
+\item \begin{math}MI \leq 10: \end{math} bassa manutenibilità
+\end{itemize}
 \newpage
 \appendix
 \addappheadtotoc
@@ -537,7 +562,7 @@ Per la validazione delle pagine HTML e i file CSS sviluppati si intende affidars
 %\item \textbf{Branch Coverage}:
 %\item \textbf{Validazione W3C}:
 %\end{itemize}
-
+\newpage
 \section{Resoconto attività di verifica}
 Di seguito viene fornito il resoconto dell'attività di verifica inerente ad ogni fase di sviluppo.
 \subsection{Analisi}
@@ -554,17 +579,17 @@ Riassunto attività di verifica per quello che concerne la fase di analisi:
 \end{itemize} 
  
 \item \textbf{Documentazione}:
-\begin{itemize}
-\item Verifica della presenza di tutti i documenti necessari;
-\item Attinenza di ogni documento alle specifiche di stile e formattazione presenti nel documento \textit{Norme-di-progetto-1.0};
-\item Verifica della presenza e del corretto utilizzo del registro delle modifiche interno ad ogni documento;
-\item Verifica iniziale dei documenti tramite la tecnica di analisi statica \textbf{walkthrough};
-\item Verifica dei documenti tramite tecnica di analisi statica di tipo \textbf{inspection}. In questo caso l'attenzione del verificatore si focalizza solo su particolari aspetti del testo (per esempio accenti, sillabazione, maiuscole, ecc);
-\item Monitoraggio da parte dei verificatori del registro delle modifiche in modo da poter attuare la verifica solo alla parte inerente alla sezione modificata;
-\item \textbf{Coerenza} di informazioni tra i diversi documenti;
-\item Verifica di assenza di \textbf{ridondanza} di determinati contenuti tra i diversi documenti;
-\item Calcolo dell'indice di leggibilità \textbf{Gulpease}.
-\end{itemize}
+%\begin{itemize}
+%\item Verifica della presenza di tutti i documenti necessari;
+%\item Attinenza di ogni documento alle specifiche di stile e formattazione presenti nel documento \textit{Norme-di-progetto-1.0};
+%\item Verifica della presenza e del corretto utilizzo del registro delle modifiche interno ad ogni documento;
+%\item Verifica iniziale dei documenti tramite la tecnica di analisi statica \textbf{walkthrough};
+%\item Verifica dei documenti tramite tecnica di analisi statica di tipo \textbf{inspection}. In questo caso l'attenzione del verificatore si focalizza solo su particolari aspetti del testo (per esempio accenti, sillabazione, maiuscole, ecc);
+%\item Monitoraggio da parte dei verificatori del registro delle modifiche in modo da poter attuare la verifica solo alla parte inerente alla sezione modificata;
+%\item \textbf{Coerenza} di informazioni tra i diversi documenti;
+%\item Verifica di assenza di \textbf{ridondanza} di determinati contenuti tra i diversi documenti;
+%\item Calcolo dell'indice di leggibilità \textbf{Gulpease}.
+%\end{itemize}
 \item \textbf{Requisiti e Use Case}: 
 \begin{itemize}
 \item Correttezza dei diagrammi UML per quanto riguarda l'adeguata rappresentazione grafica degli Use Case. Verifica, leggibilità e adeguato livello di granularità;
@@ -598,7 +623,7 @@ Riassunto attività di verifica per quello che concerne la fase di analisi:
 \section{Esito dei test}
 \label{Appendice D}
 In questa sezione verranno presentati gli esiti dei test effettuati per ogni fase di sviluppo. 
-%\subsection{Analisi}
-
+\subsection{Analisi}
+\subsection{Progettazione architetturale}
 
 \end{document}
