@@ -85,6 +85,7 @@
 \contentsline {subsection}{\numberline {7.1}Salvataggio di una Domanda}{31}{subsection.7.1}
 \contentsline {subsection}{\numberline {7.2}Visualizzazione e scelta di un Questionario}{32}{subsection.7.2}
 \contentsline {subsection}{\numberline {7.3}Caricamento di un Questionario}{33}{subsection.7.3}
-\contentsline {subsection}{\numberline {7.4}Svolgimento di un Questionario}{34}{subsection.7.4}
-\contentsline {section}{\numberline {8}Tracciamento}{35}{section.8}
-\contentsline {section}{\numberline {9}Analisi di fattibilit\IeC {\`a}}{36}{section.9}
+\contentsline {subsection}{\numberline {7.4}Traduzione di una domanda}{34}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.5}Svolgimento di un Questionario}{35}{subsection.7.5}
+\contentsline {section}{\numberline {8}Tracciamento}{36}{section.8}
+\contentsline {section}{\numberline {9}Analisi di fattibilit\IeC {\`a}}{37}{section.9}
