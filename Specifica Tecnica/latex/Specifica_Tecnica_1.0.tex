@@ -669,9 +669,11 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 	\caption{Diagramma di attività della creazione di un questionario}
 \end{center}
 \end{figure}
-\textbf{Precondizioni:} l'utente è autenticato nel sistema Quizzipedia e accede all'area del sito dedicata alla gestione (creazione, eliminazione e modifica) dei propri questionari.\\
-\textbf{Postcondizioni:} l'utente ha creato con successo (o ha annullato la creazione di) un questionario su un argomento a piacere contenente domande già disponibili o create precedentemente da lui stesso. L'utente viene reindirizzato alla pagina principale. Il questionario creato può ora essere svolto da altri utenti del sistema Quizzipedia.\\ %da rivedere dove viene reindirizzato l'utente
-\textbf{Descrizione:} l'utente inizialmente assegna un titolo al questionario, sceglie l'argomento trattato tra le categorie presenti nel sistema e assegna un tempo limite entro il quale il questionario deve essere completato. A questo punto l'utente può iniziare ad inserire domande nel questionario: di volta in volta può scegliere tra le domande già disponibili sull'argomento (domande precaricate dal team404 e domande create da altri utenti del sistema) o tra le domande create da lui stesso (vedi diagramma d'attività in sezione successiva). Quando l'utente ha terminato di inserire le domande nel proprio questionario ne verrà presentata un'anteprima. L'utente ha infine la possibilità di annullare la creazione del questionario (e quindi tornare alla schermata precedente perdendo però i dati immessi in precedenza) o di confermarla con conseguente pubblicazione nel sito dove sarà disponibile agli altri utenti.\\
+\begin{itemize}
+\item\textbf{Precondizioni:} l'utente è autenticato nel sistema Quizzipedia e accede all'area del sito dedicata alla gestione (creazione, eliminazione e modifica) dei propri questionari.
+\item\textbf{Postcondizioni:} l'utente ha creato con successo (o ha annullato la creazione di) un questionario su un argomento a piacere contenente domande già disponibili o create precedentemente da lui stesso. L'utente viene reindirizzato alla pagina principale. Il questionario creato può ora essere svolto da altri utenti del sistema Quizzipedia. %da rivedere dove viene reindirizzato l'utente
+\item\textbf{Descrizione:} l'utente inizialmente assegna un titolo al questionario, sceglie l'argomento trattato tra le categorie presenti nel sistema e assegna un tempo limite entro il quale il questionario deve essere completato. A questo punto l'utente può iniziare ad inserire domande nel questionario: di volta in volta può scegliere tra le domande già disponibili sull'argomento (domande precaricate dal team404 e domande create da altri utenti del sistema) o tra le domande create da lui stesso (vedi diagramma d'attività in sezione successiva). Quando l'utente ha terminato di inserire le domande nel proprio questionario ne verrà presentata un'anteprima. L'utente ha infine la possibilità di annullare la creazione del questionario (e quindi tornare alla schermata precedente perdendo però i dati immessi in precedenza) o di confermarla con conseguente pubblicazione nel sito dove sarà disponibile agli altri utenti.
+\end{itemize}
 
 \newpage
 \subsubsection{Creazione Domanda}
@@ -681,9 +683,11 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 	\caption{Diagramma di attività della creazione di una domanda}
 \end{center}
 \end{figure}
-\textbf{Precondizioni:} l'utente è autenticato nel sistema Quizzipedia e accede all'area del sito dedicata alla gestione (creazione, eliminazione e modifica) dei propri singoli quesiti.\\
-\textbf{Postcondizioni:} l'utente ha creato con successo una nuova domanda. La nuova domanda sarà disponibile a tutti gli utenti qualora essi decidano di creare un questionario appartente alla stessa categoria. L'utente viene reindirizzato alla pagina di gestione questionari.\\ %anche qua decidere redirect
-\textbf{Descrizione:} l'utente inizialmente sceglie una categoria (argomento trattato) per la domanda, successivamente procede con la stesura del codice QML in un'area di testo apposita. Qualora l'utente abbia dubbi sull'uso della sintassi è presente nella pagina un link al tutorial interno al sistema. Quando l'utente ha terminato l'inserimento del codice può sottoporlo al sistema che lo valuterà. L'input viene parsato per controllare anomalie nella sintassi, se sono presenti errori ciò viene segnalato all'utente che ha la possibilità di correggere il codice errato, altrimenti la domanda viene considerata valida e il sistema procede alla sua memorizzazione nel sistema (con conseguente notifica positiva all'utente). Al termine del procedimento la domanda sarà disponibile a tutti gli utenti registrati durante la fase di creazione di questionari.\\
+\begin{itemize}
+\item\textbf{Precondizioni:} l'utente è autenticato nel sistema Quizzipedia e accede all'area del sito dedicata alla gestione (creazione, eliminazione e modifica) dei propri singoli quesiti.
+\item\textbf{Postcondizioni:} l'utente ha creato con successo una nuova domanda. La nuova domanda sarà disponibile a tutti gli utenti qualora essi decidano di creare un questionario appartenente alla stessa categoria. L'utente viene reindirizzato alla pagina di gestione questionari. %anche qua decidere redirect
+\item\textbf{Descrizione:} l'utente inizialmente sceglie una categoria (argomento trattato) per la domanda, successivamente procede con la stesura del codice QML in un'area di testo apposita. Qualora l'utente abbia dubbi sull'uso della sintassi è presente nella pagina un link al tutorial interno al sistema. Quando l'utente ha terminato l'inserimento del codice può sottoporlo al sistema che lo valuterà. Dell'input viene eseguito il parsing per controllare anomalie nella sintassi, se sono presenti errori ciò viene segnalato all'utente che ha la possibilità di correggere il codice errato, altrimenti la domanda viene considerata valida e il sistema procede alla sua memorizzazione nel sistema (con conseguente notifica positiva all'utente). Al termine del procedimento la domanda sarà disponibile a tutti gli utenti registrati durante la fase di creazione di questionari.
+\end{itemize}
 \newpage
 \subsubsection{Compilazione Questionario}
 \begin{figure}[h!]
@@ -692,9 +696,12 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 	\caption{Diagramma di attività della compilazione di un questionario}
 \end{center}
 \end{figure}
-\textbf{Precondizioni:} durante le sue ultime interazioni con il sistema Quizzipedia, l'utente ha scelto un'argomento e un questionario inerente a quell'argomento che è intenzionato a svolgere. Alternativamente l'utente arriva dall'esterno seguendo un link ad un preciso questionario.\\
-\textbf{Postcondizioni:} L'utente ha terminato lo svolgimento del questionario (ha risposto a tutte le domande oppure è scaduto il tempo limite). L'utente viene reindirizzato ad una pagina contenente i risultati della sua prestazione cognitiva.\\
-\textbf{Descrizione:} Al momento dell'inizio del questionario (coincidente con il momento in cui l'utente accede alla pagina del questionario) il tempo limite inizia a scorrere, l'utente dovrà rispondere al maggior numero di domande possibili entro lo scadere del tempo (prefisatto dal creatore del questionario, vedi sezioni precedenti). Viene presentato un singolo quesito per volta all'utente. L'utente può dare una risposta oppure cambiare domanda. L'utente ha la libertà di scorrere le domande del questionario e di svolgerle in qualsiasi ordine. Se l'utente ha dato una risposta a tutte le domande può consegnare il questionario. Se il tempo limite scade il questionario verrà immediatamente consegnato anche se ancora incompleto. Al momento della consegna il questionario verrà valutato dal sistema che informerà poi l'utente sull'esito della sua performance mediante un redirect ad una apposita pagina contente statistiche e correzioni.\\
+\begin{itemize}
+\item\textbf{Precondizioni:} durante le sue ultime interazioni con il sistema Quizzipedia, l'utente ha scelto un argomento e un questionario inerente a quell'argomento che è intenzionato a svolgere. Alternativamente l'utente arriva dall'esterno seguendo un link ad un preciso questionario.
+\item\textbf{Postcondizioni:} L'utente ha terminato lo svolgimento del questionario (ha risposto a tutte le domande oppure è scaduto il tempo limite). L'utente viene reindirizzato ad una pagina contenente i risultati della sua prestazione cognitiva.
+\item\textbf{Descrizione:} Al momento dell'inizio del questionario (coincidente con il momento in cui l'utente accede alla pagina del questionario) il tempo limite inizia a scorrere, l'utente dovrà rispondere al maggior numero di domande possibili entro lo scadere del tempo (prefissato dal creatore del questionario, vedi sezioni precedenti). Viene presentato un singolo quesito per volta all'utente. L'utente può dare una risposta oppure cambiare domanda. L'utente ha la libertà di scorrere le domande del questionario e di svolgerle in qualsiasi ordine. Se l'utente ha dato una risposta a tutte le domande può consegnare il questionario. Se il tempo limite scade il questionario verrà immediatamente consegnato anche se ancora incompleto. Al momento della consegna il questionario verrà valutato dal sistema che informerà poi l'utente sull'esito della sua performance mediante un redirect ad una apposita pagina contente statistiche e correzioni.
+\end{itemize}
+
 \newpage
 \subsubsection{Scelta Questionario}
 \begin{figure}[h!]
@@ -703,9 +710,11 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 	\caption{Diagramma di attività della scelta di un questionario}
 \end{center}
 \end{figure}
-\textbf{Precondizioni:} L'utente, intenzionato a svolgere un questionario, accede alla pagina adibita alla selezione dell'argomento.\\
-\textbf{Postcondizioni:} L'utente ha scelto un questionario da svolgere e viene reindirizzato alla pagina contenente tale questionario (da qui parte il diagramma "Compilazione Questionario").\\
-\textbf{Descrizione:} Inizialmente viene presentato all'utente un'elenco di tutti gli argomenti in cui sono suddivisi i questionari del sistema Quizzipedia. L'utente ha la possibilità di ordinare le categorie secondo vari criteri (ordine alfabetico e categorie più recenti) prima di passare alla scelta effettiva di una tra di esse. All'utente viene ora proposta una lista, anch'essa ordinabile secondo vari criteri (alfabetico e cronologico), contenente tutti i questionari disponibili relativi all'argomento scelto in precedenza. Eventualmente l'utente può effettuare una ricerca per nome nella lista qualora stesse cercando uno specifico questionario. L'utente può quindi scegliere definitivamente un questionario da svolgere oppure tornare indietro alla pagina di selezione categorie.\\
+\begin{itemize}
+\item\textbf{Precondizioni:} L'utente, intenzionato a svolgere un questionario, accede alla pagina adibita alla selezione dell'argomento.
+\item\textbf{Postcondizioni:} L'utente ha scelto un questionario da svolgere e viene reindirizzato alla pagina contenente tale questionario (da qui parte il diagramma "Compilazione Questionario").
+\item\textbf{Descrizione:} Inizialmente viene presentato all'utente un elenco di tutti gli argomenti in cui sono suddivisi i questionari del sistema Quizzipedia. L'utente ha la possibilità di ordinare le categorie secondo vari criteri (ordine alfabetico e categorie più recenti) prima di passare alla scelta effettiva di una tra di esse. All'utente viene ora proposta una lista, anch'essa ordinabile secondo vari criteri (alfabetico e cronologico), contenente tutti i questionari disponibili relativi all'argomento scelto in precedenza. Eventualmente l'utente può effettuare una ricerca per nome nella lista qualora stesse cercando uno specifico questionario. L'utente può quindi scegliere definitivamente un questionario da svolgere oppure tornare indietro alla pagina di selezione categorie.
+\end{itemize}
 \newpage
 	\section{Diagrammi di sequenza}
 	\subsection{Salvataggio di una Domanda}
@@ -717,18 +726,19 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 	\end{figure}
 	\textbf{Precondizioni:} l'utente è autenticato nel sistema Quizzipedia e accede all'area del sito dedicata alla gestione (creazione, eliminazione e modifica) dei propri singoli quesiti.\\
 	\textbf{Postcondizioni:} l'utente ha creato con successo una nuova domanda. La nuova domanda sarà disponibile a tutti gli utenti qualora essi decidano di creare un questionario appartenente alla stessa categoria. L'utente viene reindirizzato alla pagina di gestione questionari.\\
-	\textbf{Descrizione:} l'utente compila il form per la creazione della nuova domanda (al cui interno ricordiamo è situato un campo adibito alla stesura del codice QML) e sottomette i dati al sistema. L'evento viene notificato al Presenter che chiama il Parser situato nel Model passandogli l'input di testo QML. All'interno del Parser viene effettuata la valutazione del codice che può avere due differenti esiti e portare a diversi scenari di conseguenza. In caso il Parser dia un esito negativo, ciò è semplicemente notificato al Presenter e di conseguenza alla View che si aggiornerà rendendo noto all'utente il fallimento della procedura di creazione. In caso contrario, ovvero il testo QML inserito dall'utente viene considerato valido, il Model provvede a salvarlo DA FINIRE\\
+	\textbf{Descrizione:} l'utente compila il form per la creazione della nuova domanda (al cui interno ricordiamo è situato un campo adibito alla stesura del codice QML) e sottomette i dati al sistema. L'evento viene notificato al Presenter che chiama il Parser situato nel Model passandogli l'input di testo QML. All'interno del Parser viene effettuata la valutazione del codice che può avere due differenti esiti e portare a diversi scenari di conseguenza. In caso il Parser dia un esito negativo, ciò è semplicemente notificato al Presenter e di conseguenza alla View che si aggiornerà rendendo noto all'utente il fallimento della procedura di creazione. In caso contrario, ovvero il testo QML inserito dall'utente viene considerato valido, il Model provvede a salvare la nuova domanda nel database (e anche di ciò verrà notificato l'utente con un aggiornamento nella View).\\
+
 	\newpage
 	\subsection{Svolgimento di un Questionario}
 	\begin{figure}[h!]
 	\begin{center}
 		\includegraphics[scale=0.5]{../images/QuizExecution.png}
-		\caption{Diagramma di sequenza sello svlogimento di un questionario}
+		\caption{Diagramma di sequenza sullo svolgimento di un questionario}
 	\end{center}
 	\end{figure}
-	\textbf{Precondizioni:} \\
-	\textbf{Postcondizioni:} \\
-	\textbf{Descrizione:} \\
+	\textbf{Precondizioni:} L'utente è intenzionato a svolgere un questionario ed è entrato nella pagina corrispondente a tale questionario. Inizialmente tutte le domande risultano senza risposta. \\ % e il tempo limite per la consegna comincia a scorrere
+	\textbf{Postcondizioni:} L'utente ha svolto il questionario e il sistema, dopo aver compiuto la valutazione, comunica i risultati della prova.\\
+	\textbf{Descrizione:} Come descritto nel diagramma (evento loop Question Change), l'utente ha la possibilità di scorrere più volte le domande del questionario in modo da risolverle nell'ordine in cui si sente più confortevole. Ogni volta che l'utente richiede la visualizzazione di un'altra domanda il sistema memorizza la risposta fornita dall'utente alla domanda precedente (se questa risposta era effettivamente stata data). Quando un utente ha risposto a tutte le domande può passare alla consegna del questionario, ciò porta al salvataggio delle statistiche della prestazione corrente nella base di dati e al successivo resoconto di valutazione finale che viene esposto all'utente.\\
 	\newpage
 	\subsection{Visualizzazione e scelta del Questionario}
 %	\begin{figure}
@@ -736,9 +746,9 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 %		\includegraphics[scale=0.1]{"../images/qualcosa".png}
 %		\caption{Diagramma di sequenza}
 %	\end{center}
-	\textbf{Precondizioni:} \\
-	\textbf{Postcondizioni:} \\
-	\textbf{Descrizione:} \\
+	\textbf{Precondizioni:} L'utente, intenzionato a svolgere un questionario, accede alla pagina adibita alla selezione dell'argomento.\\
+	\textbf{Postcondizioni:} L'utente ha scelto un questionario da svolgere e viene reindirizzato alla pagina contenente tale questionario.\\ %è giusta solo questa post o c'è altro?
+	\textbf{Descrizione:} SCRIVERE APPENA ARRIVA IMMAGINE DEFINITIVA\\
 	\newpage
 	\subsection{Caricamento di un Questionario}
 	\begin{figure}[h!]
@@ -747,9 +757,10 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 		\caption{Diagramma di sequenza del caricamento di un questionario}
 	\end{center}
 	\end{figure}
-	\textbf{Precondizioni:} \\
-	\textbf{Postcondizioni:} \\
-	\textbf{Descrizione:} \\
+	\textbf{Precondizioni:} L'utente sta entrando in una pagina contenente un questionario che verrà caricato on demand.\\
+	\textbf{Postcondizioni:} Il questionario è stato correttamente caricato e viene visualizzato a schermo pronto per la risoluzione.\\
+	\textbf{Descrizione:} L'input iniziale che parte dalla View al Presenter contiene l' identificativo del questionario scelto dall'utente. Il Presenter inoltra successivamente questa informazione al Model che si occuperà di estrarre dal database i dati necessari alla costruzione del questionario (effettuata poi dal QuizManager). Una volta assemblato il questionario è pronto per essere somministrato all'utente (da qui il diagramma si ricollega alla sezione precedente "Svolgimento di un Questionario").\\
+	\newpage
 	\section{Tracciamento}
 	\newpage
 	\section{Analisi di fattibilità}
