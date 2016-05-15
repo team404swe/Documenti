@@ -83,6 +83,7 @@
 	Viene allegato un glossario nel file ``\textit{glossario\_2.0.pdf}'' nel quale viene data una definizione a tutti i termini che in questo documento appaiono con il simbolo '\addglos' a pedice.
 	\subsection{Riferimenti}
 		\subsubsection{Normativi}
+
 		\begin{itemize}
 			\item Capitolato d'appalto Quizzipedia:\\
 			\url{http://www.math.unipd.it/~tullio/IS-1/2015/Progetto/C5.pdf}
@@ -402,7 +403,9 @@ con vettori associativi, che associano nomi di proprietà a valori.
 			
 			\subsection{Diagrammi delle classi del View}
 		     \subsubsection{Package CurrentViewManager}
-			IMMAGINE		    
+			\begin{center}
+				\includegraphics[scale=0.6]{"../images/CurrentViewManager".png}
+			\end{center}		    
 		    	\subsubsubsection{Classe CurrentView}
 		    	\begin{itemize}
 		    \item\textbf{Funzione del componente:} lo scopo di questa classe è quello di rappresentare la vista del sistema attualmente disponibile all'utente e di gestirne eventuali cambiamenti 
@@ -418,7 +421,9 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 			\end{itemize}
 			
 			\subsubsection{Package Pages}
-			IMMAGINE\\
+			\begin{center}
+				\centerline{\includegraphics[scale=0.6]{"../images/Pages".png}}
+			\end{center}
 			\subsubsubsection{Classe Page}
 			\begin{itemize}
 		    \item\textbf{Funzione del componente:} rappresenta una pagina web //meglio renderla interfaccia?
@@ -462,6 +467,9 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 			\item\textbf{Attività svolte e dati trattati:} questa classe svolge solamente una semplice attività di visualizzazione di informazioni
 			\end{itemize}
 			\subsubsection{Package UserAuthentication}
+			\begin{center}
+				\includegraphics[scale=0.6]{"../images/UserAuthentication".png}
+			\end{center}	
 			\subsubsubsection{Classe User}
 			\begin{itemize}
 \item\textbf{Funzione del componente:} classe che rappresenta il singolo utilizzatore attuale del sistema nella propria sessione
@@ -690,7 +698,37 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 \textbf{Descrizione:} Inizialmente viene presentato all'utente un'elenco di tutti gli argomenti in cui sono suddivisi i questionari del sistema Quizzipedia. L'utente ha la possibilità di ordinare le categorie secondo vari criteri (ordine alfabetico e categorie più recenti) prima di passare alla scelta effettiva di una tra di esse. All'utente viene ora proposta una lista, anch'essa ordinabile secondo vari criteri (alfabetico e cronologico), contenente tutti i questionari disponibili relativi all'argomento scelto in precedenza. Eventualmente l'utente può effettuare una ricerca per nome nella lista qualora stesse cercando uno specifico questionario. L'utente può quindi scegliere definitivamente un questionario da svolgere oppure tornare indietro alla pagina di selezione categorie.\\
 \newpage
 	\section{Diagrammi di sequenza}
+	\subsection{Creazione di una Domanda}
+%	\begin{center}
+%		\includegraphics[scale=0.1]{"../images/qualcosa".png}
+%	\end{center}
+	\textbf{Precondizioni:} l'utente è autenticato nel sistema Quizzipedia e accede all'area del sito dedicata alla gestione (creazione, eliminazione e modifica) dei propri singoli quesiti.\\
+	\textbf{Postcondizioni:} l'utente ha creato con successo una nuova domanda. La nuova domanda sarà disponibile a tutti gli utenti qualora essi decidano di creare un questionario appartente alla stessa categoria. L'utente viene reindirizzato alla pagina di gestione questionari.\\
+	\textbf{Descrizione:} l'utente compila il form per la creazione della nuova domanda (al cui interno ricordiamo è situato un campo adibito alla stesura del codice QML) e sottomette i dati al sistema. L'evento viene notificato al Presenter che chiama il Parser situato nel Model passandogli l'input di testo QML. All'interno del Parser viene effettuata la valutazione del codice che può avere due differenti esiti e portare a diversi scenari di conseguenza. In caso il Parser dia un esito negativo, ciò è semplicemente notificato al Presenter e di conseguenza alla View che si aggiornerà rendendo noto all'utente il fallimento della procedura di creazione. In caso contrario, ovvero il testo QML inserito dall'utente viene considerato valido, il Model provvede a salvarlo DA FINIRE\\
 	\newpage
+	\subsection{Navigazione in un Questionario}
+%	\begin{center}
+%		\includegraphics[scale=0.1]{"../images/qualcosa".png}
+%	\end{center}
+	\textbf{Precondizioni:} \\
+	\textbf{Postcondizioni:} \\
+	\textbf{Descrizione:} \\
+	\newpage
+	\subsection{Visualizzazione e scelta del Questionario}
+%	\begin{center}
+%		\includegraphics[scale=0.1]{"../images/qualcosa".png}
+%	\end{center}
+	\textbf{Precondizioni:} \\
+	\textbf{Postcondizioni:} \\
+	\textbf{Descrizione:} \\
+	\newpage
+	\subsection{Diagramma davide}
+%	\begin{center}
+%		\includegraphics[scale=0.1]{"../images/qualcosa".png}
+%	\end{center}
+	\textbf{Precondizioni:} \\
+	\textbf{Postcondizioni:} \\
+	\textbf{Descrizione:} \\
 	\section{Tracciamento}
 	\newpage
 	\section{Analisi di fattibilità}
