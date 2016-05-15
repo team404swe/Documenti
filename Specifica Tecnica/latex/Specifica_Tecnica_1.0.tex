@@ -721,6 +721,7 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 \item\textbf{Descrizione:} Inizialmente viene presentato all'utente un elenco di tutti gli argomenti in cui sono suddivisi i questionari del sistema Quizzipedia. L'utente ha la possibilità di ordinare le categorie secondo vari criteri (ordine alfabetico e categorie più recenti) prima di passare alla scelta effettiva di una tra di esse. All'utente viene ora proposta una lista, anch'essa ordinabile secondo vari criteri (alfabetico e cronologico), contenente tutti i questionari disponibili relativi all'argomento scelto in precedenza. Eventualmente l'utente può effettuare una ricerca per nome nella lista qualora stesse cercando uno specifico questionario. L'utente può quindi scegliere definitivamente un questionario da svolgere oppure tornare indietro alla pagina di selezione categorie.
 \end{itemize}
 \newpage
+
 	\section{Diagrammi di sequenza}
 	\subsection{Salvataggio di una Domanda}
 	\begin{figure}[h!]
@@ -729,10 +730,38 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 		\caption{Diagramma di sequenza del salvataggio di una domanda}
 	\end{center}
 	\end{figure}
-	\textbf{Precondizioni:} l'utente è autenticato nel sistema Quizzipedia e accede all'area del sito dedicata alla gestione (creazione, eliminazione e modifica) dei propri singoli quesiti.\\
-	\textbf{Postcondizioni:} l'utente ha creato con successo una nuova domanda. La nuova domanda sarà disponibile a tutti gli utenti qualora essi decidano di creare un questionario appartenente alla stessa categoria. L'utente viene reindirizzato alla pagina di gestione questionari.\\
-	\textbf{Descrizione:} l'utente compila il form per la creazione della nuova domanda (al cui interno ricordiamo è situato un campo adibito alla stesura del codice QML) e sottomette i dati al sistema. L'evento viene notificato al Presenter che chiama il Parser situato nel Model passandogli l'input di testo QML. All'interno del Parser viene effettuata la valutazione del codice che può avere due differenti esiti e portare a diversi scenari di conseguenza. In caso il Parser dia un esito negativo, ciò è semplicemente notificato al Presenter e di conseguenza alla View che si aggiornerà rendendo noto all'utente il fallimento della procedura di creazione. In caso contrario, ovvero il testo QML inserito dall'utente viene considerato valido, il Model provvede a salvare la nuova domanda nel database (e anche di ciò verrà notificato l'utente con un aggiornamento nella View).\\
-
+	\begin{itemize}
+	\item\textbf{Precondizioni:} l'utente è autenticato nel sistema Quizzipedia e accede all'area del sito dedicata alla gestione (creazione, eliminazione e modifica) dei propri singoli quesiti.\\
+	\item\textbf{Postcondizioni:} l'utente ha creato con successo una nuova domanda. La nuova domanda sarà disponibile a tutti gli utenti qualora essi decidano di creare un questionario appartenente alla stessa categoria. L'utente viene reindirizzato alla pagina di gestione questionari.\\
+	\item\textbf{Descrizione:} l'utente compila il form per la creazione della nuova domanda (al cui interno ricordiamo è situato un campo adibito alla stesura del codice QML) e sottomette i dati al sistema. L'evento viene notificato al Presenter che chiama il Parser situato nel Model passandogli l'input di testo QML. All'interno del Parser viene effettuata la valutazione del codice che può avere due differenti esiti e portare a diversi scenari di conseguenza. In caso il Parser dia un esito negativo, ciò è semplicemente notificato al Presenter e di conseguenza alla View che si aggiornerà rendendo noto all'utente il fallimento della procedura di creazione. In caso contrario, ovvero il testo QML inserito dall'utente viene considerato valido, il Model provvede a salvare la nuova domanda nel database (e anche di ciò verrà notificato l'utente con un aggiornamento nella View).\\
+	\end{itemize}
+	
+	\subsection{Visualizzazione e scelta di un Questionario}
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[scale=0.5]{../images/ChooseViewQuiz.png}
+		\caption{Diagramma di sequenza della visualizzazione e scelta di un questionario}
+	\end{center}
+	\end{figure}
+	\begin{itemize}
+	\item\textbf{Precondizioni:} L'utente, intenzionato a svolgere un questionario, accede alla pagina adibita alla selezione dell'argomento.\\
+	\item\textbf{Postcondizioni:} L'utente ha scelto un questionario da svolgere e viene reindirizzato alla pagina contenente tale questionario.\\ %è giusta solo questa post o c'è altro?
+	\item\textbf{Descrizione:} SCRIVERE APPENA ARRIVA IMMAGINE DEFINITIVA
+	\end{itemize}
+	\newpage
+	
+	\subsection{Caricamento di un Questionario}
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[scale=0.55]{../images/LoadQuiz.png}
+		\caption{Diagramma di sequenza del caricamento di un questionario}
+	\end{center}
+	\end{figure}
+	\begin{itemize}
+	\item\textbf{Precondizioni:} L'utente sta entrando in una pagina contenente un questionario che verrà caricato on demand.\\
+	\item\textbf{Postcondizioni:} Il questionario è stato correttamente caricato e viene visualizzato a schermo pronto per la risoluzione.\\
+	\item\textbf{Descrizione:} L'input iniziale che parte dalla View al Presenter contiene l' identificativo del questionario scelto dall'utente. Il Presenter inoltra successivamente questa informazione al Model che si occuperà di estrarre dal database i dati necessari alla costruzione del questionario (effettuata poi dal QuizManager). Una volta assemblato il questionario è pronto per essere somministrato all'utente (da qui il diagramma si ricollega alla sezione precedente "Svolgimento di un Questionario").\\
+	\end{itemize}
 	\newpage
 	\subsection{Svolgimento di un Questionario}
 	\begin{figure}[h!]
@@ -741,30 +770,11 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 		\caption{Diagramma di sequenza sullo svolgimento di un questionario}
 	\end{center}
 	\end{figure}
-	\textbf{Precondizioni:} L'utente è intenzionato a svolgere un questionario ed è entrato nella pagina corrispondente a tale questionario. Inizialmente tutte le domande risultano senza risposta. \\ % e il tempo limite per la consegna comincia a scorrere
-	\textbf{Postcondizioni:} L'utente ha svolto il questionario e il sistema, dopo aver compiuto la valutazione, comunica i risultati della prova.\\
-	\textbf{Descrizione:} Come descritto nel diagramma (evento loop Question Change), l'utente ha la possibilità di scorrere più volte le domande del questionario in modo da risolverle nell'ordine in cui si sente più confortevole. Ogni volta che l'utente richiede la visualizzazione di un'altra domanda il sistema memorizza la risposta fornita dall'utente alla domanda precedente (se questa risposta era effettivamente stata data). Quando un utente ha risposto a tutte le domande può passare alla consegna del questionario, ciò porta al salvataggio delle statistiche della prestazione corrente nella base di dati e al successivo resoconto di valutazione finale che viene esposto all'utente.\\
-	\newpage
-	\subsection{Visualizzazione e scelta del Questionario}
-%	\begin{figure}
-%	\begin{center}
-%		\includegraphics[scale=0.1]{"../images/qualcosa".png}
-%		\caption{Diagramma di sequenza}
-%	\end{center}
-	\textbf{Precondizioni:} L'utente, intenzionato a svolgere un questionario, accede alla pagina adibita alla selezione dell'argomento.\\
-	\textbf{Postcondizioni:} L'utente ha scelto un questionario da svolgere e viene reindirizzato alla pagina contenente tale questionario.\\ %è giusta solo questa post o c'è altro?
-	\textbf{Descrizione:} SCRIVERE APPENA ARRIVA IMMAGINE DEFINITIVA\\
-	\newpage
-	\subsection{Caricamento di un Questionario}
-	\begin{figure}[h!]
-	\begin{center}
-		\includegraphics[scale=0.55]{../images/LoadQuiz.png}
-		\caption{Diagramma di sequenza del caricamento di un questionario}
-	\end{center}
-	\end{figure}
-	\textbf{Precondizioni:} L'utente sta entrando in una pagina contenente un questionario che verrà caricato on demand.\\
-	\textbf{Postcondizioni:} Il questionario è stato correttamente caricato e viene visualizzato a schermo pronto per la risoluzione.\\
-	\textbf{Descrizione:} L'input iniziale che parte dalla View al Presenter contiene l' identificativo del questionario scelto dall'utente. Il Presenter inoltra successivamente questa informazione al Model che si occuperà di estrarre dal database i dati necessari alla costruzione del questionario (effettuata poi dal QuizManager). Una volta assemblato il questionario è pronto per essere somministrato all'utente (da qui il diagramma si ricollega alla sezione precedente "Svolgimento di un Questionario").\\
+	\begin{itemize}
+	\item\textbf{Precondizioni:} L'utente è intenzionato a svolgere un questionario ed è entrato nella pagina corrispondente a tale questionario. Inizialmente tutte le domande risultano senza risposta. \\ % e il tempo limite per la consegna comincia a scorrere
+	\item\textbf{Postcondizioni:} L'utente ha svolto il questionario e il sistema, dopo aver compiuto la valutazione, comunica i risultati della prova.\\
+	\item\textbf{Descrizione:} Come descritto nel diagramma (evento loop Question Change), l'utente ha la possibilità di scorrere più volte le domande del questionario in modo da risolverle nell'ordine in cui si sente più confortevole. Ogni volta che l'utente richiede la visualizzazione di un'altra domanda il sistema memorizza la risposta fornita dall'utente alla domanda precedente (se questa risposta era effettivamente stata data). Quando un utente ha risposto a tutte le domande può passare alla consegna del questionario, ciò porta al salvataggio delle statistiche della prestazione corrente nella base di dati e al successivo resoconto di valutazione finale che viene esposto all'utente.\\
+	\end{itemize}
 	\newpage
 	\section{Tracciamento}
 	\newpage
