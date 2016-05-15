@@ -671,216 +671,308 @@ ID & Descrizione & Stato \\
 
 \multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Requisiti funzionali}
 \endlastfoot
+F 1 \newline F 1.1 \newline F 1.1.1 \newline F 1.1.2 \newline F1.1.2.1&TA 1&Viene verificato che il sistema fornisca la possibilità ad un utente non autenticato di registrarsi compilando il form di registrazione.
+L'utente deve poter: 
+\begin{enumerate}
+\item inserire la propria mail
+\item inserire la password
+\item ricevere un messaggio di errore se la stringa password ha meno di 8 caratteri
+\item inviare i dati di registrazione
+\end{enumerate} & Pianificato\\
+\midrule
+%F 1.1 &TA 1.1& La sezione dedicata alla registrazione deve permettere l'inserimento dei dati necessari & Pianificato\\
+%\midrule
+%F 1.1.1 &TA 1.1.1& La sezione dedicata alla registrazione deve permettere l'inserimento di una e-mail & Pianificato\\
+%\midrule
+%F 1.1.2 &TA 1.1.2& La sezione dedicata alla registrazione deve permettere l'inserimento di una password & Pianificato\\
+%\midrule
+%F 1.1.2.1 &TA 1.1.2.1& Se la password inserita ha meno di 8 caratteri viene visualizzato un messaggio di errore & Pianificato\\
+%\midrule
+F 1.2 \newline F 1.2.1 \newline F 1.2.1.1 \newline F 1.2.1.2 \newline F 1.2.1.3 & TA 1.2&La sezione dedicata alla registrazione deve permettere l'invio dei dati inseriti. L'utente deve poter ricevere un messaggio di errore se: 
+\begin{enumerate}
+\item i dati non sono stati inseriti
+\item la mail inserita risulta già in uso
+\end{enumerate}
+Se i dati non sono corretti il sistema deve bloccare l'invio. & Pianificato\\
+%\midrule
+%F 1.2.1 &TA 1.2.1&Prima di inviare i dati viene effettuato un controllo su di essi & Pianificato\\
+%\midrule
+%F 1.2.1.1 & TA 1.2.1.1&Se i dati richiesti non sono stati inseriti viene visualizzato un messaggio di errore & Pianificato\\
+%\midrule
+%F 1.2.1.2 &TA 1.2.1.2&Se la email inserita risulta già in uso viene visualizzato un messaggio di errore & Pianificato\\
+\midrule
+%F 1.2.1.3 & TA 1.2.1.3&Se i dati non risultano corretti ne viene bloccato l'invio & Pianificato\\
 
-F 1 & TA 1& Viene verificato che il sistema fornisca la possibilità ad un utente non autenticato di registrarsi & Pianificato\\
-\midrule
-F 1.1 &TA 1.1& La sezione dedicata alla registrazione deve permettere l'inserimento dei dati necessari & Pianificato\\
-\midrule
-F 1.1.1 &TA 1.1.1& La sezione dedicata alla registrazione deve permettere l'inserimento di una e-mail & Pianificato\\
-\midrule
-F 1.1.2 &TA 1.1.2& La sezione dedicata alla registrazione deve permettere l'inserimento di una password & Pianificato\\
-\midrule
-F 1.1.2.1 &TA 1.1.2.1& Se la password inserita ha meno di 8 caratteri viene visualizzato un messaggio di errore & Pianificato\\
-\midrule
-F 1.2 & TA 1.2&La sezione dedicata alla registrazione deve permettere l'invio dei dati inseriti & Pianificato\\
-\midrule
-F 1.2.1 &TA 1.2.1&Prima di inviare i dati viene effettuato un controllo su di essi & Pianificato\\
-\midrule
-F 1.2.1.1 & TA 1.2.1.1&Se i dati richiesti non sono stati inseriti viene visualizzato un messaggio di errore & Pianificato\\
-\midrule
-F 1.2.1.2 &TA 1.2.1.2&Se la email inserita risulta già in uso viene visualizzato un messaggio di errore & Pianificato\\
-\midrule
-F 1.2.1.3 & TA 1.2.1.3&Se i dati non risultano corretti ne viene bloccato l'invio & Pianificato\\
-\midrule
-F 1.2.2 & TA 1.2.2&Quando dei dati corretti vengono inviati il sistema memorizza un nuovo account con essi & Pianificato\\
-\midrule
-F 1.2.3 & TA 1.2.3&Quando viene creato un nuovo account con la procedura di registrazione viene automaticamente effettuato il login con quell'account & Pianificato\\
-\midrule
-F 2 & TA 2&Il sistema deve fornire la possibilità ad un utente non autenticato di autenticarsi & Pianificato\\
-\midrule
-F 2.1 &TA 2.1 & La sezione dedicata all'autenticazione deve permettere l'inserimento dei dati necessari & Pianificato\\
-\midrule
-F 2.1.1 &TA 2.1.1&La sezione dedicata all'autenticazione deve permettere l'inserimento di una e-mail & Pianificato\\
-\midrule
-F 2.1.2 &TA 2.1.2&La sezione dedicata all'autenticazione deve permettere l'inserimento di una password & Pianificato\\
-\midrule
-F 2.2 &TA 2.2&La sezione dedicata all'autenticazione deve fornire una procedura di recupero password & Pianificato\\
-\midrule
-F 2.2.1 &TA 2.2.1&La procedura di recupero password deve permettere l'inserimento della e-mail & Pianificato\\
-\midrule
-F 2.2.2 &TA 2.2.2&La procedura di recupero password deve effettuare un controllo sulla e-mail inserita & Pianificato\\
-\midrule
-F 2.2.2.1 &TA 2.2.2.1&Se la e-mail non risulta registrata viene visualizzato un messaggio di errore & Pianificato\\
-\midrule
-F 2.2.2.2 & TA 2.2.2.2&Se la e-mail non risulta registrata viene bloccato l'invio della mail a quell'indirizzo & Pianificato\\
-\midrule
-F 2.2.3 & TA 2.2.3&La procedura di recupero password deve mandare una mail all'indirizzo inserito con la password dimenticata & Pianificato\\
-\midrule
-F 2.3 & TA 2.3&La sezione dedicata all'autenticazione deve permettere l'invio dei dati inseriti & Pianificato\\
-\midrule
-F 2.3.1 & TA 2.3.1&Prima di inviare i dati viene effettuato un controllo su di essi & Pianificato\\
-\midrule
-F 2.3.1.1 & TA 2.3.1.1 &Se la combinazione e-mail/password non è registrata viene visualizzato un messaggio di errore & Pianificato\\
-\midrule
-F 2.3.2 & TA 2.3.2 &Se la combinazione e-mail/password è registrata l'utente viene autenticato & Pianificato\\
-\midrule
-F 3 & TA 3 &Il sistema deve permettere la navigazione dei questionari per categoria & Pianificato\\
-\midrule
-F 3.1 & TA 3.1 &Il sistema deve fornire una sezione con un elenco delle categorie di questionari presenti nel database & Pianificato\\
-\midrule
-F 3.1.1 & TA 3.1.1 &Quando l'utente seleziona una categoria viene visualizzata la sezione che elenca i questionari della categoria scelta & Pianificato\\
-\midrule
-F 3.1.2 & TA 3.1.2 &Per ogni elemento dell'elenco viene visualizzato il nome della categoria & Pianificato\\
-\midrule
-F 3.1.3 & TA 3.1.3 &Per ogni elemento dell'elenco viene visualizzato il numero di questionari della categoria & Pianificato\\
-\midrule
-F 3.2 & TA 3.2 &Il sistema deve fornire una sezione con un elenco dei questionari relativi ad una categoria & Pianificato\\
-\midrule
-F 3.2.1 &TA 3.2.1&Quando l'utente seleziona un questionario viene visualizzata la sezione della compilazione del questionario scelto & Pianificato\\
-\midrule
-F 3.2.2 &TA 3.2.2&Per ogni elemento dell'elenco viene visualizzato il nome del questionario & Pianificato\\
-\midrule
-F 3.2.3 & TA 3.2.3 &Per ogni elemento dell'elenco viene visualizzato il numero di domande del questionario & Pianificato\\
-\midrule
-F 3.2.4 &TA 3.2.4 &Per ogni elemento dell'elenco viene visualizzato l'autore & Pianificato\\
-\midrule
-F 4 & TA 4&Il sistema deve fornire la possibilità di compilare un questionario & Pianificato\\
-\midrule
-F 4.1 &TA 4.1 &Durante la compilazione del questionario un utente può navigare liberamente tra le domande che lo compongono & Pianificato\\
-\midrule
-F 4.2 & TA 4.2 &L'utente può rispondere alle domande & Pianificato\\
-\midrule
-F 4.2.1 &TA 4.2.1&Viene visualizzato il testo della domanda & Pianificato\\
-\midrule
-F 4.2.2 &TA 4.2.2 &Viene visualizzata la risposta data & Pianificato\\
-\midrule
-F 4.2.3 & TA 4.2.3 &Se la domanda richiede una risposta inserita dal'utente allora viene fornito un campo per l'inserimento della risposta & Pianificato\\
-\midrule
-F 4.2.4 &TA 4.2.4 &Se la domanda ha delle risposte preimpostate di qualsiasi tipo queste vengono visualizzate & Pianificato\\
-\midrule
-F 4.2.4.1 & TA 4.2.4.1 &Deve essere possibile selezionare una risposta & Pianificato\\
-\midrule
-F 4.2.5 & TA 4.2.5 &Se la domanda permette associazioni tra elementi deve visualizzare tutti gli elementi associabili & Pianificato\\
-\midrule
-F 4.2.5.1 & TA 4.2.5.1 &Deve essere possibile associare due elementi di insiemi diversi & Pianificato\\
-\midrule
-F 4.2.6 & TA 4.2.6 &Se la domanda prevede il completamento del testo con delle parole vengono visualizzate le possibili parole & Pianificato\\
-\midrule
-F 4.2.6.1 & TA 4.2.6.1 &Deve essere possibile selezionare una parola dalla lista & Pianificato\\
-\midrule
-F 4.3 & TA 4.3&L'utente può cambiare la risposta di una domanda in qualsiasi momento prima della consegna del questionario & Pianificato\\
-\midrule
-F 4.4 & TA 4.4 &Le domande possono essere compilate in un ordine qualsiasi & Pianificato\\
-\midrule
-F 4.5 &TA 4.5 &L'utente può consegnare il questionario & Pianificato\\
-\midrule
-F 4.5.1 & TA 4.5.1 &Se alla consegna una o più domande non sono state compilate il sistema avverte l'utente di ciò & Pianificato\\
-\midrule
-F 4.5.2 & TA 4.5.2 &Quando un questionario viene confermato e consegnato viene valutato dal sistema & Pianificato\\
-\midrule
-F 4.5.2.1 & TA 4.5.2.1 &La valutazione del questionario viene visualizzata all'utente & Pianificato\\
-\midrule
-F 4.5.2.1.1 &TA 4.5.2.1.1 &Viene visualizzato il nome del questionario & Pianificato\\
-\midrule
-F 4.5.2.1.2 & TA 4.5.2.1.2 &Viene visualizzato il punteggio ottenuto & Pianificato\\
-\midrule
-F 4.5.2.1.3 & TA 4.5.2.1.3 &Viene visualizzata la percentuale delle risposte corrette & Pianificato\\
-\midrule
-F 4.6 & TA 4.6&La compilazione del questionario ha un tempo massimo & Pianificato\\
-\midrule
-F 4.6.1 & TA 4.6.1 &Allo scadere del tempo il questionario verrà consegnato automaticamente anche se incompleto & Pianificato\\
-\midrule
-F 4.6.2 & TA 4.6.2 &Il tempo inizia a scorrere da quando l'utente accede alla pagina & Pianificato\\
-\midrule
-F 4.7 &TA 4.7 &Viene visualizzato il tempo restante & Pianificato\\
-\midrule
-F 5 & TA 5&Il sistema deve fornire la possibilità ad un utente autenticato di creare una nuova domanda & Pianificato\\
-\midrule
-F 5.1 &TA 5.1&La sezione dedicata alla creazione di una domanda deve permettere l'inserimento dei dati necessari & Pianificato\\
-\midrule
-F 5.1.1 & TA 5.1.1 &La sezione dedicata alla creazione di una domanda deve permettere la scelta di una o più categorie & Pianificato\\
-\midrule
-F 5.1.2 & TA 5.1.2 &La sezione dedicata alla creazione di una domanda deve permettere l'inserimento del codice QML che definisce la domanda & Pianificato\\
-\midrule
-F 5.2 & TA 5.2&La sezione dedicata alla creazione di una domanda deve permettere l'invio dei dati inseriti & Pianificato\\
-\midrule
-F 5.2.1 & TA 5.2.1&Prima di inviare i dati viene effettuato un controllo su di essi & Pianificato\\
-\midrule
-F 5.2.1.1 & TA 5.2.1.1 &Se i dati obbligatori non risultano inseriti viene visualizzato un messaggio di errore & Pianificato\\
-\midrule
-F 5.2.1.2 & TA 5.2.1.2 &Se il codice QML inserito non risulta valido viene visualizzato un messaggio di errore & Pianificato\\
-\midrule
-F 5.2.1.3 &TA 5.2.1.3 &Se i dati obbligatori non risultano inseriti o il codice QML non è valido la creazione della nuova domanda viene bloccata & Pianificato\\
-\midrule
-F 5.2.2 & TA 5.2.2 &Quando dei dati che superano i controlli vengono inviati viene creata una nuova domanda con essi e inserita nel database & Pianificato\\
-\midrule
-F 5.2.2.1 & TA 5.2.2.1 &Se la creazione di una nuova domanda va a buon fine il sistema avvisa l'utente & Pianificato\\
-\midrule
-F 5.2.2.2 & TA 5.2.2.2 & Se la creazione di una nuova domanda non va a buon fine il sistema visualizza un messaggio di errore & Pianificato\\
-\midrule
-F 6 & TA 6&Il sistema deve fornire la possibilità ad un utente autenticato di creare un nuovo questionario & Pianificato\\
-\midrule
-F 6.1 &TA 6.1&La sezione dedicata alla creazione di un questionario deve permettere l'inserimento dei dati necessari & Pianificato\\
-\midrule
-F 6.1.1 & TA 6.1.1&La sezione dedicata alla creazione di un questionario deve permettere l'inserimento del nome del questionario & Pianificato\\
-\midrule
-F 6.1.2 &TA 6.1.2 &La sezione dedicata alla creazione di un questionario deve permettere l'inserimento della categoria del questionario & Pianificato\\
-\midrule
-F 6.1.3 &TA 6.1.3 &La sezione dedicata alla creazione di un questionario deve visualizzare la lista delle domande della categoria selezionata & Pianificato\\
-\midrule
-F 6.1.3.1 &TA 6.1.3.1 &Se nessuna categoria è stata selezionata non viene visualizzata alcuna domanda & Pianificato\\
-\midrule
-F 6.1.3.2 & TA 6.1.3.2 &Ogni domanda deve essere selezionabile & Pianificato\\
-\midrule
-F 6.2 & TA 6.2 &La sezione dedicata alla creazione di un nuovo questionario deve permettere l'invio dei dati inseriti & Pianificato\\
-\midrule
-F 6.2.1 & TA 6.2.1 &Prima di inviare i dati viene effettuato un controllo su di essi & Pianificato\\
-\midrule
-F 6.2.1.1 & TA 6.2.1.1 &Se i dati obbligatori non risultano inseriti viene visualizzato un messaggio di errore & Pianificato\\
-\midrule
-F 6.2.1.2 &TA 6.2.1.2 &Se nessuna domanda è selezionata viene visualizzato un messaggio di errore & Pianificato\\
-\midrule
-F 6.2.1.3 & TA 6.2.1.3 &Se i dati obbligatori non risultano inseriti non è valido nessun dato viene inviato & Pianificato\\
-\midrule
-F 6.2.2 &TA 6.2.2 &Quando dei dati che superano i controlli vengono inviati viene creato un nuovo questionario con essi e inserito nel database & Pianificato\\
-\midrule
-F 6.2.2.1 &TA 6.2.2.1 &Se la creazione di un nuovo questionario va a buon fine il sistema avvisa l'utente & Pianificato\\
-\midrule
-F 6.2.2.2 & TA 6.2.2.2 &Se la creazione di un nuovo questionario non va a buon fine il sistema visualizza un messaggio di errore & Pianificato\\
-\midrule
-F 7 & TA 7&Il sistema deve fornire la possibilità ad un utente autenticato di uscire facendo il logout & Pianificato\\
-\midrule
-F 8 & TA 8&Il sistema deve essere in grado di interpretare il codice QML & Pianificato\\
-\midrule
-F 8.1 & TA 8.1&QML definisce domande & Pianificato\\
-\midrule
-F 8.1.1 &TA 8.1.1&Una domanda è formata dal testo del quesito e da una o più risposte & Pianificato\\
-\midrule
-F 8.1.2 &TA 8.1.2&Una domanda deve avere almeno una risposta esatta & Pianificato\\
-\midrule
-F 8.1.3 & TA 8.1.3&Una domanda può avere una lista di possibili risposte & Pianificato\\
-\midrule
-F 8.1.4 & TA 8.1.4 &QML permette la definizione di diverse tipologie di domande & Pianificato\\
-\midrule
-F 8.1.4.1 &TA 8.1.4.1 &QML definisce domande di tipo vero o falso & Pianificato\\
-\midrule
-F 8.1.4.2 & TA&QML definisce domande a scelta multipla con una sola risposta esatta & Pianificato\\
-\midrule
-F 8.1.4.3 & TA 8.1.4.3 &QML definisce domande a scelta multipla con più risposte esatte & Pianificato\\
-\midrule
-F 8.1.4.4 & TA 8.1.4.4 &QML definisce domande a risposta testuale & Pianificato\\
-\midrule
-F 8.1.4.5 & TA 8.1.4.5 &QML definisce domande di associazione tra elementi di due insiemi & Pianificato\\
-\midrule
-F 8.1.4.5.1 &TA 8.1.4.5.1 &Gli insiemi possono contenere elementi non associabili di disturbo & Pianificato\\
-\midrule
-F 8.1.4.6 & TA 8.1.4.6&QML definisce domande a completamento testuale a scelta da un gruppo di parole date & Pianificato\\
-\midrule
-F 8.1.4.6.1 & TA 8.1.4.6.1 &Il gruppo di parole può contenere elementi di disturbo & Pianificato\\
-\midrule
-F 8.1.4.7 & TA 8.1.4.7&QML definisce domande di associazione tra date poste in una timeline e avvenimenti & Pianificato\\
-\midrule
-F 8.2 &TA 8.2 &QML gestisce immagini all'interno di domande e risposte preimpostate & Pianificato\\
+F 1.2.2 \newline F 1.2.3 & TA 1.2.2 & Quando i dati corretti vengono inviati viene verificato che:
+\begin{enumerate}
+\item il sistema memorizzi un nuovo account con i dati inseriti
+\item venga effettuato automaticamente il login al completamento della registrazione
+\end{enumerate}   & Pianificato\\
+
+%F 1.2.3 & TA 1.2.3&Quando viene creato un nuovo account con la procedura di registrazione viene automaticamente effettuato il login con quell'account & Pianificato\\
+\midrule
+F 2 \newline F 2.1 \newline F 2.1.1 \newline F2.1.2  & TA 2& Verifica che il sistema fornisca la possibilità ad un utente non autenticato di autenticarsi. All'utente dev'essere permesso di: 
+\begin{enumerate}
+\item inserire la propria mail
+\item inserire la propria password
+%\item recuperare la propria password se dimenticata
+\item
+\end{enumerate} & Pianificato\\
+
+%F 2.1 &TA 2.1 & La sezione dedicata all'autenticazione deve permettere l'inserimento dei dati necessari & Pianificato\\
+%\midrule
+%F 2.1.1 &TA 2.1.1&La sezione dedicata all'autenticazione deve permettere l'inserimento di una e-mail & Pianificato\\
+%\midrule
+%F 2.1.2 &TA 2.1.2&La sezione dedicata all'autenticazione deve permettere l'inserimento di una password & Pianificato\\
+%\midrule
+F 2.2 \newline F 2.2.1 \newline F 2.2.2 \newline F 2.2.2.1 \newline F 2.2.2.2 \newline F 2.2.3&TA 2.2&Verifica che la sezione dedicata all'autenticazione fornisca una procedura di recupero password. il sistema deve:
+\begin{enumerate}
+\item permettere l'nserimento della mail
+\item controllare che la mail risulti registrata e in caso negativo visualizzare un messaggio di errore
+\item bloccare l'invio dei dati se la mail non risulta registrata
+\item mandare una mail all'indirizzo inserito con la password dimenticata
+\end{enumerate} & Pianificato\\
+\midrule
+%F 2.2.1 &TA 2.2.1&La procedura di recupero password deve permettere l'inserimento della e-mail & Pianificato\\
+%\midrule
+%F 2.2.2 &TA 2.2.2&La procedura di recupero password deve effettuare un controllo sulla e-mail inserita & Pianificato\\
+%\midrule
+%F 2.2.2.1 &TA 2.2.2.1&Se la e-mail non risulta registrata viene visualizzato un messaggio di errore & Pianificato\\
+%\midrule
+%F 2.2.2.2 & TA 2.2.2.2&Se la e-mail non risulta registrata viene bloccato l'invio della mail a quell'indirizzo & Pianificato\\
+%\midrule
+%F 2.2.3 & TA 2.2.3&La procedura di recupero password deve mandare una mail all'indirizzo inserito con la password dimenticata & Pianificato\\
+%\midrule
+F 2.3 \newline F 2.3.1 \newline F 2.3.1.1 \newline F 2.3.2 & TA 2.3& Verifica che la sezione dedicata all'autenticazione permetta l'invio dei dati inseriti. Il sistema deve: 
+\begin{enumerate}
+\item effettuare un controllo di correttezza sui dati inseriti
+\item visualizzare un messaggio di errore se la combinazione e-mail/password non è registrata
+\item autenticare l'utente se la combinazione mail/password è corretta
+\end{enumerate} & Pianificato\\
+\midrule
+%F 2.3.1 & TA 2.3.1&Prima di inviare i dati viene effettuato un controllo su di essi & Pianificato\\
+%\midrule
+%F 2.3.1.1 & TA 2.3.1.1 &Se la combinazione e-mail/password non è registrata viene visualizzato un messaggio di errore & Pianificato\\
+%\midrule
+%F 2.3.2 & TA 2.3.2 &Se la combinazione e-mail/password è registrata l'utente viene autenticato & Pianificato\\
+%\midrule
+F 3 \newline F 3.1 \newline  F 3.1.1 \newline  F 3.1.2 \newline F 3.1.3& TA 3 &Verifica che il sistema permetta la navigazione e selezione dei questionari per categoria. Il sistema deve: 
+\begin{enumerate}
+\item fornire una sezione con un elenco di categorie
+\item fornire l'elenco dei questionari presenti per la categoria selezionata
+\item fornire il numero di questionari della categoria
+\end{enumerate} & Pianificato\\
+\midrule
+%F 3.1 & TA 3.1 &Il sistema deve fornire una sezione con un elenco delle categorie di questionari presenti nel database & Pianificato\\
+%\midrule
+%F 3.1.1 & TA 3.1.1 &Quando l'utente seleziona una categoria viene visualizzata la sezione che elenca i questionari della categoria scelta & Pianificato\\
+%\midrule
+%F 3.1.2 & TA 3.1.2 &Per ogni elemento dell'elenco viene visualizzato il nome della categoria & Pianificato\\
+%\midrule
+%F 3.1.3 & TA 3.1.3 &Per ogni elemento dell'elenco viene visualizzato il numero di questionari della categoria & Pianificato\\
+%\midrule
+F 3.2 \newline F 3.2.1 \newline  F 3.2.2 \newline  F 3.2.3 \newline F 3.2.4& TA 3.2 &Verifica che il sistema fornisca una sezione con un elenco dei questionari relativi ad una categoria. Viene verificato che: 
+\begin{enumerate}
+\item uando l'utente seleziona un questionario venga visualizzata la sezione della compilazione del questionario scelto
+\item per ogni elemento dell'elenco venga visualizzato il nome del questionario
+\item per ogni elemento dell'elenco venga visualizzato il numero di domande del questionario
+\item per ogni elemento dell'elenco venga visualizzato l'autore
+\end{enumerate} & Pianificato\\
+%\midrule
+%F 3.2.1 &TA 3.2.1&Quando l'utente seleziona un questionario viene visualizzata la sezione della compilazione del questionario scelto & Pianificato\\
+%\midrule
+%F 3.2.2 &TA 3.2.2&Per ogni elemento dell'elenco viene visualizzato il nome del questionario & Pianificato\\
+%\midrule
+%F 3.2.3 & TA 3.2.3 &Per ogni elemento dell'elenco viene visualizzato il numero di domande del questionario & Pianificato\\
+%\midrule
+%F 3.2.4 &TA 3.2.4 &Per ogni elemento dell'elenco viene visualizzato l'autore & Pianificato\\
+\midrule
+F 4 \newline F 4.1 \newline F 4.2 \newline F 4.2.1 \newline F 4.2.2 \newline F 4.2.3 \newline F 4.2.4 \newline F 4.2.4.1 \newline F 4.2.5 \newline F 4.2.5.1 \newline F 4.2.6 \newline F 4.2.6.1 \newline F 4.3 \newline F 4.4& TA 4& Verifica che il sistema dia la possibilità di compilare un questionario.\newline L'utente deve poter:
+\begin{enumerate}
+\item navigare liberamente tra le domande del questionario
+\item rispondere alle domande
+\item visualizzare la risposta data
+\item selezionare possibili risposte in caso di risposte multiple
+\item associare elementi in caso di risposte di tipo associativo
+\item selezionare le risposte in caso di domanda di tipo completamento testo
+\item cambiare le risposte già date
+\item rispondere alle domande in qualsiasi ordine
+\item consegnare il questionario completato
+
+\end{enumerate} & Pianificato\\
+
+%F 4.1 &TA 4.1 &Durante la compilazione del questionario un utente può navigare liberamente tra le domande che lo compongono & Pianificato\\
+%\midrule
+%F 4.2 & TA 4.2 &L'utente può rispondere alle domande & Pianificato\\
+%\midrule
+%F 4.2.1 &TA 4.2.1&Viene visualizzato il testo della domanda & Pianificato\\
+%\midrule
+%F 4.2.2 &TA 4.2.2 &Viene visualizzata la risposta data & Pianificato\\
+%\midrule
+%F 4.2.3 & TA 4.2.3 &Se la domanda richiede una risposta inserita dal'utente allora viene fornito un campo per l'inserimento della risposta & Pianificato\\
+%\midrule
+%F 4.2.4 &TA 4.2.4 &Se la domanda ha delle risposte preimpostate di qualsiasi tipo queste vengono visualizzate & Pianificato\\
+%\midrule
+%F 4.2.4.1 & TA 4.2.4.1 &Deve essere possibile selezionare una risposta & Pianificato\\
+%\midrule
+%F 4.2.5 & TA 4.2.5 &Se la domanda permette associazioni tra elementi deve visualizzare tutti gli elementi associabili & Pianificato\\
+%\midrule
+%F 4.2.5.1 & TA 4.2.5.1 &Deve essere possibile associare due elementi di insiemi diversi & Pianificato\\
+%\midrule
+%F 4.2.6 & TA 4.2.6 &Se la domanda prevede il completamento del testo con delle parole vengono visualizzate le possibili parole & Pianificato\\
+%\midrule
+%F 4.2.6.1 & TA 4.2.6.1 &Deve essere possibile selezionare una parola dalla lista & Pianificato\\
+%\midrule
+%F 4.3 & TA 4.3&L'utente può cambiare la risposta di una domanda in qualsiasi momento prima della consegna del questionario & Pianificato\\
+%\midrule
+%F 4.4 & TA 4.4 &Le domande possono essere compilate in un ordine qualsiasi & Pianificato\\
+%\midrule
+%F 4.5 &TA 4.5 &L'utente può consegnare il questionario & Pianificato\\
+\midrule
+F 4.5.1 \newline F 4.5.2 \newline F 4.5.2.1 \newline F 4.5.2.1.1 \newline F 4.5.2.1.2 \newline F 4.5.2.1.3& TA 4.5.1 &Verifica che alla consegna del questionario il sistema: 
+\begin{enumerate}
+\item avvisi l'utente se alcune risposte non sono state compilate
+\item valuti il questionario e ne visualizzi il risultato
+\item visualizzi il punteggio ottenuto
+\item visualizzi la percentuale di risposte corrette 
+\end{enumerate} & Pianificato\\
+\midrule
+%F 4.5.2 & TA 4.5.2 &Quando un questionario viene confermato e consegnato viene valutato dal sistema & Pianificato\\
+%\midrule
+%F 4.5.2.1 & TA 4.5.2.1 &La valutazione del questionario viene visualizzata all'utente & Pianificato\\
+%\midrule
+%F 4.5.2.1.1 &TA 4.5.2.1.1 &Viene visualizzato il nome del questionario & Pianificato\\
+%\midrule
+%F 4.5.2.1.2 & TA 4.5.2.1.2 &Viene visualizzato il punteggio ottenuto & Pianificato\\
+%\midrule
+%F 4.5.2.1.3 & TA 4.5.2.1.3 &Viene visualizzata la percentuale delle risposte corrette & Pianificato\\
+%\midrule
+
+F 4.6 \newline F 4.6.1 \newline F 4.6.2 \newline F 4.7& TA 4.6&Verifica che la compilazione del questionario abbia un tempo massimo. \newline
+Il sistema deve:
+\begin{enumerate}
+\item consegnare automaticamente il questionario allo scadere del tempo massimo anche se incompleto
+\item visualizzare il tempo restante
+
+\end{enumerate} & Pianificato\\
+\midrule
+%F 4.6.1 & TA 4.6.1 &Allo scadere del tempo il questionario verrà consegnato automaticamente anche se incompleto & Pianificato\\
+%\midrule
+%F 4.6.2 & TA 4.6.2 &Il tempo inizia a scorrere da quando l'utente accede alla pagina & Pianificato\\
+%\midrule
+%F 4.7 &TA 4.7 &Viene visualizzato il tempo restante & Pianificato\\
+%\midrule
+F 5 \newline F 5.1 \newline F 5.1.1 \newline F 5.1.2 \newline F 5.2& TA 5&Verifica che il sistema dia la possibilità ad un utente autenticato di creare una nuova domanda. \newline
+L'utente deve potere:
+\begin{enumerate}
+\item scegliere la categoria della domanda
+\item inserire i dati necessari alla compilazione della domanda in formato QML
+\item inviare i dati inseriti 
+\end{enumerate} & Pianificato\\
+\midrule
+%F 5.1 &TA 5.1&La sezione dedicata alla creazione di una domanda deve permettere l'inserimento dei dati necessari & Pianificato\\
+%\midrule
+%F 5.1.1 & TA 5.1.1 &La sezione dedicata alla creazione di una domanda deve permettere la scelta di una o più categorie & Pianificato\\
+%\midrule
+%F 5.1.2 & TA 5.1.2 &La sezione dedicata alla creazione di una domanda deve permettere l'inserimento del codice QML che definisce la domanda & Pianificato\\
+%\midrule
+%F 5.2 & TA 5.2&La sezione dedicata alla creazione di una domanda deve permettere l'invio dei dati inseriti & Pianificato\\
+%\midrule
+F 5.2.1 \newline F 5.2.1.1 \newline F 5.2.1.2 \newline F 5.2.1.3 \newline F 5.2.2 \newline F 5.2.2.1 \newline F 5.2.2.2 \newline & TA 5.2.1&Verifica che il sistema effettui un controllo sulla correttezza dei dati prima della memorizzazione. Il sistema deve: 
+\begin{enumerate}
+\item visualizzare un messaggio di errore se i dati obbligatori non risultano inseriti
+\item visualizzare un messaggio di errore se il codice QML inserito non risulta valido
+\item visualizzare un messaggio nel caso che i dati siano corretti e la memorizzazione della domanda è andata a buon fine. In caso contrario deve annullare la creazione della domanda ed avvisare l'utente tramite un messaggio a schermo
+\end{enumerate} & Pianificato\\
+\midrule
+%F 5.2.1.1 & TA 5.2.1.1 &Se i dati obbligatori non risultano inseriti viene visualizzato un messaggio di errore & Pianificato\\
+%\midrule
+%F 5.2.1.2 & TA 5.2.1.2 &Se il codice QML inserito non risulta valido viene visualizzato un messaggio di errore & Pianificato\\
+%\midrule
+%F 5.2.1.3 &TA 5.2.1.3 &Se i dati obbligatori non risultano inseriti o il codice QML non è valido la creazione della nuova domanda viene bloccata & Pianificato\\
+%\midrule
+%F 5.2.2 & TA 5.2.2 &Quando dei dati che superano i controlli vengono inviati viene creata una nuova domanda con essi e inserita nel database & Pianificato\\
+%\midrule
+%F 5.2.2.1 & TA 5.2.2.1 &Se la creazione di una nuova domanda va a buon fine il sistema avvisa l'utente & Pianificato\\
+%\midrule
+%F 5.2.2.2 & TA 5.2.2.2 & Se la creazione di una nuova domanda non va a buon fine il sistema visualizza un messaggio di errore & Pianificato\\
+%\midrule
+F 6 \newline F 6.1 \newline F 6.1.1 \newline F 6.1.2 \newline F 6.1.3 \newline F 6.1.3.1 \newline F 6.1.3.2 \newline F 6.2& TA 6& Verifica che il sistema fornisca la possibilità ad un utente autenticato di creare un nuovo questionario. \newline L'utente deve poter: 
+\begin{enumerate}
+\item compilare il nome del questionario
+\item inserire la categoria
+\item visualizzare la lista delle domande della categoria
+\item selezionare qualsiasi domanda visualizzata
+\item inviare il nuovo questinario
+\end{enumerate} & Pianificato\\
+%\midrule
+%F 6.1 &TA 6.1&La sezione dedicata alla creazione di un questionario deve permettere l'inserimento dei dati necessari & Pianificato\\
+%\midrule
+%F 6.1.1 & TA 6.1.1&La sezione dedicata alla creazione di un questionario deve permettere l'inserimento del nome del questionario & Pianificato\\
+%\midrule
+%F 6.1.2 &TA 6.1.2 &La sezione dedicata alla creazione di un questionario deve permettere l'inserimento della categoria del questionario & Pianificato\\
+%\midrule
+%F 6.1.3 &TA 6.1.3 &La sezione dedicata alla creazione di un questionario deve visualizzare la lista delle domande della categoria selezionata & Pianificato\\
+%\midrule
+%F 6.1.3.1 &TA 6.1.3.1 &Se nessuna categoria è stata selezionata non viene visualizzata alcuna domanda & Pianificato\\
+%\midrule
+%F 6.1.3.2 & TA 6.1.3.2 &Ogni domanda deve essere selezionabile & Pianificato\\
+%\midrule
+%F 6.2 & TA 6.2 &La sezione dedicata alla creazione di un nuovo questionario deve permettere l'invio dei dati inseriti & Pianificato\\
+\midrule
+F 6.2.1 \newline F 6.2.1.1 \newline F 6.2.1.2 \newline F 6.2.1.3 \newline F 6.2.2 \newline F 6.2.2.1 \newline F 6.2.2.2 &  TA 6.2.1 &Verifica che il sistema, prima di inviare i dati, effettui un controllo su di essi. Nello specifico si verifica che il sistema: 
+\begin{enumerate}
+\item avvisi con un messaggio che i campi obbligatori non sono stati compilati o non è stata selezionata nessuna domanda
+\item crei il nuovo questinario se i dati inseriti sono corretti, avvisando l'utente del successo
+\item avvisi l'utente con un messaggio se la creazione del nuovo questionario non è andata a buon fine
+
+\end{enumerate} & Pianificato\\
+%\midrule
+%F 6.2.1.1 & TA 6.2.1.1 &Se i dati obbligatori non risultano inseriti viene visualizzato un messaggio di errore & Pianificato\\
+%\midrule
+%F 6.2.1.2 &TA 6.2.1.2 &Se nessuna domanda è selezionata viene visualizzato un messaggio di errore & Pianificato\\
+%\midrule
+%F 6.2.1.3 & TA 6.2.1.3 &Se i dati obbligatori non risultano inseriti non è valido nessun dato viene inviato & Pianificato\\
+%\midrule
+%F 6.2.2 &TA 6.2.2 &Quando dei dati che superano i controlli vengono inviati viene creato un nuovo questionario con essi e inserito nel database & Pianificato\\
+%\midrule
+%F 6.2.2.1 &TA 6.2.2.1 &Se la creazione di un nuovo questionario va a buon fine il sistema avvisa l'utente & Pianificato\\
+%\midrule
+%F 6.2.2.2 & TA 6.2.2.2 &Se la creazione di un nuovo questionario non va a buon fine il sistema visualizza un messaggio di errore & Pianificato\\
+%\midrule
+%F 7 & TA 7&Il sistema deve fornire la possibilità ad un utente autenticato di uscire facendo il logout & Pianificato\\
+%\midrule
+%F 8 & TA 8&Il sistema deve essere in grado di interpretare il codice QML & Pianificato\\
+%\midrule
+%F 8.1 & TA 8.1&QML definisce domande & Pianificato\\
+%\midrule
+%F 8.1.1 &TA 8.1.1&Una domanda è formata dal testo del quesito e da una o più risposte & Pianificato\\
+%\midrule
+%F 8.1.2 &TA 8.1.2&Una domanda deve avere almeno una risposta esatta & Pianificato\\
+%\midrule
+%F 8.1.3 & TA 8.1.3&Una domanda può avere una lista di possibili risposte & Pianificato\\
+%\midrule
+%F 8.1.4 & TA 8.1.4 &QML permette la definizione di diverse tipologie di domande & Pianificato\\
+%\midrule
+%F 8.1.4.1 &TA 8.1.4.1 &QML definisce domande di tipo vero o falso & Pianificato\\
+%\midrule
+%F 8.1.4.2 & TA&QML definisce domande a scelta multipla con una sola risposta esatta & Pianificato\\
+%\midrule
+%F 8.1.4.3 & TA 8.1.4.3 &QML definisce domande a scelta multipla con più risposte esatte & Pianificato\\
+%\midrule
+%F 8.1.4.4 & TA 8.1.4.4 &QML definisce domande a risposta testuale & Pianificato\\
+%\midrule
+%F 8.1.4.5 & TA 8.1.4.5 &QML definisce domande di associazione tra elementi di due insiemi & Pianificato\\
+%\midrule
+%F 8.1.4.5.1 &TA 8.1.4.5.1 &Gli insiemi possono contenere elementi non associabili di disturbo & Pianificato\\
+%\midrule
+%F 8.1.4.6 & TA 8.1.4.6&QML definisce domande a completamento testuale a scelta da un gruppo di parole date & Pianificato\\
+%\midrule
+%F 8.1.4.6.1 & TA 8.1.4.6.1 &Il gruppo di parole può contenere elementi di disturbo & Pianificato\\
+%\midrule
+%F 8.1.4.7 & TA 8.1.4.7&QML definisce domande di associazione tra date poste in una timeline e avvenimenti & Pianificato\\
+%\midrule
+%F 8.2 &TA 8.2 &QML gestisce immagini all'interno di domande e risposte preimpostate & Pianificato\\
 			
 \end{longtable}
 \section{Resoconto attività di verifica}
