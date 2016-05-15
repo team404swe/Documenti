@@ -21,7 +21,7 @@
 			{Esterno} 						%3 Uso
 			{22 aprile 2016} 				%4 Data cre
 			{\today} 						%5 Data mod
-			{M. Crivellaro - L. Alessio - D. Bortot}	%6 Redazione
+			{A. Multineddu - L. Alessio - D. Bortot}	%6 Redazione
 			{Alex Beccaro } 			%7 Verifica
 			{Martin V. Mbouenda} 				%8 Approvazione
 	\newpage
@@ -40,7 +40,9 @@
 	
 	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm} 
 	\textbf{Descrizione}}
-	\rigaregistro{0.0.14}{Davide Bortot (Progettista)}{07/05/2016}{Inseriti grafici dei Diagrammi di Sequenza.}
+	\rigaregistro{0.0.16}{Davide Bortot (Progettista)}{10/05/2016}{Stesura della sezione "Design pattern utilizzati".}
+	\rigaregistro{0.0.15}{Davide Bortot (Progettista)}{08/05/2016}{Inseriti grafici dei Diagrammi di Sequenza. Aggiunta tecnologia "Materialize" alla sezione "Tecnologie e strumenti utilizzati".}
+	\rigaregistro{0.0.14}{Luca Alessio (Progettista)}{07/05/2016}{Stesura sezione "Diagrammi di Sequenza" per la parte descrittiva.}
 	\rigaregistro{0.0.13}{Davide Bortot (Progettista)}{06/05/2016}{Integrara la sezione "Diagrammi delle classi del Presenter" con l'aggiunta dei grafici UML.}
 	\rigaregistro{0.0.12}{Andrea Multineddu (Progettista)}{06/05/2016}{Aggiunte immagini sezione "Diagrammi delle attività".}
 	\rigaregistro{0.0.11}{Davide Bortot (Progettista)}{05/05/2016}{Completata la parte descrittiva della sezione "Diagrammi delle classi del Presenter". Riadattamento allo stile del documento di §4.3. Inseriti grafici UML dei Package del Model e della View.}
@@ -133,7 +135,7 @@ Una volta ottenuti i dati si preoccupa di aggiornare la View. Nel sistema Quizzi
 	\begin{itemize}
 		\item Interagisce con un database PostgreSQL nel quale vengono salvati i dati del sistema (ad es. domande, statistiche, utenti). Fornisce quindi adeguate funzionalità di salvataggio e caricamento da database di tali dati.
 		\item Al momento del salvataggio di una nuova domanda esegue il \emph{parsing} del codice QML tramite un componente chiamato \emph{Parser}. Se la domanda è sintatticamente corretta può essere salvata nel database.
-		\item Offre un'interfaccia logica di accesso al Presenter attraverso la quale richiedere dati e operazioni su di essi. Quest'interfaccia sarà l'unico punto di accesso disponibile al Presenter. Per accentrare le funzionalità d'accesso si farà uso del design pattern \emph{Façade}.
+		\item Offre un'interfaccia logica di accesso al Presenter attraverso la quale richiedere dati e operazioni su di essi.
 	\end{itemize}
 	\subsection{Descrizione del componente View}
 	La componente View rappresenta l'interfaccia grafica che visualizza i dati del Model e inoltra i comandi dell'utente (o gli eventi da esso generati) al Presenter che si occuperà di gestire tali richieste sui dati interagendo col Model; la View si occupa quindi solamente della rappresentazione grafica dei dati e non ha alcun contatto diretto con essi. Essendo un'interfaccia web verrà realizzata tramite HTML5 e CSS3 per le parti statiche e con l'utilizzo di Javascript per le parti dinamiche. Per assicurare uno stile coerente tra le pagine web e migliorare l'adattabilità a piattaforme mobile verrà utilizzato il framework \emph{Materialize}.
@@ -675,7 +677,7 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 			\newpage
 	\section{Diagrammi di attività}
 	
-\subsubsection{Creazione Questionario}
+\subsection{Creazione Questionario}
 \begin{figure}[h!]
 \begin{center}
 	\centerline{\includegraphics[scale=0.1]{"../images/diagramma 1".png}}
@@ -689,7 +691,7 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 \end{itemize}
 
 \newpage
-\subsubsection{Creazione Domanda}
+\subsection{Creazione Domanda}
 \begin{figure}[h!]
 \begin{center}
 	\centerline{\includegraphics[scale=0.1]{"../images/diagramma 2".png}}
@@ -702,7 +704,7 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 \item\textbf{Descrizione:} l'utente inizialmente sceglie una categoria (argomento trattato) per la domanda, successivamente procede con la stesura del codice QML in un'area di testo apposita. Qualora l'utente abbia dubbi sull'uso della sintassi è presente nella pagina un link al tutorial interno al sistema. Quando l'utente ha terminato l'inserimento del codice può sottoporlo al sistema che lo valuterà. Dell'input viene eseguito il parsing per controllare anomalie nella sintassi, se sono presenti errori ciò viene segnalato all'utente che ha la possibilità di correggere il codice errato, altrimenti la domanda viene considerata valida e il sistema procede alla sua memorizzazione nel sistema (con conseguente notifica positiva all'utente). Al termine del procedimento la domanda sarà disponibile a tutti gli utenti registrati durante la fase di creazione di questionari.
 \end{itemize}
 \newpage
-\subsubsection{Compilazione Questionario}
+\subsection{Compilazione Questionario}
 \begin{figure}[h!]
 \begin{center}
 	\includegraphics[scale=0.1]{"../images/diagramma 3".png}
@@ -716,7 +718,7 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 \end{itemize}
 
 \newpage
-\subsubsection{Scelta Questionario}
+\subsection{Scelta Questionario}
 \begin{figure}[h!]
 \begin{center}
 	\includegraphics[scale=0.1]{"../images/diagramma 4".png}
@@ -754,8 +756,15 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 	\begin{itemize}
 	\item\textbf{Precondizioni:} L'utente, intenzionato a svolgere un questionario, accede alla pagina adibita alla selezione dell'argomento.\\
 	\item\textbf{Postcondizioni:} L'utente ha scelto un questionario da svolgere e viene reindirizzato alla pagina contenente tale questionario.\\ %è giusta solo questa post o c'è altro?
-	\item\textbf{Descrizione:} La classe CurrentView della View interagisce con la classe InputManager del Presenter richiedendo un elenco di questionari da visualizzare. La richiesta viene inoltrata al Model che procede a recuperare i dati richiesti e a restituirli alla View. Opzionalmente l'utente ha la possibilità di ordinare i questionari su schermo secondo vari criteri (alfabetico o cronologico). L'utente ha poi la possibilità di scegliere un questionario e il flusso di eventi si collegherà con quello espresso nel diagramma della sezione "Caricamento di un Questionario".\\
+	\item\textbf{Descrizione:} La classe CurrentView della View interagisce con la classe InputManager
+del Presenter richiedendo un elenco di questionari da visualizzare. La richiesta viene
+inoltrata al Model che procede a recuperare i dati richiesti e a restituirli alla View. Opzionalmente
+l’utente ha la possibilità di ordinare i questionari su schermo secondo vari criteri
+(alfabetico o cronologico). L’utente ha poi la possibilità di scegliere un questionario e il flusso di eventi si collegherà con quello espresso nel diagramma della sezione "Caricamento
+di un Questionario".
 	\end{itemize}
+	\newpage
+	
 	\subsection{Caricamento di un Questionario}
 	\begin{figure}[h!]
 	\begin{center}
@@ -777,8 +786,8 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 	\end{center}
 	\end{figure}
 	\begin{itemize}
-	\item\textbf{Precondizioni:} Viene richiesta la visualizzazione su schermo di una domanda
-	\item\textbf{Postcondizioni:} La domanda viene convertita dal precedente formato QML al formato HTML interpretabile dal browser
+	\item\textbf{Precondizioni:} Viene richiesta la visualizzazione su schermo di una domanda.
+	\item\textbf{Postcondizioni:} La domanda viene convertita dal precedente formato QML al formato HTML interpretabile dal browser.
 	\item\textbf{Descrizione:} MANCA SOLO QUESTO
 	\end{itemize}
 	\newpage
@@ -796,6 +805,128 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 	\item\textbf{Descrizione:} Come descritto nel diagramma (evento loop Question Change), l'utente ha la possibilità di scorrere più volte le domande del questionario in modo da risolverle nell'ordine in cui si sente più confortevole. Ogni volta che l'utente richiede la visualizzazione di un'altra domanda il sistema memorizza la risposta fornita dall'utente alla domanda precedente (se questa risposta era effettivamente stata data). Quando un utente ha risposto a tutte le domande può passare alla consegna del questionario, ciò porta al salvataggio delle statistiche della prestazione corrente nella base di dati e al successivo resoconto di valutazione finale che viene esposto all'utente.\\
 	\end{itemize}
 	\newpage
+	\section{Design pattern utilizzati}
+	\subsection{Abstract Factory}
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[scale=1]{../images/AbsFactory.png}
+		\caption{Design Pattern Abstract Factory}
+	\end{center}
+	\end{figure}
+	\begin{itemize}
+		\item\textbf{Scopo}: fornire al Client un'interfaccia per creare famiglie di prodotti, senza dover esplicitare il nome concreto delle classi a cui si riferisce. La factory, quindi, incapsula le responsabilità per la creazione degli oggetti prodotto.
+		\item\textbf{Applicabilità}:
+		\begin{itemize}
+			\item quando si necessita di rendere indipendente un sistema dalla creazione dei suoi componenti, dalla loro rappresentazione e composizione.
+			\item quando si necessita la configurazione di un sistema scegliendo tra più tipologie.
+			\item quando si devono gestire famiglie di prodotti correlati tra loro e progettati per essere usati insieme.
+			\item quando si vuole rivelare solamente l'interfaccia delle classi all'interno di una libreria.
+		\end{itemize}
+		\item\textbf{Conseguenze}:
+		\begin{itemize}
+			\item isola le classi concrete, controllandone la creazione. La creazione è delegata
+alla classe astratta e i Client manipolano solamente interfacce non conoscendo
+i nomi dei prodotti nascosti
+			\item permette di modificare facilmente la famiglia di prodotti utilizzati poiché la
+classe concreta appare una sola volta nel programma
+			\item promuove la coerenza nell'utilizzo dei prodotti poiché sono stati progettati per
+essere utilizzati insieme (si usano oggetti di una sola famiglia per volta)
+			\item risulta invece difficile l'inserimento di nuove tipologie di prodotto poichè richiederebbe la modifica della classe di Abstract Factory e di conseguentemente il
+cambiamento di tutte le sottoclassi (il problema può essere evitato mediante
+una tecnica di implementazione della classe astratta, ma in modo meno flessibile e poco sicuro.
+		\end{itemize}
+		\item\textbf{Utilizzo}: nel sistema Quizzipedia il design pattern è stato utilizzato nei package Interpreter e QuestionManager. Entrambi si avvalgono del pattern per rendere il sistema indipendente dalla creazione delle rispettive classi concrete e rendere i package aperti all'estensione tramite la definizione di nuovi tipi "Interpreter" e "Question".
+	\end{itemize}
+	\subsection{Singleton}
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[scale=0.7]{../images/Singleton.png}
+		\caption{Design Pattern Singleton}
+	\end{center}
+	\end{figure}
+	\begin{itemize}
+		\item\textbf{Scopo}: assicurare l'esistenza di una sola istanza di un oggetto, offrendo un punto globale di accesso a tale istanza.
+		\item\textbf{Applicabilità}:
+		\begin{itemize}
+			\item quando deve essere creata una sola istanza di una classe e deve esistere un punto di accesso ad essa noto a tutti Client
+			\item quando l'istanza deve poter essere estesa e i Client devono essere in grado di
+utilizzarne le istanze senza apportare modifiche al proprio codice
+		\end{itemize}
+		\item\textbf{Conseguenze}:
+		\begin{itemize}
+			\item l'accesso all'unica istanza è controllato
+			\item permette di aver un miglior uso delle variabili globali, riducendo lo spazio dei nomi senza inquinarlo con variabili utilizzate per memorizzare riferimenti ad
+istanze
+			\item maggior  flessibilità per quanto riguarda le operazioni di classe, ma maggior
+difficoltà nelle modifiche del progetto per utilizzare più istanze. Impossibilità
+di sovrascrivere le funzioni di classe poiché statiche e non virtuali.
+		\end{itemize}
+		\item\textbf{Utilizzo}: nel sistema Quizzipedia il design pattern è stato utilizzato per le classi\\
+		 QML2HTMLQuestionFactory e QMLInterpreterFactory. Usato in collaborazione con\\ l'\emph{Abstract Factory}, il pattern assicura che la costruzione degli oggetti Interpreter e Question abbia un unico punto d'accesso nelle classi sopracitate.
+	\end{itemize}
+	\newpage
+	
+	\subsection{Builder}
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[scale=1]{../images/Builder.png}
+		\caption{Design Pattern Builder}
+	\end{center}
+	\end{figure}
+	\begin{itemize}
+		\item\textbf{Scopo}: Separa la costruzione di un oggetto complesso dalla sua rappresentazione.
+		\item\textbf{Applicabilità}:
+		\begin{itemize}
+			\item La procedura di creazione di un oggetto complesso
+deve essere indipendente dalle parti che
+compongono l'oggetto
+			\item Il processo di costruzione deve permettere diverse
+rappresentazioni per l'oggetto da costruire.
+		\end{itemize}
+		\item\textbf{Conseguenze}:
+		\begin{itemize}
+			\item Facilita le modifiche alla rappresentazione interna di
+un prodotto
+			\item Isola il codice dedicato alla costruzione di un prodotto
+dalla sua rappresentazione
+			\item Consente un controllo migliore del processo di
+costruzione
+		\end{itemize}
+		\item\textbf{Utilizzo}: nel sistema Quizzipedia il design pattern è stato utilizzato nel package QuizManager per rendere la creazione di un Quiz indipendente dalle domande che lo compongono.
+	\end{itemize}
+	\newpage
+	
+	\subsection{Command}
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[scale=1]{../images/Command.png}
+		\caption{Design Pattern Command}
+	\end{center}
+	\end{figure}
+	\begin{itemize}
+		\item\textbf{Scopo}: Incapsulare una richiesta in un oggetto, cosicché i
+client sia indipendenti dalle richieste
+		\item\textbf{Applicabilità}:
+		\begin{itemize}
+			\item necessità di gestire richieste di cui non si conoscono i
+particolari
+			\item Parametrizzazione di oggetti sull'azione da eseguire
+			\item Specificare, accodare ed eseguire richieste molteplici
+volte
+			\item Supporto ad operazioni di Undo e Redo e a transazioni.
+		\end{itemize}
+		\item\textbf{Conseguenze}:
+		\begin{itemize}
+			\item Accoppiamento "lasco" tra oggetto invocante e
+quello che porta a termine l'operazione
+			\item I command possono essere estesi
+			\item I comandi possono essere composti e innestati
+			\item È facile aggiungere nuovi comandi, le classi esistenti non devono essere modificate.
+		\end{itemize}
+		\item\textbf{Utilizzo}: nel sistema Quizzipedia il design pattern è stato utilizzato nel package Presenter, per disaccoppiare la ricezione degli input da parte della classe InputManager dalla loro risoluzione da parte di altre classi del Presenter e del Model. Il pattern permette inoltre di aggiungere facilmente nuovi \emph{Command} al sistema, estendendo l'interfaccia \emph{Input} del package UserInputManager. Sarà in questo modo più facile estendere le funzionalità offerte all'utente dal sistema Quizzipedia.
+	\end{itemize}
+	\newpage
+	
 	\section{Tracciamento}
 	\newpage
 	\section{Analisi di fattibilità}
