@@ -488,24 +488,28 @@ relazione di dipendenza (?) verso i rispettivi packages Sender, Receiver ed User
 			\subsubsection{Package UserInputManager}
 
 			\subsubsubsection{Classe InputManager}
-			La classe implementa, in una semplificazione del pattern \emph{Command}, il componente Invoker del Command.
+			La classe implementa, con riferimento al pattern \emph{Command}, il componente Invoker del Command. In questo modo il trattamento degli input viene disaccoppiato dalle componenti che ne eseguiranno le richieste.
 			\begin{itemize}
-				\item\textbf{Funzione del componente}: riceve gli input dalla View e li indirizza verso le classi del package Updaters.
+				\item\textbf{Funzione del componente}: riceve gli input dalla View e delega alle componenti del package Updaters la loro risoluzione.
 				\item\textbf{Relazione d'uso di altre componenti}: si interfaccia con il package Updaters (che sono i suoi \emph{Receivers}) e con il package View dal quale riceve gli input.
 				\item\textbf{Attività svolte e dati trattati}: questa classe possiede operazioni per ricevere e indirizzare ai giusti componenti gli input che le arrivano dalla View.
 			\end{itemize}
 			
 			\subsubsubsection{Interfaccia Input}
+			L'interfaccia implementa l'interfaccia di esecuzione delle richieste; con riferimento al pattern \emph{Command}, essa corrisponde alla classe Command. Quest'implementazione permette di aggiungere facilmente nuovi tipi di Input (concretizzazioni del Command).
 			\begin{itemize}
 				\item\textbf{Funzione del componente}: interfaccia di base degli input.
 				\item\textbf{Relazione d'uso di altre componenti}: viene concretizzata in più sottoclassi. Oggetti delle sue sottoclassi vengono creati da View::Sender. Le sottoclassi concrete s'interfacciano con Updaters::ViewUpdater e Updaters::ModelUpdater.
 				\item\textbf{Attività svolte e dati trattati}: definisce il contratto di ogni classe di tipo Input. Le classi concrete s'interfacciano con le classi del package Updaters in modo specializzato per ogni input.
-				\item\textbf{Concretizzazioni}: Attualmente l'interfaccia Input viene concretizzata nelle seguenti sottoclassi, così definite:
+				\item\textbf{Concretizzazioni}: Attualmente l'interfaccia Input viene concretizzata nelle seguenti sottoclassi (paragonabili, con riferimento al pattern \emph{Command}, a classi di tipo\emph{ConcreteCommand}), così definite:
 				\begin{itemize}
 				\item\textit{CreateQuiz}: richiede l'interfaccia per la creazione di un nuovo questionario.
-				\item\textit{AddQuestion}: richiede di aggiungere una domanda nel sistema.
-				\item\textit{RemoveQuestion}: richiede di rimuovere una domanda precedentemente aggiunta nel sistema.
+				\item\textit{AddQuestion}: richiede di aggiungere una domanda al questionario in creazione.
+				\item\textit{RemoveQuestion}: richiede di rimuovere una domanda precedentemente aggiunta nel questionario in creazione.
 				\item\textit{SaveQuiz}: richiede di salvare un nuovo questionario appena creato.
+				\item\textit{CreateQuestion}: richiede l'interfaccia per la creazione di una nuova domanda.
+				\item\textit{SaveQuestion}: richiede di salvare nel sistema una nuova domanda.
+				\item\textit{DeleteQuestion}: richiede di cancellare dal sistema una domanda precedentemente creata.
 				\item\textit{StartQuiz}: richiede di iniziare lo svolgimento di un quiz scelto.
 				\item\textit{NextQuestion}: richiede la domanda successiva in un quiz.
 				\item\textit{PreviousQuestion}: richiede la domanda precedente in un quiz.
