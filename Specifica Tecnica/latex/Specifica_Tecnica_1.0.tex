@@ -788,7 +788,7 @@ di un Questionario".
 	\begin{itemize}
 	\item\textbf{Precondizioni:} Viene richiesta la visualizzazione su schermo di una domanda.
 	\item\textbf{Postcondizioni:} La domanda viene convertita dal precedente formato QML al formato HTML interpretabile dal browser.
-	\item\textbf{Descrizione:} MANCA SOLO QUESTO
+	\item\textbf{Descrizione:} alla richiesta di una domanda viene invocata una factory di Question, in questo caso una factory che a partire da testo QML crea domande in HTML. La factory delega la traduzione alla classe Translator; quest'ultima s'interfaccia col package Interpreter, richiedendo l'unica istanza di QMLInterpreterFactory, la quale crea un oggetto QML2HTMLInterpreter. A questo punto Translator può richiedere la traduzione del codice QML all'Interpreter ottenuto, e ritornare il risultato alla QML2HTMLFactory. Infine viene creata la domanda in formato HTML e restituita al richiedente iniziale.
 	\end{itemize}
 	\newpage
 	
