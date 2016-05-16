@@ -1,4 +1,5 @@
-\documentclass[a4paper,11pt]{article}
+
+\rigaregistro{0.0.17}{Luca Alessio (Progettista)}{12/05/2016}{Termine stesura sezione diagrammi e revisione/ampliamento di vari paragrafi}\documentclass[a4paper,11pt]{article}
 	\input{../../template.tex}
 
 	\title{\textbf{{\fontsize{8mm}{5mm}\selectfont QUIZZIPEDIA}}}
@@ -40,10 +41,6 @@
 	
 	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm} 
 	\textbf{Descrizione}}
-	\rigaregistro{1.0}{Martin Mbouenda (responsabile)}{16/05/2016}{Approvazione del documento.}
-	\rigaregistro{0.1.0}{A. Beccaro (Verificatore)}{13/05/2016}{Verifica completa del documento.}
-	\rigaregistro{0.0.19}{A. Multineddu (Progettista)}{12/05/2016}{Stesura della tracciamento requisiti - componenti".}
-	\rigaregistro{0.0.18}{Davide Bortot (Progettista)}{11/05/2016}{Stesura della tracciamento componenti - requisiti".}
 	\rigaregistro{0.0.17}{Luca Alessio (Progettista)}{12/05/2016}{Termine stesura sezione diagrammi e revisione/ampliamento di vari paragrafi}
 	\rigaregistro{0.0.16}{Davide Bortot (Progettista)}{10/05/2016}{Stesura della sezione "Design pattern utilizzati".}
 	\rigaregistro{0.0.15}{Davide Bortot (Progettista)}{08/05/2016}{Inseriti grafici dei Diagrammi di Sequenza. Aggiunta tecnologia "Materialize" alla sezione "Tecnologie e strumenti utilizzati".}
@@ -1021,17 +1018,30 @@ Model::Parser::Parser		& F 5.2.1\\
 Model::Statistic::Statistics	& Non tracciabile\\
 
 \midrule
-View::CurrentViewManager::CurrentView	& \\
-										& \\
-										& \\
+View::CurrentViewManager::CurrentView	& Non tracciabile\\
+
 \midrule
 View::CurrentViewManager::Sender		& \\
-										& \\
-										& \\
+
 \midrule
-View::Pages::MainPage			& \\
-								& \\
-								& \\
+View::Pages::MainPage						& F 1\\
+								& F 1.1\\
+								& F 1.1.1\\
+								& F 1.1.2\\
+								& F 1.1.2.1\\
+								& F 1.2\\
+								& F 1.2.1.1\\
+								& F 1.2.1.2\\
+								& F 2\\
+								& F 2.1\\
+								& F 2.1.1\\
+								& F 2.1.2\\
+								& F 2.2\\
+								& F 2.2.1\\
+								& F 2.2.2.2\\
+								& F 2.3\\
+								& F 2.3.1.1\\
+
 \midrule
 View::Pages::CategoryListPage					& F 3.1\\
 								& F 3.1.1\\
@@ -1039,7 +1049,12 @@ View::Pages::CategoryListPage					& F 3.1\\
 								& F 3.1.3\\
 
 \midrule
-View::Pages::QuizListPage					& F 3.2\\
+View::Pages::QuizListPage					& F 3\\
+								& F 3.1\\
+								& F 3.1.1\\
+								& F 3.1.2\\
+								& F 3.1.3\\
+								& F 3.2\\
 								& F 3.2.1\\
 								& F 3.2.2\\
 								& F 3.2.3\\
@@ -1074,116 +1089,141 @@ View::Pages::ViewTutorialPage	& Non tracciabile\\
 \midrule
 View::UserAuthentication::User	& F 7\\
 \midrule
-Presenter::UserInputManager::InputManager	& F 1\\
-											& F 1.2.1\\
-											& F 1.2.1.1\\
-											& F 2.3\\
-											& F 2.3.1\\
-											& F 3\\
-											& F 3.1.1\\
-											& F 3.2.1\\
-											& F 4\\
-											& F 4.5\\
-											& F 5.2\\
-											& F 7\\
+Presenter::UserInputManager::InputManager	& \\
+											& \\
+											& \\
 \midrule
-
-Presenter::UserInputManager::CreateQuiz		& F 6\\
-											& F 6.2.1\\
+Presenter::UserInputManager::Input	& \\
+									& \\
+									& \\
 \midrule
-Presenter::UserInputManager::AddQuestion	& F 6.1\\
-											& F 6.1.3.2\\
+Presenter::UserInputManager::CreateQuiz		& \\
+											& \\
+											& \\
 \midrule
-Presenter::UserInputManager::RemoveQuestion	& F 6.1\\
-											& F 6.1.3.2\\
+Presenter::UserInputManager::AddQuestion	& \\
+											& \\
+											& \\
 \midrule
-Presenter::UserInputManager::SaveQuiz		& F 6.2.2\\
-
+Presenter::UserInputManager::RemoveQuestion		& \\
+												& \\
+												& \\
 \midrule
-Presenter::UserInputManager::CreateQuestion	& F 5\\
-											& F 5.2.1\\
+Presenter::UserInputManager::SaveQuiz		& \\
+											& \\
+											& \\
 \midrule
-Presenter::UserInputManager::SaveQuestion	& F 5.2.2\\
-
+Presenter::UserInputManager::CreateQuestion	& \\
+											& \\
+											& \\
 \midrule
-Presenter::UserInputManager::DeleteQuestion	& F 5\\
-
+Presenter::UserInputManager::SaveQuestion	& \\
+											& \\
+											& \\
 \midrule
-Presenter::UserInputManager::Choosequiz		& F 3.2.1\\
-
+Presenter::UserInputManager::DeleteQuestion	& \\
+											& \\
+											& \\
 \midrule
-Presenter::UserInputManager::StartQuiz		& F 4\\
+Presenter::UserInputManager::Choosequiz		& \\
+											& \\
+											& \\
 \midrule
-Presenter::UserInputManager::NextQuestion	& F 4.1\\
-											& F 4.4\\
-				
+Presenter::UserInputManager::StartQuiz		& \\
+											& \\
+											& \\
 \midrule
-Presenter::UserInputManager::PreviousQuestion		& F 4.1\\
-													& F 4.4\\
+Presenter::UserInputManager::NextQuestion	& \\
+											& \\
+											& \\
 \midrule
-Presenter::UserInputManager::EndQuiz		& F 4.5\\
+Presenter::UserInputManager::PreviousQuestion		& \\
+													& \\
+													& \\
 \midrule
-Presenter::UserInputManager::Login		& F 4.5\\
+Presenter::UserInputManager::EndQuiz		& \\
+											& \\
+											& \\
 \midrule
-Presenter::UserInputManager::Logout		& F 4.5\\
+Presenter::UserInputManager::ViewProfile	& \\
+											& \\
+											& \\
 \midrule
-Presenter::UserInputManager::UserRegistration		& F 4.5\\
+Presenter::UserInputManager::UpdateProfile	& \\
+											& \\
+											& \\
 \midrule
-Presenter::UserInputManager::ViewProfile	& non tracciabile\\
+Presenter::UserInputManager::ViewQMLTutorial	& \\
+												& \\
+												& \\
 \midrule
-Presenter::UserInputManager::UpdateProfile	& non tracciabile\\
-
+Presenter::UserInputManager::ViewQuizList		& \\
+												& \\
+												& \\
 \midrule
-Presenter::UserInputManager::ViewQMLTutorial	& non tracciabile\\
+Presenter::Updaters::Updater		& \\
+									& \\
+									& \\
 \midrule
-Presenter::UserInputManager::ViewQuizList		& F 3.1.1\\
-												& F 3.2\\
+Presenter::Updaters::ModelUpdater		& \\
+									& \\
+									& \\
 \midrule
-Presenter::Updaters::ModelUpdater	& F 1.2.2\\
-									& F 5.2.2\\
-									& F 6.2.2\\
+Presenter::Updaters::ViewUpdater		& \\
+									& \\
+									& \\
 \midrule
-Presenter::Updaters::ViewUpdater	& F 1.1.2.1\\
-									& F 1.2.1.1\\
-									& F 1.2.1.2\\
-									& F 2.3.1.1\\
-									& F 3.1.1\\
-									& F 3.2.1\\
-									& F 4.5.1\\
-									& F 4.5.2.1\\
-									& F 5.2.1.1\\
-									& F 5.2.1.2\\
-									& F 5.2.2.1\\
-									& F 5.2.2.2\\
-									& F 6.2.1.1\\
-									& F 6.2.1.2\\
-									& F 6.2.2.1\\
-									& F 6.2.2.2\\
+Presenter::QuestionManager::QuestionFactory	& \\
+											& \\
+											& \\
 \midrule
-Presenter::QuestionManager::QML2HTMLFactory	& F 8\\
-											& F 5\\
-
+Presenter::QuestionManager::Question		& \\
+											& \\
+											& \\
 \midrule
-Presenter::QuestionManager::HTMLQuestion	& F 5\\
-
+Presenter::QuestionManager::QML2HTMLFactory	& \\
+											& \\
+											& \\
 \midrule
-Presenter::QuestionManager::Translator		& F 8\\
-
+Presenter::QuestionManager::HTMLQuestion	& \\
+											& \\
+											& \\
 \midrule
-Presenter::QuizManager::QuizDirector	& F 6\\
-
+Presenter::QuestionManager::Translator		& \\
+											& \\
+											& \\
 \midrule
-Presenter::QuizManager::QuizBuilder	& F 6\\
-
+Presenter::QuizManager::QuizDirector	& \\
+										& \\
+										& \\
 \midrule
-Presenter::QuizManager::Quiz	& F 5\\
-
+Presenter::QuizManager::QuizBuilder	& \\
+										& \\
+										& \\
 \midrule
-Presenter::Interpreter::QMLInterpreterFactory	& F 8\\
-
+Presenter::QuizManager::Quiz	& \\
+								& \\
+								& \\
 \midrule
-Presenter::Interpreter::QML2HTMLInterpreter		& F 8\\
-
+Presenter::Interpreter::Interpreter		& \\
+										& \\
+										& \\
+\midrule
+Presenter::Interpreter::InterpreterFactory		& \\
+												& \\
+												& \\
+\midrule
+Presenter::Interpreter::QMLInterpreterFactory	& \\
+												& \\
+												& \\
+\midrule
+Presenter::Interpreter::QMLInterpreter		& \\
+											& \\
+											& \\
+\midrule
+Presenter::Interpreter::QML2HTMLInterpreter		& \\
+												& \\
+												& \\
 \midrule
 							
 	\end{longtable}			
@@ -1352,10 +1392,15 @@ F 3.1.1 & View::CurrentViewManager::CurrentView\\
 			& Presenter::QuizManager::QuizBuilder\\
 			& Presenter::QuizManager::Quiz\\
 			& Presenter::QuizManager::QuizDirector\\
+			& Presenter::QuestionManager::QuestionFactory \\
+			& Presenter::QuestionManager::Question		 \\
 			& Presenter::QuestionManager::QML2HTMLFactory	 \\
 			& Presenter::QuestionManager::HTMLQuestion	 \\
 			& Presenter::QuestionManager::Translator		 \\	
+			& Presenter::Interpreter::Interpreter		 \\
+			& Presenter::Interpreter::InterpreterFactory		 \\
 			& Presenter::Interpreter::QMLInterpreterFactory	 \\
+			& Presenter::Interpreter::QMLInterpreter		 \\
 			& Presenter::Interpreter::QML2HTMLInterpreter		
 			& Model::Database\\
 \midrule
@@ -1391,46 +1436,19 @@ F 3.2.1 & View::CurrentViewManager::CurrentView\\
 		& Model::Database\\
 \midrule
 F 3.2 & View::CurrentViewManager::CurrentView\\
+\midrule
 		& View::Pages::QuizListPage\\		
 \midrule	
 F 4		& View::CurrentViewManager::CurrentView\\
+\midrule
 		& View::Pages::QuizListPage\\
-		& View::Pages::QuizExecutionPage\\
 \midrule
-F 5		& View::CurrentViewManager::CurrentView\\
-		& Presenter::UserInputManager::CreateQuestion\\
-		& Presenter::UserInputManager::SaveQuestion	\\
-		& Presenter::Updaters::ModelUpdater\\
-		& Presenter::QuestionManager::QML2HTMLFactory	 \\
-			& Presenter::QuestionManager::HTMLQuestion	 \\
-			& Presenter::QuestionManager::Translator		 \\	
-			& Presenter::Interpreter::QMLInterpreterFactory	 \\
-			& Presenter::Interpreter::QML2HTMLInterpreter\\
-			& Model::Database\\
-\midrule
-F 6		& View::CurrentViewManager::CurrentView\\
-& Presenter::UserInputManager::InputManager	\\	
-		& Presenter::UserInputManager::CreateQuestion\\
-		& Presenter::UserInputManager::SaveQuestion	\\
-		& Presenter::Updaters::ModelUpdater\\
-		& Presenter::QuestionManager::QML2HTMLFactory	 \\
-			& Presenter::QuestionManager::HTMLQuestion	 \\
-			& Presenter::QuestionManager::Translator		 \\	
-			& Presenter::Interpreter::QMLInterpreterFactory	 \\
-			& Presenter::Interpreter::QML2HTMLInterpreter\\
-			& Presenter::QuizManager::QuizDirector\\
-		& Presenter::QuizManager::QuizBuilder\\
-		& Presenter::QuizManager::Quiz\\
-		& Presenter::QuizManager::QuizDirector\\
-		& Model::Database\\
-\midrule
-F 7 & Presenter::UserInputManager::InputManager	\\	
-& View::CurrentViewManager::CurrentView\\
-& View::UserAthentication::User\\
-& Presenter::UserInputManager::Logout	\\	
-& Presenter::Updaters::ViewUpdater\\
-& Model::Database\\
+		& View::Pages::QuizExecutionPage\\	
+\midrule						
+			
+			
 			
 	\end{longtable}
+
 	
 \end{document}
