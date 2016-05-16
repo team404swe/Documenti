@@ -11,38 +11,38 @@
 \contentsline {subsection}{\numberline {2.1}Definizione obiettivi}{4}{subsection.2.1}
 \contentsline {subsubsection}{\numberline {2.1.1}Qualit\IeC {\`a} di processo}{4}{subsubsection.2.1.1}
 \contentsline {subsubsection}{\numberline {2.1.2}Qualit\IeC {\`a} di prodotto}{4}{subsubsection.2.1.2}
-\contentsline {subsection}{\numberline {2.2}Organizzazione}{5}{subsection.2.2}
-\contentsline {subsubsection}{\numberline {2.2.1}Analisi}{5}{subsubsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2}Organizzazione}{4}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Analisi}{4}{subsubsection.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.2}Progettazione architetturale}{5}{subsubsection.2.2.2}
 \contentsline {subsubsection}{\numberline {2.2.3}Progettazione di dettaglio e Codifica}{6}{subsubsection.2.2.3}
-\contentsline {subsection}{\numberline {2.3}Gestione amministrativa della revisione}{7}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Procedure di controllo di qualit\IeC {\`a} di processo}{8}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.3}Gestione amministrativa della revisione}{6}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Procedure di controllo di qualit\IeC {\`a} di processo}{7}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}Procedure di controllo qualit\IeC {\`a} di prodotto}{8}{subsection.2.5}
-\contentsline {section}{\numberline {3}Misure e metriche: parametri di tolleranza}{9}{section.3}
-\contentsline {subsection}{\numberline {3.1}Processi}{9}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Documenti}{9}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Software}{10}{subsection.3.3}
-\contentsline {section}{Appendici}{11}{section*.4}
-\contentsline {section}{\numberline {A}Misure e Metriche}{11}{appendix.Alph1}
-\contentsline {subsection}{\numberline {A.1}Di progetto}{11}{subsection.Alph1.1}
-\contentsline {subsubsection}{\numberline {A.1.1}Schedule Variance}{11}{subsubsection.Alph1.1.1}
-\contentsline {subsubsection}{\numberline {A.1.2}Budget variance}{11}{subsubsection.Alph1.1.2}
-\contentsline {subsection}{\numberline {A.2}Per i documenti}{11}{subsection.Alph1.2}
-\contentsline {subsubsection}{\numberline {A.2.1}Indice Gulpease}{11}{subsubsection.Alph1.2.1}
-\contentsline {subsection}{\numberline {A.3}Per il software}{12}{subsection.Alph1.3}
-\contentsline {subsubsection}{\numberline {A.3.1}Parameter count}{12}{subsubsection.Alph1.3.1}
-\contentsline {subsubsection}{\numberline {A.3.2}Cyclomatic complexity}{12}{subsubsection.Alph1.3.2}
-\contentsline {subsubsection}{\numberline {A.3.3}Metriche di Halstead}{12}{subsubsection.Alph1.3.3}
-\contentsline {subsubsection}{\numberline {A.3.4}Dependency count}{13}{subsubsection.Alph1.3.4}
-\contentsline {subsubsection}{\numberline {A.3.5}Maintainability Index}{13}{subsubsection.Alph1.3.5}
-\contentsline {subsubsection}{\numberline {A.3.6}First-order density}{14}{subsubsection.Alph1.3.6}
-\contentsline {subsubsection}{\numberline {A.3.7}Change cost}{14}{subsubsection.Alph1.3.7}
-\contentsline {subsubsection}{\numberline {A.3.8}Core size}{14}{subsubsection.Alph1.3.8}
-\contentsline {subsubsection}{\numberline {A.3.9}Copertura dei test}{14}{subsubsection.Alph1.3.9}
-\contentsline {subsubsection}{\numberline {A.3.10}W3C - Markup Validation Service}{14}{subsubsection.Alph1.3.10}
-\contentsline {section}{\numberline {B}Specifica test}{15}{appendix.Alph2}
-\contentsline {subsection}{\numberline {B.1}Livelli di testing}{15}{subsection.Alph2.1}
-\contentsline {subsection}{\numberline {B.2}Test di accettazione}{16}{subsection.Alph2.2}
-\contentsline {subsubsection}{\numberline {B.2.1}Requisiti funzionali}{16}{subsubsection.Alph2.2.1}
-\contentsline {subsection}{\numberline {B.3}Test di sistema}{21}{subsection.Alph2.3}
-\contentsline {section}{\numberline {C}Resoconto attivit\IeC {\`a} di verifica}{26}{appendix.Alph3}
+\contentsline {section}{\numberline {3}Misure e metriche: parametri di tolleranza}{8}{section.3}
+\contentsline {subsection}{\numberline {3.1}Processi}{8}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Documenti}{8}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Software}{9}{subsection.3.3}
+\contentsline {section}{Appendici}{10}{section*.4}
+\contentsline {section}{\numberline {A}Misure e Metriche}{10}{appendix.Alph1}
+\contentsline {subsection}{\numberline {A.1}Di progetto}{10}{subsection.Alph1.1}
+\contentsline {subsubsection}{\numberline {A.1.1}Schedule Variance}{10}{subsubsection.Alph1.1.1}
+\contentsline {subsubsection}{\numberline {A.1.2}Budget variance}{10}{subsubsection.Alph1.1.2}
+\contentsline {subsection}{\numberline {A.2}Per i documenti}{10}{subsection.Alph1.2}
+\contentsline {subsubsection}{\numberline {A.2.1}Indice Gulpease}{10}{subsubsection.Alph1.2.1}
+\contentsline {subsection}{\numberline {A.3}Per il software}{11}{subsection.Alph1.3}
+\contentsline {subsubsection}{\numberline {A.3.1}Parameter count}{11}{subsubsection.Alph1.3.1}
+\contentsline {subsubsection}{\numberline {A.3.2}Cyclomatic complexity}{11}{subsubsection.Alph1.3.2}
+\contentsline {subsubsection}{\numberline {A.3.3}Metriche di Halstead}{11}{subsubsection.Alph1.3.3}
+\contentsline {subsubsection}{\numberline {A.3.4}Dependency count}{12}{subsubsection.Alph1.3.4}
+\contentsline {subsubsection}{\numberline {A.3.5}Maintainability Index}{12}{subsubsection.Alph1.3.5}
+\contentsline {subsubsection}{\numberline {A.3.6}First-order density}{13}{subsubsection.Alph1.3.6}
+\contentsline {subsubsection}{\numberline {A.3.7}Change cost}{13}{subsubsection.Alph1.3.7}
+\contentsline {subsubsection}{\numberline {A.3.8}Core size}{13}{subsubsection.Alph1.3.8}
+\contentsline {subsubsection}{\numberline {A.3.9}Copertura dei test}{13}{subsubsection.Alph1.3.9}
+\contentsline {subsubsection}{\numberline {A.3.10}W3C - Markup Validation Service}{13}{subsubsection.Alph1.3.10}
+\contentsline {section}{\numberline {B}Specifica test}{14}{appendix.Alph2}
+\contentsline {subsection}{\numberline {B.1}Livelli di testing}{14}{subsection.Alph2.1}
+\contentsline {subsection}{\numberline {B.2}Test di accettazione}{15}{subsection.Alph2.2}
+\contentsline {subsection}{\numberline {B.3}Test di sistema}{20}{subsection.Alph2.3}
+\contentsline {subsection}{\numberline {B.4}Requisiti di qualit\IeC {\`a}}{27}{subsection.Alph2.4}
+\contentsline {section}{\numberline {C}Resoconto attivit\IeC {\`a} di verifica}{27}{appendix.Alph3}
