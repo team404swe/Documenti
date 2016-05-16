@@ -95,3 +95,5 @@
 \contentsline {subsection}{\numberline {9.3}Builder}{38}{subsection.9.3}
 \contentsline {subsection}{\numberline {9.4}Command}{39}{subsection.9.4}
 \contentsline {section}{\numberline {10}Tracciamento}{40}{section.10}
+\contentsline {subsection}{\numberline {10.1}Mappatura componenti-requisiti}{40}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Mappatura requisiti - componenti}{45}{subsection.10.2}

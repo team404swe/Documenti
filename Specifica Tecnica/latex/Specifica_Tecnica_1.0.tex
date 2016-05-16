@@ -316,7 +316,7 @@ con vettori associativi, che associano nomi di proprietà a valori.
 		\item \textit{Translator}
 	\end{itemize}
 	
-	\item\textit{QuizManager}:
+	\item\textbf{QuizManager}:
 	Il Package \emph{QuizManager} espone le funzionalità necessarie alla creazione e gestione di quiz, collaborando con il package \emph{QuestionManager}. Per disaccoppiare la creazione di un quiz dalle domande che lo compongono, la classi all'interno del package seguono la struttura del design pattern \emph{Builder}.\\ 
 	Il package contiene al suo interno le classi:
 	\begin{itemize}
@@ -937,7 +937,274 @@ quello che porta a termine l'operazione
 	\newpage
 	
 	\section{Tracciamento}
+	\subsection{Mappatura componenti-requisiti}
+	\begin{longtable}{p{0.8\textwidth}p{0.20\textwidth}}
+\caption{Mappatura dei componenti sui requisiti} \\
+
+Nome componente & Codice requisito \\
+\midrule
+\endfirsthead
+
+Nome componente & Codice requisito \\
+\midrule
+\endhead
+
+\multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Mappatura dei componenti sui requisiti}
+\endfoot
+
+\multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Mappatura dei componenti sui requisiti}
+\endlastfoot
+
+Model::Database::Database 	& \\
+							& \\
+							& \\
+\midrule
+Model::Database::ModelEvent	& \\
+							& \\
+							& \\
+\midrule
+Model::Database::QuestionModifiedEvent	& \\
+										& \\
+										& \\
+\midrule
+Model::Database::QuestionRemovedEvent	& \\
+										& \\
+										& \\
+\midrule
+Model::Database::QuizModifiedEvent	& \\
+									& \\
+									& \\
+\midrule
+Model::Database::QuizRemovedEvent	& \\
+									& \\
+									& \\
+\midrule
+Model::Database::UserCreatedEvent	& \\
+									& \\
+									& \\
+\midrule
+Model::Database::UserModifiedEvent	& \\
+									& \\
+									& \\
+\midrule
+Model::Database::UserRemovedEvent	& \\
+									& \\
+									& \\
+\midrule
+Model::Parser::Parser		& \\
+							& \\
+							& \\
+\midrule
+Model::Statistic::Statistics	& \\
+								& \\
+								& \\
+\midrule
+View::CurrentViewManager::CurrentView	& \\
+										& \\
+										& \\
+\midrule
+View::CurrentViewManager::Sender		& \\
+										& \\
+										& \\
+\midrule
+View::Pages::MainPage			& \\
+								& \\
+								& \\
+\midrule
+View::Pages::CategoryListPage	& \\
+								& \\
+								& \\
+\midrule
+View::Pages::QuizListPage		& \\
+								& \\
+								& \\
+\midrule
+View::Pages::QuizExecutionPage	& \\
+								& \\
+								& \\
+\midrule
+View::Pages::QuizManagementPage	& \\
+								& \\
+								& \\
+\midrule
+View::Pages::ViewTutorialPage	& \\
+								& \\
+								& \\
+\midrule
+View::UserAuthentication::User	& \\
+								& \\
+								& \\
+\midrule
+Presenter::UserInputManager::InputManager	& \\
+											& \\
+											& \\
+\midrule
+Presenter::UserInputManager::Input	& \\
+									& \\
+									& \\
+\midrule
+Presenter::UserInputManager::CreateQuiz		& \\
+											& \\
+											& \\
+\midrule
+Presenter::UserInputManager::AddQuestion	& \\
+											& \\
+											& \\
+\midrule
+Presenter::UserInputManager::RemoveQuestion		& \\
+												& \\
+												& \\
+\midrule
+Presenter::UserInputManager::SaveQuiz		& \\
+											& \\
+											& \\
+\midrule
+Presenter::UserInputManager::CreateQuestion	& \\
+											& \\
+											& \\
+\midrule
+Presenter::UserInputManager::SaveQuestion	& \\
+											& \\
+											& \\
+\midrule
+Presenter::UserInputManager::DeleteQuestion	& \\
+											& \\
+											& \\
+\midrule
+Presenter::UserInputManager::Choosequiz		& \\
+											& \\
+											& \\
+\midrule
+Presenter::UserInputManager::StartQuiz		& \\
+											& \\
+											& \\
+\midrule
+Presenter::UserInputManager::NextQuestion	& \\
+											& \\
+											& \\
+\midrule
+Presenter::UserInputManager::PreviousQuestion		& \\
+													& \\
+													& \\
+\midrule
+Presenter::UserInputManager::EndQuiz		& \\
+											& \\
+											& \\
+\midrule
+Presenter::UserInputManager::ViewProfile	& \\
+											& \\
+											& \\
+\midrule
+Presenter::UserInputManager::UpdateProfile	& \\
+											& \\
+											& \\
+\midrule
+Presenter::UserInputManager::ViewQMLTutorial	& \\
+												& \\
+												& \\
+\midrule
+Presenter::UserInputManager::ViewQuizList		& \\
+												& \\
+												& \\
+\midrule
+Presenter::Updaters::Updater		& \\
+									& \\
+									& \\
+\midrule
+Presenter::Updaters::ModelUpdater		& \\
+									& \\
+									& \\
+\midrule
+Presenter::Updaters::ViewUpdater		& \\
+									& \\
+									& \\
+\midrule
+Presenter::QuestionManager::QuestionFactory	& \\
+											& \\
+											& \\
+\midrule
+Presenter::QuestionManager::Question		& \\
+											& \\
+											& \\
+\midrule
+Presenter::QuestionManager::QML2HTMLFactory	& \\
+											& \\
+											& \\
+\midrule
+Presenter::QuestionManager::HTMLQuestion	& \\
+											& \\
+											& \\
+\midrule
+Presenter::QuestionManager::Translator		& \\
+											& \\
+											& \\
+\midrule
+Presenter::QuizManager::QuizDirector	& \\
+										& \\
+										& \\
+\midrule
+Presenter::QuizManager::QuizBuilder	& \\
+										& \\
+										& \\
+\midrule
+Presenter::QuizManager::Quiz	& \\
+								& \\
+								& \\
+\midrule
+Presenter::Interpreter::Interpreter		& \\
+										& \\
+										& \\
+\midrule
+Presenter::Interpreter::InterpreterFactory		& \\
+												& \\
+												& \\
+\midrule
+Presenter::Interpreter::QMLInterpreterFactory	& \\
+												& \\
+												& \\
+\midrule
+Presenter::Interpreter::QMLInterpreter		& \\
+											& \\
+											& \\
+\midrule
+Presenter::Interpreter::QML2HTMLInterpreter		& \\
+												& \\
+												& \\
+\midrule
+							
+	\end{longtable}			
 	\newpage
+	
+	\subsection{Mappatura requisiti - componenti}
+
+\begin{longtable}{p{0.20\textwidth}p{0.80\textwidth}}
+\caption{Mappatura dei requisiti sui componenti} \\
+
+Codice Requisito & Nome Componente \\
+\midrule
+\endfirsthead
+
+Codice Requisito & Nome Componente \\
+\midrule
+\endhead
+
+\multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Mappatura dei requisiti sui componenti}
+\endfoot
+
+\multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Mappatura dei requisiti sui componenti}
+\endlastfoot
+
+FO 1 & server\\
+ & server.dbManager\\
+ & queryEnvironment\\
+ & queryEnvironment.queryCreation\\
+ & queryEnvironment.resultsProspect\\
+ & queryEnvironmentManagers\\
+ & queryEnvironmentManagers.queryCreationManagers\\
+ & queryEnvironmentManagers.resultsProspectManagers\\
+ & queryEnvironmentManagers.queryRepresentManagers \\
+\midrule									
+	\end{longtable}
 
 
 \end{document}
