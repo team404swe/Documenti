@@ -1,0 +1,45 @@
+ho riletto/verificato il pdq e queste sono le maggiori falle che ho trovato:
+
+- il registro delle modifiche è un po scarno, andrebbero inserite descrizioni dei vari interventi che hai fatto (tipo "inserito paragrafo x", "ampliato paragrafo y", "aggiunte immagini su z" e roba simile che a tullio piace) perchè adesso ci sono solo quelli di alex praticamente
+
+- il documento è ancora in versione 1.0, quando hai fatto queste correzioni se non manca altro ricordati di cambiare tutto in 2.0
+
+- nel sommario dopo team 404 ci va una virgola perchè la seconda frase fa un po fatica a stare in piedi da sola
+
+- pagina 2 (numero bassa a destra non del pdf intero) analisi dei requisiti va 2.0 e anche glossario va 2.0
+
+- stessa cosa sui riferimenti mettere 2.0
+
+- nel paragrafo 2.1.1 c'è un DA DESCRIVERE IN APPENDICE da togliere e anche in 2.1.2
+
+- 2.2.1 anche qui 1.0 che devono diventare 2.0
+
+- inizio pagina 8 anche qua c'è ancora 1.0
+
+- 2.4 sta parte in cui parli di github e che ogni persona deve fare 1 commit importante mi pare un po cosi nel senso che non so come fai a misurare un commit cospicuo ma vabbe ci può stare (però siamo sicuri sia stato rispettato in questi giorni? ;P)
+
+- 2.5 software quality assurance: si dice "attività svolte al fine di..." oppure "attività volte a garantire..." (secondo me)
+ verifica: wat. la frase non ha tanto senso
+ validazioni: soddisfi anzichè soddisfa
+
+- fino a schedule variance mi pare ok, ma ce l'abbiamo noi una schedulazione delle attività? se si sarebbe da specificare dove si trova (pdp 2.0 immagino)
+
+- indice gulpease rispettato mai nella vita mi sa ahah
+
+- A.3 c'è un punto su una linea da solo cosi a caso, rivedere impaginazione, del contenuto mi fido
+
+- ta 3.2 uando
+
+- ta 4 non sarebbe meglio spezzarlo in sottocasi? ormai lasciamo cosi ma secondo me in futuro conviene testare le varie domande singolarmente
+
+- perchè passi da 4 a 4.5.1? devi mettere lo stesso id del requisito per forza?
+
+sono arrivato a pagina 19 e per ora questo è quello che c'è da rivedere
+
+vado avanti forse oggi o magari può finire l'ultima parte qualcunaltro
+
+ora correggo gli errori minori tipo i 2.0 e quelli grammaticali ma il resto devi rivederlo te marco che è meglio
+
+p.s. hai corretto tutti gli errori evidenziati dal prof durante la prima valutazione vero?
+
+

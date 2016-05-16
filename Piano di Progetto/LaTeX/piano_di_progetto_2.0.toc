@@ -57,3 +57,5 @@
 \contentsline {subsubsection}{\numberline {8.2.1}Analisi di periodo}{30}{subsubsection.8.2.1}
 \contentsline {subsubsection}{\numberline {8.2.2}Preventivo a finire}{31}{subsubsection.8.2.2}
 \contentsline {subsubsubsection}{\numberline {8.2.2.1}Progettazione di Dettaglio e Codifica}{31}{subsubsubsection.8.2.2.1}
+\contentsline {subsubsubsection}{\numberline {8.2.2.2}Prospetto Orario Aggiornato}{32}{subsubsubsection.8.2.2.2}
+\contentsline {subsubsubsection}{\numberline {8.2.2.3}Preventivo}{33}{subsubsubsection.8.2.2.3}
