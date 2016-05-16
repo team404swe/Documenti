@@ -181,8 +181,8 @@ Web. Viene interpretato all'interno del browser. Permette di definire funzionali
 quelle offerte da C++ e Java, quali cicli e strutture di controllo.
 Viene solitamente affiancato a pagine statiche HTML per poter gestire i contenuti dinamicamente, offrendo funzionalità che il linguaggio di markup non può offrire.
 	\begin{itemize}
-		\item\textbf{Utilizzo}: nel sistema Quizzipedia Javascript rivestirà un ruolo importante, verrà infatti utilizzato nella realizzazione del parser/interprete/boh andrea dimmi te.
-		\item\textbf{Vantaggi}: eseguito lato Client (sul browser) non sovraccarica il Server per l'esecuzione di richieste, anche se lo script è complesso.
+		\item\textbf{Utilizzo}: nel sistema Quizzipedia Javascript sarà ampiamente utilizzato. La quasi totalità delle componenti del Presenter sarà realizzata in Javascript, per gestire la parte logica dell'applicazione gli elementi dinamici dell'interfaccia.
+		\item\textbf{Vantaggi}: eseguito lato Client (sul browser) non sovraccarica il Server per l'esecuzione di richieste complesse. Permette un maggior livello d'interattività dell'interfaccia utente.
 		\item\textbf{Svantaggi}: per script sorgenti molto corposi, può risultare oneroso in termini di
 tempo lo scaricamento dei contenuti. Deve, inoltre, fare affidamento ad un linguaggio
 che possa fisicamente effettuare transazioni di dati quando lo script esegue operazioni
@@ -197,9 +197,10 @@ Gli oggetti sono entità dotate di unicità (sono uguali solo a sé stessi) e id
 con vettori associativi, che associano nomi di proprietà a valori.
 	\end{itemize}
 	\subsection{Node.js}
+	 Node.js è un framework event-driven per il motore JavaScript V8, relativo all'utilizzo server-side di Javascript.
 	\begin{itemize}
-		\item\textbf{Utilizzo}: Tecnologia imposta dal proponente per la gestione della base di dati su cui poggia il sistema Quizzipedia.
-		\item\textbf{Vantaggi}: Tecnologia simil javascript dotata di robusta sistema di packaging e di una velocità superiore rispetto alla concorrenza. Secondariamente, questa tecnologia cross-platform ha suscitato molto di più l'interesse del team che se ne intende avvalere rispetto a Tomcat, l'altra tecnologia proposta dal proponente.
+		\item\textbf{Utilizzo}: Tecnologia imposta dal proponente per la gestione della base di dati, e in generale della parte server, su cui poggia il sistema Quizzipedia.
+		\item\textbf{Vantaggi}: Node.js offre prestazioni eccellenti per lo scripting server-side una velocità superiore rispetto alla concorrenza. Il modello event-driven su cui si basa si adatta inoltre molto bene agli scopi del progetto. Secondariamente, questa tecnologia cross-platform ha suscitato molto di più l'interesse del team che se ne intende avvalere rispetto a Tomcat, l'altra tecnologia proposta dal proponente.
 		\item\textbf{Svantaggi}: Il design del linguaggio impedisce alcune ottimizzazioni delle operazioni e la gestione dei tipi non è confortevole come in altri concorrenti.
 	\end{itemize}
 	\subsection{PostgreSQL}
@@ -209,6 +210,7 @@ con vettori associativi, che associano nomi di proprietà a valori.
 		\item\textbf{Vantaggi}: Tecnologia più robusta, stabile e performante di MySQL (inizialmente preso in considerazione ma poi scartato in favore di PostgreSQL).
 		\item\textbf{Svantaggi}: Complessità maggiore rispetto al classico MySQL.
 	\end{itemize}
+	\newpage
 	
 	\section{Risorse necessarie}
 	Dato che il progetto sarà sviluppato con le tecnologie di cui sopra, per il sviluppo il gruppo avrà bisogno di risorse quali:
@@ -278,7 +280,7 @@ con vettori associativi, che associano nomi di proprietà a valori.
 				\item\textit{QuizManagementPage}%mettere link alla sezione in cui è spiegata
 				\item\textit{ViewTutorialPage}%mettere link alla sezione in cui è spiegata
 			\end{itemize}
-		\item\textbf{UserAuthentication:} contiene la classe \textit{User} e la sua derivata \textit{Admin} che raggruppano le funzionalità di autenticazione di un utente generico sulla piattaforma Quizzipedia; come \textit{Pages} anche \textit{UserAuthentication} è un package d'appoggio per la classe \textit{CurrentViewManager}::\textit{CurrentView}.\\
+		\item\textbf{UserAuthentication:} contiene la classe \textit{User} che raggruppa le funzionalità di autenticazione di un utente generico sulla piattaforma Quizzipedia; come \textit{Pages} anche \textit{UserAuthentication} è un package d'appoggio per la classe \textit{CurrentViewManager}::\textit{CurrentView}.\\
 		\\
 	\end{itemize}
 	\subsection{Package della componente Presenter}
@@ -294,9 +296,23 @@ con vettori associativi, che associano nomi di proprietà a valori.
 	\begin{itemize}
 		\item \textit{InputManager}
 		\item \textit{Input}
-		\item \textit{sottoclassi di Input}
-	\end{itemize}
-	
+		\item\textit{CreateQuiz}
+		\item\textit{AddQuestion}
+		\item\textit{RemoveQuestion}
+		\item\textit{SaveQuiz}
+		\item\textit{CreateQuestion}
+		\item\textit{SaveQuestion}
+		\item\textit{DeleteQuestion}
+		\item\textit{ChooseQuiz}
+		\item\textit{StartQuiz}
+		\item\textit{NextQuestion}
+		\item\textit{PreviousQuestion}
+		\item\textit{EndQuiz}
+		\item\textit{ViewProfile}
+		\item\textit{UpdateProfile}
+		\item\textit{ViewQMLTutorial}
+		\item\textit{ViewQuizList}
+	\end{itemize}	
 	\item \textbf{Updaters}:
 	Il package \emph{Updaters} ha la responsabilità di aggiornare View e Model in risposta agli input utente. per svolgere i suoi compiti collabora con i packages \emph{QuizManger} e \emph{QuestionManager}. Il package contiene al suo interno le classi:
 	\begin{itemize}
@@ -955,9 +971,17 @@ Nome componente & Codice requisito \\
 \multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Mappatura dei componenti sui requisiti}
 \endlastfoot
 
-Model::Database::Database 	& \\
-							& \\
-							& \\
+Model::Database::Database 	& F 1.2.1.2\\
+							& F 1.2.2\\
+							& F 1.2.3\\
+							& F 2.3.1.1\\
+							& F 3\\
+							& F 3.1.1\\
+							& F 3.2\\
+							& F 4\\
+							& F 4.5\\
+							& F 5.2.2\\
+							& F 6.2.2\\
 \midrule
 Model::Database::ModelEvent	& \\
 							& \\
@@ -1194,17 +1218,204 @@ Codice Requisito & Nome Componente \\
 \multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Mappatura dei requisiti sui componenti}
 \endlastfoot
 
-FO 1 & server\\
- & server.dbManager\\
- & queryEnvironment\\
- & queryEnvironment.queryCreation\\
- & queryEnvironment.resultsProspect\\
- & queryEnvironmentManagers\\
- & queryEnvironmentManagers.queryCreationManagers\\
- & queryEnvironmentManagers.resultsProspectManagers\\
- & queryEnvironmentManagers.queryRepresentManagers \\
-\midrule									
+F 1 & View::CurrentViewManager::CurrentView\\
+	& View::UserAuthentication::User\\
+\midrule
+F 1.1 & View::CurrentViewManager::CurrentView\\
+	& View::UserAuthentication::User\\
+\midrule
+F 1.1.1 & View::CurrentViewManager::CurrentView\\
+	& View::UserAuthentication::User\\
+\midrule
+F 1.1.2 & View::CurrentViewManager::CurrentView\\
+	& View::UserAuthentication::User\\
+\midrule
+F 1.1.2.1 & View::CurrentViewManager::CurrentView\\
+	& View::UserAuthentication::User\\
+\midrule
+F 1.2 & View::CurrentViewManager::CurrentView\\
+	& View::UserAuthentication::User\\
+\midrule
+F 1.2.1 & View::CurrentViewManager::CurrentView\\
+	& View::UserAuthentication::User\\
+\midrule
+F 1.2.1.1 & View::CurrentViewManager::CurrentView\\
+	& View::UserAuthentication::User\\
+\midrule
+F 1.2.1.2 & View::CurrentViewManager::CurrentView\\
+			& View::UserAuthentication::User\\
+			& Presenter::UserInputManager::Input\\
+			& Presenter::UserInputManager::UserRegistration\\
+			& Presenter::UserInputManager::InputManager\\
+			& Presenter::Updaters::ModelUpdater\\
+			& Presenter::Updaters::ViewUpdater\\
+			& Model::Database\\
+\midrule
+F 1.2.1.3 	& View::CurrentViewManager::CurrentView\\
+			& View::UserAuthentication::User\\
+\midrule
+F 1.2.2 & View::CurrentViewManager::CurrentView\\
+			& View::UserAuthentication::User\\
+			& Presenter::UserInputManager::Input\\
+			& Presenter::UserInputManager::UserRegistration\\
+			& Presenter::UserInputManager::InputManager\\
+			& Presenter::Updaters::ModelUpdater\\
+			& Presenter::Updaters::ViewUpdater\\
+			& Model::Database\\
+\midrule
+F 1.2.3 & View::CurrentViewManager::CurrentView\\
+			& View::UserAuthentication::User\\
+			& Presenter::UserInputManager::Input\\
+			& Presenter::UserInputManager::UserRegistration\\
+			& Presenter::UserInputManager::Login\\
+			& Presenter::UserInputManager::InputManager\\
+			& Presenter::Updaters::ModelUpdater\\
+			& Presenter::Updaters::ViewUpdater\\
+			& Model::Database\\
+\midrule
+F 2 & View::CurrentViewManager::CurrentView\\
+			& View::UserAuthentication::User\\
+			& Presenter::UserInputManager::Input\\
+			& Presenter::UserInputManager::Login\\
+			& Presenter::UserInputManager::InputManager\\
+			& Presenter::Updaters::ModelUpdater\\
+			& Presenter::Updaters::ViewUpdater\\
+			& Model::Database\\
+\midrule
+F 2.1 	& View::CurrentViewManager::CurrentView\\
+			& View::UserAuthentication::User\\
+\midrule
+F 2.1.1 	& View::CurrentViewManager::CurrentView\\
+			& View::UserAuthentication::User\\
+\midrule
+F 2.1.2 	& View::CurrentViewManager::CurrentView\\
+			& View::UserAuthentication::User\\
+\midrule
+
+
+
+%facoltativi
+\iffalse
+F 2.2 	& View::CurrentViewManager::CurrentView\\
+			& View::UserAuthentication::User\\
+\midrule
+F 2.2.1 	& View::CurrentViewManager::CurrentView\\
+			& View::UserAuthentication::User\\
+\midrule
+F 2.2.2 	& View::CurrentViewManager::CurrentView\\
+			& View::UserAuthentication::User\\
+\midrule
+F 2 & View::CurrentViewManager::CurrentView\\
+			& View::UserAuthentication::User\\
+			& Presenter::UserInputManager::Input\\
+			& Presenter::UserInputManager::Login\\
+			& Presenter::UserInputManager::InputManager\\
+			& Presenter::Updaters::ModelUpdater\\
+			& Presenter::Updaters::ViewUpdater\\
+			& Model::Database\\
+\midrule
+\fi
+
+
+
+F 2.3 & View::CurrentViewManager::CurrentView\\
+			& View::UserAuthentication::User\\
+\midrule
+F 2.3.1 & View::CurrentViewManager::CurrentView\\
+		& View::UserAuthentication::User\\
+\midrule
+F 2.3.1.1 & View::CurrentViewManager::CurrentView\\
+			& View::UserAuthentication::User\\
+			& Presenter::UserInputManager::Input\\
+			& Presenter::UserInputManager::Login\\
+			& Presenter::UserInputManager::InputManager\\
+			& Presenter::Updaters::ModelUpdater\\
+			& Presenter::Updaters::ViewUpdater\\
+			& Model::Database\\
+\midrule
+F 2.3.2 & View::CurrentViewManager::CurrentView\\
+			& View::UserAuthentication::User\\
+			& Presenter::UserInputManager::Input\\
+			& Presenter::UserInputManager::Login\\
+			& Presenter::UserInputManager::InputManager\\
+			& Presenter::Updaters::ModelUpdater\\
+			& Presenter::Updaters::ViewUpdater\\
+			& Model::Database\\
+\midrule
+F 3 & View::CurrentViewManager::CurrentView\\
+			& View::Pages::QuizListPage\\
+\midrule
+F 3.1 & View::CurrentViewManager::CurrentView\\
+			& View::Pages::QuizListPage\\
+\midrule
+
+%tengo qui per comodità
+\iffalse
+F 3.1.1 & View::CurrentViewManager::CurrentView\\
+		& View::Pages::QuizListPage\\
+		& Presenter::UserInputManager::Input\\
+			& Presenter::UserInputManager::ViewQuizList\\
+			& Presenter::UserInputManager::InputManager\\
+			& Presenter::Updaters::ViewUpdater\\
+			& Presenter::Updaters::ModelUpdater\\
+			& Presenter::QuizManager::QuizDirector\\
+			& Presenter::QuizManager::QuizBuilder\\
+			& Presenter::QuizManager::Quiz\\
+			& Presenter::QuizManager::QuizDirector\\
+			& Presenter::QuestionManager::QuestionFactory \\
+			& Presenter::QuestionManager::Question		 \\
+			& Presenter::QuestionManager::QML2HTMLFactory	 \\
+			& Presenter::QuestionManager::HTMLQuestion	 \\
+			& Presenter::QuestionManager::Translator		 \\	
+			& Presenter::Interpreter::Interpreter		 \\
+			& Presenter::Interpreter::InterpreterFactory		 \\
+			& Presenter::Interpreter::QMLInterpreterFactory	 \\
+			& Presenter::Interpreter::QMLInterpreter		 \\
+			& Presenter::Interpreter::QML2HTMLInterpreter		
+			& Model::Database\\
+\midrule
+\fi
+
+F 3.1.1 & View::CurrentViewManager::CurrentView\\
+		& View::CurrentViewManager::CurrentView\\
+		& View::Pages::QuizListPage\\
+		& Presenter::UserInputManager::Input\\
+			& Presenter::UserInputManager::ViewQuizList\\
+			& Presenter::UserInputManager::InputManager\\
+			& Presenter::Updaters::ViewUpdater\\
+			& Presenter::Updaters::ModelUpdater\\
+			& Model::Database\\
+\midrule
+F 3.1.2 & View::CurrentViewManager::CurrentView\\
+			& View::Pages::QuizListPage\\
+\midrule			
+F 3.2 & View::CurrentViewManager::CurrentView\\
+			& View::Pages::QuizListPage\\			
+\midrule						
+F 3.2.1 & View::CurrentViewManager::CurrentView\\
+		& View::Pages::QuizListPage\\	
+		& Presenter::UserInputManager::Input\\
+		& Presenter::UserInputManager::ChooseQuiz\\
+		& Presenter::UserInputManager::InputManager\\
+		& Presenter::Updaters::ModelUpdater\\
+		& Presenter::Updaters::ViewUpdater\\
+		& Presenter::QuizManager::QuizDirector\\
+		& Presenter::QuizManager::QuizBuilder\\
+		& Presenter::QuizManager::Quiz\\
+		& Presenter::QuizManager::QuizDirector\\
+		& Model::Database\\
+\midrule
+F 3.2 & View::CurrentViewManager::CurrentView\\
+		& View::Pages::QuizListPage\\		
+\midrule	
+F 4		& View::CurrentViewManager::CurrentView\\
+		& View::Pages::QuizListPage\\
+		& View::Pages::QuizExecutionPage	
+\midrule						
+			
+			
+			
 	\end{longtable}
 
-
+	
 \end{document}
