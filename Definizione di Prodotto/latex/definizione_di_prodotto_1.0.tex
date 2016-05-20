@@ -1,0 +1,99 @@
+\documentclass[a4paper,11pt]{article}
+	\input{../../template.tex}
+
+	\title{\textbf{{\fontsize{8mm}{5mm}\selectfont QUIZZIPEDIA}}}
+	\date{}
+	\author{}	
+
+
+\begin{document}
+	\maketitle
+	\thispagestyle{empty}
+	\begin{center}	
+	\includegraphics{../team_not_found.jpg}\\
+	\fontsize{5mm}{3mm}\url{team404swe@gmail.com}\\
+	
+	\vspace{50mm}
+	\textbf{Definizione di Prodotto 1.0}
+	\end{center}
+	\introtab{Definizione di Prodotto}	%1 nome documento
+			{1.0} 							%2 versione
+			{Esterno} 						%3 Uso
+			{20 maggio 2016} 				%4 Data cre
+			{\today} 						%5 Data mod
+			{D. Bortot}		%6 Redazione
+			{Alex Beccaro } 			%7 Verifica
+			{Martin V. Mbouenda} 				%8 Approvazione
+	\newpage
+	\thispagestyle{empty}
+	\null  
+
+	\newpage
+	\newpage
+	\fancyhead[R]{REGISTRO DELLE MODIFICHE}
+	\fancyfoot[R]{\thepage}
+	
+	\hspace{30 mm}
+	\section*{Registro delle modifiche}
+	
+	\beginregistro
+	
+	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm}} 
+	\rigaregistro{0.0.1}{Davide Bortot (Progettista)}{20/05/2016}{Creazione e impostazione documento. Definite sezioni "Sommario" e "Introduzione".}
+	
+	\fineregistro
+
+	\newpage
+	\fancyhead[R]{\leftmark}
+	\tableofcontents
+	\pagenumbering{Roman}
+	\newpage
+	\listoffigures
+	\listoftables
+	
+	\newpage
+	\pagenumbering{arabic}
+	
+	\section*{Sommario}
+	Questo documento, redatto dal gruppo \textbf{Team404}, contiene la descrizione di dettaglio dell'architettura software sulla quale verrà sviluppato il progetto Quizzipedia, commissionato da Zucchetti S.p.A..
+Le specifiche del documento si basano sull'architettura generale descritta nel documento "\textit{specifica\_tecnica\_2.0.pdf}".
+	
+	\newpage
+	\section{Introduzione}
+	\subsection{Scopo del documento}
+	Il documento ha lo scopo di definire nel dettaglio la struttura del sistema Quizzipedia, approfondendone la descrizione già definita nel documento di Specifica Tecnica. Per poter sviluppare al meglio il prodotto, i programmatori dovranno attenersi alle specifiche definite in questo documento.
+	
+	\subsection{Scopo del prodotto}
+	Il progetto \textbf{Quizzipedia} ha come obiettivo lo sviluppo di un sistema software basato su tecnologie Web (Javascript\addglos, Node.js\addglos, HTML5\addglos, CSS3\addglos) che permetta la creazione, gestione e fruizione di questionari. Il sistema dovrà quindi poter archiviare i questionari suddivisi per argomento, le cui domande dovranno essere raccolte attraverso uno specifico linguaggio di markup (Quiz Markup Language) d'ora in poi denominato QML\addglos. In un caso d'uso a titolo esemplificativo, un "esaminatore" dovrà poter costruire il proprio questionario scegliendo tra le domande archiviate, ed il questionario così composto sarà presentato e fruibile all' "esaminando", traducendo l'oggetto QML in una pagina HTML\addglos, tramite un'apposita interfaccia web. Il sistema presentato dovrà inoltre poter proporre questionari preconfezionati e valutare le risposte fornite dall'utente finale.
+	\\
+	Per un'analisi più precisa ed approfondita del progetto si rimanda al documento\\ "\textit{analisi\_dei\_requisiti\_2.0.pdf}".
+	\subsection{Glossario}
+	Viene allegato un glossario nel file ``\textit{glossario\_2.0.pdf}'' nel quale viene data una definizione a tutti i termini che in questo documento appaiono con il simbolo '\addglos' a pedice.
+	\subsection{Riferimenti}
+		\subsubsection{Normativi}
+
+		\begin{itemize}
+			\item Capitolato d'appalto Quizzipedia:\\
+			\url{http://www.math.unipd.it/~tullio/IS-1/2015/Progetto/C5.pdf}
+			\item Norme di Progetto: "\textit{norme\_di\_progetto\_2.0.pdf}"
+		\end{itemize}
+		\subsubsection{Informativi}
+		\begin{itemize}
+			\item Corso di Ingegneria del Software anno 2015/2016:\\
+			\url{http://www.math.unipd.it/~tullio/IS-1/2015/}
+			\item Regole del progetto didattico:\\
+			\url{http://www.math.unipd.it/~tullio/IS-1/2015/Dispense/PD01.pdf}
+			\url{http://www.math.unipd.it/~tullio/IS-1/2015/Progetto/}\\
+		\end{itemize}
+	\pagebreak
+	\newpage
+	\input{sezioni/architettura.tex}
+	\newpage
+	\input{sezioni/view.tex}
+	\newpage
+	\input{sezioni/model.tex}
+	\newpage
+	\input{sezioni/presenter.tex}
+	\newpage
+	
+\end{document}
