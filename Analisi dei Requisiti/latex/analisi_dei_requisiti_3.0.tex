@@ -170,13 +170,13 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 
 \textbf{Attori:} \textit{utente non autenticato}
 \\ \\
-\textbf{Descrizione:} caso d'uso che descrive l'inserimento della propria email da parte dell'utente.\\
+\textbf{Descrizione:} caso d'uso che descrive l'inserimento della propria e-mail da parte dell'utente.\\
 \\
-\textbf{Precondizioni:} il sistema permette l'inserimento di una email.\\
+\textbf{Precondizioni:} il sistema permette l'inserimento di una e-mail.\\
 \\
-\textbf{Postcondizioni:} l’utente ha inserito la propria email.\\
+\textbf{Postcondizioni:} l’utente ha inserito la propria e-mail.\\
 \\
-\textbf{Scenario:} l’utente inserisce la propria email nell'apposito campo.\\
+\textbf{Scenario:} l’utente inserisce la propria e-mail nell'apposito campo.\\
 
 
 \subsubsection{UC 1.2 - Inserimento password}
@@ -209,37 +209,37 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \\
 \textbf{Postcondizioni:} l’utente ha recuperato la propria password.\\
 \\
-\textbf{Scenario:} l’utente segue la procedura di recupero password e il sistema provvede a mandare una email con la password all'utente.\\
+\textbf{Scenario:} l’utente segue la procedura di recupero password e il sistema provvede a mandare una e-mail con la password all'utente.\\
 
 
-\subsubsubsection{UC 1.3.1 - Inserimento email}
+\subsubsubsection{UC 1.3.1 - Inserimento e-mail}
 
 \textbf{Attori:} \textit{utente non autenticato}
 \\ \\
-\textbf{Descrizione:} caso d'uso che descrive l'inserimento della email nella procedura di recupero password.\\
+\textbf{Descrizione:} caso d'uso che descrive l'inserimento della e-mail nella procedura di recupero password.\\
 \\
 \textbf{Precondizioni:} l'utente è nella procedura di recupero password.\\
 \\
-\textbf{Postcondizioni:} l’utente ha inserito la propria email.\\
+\textbf{Postcondizioni:} l’utente ha inserito la propria e-mail.\\
 \\
-\textbf{Scenario:} l’utente inserisce la propria email nell'apposito campo.\\
+\textbf{Scenario:} l’utente inserisce la propria e-mail nell'apposito campo.\\
 
 
-\subsubsubsection{UC 1.3.2 - Invio email recupero password}
+\subsubsubsection{UC 1.3.2 - Invio e-mail recupero password}
 
 \textbf{Attori:} \textit{utente non autenticato}
 \\ \\
-\textbf{Descrizione:} caso d'uso che descrive l'invio al sistema della email nella procedura di recupero password.\\
+\textbf{Descrizione:} caso d'uso che descrive l'invio al sistema della e-mail nella procedura di recupero password.\\
 \\
-\textbf{Precondizioni:} l'utente ha inserito la propria email nella procedura di recupero password.\\
+\textbf{Precondizioni:} l'utente ha inserito la propria e-mail nella procedura di recupero password.\\
 \\
-\textbf{Postcondizioni:} l’utente riceve una email con la propria password dimenticata.\\
+\textbf{Postcondizioni:} l’utente riceve una e-mail con la propria password dimenticata.\\
 \\
-\textbf{Scenario:} l’utente invia la propria email e il sistema manda una mail con la password dimenticata.\\
+\textbf{Scenario:} l’utente invia la propria e-mail e il sistema manda una mail con la password dimenticata.\\
 \\
 \textbf{Extension points:} 
 \begin{itemize}
-	\item \textbf{Email non registrata:} La email inviata al sistema non corrisponde a nessun utente, viene visualizzato un messaggio di errore (UC 1.3.3)
+	\item \textbf{e-mail non registrata:} La e-mail inviata al sistema non corrisponde a nessun utente, viene visualizzato un messaggio di errore (UC 1.3.3)
 \end{itemize}
 
 
@@ -257,7 +257,7 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \\
 \textbf{Extension points:} 
 \begin{itemize}
-	\item \textbf{Combinazione email password non corretta:} I dati inseriti e inviati al sistema non sono corretti, viene visualizzato un messaggio di errore (UC 1.5)
+	\item \textbf{Combinazione e-mail password non corretta:} I dati inseriti e inviati al sistema non sono corretti, viene visualizzato un messaggio di errore (UC 1.5)
 \end{itemize}
 
 
@@ -278,20 +278,20 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \\
 \textbf{Postcondizioni:} l’utente che ora è registrato e autenticato.\\
 \\
-\textbf{Scenario:} l’utente inserisce i dati di registrazione per effettuare il login al sistema (UC 2.1 e 2.2). Nel caso la password non abbia almeno 8 caratteri viene visualizzato un messaggio che avvisa l'utente che non è valida (UC 2.3). Se i dati inseriti sono corretti il sistema registra e autentica l'utente (UC 2.4). Se invece non sono stati inseriti alcuni campi viene visualizzato un messaggio di errore (UC 2.5). Nel caso in cui la email inserita sia già utilizzata da un altro utente viene visualizzato un messaggio di errore (UC 2.6).\\
+\textbf{Scenario:} l’utente inserisce i dati di registrazione per effettuare il login al sistema (UC 2.1 e 2.2). Nel caso la password non abbia almeno 8 caratteri viene visualizzato un messaggio che avvisa l'utente che non è valida (UC 2.3). Se i dati inseriti sono corretti il sistema registra e autentica l'utente (UC 2.4). Se invece non sono stati inseriti alcuni campi viene visualizzato un messaggio di errore (UC 2.5). Nel caso in cui la e-mail inserita sia già utilizzata da un altro utente viene visualizzato un messaggio di errore (UC 2.6).\\
 
 
-\subsubsection{UC 2.1 - Inserimento email}
+\subsubsection{UC 2.1 - Inserimento e-mail}
 
 \textbf{Attori:} \textit{utente non autenticato}
 \\ \\
-\textbf{Descrizione:} caso d'uso che descrive l'inserimento della propria email da parte dell'utente.\\
+\textbf{Descrizione:} caso d'uso che descrive l'inserimento della propria e-mail da parte dell'utente.\\
 \\
-\textbf{Precondizioni:} il sistema permette l'inserimento di una email.\\
+\textbf{Precondizioni:} il sistema permette l'inserimento di una e-mail.\\
 \\
-\textbf{Postcondizioni:} l’utente ha inserito la propria email.\\
+\textbf{Postcondizioni:} l’utente ha inserito la propria e-mail.\\
 \\
-\textbf{Scenario:} l’utente inserisce la propria email nell'apposito campo.\\
+\textbf{Scenario:} l’utente inserisce la propria e-mail nell'apposito campo.\\
 
 
 \subsubsection{UC 2.2 - Inserimento password}
@@ -327,7 +327,7 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \textbf{Extension points:} 
 \begin{itemize}
 	\item \textbf{Dati non inseriti:} alcuni dati richiesti non sono stati inseriti, viene visualizzato un messaggio di errore (UC 2.5)
-	\item \textbf{Email già in uso:} l'email inserita è già stata registrata da un utente, viene visualizzato un messaggio di errore (UC 2.6)
+	\item \textbf{e-mail già in uso:} l'e-mail inserita è già stata registrata da un utente, viene visualizzato un messaggio di errore (UC 2.6)
 \end{itemize}
 
 
@@ -921,7 +921,7 @@ F 1.2.1 & Prima di inviare i dati viene effettuato un controllo su di essi & Obb
 \midrule
 F 1.2.1.1 & Se i dati richiesti non sono stati inseriti viene visualizzato un messaggio di errore & Desiderabile\\
 \midrule
-F 1.2.1.2 & Se la email inserita risulta già in uso viene visualizzato un messaggio di errore & Desiderabile\\
+F 1.2.1.2 & Se la e-mail inserita risulta già in uso viene visualizzato un messaggio di errore & Desiderabile\\
 \midrule
 F 1.2.1.3 & Se i dati non risultano corretti ne viene bloccato l'invio & Obbligatorio\\
 \midrule
@@ -977,9 +977,13 @@ F 3.2.3 & Per ogni elemento dell'elenco viene visualizzato il numero di domande 
 \midrule
 F 3.2.4 & Per ogni elemento dell'elenco viene visualizzato l'autore & Facoltativo\\
 \midrule
+F 3.2.5 & Per ogni elemento dell'elenco viene visualizzato la data di creazione & Facoltativo\\
+\midrule
 F 4 & Il sistema deve fornire la possibilità di compilare un questionario & Obbligatorio\\
 \midrule
 F 4.1 & Durante la compilazione del questionario un utente può navigare liberamente tra le domande che lo compongono & Desiderabile\\
+\midrule
+F 4.1.1 & Durante lo svolgimento di un questionario viene presentato un singolo quesito per volta all'utente & Desiderabile\\
 \midrule
 F 4.2 & L'utente può rispondere alle domande & Obbligatorio\\
 \midrule
@@ -987,7 +991,7 @@ F 4.2.1 & Viene visualizzato il testo della domanda & Obbligatorio\\
 \midrule
 F 4.2.2 & Viene visualizzata la risposta data & Obbligatorio\\
 \midrule
-F 4.2.3 & Se la domanda richiede una risposta inserita dal'utente allora viene fornito un campo per l'inserimento della risposta & Obbligatorio\\
+F 4.2.3 & Se la domanda richiede una risposta inserita dall'utente allora viene fornito un campo per l'inserimento della risposta & Obbligatorio\\
 \midrule
 F 4.2.4 & Se la domanda ha delle risposte preimpostate di qualsiasi tipo queste vengono visualizzate & Obbligatorio\\
 \midrule
@@ -1051,6 +1055,16 @@ F 5.2.2.1 & Se la creazione di una nuova domanda va a buon fine il sistema avvis
 \midrule
 F 5.2.2.2 & Se la creazione di una nuova domanda non va a buon fine il sistema visualizza un messaggio di errore & Desiderabile\\
 \midrule
+F 5.3 & L'utente ha la possibilità di modificare domande da lui precedentemente create & Facoltativo\\
+\midrule
+F 5.3.1 & Qualora la modifica venga ritenuta valida essa viene salvata e l'utente ne viene notificato & Facoltativo\\
+\midrule
+F 5.3 & Qualora la modifica non venga ritenuta conforme l'utente viene avvertito da un messaggio d'errore & Facoltativo\\
+\midrule
+F 5.4 & L'utente ha la possibilità di eliminare domande da lui precedentemente create & Facoltativo\\
+\midrule
+F 5.5 & L'utente ha la possibilità di annullare la creazione, modifica od eliminazione di una domanda & Facoltativo\\
+\midrule
 F 6 & Il sistema deve fornire la possibilità ad un utente autenticato di creare un nuovo questionario & Obbligatorio\\
 \midrule
 F 6.1 & La sezione dedicata alla creazione di un questionario deve permettere l'inserimento dei dati necessari & Obbligatorio\\
@@ -1065,7 +1079,13 @@ F 6.1.3.1 & Se nessuna categoria è stata selezionata non viene visualizzata alc
 \midrule
 F 6.1.3.2 & Ogni domanda deve essere selezionabile & Obbligatorio\\
 \midrule
-F 6.1.4 & La sezione dedicata alla creazione di un questionario deve permettere l'inserimento del tempo di compilazione & Facoltativo\\
+F 6.1.4 & La sezione dedicata alla creazione di un questionario deve permettere il regolamento del tempo limite per la compilazione & Facoltativo\\
+\midrule
+F 6.1.4.1 & Il tempo limite minimo per la compilazione del questionario è di 5 (cinque) minuti & Facoltativo\\
+\midrule
+F 6.1.4.2 & Il tempo limite massimo per la compilazione del questionario è di 30 (trenta) minuti & Facoltativo\\
+\midrule
+F 6.1.4.3 & Qualora l'utente non lo specificasse, il tempo limite di default per la compilazione del questionario è di 10 (dieci) minuti & Facoltativo\\
 \midrule
 F 6.2 & La sezione dedicata alla creazione di un nuovo questionario deve permettere l'invio dei dati inseriti & Obbligatorio\\
 \midrule
@@ -1082,6 +1102,8 @@ F 6.2.2 & Quando dei dati che superano i controlli vengono inviati viene creato 
 F 6.2.2.1 & Se la creazione di un nuovo questionario va a buon fine il sistema avvisa l'utente & Desiderabile\\
 \midrule
 F 6.2.2.2 & Se la creazione di un nuovo questionario non va a buon fine il sistema visualizza un messaggio di errore & Desiderabile\\
+\midrule
+F 6.2.3 & La sezione dedicata alla creazione di un nuovo questionario deve permetterne l'annullamento qualora l'utente abbia ripensamenti & Facoltativo\\
 \midrule
 F 7 & Il sistema deve fornire la possibilità ad un utente autenticato di uscire facendo il logout & Obbligatorio\\
 \midrule
@@ -1138,11 +1160,11 @@ ID & Descrizione & Priorità \\
 			
 Q 1 & Ogni file contiene codice scritto in un solo linguaggio per separare struttura, contenuto e comportamento & Obbligatorio\\
 \midrule
-Q 1.1 & Il codice html si occupa della struttura delle pagine web & Obbligatorio\\
+Q 1.1 & Il codice HTML si occupa della struttura delle pagine web & Obbligatorio\\
 \midrule
-Q 1.2 & Il codice css si occupa dello stile delle pagine web & Obbligatorio\\
+Q 1.2 & Il codice CSS si occupa dello stile delle pagine web & Obbligatorio\\
 \midrule
-Q 1.3 & Il codice javascript si occupa del comportamento delle pagine web & Obbligatorio\\
+Q 1.3 & Il codice Javascript si occupa del comportamento delle pagine web & Obbligatorio\\
 \midrule
 Q 2 & Il codice HTML passa il test di validazione del W3C & Obbligatorio\\
 \midrule

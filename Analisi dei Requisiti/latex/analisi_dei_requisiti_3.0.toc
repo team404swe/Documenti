@@ -18,11 +18,11 @@
 \contentsline {subsubsection}{\numberline {3.3.1}UC 1.1 - Inserimento email}{6}{subsubsection.3.3.1}
 \contentsline {subsubsection}{\numberline {3.3.2}UC 1.2 - Inserimento password}{6}{subsubsection.3.3.2}
 \contentsline {subsubsection}{\numberline {3.3.3}UC 1.3 - Password dimenticata}{7}{subsubsection.3.3.3}
-\contentsline {subsubsubsection}{\numberline {3.3.3.1}UC 1.3.1 - Inserimento email}{7}{subsubsubsection.3.3.3.1}
-\contentsline {subsubsubsection}{\numberline {3.3.3.2}UC 1.3.2 - Invio email recupero password}{8}{subsubsubsection.3.3.3.2}
+\contentsline {subsubsubsection}{\numberline {3.3.3.1}UC 1.3.1 - Inserimento e-mail}{7}{subsubsubsection.3.3.3.1}
+\contentsline {subsubsubsection}{\numberline {3.3.3.2}UC 1.3.2 - Invio e-mail recupero password}{8}{subsubsubsection.3.3.3.2}
 \contentsline {subsubsection}{\numberline {3.3.4}UC 1.4 - Invio dati login}{8}{subsubsection.3.3.4}
 \contentsline {subsection}{\numberline {3.4}UC 2 - Registrazione}{9}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}UC 2.1 - Inserimento email}{10}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.1}UC 2.1 - Inserimento e-mail}{10}{subsubsection.3.4.1}
 \contentsline {subsubsection}{\numberline {3.4.2}UC 2.2 - Inserimento password}{10}{subsubsection.3.4.2}
 \contentsline {subsubsection}{\numberline {3.4.3}UC 2.4 - Invio dati registrazione}{10}{subsubsection.3.4.3}
 \contentsline {subsection}{\numberline {3.5}UC 3 - Visualizzazione categorie}{11}{subsection.3.5}
@@ -35,7 +35,7 @@
 \contentsline {subsection}{\numberline {3.7}UC 5 - Scelta questionario}{13}{subsection.3.7}
 \contentsline {subsection}{\numberline {3.8}UC 6 - Compilazione questionario}{14}{subsection.3.8}
 \contentsline {subsubsection}{\numberline {3.8.1}UC 6.1 - Visualizzazione domande}{15}{subsubsection.3.8.1}
-\contentsline {subsubsubsection}{\numberline {3.8.1.1}UC 6.1.1 - Visualizzazione testo domanda}{15}{subsubsubsection.3.8.1.1}
+\contentsline {subsubsubsection}{\numberline {3.8.1.1}UC 6.1.1 - Visualizzazione testo domanda}{16}{subsubsubsection.3.8.1.1}
 \contentsline {subsubsubsection}{\numberline {3.8.1.2}UC 6.1.2 - Visualizzazione risposte preimpostate}{16}{subsubsubsection.3.8.1.2}
 \contentsline {subsubsubsection}{\numberline {3.8.1.3}UC 6.1.3 - Visualizzazione risposta data}{16}{subsubsubsection.3.8.1.3}
 \contentsline {subsubsection}{\numberline {3.8.2}UC 6.2 - Compilazione domanda}{17}{subsubsection.3.8.2}
@@ -65,7 +65,7 @@
 \contentsline {section}{\numberline {4}Requisiti}{27}{section.4}
 \contentsline {subsection}{\numberline {4.1}Requisiti funzionali}{27}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Requisiti di qualit\IeC {\`a}}{35}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Vincoli di sistema}{35}{subsection.4.3}
-\contentsline {section}{\numberline {5}Mappature}{37}{section.5}
-\contentsline {subsection}{\numberline {5.1}Mappatura casi d'uso - requisiti}{37}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Mappatura requisiti - casi d'uso}{40}{subsection.5.2}
+\contentsline {subsection}{\numberline {4.3}Vincoli di sistema}{36}{subsection.4.3}
+\contentsline {section}{\numberline {5}Mappature}{38}{section.5}
+\contentsline {subsection}{\numberline {5.1}Mappatura casi d'uso - requisiti}{38}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Mappatura requisiti - casi d'uso}{41}{subsection.5.2}
