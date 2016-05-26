@@ -27,7 +27,7 @@
 	
 	%qui
 	\introtab{Analisi dei Requisiti}		%1 nome documento
-			{2.0} 							%2 versione
+			{3.0} 							%2 versione
 			{Esterno} 						%3 Uso
 			{20 dicembre 2015} 				%4 Data creazione
 			{\today} 						%5 Data mod
@@ -90,13 +90,13 @@
 	\subsection{Scopo del Prodotto}
 	Il progetto \textbf{Quizzipedia} ha come obiettivo lo sviluppo di un sistema software basato su tecnologie Web (Javascript, Node.js, HTML5, CSS3) che permetta la creazione, gestione e fruizione di questionari. Il sistema dovrà quindi poter archiviare i questionari suddivisi per argomento, le cui domande dovranno essere raccolte attraverso uno specifico linguaggio di markup (Quiz Markup Language) d'ora in poi denominato QML. In un caso d'uso a titolo esemplificativo, un "esaminatore" dovrà poter costruire il proprio questionario scegliendo tra le domande archiviate, ed il questionario così composto sarà presentato e fruibile all' "esaminando", traducendo l'oggetto QML in una pagina HTML, tramite un'apposita interfaccia web. Il sistema presentato dovrà inoltre poter proporre questionari preconfezionati e valutare le risposte fornite dall'utente finale.
 	\subsection{Glossario}
-	Viene allegato un glossario nel file ``\textit{glossario\_2.0.pdf}'' nel quale viene data una definizione a tutti i termini che in questo documento appaiono sottolineati.
+	Viene allegato un glossario nel file ``\textit{glossario\_3.0.pdf}'' nel quale viene data una definizione a tutti i termini che in questo documento appaiono sottolineati.
 	\subsection{Riferimenti}
 		\subsubsection{Normativi}
 		\begin{itemize}
 			\item Capitolato d'appalto Quizzipedia:\\
 			\url{http://www.math.unipd.it/~tullio/IS-1/2015/Progetto/C5.pdf}
-			\item Norme di Progetto: "\textit{norme\_di\_progetto\_2.0.pdf}"
+			\item Norme di Progetto: "\textit{norme\_di\_progetto\_3.0.pdf}"
 		\end{itemize}
 		\subsubsection{Informativi}
 		\begin{itemize}
@@ -170,13 +170,13 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 
 \textbf{Attori:} \textit{utente non autenticato}
 \\ \\
-\textbf{Descrizione:} caso d'uso che descrive l'inserimento della propria e-mail da parte dell'utente.\\
+\textbf{Descrizione:} caso d'uso che descrive l'inserimento della propria email da parte dell'utente.\\
 \\
-\textbf{Precondizioni:} il sistema permette l'inserimento di una e-mail.\\
+\textbf{Precondizioni:} il sistema permette l'inserimento di una email.\\
 \\
-\textbf{Postcondizioni:} l’utente ha inserito la propria e-mail.\\
+\textbf{Postcondizioni:} l’utente ha inserito la propria email.\\
 \\
-\textbf{Scenario:} l’utente inserisce la propria e-mail nell'apposito campo.\\
+\textbf{Scenario:} l’utente inserisce la propria email nell'apposito campo.\\
 
 
 \subsubsection{UC 1.2 - Inserimento password}
@@ -209,38 +209,51 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \\
 \textbf{Postcondizioni:} l’utente ha recuperato la propria password.\\
 \\
-\textbf{Scenario:} l’utente segue la procedura di recupero password e il sistema provvede a mandare una e-mail con la password all'utente.\\
+\textbf{Scenario:} l’utente segue la procedura di recupero password e il sistema provvede a mandare una email con la password all'utente.\\
 
 
-\subsubsubsection{UC 1.3.1 - Inserimento e-mail}
+\subsubsubsection{UC 1.3.1 - Inserimento email}
 
 \textbf{Attori:} \textit{utente non autenticato}
 \\ \\
-\textbf{Descrizione:} caso d'uso che descrive l'inserimento della e-mail nella procedura di recupero password.\\
+\textbf{Descrizione:} caso d'uso che descrive l'inserimento della email nella procedura di recupero password.\\
 \\
 \textbf{Precondizioni:} l'utente è nella procedura di recupero password.\\
 \\
-\textbf{Postcondizioni:} l’utente ha inserito la propria e-mail.\\
+\textbf{Postcondizioni:} l’utente ha inserito la propria email.\\
 \\
-\textbf{Scenario:} l’utente inserisce la propria e-mail nell'apposito campo.\\
+\textbf{Scenario:} l’utente inserisce la propria email nell'apposito campo.\\
 
 
-\subsubsubsection{UC 1.3.2 - Invio e-mail recupero password}
+\subsubsubsection{UC 1.3.2 - Invio email recupero password}
 
 \textbf{Attori:} \textit{utente non autenticato}
 \\ \\
-\textbf{Descrizione:} caso d'uso che descrive l'invio al sistema della e-mail nella procedura di recupero password.\\
+\textbf{Descrizione:} caso d'uso che descrive l'invio al sistema della email nella procedura di recupero password.\\
 \\
-\textbf{Precondizioni:} l'utente ha inserito la propria e-mail nella procedura di recupero password.\\
+\textbf{Precondizioni:} l'utente ha inserito la propria email nella procedura di recupero password.\\
 \\
-\textbf{Postcondizioni:} l’utente riceve una e-mail con la propria password dimenticata.\\
+\textbf{Postcondizioni:} l’utente riceve una email con la propria password dimenticata.\\
 \\
-\textbf{Scenario:} l’utente invia la propria e-mail e il sistema manda una mail con la password dimenticata.\\
+\textbf{Scenario:} l’utente invia la propria email e il sistema manda una mail con la password dimenticata.\\
 \\
 \textbf{Extension points:} 
 \begin{itemize}
-	\item \textbf{e-mail non registrata:} La e-mail inviata al sistema non corrisponde a nessun utente, viene visualizzato un messaggio di errore (UC 1.3.3)
+	\item \textbf{email non registrata:} La email inviata al sistema non corrisponde a nessun utente, viene visualizzato un messaggio di errore (UC 1.3.3)
 \end{itemize}
+
+
+\subsubsection{UC 1.3.3 - Email non registrata}
+
+\textbf{Attori:} \textit{utente non autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la visualizzazione del messaggio di errore sul tentativo di recupero password.\\
+\\
+\textbf{Precondizioni:} l'utente ha inserito la propria email e l'ha inviata al sistema per il recupero della password. L'email inserita non è registrata nel sistema.\\
+\\
+\textbf{Postcondizioni:} l’utente visualizza un messaggio di errore sul tentativo di recupero password.\\
+\\
+\textbf{Scenario:} viene visualizzato un messaggio di errore sul tentativo di recupero password.\\
 
 
 \subsubsection{UC 1.4 - Invio dati login}
@@ -257,11 +270,23 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \\
 \textbf{Extension points:} 
 \begin{itemize}
-	\item \textbf{Combinazione e-mail password non corretta:} I dati inseriti e inviati al sistema non sono corretti, viene visualizzato un messaggio di errore (UC 1.5)
+	\item \textbf{Combinazione email password non corretta:} I dati inseriti e inviati al sistema non sono corretti, viene visualizzato un messaggio di errore (UC 1.5)
 \end{itemize}
 
 
-\newpage
+\subsubsection{UC 1.5 - Errore login}
+
+\textbf{Attori:} \textit{utente non autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la visualizzazione del messaggio di errore sul tentativo di login.\\
+\\
+\textbf{Precondizioni:} l'utente ha inserito i propri dati e li ha inviati al sistema per l'autenticazione. La combinazione di username e password non è corretta.\\
+\\
+\textbf{Postcondizioni:} l’utente visualizza un messaggio di errore sul tentativo di login.\\
+\\
+\textbf{Scenario:} viene visualizzato un messaggio di errore sul tentativo di login.\\
+
+
 \subsection{UC 2 - Registrazione}
 
 \begin{figure}[h!]
@@ -278,20 +303,20 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \\
 \textbf{Postcondizioni:} l’utente che ora è registrato e autenticato.\\
 \\
-\textbf{Scenario:} l’utente inserisce i dati di registrazione per effettuare il login al sistema (UC 2.1 e 2.2). Nel caso la password non abbia almeno 8 caratteri viene visualizzato un messaggio che avvisa l'utente che non è valida (UC 2.3). Se i dati inseriti sono corretti il sistema registra e autentica l'utente (UC 2.4). Se invece non sono stati inseriti alcuni campi viene visualizzato un messaggio di errore (UC 2.5). Nel caso in cui la e-mail inserita sia già utilizzata da un altro utente viene visualizzato un messaggio di errore (UC 2.6).\\
+\textbf{Scenario:} l’utente inserisce i dati di registrazione per effettuare il login al sistema (UC 2.1 e 2.2). Nel caso la password non abbia almeno 8 caratteri viene visualizzato un messaggio che avvisa l'utente che non è valida (UC 2.3). Se i dati inseriti sono corretti il sistema registra e autentica l'utente (UC 2.4). Se invece non sono stati inseriti alcuni campi viene visualizzato un messaggio di errore (UC 2.5). Nel caso in cui la email inserita sia già utilizzata da un altro utente viene visualizzato un messaggio di errore (UC 2.6).\\
 
 
-\subsubsection{UC 2.1 - Inserimento e-mail}
+\subsubsection{UC 2.1 - Inserimento email}
 
 \textbf{Attori:} \textit{utente non autenticato}
 \\ \\
-\textbf{Descrizione:} caso d'uso che descrive l'inserimento della propria e-mail da parte dell'utente.\\
+\textbf{Descrizione:} caso d'uso che descrive l'inserimento della propria email da parte dell'utente.\\
 \\
-\textbf{Precondizioni:} il sistema permette l'inserimento di una e-mail.\\
+\textbf{Precondizioni:} il sistema permette l'inserimento di una email.\\
 \\
-\textbf{Postcondizioni:} l’utente ha inserito la propria e-mail.\\
+\textbf{Postcondizioni:} l’utente ha inserito la propria email.\\
 \\
-\textbf{Scenario:} l’utente inserisce la propria e-mail nell'apposito campo.\\
+\textbf{Scenario:} l’utente inserisce la propria email nell'apposito campo.\\
 
 
 \subsubsection{UC 2.2 - Inserimento password}
@@ -312,6 +337,19 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \end{itemize}
 
 
+\subsubsection{UC 2.3 - Password non valida}
+
+\textbf{Attori:} \textit{utente non autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la visualizzazione del messaggio di errore relativo all'invalidità della password.\\
+\\
+\textbf{Precondizioni:} l'utente ha inserito la propria password. La password non è valida, ovvero ha meno di 8 caratteri.\\
+\\
+\textbf{Postcondizioni:} l’utente visualizza un messaggio di errore relativo all'invalidità della password.\\
+\\
+\textbf{Scenario:} viene visualizzato un messaggio di errore relativo all'invalidità della password.\\
+
+
 \subsubsection{UC 2.4 - Invio dati registrazione}
 
 \textbf{Attori:} \textit{utente non autenticato}
@@ -327,8 +365,34 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \textbf{Extension points:} 
 \begin{itemize}
 	\item \textbf{Dati non inseriti:} alcuni dati richiesti non sono stati inseriti, viene visualizzato un messaggio di errore (UC 2.5)
-	\item \textbf{e-mail già in uso:} l'e-mail inserita è già stata registrata da un utente, viene visualizzato un messaggio di errore (UC 2.6)
+	\item \textbf{email già in uso:} l'email inserita è già stata registrata da un utente, viene visualizzato un messaggio di errore (UC 2.6)
 \end{itemize}
+
+
+\subsubsection{UC 2.5 - Dati registrazione non inseriti}
+
+\textbf{Attori:} \textit{utente non autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la visualizzazione del messaggio di errore relativo alla mancanza di dati necessari alla registrazione.\\
+\\
+\textbf{Precondizioni:} l'utente ha inserito i propri dati e li ha inviati al sistema per la registrazione. Almeno un dato necessario non è stato inserito.\\
+\\
+\textbf{Postcondizioni:} l’utente visualizza un messaggio di errore relativo alla mancanza di dati necessari alla registrazione.\\
+\\
+\textbf{Scenario:} viene visualizzato un messaggio di errore relativo alla mancanza di dati necessari alla registrazione.\\
+
+
+\subsubsection{UC 2.6 - Email già utilizzata}
+
+\textbf{Attori:} \textit{utente non autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la visualizzazione del messaggio di errore relativo alla email già registrata alla registrazione.\\
+\\
+\textbf{Precondizioni:} l'utente ha inserito i propri dati e li ha inviati al sistema per la registrazione. L'email inserita è già stata registrata.\\
+\\
+\textbf{Postcondizioni:} l’utente visualizza un messaggio di errore relativo alla email già registrata alla registrazione.\\
+\\
+\textbf{Scenario:} viene visualizzato un messaggio di errore relativo alla email già registrata alla registrazione.\\
 
 
 \subsection{UC 3 - Visualizzazione categorie}
@@ -347,7 +411,7 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \\
 \textbf{Postcondizioni:} l’utente visualizza la lista delle categorie presenti.\\
 \\
-\textbf{Scenario:} l’utente accede alla sezione "Categorie". Per ogni categoria vengono visualizzati il nome (UC 3.1) e il numero di questionari relativi (UC 3.2).\\
+\textbf{Scenario:} l’utente accede alla sezione "Categorie". Per ogni categoria vengono visualizzati il nome (UC 3.1) e il numero di questionari relativi (UC 3.2). L'utente può selezionare una categoria (UC 3.3)\\
 
 
 \subsubsection{UC 3.1 - Visualizzazione nome categoria}
@@ -376,6 +440,20 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \textbf{Scenario:} l’utente visualizza il numero di questionari delle categorie.\\
 
 
+\subsubsection{UC 3.3 - Selezione categoria}
+
+\textbf{Attori:} \textit{utente}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la selezione di una categoria.\\
+\\
+\textbf{Precondizioni:} L'utente è nella sezione "categorie".\\
+\\
+\textbf{Postcondizioni:} la categoria è stata selezionata e viene visualizzata la lista dei questionari relativi.\\
+\\
+\textbf{Scenario:} l’utente seleziona una categoria e il sistema visualizza la lista dei questionari relativi.\\
+
+
+\newpage
 \subsection{UC 4 - Visualizzazione lista questionari categoria}
 
 \begin{figure}[h!]
@@ -392,7 +470,7 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \\
 \textbf{Postcondizioni:} l’utente visualizza la lista dei questionari della categoria selezionata.\\
 \\
-\textbf{Scenario:} l’utente seleziona una categoria e visualizza i questionari relativi. Per ogni questionario vengono visualizzati il nome (UC 4.1), il numero di domande (UC 4.2) e l'autore (UC 4.3).\\
+\textbf{Scenario:} l’utente seleziona una categoria e visualizza i questionari relativi. Per ogni questionario vengono visualizzati il nome (UC 4.1), il numero di domande (UC 4.2), l'autore (UC 4.3) e la data di creazione (UC 4.4).\\
 
 
 \subsubsection{UC 4.1 - Visualizzazione nome questionario}
@@ -434,6 +512,19 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \textbf{Scenario:} l’utente visualizza gli autori dei questionari.\\
 
 
+\subsubsection{UC 4.4 - Visualizzazione autore}
+
+\textbf{Attori:} \textit{utente}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la visualizzazione delle date di creazione dei questionari.\\
+\\
+\textbf{Precondizioni:} l'utente visualizza la lista dei questionari della categoria selezionata.\\
+\\
+\textbf{Postcondizioni:} il sistema visualizza le date di creazione dei questionari.\\
+\\
+\textbf{Scenario:} l’utente visualizza le date di creazione dei questionari.\\
+
+
 \subsection{UC 5 - Scelta questionario}
 
 \textbf{Attori:} \textit{utente}
@@ -451,7 +542,7 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.6]{../immagini/UC6.png}
+\includegraphics[scale=0.5]{../immagini/UC6.png}
 \caption{Compilazione questionario}
 \end{figure}
 \ \\
@@ -463,39 +554,39 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \\
 \textbf{Postcondizioni:} l’utente ha compilato un questionario e ne vede la valutazione.\\
 \\
-\textbf{Scenario:} l’utente compila il questionario. Questo comprende la visualizzazione e la compilazione delle domande (UC 6.1, UC 6.2) e la consegna (UC 6.3). In caso alla consegna ci siano domande non compilate viene visualizzato un messaggio di errore (UC 6.4). Dopo la consegna avviene la valutazione del questionario e la visualizzazione dei risultati (UC 6.5). Durante la compilazione viene visualizzato il tempo rimanente (UC 6.6).\\
+\textbf{Scenario:} l’utente compila il questionario. Questo comprende la visualizzazione e la compilazione delle domande (UC 6.1, UC 6.2), la navigazione tra esse (UC 6.6, UC 6.7) e la consegna (UC 6.3). La consegna viene eseguita in automatico allo scadere del tempo di compilazione. In caso alla consegna ci siano domande non compilate e il tempo non sia scaduto viene visualizzato un messaggio di errore (UC 6.4). Dopo la consegna avviene la valutazione del questionario e la visualizzazione dei risultati (UC 6.5). Durante la compilazione viene visualizzato il tempo rimanente (UC 6.6).\\
 
 
-\subsubsection{UC 6.1 - Visualizzazione domande}
+\subsubsection{UC 6.1 - Visualizzazione domanda}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.6]{../immagini/UC6_1.png}
-\caption{Visualizzazione domande}
+\caption{Visualizzazione domanda}
 \end{figure}
 \ \\
 \textbf{Attori:} \textit{utente}
 \\ \\
-\textbf{Descrizione:} caso d'uso che descrive la visualizzazione delle domande di un questionario.\\
+\textbf{Descrizione:} caso d'uso che descrive la visualizzazione della domanda attuale di un questionario.\\
 \\
-\textbf{Precondizioni:} l'utente visualizza un questionario.\\
+\textbf{Precondizioni:} l'utente sta compilando un questionario.\\
 \\
-\textbf{Postcondizioni:} il sistema visualizza le domande del questionario.\\
+\textbf{Postcondizioni:} il sistema visualizza la domanda attuale del questionario.\\
 \\
-\textbf{Scenario:} l’utente visualizza le domande del questionario.\\
+\textbf{Scenario:} l’utente visualizza la domanda attuale del questionario.\\
 
 
 \subsubsubsection{UC 6.1.1 - Visualizzazione testo domanda}
 
 \textbf{Attori:} \textit{utente}
 \\ \\
-\textbf{Descrizione:} caso d'uso che descrive la visualizzazione del testo delle domande.\\
+\textbf{Descrizione:} caso d'uso che descrive la visualizzazione del testo della domanda.\\
 \\
-\textbf{Precondizioni:} l'utente visualizza una lista di domande.\\
+\textbf{Precondizioni:} l'utente visualizza una domanda.\\
 \\
-\textbf{Postcondizioni:} il sistema visualizza il testo delle domande.\\
+\textbf{Postcondizioni:} il sistema visualizza il testo della domanda.\\
 \\
-\textbf{Scenario:} l’utente visualizza il testo delle domande.\\
+\textbf{Scenario:} l’utente visualizza il testo della domanda.\\
 
 
 \subsubsubsection{UC 6.1.2 - Visualizzazione risposte preimpostate}
@@ -541,7 +632,7 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \\
 \textbf{Postcondizioni:} l'utente ha compilato una domanda.\\
 \\
-\textbf{Scenario:} l’utente visualizza una domanda e la compila.\\
+\textbf{Scenario:} l’utente sta visualizzando una domanda e la compila.\\
 
 
 \subsubsubsection{UC 6.2.1 - Selezione risposta tra le presenti}
@@ -613,7 +704,7 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 
 \textbf{Attori:} \textit{utente}
 \\ \\
-\textbf{Descrizione:} caso d'uso che descrive la consegna di un questionario.\\
+\textbf{Descrizione:} caso d'uso che descrive la consegna di un questionario. Viene eseguito in automatico dal sistema quando si esaurisce il tempo di compilazione.\\
 \\
 \textbf{Precondizioni:} l'utente ha compilato un questionario.\\
 \\
@@ -623,11 +714,23 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \\
 \textbf{Extension points:} 
 \begin{itemize}
-	\item \textbf{Domanda non compilata:} almeno una domanda non  è stata compilata, viene visualizzato un messaggio di errore (UC 6.4)
+	\item \textbf{Domanda non compilata:} almeno una domanda non  è stata compilata e il tempo non è scaduto, viene visualizzato un messaggio di errore (UC 6.4)
 \end{itemize}
 
 
-\newpage
+\subsubsubsection{UC 6.4 - Questionario non completato}
+
+\textbf{Attori:} \textit{utente}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la visualizzazione del messaggio di errore relativo alla consegna di un questionario non completo.\\
+\\
+\textbf{Precondizioni:} l'utente ha consegnato il questionario incompleto e il tempo non è scaduto.\\
+\\
+\textbf{Postcondizioni:} l'utente visualizza il messaggio di errore relativo alla consegna di un questionario non completo.\\
+\\
+\textbf{Scenario:} l’utente consegna un questionario incompleto e visualizza il messaggio di errore relativo.\\
+
+
 \subsubsection{UC 6.5 - Valutazione questionario}
 
 \begin{figure}[h!]
@@ -699,12 +802,115 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \textbf{Scenario:} il sistema visualizza il tempo rimanente per la compilazione.\\
 
 
-\newpage
-\subsection{UC 7 - Creazione domanda}
+\subsubsection{UC 6.7 - Domanda successiva}
+
+\textbf{Attori:} \textit{utente}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive il passaggio alla domanda successiva.\\
+\\
+\textbf{Precondizioni:} l'utente sta compilando un questionario. La domanda attuale non è l'ultima.\\
+\\
+\textbf{Postcondizioni:} l'utente visualizza la domanda successiva a quella appena visualizzata.\\
+\\
+\textbf{Scenario:} il sistema visualizza la domanda successiva.\\
+
+
+\subsubsection{UC 6.8 - Domanda precedente}
+
+\textbf{Attori:} \textit{utente}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive il passaggio alla domanda precedente.\\
+\\
+\textbf{Precondizioni:} l'utente sta compilando un questionario. La domanda attuale non è la prima.\\
+\\
+\textbf{Postcondizioni:} l'utente visualizza la domanda precedente a quella appena visualizzata.\\
+\\
+\textbf{Scenario:} il sistema visualizza la domanda precedente.\\
+
+
+\subsection{UC 7 - Gestione domande}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.6]{../immagini/UC7.png}
+\caption{Gestione domande}
+\end{figure}
+\ \\
+\textbf{Attori:} \textit{utente autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la gestione delle domande che un utente ha creato o vuole creare.\\
+\\
+\textbf{Precondizioni:} l'utente può gestire domande.\\
+\\
+\textbf{Postcondizioni:} l’utente ha gestito le proprie domande.\\
+\\
+\textbf{Scenario:} l’utente visualizza le proprie domande (UC 7.1). Può crearne una nuova (UC 7.2), modificarne una esistente (UC 7.3) o eliminarne una (UC 7.4).\\
+
+
+\subsubsection{UC 7.1 - Visualizzazione domande create dall'utente}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{../immagini/UC7_1.png}
+\caption{Visualizzazione domande create dall'utente}
+\end{figure}
+\ \\
+\textbf{Attori:} \textit{utente autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la visualizzazione delle domande create dall'utente.\\
+\\
+\textbf{Precondizioni:} l'utente è entrato nella sezione di gestione delle proprie domande.\\
+\\
+\textbf{Postcondizioni:} l’utente visualizza le proprie domande.\\
+\\
+\textbf{Scenario:} l’utente è entrato nella sezione di gestione delle proprie domande e ne visualizza il tipo (UC 7.1.1), il testo (UC 7.1.2) e la data di creazione (UC 7.1.3).\\
+
+
+\subsubsubsection{UC 7.1.1 - Visualizzazione tipo}
+
+\textbf{Attori:} \textit{utente autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la visualizzazione del tipo delle domande.\\
+\\
+\textbf{Precondizioni:} l'utente visualizza le domande da lui create.\\
+\\
+\textbf{Postcondizioni:} il sistema visualizza il tipo delle domande.\\
+\\
+\textbf{Scenario:} l’utente visualizza il tipo delle domande.\\
+
+
+\subsubsubsection{UC 7.1.2 - Visualizzazione testo}
+
+\textbf{Attori:} \textit{utente autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la visualizzazione del testo delle domande.\\
+\\
+\textbf{Precondizioni:} l'utente visualizza le domande da lui create.\\
+\\
+\textbf{Postcondizioni:} il sistema visualizza il testo delle domande.\\
+\\
+\textbf{Scenario:} l’utente visualizza il testo delle domande.\\
+
+
+\subsubsubsection{UC 7.1.3 - Visualizzazione data creazione}
+
+\textbf{Attori:} \textit{utente autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la visualizzazione della data di creazione delle domande.\\
+\\
+\textbf{Precondizioni:} l'utente visualizza le domande da lui create.\\
+\\
+\textbf{Postcondizioni:} il sistema visualizza la data di creazione delle domande.\\
+\\
+\textbf{Scenario:} l’utente visualizza la data di creazione delle domande.\\
+
+
+\newpage
+\subsubsection{UC 7.2 - Creazione nuova domanda}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{../immagini/UC7_2.png}
 \caption{Creazione domanda}
 \end{figure}
 \ \\
@@ -716,10 +922,10 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \\
 \textbf{Postcondizioni:} l’utente ha creato una nuova domanda.\\
 \\
-\textbf{Scenario:} l’utente inserisce i dati della domanda (UC 7.1, UC 7.2) e li invia al sistema che memorizza la nuova domanda (UC 7.3). Se all'invio alcuni dati essenziali mancano o il codice QML inserito non è valido viene visualizzato un messaggio di errore (UC 7.4, UC 7.5).\\
+\textbf{Scenario:} l’utente inserisce i dati della domanda (UC 7.2.1, UC 7.2.2) e li invia al sistema che memorizza la nuova domanda (UC 7.2.3). Se all'invio alcuni dati essenziali mancano o il codice QML inserito non è valido viene visualizzato un messaggio di errore (UC 7.2.4, UC 7.2.5). Alternativamente in qualsiasi momento l'utente può annullare la creazione e tornare indietro.\\
 
 
-\subsubsection{UC 7.1 - Inserimento categorie domanda}
+\subsubsubsection{UC 7.2.1 - Inserimento categorie domanda}
 
 \textbf{Attori:} \textit{utente autenticato}
 \\ \\
@@ -732,7 +938,7 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \textbf{Scenario:} l’utente inserisce una o più categorie nell'apposito campo.\\
 
 
-\subsubsection{UC 7.2 - Inserimento QML domanda}
+\subsubsubsection{UC 7.2.2 - Inserimento QML domanda}
 
 \textbf{Attori:} \textit{utente autenticato}
 \\ \\
@@ -745,7 +951,7 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \textbf{Scenario:} l’utente inserisce il codice QML che descrive la domanda nell'apposita area di testo.\\
 
 
-\subsubsection{UC 7.3 - Invio dati domanda}
+\subsubsubsection{UC 7.2.3 - Invio dati domanda}
 
 \textbf{Attori:} \textit{utente autenticato}
 \\ \\
@@ -759,9 +965,139 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \\
 \textbf{Extension points:} 
 \begin{itemize}
-	\item \textbf{Dati domanda mancanti:} almeno un dato richiesto non è stato inserito dall'utente, viene visualizzato un messaggio di errore (UC 7.4)
-	\item \textbf{QML non valido:} il codice QML inserito dall'utente non rispetta la sintassi del QML, viene visualizzato un messaggio di errore (UC 7.5)
+	\item \textbf{Dati domanda mancanti:} almeno un dato richiesto non è stato inserito dall'utente, viene visualizzato un messaggio di errore (UC 7.2.4)
+	\item \textbf{QML non valido:} il codice QML inserito dall'utente non rispetta la sintassi del QML, viene visualizzato un messaggio di errore (UC 7.2.5)
 \end{itemize}
+
+
+\subsubsubsection{UC 7.2.4 - Dati richiesti domanda mancanti}
+
+\textbf{Attori:} \textit{utente autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la visualizzazione del messaggio di errore relativo alla mancanza di dati necessari.\\
+\\
+\textbf{Precondizioni:} l'utente ha confermato la creazione della domanda. Almeno un dato necessario alla creazione non è stato inserito.\\
+\\
+\textbf{Postcondizioni:} l’utente visualizza il messaggio di errore relativo alla mancanza di dati necessari.\\
+\\
+\textbf{Scenario:} l'utente conferma la creazione di una domanda senza inserire almeno una informazione necessaria e visualizza il relativo messaggio di errore.\\
+
+
+\subsubsubsection{UC 7.2.5 - QML domanda non valido}
+
+\textbf{Attori:} \textit{utente autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la visualizzazione del messaggio di errore per il codice QML non valido inserito.\\
+\\
+\textbf{Precondizioni:} l'utente ha confermato la creazione della domanda. Il codice QML inserito non è valido.\\
+\\
+\textbf{Postcondizioni:} l’utente visualizza il messaggio di errore per il codice QML non valido inserito.\\
+\\
+\textbf{Scenario:} l'utente conferma la creazione di una domanda inserendo un codice QML invalido e visualizza il relativo messaggio di errore.\\
+
+
+\newpage
+\subsubsection{UC 7.3 - Modifica domanda}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{../immagini/UC7_3.png}
+\caption{Modifica domanda}
+\end{figure}
+\ \\
+\textbf{Attori:} \textit{utente autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la modifica di una domanda creata dall'utente.\\
+\\
+\textbf{Precondizioni:} l'utente è entrato nella sezione di gestione delle proprie domande.\\
+\\
+\textbf{Postcondizioni:} l’utente ha modificato una propria domanda.\\
+\\
+\textbf{Scenario:} l’utente modifica una propria domanda aggiungendo o rimuovendo categorie (UC 7.3.1, UC 7.3.2), modificandone il codice QML che le descrive (UC 7.3.3). Al termine delle modifiche invia i nuovi dati al sistema che modifica effettivamente la domanda (UC 7.3.4). Nel caso in cui alcuni dati manchino o il nuovo codice QML non sia valido viene visualizzato un messaggio di errore (UC 7.3.5, UC 7.3.6).\\
+
+
+\subsubsubsection{UC 7.3.1 - Aggiunta categoria}
+
+\textbf{Attori:} \textit{utente autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive l'aggiunta di una categoria che la domanda riguarda.\\
+\\
+\textbf{Precondizioni:} l'utente sta modificando una propria domanda.\\
+\\
+\textbf{Postcondizioni:} l’utente ha aggiunto una categoria alla domanda.\\
+\\
+\textbf{Scenario:} l’utente aggiunge una categoria alla domanda.\\
+
+
+\subsubsubsection{UC 7.3.2 - Rimozione categoria}
+
+\textbf{Attori:} \textit{utente autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la rimozione di una categoria dalla domanda.\\
+\\
+\textbf{Precondizioni:} l'utente sta modificando una propria domanda.\\
+\\
+\textbf{Postcondizioni:} l’utente ha rimosso una categoria dalla domanda.\\
+\\
+\textbf{Scenario:} l’utente rimuove una categoria dalla domanda.\\
+
+
+\subsubsubsection{UC 7.3.3 - Modifica QML domanda}
+
+\textbf{Attori:} \textit{utente autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la modifica del codice QML che descrive la domanda.\\
+\\
+\textbf{Precondizioni:} l'utente sta modificando una propria domanda.\\
+\\
+\textbf{Postcondizioni:} l’utente ha modificato il codice QML che descrive la domanda.\\
+\\
+\textbf{Scenario:} il sistema visualizza il QML attuale della domanda. L’utente modifica il codice QML nell'apposita area di testo.\\
+
+
+\subsubsubsection{UC 7.3.4 - Invio nuovi dati}
+
+\textbf{Attori:} \textit{utente autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive l'invio dei nuovi dati della domanda.\\
+\\
+\textbf{Precondizioni:} l'utente ha inserito i nuovi dati della domanda.\\
+\\
+\textbf{Postcondizioni:} l’utente ha inviato i nuovi dati della domanda e il sistema l'ha modificata nel database.\\
+\\
+\textbf{Scenario:} l’utente invia i nuovi dati della domanda. Il sistema modifica nel database la domanda.\\
+\\
+\textbf{Extension points:} 
+\begin{itemize}
+	\item \textbf{Dati domanda mancanti:} almeno un dato richiesto non è stato inserito dall'utente, viene visualizzato un messaggio di errore (UC 7.3.5)
+	\item \textbf{QML non valido:} il codice QML inserito dall'utente non rispetta la sintassi del QML, viene visualizzato un messaggio di errore (UC 7.3.6)
+\end{itemize}
+
+
+\subsubsubsection{UC 7.3.5 - Dati domanda richiesti mancanti}
+
+\textbf{Attori:} \textit{utente autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la visualizzazione del messaggio di errore relativo alla mancanza di dati necessari.\\
+\\
+\textbf{Precondizioni:} l'utente ha confermato la modifica della domanda. Almeno un dato necessario per la domanda non è stato inserito.\\
+\\
+\textbf{Postcondizioni:} l’utente visualizza il messaggio di errore relativo alla mancanza di dati necessari.\\
+\\
+\textbf{Scenario:} l'utente conferma la modifica di una domanda senza inserire almeno una informazione necessaria e visualizza il relativo messaggio di errore.\\
+
+
+\subsubsubsection{UC 7.3.6 - QML modificato non valido}
+
+\textbf{Attori:} \textit{utente autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la visualizzazione del messaggio di errore per il codice QML non valido inserito.\\
+\\
+\textbf{Precondizioni:} l'utente ha confermato la modifica della domanda. Il codice QML inserito non è valido.\\
+\\
+\textbf{Postcondizioni:} l’utente visualizza il messaggio di errore per il codice QML non valido inserito.\\
+\\
+\textbf{Scenario:} l'utente conferma la modifica di una domanda inserendo un codice QML invalido e visualizza il relativo messaggio di errore.\\
 
 
 \newpage
@@ -781,7 +1117,7 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \\
 \textbf{Postcondizioni:} l’utente ha creato un nuovo questionario.\\
 \\
-\textbf{Scenario:} l’utente inserisce i dati del questionario (UC 8.1, UC 8.2, UC 8.4, UC 8.8) e li invia al sistema che memorizza il nuovo questionario (UC 8.5). L'inserimento della categoria fa visualizzare la lista delle domande relative a quella categoria (UC 8.3). Se all'invio il questionario risulta vuoto o alcuni dati essenziali mancano viene visualizzato un messaggio di errore (UC 8.6, UC 8.7).\\
+\textbf{Scenario:} l’utente inserisce i dati del questionario (UC 8.1, UC 8.2, UC 8.4, UC 8.8) e li invia al sistema che memorizza il nuovo questionario (UC 8.5). L'inserimento della categoria fa visualizzare la lista delle domande relative a quella categoria (UC 8.3). Se all'invio il questionario risulta vuoto o alcuni dati essenziali mancano viene visualizzato un messaggio di errore (UC 8.6, UC 8.7). In ogni momento l'utente può uscire e annullare l'operazione.\\
 
 
 \subsubsection{UC 8.1 - Inserimento nome questionario}
@@ -855,6 +1191,32 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \end{itemize}
 
 
+\subsubsection{UC 8.6 - Questionario vuoto}
+
+\textbf{Attori:} \textit{utente autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la visualizzazione del messaggio di errore relativo alla creazione di un questionario vuoto.\\
+\\
+\textbf{Precondizioni:} l'utente ha confermato la creazione del questionario. Nessuna domanda è presente nel questonario.\\
+\\
+\textbf{Postcondizioni:} l’utente visualizza il messaggio di errore relativo alla creazione di un questionario vuoto.\\
+\\
+\textbf{Scenario:} l'utente conferma la creazione di un questionario vuoto e visualizza il messaggio di errore relativo alla creazione di un questionario vuoto.\\
+
+
+\subsubsection{UC 8.7 - Dati richiesti questionario mancanti}
+
+\textbf{Attori:} \textit{utente autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la visualizzazione del messaggio di errore relativo alla mancanza di dati necessari.\\
+\\
+\textbf{Precondizioni:} l'utente ha confermato la creazione del questionario. Almeno un dato necessario alla creazione non è stato inserito.\\
+\\
+\textbf{Postcondizioni:} l’utente visualizza il messaggio di errore relativo alla mancanza di dati necessari.\\
+\\
+\textbf{Scenario:} l'utente conferma la creazione di un questionario senza inserire almeno una informazione necessaria e visualizza il relativo messaggio di errore.\\
+
+
 \subsubsection{UC 8.8 - Inserimento tempo di compilazione}
 
 \textbf{Attori:} \textit{utente autenticato}
@@ -879,6 +1241,78 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \textbf{Postcondizioni:} l’utente non è più autenticato.\\
 \\
 \textbf{Scenario:} l’utente clicca su logout. Il sistema non riconosce più come autenticato l'utente.\\
+
+
+\newpage
+\subsection{UC 10 - Ricerca questionario}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.60]{../immagini/UC10.png}
+\caption{Creazione questionario}
+\end{figure}
+\ \\
+\textbf{Attori:} \textit{utente}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la ricerca di questionari.\\
+\\
+\textbf{Precondizioni:} l'utente può fare una ricerca di questionari.\\
+\\
+\textbf{Postcondizioni:} l’utente visualizza una lista di questionari.\\
+\\
+\textbf{Scenario:} l’utente inserisce i dati dei questionari da ricercare (UC 10.1, UC 10.2, UC 10.3), poi avvia la ricerca (UC 10.4) e visualizza i risultati (UC 4).\\
+
+
+\subsubsubsection{UC 10.1 - Inserimento titolo}
+
+\textbf{Attori:} \textit{utente}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive l'inserimento del titolo dei questionari da cercare.\\
+\\
+\textbf{Precondizioni:} l'utente sta effettuando una ricerca di questionari.\\
+\\
+\textbf{Postcondizioni:} l’utente ha inserito il titolo dei questionari da cercare.\\
+\\
+\textbf{Scenario:} l’utente inserisce il titolo nell'apposito campo per la ricerca.\\
+
+
+\subsubsubsection{UC 10.2 - Inserimento autore}
+
+\textbf{Attori:} \textit{utente}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive l'inserimento dell'autore dei questionari da cercare.\\
+\\
+\textbf{Precondizioni:} l'utente sta effettuando una ricerca di questionari.\\
+\\
+\textbf{Postcondizioni:} l’utente ha inserito l'autore dei questionari da cercare.\\
+\\
+\textbf{Scenario:} l’utente inserisce l'autore nell'apposito campo per la ricerca.\\
+
+
+\subsubsubsection{UC 10.3 - Inserimento data di creazione}
+
+\textbf{Attori:} \textit{utente}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive l'inserimento dalla data di creazione dei questionari da cercare.\\
+\\
+\textbf{Precondizioni:} l'utente sta effettuando una ricerca di questionari.\\
+\\
+\textbf{Postcondizioni:} l’utente ha inserito la data di creazione dei questionari da cercare.\\
+\\
+\textbf{Scenario:} l’utente inserisce la data di creazione nell'apposito campo per la ricerca.\\
+
+
+\subsubsubsection{UC 10.4 - Avvio ricerca}
+
+\textbf{Attori:} \textit{utente}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la ricerca di questionari.\\
+\\
+\textbf{Precondizioni:} l'utente vuole effettuare una ricerca di questionari.\\
+\\
+\textbf{Postcondizioni:} l’utente visualizza la lista di questionari che rispettano i criteri inseriti.\\
+\\
+\textbf{Scenario:} l’utente avvia la ricerca e visualizza la lista di questionari che soddisfano i criteri inseriti.\\
 	
 	
 	\newpage
@@ -909,7 +1343,7 @@ F 1 & Il sistema deve fornire la possibilità ad un utente non autenticato di re
 \midrule
 F 1.1 & La sezione dedicata alla registrazione deve permettere l'inserimento dei dati necessari & Obbligatorio\\
 \midrule
-F 1.1.1 & La sezione dedicata alla registrazione deve permettere l'inserimento di una e-mail & Obbligatorio\\
+F 1.1.1 & La sezione dedicata alla registrazione deve permettere l'inserimento di una email & Obbligatorio\\
 \midrule
 F 1.1.2 & La sezione dedicata alla registrazione deve permettere l'inserimento di una password & Obbligatorio\\
 \midrule
@@ -921,7 +1355,7 @@ F 1.2.1 & Prima di inviare i dati viene effettuato un controllo su di essi & Obb
 \midrule
 F 1.2.1.1 & Se i dati richiesti non sono stati inseriti viene visualizzato un messaggio di errore & Desiderabile\\
 \midrule
-F 1.2.1.2 & Se la e-mail inserita risulta già in uso viene visualizzato un messaggio di errore & Desiderabile\\
+F 1.2.1.2 & Se la email inserita risulta già in uso viene visualizzato un messaggio di errore & Desiderabile\\
 \midrule
 F 1.2.1.3 & Se i dati non risultano corretti ne viene bloccato l'invio & Obbligatorio\\
 \midrule
@@ -933,19 +1367,19 @@ F 2 & Il sistema deve fornire la possibilità ad un utente non autenticato di au
 \midrule
 F 2.1 & La sezione dedicata all'autenticazione deve permettere l'inserimento dei dati necessari & Obbligatorio\\
 \midrule
-F 2.1.1 & La sezione dedicata all'autenticazione deve permettere l'inserimento di una e-mail & Obbligatorio\\
+F 2.1.1 & La sezione dedicata all'autenticazione deve permettere l'inserimento di una email & Obbligatorio\\
 \midrule
 F 2.1.2 & La sezione dedicata all'autenticazione deve permettere l'inserimento di una password & Obbligatorio\\
 \midrule
 F 2.2 & La sezione dedicata all'autenticazione deve fornire una procedura di recupero password & Facoltativo\\
 \midrule
-F 2.2.1 & La procedura di recupero password deve permettere l'inserimento della e-mail & Facoltativo\\
+F 2.2.1 & La procedura di recupero password deve permettere l'inserimento della email & Facoltativo\\
 \midrule
-F 2.2.2 & La procedura di recupero password deve effettuare un controllo sulla e-mail inserita & Facoltativo\\
+F 2.2.2 & La procedura di recupero password deve effettuare un controllo sulla email inserita & Facoltativo\\
 \midrule
-F 2.2.2.1 & Se la e-mail non risulta registrata viene visualizzato un messaggio di errore & Facoltativo\\
+F 2.2.2.1 & Se la email non risulta registrata viene visualizzato un messaggio di errore & Facoltativo\\
 \midrule
-F 2.2.2.2 & Se la e-mail non risulta registrata viene bloccato l'invio della mail a quell'indirizzo & Facoltativo\\
+F 2.2.2.2 & Se la email non risulta registrata viene bloccato l'invio della mail a quell'indirizzo & Facoltativo\\
 \midrule
 F 2.2.3 & La procedura di recupero password deve mandare una mail all'indirizzo inserito con la password dimenticata & Facoltativo\\
 \midrule
@@ -953,9 +1387,9 @@ F 2.3 & La sezione dedicata all'autenticazione deve permettere l'invio dei dati 
 \midrule
 F 2.3.1 & Prima di inviare i dati viene effettuato un controllo su di essi & Obbligatorio\\
 \midrule
-F 2.3.1.1 & Se la combinazione e-mail/password non è registrata viene visualizzato un messaggio di errore & Desiderabile\\
+F 2.3.1.1 & Se la combinazione email/password non è registrata viene visualizzato un messaggio di errore & Desiderabile\\
 \midrule
-F 2.3.2 & Se la combinazione e-mail/password è registrata l'utente viene autenticato & Obbligatorio\\
+F 2.3.2 & Se la combinazione email/password è registrata l'utente viene autenticato & Obbligatorio\\
 \midrule
 F 3 & Il sistema deve permettere la navigazione dei questionari per categoria & Obbligatorio\\
 \midrule
