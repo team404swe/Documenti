@@ -7,47 +7,65 @@
 \BOOKMARK [3][-]{subsubsection.1.4.2}{Informativi}{subsection.1.4}% 7
 \BOOKMARK [1][-]{section.2}{Architettura generale}{}% 8
 \BOOKMARK [1][-]{section.3}{Package View}{}% 9
-\BOOKMARK [1][-]{section.4}{Package Model}{}% 10
-\BOOKMARK [1][-]{section.5}{Package Presenter}{}% 11
-\BOOKMARK [2][-]{subsection.5.1}{Presenter::UserInputManager}{section.5}% 12
-\BOOKMARK [3][-]{subsubsection.5.1.1}{Presenter::UserInputManager::InputManager}{subsection.5.1}% 13
-\BOOKMARK [3][-]{subsubsection.5.1.2}{Presenter::UserInputManager::Input}{subsection.5.1}% 14
-\BOOKMARK [3][-]{subsubsection.5.1.3}{Presenter::UserInputManager::CreateQuiz}{subsection.5.1}% 15
-\BOOKMARK [3][-]{subsubsection.5.1.4}{Presenter::UserInputManager::AddQuestion}{subsection.5.1}% 16
-\BOOKMARK [3][-]{subsubsection.5.1.5}{Presenter::UserInputManager::RemoveQuestion}{subsection.5.1}% 17
-\BOOKMARK [3][-]{subsubsection.5.1.6}{Presenter::UserInputManager::SaveQuiz}{subsection.5.1}% 18
-\BOOKMARK [3][-]{subsubsection.5.1.7}{Presenter::UserInputManager::CreateQuestion}{subsection.5.1}% 19
-\BOOKMARK [3][-]{subsubsection.5.1.8}{Presenter::UserInputManager::SaveQuestion}{subsection.5.1}% 20
-\BOOKMARK [3][-]{subsubsection.5.1.9}{Presenter::UserInputManager::DeleteQuestion}{subsection.5.1}% 21
-\BOOKMARK [3][-]{subsubsection.5.1.10}{Presenter::UserInputManager::ChooseQuiz}{subsection.5.1}% 22
-\BOOKMARK [3][-]{subsubsection.5.1.11}{Presenter::UserInputManager::StartQuiz}{subsection.5.1}% 23
-\BOOKMARK [3][-]{subsubsection.5.1.12}{Presenter::UserInputManager::NextQuestion}{subsection.5.1}% 24
-\BOOKMARK [3][-]{subsubsection.5.1.13}{Presenter::UserInputManager::PreviousQuestion}{subsection.5.1}% 25
-\BOOKMARK [3][-]{subsubsection.5.1.14}{Presenter::UserInputManager::EndQuiz}{subsection.5.1}% 26
-\BOOKMARK [3][-]{subsubsection.5.1.15}{Presenter::UserInputManager::ViewProfile}{subsection.5.1}% 27
-\BOOKMARK [3][-]{subsubsection.5.1.16}{Presenter::UserInputManager::UpdateProfile}{subsection.5.1}% 28
-\BOOKMARK [3][-]{subsubsection.5.1.17}{Presenter::UserInputManager::ViewQMLTutorial}{subsection.5.1}% 29
-\BOOKMARK [3][-]{subsubsection.5.1.18}{Presenter::UserInputManager::ViewQuizList}{subsection.5.1}% 30
-\BOOKMARK [2][-]{subsection.5.2}{Presenter::Updaters}{section.5}% 31
-\BOOKMARK [3][-]{subsubsection.5.2.1}{Presenter::Updaters::Updater}{subsection.5.2}% 32
-\BOOKMARK [3][-]{subsubsection.5.2.2}{Presenter::Updaters::ModelUpdater}{subsection.5.2}% 33
-\BOOKMARK [3][-]{subsubsection.5.2.3}{Presenter::Updaters::ViewUpdater}{subsection.5.2}% 34
-\BOOKMARK [2][-]{subsection.5.3}{Presenter::QuestionManager}{section.5}% 35
-\BOOKMARK [3][-]{subsubsection.5.3.1}{Presenter::QuestionManager::QuestionFactory}{subsection.5.3}% 36
-\BOOKMARK [3][-]{subsubsection.5.3.2}{Presenter::QuestionManager::Question}{subsection.5.3}% 37
-\BOOKMARK [3][-]{subsubsection.5.3.3}{Presenter::QuestionManager::QML2HTMLFactory}{subsection.5.3}% 38
-\BOOKMARK [3][-]{subsubsection.5.3.4}{Presenter::QuestionManager::HTMLQuestion}{subsection.5.3}% 39
-\BOOKMARK [3][-]{subsubsection.5.3.5}{Presenter::QuestionManager::Translator}{subsection.5.3}% 40
-\BOOKMARK [2][-]{subsection.5.4}{Presenter::Interpreter}{section.5}% 41
-\BOOKMARK [3][-]{subsubsection.5.4.1}{Presenter::Interpreter::Interpreter}{subsection.5.4}% 42
-\BOOKMARK [3][-]{subsubsection.5.4.2}{Presenter::Interpreter::InterpreterFactory}{subsection.5.4}% 43
-\BOOKMARK [3][-]{subsubsection.5.4.3}{Presenter::Interpreter::QMLInterpreterFactory}{subsection.5.4}% 44
-\BOOKMARK [3][-]{subsubsection.5.4.4}{Presenter::Interpreter::QMLInterpreter}{subsection.5.4}% 45
-\BOOKMARK [3][-]{subsubsection.5.4.5}{Presenter::Interpreter::QML2HTMLInterpreterFactory}{subsection.5.4}% 46
-\BOOKMARK [2][-]{subsection.5.5}{Presenter::QuizManager}{section.5}% 47
-\BOOKMARK [3][-]{subsubsection.5.5.1}{Presenter::QuizManager::Quiz}{subsection.5.5}% 48
-\BOOKMARK [3][-]{subsubsection.5.5.2}{Presenter::QuizManager::QuizDirector}{subsection.5.5}% 49
-\BOOKMARK [3][-]{subsubsection.5.5.3}{Presenter::QuizManager::QuizBuilder}{subsection.5.5}% 50
-\BOOKMARK [1][-]{section.6}{Tracciamento}{}% 51
-\BOOKMARK [2][-]{subsection.6.1}{Mappatura classi - requisiti}{section.6}% 52
-\BOOKMARK [2][-]{subsection.6.2}{Mappatura requisiti - classi}{section.6}% 53
+\BOOKMARK [2][-]{subsection.3.1}{View::CurrentViewManager}{section.3}% 10
+\BOOKMARK [3][-]{subsubsection.3.1.1}{View::CurrentViewManager::CurrentView}{subsection.3.1}% 11
+\BOOKMARK [3][-]{subsubsection.3.1.2}{View::CurrentViewManager::Sender}{subsection.3.1}% 12
+\BOOKMARK [2][-]{subsection.3.2}{View::Pages}{section.3}% 13
+\BOOKMARK [3][-]{subsubsection.3.2.1}{View::Pages::MainPage}{subsection.3.2}% 14
+\BOOKMARK [3][-]{subsubsection.3.2.2}{View::Pages::CategoryListPage}{subsection.3.2}% 15
+\BOOKMARK [3][-]{subsubsection.3.2.3}{View::Pages::QuizListPage}{subsection.3.2}% 16
+\BOOKMARK [3][-]{subsubsection.3.2.4}{View::Pages::QuizExecutionPage}{subsection.3.2}% 17
+\BOOKMARK [3][-]{subsubsection.3.2.5}{View::Pages::QuizManagementPage}{subsection.3.2}% 18
+\BOOKMARK [3][-]{subsubsection.3.2.6}{View::Pages::ViewTutorialPage}{subsection.3.2}% 19
+\BOOKMARK [2][-]{subsection.3.3}{View::UserAuthentication}{section.3}% 20
+\BOOKMARK [3][-]{subsubsection.3.3.1}{View::UserAuthentication::User}{subsection.3.3}% 21
+\BOOKMARK [1][-]{section.4}{Package Model}{}% 22
+\BOOKMARK [2][-]{subsection.4.1}{Model::Database}{section.4}% 23
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Model::Database::Database}{subsection.4.1}% 24
+\BOOKMARK [2][-]{subsection.4.2}{Model::Parser}{section.4}% 25
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Model::Parser::Parser}{subsection.4.2}% 26
+\BOOKMARK [2][-]{subsection.4.3}{Model::Statistics}{section.4}% 27
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Model::Statistics::Statistics}{subsection.4.3}% 28
+\BOOKMARK [1][-]{section.5}{Package Presenter}{}% 29
+\BOOKMARK [2][-]{subsection.5.1}{Presenter::UserInputManager}{section.5}% 30
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Presenter::UserInputManager::InputManager}{subsection.5.1}% 31
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Presenter::UserInputManager::Input}{subsection.5.1}% 32
+\BOOKMARK [3][-]{subsubsection.5.1.3}{Presenter::UserInputManager::CreateQuiz}{subsection.5.1}% 33
+\BOOKMARK [3][-]{subsubsection.5.1.4}{Presenter::UserInputManager::AddQuestion}{subsection.5.1}% 34
+\BOOKMARK [3][-]{subsubsection.5.1.5}{Presenter::UserInputManager::RemoveQuestion}{subsection.5.1}% 35
+\BOOKMARK [3][-]{subsubsection.5.1.6}{Presenter::UserInputManager::SaveQuiz}{subsection.5.1}% 36
+\BOOKMARK [3][-]{subsubsection.5.1.7}{Presenter::UserInputManager::CreateQuestion}{subsection.5.1}% 37
+\BOOKMARK [3][-]{subsubsection.5.1.8}{Presenter::UserInputManager::SaveQuestion}{subsection.5.1}% 38
+\BOOKMARK [3][-]{subsubsection.5.1.9}{Presenter::UserInputManager::DeleteQuestion}{subsection.5.1}% 39
+\BOOKMARK [3][-]{subsubsection.5.1.10}{Presenter::UserInputManager::ChooseQuiz}{subsection.5.1}% 40
+\BOOKMARK [3][-]{subsubsection.5.1.11}{Presenter::UserInputManager::StartQuiz}{subsection.5.1}% 41
+\BOOKMARK [3][-]{subsubsection.5.1.12}{Presenter::UserInputManager::NextQuestion}{subsection.5.1}% 42
+\BOOKMARK [3][-]{subsubsection.5.1.13}{Presenter::UserInputManager::PreviousQuestion}{subsection.5.1}% 43
+\BOOKMARK [3][-]{subsubsection.5.1.14}{Presenter::UserInputManager::EndQuiz}{subsection.5.1}% 44
+\BOOKMARK [3][-]{subsubsection.5.1.15}{Presenter::UserInputManager::ViewProfile}{subsection.5.1}% 45
+\BOOKMARK [3][-]{subsubsection.5.1.16}{Presenter::UserInputManager::UpdateProfile}{subsection.5.1}% 46
+\BOOKMARK [3][-]{subsubsection.5.1.17}{Presenter::UserInputManager::ViewQMLTutorial}{subsection.5.1}% 47
+\BOOKMARK [3][-]{subsubsection.5.1.18}{Presenter::UserInputManager::ViewQuizList}{subsection.5.1}% 48
+\BOOKMARK [2][-]{subsection.5.2}{Presenter::Updaters}{section.5}% 49
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Presenter::Updaters::Updater}{subsection.5.2}% 50
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Presenter::Updaters::ModelUpdater}{subsection.5.2}% 51
+\BOOKMARK [3][-]{subsubsection.5.2.3}{Presenter::Updaters::ViewUpdater}{subsection.5.2}% 52
+\BOOKMARK [2][-]{subsection.5.3}{Presenter::QuestionManager}{section.5}% 53
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Presenter::QuestionManager::QuestionFactory}{subsection.5.3}% 54
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Presenter::QuestionManager::Question}{subsection.5.3}% 55
+\BOOKMARK [3][-]{subsubsection.5.3.3}{Presenter::QuestionManager::QML2HTMLFactory}{subsection.5.3}% 56
+\BOOKMARK [3][-]{subsubsection.5.3.4}{Presenter::QuestionManager::HTMLQuestion}{subsection.5.3}% 57
+\BOOKMARK [3][-]{subsubsection.5.3.5}{Presenter::QuestionManager::Translator}{subsection.5.3}% 58
+\BOOKMARK [2][-]{subsection.5.4}{Presenter::Interpreter}{section.5}% 59
+\BOOKMARK [3][-]{subsubsection.5.4.1}{Presenter::Interpreter::Interpreter}{subsection.5.4}% 60
+\BOOKMARK [3][-]{subsubsection.5.4.2}{Presenter::Interpreter::InterpreterFactory}{subsection.5.4}% 61
+\BOOKMARK [3][-]{subsubsection.5.4.3}{Presenter::Interpreter::QMLInterpreterFactory}{subsection.5.4}% 62
+\BOOKMARK [3][-]{subsubsection.5.4.4}{Presenter::Interpreter::QMLInterpreter}{subsection.5.4}% 63
+\BOOKMARK [3][-]{subsubsection.5.4.5}{Presenter::Interpreter::QML2HTMLInterpreterFactory}{subsection.5.4}% 64
+\BOOKMARK [2][-]{subsection.5.5}{Presenter::QuizManager}{section.5}% 65
+\BOOKMARK [3][-]{subsubsection.5.5.1}{Presenter::QuizManager::Quiz}{subsection.5.5}% 66
+\BOOKMARK [3][-]{subsubsection.5.5.2}{Presenter::QuizManager::QuizDirector}{subsection.5.5}% 67
+\BOOKMARK [3][-]{subsubsection.5.5.3}{Presenter::QuizManager::QuizBuilder}{subsection.5.5}% 68
+\BOOKMARK [1][-]{section.6}{Tracciamento}{}% 69
+\BOOKMARK [2][-]{subsection.6.1}{Mappatura classi - requisiti}{section.6}% 70
+\BOOKMARK [2][-]{subsection.6.2}{Mappatura requisiti - classi}{section.6}% 71
