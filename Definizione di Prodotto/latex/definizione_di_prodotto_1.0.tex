@@ -1,5 +1,6 @@
 \documentclass[a4paper,11pt]{article}
 	\input{../../template.tex}
+	\newcommand{\code}[1]{\texttt{#1}}
 
 	\title{\textbf{{\fontsize{8mm}{5mm}\selectfont QUIZZIPEDIA}}}
 	\date{}
@@ -38,7 +39,8 @@
 	
 	\beginregistro
 	
-	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm}} 
+	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm}}
+	\rigaregistro{0.0.2}{Davide Bortot (Progettista)}{26/05/2016}{Impostata la struttura della sezione "Presenter" e della sezione "Tracciamento".} 
 	\rigaregistro{0.0.1}{Davide Bortot (Progettista)}{20/05/2016}{Creazione e impostazione documento. Definite sezioni "Sommario" e "Introduzione".}
 	
 	\fineregistro
@@ -95,5 +97,5 @@ Le specifiche del documento si basano sull'architettura generale descritta nel d
 	\newpage
 	\input{sezioni/presenter.tex}
 	\newpage
-	
+	\input{sezioni/tracciamento.tex}
 \end{document}
