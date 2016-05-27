@@ -40,6 +40,7 @@
 	
 	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm} 
 	\textbf{Descrizione}}
+	\rigaregistro{1.0.2}{Davide Bortot (Progettista)}{27/05/2016}{Correzione e contestualizzazione dei design pattern individuati in §9.}
 	\rigaregistro{1.0.1}{Luca Alessio (Analista)}{24/05/2016}{Correzione diagrammi di attività e revisione sintattica di diversi paragrafi.}
 	\rigaregistro{1.0}{Martin Mbouenda (responsabile)}{16/05/2016}{Approvazione del documento.}
 	\rigaregistro{0.1.0}{A. Beccaro (Verificatore)}{13/05/2016}{Verifica completa del documento.}
@@ -866,7 +867,20 @@ cambiamento di tutte le sottoclassi (il problema può essere evitato mediante
 una tecnica di implementazione della classe astratta, ma in modo meno flessibile e poco sicuro.
 		\end{itemize}
 		\item\textbf{Utilizzo}: nel sistema Quizzipedia il design pattern è stato utilizzato nei package Interpreter e QuestionManager. Entrambi si avvalgono del pattern per rendere il sistema indipendente dalla creazione delle rispettive classi concrete e rendere i package aperti all'estensione tramite la definizione di nuovi tipi "Interpreter" e "Question".
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[scale=0.6]{../images/QuestionManagerClassDesignPattern.png}
+		\caption{Abstract Factory in QuestionManager}
+	\end{center}
+	\end{figure}
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[scale=0.5]{../images/interpreterClass.png}
+		\caption{Abstract Factory in Interpreter}
+	\end{center}
+	\end{figure}
 	\end{itemize}
+	
 	\subsection{Singleton}
 	\begin{figure}[h!]
 	\begin{center}
@@ -923,6 +937,12 @@ dalla sua rappresentazione
 costruzione
 		\end{itemize}
 		\item\textbf{Utilizzo}: nel sistema Quizzipedia il design pattern è stato utilizzato nel package QuizManager per rendere la creazione di un Quiz indipendente dalle domande che lo compongono.
+		\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[scale=0.54]{../images/QuizManagerClass.png}
+		\caption{Builder in QuizManager}
+	\end{center}
+	\end{figure}
 	\end{itemize}
 	\newpage
 	
@@ -938,7 +958,7 @@ costruzione
 client sia indipendenti dalle richieste
 		\item\textbf{Applicabilità}:
 		\begin{itemize}
-			\item necessità di gestire richieste di cui non si conoscono i
+			\item Necessità di gestire richieste di cui non si conoscono i
 particolari
 			\item Parametrizzazione di oggetti sull'azione da eseguire
 			\item Specificare, accodare ed eseguire richieste molteplici
@@ -950,11 +970,17 @@ volte
 			\item Accoppiamento "lasco" tra oggetto invocante e
 quello che porta a termine l'operazione
 			\item I command possono essere estesi
-			\item I comandi possono essere composti e innestati
+			\item I command possono essere composti e innestati
 			\item È facile aggiungere nuovi comandi, le classi esistenti non devono essere modificate.
 		\end{itemize}
 		\item\textbf{Utilizzo}: nel sistema Quizzipedia il design pattern è stato utilizzato nel package Presenter, per disaccoppiare la ricezione degli input da parte della classe InputManager dalla loro risoluzione da parte di altre classi del Presenter e del Model. Il pattern permette inoltre di aggiungere facilmente nuovi \emph{Command} al sistema, estendendo l'interfaccia \emph{Input} del package UserInputManager. Sarà in questo modo più facile estendere le funzionalità offerte all'utente dal sistema Quizzipedia.
 	\end{itemize}
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[scale=0.7]{../images/PresenterCommandDesignPattern.png}
+		\caption{Design Pattern Command nel Presenter}
+	\end{center}
+	\end{figure}
 	\newpage
 	
 	\section{Tracciamento}

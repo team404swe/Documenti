@@ -91,9 +91,9 @@
 \contentsline {subsection}{\numberline {8.5}Svolgimento di un Questionario}{36}{subsection.8.5}
 \contentsline {section}{\numberline {9}Design pattern utilizzati}{37}{section.9}
 \contentsline {subsection}{\numberline {9.1}Abstract Factory}{37}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Singleton}{38}{subsection.9.2}
-\contentsline {subsection}{\numberline {9.3}Builder}{39}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}Command}{40}{subsection.9.4}
-\contentsline {section}{\numberline {10}Tracciamento}{41}{section.10}
-\contentsline {subsection}{\numberline {10.1}Mappatura componenti-requisiti}{41}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}Mappatura requisiti - componenti}{45}{subsection.10.2}
+\contentsline {subsection}{\numberline {9.2}Singleton}{39}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Builder}{40}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}Command}{41}{subsection.9.4}
+\contentsline {section}{\numberline {10}Tracciamento}{42}{section.10}
+\contentsline {subsection}{\numberline {10.1}Mappatura componenti-requisiti}{42}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Mappatura requisiti - componenti}{47}{subsection.10.2}

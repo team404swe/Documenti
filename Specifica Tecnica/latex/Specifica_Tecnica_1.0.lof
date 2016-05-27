@@ -18,6 +18,10 @@
 \contentsline {figure}{\numberline {16}{\ignorespaces Diagramma di sequenza sulla traduzione di una domanda QML\relax }}{35}{figure.caption.17}
 \contentsline {figure}{\numberline {17}{\ignorespaces Diagramma di sequenza sullo svolgimento di un questionario\relax }}{36}{figure.caption.18}
 \contentsline {figure}{\numberline {18}{\ignorespaces Design Pattern Abstract Factory\relax }}{37}{figure.caption.19}
-\contentsline {figure}{\numberline {19}{\ignorespaces Design Pattern Singleton\relax }}{38}{figure.caption.20}
-\contentsline {figure}{\numberline {20}{\ignorespaces Design Pattern Builder\relax }}{39}{figure.caption.21}
-\contentsline {figure}{\numberline {21}{\ignorespaces Design Pattern Command\relax }}{40}{figure.caption.22}
+\contentsline {figure}{\numberline {19}{\ignorespaces Abstract Factory in QuestionManager\relax }}{38}{figure.caption.20}
+\contentsline {figure}{\numberline {20}{\ignorespaces Abstract Factory in Interpreter\relax }}{38}{figure.caption.21}
+\contentsline {figure}{\numberline {21}{\ignorespaces Design Pattern Singleton\relax }}{39}{figure.caption.22}
+\contentsline {figure}{\numberline {22}{\ignorespaces Design Pattern Builder\relax }}{40}{figure.caption.23}
+\contentsline {figure}{\numberline {23}{\ignorespaces Builder in QuizManager\relax }}{40}{figure.caption.24}
+\contentsline {figure}{\numberline {24}{\ignorespaces Design Pattern Command\relax }}{41}{figure.caption.25}
+\contentsline {figure}{\numberline {25}{\ignorespaces Design Pattern Command nel Presenter\relax }}{42}{figure.caption.26}
