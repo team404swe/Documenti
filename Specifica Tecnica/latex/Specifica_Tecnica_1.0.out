@@ -21,7 +21,7 @@
 \BOOKMARK [1][-]{section.5}{Diagrammi dei packages}{}% 21
 \BOOKMARK [2][-]{subsection.5.1}{Package della componente Model}{section.5}% 22
 \BOOKMARK [2][-]{subsection.5.2}{Package della componente View}{section.5}% 23
-\BOOKMARK [2][-]{subsection.5.3}{Package della componente Presenter}{section.5}% 24
+\BOOKMARK [2][-]{subsection.5.3}{Package della componente Controller}{section.5}% 24
 \BOOKMARK [1][-]{section.6}{Diagrammi delle classi}{}% 25
 \BOOKMARK [2][-]{subsection.6.1}{Diagrammi delle classi del Model}{section.6}% 26
 \BOOKMARK [3][-]{subsubsection.6.1.1}{Package Database}{subsection.6.1}% 27
@@ -52,7 +52,7 @@
 \BOOKMARK [4][-]{subsubsubsection.6.2.2.7}{Classe QuizTutorialPage}{subsubsection.6.2.2}% 52
 \BOOKMARK [3][-]{subsubsection.6.2.3}{Package UserAuthentication}{subsection.6.2}% 53
 \BOOKMARK [4][-]{subsubsubsection.6.2.3.1}{Classe User}{subsubsection.6.2.3}% 54
-\BOOKMARK [2][-]{subsection.6.3}{Diagrammi delle classi del Presenter}{section.6}% 55
+\BOOKMARK [2][-]{subsection.6.3}{Diagrammi delle classi del Controller}{section.6}% 55
 \BOOKMARK [3][-]{subsubsection.6.3.1}{Package UserInputManager}{subsection.6.3}% 56
 \BOOKMARK [4][-]{subsubsubsection.6.3.1.1}{Classe InputManager}{subsubsection.6.3.1}% 57
 \BOOKMARK [4][-]{subsubsubsection.6.3.1.2}{Interfaccia Input}{subsubsection.6.3.1}% 58

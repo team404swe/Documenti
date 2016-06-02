@@ -1,0 +1,60 @@
+\section{Tecnologie e strumenti utilizzati}
+	\subsection{HTML5}
+	Linguaggio di markup per la progettazione di pagine Web. Richiesto espressamente nel capitolato per la creazione dell'interfaccia utente (mi pare, devo controllare).
+	\begin{itemize}
+		\item\textbf{Utilizzo}: viene utilizzato per creare la GUI che permette all'utente di accedere al sistema mediante browser.
+		\item\textbf{Vantaggi}: favorisce la portabilità su diversi dispositivi (desktop, smartphone, tablet...) e browser.
+Sono punti a favore anche l'elevata compatibilità con tecnologie quali CSS3 e Javascript.
+		\item\textbf{Svantaggi}: essendo HTML5 un linguaggio non ancora standard il rischio nel suo utilizzo è l'instabilità dei tag utilizzati. Un tag oggi accettato potrebbe essere modificato in un futuro prossimo, rendendo la visualizzazione dell'interfaccia utente dipendente dal stabilità dei tag utilizzati. 
+	\end{itemize}
+	\subsection{CSS3}
+	Principale linguaggio usato per la formattazione di pagine HTML.
+	\begin{itemize}
+		\item\textbf{Utilizzo}: Viene utilizzato per formattare il codice HTML,
+ovvero creare fogli di stile che permettono allo sviluppatore di modificare alcuni aspetti grafici della pagina Web.
+		\item\textbf{Vantaggi}: Richiede un minor sforzo di interpretazione da parte del browser ed è leggero da scaricare.
+		\item\textbf{Svantaggi}: Può presentare problemi di compatibilità con browser meno recenti.
+	\end{itemize}
+	\subsection{Materialize}
+	Materialize è un framework CSS basato sull'idea di design "Material Design" di Google.
+	\begin{itemize}
+		\item\textbf{Utilizzo}: verrà utilizzato per la formattazione delle pagine web.
+		\item\textbf{Vantaggi}: un tale framework aiuta l'applicazione a mantenere uno stile coerente in tutte le sue parti, e mette a disposizione una vasta scelta ci classi CSS preconfezionate, esonerando lo sviluppatore dalla necessita di definirne di proprie. Aumenta inoltra l'adattabilità (responsiveness) delle pagine HTML a diversi supporti (desktop, mobile, etc.).
+		\item\textbf{Svantaggi}: necessità di un breve tempo di studio per impararne le classi e il corretto utilizzo.
+	\end{itemize}
+	\subsection{Javascript}
+	E' un linguaggio di scripting debolmente orientato agli oggetti, utilizzato nelle applicazioni
+Web. Viene interpretato all'interno del browser. Permette di definire funzionalità simili a
+quelle offerte da C++ e Java, quali cicli e strutture di controllo.
+Viene solitamente affiancato a pagine statiche HTML per poter gestire i contenuti dinamicamente, offrendo funzionalità che il linguaggio di markup non può offrire.
+	\begin{itemize}
+		\item\textbf{Utilizzo}: nel sistema Quizzipedia Javascript sarà ampiamente utilizzato. La quasi totalità delle componenti del Presenter sarà realizzata in Javascript, per gestire la parte logica dell'applicazione gli elementi dinamici dell'interfaccia.
+		\item\textbf{Vantaggi}: eseguito lato Client (sul browser) non sovraccarica il Server per l'esecuzione di richieste complesse. Permette un maggior livello d'interattività dell'interfaccia utente.
+		\item\textbf{Svantaggi}: per script sorgenti molto corposi, può risultare oneroso in termini di
+tempo lo scaricamento dei contenuti. Deve, inoltre, fare affidamento ad un linguaggio
+che possa fisicamente effettuare transazioni di dati quando lo script esegue operazioni
+su oggetti remoti (eg: database).
+E' altresì un linguaggio non tipizzato, quindi occorre porre attenzione ai tipi delle
+variabili che non sono dichiarati, ma variano dinamicamente.
+		\item\textbf{Variabili e oggetti}: le variabili se sono dichiarate all'interno di una funzione sono
+visibili solo all'interno di essa; se sono invece esterne sono globali. Vengono dichiarate
+con la keyword \emph{var} o semplicemente assegnando loro un valore.
+Ogni elemento in JavaScript è un tipo primitivo o un oggetto.
+Gli oggetti sono entità dotate di unicità (sono uguali solo a sé stessi) e identificabili
+con vettori associativi, che associano nomi di proprietà a valori.
+	\end{itemize}
+	\subsection{Node.js}
+	 Node.js è un framework event-driven per il motore JavaScript V8, relativo all'utilizzo server-side di Javascript.
+	\begin{itemize}
+		\item\textbf{Utilizzo}: Tecnologia imposta dal proponente per la gestione della base di dati, e in generale della parte server, su cui poggia il sistema Quizzipedia.
+		\item\textbf{Vantaggi}: Node.js offre prestazioni eccellenti per lo scripting server-side una velocità superiore rispetto alla concorrenza. Il modello event-driven su cui si basa si adatta inoltre molto bene agli scopi del progetto. Secondariamente, questa tecnologia cross-platform ha suscitato molto di più l'interesse del team che se ne intende avvalere rispetto a Tomcat, l'altra tecnologia proposta dal proponente.
+		\item\textbf{Svantaggi}: Il design del linguaggio impedisce alcune ottimizzazioni delle operazioni e la gestione dei tipi non è confortevole come in altri concorrenti.
+	\end{itemize}
+	\subsection{PostgreSQL}
+	DBMS ad oggetti open-source.
+	\begin{itemize}
+		\item\textbf{Utilizzo}: Base di dati con lo scopo di memorizzare domande e altri dati necessari al funzionamento del sistema.
+		\item\textbf{Vantaggi}: Tecnologia più robusta, stabile e performante di MySQL (inizialmente preso in considerazione ma poi scartato in favore di PostgreSQL).
+		\item\textbf{Svantaggi}: Complessità maggiore rispetto al classico MySQL.
+	\end{itemize}
+	\newpage
