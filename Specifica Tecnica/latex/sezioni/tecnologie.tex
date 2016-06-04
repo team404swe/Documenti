@@ -50,11 +50,25 @@ con vettori associativi, che associano nomi di proprietà a valori.
 		\item\textbf{Vantaggi}: Node.js offre prestazioni eccellenti per lo scripting server-side una velocità superiore rispetto alla concorrenza. Il modello event-driven su cui si basa si adatta inoltre molto bene agli scopi del progetto. Secondariamente, questa tecnologia cross-platform ha suscitato molto di più l'interesse del team che se ne intende avvalere rispetto a Tomcat, l'altra tecnologia proposta dal proponente.
 		\item\textbf{Svantaggi}: Il design del linguaggio impedisce alcune ottimizzazioni delle operazioni e la gestione dei tipi non è confortevole come in altri concorrenti.
 	\end{itemize}
-	\subsection{PostgreSQL}
-	DBMS ad oggetti open-source.
+	\subsection{MongoDB}
+	MongoDB è un DBMS non relazionale, orientato ai documenti. Classificato come un database di tipo NoSQL, MongoDB si allontana dalla struttura tradizionale basata su tabelle dei database relazionali in favore di documenti in stile JSON con schema dinamico rendendo l'integrazione di dati di alcuni tipi di applicazioni più facile e veloce.
 	\begin{itemize}
 		\item\textbf{Utilizzo}: Base di dati con lo scopo di memorizzare domande e altri dati necessari al funzionamento del sistema.
-		\item\textbf{Vantaggi}: Tecnologia più robusta, stabile e performante di MySQL (inizialmente preso in considerazione ma poi scartato in favore di PostgreSQL).
-		\item\textbf{Svantaggi}: Complessità maggiore rispetto al classico MySQL.
+		\item\textbf{Vantaggi}: I dati non sono ristretti da alcun tipo di schema, il sistema è facilmente scalabile in caso di necessità, il livello di consistenza dei dati può essere definito a piacere, tecnologia open-source semplice da padroneggiare, in particolare il gruppo è già familiare con la sintassi JSON usata da MongoDB per la memorizzazione delle informazioni.
+		\item\textbf{Svantaggi}: Minore flessibilità per quanto riguarda la formulazione delle query e elevata dimensione dei dati su server rispetto a tecnologie più tradizionali.
+	\end{itemize}
+	\subsection{AngularJS}
+	AngularJS è un framework strutturale per la costruzione di applicazioni web. Permette di estendere la sintassi HTML con componenti della propria applicazione mantenendo comunque una stretta separazione tra i dati e la loro rappresentazione rispettando il pattern MVC.
+	\begin{itemize}
+		\item\textbf{Utilizzo}: Verrà utilizzato come renderer dei template della user interface di cui si occupa Meteor.
+		\item\textbf{Vantaggi}: Fornisce la possibilità di creare Single Page Application in modo pulito e mantenibile facendo utilizzo di dependency injection e rispettando il principio di separazione degli interessi. Le componenti costruite con AngularJS sono facilmente riusabili e testabili. Elevata compatibilità con diversi tipi di browser.
+		\item\textbf{Svantaggi}: Essendo un framework scritto interamente in Javascript, le applicazioni costruite in Angular non sono molto robuste sotto il punto di vista della sicurezza inoltre, in caso l'utente disabiliti Javascript tutto il funzionamento dell'applicazione verrebbe compromesso.
+	\end{itemize}
+	\subsection{Meteor}
+	Meteor è una piattaforma full-stack Javascript per la costruzione di mobile e web apps. Semplifica la creazione di applicazioni real time offrendo un ecosistema completo atto al loro sviluppo e alla loro fruizione.
+	\begin{itemize}
+		\item\textbf{Utilizzo}: Questa tecnologia contribuirà alla realizzazione del cuore principale dell'applicazione Quizzipedia.
+		\item\textbf{Vantaggi}: Framework abbastanza semplice da imparare ad utilizzare, ideale per lo sviluppo di applicazioni web real time, sia front-end che back-end vengono codificati principalmente usando solo Javascript, presenza di package che semplificano e velocizzano lo sviluppo dell'applicazione, alta scalabilità del progetto.
+		\item\textbf{Svantaggi}: Il modo in cui alcuni componenti core della tecnologia si interfacciano potrebbe limitare la libertà degli sviluppatori. Esperienze precedenti con la tecnologia scarse o nulle dei componenti del Team 404, tempi abbastanza considerevoli dovranno essere impiegati nel conseguimento di una buona padronanza del framework.
 	\end{itemize}
 	\newpage
