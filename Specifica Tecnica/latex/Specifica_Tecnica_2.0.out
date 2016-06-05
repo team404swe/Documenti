@@ -9,7 +9,7 @@
 \BOOKMARK [2][-]{subsection.2.1}{Architettura generale del sistema}{section.2}% 9
 \BOOKMARK [2][-]{subsection.2.2}{Descrizione del componente Model}{section.2}% 10
 \BOOKMARK [2][-]{subsection.2.3}{Descrizione del componente View}{section.2}% 11
-\BOOKMARK [2][-]{subsection.2.4}{Descrizione del componente Presenter}{section.2}% 12
+\BOOKMARK [2][-]{subsection.2.4}{Descrizione del componente ViewModel}{section.2}% 12
 \BOOKMARK [1][-]{section.3}{Tecnologie e strumenti utilizzati}{}% 13
 \BOOKMARK [2][-]{subsection.3.1}{HTML5}{section.3}% 14
 \BOOKMARK [2][-]{subsection.3.2}{CSS3}{section.3}% 15

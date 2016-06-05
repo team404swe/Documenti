@@ -11,7 +11,7 @@
 \contentsline {subsection}{\numberline {2.1}Architettura generale del sistema}{3}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Descrizione del componente Model}{4}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}Descrizione del componente View}{4}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Descrizione del componente Presenter}{4}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.4}Descrizione del componente ViewModel}{4}{subsection.2.4}
 \contentsline {section}{\numberline {3}Tecnologie e strumenti utilizzati}{5}{section.3}
 \contentsline {subsection}{\numberline {3.1}HTML5}{5}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}CSS3}{5}{subsection.3.2}
