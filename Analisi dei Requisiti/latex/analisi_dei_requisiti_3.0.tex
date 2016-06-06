@@ -47,6 +47,8 @@
 	
 		\beginregistro
 			\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}{\hspace{5 mm} \textbf{Descrizione}}
+			\rigaregistro{2.0.2}{Luca Alessio (Analista)}{04/06/2016}{Ampliati vincoli di sistema. Riformulati UC 6 e UC 11. Correzioni minori in diversi paragrafi.} 			
+			\rigaregistro{2.0.1}{Luca Alessio (Analista)}{01/06/2016}{Varie modifiche sul documento secondo quanto segnalato in seguito alla RP} 		
 	 		\rigaregistro{2.0}{Andrea Multineddu (Verificatore)}{13/05/2016}{Verifica e revisione documento.}
 			\rigaregistro{1.0.5}{Alex Beccaro (Analista)}{11/05/2016}{Correzione sui casi d'uso e requisiti recentemente introdotti. Inserimento di nuovi casi d'uso e requisiti ulteriori. Modificate mappature per riflettere i cambiamenti.}
 			\rigaregistro{1.0.4}{Alex Beccaro (Analista)}{09/05/2016}{Modificati casi d'uso, modificati requisiti relativi e aggiunti di nuovi. Aggiunte priorità dei requisiti.}
@@ -508,7 +510,7 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \\
 \textbf{Postcondizioni:} il sistema visualizza la domanda attuale del questionario.\\
 \\
-\textbf{Scenario:} l’utente visualizza la domanda attuale del questionario.\\
+\textbf{Scenario:} l’utente sta svolgendo un questionario e gli viene presentata a video una domanda al quale deve rispondere.\\
 
 
 \subsubsubsection{UC 6.1.1 - Visualizzazione testo domanda}
@@ -517,7 +519,7 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \\ \\
 \textbf{Descrizione:} caso d'uso che descrive la visualizzazione del testo della domanda.\\
 \\
-\textbf{Precondizioni:} l'utente visualizza una domanda.\\
+\textbf{Precondizioni:} l'utente si appresta a rispondere ad una domanda.\\
 \\
 \textbf{Postcondizioni:} il sistema visualizza il testo della domanda.\\
 \\
@@ -528,13 +530,13 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 
 \textbf{Attori:} \textit{utente}
 \\ \\
-\textbf{Descrizione:} caso d'uso che descrive la visualizzazione delle risposte.\\
+\textbf{Descrizione:} caso d'uso che descrive la visualizzazione su schermo delle risposte (immediatamente sotto il testo della domanda).\\
 \\
-\textbf{Precondizioni:} l'utente visualizza una domanda. La domanda ha delle risposte preimpostate di qualsiasi tipo.\\
+\textbf{Precondizioni:} l'utente visualizza una domanda. La domanda ha delle risposte preimpostate di qualsiasi tipo tra le quali l'utente dovrà scegliere.\\
 \\
-\textbf{Postcondizioni:} il sistema visualizza le risposte della domanda.\\
+\textbf{Postcondizioni:} il sistema visualizza le risposte della domanda su schermo (immediatamente sotto il testo della domanda).\\
 \\
-\textbf{Scenario:} l’utente visualizza le risposte nel formato relativo alla domanda.\\
+\textbf{Scenario:} l’utente visualizza le risposte nel formato relativo alla domanda (tra queste risposte ne sceglierà quella che ritiene corretta)\\
 
 
 \subsubsubsection{UC 6.1.3 - Visualizzazione risposta data}
@@ -545,9 +547,9 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \\
 \textbf{Precondizioni:} l'utente ha risposto ad una domanda.\\
 \\
-\textbf{Postcondizioni:} il sistema visualizza la risposta data.\\
+\textbf{Postcondizioni:} il sistema evidenzia la risposta data.\\
 \\
-\textbf{Scenario:} l’utente visualizza la risposta data.\\
+\textbf{Scenario:} la risposta data dall'utente viene evidenziata su schermo ed è facilmente distinguibile dall'utente.\\
 
 
 \newpage
@@ -1607,19 +1609,27 @@ ID & Descrizione & Priorità \\
 \multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Vincoli di sistema}
 \endlastfoot
 			
-V 1 & Il sistema deve essere utilizzabile attraverso un browser che supporti html 5, css 3 e javascript & Obbligatorio\\
+V 1 & Il sistema deve essere utilizzabile attraverso un browser che supporti HTML 5, CSS 3 e Javascript & Obbligatorio\\
 \midrule
 V 1.1 & L'interfaccia utente deve essere fruibile via desktop, tablet e smartphone & Obbligatorio\\
 \midrule
-V 1.2 & L'interfaccia utente deve essere strutturata con html 5 & Obbligatorio\\
+V 1.2 & L'interfaccia utente deve essere strutturata con HTML 5 & Obbligatorio\\
 \midrule
-V 1.3 & Lo stile dell'interfaccia utente deve essere realizzato tramite fogli di stile css 3 & Obbligatorio\\
+V 1.3 & Lo stile dell'interfaccia utente deve essere realizzato tramite fogli di stile CSS 3 & Obbligatorio\\
 \midrule
-V 1.4 & La parte attiva dell'interfaccia utente deve essere gestita utilizzando javascript & Obbligatorio\\
+V 1.4 & La parte attiva dell'interfaccia utente deve essere gestita utilizzando Javascript & Obbligatorio\\
 \midrule
 V 2 & Domande vengono gestiti con il linguaggio QML & Obbligatorio\\
 \midrule
-V 3 & La parte server viene realizzata in javascript con server Node.js & Obbligatorio\\
+V 3 & La parte server viene realizzata in Javascript con server Node.js & Obbligatorio\\
+\midrule
+V 3.1 & La base di dati sarà non relazione e verrà implementata utilizzando MongoDB & Desiderabile\\
+\midrule
+V 3.2 & I dati verranno memorizzati in formato JSON & Desiderabile\\
+\midrule
+V 4 & L' intero sistema verrà dimensionato attenendosi alle linee guida imposte dai framework Meteor e AngularJS & Desiderabile\\
+\midrule
+V 4.1 & Il sistema Quizzipedia dovrà essere compatibile con i seguenti browser: Android stock browser (Webkit based), Chrome, Firefox 7+, iOS browser, IE8+, Safari 4+, Desktop Opera, Mobile Opera & Desiderabile\\
 			
 			\end{longtable}
 	
