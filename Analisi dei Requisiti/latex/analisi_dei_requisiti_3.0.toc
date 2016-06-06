@@ -17,82 +17,81 @@
 \contentsline {subsection}{\numberline {3.3}UC 1 - Login}{5}{subsection.3.3}
 \contentsline {subsubsection}{\numberline {3.3.1}UC 1.1 - Inserimento email}{6}{subsubsection.3.3.1}
 \contentsline {subsubsection}{\numberline {3.3.2}UC 1.2 - Inserimento password}{6}{subsubsection.3.3.2}
-\contentsline {subsubsection}{\numberline {3.3.3}UC 1.3 - Password dimenticata}{7}{subsubsection.3.3.3}
-\contentsline {subsubsubsection}{\numberline {3.3.3.1}UC 1.3.1 - Inserimento email}{7}{subsubsubsection.3.3.3.1}
-\contentsline {subsubsubsection}{\numberline {3.3.3.2}UC 1.3.2 - Invio email recupero password}{8}{subsubsubsection.3.3.3.2}
-\contentsline {subsubsection}{\numberline {3.3.4}UC 1.3.3 - Email non registrata}{8}{subsubsection.3.3.4}
-\contentsline {subsubsection}{\numberline {3.3.5}UC 1.4 - Invio dati login}{8}{subsubsection.3.3.5}
-\contentsline {subsubsection}{\numberline {3.3.6}UC 1.5 - Errore login}{9}{subsubsection.3.3.6}
-\contentsline {subsection}{\numberline {3.4}UC 2 - Registrazione}{9}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}UC 2.1 - Inserimento email}{10}{subsubsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}UC 2.2 - Inserimento password}{10}{subsubsection.3.4.2}
-\contentsline {subsubsection}{\numberline {3.4.3}UC 2.3 - Password non valida}{10}{subsubsection.3.4.3}
-\contentsline {subsubsection}{\numberline {3.4.4}UC 2.4 - Invio dati registrazione}{11}{subsubsection.3.4.4}
-\contentsline {subsubsection}{\numberline {3.4.5}UC 2.5 - Dati registrazione non inseriti}{11}{subsubsection.3.4.5}
-\contentsline {subsubsection}{\numberline {3.4.6}UC 2.6 - Email gi\IeC {\`a} utilizzata}{12}{subsubsection.3.4.6}
-\contentsline {subsection}{\numberline {3.5}UC 3 - Visualizzazione categorie}{12}{subsection.3.5}
-\contentsline {subsubsection}{\numberline {3.5.1}UC 3.1 - Visualizzazione nome categoria}{13}{subsubsection.3.5.1}
-\contentsline {subsubsection}{\numberline {3.5.2}UC 3.2 - Visualizzazione numero questionari categoria}{13}{subsubsection.3.5.2}
-\contentsline {subsubsection}{\numberline {3.5.3}UC 3.3 - Selezione categoria}{13}{subsubsection.3.5.3}
-\contentsline {subsection}{\numberline {3.6}UC 4 - Visualizzazione lista questionari categoria}{14}{subsection.3.6}
-\contentsline {subsubsection}{\numberline {3.6.1}UC 4.1 - Visualizzazione nome questionario}{14}{subsubsection.3.6.1}
-\contentsline {subsubsection}{\numberline {3.6.2}UC 4.2 - Visualizzazione numero domande}{15}{subsubsection.3.6.2}
-\contentsline {subsubsection}{\numberline {3.6.3}UC 4.3 - Visualizzazione autore}{15}{subsubsection.3.6.3}
-\contentsline {subsubsection}{\numberline {3.6.4}UC 4.4 - Visualizzazione autore}{15}{subsubsection.3.6.4}
-\contentsline {subsection}{\numberline {3.7}UC 5 - Scelta questionario}{15}{subsection.3.7}
-\contentsline {subsection}{\numberline {3.8}UC 6 - Compilazione questionario}{16}{subsection.3.8}
-\contentsline {subsubsection}{\numberline {3.8.1}UC 6.1 - Visualizzazione domanda}{17}{subsubsection.3.8.1}
-\contentsline {subsubsubsection}{\numberline {3.8.1.1}UC 6.1.1 - Visualizzazione testo domanda}{17}{subsubsubsection.3.8.1.1}
-\contentsline {subsubsubsection}{\numberline {3.8.1.2}UC 6.1.2 - Visualizzazione risposte preimpostate}{18}{subsubsubsection.3.8.1.2}
-\contentsline {subsubsubsection}{\numberline {3.8.1.3}UC 6.1.3 - Visualizzazione risposta data}{18}{subsubsubsection.3.8.1.3}
-\contentsline {subsubsection}{\numberline {3.8.2}UC 6.2 - Compilazione domanda}{19}{subsubsection.3.8.2}
-\contentsline {subsubsubsection}{\numberline {3.8.2.1}UC 6.2.1 - Selezione risposta tra le presenti}{19}{subsubsubsection.3.8.2.1}
-\contentsline {subsubsubsection}{\numberline {3.8.2.2}UC 6.2.2 - Inserimento risposta come testo}{20}{subsubsubsection.3.8.2.2}
-\contentsline {subsubsubsection}{\numberline {3.8.2.3}UC 6.2.3 - Associazione tra elementi di due insiemi}{20}{subsubsubsection.3.8.2.3}
-\contentsline {subsubsubsection}{\numberline {3.8.2.4}UC 6.2.4 - Scelta di una parola per il completamento del testo}{20}{subsubsubsection.3.8.2.4}
-\contentsline {subsubsubsection}{\numberline {3.8.2.5}UC 6.2.5 - Associazione tra avvenimento e data}{21}{subsubsubsection.3.8.2.5}
-\contentsline {subsubsection}{\numberline {3.8.3}UC 6.3 - Consegna questionario}{21}{subsubsection.3.8.3}
-\contentsline {subsubsubsection}{\numberline {3.8.3.1}UC 6.4 - Questionario non completato}{21}{subsubsubsection.3.8.3.1}
-\contentsline {subsubsection}{\numberline {3.8.4}UC 6.5 - Valutazione questionario}{22}{subsubsection.3.8.4}
-\contentsline {subsubsubsection}{\numberline {3.8.4.1}UC 6.5.1 - Visualizzazione nome questionario}{22}{subsubsubsection.3.8.4.1}
-\contentsline {subsubsubsection}{\numberline {3.8.4.2}UC 6.5.2 - Visualizzazione punteggio ottenuto}{22}{subsubsubsection.3.8.4.2}
-\contentsline {subsubsubsection}{\numberline {3.8.4.3}UC 6.5.3 - Visualizzazione percentuale risposte corrette}{23}{subsubsubsection.3.8.4.3}
-\contentsline {subsubsection}{\numberline {3.8.5}UC 6.6 - Visualizzazione tempo rimanente}{23}{subsubsection.3.8.5}
-\contentsline {subsubsection}{\numberline {3.8.6}UC 6.7 - Domanda successiva}{23}{subsubsection.3.8.6}
-\contentsline {subsubsection}{\numberline {3.8.7}UC 6.8 - Domanda precedente}{24}{subsubsection.3.8.7}
-\contentsline {subsection}{\numberline {3.9}UC 7 - Gestione domande}{24}{subsection.3.9}
-\contentsline {subsubsection}{\numberline {3.9.1}UC 7.1 - Visualizzazione domande create dall'utente}{25}{subsubsection.3.9.1}
-\contentsline {subsubsubsection}{\numberline {3.9.1.1}UC 7.1.1 - Visualizzazione tipo}{26}{subsubsubsection.3.9.1.1}
-\contentsline {subsubsubsection}{\numberline {3.9.1.2}UC 7.1.2 - Visualizzazione testo}{26}{subsubsubsection.3.9.1.2}
-\contentsline {subsubsubsection}{\numberline {3.9.1.3}UC 7.1.3 - Visualizzazione data creazione}{26}{subsubsubsection.3.9.1.3}
-\contentsline {subsubsection}{\numberline {3.9.2}UC 7.2 - Creazione nuova domanda}{27}{subsubsection.3.9.2}
-\contentsline {subsubsubsection}{\numberline {3.9.2.1}UC 7.2.1 - Inserimento categorie domanda}{27}{subsubsubsection.3.9.2.1}
-\contentsline {subsubsubsection}{\numberline {3.9.2.2}UC 7.2.2 - Inserimento QML domanda}{28}{subsubsubsection.3.9.2.2}
-\contentsline {subsubsubsection}{\numberline {3.9.2.3}UC 7.2.3 - Invio dati domanda}{28}{subsubsubsection.3.9.2.3}
-\contentsline {subsubsubsection}{\numberline {3.9.2.4}UC 7.2.4 - Dati richiesti domanda mancanti}{28}{subsubsubsection.3.9.2.4}
-\contentsline {subsubsubsection}{\numberline {3.9.2.5}UC 7.2.5 - QML domanda non valido}{29}{subsubsubsection.3.9.2.5}
-\contentsline {subsubsection}{\numberline {3.9.3}UC 7.3 - Modifica domanda}{30}{subsubsection.3.9.3}
-\contentsline {subsubsubsection}{\numberline {3.9.3.1}UC 7.3.1 - Aggiunta categoria}{31}{subsubsubsection.3.9.3.1}
-\contentsline {subsubsubsection}{\numberline {3.9.3.2}UC 7.3.2 - Rimozione categoria}{31}{subsubsubsection.3.9.3.2}
-\contentsline {subsubsubsection}{\numberline {3.9.3.3}UC 7.3.3 - Modifica QML domanda}{31}{subsubsubsection.3.9.3.3}
-\contentsline {subsubsubsection}{\numberline {3.9.3.4}UC 7.3.4 - Invio nuovi dati}{31}{subsubsubsection.3.9.3.4}
-\contentsline {subsubsubsection}{\numberline {3.9.3.5}UC 7.3.5 - Dati domanda richiesti mancanti}{32}{subsubsubsection.3.9.3.5}
-\contentsline {subsubsubsection}{\numberline {3.9.3.6}UC 7.3.6 - QML modificato non valido}{32}{subsubsubsection.3.9.3.6}
-\contentsline {subsection}{\numberline {3.10}UC 8 - Creazione questionario}{33}{subsection.3.10}
-\contentsline {subsubsection}{\numberline {3.10.1}UC 8.1 - Inserimento nome questionario}{33}{subsubsection.3.10.1}
-\contentsline {subsubsection}{\numberline {3.10.2}UC 8.2 - Inserimento categoria questionario}{34}{subsubsection.3.10.2}
-\contentsline {subsubsection}{\numberline {3.10.3}UC 8.3 - Visualizzazione lista domande}{34}{subsubsection.3.10.3}
-\contentsline {subsubsection}{\numberline {3.10.4}UC 8.4 - Selezione domanda}{34}{subsubsection.3.10.4}
-\contentsline {subsubsection}{\numberline {3.10.5}UC 8.5 - Conferma questionario}{35}{subsubsection.3.10.5}
-\contentsline {subsubsection}{\numberline {3.10.6}UC 8.6 - Questionario vuoto}{35}{subsubsection.3.10.6}
-\contentsline {subsubsection}{\numberline {3.10.7}UC 8.7 - Dati richiesti questionario mancanti}{35}{subsubsection.3.10.7}
-\contentsline {subsubsection}{\numberline {3.10.8}UC 8.8 - Inserimento tempo di compilazione}{36}{subsubsection.3.10.8}
-\contentsline {subsection}{\numberline {3.11}UC 9 - Logout}{36}{subsection.3.11}
-\contentsline {subsection}{\numberline {3.12}UC 10 - Ricerca questionario}{37}{subsection.3.12}
-\contentsline {subsubsubsection}{\numberline {3.12.0.1}UC 10.1 - Inserimento titolo}{37}{subsubsubsection.3.12.0.1}
-\contentsline {subsubsubsection}{\numberline {3.12.0.2}UC 10.2 - Inserimento autore}{38}{subsubsubsection.3.12.0.2}
-\contentsline {subsubsubsection}{\numberline {3.12.0.3}UC 10.3 - Inserimento data di creazione}{38}{subsubsubsection.3.12.0.3}
-\contentsline {subsubsubsection}{\numberline {3.12.0.4}UC 10.4 - Avvio ricerca}{38}{subsubsubsection.3.12.0.4}
+\contentsline {subsubsection}{\numberline {3.3.3}UC 1.3 - Invio dati login}{6}{subsubsection.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.4}UC 1.4 - Errore login}{7}{subsubsection.3.3.4}
+\contentsline {subsection}{\numberline {3.4}UC 2 - Registrazione}{7}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}UC 2.1 - Inserimento email}{8}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}UC 2.2 - Inserimento password}{8}{subsubsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.3}UC 2.3 - Password non valida}{8}{subsubsection.3.4.3}
+\contentsline {subsubsection}{\numberline {3.4.4}UC 2.4 - Invio dati registrazione}{9}{subsubsection.3.4.4}
+\contentsline {subsubsection}{\numberline {3.4.5}UC 2.5 - Dati registrazione non inseriti}{9}{subsubsection.3.4.5}
+\contentsline {subsubsection}{\numberline {3.4.6}UC 2.6 - Email gi\IeC {\`a} utilizzata}{9}{subsubsection.3.4.6}
+\contentsline {subsection}{\numberline {3.5}UC 3 - Visualizzazione categorie}{10}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}UC 3.1 - Visualizzazione nome categoria}{11}{subsubsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.2}UC 3.2 - Visualizzazione numero questionari categoria}{11}{subsubsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.5.3}UC 3.3 - Selezione categoria}{11}{subsubsection.3.5.3}
+\contentsline {subsection}{\numberline {3.6}UC 4 - Visualizzazione lista questionari categoria}{12}{subsection.3.6}
+\contentsline {subsubsection}{\numberline {3.6.1}UC 4.1 - Visualizzazione nome questionario}{12}{subsubsection.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.2}UC 4.2 - Visualizzazione numero domande}{13}{subsubsection.3.6.2}
+\contentsline {subsubsection}{\numberline {3.6.3}UC 4.3 - Visualizzazione autore}{13}{subsubsection.3.6.3}
+\contentsline {subsubsection}{\numberline {3.6.4}UC 4.4 - Visualizzazione autore}{13}{subsubsection.3.6.4}
+\contentsline {subsection}{\numberline {3.7}UC 5 - Scelta questionario}{13}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}UC 6 - Compilazione questionario}{14}{subsection.3.8}
+\contentsline {subsubsection}{\numberline {3.8.1}UC 6.1 - Visualizzazione domanda}{15}{subsubsection.3.8.1}
+\contentsline {subsubsubsection}{\numberline {3.8.1.1}UC 6.1.1 - Visualizzazione testo domanda}{15}{subsubsubsection.3.8.1.1}
+\contentsline {subsubsubsection}{\numberline {3.8.1.2}UC 6.1.2 - Visualizzazione risposte preimpostate}{16}{subsubsubsection.3.8.1.2}
+\contentsline {subsubsubsection}{\numberline {3.8.1.3}UC 6.1.3 - Visualizzazione risposta data}{16}{subsubsubsection.3.8.1.3}
+\contentsline {subsubsection}{\numberline {3.8.2}UC 6.2 - Compilazione domanda}{17}{subsubsection.3.8.2}
+\contentsline {subsubsubsection}{\numberline {3.8.2.1}UC 6.2.1 - Selezione risposta tra le presenti}{17}{subsubsubsection.3.8.2.1}
+\contentsline {subsubsubsection}{\numberline {3.8.2.2}UC 6.2.2 - Inserimento risposta come testo}{18}{subsubsubsection.3.8.2.2}
+\contentsline {subsubsubsection}{\numberline {3.8.2.3}UC 6.2.3 - Associazione tra elementi di due insiemi}{18}{subsubsubsection.3.8.2.3}
+\contentsline {subsubsubsection}{\numberline {3.8.2.4}UC 6.2.4 - Scelta di una parola per il completamento del testo}{18}{subsubsubsection.3.8.2.4}
+\contentsline {subsubsubsection}{\numberline {3.8.2.5}UC 6.2.5 - Associazione tra avvenimento e data}{19}{subsubsubsection.3.8.2.5}
+\contentsline {subsubsection}{\numberline {3.8.3}UC 6.3 - Consegna questionario}{19}{subsubsection.3.8.3}
+\contentsline {subsubsubsection}{\numberline {3.8.3.1}UC 6.4 - Questionario non completato}{19}{subsubsubsection.3.8.3.1}
+\contentsline {subsubsection}{\numberline {3.8.4}UC 6.5 - Valutazione questionario}{20}{subsubsection.3.8.4}
+\contentsline {subsubsubsection}{\numberline {3.8.4.1}UC 6.5.1 - Visualizzazione nome questionario}{20}{subsubsubsection.3.8.4.1}
+\contentsline {subsubsubsection}{\numberline {3.8.4.2}UC 6.5.2 - Visualizzazione punteggio ottenuto}{20}{subsubsubsection.3.8.4.2}
+\contentsline {subsubsubsection}{\numberline {3.8.4.3}UC 6.5.3 - Visualizzazione percentuale risposte corrette}{21}{subsubsubsection.3.8.4.3}
+\contentsline {subsubsection}{\numberline {3.8.5}UC 6.6 - Visualizzazione tempo rimanente}{21}{subsubsection.3.8.5}
+\contentsline {subsubsection}{\numberline {3.8.6}UC 6.7 - Domanda successiva}{21}{subsubsection.3.8.6}
+\contentsline {subsubsection}{\numberline {3.8.7}UC 6.8 - Domanda precedente}{22}{subsubsection.3.8.7}
+\contentsline {subsection}{\numberline {3.9}UC 7 - Gestione domande}{22}{subsection.3.9}
+\contentsline {subsubsection}{\numberline {3.9.1}UC 7.1 - Visualizzazione domande create dall'utente}{23}{subsubsection.3.9.1}
+\contentsline {subsubsubsection}{\numberline {3.9.1.1}UC 7.1.1 - Visualizzazione tipo}{24}{subsubsubsection.3.9.1.1}
+\contentsline {subsubsubsection}{\numberline {3.9.1.2}UC 7.1.2 - Visualizzazione testo}{24}{subsubsubsection.3.9.1.2}
+\contentsline {subsubsubsection}{\numberline {3.9.1.3}UC 7.1.3 - Visualizzazione data creazione}{24}{subsubsubsection.3.9.1.3}
+\contentsline {subsubsection}{\numberline {3.9.2}UC 7.2 - Creazione nuova domanda}{25}{subsubsection.3.9.2}
+\contentsline {subsubsubsection}{\numberline {3.9.2.1}UC 7.2.1 - Inserimento categorie domanda}{25}{subsubsubsection.3.9.2.1}
+\contentsline {subsubsubsection}{\numberline {3.9.2.2}UC 7.2.2 - Inserimento QML domanda}{26}{subsubsubsection.3.9.2.2}
+\contentsline {subsubsubsection}{\numberline {3.9.2.3}UC 7.2.3 - Invio dati domanda}{26}{subsubsubsection.3.9.2.3}
+\contentsline {subsubsubsection}{\numberline {3.9.2.4}UC 7.2.4 - Dati richiesti domanda mancanti}{26}{subsubsubsection.3.9.2.4}
+\contentsline {subsubsubsection}{\numberline {3.9.2.5}UC 7.2.5 - QML domanda non valido}{27}{subsubsubsection.3.9.2.5}
+\contentsline {subsubsection}{\numberline {3.9.3}UC 7.3 - Modifica domanda}{28}{subsubsection.3.9.3}
+\contentsline {subsubsubsection}{\numberline {3.9.3.1}UC 7.3.1 - Aggiunta categoria}{29}{subsubsubsection.3.9.3.1}
+\contentsline {subsubsubsection}{\numberline {3.9.3.2}UC 7.3.2 - Rimozione categoria}{29}{subsubsubsection.3.9.3.2}
+\contentsline {subsubsubsection}{\numberline {3.9.3.3}UC 7.3.3 - Modifica QML domanda}{29}{subsubsubsection.3.9.3.3}
+\contentsline {subsubsubsection}{\numberline {3.9.3.4}UC 7.3.4 - Invio nuovi dati}{29}{subsubsubsection.3.9.3.4}
+\contentsline {subsubsubsection}{\numberline {3.9.3.5}UC 7.3.5 - Dati domanda richiesti mancanti}{30}{subsubsubsection.3.9.3.5}
+\contentsline {subsubsubsection}{\numberline {3.9.3.6}UC 7.3.6 - QML modificato non valido}{30}{subsubsubsection.3.9.3.6}
+\contentsline {subsection}{\numberline {3.10}UC 8 - Creazione questionario}{31}{subsection.3.10}
+\contentsline {subsubsection}{\numberline {3.10.1}UC 8.1 - Inserimento nome questionario}{31}{subsubsection.3.10.1}
+\contentsline {subsubsection}{\numberline {3.10.2}UC 8.2 - Inserimento categoria questionario}{32}{subsubsection.3.10.2}
+\contentsline {subsubsection}{\numberline {3.10.3}UC 8.3 - Visualizzazione lista domande}{32}{subsubsection.3.10.3}
+\contentsline {subsubsection}{\numberline {3.10.4}UC 8.4 - Selezione domanda}{32}{subsubsection.3.10.4}
+\contentsline {subsubsection}{\numberline {3.10.5}UC 8.5 - Conferma questionario}{33}{subsubsection.3.10.5}
+\contentsline {subsubsection}{\numberline {3.10.6}UC 8.6 - Questionario vuoto}{33}{subsubsection.3.10.6}
+\contentsline {subsubsection}{\numberline {3.10.7}UC 8.7 - Dati richiesti questionario mancanti}{33}{subsubsection.3.10.7}
+\contentsline {subsubsection}{\numberline {3.10.8}UC 8.8 - Inserimento tempo di compilazione}{34}{subsubsection.3.10.8}
+\contentsline {subsection}{\numberline {3.11}UC 9 - Logout}{34}{subsection.3.11}
+\contentsline {subsection}{\numberline {3.12}UC 10 - Ricerca questionario}{35}{subsection.3.12}
+\contentsline {subsubsubsection}{\numberline {3.12.0.1}UC 10.1 - Inserimento titolo}{35}{subsubsubsection.3.12.0.1}
+\contentsline {subsubsubsection}{\numberline {3.12.0.2}UC 10.2 - Inserimento autore}{36}{subsubsubsection.3.12.0.2}
+\contentsline {subsubsubsection}{\numberline {3.12.0.3}UC 10.3 - Inserimento data di creazione}{36}{subsubsubsection.3.12.0.3}
+\contentsline {subsubsubsection}{\numberline {3.12.0.4}UC 10.4 - Avvio ricerca}{36}{subsubsubsection.3.12.0.4}
+\contentsline {subsection}{\numberline {3.13}UC 11 - Recupero password}{37}{subsection.3.13}
+\contentsline {subsubsubsection}{\numberline {3.13.0.1}UC 11.1 - Inserimento email}{37}{subsubsubsection.3.13.0.1}
+\contentsline {subsubsubsection}{\numberline {3.13.0.2}UC 11.2 - Invio email recupero password}{38}{subsubsubsection.3.13.0.2}
 \contentsline {section}{\numberline {4}Requisiti}{39}{section.4}
 \contentsline {subsection}{\numberline {4.1}Requisiti funzionali}{39}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Requisiti di qualit\IeC {\`a}}{47}{subsection.4.2}

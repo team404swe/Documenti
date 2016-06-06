@@ -191,72 +191,7 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \\
 \textbf{Scenario:} l’utente inserisce la propria password nell'apposito campo.\\
 
-
-\newpage
-\subsubsection{UC 1.3 - Password dimenticata}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.6]{../immagini/UC1_3.png}
-\caption{Login}
-\end{figure}
-\ \\
-\textbf{Attori:} \textit{utente non autenticato}
-\\ \\
-\textbf{Descrizione:} caso d'uso che descrive la procedura di recupero password in caso di dimenticanza.\\
-\\
-\textbf{Precondizioni:} l'utente non ricorda più la propria password.\\
-\\
-\textbf{Postcondizioni:} l’utente ha recuperato la propria password.\\
-\\
-\textbf{Scenario:} l’utente segue la procedura di recupero password e il sistema provvede a mandare una email con la password all'utente.\\
-
-
-\subsubsubsection{UC 1.3.1 - Inserimento email}
-
-\textbf{Attori:} \textit{utente non autenticato}
-\\ \\
-\textbf{Descrizione:} caso d'uso che descrive l'inserimento della email nella procedura di recupero password.\\
-\\
-\textbf{Precondizioni:} l'utente è nella procedura di recupero password.\\
-\\
-\textbf{Postcondizioni:} l’utente ha inserito la propria email.\\
-\\
-\textbf{Scenario:} l’utente inserisce la propria email nell'apposito campo.\\
-
-
-\subsubsubsection{UC 1.3.2 - Invio email recupero password}
-
-\textbf{Attori:} \textit{utente non autenticato}
-\\ \\
-\textbf{Descrizione:} caso d'uso che descrive l'invio al sistema della email nella procedura di recupero password.\\
-\\
-\textbf{Precondizioni:} l'utente ha inserito la propria email nella procedura di recupero password.\\
-\\
-\textbf{Postcondizioni:} l’utente riceve una email con la propria password dimenticata.\\
-\\
-\textbf{Scenario:} l’utente invia la propria email e il sistema manda una mail con la password dimenticata.\\
-\\
-\textbf{Extension points:} 
-\begin{itemize}
-	\item \textbf{email non registrata:} La email inviata al sistema non corrisponde a nessun utente, viene visualizzato un messaggio di errore (UC 1.3.3)
-\end{itemize}
-
-
-\subsubsection{UC 1.3.3 - Email non registrata}
-
-\textbf{Attori:} \textit{utente non autenticato}
-\\ \\
-\textbf{Descrizione:} caso d'uso che descrive la visualizzazione del messaggio di errore sul tentativo di recupero password.\\
-\\
-\textbf{Precondizioni:} l'utente ha inserito la propria email e l'ha inviata al sistema per il recupero della password. L'email inserita non è registrata nel sistema.\\
-\\
-\textbf{Postcondizioni:} l’utente visualizza un messaggio di errore sul tentativo di recupero password.\\
-\\
-\textbf{Scenario:} viene visualizzato un messaggio di errore sul tentativo di recupero password.\\
-
-
-\subsubsection{UC 1.4 - Invio dati login}
+\subsubsection{UC 1.3 - Invio dati login}
 
 \textbf{Attori:} \textit{utente non autenticato}
 \\ \\
@@ -274,7 +209,7 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \end{itemize}
 
 
-\subsubsection{UC 1.5 - Errore login}
+\subsubsection{UC 1.4 - Errore login}
 
 \textbf{Attori:} \textit{utente non autenticato}
 \\ \\
@@ -1312,11 +1247,60 @@ L'utente autenticato è un utente che ha effettuato l'accesso al sistema tramite
 \\
 \textbf{Postcondizioni:} l’utente visualizza la lista di questionari che rispettano i criteri inseriti.\\
 \\
-\textbf{Scenario:} l’utente avvia la ricerca e visualizza la lista di questionari che soddisfano i criteri inseriti.\\
-	
-	
+\textbf{Scenario:} l’utente avvia la ricerca e visualizza la lista di questionari che soddisfano i criteri inseriti.\\	
 	\newpage
-	\section{Requisiti}
+
+\subsection{UC 11 - Recupero password}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{../immagini/UC11.png}
+\caption{Login}
+\end{figure}
+\ \\
+\textbf{Attori:} \textit{utente non autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive la procedura di recupero password in caso di dimenticanza.\\
+\\
+\textbf{Precondizioni:} l'utente non ricorda più la propria password.\\
+\\
+\textbf{Postcondizioni:} l’utente ha recuperato la propria password.\\
+\\
+\textbf{Scenario:} l’utente segue la procedura di recupero password e il sistema provvede a mandare una email con la password all'utente.\\
+
+
+\subsubsubsection{UC 11.1 - Inserimento email}
+
+\textbf{Attori:} \textit{utente non autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive l'inserimento della email nella procedura di recupero password.\\
+\\
+\textbf{Precondizioni:} l'utente è nella procedura di recupero password.\\
+\\
+\textbf{Postcondizioni:} l’utente ha inserito la propria email.\\
+\\
+\textbf{Scenario:} l’utente inserisce la propria email nell'apposito campo.\\
+
+
+\subsubsubsection{UC 11.2 - Invio email recupero password}
+
+\textbf{Attori:} \textit{utente non autenticato}
+\\ \\
+\textbf{Descrizione:} caso d'uso che descrive l'invio al sistema della email nella procedura di recupero password.\\
+\\
+\textbf{Precondizioni:} l'utente ha inserito la propria email nella procedura di recupero password.\\
+\\
+\textbf{Postcondizioni:} l’utente riceve una email con la propria password dimenticata.\\
+\\
+\textbf{Scenario:} l’utente invia la propria email e il sistema manda una mail con la password dimenticata.\\
+\\
+\textbf{Extension points:} 
+\begin{itemize}
+	\item \textbf{Email non registrata:} La email inviata al sistema non corrisponde a nessun utente, viene visualizzato un messaggio di errore (UC 11.2.1)
+\end{itemize}
+	\newpage
+
+\section{Requisiti}
 		Di seguito vengono elencati i requisiti emersi in fase di analisi del capitolato e del problema.\\
 		I requisiti sono presentati in maniera gerarchica affinché i sotto-requisiti specifichino ulteriori informazioni e dettagli rispetto al loro genitore.\\
 		Per avere una migliore organizzazione dei requisiti questi vengono suddivisi in funzionali (F), QML (QML), di qualità (Q) e vincoli di sistema imposti dal capitolato (V).\\
