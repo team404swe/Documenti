@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.3.14)  6 JUN 2016 16:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.3.14)  6 JUN 2016 16:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -995,7 +995,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 16.
-<team_not_found.jpg, id=418, 382.42876pt x 153.57375pt>
+<team_not_found.jpg, id=401, 382.42876pt x 153.57375pt>
 File: team_not_found.jpg Graphic file (type jpg)
 
 <use team_not_found.jpg>
@@ -1122,7 +1122,7 @@ Underfull \hbox (badness 4492) in paragraph at lines 70--70
 []|\T1/fca/m/n/9 Prima ste-su-ra del do-cu-men-to. Im-po-sta-zio-ne del
  []
 
-<team404_small.jpg, id=430, 382.42876pt x 153.57375pt>
+<team404_small.jpg, id=414, 382.42876pt x 153.57375pt>
 File: team404_small.jpg Graphic file (type jpg)
  <use team404_small.jpg>
 Package pdftex.def Info: team404_small.jpg used on input line 72.
@@ -1149,7 +1149,7 @@ Package pdftex.def Info: team404_small.jpg used on input line 49.
 File: team404_small.jpg Graphic file (type jpg)
 
 <use team404_small.jpg>
-Package pdftex.def Info: team404_small.jpg used on input line 98.
+Package pdftex.def Info: team404_small.jpg used on input line 97.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [5])
 \tf@toc=\write5
@@ -1207,7 +1207,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--129
 
  []
 
-<../immagini/Actors.png, id=638, 387.4475pt x 338.26375pt>
+<../immagini/Actors.png, id=616, 387.4475pt x 338.26375pt>
 File: ../immagini/Actors.png Graphic file (type png)
 
 <use ../immagini/Actors.png>
@@ -1217,7 +1217,7 @@ File: team404_small.jpg Graphic file (type jpg)
  <use team404_small.jpg>
 Package pdftex.def Info: team404_small.jpg used on input line 136.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [3 <../immagini/Actors.png>] <../immagini/Main.png, id=647, 829.0975pt x 1005.
+ [3 <../immagini/Actors.png>] <../immagini/Main.png, id=624, 829.0975pt x 1005.
 7575pt>
 File: ../immagini/Main.png Graphic file (type png)
 
@@ -1244,7 +1244,7 @@ File: team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: team404_small.jpg used on input line 148.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [4 <../immagini/Main.png>]
-<../immagini/UC1.png, id=654, 660.4675pt x 580.1675pt>
+<../immagini/UC1.png, id=631, 660.4675pt x 580.1675pt>
 File: ../immagini/UC1.png Graphic file (type png)
 
 <use ../immagini/UC1.png>
@@ -1384,7 +1384,7 @@ File: team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: team404_small.jpg used on input line 223.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [6]
-<../immagini/UC2.png, id=667, 873.2625pt x 546.04pt>
+<../immagini/UC2.png, id=645, 873.2625pt x 546.04pt>
 File: ../immagini/UC2.png Graphic file (type png)
  <use ../immagini/UC2.png>
 Package pdftex.def Info: ../immagini/UC2.png used on input line 229.
@@ -1582,7 +1582,7 @@ File: team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: team404_small.jpg used on input line 331.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [9]
-<../immagini/UC3.png, id=684, 660.4675pt x 403.5075pt>
+<../immagini/UC3.png, id=662, 660.4675pt x 403.5075pt>
 File: ../immagini/UC3.png Graphic file (type png)
 
 <use ../immagini/UC3.png>
@@ -1697,7 +1697,7 @@ File: team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: team404_small.jpg used on input line 391.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [11]
-<../immagini/UC4.png, id=697, 620.3175pt x 491.8375pt>
+<../immagini/UC4.png, id=675, 620.3175pt x 491.8375pt>
 File: ../immagini/UC4.png Graphic file (type png)
 
 <use ../immagini/UC4.png>
@@ -1862,7 +1862,7 @@ File: team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: team404_small.jpg used on input line 474.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [13]
-<../immagini/UC6.png, id=709, 925.4575pt x 708.6475pt>
+<../immagini/UC6.png, id=687, 925.4575pt x 708.6475pt>
 File: ../immagini/UC6.png Graphic file (type png)
 
 <use ../immagini/UC6.png>
@@ -1903,7 +1903,7 @@ File: team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: team404_small.jpg used on input line 493.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [14 <../immagini/UC6.png>]
-<../immagini/UC6_1.png, id=716, 572.1375pt x 395.4775pt>
+<../immagini/UC6_1.png, id=694, 572.1375pt x 395.4775pt>
 File: ../immagini/UC6_1.png Graphic file (type png)
 
 <use ../immagini/UC6_1.png>
@@ -2018,7 +2018,7 @@ File: team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: team404_small.jpg used on input line 553.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [16]
-<../immagini/UC6_2.png, id=728, 684.5575pt x 620.3175pt>
+<../immagini/UC6_2.png, id=706, 684.5575pt x 620.3175pt>
 File: ../immagini/UC6_2.png Graphic file (type png)
 
 <use ../immagini/UC6_2.png>
@@ -2232,7 +2232,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 658--667
 
  []
 
-<../immagini/UC6_5.png, id=742, 684.5575pt x 371.3875pt>
+<../immagini/UC6_5.png, id=719, 684.5575pt x 371.3875pt>
 File: ../immagini/UC6_5.png Graphic file (type png)
 
 <use ../immagini/UC6_5.png>
@@ -2398,7 +2398,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 742--751
 
 File: team404_small.jpg Graphic file (type jpg)
 <use team404_small.jpg>
-Package pdftex.def Info: team404_small.jpg used on input line 753.
+Package pdftex.def Info: team404_small.jpg used on input line 751.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [21]
 Underfull \hbox (badness 10000) in paragraph at lines 755--764
@@ -2425,7 +2425,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 755--764
 
  []
 
-<../immagini/UC7.png, id=759, 548.0475pt x 515.9275pt>
+<../immagini/UC7.png, id=737, 548.0475pt x 515.9275pt>
 File: ../immagini/UC7.png Graphic file (type png)
 
 <use ../immagini/UC7.png>
@@ -2461,7 +2461,7 @@ File: team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: team404_small.jpg used on input line 783.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [22 <../immagini/UC7.png>]
-<../immagini/UC7_1.png, id=766, 572.1375pt x 459.7175pt>
+<../immagini/UC7_1.png, id=744, 572.1375pt x 459.7175pt>
 File: ../immagini/UC7_1.png Graphic file (type png)
 
 <use ../immagini/UC7_1.png>
@@ -2576,7 +2576,7 @@ File: team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: team404_small.jpg used on input line 843.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [24]
-<../immagini/UC7_2.png, id=779, 676.5275pt x 515.9275pt>
+<../immagini/UC7_2.png, id=757, 676.5275pt x 515.9275pt>
 File: ../immagini/UC7_2.png Graphic file (type png)
 
 <use ../immagini/UC7_2.png>
@@ -2745,7 +2745,7 @@ File: team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: team404_small.jpg used on input line 934.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [27]
-<../immagini/UC7_3.png, id=796, 676.5275pt x 684.5575pt>
+<../immagini/UC7_3.png, id=774, 676.5275pt x 684.5575pt>
 File: ../immagini/UC7_3.png Graphic file (type png)
 
 <use ../immagini/UC7_3.png>
@@ -2939,7 +2939,7 @@ File: team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: team404_small.jpg used on input line 1038.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [30]
-<../immagini/UC8.png, id=814, 1021.8175pt x 716.6775pt>
+<../immagini/UC8.png, id=792, 1021.8175pt x 716.6775pt>
 File: ../immagini/UC8.png Graphic file (type png)
 
 <use ../immagini/UC8.png>
@@ -3217,7 +3217,7 @@ File: team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: team404_small.jpg used on input line 1181.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [34]
-<../immagini/UC10.png, id=837, 598.235pt x 564.1075pt>
+<../immagini/UC10.png, id=814, 598.235pt x 564.1075pt>
 File: ../immagini/UC10.png Graphic file (type png)
 
 <use ../immagini/UC10.png>
@@ -3361,7 +3361,7 @@ File: team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: team404_small.jpg used on input line 1251.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [36]
-<../immagini/UC11.png, id=850, 592.2125pt x 475.7775pt>
+<../immagini/UC11.png, id=828, 592.2125pt x 475.7775pt>
 File: ../immagini/UC11.png Graphic file (type png)
 
 <use ../immagini/UC11.png>
@@ -3840,55 +3840,30 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 1966.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1966.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1966.
 
-
-
-Package rerunfilecheck Warning: File `analisi_dei_requisiti_3.0.out' has change
-d.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `analisi_dei_requisiti_3.0.out':
-(rerunfilecheck)             Before: 6EDD9FADF19B1DEE563A25CC73833C18;9333
-(rerunfilecheck)             After:  A4B7B2CD1E72FA3A1F538A7208CF9E2B;8941.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `analisi_dei_requisiti_3.0.out' has not chang
+ed.
+(rerunfilecheck)             Checksum: 2B4A760DFDF6168901544167106BB9D1;8942.
  ) 
 Here is how much of TeX's memory you used:
- 11144 strings out of 493033
- 163389 string characters out of 6137754
+ 11135 strings out of 493033
+ 163192 string characters out of 6137754
  302480 words of memory out of 5000000
- 14265 multiletter control sequences out of 15000+600000
+ 14261 multiletter control sequences out of 15000+600000
  26367 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,17n,49p,920b,534s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.caption.19} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.3.3.6} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.3.3.5} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsubsection.3.3.3.2} has been referenced but d
-oes not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsubsection.3.3.3.1} has been referenced but d
-oes not exist, replaced by a fixed one
-
-{c:/texlive/2015/texmf-dist/fonts/enc/dvips/cantarell/cantarell-03.enc}{c:/texl
-ive/2015/texmf-dist/fonts/enc/dvips/cantarell/cantarell-01.enc}{c:/texlive/2015
-/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2015/texmf-dis
-t/fonts/type1/public/cantarell/Cantarell-Bold.pfb><c:/texlive/2015/texmf-dist/f
-onts/type1/public/cantarell/Cantarell-Regular.pfb><c:/texlive/2015/texmf-dist/f
-onts/type1/public/cantarell/Cantarell-Regular.pfb><c:/texlive/2015/texmf-dist/f
-onts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2015/texmf-dist/fonts/type1
-/public/cm-super/sftt1440.pfb>
-Output written on analisi_dei_requisiti_3.0.pdf (66 pages, 930760 bytes).
+{c:/texlive/2015/texmf-dist/fonts/enc/dvips/cantarell/cantarell-03.enc}{c:/te
+xlive/2015/texmf-dist/fonts/enc/dvips/cantarell/cantarell-01.enc}{c:/texlive/20
+15/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2015/texmf-d
+ist/fonts/type1/public/cantarell/Cantarell-Bold.pfb><c:/texlive/2015/texmf-dist
+/fonts/type1/public/cantarell/Cantarell-Regular.pfb><c:/texlive/2015/texmf-dist
+/fonts/type1/public/cantarell/Cantarell-Regular.pfb><c:/texlive/2015/texmf-dist
+/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2015/texmf-dist/fonts/typ
+e1/public/cm-super/sftt1440.pfb>
+Output written on analisi_dei_requisiti_3.0.pdf (66 pages, 920723 bytes).
 PDF statistics:
- 1037 PDF objects out of 1200 (max. 8388607)
- 918 compressed objects within 10 object streams
- 195 named destinations out of 1000 (max. 500000)
- 920 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1013 PDF objects out of 1200 (max. 8388607)
+ 895 compressed objects within 9 object streams
+ 190 named destinations out of 1000 (max. 500000)
+ 888 words of extra memory for PDF output out of 10000 (max. 10000000)
 

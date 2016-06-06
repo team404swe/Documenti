@@ -49,9 +49,9 @@
 \contentsline {subsubsubsection}{\numberline {3.8.2.5}UC 6.2.5 - Associazione tra avvenimento e data}{19}{subsubsubsection.3.8.2.5}
 \contentsline {subsubsection}{\numberline {3.8.3}UC 6.3 - Consegna questionario}{19}{subsubsection.3.8.3}
 \contentsline {subsubsubsection}{\numberline {3.8.3.1}UC 6.4 - Questionario non completato}{19}{subsubsubsection.3.8.3.1}
-\contentsline {subsubsection}{\numberline {3.8.4}UC 6.5 - Valutazione questionario}{20}{subsubsection.3.8.4}
+\contentsline {subsubsection}{\numberline {3.8.4}UC 6.5 - Visualizzazione risultati}{20}{subsubsection.3.8.4}
 \contentsline {subsubsubsection}{\numberline {3.8.4.1}UC 6.5.1 - Visualizzazione nome questionario}{20}{subsubsubsection.3.8.4.1}
-\contentsline {subsubsubsection}{\numberline {3.8.4.2}UC 6.5.2 - Visualizzazione punteggio ottenuto}{20}{subsubsubsection.3.8.4.2}
+\contentsline {subsubsubsection}{\numberline {3.8.4.2}UC 6.5.2 - Visualizzazione punteggio ottenuto}{21}{subsubsubsection.3.8.4.2}
 \contentsline {subsubsubsection}{\numberline {3.8.4.3}UC 6.5.3 - Visualizzazione percentuale risposte corrette}{21}{subsubsubsection.3.8.4.3}
 \contentsline {subsubsection}{\numberline {3.8.5}UC 6.6 - Visualizzazione tempo rimanente}{21}{subsubsection.3.8.5}
 \contentsline {subsubsection}{\numberline {3.8.6}UC 6.7 - Domanda successiva}{21}{subsubsection.3.8.6}
