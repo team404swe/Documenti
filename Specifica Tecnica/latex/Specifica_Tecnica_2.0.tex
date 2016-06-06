@@ -40,7 +40,8 @@
 	
 	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm} 
 	\textbf{Descrizione}}
-	\rigaregistro{1.0.6}{Davide Bortot (Progettista)}{02/06/2016}{Rivisitate le sezioni §2.2, §2.3, §2.4 in seguito alla redifinizione di §2.1.}
+	\rigaregistro{1.0.8}{Davide Bortot (Progettista)}{03/06/2016}{Prima rivisitazione ed adattamento di §5.2.2, divenuto package "ViewModel".}
+	\rigaregistro{1.0.7}{Davide Bortot (Progettista)}{02/06/2016}{Rivisitate le sezioni §2.2, §2.3, §2.4 in seguito alla redifinizione di §2.1.}
 	\rigaregistro{1.0.6}{Davide Bortot (Progettista)}{02/06/2016}{Riscritta la sezione "Architettura generale del sistema" (§2.1) con l'introduzione dei framework scelti e dell'adozione del pattern MVVM.}
 	\rigaregistro{1.0.5}{Davide Bortot (Progettista)}{01/06/2016}{Ampliamento sezione "Risorse necessarie" (§4) con MongoDB, Meteor, Openshift.}
 	\rigaregistro{1.0.4}{Luca Alessio (Analista)}{01/06/2016}{Ampliamento sezione "Tecnologie utilizzate" (aggiunti paragrafi AngularJS, Meteor, MongoDB).}
@@ -122,14 +123,18 @@ livello, la gerarchia dei package, le loro interazioni e le principali classi in
 	\input{sezioni/risorse.tex}
 	
 	\section{Diagrammi dei packages}
-		\input{sezioni/packageModel.tex}
-		\input{sezioni/packageView.tex}
-		\input{sezioni/packageController.tex}
+		\subsection{Server}
+		Nella parte \emph{Server} del sistema lavorano gli elementi del Model.
+			\input{sezioni/packageModel.tex}
+		\subsection{Client}
+		Nella parte \emph{Client} del sistema risiedono i componenti dalla View e del ViewModel.
+			\input{sezioni/packageView.tex}
+			\input{sezioni/packageViewModel.tex}
 	
 	\section{Diagrammi delle classi}
 		\input{sezioni/classiModel.tex}
 		\input{sezioni/classiView.tex}
-		\input{sezioni/classiController.tex}
+		\input{sezioni/classiViewModel.tex}
 	
 	\section{Diagrammi di attività}
 		\input{sezioni/attività.tex}

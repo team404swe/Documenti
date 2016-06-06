@@ -23,79 +23,81 @@
 \contentsline {subsection}{\numberline {3.8}Meteor}{7}{subsection.3.8}
 \contentsline {section}{\numberline {4}Risorse necessarie}{8}{section.4}
 \contentsline {section}{\numberline {5}Diagrammi dei packages}{9}{section.5}
-\contentsline {subsection}{\numberline {5.1}Package della componente Model}{9}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Package della componente View}{10}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Package della componente Controller}{11}{subsection.5.3}
-\contentsline {section}{\numberline {6}Diagrammi delle classi}{13}{section.6}
-\contentsline {subsection}{\numberline {6.1}Diagrammi delle classi del Model}{13}{subsection.6.1}
-\contentsline {subsubsection}{\numberline {6.1.1}Package Database}{13}{subsubsection.6.1.1}
-\contentsline {subsubsubsection}{\numberline {6.1.1.1}Classe Database}{13}{subsubsubsection.6.1.1.1}
-\contentsline {subsubsubsection}{\numberline {6.1.1.2}Interfaccia ModelEvent}{14}{subsubsubsection.6.1.1.2}
-\contentsline {subsubsubsection}{\numberline {6.1.1.3}Classe QuestionModifiedEvent}{14}{subsubsubsection.6.1.1.3}
-\contentsline {subsubsubsection}{\numberline {6.1.1.4}Classe QuestionRemovedEvent}{14}{subsubsubsection.6.1.1.4}
-\contentsline {subsubsubsection}{\numberline {6.1.1.5}Classe QuizModifiedEvent}{14}{subsubsubsection.6.1.1.5}
-\contentsline {subsubsubsection}{\numberline {6.1.1.6}Classe QuizRemovedEvent}{14}{subsubsubsection.6.1.1.6}
-\contentsline {subsubsubsection}{\numberline {6.1.1.7}Classe UserCreatedEvent}{14}{subsubsubsection.6.1.1.7}
-\contentsline {subsubsubsection}{\numberline {6.1.1.8}Classe UserModifiedEvent}{15}{subsubsubsection.6.1.1.8}
-\contentsline {subsubsubsection}{\numberline {6.1.1.9}Classe UserRemovedEvent}{15}{subsubsubsection.6.1.1.9}
-\contentsline {subsubsection}{\numberline {6.1.2}Package Parser}{15}{subsubsection.6.1.2}
-\contentsline {subsubsubsection}{\numberline {6.1.2.1}Classe Parser}{15}{subsubsubsection.6.1.2.1}
-\contentsline {subsubsection}{\numberline {6.1.3}Package Statistiche}{15}{subsubsection.6.1.3}
-\contentsline {subsubsubsection}{\numberline {6.1.3.1}Classe Statistic}{15}{subsubsubsection.6.1.3.1}
-\contentsline {subsection}{\numberline {6.2}Diagrammi delle classi della View}{16}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Package CurrentViewManager}{16}{subsubsection.6.2.1}
-\contentsline {subsubsubsection}{\numberline {6.2.1.1}Classe CurrentView}{16}{subsubsubsection.6.2.1.1}
-\contentsline {subsubsubsection}{\numberline {6.2.1.2}Classe Sender}{16}{subsubsubsection.6.2.1.2}
-\contentsline {subsubsection}{\numberline {6.2.2}Package Pages}{17}{subsubsection.6.2.2}
-\contentsline {subsubsubsection}{\numberline {6.2.2.1}Classe Page}{17}{subsubsubsection.6.2.2.1}
-\contentsline {subsubsubsection}{\numberline {6.2.2.2}Classe MainPage}{17}{subsubsubsection.6.2.2.2}
-\contentsline {subsubsubsection}{\numberline {6.2.2.3}Classe CategoryListPage}{17}{subsubsubsection.6.2.2.3}
-\contentsline {subsubsubsection}{\numberline {6.2.2.4}Classe QuizListPage}{18}{subsubsubsection.6.2.2.4}
-\contentsline {subsubsubsection}{\numberline {6.2.2.5}Classe QuizExecutionPage}{18}{subsubsubsection.6.2.2.5}
-\contentsline {subsubsubsection}{\numberline {6.2.2.6}Classe QuizManagementPage}{18}{subsubsubsection.6.2.2.6}
-\contentsline {subsubsubsection}{\numberline {6.2.2.7}Classe QuizTutorialPage}{18}{subsubsubsection.6.2.2.7}
-\contentsline {subsubsection}{\numberline {6.2.3}Package UserAuthentication}{19}{subsubsection.6.2.3}
-\contentsline {subsubsubsection}{\numberline {6.2.3.1}Classe User}{19}{subsubsubsection.6.2.3.1}
-\contentsline {subsection}{\numberline {6.3}Diagrammi delle classi del Controller}{20}{subsection.6.3}
-\contentsline {subsubsection}{\numberline {6.3.1}Package UserInputManager}{20}{subsubsection.6.3.1}
-\contentsline {subsubsubsection}{\numberline {6.3.1.1}Classe InputManager}{20}{subsubsubsection.6.3.1.1}
-\contentsline {subsubsubsection}{\numberline {6.3.1.2}Interfaccia Input}{20}{subsubsubsection.6.3.1.2}
-\contentsline {subsubsection}{\numberline {6.3.2}Package Updaters}{21}{subsubsection.6.3.2}
-\contentsline {subsubsubsection}{\numberline {6.3.2.1}Interfaccia Updater}{21}{subsubsubsection.6.3.2.1}
-\contentsline {subsubsubsection}{\numberline {6.3.2.2}Classe ModelUpdater}{22}{subsubsubsection.6.3.2.2}
-\contentsline {subsubsubsection}{\numberline {6.3.2.3}Classe ViewUpdater}{22}{subsubsubsection.6.3.2.3}
-\contentsline {subsubsection}{\numberline {6.3.3}Package QuestionManager}{23}{subsubsection.6.3.3}
-\contentsline {subsubsubsection}{\numberline {6.3.3.1}Interfaccia QuestionFactory}{23}{subsubsubsection.6.3.3.1}
-\contentsline {subsubsubsection}{\numberline {6.3.3.2}Classe astratta Question}{23}{subsubsubsection.6.3.3.2}
-\contentsline {subsubsubsection}{\numberline {6.3.3.3}Classe QML2HTMLQuestionFactory}{24}{subsubsubsection.6.3.3.3}
-\contentsline {subsubsubsection}{\numberline {6.3.3.4}Classe HTMLQuestion}{24}{subsubsubsection.6.3.3.4}
-\contentsline {subsubsubsection}{\numberline {6.3.3.5}Classe Translator}{24}{subsubsubsection.6.3.3.5}
-\contentsline {subsubsection}{\numberline {6.3.4}Package QuizManager}{25}{subsubsection.6.3.4}
-\contentsline {subsubsubsection}{\numberline {6.3.4.1}Classe QuizDirector}{25}{subsubsubsection.6.3.4.1}
-\contentsline {subsubsubsection}{\numberline {6.3.4.2}Classe QuizBuilder}{25}{subsubsubsection.6.3.4.2}
-\contentsline {subsubsubsection}{\numberline {6.3.4.3}Classe Quiz}{25}{subsubsubsection.6.3.4.3}
-\contentsline {subsubsection}{\numberline {6.3.5}Package Interpreter}{26}{subsubsection.6.3.5}
-\contentsline {subsubsubsection}{\numberline {6.3.5.1}Interfaccia Interpreter}{26}{subsubsubsection.6.3.5.1}
-\contentsline {subsubsubsection}{\numberline {6.3.5.2}Interfaccia InterpreterFactory}{26}{subsubsubsection.6.3.5.2}
-\contentsline {subsubsubsection}{\numberline {6.3.5.3}Classe QMLInterpreterFactory}{26}{subsubsubsection.6.3.5.3}
-\contentsline {subsubsubsection}{\numberline {6.3.5.4}Classe QMLInterpreter}{27}{subsubsubsection.6.3.5.4}
-\contentsline {subsubsubsection}{\numberline {6.3.5.5}Classe QML2HTMLInterpreter}{27}{subsubsubsection.6.3.5.5}
-\contentsline {section}{\numberline {7}Diagrammi di attivit\IeC {\`a}}{28}{section.7}
-\contentsline {subsection}{\numberline {7.1}Creazione Questionario}{28}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Creazione Domanda}{29}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Compilazione Questionario}{30}{subsection.7.3}
-\contentsline {subsection}{\numberline {7.4}Scelta Questionario}{31}{subsection.7.4}
-\contentsline {section}{\numberline {8}Diagrammi di sequenza}{32}{section.8}
-\contentsline {subsection}{\numberline {8.1}Salvataggio di una Domanda}{32}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Visualizzazione e scelta di un Questionario}{33}{subsection.8.2}
-\contentsline {subsection}{\numberline {8.3}Caricamento di un Questionario}{34}{subsection.8.3}
-\contentsline {subsection}{\numberline {8.4}Traduzione di una domanda}{35}{subsection.8.4}
-\contentsline {subsection}{\numberline {8.5}Svolgimento di un Questionario}{36}{subsection.8.5}
-\contentsline {section}{\numberline {9}Design pattern utilizzati}{37}{section.9}
-\contentsline {subsection}{\numberline {9.1}Abstract Factory}{37}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Singleton}{39}{subsection.9.2}
-\contentsline {subsection}{\numberline {9.3}Builder}{40}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}Command}{41}{subsection.9.4}
-\contentsline {section}{\numberline {10}Tracciamento}{42}{section.10}
-\contentsline {subsection}{\numberline {10.1}Mappatura componenti-requisiti}{42}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}Mappatura requisiti - componenti}{47}{subsection.10.2}
+\contentsline {subsection}{\numberline {5.1}Server}{9}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Package della componente Model}{9}{subsubsection.5.1.1}
+\contentsline {subsection}{\numberline {5.2}Client}{11}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Package della componente View}{11}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Package della componente ViewModel}{12}{subsubsection.5.2.2}
+\contentsline {section}{\numberline {6}Diagrammi delle classi}{14}{section.6}
+\contentsline {subsection}{\numberline {6.1}Diagrammi delle classi del Model}{14}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Package Database}{14}{subsubsection.6.1.1}
+\contentsline {subsubsubsection}{\numberline {6.1.1.1}Classe Database}{14}{subsubsubsection.6.1.1.1}
+\contentsline {subsubsubsection}{\numberline {6.1.1.2}Interfaccia ModelEvent}{15}{subsubsubsection.6.1.1.2}
+\contentsline {subsubsubsection}{\numberline {6.1.1.3}Classe QuestionModifiedEvent}{15}{subsubsubsection.6.1.1.3}
+\contentsline {subsubsubsection}{\numberline {6.1.1.4}Classe QuestionRemovedEvent}{15}{subsubsubsection.6.1.1.4}
+\contentsline {subsubsubsection}{\numberline {6.1.1.5}Classe QuizModifiedEvent}{15}{subsubsubsection.6.1.1.5}
+\contentsline {subsubsubsection}{\numberline {6.1.1.6}Classe QuizRemovedEvent}{15}{subsubsubsection.6.1.1.6}
+\contentsline {subsubsubsection}{\numberline {6.1.1.7}Classe UserCreatedEvent}{15}{subsubsubsection.6.1.1.7}
+\contentsline {subsubsubsection}{\numberline {6.1.1.8}Classe UserModifiedEvent}{16}{subsubsubsection.6.1.1.8}
+\contentsline {subsubsubsection}{\numberline {6.1.1.9}Classe UserRemovedEvent}{16}{subsubsubsection.6.1.1.9}
+\contentsline {subsubsection}{\numberline {6.1.2}Package Parser}{16}{subsubsection.6.1.2}
+\contentsline {subsubsubsection}{\numberline {6.1.2.1}Classe Parser}{16}{subsubsubsection.6.1.2.1}
+\contentsline {subsubsection}{\numberline {6.1.3}Package Statistiche}{16}{subsubsection.6.1.3}
+\contentsline {subsubsubsection}{\numberline {6.1.3.1}Classe Statistic}{16}{subsubsubsection.6.1.3.1}
+\contentsline {subsection}{\numberline {6.2}Diagrammi delle classi della View}{17}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Package CurrentViewManager}{17}{subsubsection.6.2.1}
+\contentsline {subsubsubsection}{\numberline {6.2.1.1}Classe CurrentView}{17}{subsubsubsection.6.2.1.1}
+\contentsline {subsubsubsection}{\numberline {6.2.1.2}Classe Sender}{17}{subsubsubsection.6.2.1.2}
+\contentsline {subsubsection}{\numberline {6.2.2}Package Pages}{18}{subsubsection.6.2.2}
+\contentsline {subsubsubsection}{\numberline {6.2.2.1}Classe Page}{18}{subsubsubsection.6.2.2.1}
+\contentsline {subsubsubsection}{\numberline {6.2.2.2}Classe MainPage}{18}{subsubsubsection.6.2.2.2}
+\contentsline {subsubsubsection}{\numberline {6.2.2.3}Classe CategoryListPage}{18}{subsubsubsection.6.2.2.3}
+\contentsline {subsubsubsection}{\numberline {6.2.2.4}Classe QuizListPage}{19}{subsubsubsection.6.2.2.4}
+\contentsline {subsubsubsection}{\numberline {6.2.2.5}Classe QuizExecutionPage}{19}{subsubsubsection.6.2.2.5}
+\contentsline {subsubsubsection}{\numberline {6.2.2.6}Classe QuizManagementPage}{19}{subsubsubsection.6.2.2.6}
+\contentsline {subsubsubsection}{\numberline {6.2.2.7}Classe QuizTutorialPage}{19}{subsubsubsection.6.2.2.7}
+\contentsline {subsubsection}{\numberline {6.2.3}Package UserAuthentication}{20}{subsubsection.6.2.3}
+\contentsline {subsubsubsection}{\numberline {6.2.3.1}Classe User}{20}{subsubsubsection.6.2.3.1}
+\contentsline {subsection}{\numberline {6.3}Diagrammi delle classi del ViewModel}{21}{subsection.6.3}
+\contentsline {subsubsection}{\numberline {6.3.1}Package UserInputManager}{21}{subsubsection.6.3.1}
+\contentsline {subsubsubsection}{\numberline {6.3.1.1}Classe InputManager}{21}{subsubsubsection.6.3.1.1}
+\contentsline {subsubsubsection}{\numberline {6.3.1.2}Interfaccia Input}{21}{subsubsubsection.6.3.1.2}
+\contentsline {subsubsection}{\numberline {6.3.2}Package Updaters}{22}{subsubsection.6.3.2}
+\contentsline {subsubsubsection}{\numberline {6.3.2.1}Interfaccia Updater}{22}{subsubsubsection.6.3.2.1}
+\contentsline {subsubsubsection}{\numberline {6.3.2.2}Classe ModelUpdater}{23}{subsubsubsection.6.3.2.2}
+\contentsline {subsubsubsection}{\numberline {6.3.2.3}Classe ViewUpdater}{23}{subsubsubsection.6.3.2.3}
+\contentsline {subsubsection}{\numberline {6.3.3}Package QuestionManager}{24}{subsubsection.6.3.3}
+\contentsline {subsubsubsection}{\numberline {6.3.3.1}Interfaccia QuestionFactory}{24}{subsubsubsection.6.3.3.1}
+\contentsline {subsubsubsection}{\numberline {6.3.3.2}Classe astratta Question}{24}{subsubsubsection.6.3.3.2}
+\contentsline {subsubsubsection}{\numberline {6.3.3.3}Classe QML2HTMLQuestionFactory}{25}{subsubsubsection.6.3.3.3}
+\contentsline {subsubsubsection}{\numberline {6.3.3.4}Classe HTMLQuestion}{25}{subsubsubsection.6.3.3.4}
+\contentsline {subsubsubsection}{\numberline {6.3.3.5}Classe Translator}{25}{subsubsubsection.6.3.3.5}
+\contentsline {subsubsection}{\numberline {6.3.4}Package QuizManager}{26}{subsubsection.6.3.4}
+\contentsline {subsubsubsection}{\numberline {6.3.4.1}Classe QuizDirector}{26}{subsubsubsection.6.3.4.1}
+\contentsline {subsubsubsection}{\numberline {6.3.4.2}Classe QuizBuilder}{26}{subsubsubsection.6.3.4.2}
+\contentsline {subsubsubsection}{\numberline {6.3.4.3}Classe Quiz}{26}{subsubsubsection.6.3.4.3}
+\contentsline {subsubsection}{\numberline {6.3.5}Package Interpreter}{27}{subsubsection.6.3.5}
+\contentsline {subsubsubsection}{\numberline {6.3.5.1}Interfaccia Interpreter}{27}{subsubsubsection.6.3.5.1}
+\contentsline {subsubsubsection}{\numberline {6.3.5.2}Interfaccia InterpreterFactory}{27}{subsubsubsection.6.3.5.2}
+\contentsline {subsubsubsection}{\numberline {6.3.5.3}Classe QMLInterpreterFactory}{27}{subsubsubsection.6.3.5.3}
+\contentsline {subsubsubsection}{\numberline {6.3.5.4}Classe QMLInterpreter}{28}{subsubsubsection.6.3.5.4}
+\contentsline {subsubsubsection}{\numberline {6.3.5.5}Classe QML2HTMLInterpreter}{28}{subsubsubsection.6.3.5.5}
+\contentsline {section}{\numberline {7}Diagrammi di attivit\IeC {\`a}}{29}{section.7}
+\contentsline {subsection}{\numberline {7.1}Creazione Questionario}{29}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Creazione Domanda}{30}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Compilazione Questionario}{31}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Scelta Questionario}{32}{subsection.7.4}
+\contentsline {section}{\numberline {8}Diagrammi di sequenza}{33}{section.8}
+\contentsline {subsection}{\numberline {8.1}Salvataggio di una Domanda}{33}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Visualizzazione e scelta di un Questionario}{34}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Caricamento di un Questionario}{35}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Traduzione di una domanda}{36}{subsection.8.4}
+\contentsline {subsection}{\numberline {8.5}Svolgimento di un Questionario}{37}{subsection.8.5}
+\contentsline {section}{\numberline {9}Design pattern utilizzati}{38}{section.9}
+\contentsline {subsection}{\numberline {9.1}Abstract Factory}{38}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Singleton}{40}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Builder}{41}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}Command}{42}{subsection.9.4}
+\contentsline {section}{\numberline {10}Tracciamento}{43}{section.10}
+\contentsline {subsection}{\numberline {10.1}Mappatura componenti-requisiti}{43}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Mappatura requisiti - componenti}{48}{subsection.10.2}
