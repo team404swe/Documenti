@@ -125,7 +125,11 @@
 	
 	\newpage
 	\section{Processi Primari}
-		\subsection{Processi di sviluppo}	
+	\subsection{Processo di fornitura}
+		\subsubsection{Studio di fattibilità}	
+	DA COMPLETARE
+	
+		\subsection{Processo di sviluppo}	
 		Questo processo ha come scopo la produzione di un elemento di un sistema implementato come prodotto software. Trasforma specifici comportamenti, interfacce, e vincoli di implementazione in azioni che creano un sistema implementato come prodotto software. Il processo produce un software che soddisfa i requisiti architetturali e li verifica attraverso la	verifica e la validazione.	
 		Il processo consiste delle seguente attività:
 			\begin{enumerate}
@@ -187,16 +191,15 @@
 			\end{itemize}
 
 	
-			\subsubsection{ **Strumenti per il tracciamento dei requisiti}
+			\subsubsubsection{ Strumenti per il tracciamento dei requisiti}
 			Per il tracciamento dei requisiti verrà usato il tool\addglos Astah\addglos nella sua versione gratuita per studenti e per l'utilizzo del quale ogni membro si dovrà registrare usando la mail rilasciata dall'Università degli studi di Padova per ottenere una licenza.  
-			\subsubsection{ **UML}
-			Si dovrà usare il linguaggio UML2.0 per i diagrammi.
-		\subsection{ Progettazione}
-			\subsubsection{ Scopo del processo}
+			
+		\subsubsection{ Progettazione}
+			\subsubsubsection{ Scopo del processo}
 			Tra gli obiettivi di questo processo abbiamo la stesura di documenti, quali la Specifica Tecnica e la Definizione di Prodotto, e soprattutto una vasta produzione di diagrammi UML\addglos che modellino i requisiti individuati in fase d'analisi. Di seguito vengono elencate le norme a carico dei progettisti.
-			\subsubsection{ Descrizione}
+			\subsubsubsection{ Descrizione}
 			La progettazione deve in modo dimostrabile rispettare tutti i requisiti che il gruppo ha concordato con il committente. In particolare i componenti progettati devono essere tracciabili rispetto al requisito che soddisfano.
-			\subsubsection{ Diagrammi UML}
+			\subsubsubsection{ Diagrammi UML} \label{subsec:UML}
 			UML2.0 rimane il linguaggio da usare per i seguenti diagrammi:
 			\begin{itemize}
 			\item\textbf{Diagrammi dei package\addglos:} dovranno essere presenti sia per l'architettura generale che di dettaglio, sarà fondamentale per definire i moduli all'interno del framework\addglos Node.js\addglos richiesto dal capitolato;
@@ -205,22 +208,24 @@
 			\item\textbf{Diagrammi di attività:} per evitare di compiere errori verrà utilizzato per facilitare la verifica dei passi dell'algoritmo da implementare ;
 			\end{itemize}
 			Per la realizazzione dei diagrammi verrà utilizzato StarUML\addglos, che è un software di modelazzione open source compatibile con la norme UML2.0. Per maggiori dettagli sul prodotto si farà riferimento alla guida ufficiale disponibile all'indirizzo \url{http://docs.staruml.io/en/latest/}.
-			\subsubsection{ Stile di progettazione}
+			\subsubsubsection{ Stile di progettazione}
 				\begin{itemize}
 				\item La progettazione dovrà usare quanto più possibile design pattern\addglos globalmente affermati, la loro scelta dovrà essere giustificata;
 				\item Suddividere il progetto in moduli, in accordo con lo stile di progettazione dell'ambiente Node.js\addglos;
 				\item Non utilizzare codice sincrono per operazioni di I/O\addglos.
 				
 				\end{itemize}
-			
-			
-		\subsection{Codifica}
-			\subsubsection{Scopo del processo}
+		\subsubsection{Specifica tecnica - ST}
+		In fase di progettazione architetturale i progettisti, con il supporto degli analisti, hanno il compito di definire nel documento \inglos{ST}  l'architettura ad alto livello dell'intero sistema ma anche dei singoli componenti. Questo viene fatto principalmente utilizzando i diagrammi adottati ed elencati in §\ref{subsec:UML}. Viene inoltre fornito un tracciamento per le componenti che associa ad ognuno di loro almeno un requisito. 
+		\subsubsection{Definizione di progetto - DP}	
+		In fase di progettazione di dettaglio, i progettisti hanno il compito di redarre il documento \inglos{DP} che amplia quanto riportato in \inglos{ST} definendo nel dettaglio le singole componenti del sistema sempre usando i diagrammi elencati in §\ref{subsec:UML}. Oltre al tracciamento delle componenti, vengono progettati in questa fase anche i test di unità da descrivere nel documento \inglos{PQ}. A seguito della stesura di questo documento, potrà iniziare la fase di codifica.
+		\subsubsection{Codifica}
+			\subsubsubsection{Scopo del processo}
 			Il processo di codifica ha come obiettivo la trasposizione in codice sorgente del software progettato in Specifica Tecnica e Definizione di Prodotto. Inoltre è necessaria la stesura di documentazione sul codice per assicurarne un buon grado di leggibilità e manutenibilità.
-			\subsubsection{Descrizione}		
-				Questo processo porta a un software stabile, affidabile, funzionale e aderente con le richieste del proponente. La codifica verrà eseguita utilizzando gli strumenti in \ref{s:strum}.
+			\subsubsubsection{Descrizione}		
+				Questo processo porta a un software stabile, affidabile, funzionale e aderente con le richieste del proponente. La codifica verrà eseguita utilizzando gli strumenti in §\ref{s:strum}. 
 			
-			\subsubsection{Intestazione dei file}		
+			\subsubsubsection{Intestazione dei file}		
 			A seconda del linguaggio di programmazione usato, ogni file di codice dovrà avere, in forma di commento, la seguente intestazione:		
 			\lstinputlisting[language=C]{../files/esempio.cpp}
 			\captionof{figure}{Esempio di intestazione di file}
@@ -237,14 +242,21 @@
 			\end{itemize}	
 		\end{itemize}
 		
-		\subsubsection{Formattazione}
+		\subsubsubsection{Formattazione}
 		La formattazione del codice sorgente deve essere definita in modo rigoroso e consistente, così
 che tutto il codice sia formattato in maniera chiara e attendibile. A questo scopo si è scelto di usare come riferimento per i file Javascript\addglos  la linea guida della \textbf{Jquery Foundation} reperibile all'indirizzo \url{http://contribute.jquery.org/style-guide/js/}.
-	\subsection{Verifica e validazione}
+	
+	\subsubsection{@@ Tecnologia}
+	Per l'implementazione del prodotto abbiamo scelto il \inglos{framework} \inglos{MeteorJS}- che integra \inglos{NodeJS} (come richiesto del committente) insieme al il database \inglos{MongoDB} - che si occuperà della gestione delle comunicazioni tra client e server, mentre il \inglos{front-end} verrà gestito per con il \inglos{framework} \inglos{AngularJS} che ci permetterà di legare il model con la view.
+	\subsubsubsection{Lato Server}
+	
+	\subsubsubsection{Lato client}
+	
+	\subsubsection{Verifica e validazione}
 	Per la \textbf{verifica} di un documento viene scelto dal responsabile di progetto uno tra i membri del gruppo nel ruolo di verificatore, senza suscitare nessun conflitto di interesse, ossia senza che colui designato a verificare un determinato documento abbia partecipato alla sua stesura.
 	 Le verifiche automatizzate sui documenti, dove previste, difficilmente sono esaustive e possono tralasciare delle anomalie. Per eseguire la verifica è necessario controllare che il documento rispetti tutte le norme descritte nelle Norme di Progetto. \\
 	La \textbf{validazione} del documento consiste nel controllare che il documento abbia il giusto contenuto, è un compito che va oltre la semplice verifica delle norme. Richiede una conoscenza a priori del contenuto e degli scopi del documento.
-\subsubsection{Strumenti di verifica}
+\subsubsubsection{Strumenti di verifica} 
 
 Per l'analisi statica del codice JavaScript prodotto, si intende usare lo strumento software \textbf{Complexity-report\addglos}, fornito dalla piattaforma GitHub.
 Esso fornisce una valutazione delle metriche sull'intero progetto analizzando ogni singolo file e fornendo un report in formato testuale.
@@ -406,9 +418,7 @@ Per una descrizione dettagliata delle metriche utilizzate per l'analisi statica 
 				Ogni tabella nei documenti dovrà avere sotto di essa un numero identificativo e una didascalia. Inoltre dopo l'indice di ogni documento dovrà apparire un elenco delle tabelle inserite.
 				\subsubsubsection{Immagini}
 					Le immagini da inserire in un documento dovranno essere raggruppate in una sotto cartella della cartella contenente il documento stesso; devono essere ben distanziate dai paragrafi che la precedono e da quelli che la seguono ed essere centrate orizzontalmente \\ \\ 
-					 Inoltre dopo l'indice di ogni documento dovrà figurare un elenco delle figure e delle immagini presenti.
-					 
-			\subsubsection{Strumenti per la documentazione}
+					 Inoltre dopo l'indice di ogni documento dovrà figurare un elenco delle figure e delle immagini presenti. Gli strumenti scelti per la produzione dei documenti sono elencati in §\ref{doc:prodoc}
 				
 			\subsection{Processo di verifica}
 				\subsubsection{Scopo del processo}
@@ -450,11 +460,11 @@ a limitare gli errori di implementazione.
 				\subsubsubsection{Test di accettazione}
 				Coincide con il collaudo del software in presenza del proponente. Se tale test ha esito positivo, il prodotto sarà considerato sufficientemente maturo da permetterne il rilascio.
 		\pagebreak
-	\section{Processi Organizzativo}
+	\section{Processi Organizzativi}
 		\subsection{Scopo del processo}
 		Questo processo a come scopo di strutturare e facilitare l'organizzazione interna del gruppo stabilendo norme e modalità di comunicazione e di interazione.
 		
-		\subsection{@**@ Processo di gestione}
+		\subsection{Processo di gestione}
 		il processo di gestione di uno o più processi ed include le
 attività ed i tasks che vanno dalla definizione alla
 implementazione di un processo, dalla pianificazione alla
@@ -482,7 +492,7 @@ Redige la parte retrospettiva del Piano di Qualifica che illustra l'esito e la c
 		
 		\subsubsection{Comunicazione}
 			\subsubsubsection{Interna}			
-			Per le comunicazioni ad uso interno del gruppo è stato creato un gruppo sull'\inglos{App} mobile \inglos{"Whatsapp"} per una rapida interazione tra i membri. Inoltre verrà usato il web tool \inglos{Trello}, il cui uso è spiegato nella sezione \ref{subsec:ticketing}.
+			Per le comunicazioni ad uso interno del gruppo è stato creato un gruppo sull'\inglos{App} mobile \inglos{"Whatsapp"} per una rapida interazione tra i membri. Inoltre verrà usato il web tool \inglos{Trello}, il cui uso è spiegato nella sezione §\ref{subsec:ticketing}.
 			\subsubsubsection{Esterna}
 			Il Responsabile di progetto sarà l'unico che potrà mantenere i contatti con individui esterni al gruppo, per farlo è stata creata una casella di posta elettronica: \url{team404swe@gmail.com}. Tutte le comunicazioni con il \inglos{committente} dovranno essere effettuate con questo indirizzo e-mail. Sarà suo dovere informare successivamente, gli altri componenti del gruppo di tutte le informazioni scambiate con il committente.
 		\subsubsection{Incontri}
@@ -526,8 +536,8 @@ da una o più etichette personalizzabili a secondo delle necessità e suddividen
 
 
 	
-		\subsection{@**@ Processo di Allestimento}
-		il processo di allestimento e tenuta in esercizio di tutte le
+		\subsection{Processo di Allestimento}
+		Il processo di allestimento e tenuta in esercizio di tutte le
 infrastrutture e servizi necessari allo sviluppo di uno o più
 processi
 		\subsubsection{Strumenti di progetto} \label{s:strum} 	
@@ -558,8 +568,22 @@ processi
 			\begin{enumerate} \item[] \texttt{\$ git pull } \end{enumerate}
 		\end{enumerate}
 			\subsubsubsection{GitHub - Modo d'uso}
-			GitHub Desktop essendo molto intuitivo, si farà riferimento direttamente alla guida ufficiale disponibile all'indirizzo: https://guides.github.com/introduction/getting-your-project-on-github/  o direttamente tramite riga di comando come in \ref{git_modo} 
-	\subsubsection{Produzione dei documenti}
+			GitHub Desktop essendo molto intuitivo, si farà riferimento direttamente alla guida ufficiale disponibile all'indirizzo: https://guides.github.com/introduction/getting-your-project-on-github/  o direttamente tramite riga di comando come in §\ref{git_modo} 
+			\subsubsection{@ Openshift online} \label{s:openshift}
+			Per ospitare il nostro software online abbiamo scelte la piattaforma \textbf{\inglos{OpenShift Online} } che mette a disposizione una vasta gamma di linguaggi e servizi distribuiti in applicazioni che possono anche essere \inglos{framework} tra i quali \inglos{Meteor} che useremmo per il nostro progetto. Questa piattaforma ci permette inoltre di lavorare direttamente in locale, salvando di volta in volta il lavoro in una apposita \inglos{repository} direttamente da riga di comando attraverso l'applicazione di supporto di \inglos{RedHat}
+			Per questo è stato creato un account legato alla mail del gruppo.
+			\subsubsubsection{@ MeteorJS} \label{s:meteor}
+			La piattaforma \inglos{Node.JS} Questo \inglos{framework} web basato su nodeJS che produce codice  multi piattaforma. Si integra con \inglos{MongoDB} e utilizza lo stile architetturale \inglos{publish/subscribe}. E' compatibile con con qualsiasi libreria  di interfaccia utente e per il nostro progetto viene utilizzato il \inglos{framework} \inglos{angularJS}.
+			\subsubsubsection{@ AngularJS}\label{s:angular}
+			Il \inglos{framework} \inglos{AnglarJS} viene usato per esaltare e potenziare l'approccio dichiarativo dell'\inglos{HTML} nella definizione dell'interfaccia grafica sfruttando la \inglos{Single Page Application} in modo da velocizzare il caricamento delle nostre pagine. Per il nostro progetto, \inglos{Angular2.0} è stato installato insieme a \inglos{MeteorJS} sul nostro server presso \inglos{OpenShift}. Una documentazione ricca di esempi e dettagli viene fornita dagli sviluppatori del progetto ed è disponibile a seguente link: \url{}
+			\subsubsubsection{@@ MaterializeCss - da valutare} 
+			Con l'obbiettivo di migliorare l'esperienza dell'utente finale del nostro software, viene utilizzato il framework \inglos{MaterializeCss} creato da \inglos{Google} e basato sul \inglos{Material Design} e compatibile con i maggiori browser. MaterializeCss è un semplice framework di interfaccia utente \inglos{frontend} per la costruzione per la realizzazione di progetti web {responsive} e \inglos{user-friendly}. Per usarlo, basterà inserire all'interno delle pagine \inglos{HTML} principali del seguente codice: \\
+			\\
+			 @@input: file con codice di inserimentomaterialize.js
+			\\
+			\\
+			Per altri riferimenti specifici o per un ampia documentazione, si farà riferimento alla guida ufficiale disponibile all'indirizzo: \url{http://materializecss.com/}
+	\subsubsection{Produzione dei documenti} \label{doc:prodoc}
 	
 	\subsubsubsection{Dropbox}
 	Per la condivisione di file e documenti non soggetti a controllo di versione tra i membri del gruppo. A questo scopo è stata creata una cartella che contiene anche i vari  manuali degli strumenti di interesse per il progetto.
