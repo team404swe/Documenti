@@ -98,25 +98,25 @@
 \subsubsubsection{Classe QuestionsSubscriber}
 
 \begin{itemize}
-	\item\textbf{Funzione del componente}: 
-	\item\textbf{Relazione d'uso di altre componenti}: 
-	\item\textbf{Attività svolte e dati trattati}:
+	\item\textbf{Funzione del componente}: la classe è necessaria ad effettuare il \emph{subscribe} relativo alla collezione di domande del sistema;
+	\item\textbf{Relazione d'uso di altre componenti}: si relazione con la componente QuestionsManagementController;
+	\item\textbf{Attività svolte e dati trattati}: la classe espone le funzionalità necessarie ad effettuare il subscribing di una componente del client alla collezione di domande del sistema, se questa è stata precedentemente pubblicata dal server.
 \end{itemize}
 
 \subsubsubsection{Classe QuizSubscriber}
 
 \begin{itemize}
-	\item\textbf{Funzione del componente}: 
-	\item\textbf{Relazione d'uso di altre componenti}: 
-	\item\textbf{Attività svolte e dati trattati}:
+	\item\textbf{Funzione del componente}: la classe è necessaria ad effettuare il \emph{subscribe} relativo alla collezione di quiz del sistema;
+	\item\textbf{Relazione d'uso di altre componenti}: si relazione con le componenti QuizListController e QuizManagementController;
+	\item\textbf{Attività svolte e dati trattati}: la classe espone le funzionalità necessarie ad effettuare il subscribing di una componente del client alla collezione di quiz del sistema, se questa è stata precedentemente pubblicata dal server.
 \end{itemize}
 
 \subsubsubsection{Classe UsersSubscriber}
 
 \begin{itemize}
-	\item\textbf{Funzione del componente}: 
-	\item\textbf{Relazione d'uso di altre componenti}: 
-	\item\textbf{Attività svolte e dati trattati}:
+	\item\textbf{Funzione del componente}: la classe è necessaria ad effettuare il \emph{subscribe} relativo alla collezione di utenti del sistema;
+	\item\textbf{Relazione d'uso di altre componenti}: si relaziona con il package esterno 'accounts-ui';
+	\item\textbf{Attività svolte e dati trattati}: la classe espone le funzionalità necessarie ad effettuare il subscribing di una componente del client alla collezione di utenti del sistema, se questa è stata precedentemente pubblicata dal server.
 \end{itemize}
 
 \subsubsection{Package Methods}
@@ -127,23 +127,27 @@
 \end{center}
 \end{figure}
 
+\subsubsubsection{Classe QuestionMethods}
 \begin{itemize}
-	\item\textbf{Funzione del componente}: 
-	\item\textbf{Relazione d'uso di altre componenti}: 
-	\item\textbf{Attività svolte e dati trattati}:
+	\item\textbf{Funzione del componente}: permette al client di richiedere la modifica della collezione di domande del server;
+	\item\textbf{Relazione d'uso di altre componenti}: si relaziona con le classi NewQuestionController e DeleteQuestionController;
+	\item\textbf{Attività svolte e dati trattati}: espone le funzionalità di salvataggio e cancellazione di domande dal sistema.
 \end{itemize}
 
+\subsubsubsection{Classe QuizMethods}
 \begin{itemize}
-	\item\textbf{Funzione del componente}: 
-	\item\textbf{Relazione d'uso di altre componenti}: 
-	\item\textbf{Attività svolte e dati trattati}:
+	\item\textbf{Funzione del componente}: permette al client di richiedere la modifica della collezione di quiz del server;
+	\item\textbf{Relazione d'uso di altre componenti}: si relaziona con le classi NewQuizController e DeleteQuizController;
+	\item\textbf{Attività svolte e dati trattati}: espone le funzionalità di salvataggio e cancellazione di quiz dal sistema.
 \end{itemize}
 
+\subsubsubsection{Classe UserMethods}
 \begin{itemize}
-	\item\textbf{Funzione del componente}: 
-	\item\textbf{Relazione d'uso di altre componenti}: 
-	\item\textbf{Attività svolte e dati trattati}:
+	\item\textbf{Funzione del componente}: permette al client di richiedere la modifica della collezione di utenti del server;
+	\item\textbf{Relazione d'uso di altre componenti}:  si relaziona con il package esterno 'accounts-ui';
+	\item\textbf{Attività svolte e dati trattati}: espone le funzionalità di salvataggio e cancellazione di utenti dal sistema.
 \end{itemize}
+\newpage
 
 \subsubsection{Package QuestionManager}	
 Il package fa uso del design pattern \emph{Abstract Factory}.
