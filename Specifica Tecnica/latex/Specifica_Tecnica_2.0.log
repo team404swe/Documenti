@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.20)  11 JUN 2016 11:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.20)  13 JUN 2016 13:58
 entering extended mode
 **Specifica_Tecnica_2.0.tex
 (Specifica_Tecnica_2.0.tex
@@ -1401,13 +1401,13 @@ Overfull \hbox (18.12804pt too wide) in paragraph at lines 5--6
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 30.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 24.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [21 <../images/ControllersClass.png>]
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 78.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 63.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [22]
 <../images/SubscribersClass.png, id=796, 379.4175pt x 242.9075pt>
@@ -1416,19 +1416,26 @@ File: ../images/SubscribersClass.png Graphic file (type png)
 <use ../images/SubscribersClass.png>
 Package pdftex.def Info: ../images/SubscribersClass.png used on input line 93.
 (pdftex.def)             Requested size: 246.61844pt x 157.88799pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 119.
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 110.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [23 <../images/SubscribersClass.png>]
-<../images/MethodsClass.png, id=803, 491.8375pt x 339.2675pt>
+ [23]
+<../images/MethodsClass.png, id=802, 491.8375pt x 339.2675pt>
 File: ../images/MethodsClass.png Graphic file (type png)
 
 <use ../images/MethodsClass.png>
 Package pdftex.def Info: ../images/MethodsClass.png used on input line 125.
 (pdftex.def)             Requested size: 319.69058pt x 220.52126pt.
 
-<../images/QuestionManagerClass.png, id=804, 590.205pt x 451.6875pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../images/QuestionManagerClass.png, id=803, 590.205pt x 451.6875pt>
 File: ../images/QuestionManagerClass.png Graphic file (type png)
 
 <use ../images/QuestionManagerClass.png>
@@ -1441,18 +1448,17 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 159.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [24 <../images/SubscribersClass.png>]
+File: ../../team404_small.jpg Graphic file (type jpg)
+
+<use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 160.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [24 <../images/MethodsClass.png>]
+ [25 <../images/MethodsClass.png> <../images/QuestionManagerClass.png>]
 File: ../../team404_small.jpg Graphic file (type jpg)
-
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 176.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [25 <../images/QuestionManagerClass.png>]
-File: ../../team404_small.jpg Graphic file (type jpg)
-
-<use ../../team404_small.jpg>
+ <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 191.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [26]
@@ -1905,8 +1911,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 152.
  (Specifica_Tecnica_2.0.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 152.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 152.
-Package rerunfilecheck Info: File `Specifica_Tecnica_2.0.out' has not changed.
-(rerunfilecheck)             Checksum: F670BF3C8FE97F88ED661E42CE7CB102;8986.
+
+
+Package rerunfilecheck Warning: File `Specifica_Tecnica_2.0.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Specifica_Tecnica_2.0.out':
+(rerunfilecheck)             Before: F670BF3C8FE97F88ED661E42CE7CB102;8986
+(rerunfilecheck)             After:  DEE18E1DE191FDCE0BE45207004A9F9E;8986.
  ) 
 Here is how much of TeX's memory you used:
  11200 strings out of 493698
@@ -1924,7 +1937,7 @@ X 2.9/fonts/type1/public/cantarell/Cantarell-Regular.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/cantarell/Cantarell-Regular.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/cm-super/sftt1095.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/cm-super/sftt1440.pfb>
-Output written on Specifica_Tecnica_2.0.pdf (59 pages, 1729275 bytes).
+Output written on Specifica_Tecnica_2.0.pdf (59 pages, 1730834 bytes).
 PDF statistics:
  1057 PDF objects out of 1200 (max. 8388607)
  196 named destinations out of 1000 (max. 500000)
