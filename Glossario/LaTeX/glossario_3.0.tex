@@ -17,21 +17,25 @@
 
 	\thispagestyle{empty}	% per togliere il numero in fondo pagina
 	\introtab{Glossario}					%1 nome documento
-			{1.0} 							%2 versione
+			{3.0} 							%2 versione
 			{Esterno} 						%3 Uso
 			{19 gennaio 2015} 				%4 Data cre
 			{\today} 						%5 Data mod
-			{Martin V. Mbouenda - D. Bortot}		%6 Redazione1
-			{Andrea Multineddu} 			%8 Verifica
-			{Davide Bortot}					%9 Approvazione
+			{Martin V. Mbouenda - D. Bortot - L. Alessio}		%6 Redazione1
+			{Marco Crivellaro} 			%8 Verifica
+			{Alex Beccaro}					%9 Approvazione
 			
 	\newpage
 	\fancyfoot[R]{\thepage}
 	\pagenumbering{Roman}
 	\section*{Registro delle modifiche}
 		\begin{longtable}{{|p{0.10\textwidth}|p{0.15\textwidth}|p{0.15\textwidth}|p{0.50\textwidth}|}} 
-	 		\hline			
+	 		\hline			 			
 			\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}{\hspace{5 mm} \textbf{Descrizione}}
+			\rigaregistro{2.0.1}{D. Bortot \newline (Progettista)}{01/06/2016}{Aggiunti i termini "Meteor", "AngularJS", "Data-Binding", "Publish-Subscribe".}
+			\rigaregistro{2.0}{A. Beccaro \newline (Responsabile)}{16/05/2016}{Approvazione del documento.}
+	 		\rigaregistro{1.1}{M. Crivellaro \newline (Verificatore)}{16/05/2016}{Verifica degli incrementi.}
+			\rigaregistro{1.0.2}{D. Bortot \newline (Amministratore)}{15/05/2016}{Aggiunti i termini "Milestone" e "Baseline".}
 			\rigaregistro{1.0.1}{D. Bortot \newline (Amministratore)}{05/05/2016}{Aggiunta la definizione di "Q\&A".}
 			\rigaregistro{1.0}{D. Bortot \newline (Responsabile)}{16/03/2016}{Approvazione del documento.}
 			\rigaregistro{0.1}{A. Multineddu \newline (Verificatore)}{15/03/2016}{Verifica completa del documento.}
@@ -53,14 +57,18 @@
 %\appendix  % cambia la numerazione delle sezioni da numeri a lettere
 \sezioneglos{A}
 \beginglos
+	\itemglos{AngularJS}{è un framework open-source per web application progettato con l'intento di rendere lo sviluppo e il testing più semplici per lo sviluppatore. E' un framework client-side MVC/MVVM totalmente estendibile che non necessità di altre librerie, permette di utilizzare HTML come template e permette di estendere il vocabolario HTML, così potrete dichiarare i componenti applicativi dell'applicazione in maniera concisa e chiara.}
 	\itemglos{App}{abbreviativo di applicazione software; il termine identifica solitamente le applicazioni in ambito mobile, o specifici servizi web.}
 	\itemglos{Astah}{software che fornisce gli strumenti necessari alla modellazione di sistemi. Nel caso informatico fornisce una piattaforma UML/ERD per il software development.}
 \fineglos
-%\newpage
-%\sezioneglos{B}
-%\beginglos
-%\fineglos
 \newpage
+
+\sezioneglos{B}
+\beginglos
+\itemglos{Baseline}{una baseline è la descrizione approvata e verificata degli attributi di un prodotto ad un certo momento, che ne definisce uno stato significativo e comprovato dal quale partire ad aggiungere valore incrementalmente; è un punto di situazione certa che mi consente di non retrocedere, una configurazione associata ad una milestone.}
+\fineglos
+\newpage
+
 \sezioneglos{C}
 \beginglos
 \itemglos{CSS3}{l'ultima iterazione del linguaggio CSS (Cascading Style Sheets), usato per definire la formattazione di documenti HTML, XHTML e XML, ampiamente usato nel Web.}
@@ -70,6 +78,7 @@
 \newpage
 \sezioneglos{D}
 \beginglos
+\itemglos{Data-Binding}{è una tecnica generale che collega tra di loro i data-provider e i data-consumer sincronizzandoli. In questo modo qualsiasi cambiamento nei dati è automaticamente riflesso nelgi elementi collegati ai dati.}
 \itemglos{Design Pattern}{nell'ambito dell'ingegneria del software, una soluzione progettuale generale, un modello logico da applicare alla risoluzione di un problema ricorrente.}
 		\itemglos{Driver}{ un insieme di procedure, spesso scritte in assembly, che permette ad un sistema operativo di pilotare e interagire con un dispositivo hardware.}
 \fineglos
@@ -113,7 +122,9 @@
 \beginglos
 \itemglos{Maintainability Index}{un indice compreso tra 0 e 100 che rappresenta la qualità del codice sorgente in termine di mantenibilità.}
 \itemglos{Markup}{un linguaggio di markup è un insieme di regole che descrivono i meccanismi di rappresentazione (strutturali, semantici o presentazionali) di un testo che, utilizzando convenzioni standardizzate, sono utilizzabili su più supporti.}
+\itemglos{Meteor}{è un framework full-stack open-source che permette lo sviluppo di applicazioni web e mobile reattive in un unico linguaggio, Javascript, offrendo molte funzionalità built-in quali la compensazione di latenza, l'isomorfismo e elevata modularità.}
 \itemglos{Metriche di Halstead}{sistema di metriche calcolabili staticamente sul codice che permettono di misurarne le proprietà e le relazioni che tra esse intercorrono.}
+\itemglos{Milestone}{una milestone è un punto nel tempo che fissa momenti di avanzamento significativi rispetto agli obbiettivi, il tempo a disposizione e i rischi. Ogni milestone corrisponde ad una \emph{baseline}.}
 \itemglos{MySpell}{spell-checker integrato di default nell'editor TexMaker.}
 \fineglos
 \newpage
@@ -132,6 +143,8 @@
 \itemglos{Package}{un package è un meccanismo per organizzare classi in gruppi logici, ha lo scopo di riunire classi (o entità analoghe, quali interfacce ed enumerazioni) logicamente correlate.}
 \itemglos{Plato}{uno strumento software liberamente reperibile sulla piattaforma GitHub, che permette la visualizzazione, analisi statica e analisi di complessità di codice Javascript.}
 \itemglos{Proponente}{la persona fisica o giuridica che propone il contratto al fornitore.}
+\itemglos{Publish}{si veda "\textbf{Publish-Subscribe}".}
+\itemglos{Publish-Subscribe}{design pattern o stile architetturale utilizzato per la comunicazione asincrona fra diversi processi, oggetti o parti di un sistema. In questo schema, mittenti e destinatari di messaggi dialogano attraverso un tramite, che può essere detto dispatcher o broker. Il mittente di un messaggio (detto publisher) non deve essere consapevole dell'identità dei destinatari (detti subscriber); esso si limita a "pubblicare" (publish) il proprio messaggio al dispatcher. I destinatari si rivolgono a loro volta al dispatcher "abbonandosi" (subscribe) alla ricezione di messaggi. Il dispatcher quindi inoltra ogni messaggio inviato da un publisher a tutti i subscriber interessati a quel messaggio.}
 \fineglos
 \newpage
 \sezioneglos{Q}
@@ -154,6 +167,7 @@ immagini.}
 \sezioneglos{S}
 \beginglos
 \itemglos{Stub}{una porzione di codice utilizzata in sostituzione di altre funzionalità software. Uno stub può simulare il comportamento di codice esistente, ed essere temporaneo sostituto di codice ancora da sviluppare. Gli stub sono perciò molto utili durante il porting di software, l'elaborazione distribuita e in generale durante lo sviluppo di software e il software testing.}
+\itemglos{Subscribe}{si veda "\textbf{Publish-Subscribe}".}
 \fineglos
 \newpage
 \sezioneglos{T}
