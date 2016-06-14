@@ -29,86 +29,84 @@
 \BOOKMARK [1][-]{section.6}{Diagrammi delle classi del Server}{}% 29
 \BOOKMARK [2][-]{subsection.6.1}{Diagrammi delle classi del Model}{section.6}% 30
 \BOOKMARK [3][-]{subsubsection.6.1.1}{Package Database}{subsection.6.1}% 31
-\BOOKMARK [4][-]{subsubsubsection.6.1.1.1}{Classe Database}{subsubsection.6.1.1}% 32
-\BOOKMARK [4][-]{subsubsubsection.6.1.1.2}{Interfaccia ModelEvent}{subsubsection.6.1.1}% 33
-\BOOKMARK [4][-]{subsubsubsection.6.1.1.3}{Classe QuestionModifiedEvent}{subsubsection.6.1.1}% 34
-\BOOKMARK [4][-]{subsubsubsection.6.1.1.4}{Classe QuestionRemovedEvent}{subsubsection.6.1.1}% 35
-\BOOKMARK [4][-]{subsubsubsection.6.1.1.5}{Classe QuizModifiedEvent}{subsubsection.6.1.1}% 36
-\BOOKMARK [4][-]{subsubsubsection.6.1.1.6}{Classe QuizRemovedEvent}{subsubsection.6.1.1}% 37
-\BOOKMARK [4][-]{subsubsubsection.6.1.1.7}{Classe UserCreatedEvent}{subsubsection.6.1.1}% 38
-\BOOKMARK [4][-]{subsubsubsection.6.1.1.8}{Classe UserModifiedEvent}{subsubsection.6.1.1}% 39
-\BOOKMARK [4][-]{subsubsubsection.6.1.1.9}{Classe UserRemovedEvent}{subsubsection.6.1.1}% 40
-\BOOKMARK [3][-]{subsubsection.6.1.2}{Package Parser}{subsection.6.1}% 41
-\BOOKMARK [4][-]{subsubsubsection.6.1.2.1}{Classe Parser}{subsubsection.6.1.2}% 42
-\BOOKMARK [3][-]{subsubsection.6.1.3}{Package Statistiche}{subsection.6.1}% 43
-\BOOKMARK [4][-]{subsubsubsection.6.1.3.1}{Classe Statistic}{subsubsection.6.1.3}% 44
-\BOOKMARK [1][-]{section.7}{Diagrammi delle classi del Client}{}% 45
-\BOOKMARK [2][-]{subsection.7.1}{Diagrammi delle classi della View}{section.7}% 46
-\BOOKMARK [3][-]{subsubsection.7.1.1}{Package CurrentViewManager}{subsection.7.1}% 47
-\BOOKMARK [4][-]{subsubsubsection.7.1.1.1}{Classe CurrentView}{subsubsection.7.1.1}% 48
-\BOOKMARK [4][-]{subsubsubsection.7.1.1.2}{Classe Sender}{subsubsection.7.1.1}% 49
-\BOOKMARK [3][-]{subsubsection.7.1.2}{Package Pages}{subsection.7.1}% 50
-\BOOKMARK [4][-]{subsubsubsection.7.1.2.1}{Classe Page}{subsubsection.7.1.2}% 51
-\BOOKMARK [4][-]{subsubsubsection.7.1.2.2}{Classe MainPage}{subsubsection.7.1.2}% 52
-\BOOKMARK [4][-]{subsubsubsection.7.1.2.3}{Classe CategoryListPage}{subsubsection.7.1.2}% 53
-\BOOKMARK [4][-]{subsubsubsection.7.1.2.4}{Classe QuizListPage}{subsubsection.7.1.2}% 54
-\BOOKMARK [4][-]{subsubsubsection.7.1.2.5}{Classe QuizExecutionPage}{subsubsection.7.1.2}% 55
-\BOOKMARK [4][-]{subsubsubsection.7.1.2.6}{Classe QuizManagementPage}{subsubsection.7.1.2}% 56
-\BOOKMARK [4][-]{subsubsubsection.7.1.2.7}{Classe QuizTutorialPage}{subsubsection.7.1.2}% 57
-\BOOKMARK [3][-]{subsubsection.7.1.3}{Package UserAuthentication}{subsection.7.1}% 58
-\BOOKMARK [4][-]{subsubsubsection.7.1.3.1}{Classe User}{subsubsection.7.1.3}% 59
-\BOOKMARK [2][-]{subsection.7.2}{Diagrammi delle classi del ViewModel}{section.7}% 60
-\BOOKMARK [3][-]{subsubsection.7.2.1}{Package Controllers}{subsection.7.2}% 61
-\BOOKMARK [4][-]{subsubsubsection.7.2.1.1}{Classe NewQuestionController}{subsubsection.7.2.1}% 62
-\BOOKMARK [4][-]{subsubsubsection.7.2.1.2}{Classe NewQuizController}{subsubsection.7.2.1}% 63
-\BOOKMARK [4][-]{subsubsubsection.7.2.1.3}{Classe QuizListController}{subsubsection.7.2.1}% 64
-\BOOKMARK [4][-]{subsubsubsection.7.2.1.4}{Classe QuizDetailsController}{subsubsection.7.2.1}% 65
-\BOOKMARK [4][-]{subsubsubsection.7.2.1.5}{Classe DeleteQuestionController}{subsubsection.7.2.1}% 66
-\BOOKMARK [4][-]{subsubsubsection.7.2.1.6}{Classe DeleteQuizController}{subsubsection.7.2.1}% 67
-\BOOKMARK [4][-]{subsubsubsection.7.2.1.7}{Classe QuizManagementController}{subsubsection.7.2.1}% 68
-\BOOKMARK [4][-]{subsubsubsection.7.2.1.8}{Classe QuestionsManagementController}{subsubsection.7.2.1}% 69
-\BOOKMARK [4][-]{subsubsubsection.7.2.1.9}{Classe QMLEditorController}{subsubsection.7.2.1}% 70
-\BOOKMARK [4][-]{subsubsubsection.7.2.1.10}{Classe Controller}{subsubsection.7.2.1}% 71
-\BOOKMARK [3][-]{subsubsection.7.2.2}{Package Subscribers}{subsection.7.2}% 72
-\BOOKMARK [4][-]{subsubsubsection.7.2.2.1}{Classe QuestionsSubscriber}{subsubsection.7.2.2}% 73
-\BOOKMARK [4][-]{subsubsubsection.7.2.2.2}{Classe QuizSubscriber}{subsubsection.7.2.2}% 74
-\BOOKMARK [4][-]{subsubsubsection.7.2.2.3}{Classe UsersSubscriber}{subsubsection.7.2.2}% 75
-\BOOKMARK [3][-]{subsubsection.7.2.3}{Package Methods}{subsection.7.2}% 76
-\BOOKMARK [4][-]{subsubsubsection.7.2.3.1}{Classe QuestionMethods}{subsubsection.7.2.3}% 77
-\BOOKMARK [4][-]{subsubsubsection.7.2.3.2}{Classe QuizMethods}{subsubsection.7.2.3}% 78
-\BOOKMARK [4][-]{subsubsubsection.7.2.3.3}{Classe UserMethods}{subsubsection.7.2.3}% 79
-\BOOKMARK [3][-]{subsubsection.7.2.4}{Package QuestionManager}{subsection.7.2}% 80
-\BOOKMARK [4][-]{subsubsubsection.7.2.4.1}{Interfaccia QuestionFactory}{subsubsection.7.2.4}% 81
-\BOOKMARK [4][-]{subsubsubsection.7.2.4.2}{Classe astratta Question}{subsubsection.7.2.4}% 82
-\BOOKMARK [4][-]{subsubsubsection.7.2.4.3}{Classe QML2HTMLQuestionFactory}{subsubsection.7.2.4}% 83
-\BOOKMARK [4][-]{subsubsubsection.7.2.4.4}{Classe HTMLQuestion}{subsubsection.7.2.4}% 84
-\BOOKMARK [4][-]{subsubsubsection.7.2.4.5}{Classe Translator}{subsubsection.7.2.4}% 85
-\BOOKMARK [3][-]{subsubsection.7.2.5}{Package QuizManager}{subsection.7.2}% 86
-\BOOKMARK [4][-]{subsubsubsection.7.2.5.1}{Classe QuizDirector}{subsubsection.7.2.5}% 87
-\BOOKMARK [4][-]{subsubsubsection.7.2.5.2}{Classe QuizBuilder}{subsubsection.7.2.5}% 88
-\BOOKMARK [4][-]{subsubsubsection.7.2.5.3}{Classe Quiz}{subsubsection.7.2.5}% 89
-\BOOKMARK [3][-]{subsubsection.7.2.6}{Package Interpreter}{subsection.7.2}% 90
-\BOOKMARK [4][-]{subsubsubsection.7.2.6.1}{Interfaccia Interpreter}{subsubsection.7.2.6}% 91
-\BOOKMARK [4][-]{subsubsubsection.7.2.6.2}{Interfaccia InterpreterFactory}{subsubsection.7.2.6}% 92
-\BOOKMARK [4][-]{subsubsubsection.7.2.6.3}{Classe QMLInterpreterFactory}{subsubsection.7.2.6}% 93
-\BOOKMARK [4][-]{subsubsubsection.7.2.6.4}{Classe QMLInterpreter}{subsubsection.7.2.6}% 94
-\BOOKMARK [4][-]{subsubsubsection.7.2.6.5}{Classe QML2HTMLInterpreter}{subsubsection.7.2.6}% 95
-\BOOKMARK [1][-]{section.8}{Diagrammi di attivit\340}{}% 96
-\BOOKMARK [2][-]{subsection.8.1}{Creazione Questionario}{section.8}% 97
-\BOOKMARK [2][-]{subsection.8.2}{Creazione Domanda}{section.8}% 98
-\BOOKMARK [2][-]{subsection.8.3}{Compilazione Questionario}{section.8}% 99
-\BOOKMARK [2][-]{subsection.8.4}{Scelta Questionario}{section.8}% 100
-\BOOKMARK [1][-]{section.9}{Diagrammi di sequenza}{}% 101
-\BOOKMARK [2][-]{subsection.9.1}{Salvataggio di una Domanda}{section.9}% 102
-\BOOKMARK [2][-]{subsection.9.2}{Visualizzazione e scelta di un Questionario}{section.9}% 103
-\BOOKMARK [2][-]{subsection.9.3}{Caricamento di un Questionario}{section.9}% 104
-\BOOKMARK [2][-]{subsection.9.4}{Traduzione di una domanda}{section.9}% 105
-\BOOKMARK [2][-]{subsection.9.5}{Svolgimento di un Questionario}{section.9}% 106
-\BOOKMARK [1][-]{section.10}{Design pattern utilizzati}{}% 107
-\BOOKMARK [2][-]{subsection.10.1}{Abstract Factory}{section.10}% 108
-\BOOKMARK [2][-]{subsection.10.2}{Singleton}{section.10}% 109
-\BOOKMARK [2][-]{subsection.10.3}{Builder}{section.10}% 110
-\BOOKMARK [2][-]{subsection.10.4}{Command}{section.10}% 111
-\BOOKMARK [1][-]{section.11}{Tracciamento}{}% 112
-\BOOKMARK [2][-]{subsection.11.1}{Mappatura componenti-requisiti}{section.11}% 113
-\BOOKMARK [2][-]{subsection.11.2}{Mappatura requisiti - componenti}{section.11}% 114
+\BOOKMARK [4][-]{subsubsubsection.6.1.1.1}{Classe UserManager}{subsubsection.6.1.1}% 32
+\BOOKMARK [4][-]{subsubsubsection.6.1.1.2}{Classe QuizManager}{subsubsection.6.1.1}% 33
+\BOOKMARK [4][-]{subsubsubsection.6.1.1.3}{Classe QuestionManager}{subsubsection.6.1.1}% 34
+\BOOKMARK [3][-]{subsubsection.6.1.2}{Package Parser}{subsection.6.1}% 35
+\BOOKMARK [4][-]{subsubsubsection.6.1.2.1}{Classe Parser}{subsubsection.6.1.2}% 36
+\BOOKMARK [3][-]{subsubsection.6.1.3}{Package Statistiche}{subsection.6.1}% 37
+\BOOKMARK [4][-]{subsubsubsection.6.1.3.1}{Classe Statistic}{subsubsection.6.1.3}% 38
+\BOOKMARK [3][-]{subsubsection.6.1.4}{Package Publishers}{subsection.6.1}% 39
+\BOOKMARK [4][-]{subsubsubsection.6.1.4.1}{Classe UserPublishers}{subsubsection.6.1.4}% 40
+\BOOKMARK [4][-]{subsubsubsection.6.1.4.2}{Classe QuizPublishers}{subsubsection.6.1.4}% 41
+\BOOKMARK [4][-]{subsubsubsection.6.1.4.3}{Classe QuestionPublishers}{subsubsection.6.1.4}% 42
+\BOOKMARK [1][-]{section.7}{Diagrammi delle classi del Client}{}% 43
+\BOOKMARK [2][-]{subsection.7.1}{Diagrammi delle classi della View}{section.7}% 44
+\BOOKMARK [3][-]{subsubsection.7.1.1}{Package CurrentViewManager}{subsection.7.1}% 45
+\BOOKMARK [4][-]{subsubsubsection.7.1.1.1}{Classe CurrentView}{subsubsection.7.1.1}% 46
+\BOOKMARK [4][-]{subsubsubsection.7.1.1.2}{Classe Sender}{subsubsection.7.1.1}% 47
+\BOOKMARK [3][-]{subsubsection.7.1.2}{Package Pages}{subsection.7.1}% 48
+\BOOKMARK [4][-]{subsubsubsection.7.1.2.1}{Classe Page}{subsubsection.7.1.2}% 49
+\BOOKMARK [4][-]{subsubsubsection.7.1.2.2}{Classe MainPage}{subsubsection.7.1.2}% 50
+\BOOKMARK [4][-]{subsubsubsection.7.1.2.3}{Classe CategoryListPage}{subsubsection.7.1.2}% 51
+\BOOKMARK [4][-]{subsubsubsection.7.1.2.4}{Classe QuizListPage}{subsubsection.7.1.2}% 52
+\BOOKMARK [4][-]{subsubsubsection.7.1.2.5}{Classe QuizExecutionPage}{subsubsection.7.1.2}% 53
+\BOOKMARK [4][-]{subsubsubsection.7.1.2.6}{Classe QuizManagementPage}{subsubsection.7.1.2}% 54
+\BOOKMARK [4][-]{subsubsubsection.7.1.2.7}{Classe QuizTutorialPage}{subsubsection.7.1.2}% 55
+\BOOKMARK [3][-]{subsubsection.7.1.3}{Package UserAuthentication}{subsection.7.1}% 56
+\BOOKMARK [4][-]{subsubsubsection.7.1.3.1}{Classe User}{subsubsection.7.1.3}% 57
+\BOOKMARK [2][-]{subsection.7.2}{Diagrammi delle classi del ViewModel}{section.7}% 58
+\BOOKMARK [3][-]{subsubsection.7.2.1}{Package Controllers}{subsection.7.2}% 59
+\BOOKMARK [4][-]{subsubsubsection.7.2.1.1}{Classe NewQuestionController}{subsubsection.7.2.1}% 60
+\BOOKMARK [4][-]{subsubsubsection.7.2.1.2}{Classe NewQuizController}{subsubsection.7.2.1}% 61
+\BOOKMARK [4][-]{subsubsubsection.7.2.1.3}{Classe QuizListController}{subsubsection.7.2.1}% 62
+\BOOKMARK [4][-]{subsubsubsection.7.2.1.4}{Classe QuizDetailsController}{subsubsection.7.2.1}% 63
+\BOOKMARK [4][-]{subsubsubsection.7.2.1.5}{Classe DeleteQuestionController}{subsubsection.7.2.1}% 64
+\BOOKMARK [4][-]{subsubsubsection.7.2.1.6}{Classe DeleteQuizController}{subsubsection.7.2.1}% 65
+\BOOKMARK [4][-]{subsubsubsection.7.2.1.7}{Classe QuizManagementController}{subsubsection.7.2.1}% 66
+\BOOKMARK [4][-]{subsubsubsection.7.2.1.8}{Classe QuestionsManagementController}{subsubsection.7.2.1}% 67
+\BOOKMARK [4][-]{subsubsubsection.7.2.1.9}{Classe QMLEditorController}{subsubsection.7.2.1}% 68
+\BOOKMARK [4][-]{subsubsubsection.7.2.1.10}{Classe Controller}{subsubsection.7.2.1}% 69
+\BOOKMARK [3][-]{subsubsection.7.2.2}{Package Subscribers}{subsection.7.2}% 70
+\BOOKMARK [4][-]{subsubsubsection.7.2.2.1}{Classe QuestionsSubscriber}{subsubsection.7.2.2}% 71
+\BOOKMARK [4][-]{subsubsubsection.7.2.2.2}{Classe QuizSubscriber}{subsubsection.7.2.2}% 72
+\BOOKMARK [4][-]{subsubsubsection.7.2.2.3}{Classe UsersSubscriber}{subsubsection.7.2.2}% 73
+\BOOKMARK [3][-]{subsubsection.7.2.3}{Package Methods}{subsection.7.2}% 74
+\BOOKMARK [4][-]{subsubsubsection.7.2.3.1}{Classe QuestionMethods}{subsubsection.7.2.3}% 75
+\BOOKMARK [4][-]{subsubsubsection.7.2.3.2}{Classe QuizMethods}{subsubsection.7.2.3}% 76
+\BOOKMARK [4][-]{subsubsubsection.7.2.3.3}{Classe UserMethods}{subsubsection.7.2.3}% 77
+\BOOKMARK [3][-]{subsubsection.7.2.4}{Package QuestionManager}{subsection.7.2}% 78
+\BOOKMARK [4][-]{subsubsubsection.7.2.4.1}{Interfaccia QuestionFactory}{subsubsection.7.2.4}% 79
+\BOOKMARK [4][-]{subsubsubsection.7.2.4.2}{Classe astratta Question}{subsubsection.7.2.4}% 80
+\BOOKMARK [4][-]{subsubsubsection.7.2.4.3}{Classe QML2HTMLQuestionFactory}{subsubsection.7.2.4}% 81
+\BOOKMARK [4][-]{subsubsubsection.7.2.4.4}{Classe HTMLQuestion}{subsubsection.7.2.4}% 82
+\BOOKMARK [4][-]{subsubsubsection.7.2.4.5}{Classe Translator}{subsubsection.7.2.4}% 83
+\BOOKMARK [3][-]{subsubsection.7.2.5}{Package QuizManager}{subsection.7.2}% 84
+\BOOKMARK [4][-]{subsubsubsection.7.2.5.1}{Classe QuizDirector}{subsubsection.7.2.5}% 85
+\BOOKMARK [4][-]{subsubsubsection.7.2.5.2}{Classe QuizBuilder}{subsubsection.7.2.5}% 86
+\BOOKMARK [4][-]{subsubsubsection.7.2.5.3}{Classe Quiz}{subsubsection.7.2.5}% 87
+\BOOKMARK [3][-]{subsubsection.7.2.6}{Package Interpreter}{subsection.7.2}% 88
+\BOOKMARK [4][-]{subsubsubsection.7.2.6.1}{Interfaccia Interpreter}{subsubsection.7.2.6}% 89
+\BOOKMARK [4][-]{subsubsubsection.7.2.6.2}{Interfaccia InterpreterFactory}{subsubsection.7.2.6}% 90
+\BOOKMARK [4][-]{subsubsubsection.7.2.6.3}{Classe QMLInterpreterFactory}{subsubsection.7.2.6}% 91
+\BOOKMARK [4][-]{subsubsubsection.7.2.6.4}{Classe QMLInterpreter}{subsubsection.7.2.6}% 92
+\BOOKMARK [4][-]{subsubsubsection.7.2.6.5}{Classe QML2HTMLInterpreter}{subsubsection.7.2.6}% 93
+\BOOKMARK [1][-]{section.8}{Diagrammi di attivit\340}{}% 94
+\BOOKMARK [2][-]{subsection.8.1}{Creazione Questionario}{section.8}% 95
+\BOOKMARK [2][-]{subsection.8.2}{Creazione Domanda}{section.8}% 96
+\BOOKMARK [2][-]{subsection.8.3}{Compilazione Questionario}{section.8}% 97
+\BOOKMARK [2][-]{subsection.8.4}{Scelta Questionario}{section.8}% 98
+\BOOKMARK [1][-]{section.9}{Diagrammi di sequenza}{}% 99
+\BOOKMARK [2][-]{subsection.9.1}{Salvataggio di una Domanda}{section.9}% 100
+\BOOKMARK [2][-]{subsection.9.2}{Visualizzazione e scelta di un Questionario}{section.9}% 101
+\BOOKMARK [2][-]{subsection.9.3}{Caricamento di un Questionario}{section.9}% 102
+\BOOKMARK [2][-]{subsection.9.4}{Traduzione di una domanda}{section.9}% 103
+\BOOKMARK [2][-]{subsection.9.5}{Svolgimento di un Questionario}{section.9}% 104
+\BOOKMARK [1][-]{section.10}{Design pattern utilizzati}{}% 105
+\BOOKMARK [2][-]{subsection.10.1}{Abstract Factory}{section.10}% 106
+\BOOKMARK [2][-]{subsection.10.2}{Singleton}{section.10}% 107
+\BOOKMARK [2][-]{subsection.10.3}{Builder}{section.10}% 108
+\BOOKMARK [2][-]{subsection.10.4}{Command}{section.10}% 109
+\BOOKMARK [1][-]{section.11}{Tracciamento}{}% 110
+\BOOKMARK [2][-]{subsection.11.1}{Mappatura componenti-requisiti}{section.11}% 111
+\BOOKMARK [2][-]{subsection.11.2}{Mappatura requisiti - componenti}{section.11}% 112
