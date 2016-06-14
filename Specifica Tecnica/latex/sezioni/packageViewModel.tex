@@ -2,10 +2,10 @@
 	\begin{center}
 		\includegraphics[scale=0.6]{../images/ViewModelPackage.png}
 	\end{center}
-	Gli elementi del package collaborano e interagiscono con l'obiettivo comune di realizzare il data-binding con i componenti della View e interagire col Model per richiedere e aggiornare i dati. \\
+	Gli elementi del package collaborano e interagiscono con l'obiettivo comune di realizzare il data-binding con i componenti della View e interagire col Model per richiedere e aggiornare i dati.
 	Il package del ViewModel contiene i seguenti sub-packages:
 	\begin{itemize}
-	\item \textbf{Controllers}:
+	\item \textbf{Controllers}: Il package contiene tutti i \emph{Controller} del sistema Quizzipedia. Ogni \emph{Controller} implementa le funzionalità associate ad un template della View.
 	Il package contiene al suo interno le classi:
 	\begin{itemize}
 		\item \textit{NewQuestionController}
@@ -17,19 +17,22 @@
 		\item \textit{DeleteQuizController}
 		\item \textit{QuestionsManagementController}
 		\item \textit{QMLEditorController}
-		\item \textit{}
-		\item \textit{}
-		\item \textit{}
-		\item \textit{}
-		\item \textit{}
-		\item \textit{}
-		\item \textit{}
 	\end{itemize}	
-	\item \textbf{Subscribers}:
+	
+	\item \textbf{Subscribers}: Il package contiene le classi necessarie ad effettuare il \emph{subscribing} delle collezioni di dati pubblicate dal \emph{server}.
 	Il package contiene al suo interno le classi:
 	\begin{itemize}
-		\item \textit{}
-		\item \textit{}
+		\item \textit{QuestionsSubscriber}
+		\item \textit{QuizSubscriber}
+		\item \textit{UsersSubscriber}
+	\end{itemize}
+	
+	\item \textbf{Methods}: Il package contiene le classi necessarie all'utilizzo dei \emph{Methods} di Meteor nel sistema, che permettono al \emph{client} di richiedere modifiche ai dati al \emph{server}.
+	Il package contiene al suo interno le classi:
+	\begin{itemize}
+		\item \textit{QuestionMethods}
+		\item \textit{QuizMethods}
+		\item \textit{UserMethods}
 	\end{itemize}
 	
 	\item \textbf{QuestionManager}:
