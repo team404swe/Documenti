@@ -40,7 +40,7 @@
 	\beginregistro
 	
 	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm}}
-	\rigaregistro{0.0.2}{Davide Bortot (Progettista)}{26/05/2016}{Impostata la struttura della sezioni "Presenter", "View", "Model" e della sezione "Tracciamento".} 
+	\rigaregistro{0.0.2}{Davide Bortot (Progettista)}{26/05/2016}{Impostata la struttura della sezioni "ViewModel", "View", "Model" e della sezione "Tracciamento".} 
 	\rigaregistro{0.0.1}{Davide Bortot (Progettista)}{20/05/2016}{Creazione e impostazione documento. Definite sezioni "Sommario" e "Introduzione".}
 	
 	\fineregistro
@@ -68,16 +68,16 @@ Le specifiche del documento si basano sull'architettura generale descritta nel d
 	\subsection{Scopo del prodotto}
 	Il progetto \textbf{Quizzipedia} ha come obiettivo lo sviluppo di un sistema software basato su tecnologie Web (Javascript\addglos, Node.js\addglos, HTML5\addglos, CSS3\addglos) che permetta la creazione, gestione e fruizione di questionari. Il sistema dovrà quindi poter archiviare i questionari suddivisi per argomento, le cui domande dovranno essere raccolte attraverso uno specifico linguaggio di markup (Quiz Markup Language) d'ora in poi denominato QML\addglos. In un caso d'uso a titolo esemplificativo, un "esaminatore" dovrà poter costruire il proprio questionario scegliendo tra le domande archiviate, ed il questionario così composto sarà presentato e fruibile all' "esaminando", traducendo l'oggetto QML in una pagina HTML\addglos, tramite un'apposita interfaccia web. Il sistema presentato dovrà inoltre poter proporre questionari preconfezionati e valutare le risposte fornite dall'utente finale.
 	\\
-	Per un'analisi più precisa ed approfondita del progetto si rimanda al documento\\ "\textit{analisi\_dei\_requisiti\_2.0.pdf}".
+	Per un'analisi più precisa ed approfondita del progetto si rimanda al documento\\ "\textit{analisi\_dei\_requisiti\_3.0.pdf}".
 	\subsection{Glossario}
-	Viene allegato un glossario nel file ``\textit{glossario\_2.0.pdf}'' nel quale viene data una definizione a tutti i termini che in questo documento appaiono con il simbolo '\addglos' a pedice.
+	Viene allegato un glossario nel file ``\textit{glossario\_3.0.pdf}'' nel quale viene data una definizione a tutti i termini che in questo documento appaiono con il simbolo '\addglos' a pedice.
 	\subsection{Riferimenti}
 		\subsubsection{Normativi}
 
 		\begin{itemize}
 			\item Capitolato d'appalto Quizzipedia:\\
 			\url{http://www.math.unipd.it/~tullio/IS-1/2015/Progetto/C5.pdf}
-			\item Norme di Progetto: "\textit{norme\_di\_progetto\_2.0.pdf}"
+			\item Norme di Progetto: "\textit{norme\_di\_progetto\_3.0.pdf}"
 		\end{itemize}
 		\subsubsection{Informativi}
 		\begin{itemize}
@@ -95,7 +95,7 @@ Le specifiche del documento si basano sull'architettura generale descritta nel d
 	\newpage
 	\input{sezioni/model.tex}
 	\newpage
-	\input{sezioni/presenter.tex}
+	\input{sezioni/viewmodel.tex}
 	\newpage
 	\input{sezioni/tracciamento.tex}
 \end{document}
