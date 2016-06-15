@@ -1,75 +1,137 @@
-\subsection{Diagrammi delle classi della View}
-		     \subsubsection{Package CurrentViewManager}
-			\begin{center}
-				\includegraphics[scale=0.6]{"../images/CurrentViewManager".png}
-			\end{center}		    
-		    	\subsubsubsection{Classe CurrentView}
-		    	\begin{itemize}
-		    \item\textbf{Funzione del componente:} lo scopo di questa classe è quello di rappresentare la vista del sistema attualmente disponibile all'utente e di gestirne eventuali cambiamenti 
-		    \item\textbf{Relazioni d'uso di altri componenti:} toPresenter, currentPage e currentUser sono parametri di tipi appartenenti ad altri package percui c'è una relazione di dipendenza verso i rispettivi packages Sender, Pages ed UserAuthentication
-			\item\textbf{Attività svolte e dati trattati:} sono presenti dei parametri per la memorizzazione dell'utente corrente, della pagina corrente e per l'invio e la ricezione di informazioni dal Presenter. La funzionalità principale offerta è enterLink (nome da rivedere) che, come suggerisce il nome, permette all'utente di spostarsi nell'applicazione cambiando pagina. Sono presenti altre funzionalità minori che gestiscono l'avvio e la chiusura della sessione e il ritorno alla homepage.
-			\end{itemize}
-			\subsubsubsection{Classe Sender}
+\subsection{Diagrammi delle classi della View}	
+		
+	\subsubsection{Package Pages}
+		\begin{center}
+			\centerline{\includegraphics[scale=0.6]{"../../images/Pages".png}}
+		\end{center}
+		\subsubsubsection{Interfaccia Page}
 			\begin{itemize}
-			\item\textbf{Funzione del componente:} inoltra le richieste dell'utente al presenter
-			\item\textbf{Relazioni d'uso di altri componenti:}  viene utilizzata all'interno di CurrentViewManager::CurrentView in risposta agli eventi che accadono sull'interfaccia web in seguito alle azioni compiute dall'utente; l'output dei metodi di questa classe viene poi processato dalle classi del package Presenter::UserInputManager.
-			\item\textbf{Attività svolte e dati trattati:} ogni metodo di questa classe corrisponde ad una situazione che si verifica, attraverso un rispettivo metodo, in una classe derivata da Pages::Page; la classe conosce il tipo Presenter::UserInputManager::Input, e genera messaggi per ogni evento passando oggetti di tipo Input al Presenter.
+		    		\item\textbf{Funzione del componente:} rappresenta una pagina web
+				\item\textbf{Relazioni d'uso di altri componenti:} interfaccia che viene concretizzata dalle sue classi derivate che rappresenta una pagina dell'applicazione
+				\item\textbf{Attività svolte e dati trattati:} fornisce il contratto di una pagina deve soddisfare ovvero visualizzare il proprio contenuto. Inoltre fornisce un tipo che gli altri package possono utilizzare per riferirsi ad una qualsiasi pagina.
+			\end{itemize}
+		\subsubsubsection{Classe LoginPage}
+			\begin{itemize}
+		    		\item\textbf{Funzione del componente:} visualizza il form di autenticazione e permette il login dell'utente. Fornisce inoltre un link alla pagina di registrazione e uno alla pagina di recupero della password 
+				\item\textbf{Relazioni d'uso di altri componenti:} concretizza l'interfaccia Page da cui è diretta discendente e utilizza il template LoginForm
+				\item\textbf{Attività svolte e dati trattati:} permette l'autenticazione dell'utente nel sistema
+			\end{itemize}
+		\subsubsubsection{Classe RegistrationPage}
+			\begin{itemize}
+		    		\item\textbf{Funzione del componente:} visualizza il form di registrazione. Fornisce inoltre un link alla pagina di login
+				\item\textbf{Relazioni d'uso di altri componenti:} concretizza l'interfaccia Page da cui è diretta discendente e utilizza il template RegistrationForm
+				\item\textbf{Attività svolte e dati trattati:} permette la registrazione dell'utente nel sistema
+			\end{itemize}
+		\subsubsubsection{Classe PasswordRecoveryPage}
+			\begin{itemize}
+		  		\item\textbf{Funzione del componente:} visualizza il form per il recupero della password
+				\item\textbf{Relazioni d'uso di altri componenti:} concretizza l'interfaccia Page da cui è diretta discendente e utilizza il template PasswordRecoveryForm
+				\item\textbf{Attività svolte e dati trattati:} permette il recupero della password dimenticata tramite l'invio di una email
+			\end{itemize}
+		\subsubsubsection{Classe CategoryListPage}
+			\begin{itemize}
+		    		\item\textbf{Funzione del componente:} visualizza la lista delle categorie
+				\item\textbf{Relazioni d'uso di altri componenti:} concretizza l'interfaccia Page da cui è diretta discendente
+				\item\textbf{Attività svolte e dati trattati:} permette la selezione di una categoria che porta ad una pagina in cui vengono visualizzati tutti i questionari della categoria scelta
+			\end{itemize}
+		\subsubsubsection{Classe QuizListPage}
+			\begin{itemize}
+		    		\item\textbf{Funzione del componente:} visualizza una lista di questionari
+				\item\textbf{Relazioni d'uso di altri componenti:} concretizza l'interfaccia Page da cui è diretta discendente e utilizza il template QuizList
+				\item\textbf{Attività svolte e dati trattati:} permette la selezione di un questionario che porta alla pagina di compilazione del questionario scelto
+			\end{itemize}
+		\subsubsubsection{Classe QuizExecutionPage}
+			\begin{itemize}
+		    		\item\textbf{Funzione del componente:} visualizza un questionario (una domanda alla volta) e tutti i dati relativi (tempo rimasto, numero domande, ecc...)
+				\item\textbf{Relazioni d'uso di altri componenti:} concretizza l'interfaccia Page da cui è diretta discendente e utilizza il template QuestionCompilation
+				\item\textbf{Attività svolte e dati trattati:} permette la compilazione di un questionario
+			\end{itemize}
+		\subsubsubsection{Classe QuizResultsPage}
+			\begin{itemize}
+		    		\item\textbf{Funzione del componente:} visualizza i risultati del questionario appena compilato
+				\item\textbf{Relazioni d'uso di altri componenti:} concretizza l'interfaccia Page da cui è diretta discendente e utilizza il template QuizResults
+				\item\textbf{Attività svolte e dati trattati:} permette la compilazione di un questionario
+			\end{itemize}
+		\subsubsubsection{Classe QuestionManagmentPage}
+			\begin{itemize}
+		    		\item\textbf{Funzione del componente:} visualizza la lista delle domande create dall'utente
+				\item\textbf{Relazioni d'uso di altri componenti:} concretizza l'interfaccia Page da cui è diretta discendente e utilizza il template QuestionList
+				\item\textbf{Attività svolte e dati trattati:} permette l'accesso alle pagine di creazione di una nuova domanda e modifica di una domanda esistente. Permette inoltre l'eliminazione di una domanda
+			\end{itemize}
+		\subsubsubsection{Classe QuestionCreationPage}
+			\begin{itemize}
+		    		\item\textbf{Funzione del componente:} visualizza il form di creazione di una nuova domanda
+				\item\textbf{Relazioni d'uso di altri componenti:} concretizza l'interfaccia Page da cui è diretta discendente e utilizza il template QuestionForm
+				\item\textbf{Attività svolte e dati trattati:} permette la creazione di una nuova domanda
+			\end{itemize}
+		\subsubsubsection{Classe QuestionUpdatePage}
+			\begin{itemize}
+		    		\item\textbf{Funzione del componente:} visualizza il form di modifica di una domanda
+				\item\textbf{Relazioni d'uso di altri componenti:} concretizza l'interfaccia Page da cui è diretta discendente e utilizza il template QuestionForm
+				\item\textbf{Attività svolte e dati trattati:} permette la modifica di una domanda
+			\end{itemize}
+		\subsubsubsection{Classe QuizCreationPage}
+			\begin{itemize}
+		    		\item\textbf{Funzione del componente:} visualizza il form di creazione di un nuovo questionario
+				\item\textbf{Relazioni d'uso di altri componenti:} concretizza l'interfaccia Page da cui è diretta discendente e utilizza il template QuizCreationForm
+				\item\textbf{Attività svolte e dati trattati:} permette la creazione di un nuovo questionario
 			\end{itemize}
 			
-			\subsubsection{Package Pages}
-			\begin{center}
-				\centerline{\includegraphics[scale=0.6]{"../images/Pages".png}}
-			\end{center}
-			\subsubsubsection{Classe Page}
+	\subsubsection{Package Templates}
+		\begin{center}
+			\includegraphics[scale=0.6]{"../../images/Templates".png}
+		\end{center}
+		\subsubsubsection{Classe QuestionList}
 			\begin{itemize}
-		    \item\textbf{Funzione del componente:} rappresenta una pagina web
-			\item\textbf{Relazioni d'uso di altri componenti:} classe astratta che viene concretizzata dalle sue classi derivate (MainPage, CategoryListPage, QuizListPage,QuizTutorialPage, QuizExecutionPage, QuizManagementPage)
-			\item\textbf{Attività svolte e dati trattati:} le funzionalità offerte dalla classe sono compiti fondamentali che una pagina web deve svolgere ovvero ricevere gli input dell'utente (quali click su link o dati inseriti in un form che poi andranno passati al presenter) e aggiornarsi quando nuovi dati sono disponibili
+				\item\textbf{Funzione del componente:} visualizza una lista di domande
+				\item\textbf{Relazioni d'uso di altri componenti:} composta da Question
 			\end{itemize}
-			\subsubsubsection{Classe MainPage}
+		\subsubsubsection{Classe Question}
 			\begin{itemize}
-		    \item\textbf{Funzione del componente:} mostra la pagina principale a cui l'utente arriva entrando nella piattaforma Quizzipedia 
-			\item\textbf{Relazioni d'uso di altri componenti:} concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage)
-			\item\textbf{Attività svolte e dati trattati:} permette l'autenticazione/registrazione dell'utente nel sistema, da una panoramica del sistema generale all'utente
+				\item\textbf{Funzione del componente:} visualizza una domanda inserita in una lista
+				\item\textbf{Relazioni d'uso di altri componenti:} usata solo da QuestionList per creare la lista
 			\end{itemize}
-			\subsubsubsection{Classe CategoryListPage}
+		\subsubsubsection{Classe QuizList}
 			\begin{itemize}
-		    \item\textbf{Funzione del componente:} pagina che elenca gli argomenti tra i quali l'utente può scegliere e fornisce operazioni di ordinamento sulla vista 
-			\item\textbf{Relazioni d'uso di altri componenti:} concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage)
- +			\item\textbf{Attività svolte e dati trattati:} le funzionalità di questa classe permettono la visualizzazione delle varie categorie, l'ordinamento per diversi criteri (alfabetico, categorie più visitate, ultimi questionari disponibili...) e la scelta di una tra di esse
+				\item\textbf{Funzione del componente:} visualizza una lista di quiz
+				\item\textbf{Relazioni d'uso di altri componenti:} composta da Quiz
 			\end{itemize}
-			\subsubsubsection{Classe QuizListPage}
+		\subsubsubsection{Classe Quiz}
 			\begin{itemize}
-		    \item\textbf{Funzione del componente:} pagina che elenca i questionari (su uno stesso argomento) tra i quali l'utente può scegliere e fornisce operazioni di ordinamento sulla vista
-		    \item\textbf{Attività svolte e dati trattati:} le funzionalità di questa classe permettono la visualizzazione di informazioni sui vari questionari, l'ordinamento per diversi criteri (alfabetico, più visitato, novità...) e la scelta di uno tra essi
-			\item\textbf{Attività svolte e dati trattati:} le funzionalità di questa classe permettono la visualizzazione di informazioni sui vari questionari, l'ordinamento per diversi criteri (alfabetico, più visitato, novità...) e la scelta di uno tra essi
+				\item\textbf{Funzione del componente:} visualizza un quiz inserito in una lista
+				\item\textbf{Relazioni d'uso di altri componenti:} usata solo da QuizList per creare la lista
 			\end{itemize}
-			\subsubsubsection{Classe QuizExecutionPage}
+		\subsubsubsection{Classe QuestionCompilation}
 			\begin{itemize}
-		    \item\textbf{Funzione del componente:} questa classe rappresenta il punto focale del sistema Quizzipedia ovvero la parte in cui l'utente svolge i questionari scelti
-			\item\textbf{Relazioni d'uso di altri componenti:} concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage). Il questionario visualizzato è quello scelto nella precedente pagina QuizListPage.
-			\item\textbf{Attività svolte e dati trattati:} l'utente può navigare tra le domande del questionario nell'ordine che preferisce, dare le proprie risposte e, al termine del questionario, visualizzarne il risultato; per ognuna di queste funzionalità è presente un metodo della classe
+				\item\textbf{Funzione del componente:} visualizza una domanda e ne permette la compilazione
 			\end{itemize}
-			\subsubsubsection{Classe QuizManagementPage}
+		\subsubsubsection{Classe QuestionForm}
 			\begin{itemize}
-		    \item\textbf{Funzione del componente:} gestisce creazione, modifica ed eliminazione di singole domande e interi questionari
-			\item\textbf{Relazioni d'uso di altri componenti:} concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage)
-			\item\textbf{Attività svolte e dati trattati:} le funzionalità offerte dalla classe consentono creazione, modifca ed eliminazione di singoli quesiti e di interi questionari
+				\item\textbf{Funzione del componente:} visualizza il form per i dati di una domanda. Utilizzabile sia per la creazione che per la modifica della domanda (se viene modificata una domanda già esistente nei campi vengono inseriti i valori attuali)
 			\end{itemize}
-			\subsubsubsection{Classe QuizTutorialPage}
+		\subsubsubsection{Classe QuizCreation}
 			\begin{itemize}
-		    \item\textbf{Funzione del componente:} questa pagina visualizza un breve manuale che spiega l'uso e la sintassi del linguaggio QML (vedi analisi\_dei\_requisiti\_2.0.pdf)
-			\item\textbf{Relazioni d'uso di altri componenti:} concretizza la classe astratta Page da cui è diretta discendente (e viene usata da CurrentView come currentPage)
-			\item\textbf{Attività svolte e dati trattati:} questa classe svolge solamente una semplice attività di visualizzazione di informazioni
+				\item\textbf{Funzione del componente:} visualizza il form di creazione di un questionario
 			\end{itemize}
-			\subsubsection{Package UserAuthentication}
-			\begin{center}
-				\includegraphics[scale=0.6]{"../images/UserAuthentication".png}
-			\end{center}	
-			\subsubsubsection{Classe User}
+		\subsubsubsection{Classe QuizResults}
 			\begin{itemize}
-\item\textbf{Funzione del componente:} classe che rappresenta il singolo utilizzatore attuale del sistema nella propria sessione
-\item\textbf{Relazioni d'uso di altri componenti:} User viene utilizzato dalla classe CurrentViewManager::CurrentView
-\item\textbf{Attività svolte e dati trattati:} questa classe prevede le funzionalità basilari per l'autenticazione dell'utente all'interno del sistema come registrazione, login e  logout ed altre operazioni secondarie come il cambio o il recupero della password smarrita.
+				\item\textbf{Funzione del componente:} visualizza i risultati ottenuti in seguito alla compilazione di un quiz
 			\end{itemize}
+		\subsubsubsection{Classe SearchForm}
+			\begin{itemize}
+				\item\textbf{Funzione del componente:} visualizza un form per l'inserimento dei dati desiderati e l'avvio della ricerca
+			\end{itemize}
+		\subsubsubsection{Classe RegistrationForm}
+			\begin{itemize}
+				\item\textbf{Funzione del componente:} visualizza un form per la registrazione di un nuovo utente
+			\end{itemize}
+		\subsubsubsection{Classe LoginForm}
+			\begin{itemize}
+				\item\textbf{Funzione del componente:} visualizza un form per l'autenticazione di un utente
+			\end{itemize}
+		\subsubsubsection{Classe PasswordRecoveryForm}
+			\begin{itemize}
+				\item\textbf{Funzione del componente:} visualizza un form per il recupero della password dimenticata
+			\end{itemize}
+			
 			\newpage
