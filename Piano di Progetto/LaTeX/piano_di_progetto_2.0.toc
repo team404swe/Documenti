@@ -24,38 +24,39 @@
 \contentsline {subsection}{\numberline {5.2}Conoscenze e Strumenti}{9}{subsection.5.2}
 \contentsline {subsubsection}{\numberline {5.2.1}Carenza di conoscenze tecniche}{9}{subsubsection.5.2.1}
 \contentsline {subsubsection}{\numberline {5.2.2}Carenza di strumenti adeguati}{9}{subsubsection.5.2.2}
-\contentsline {subsection}{\numberline {5.3}Errori d'analisi}{9}{subsection.5.3}
-\contentsline {subsubsection}{\numberline {5.3.1}Errore nell'analisi dei requisiti}{9}{subsubsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3}Errori d'analisi}{10}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Errore nell'analisi dei requisiti}{10}{subsubsection.5.3.1}
 \contentsline {subsubsection}{\numberline {5.3.2}Errore in fase di studio di fattibilit\IeC {\`a}}{10}{subsubsection.5.3.2}
-\contentsline {subsubsection}{\numberline {5.3.3}Errore di stima risorse/costi}{10}{subsubsection.5.3.3}
+\contentsline {subsubsection}{\numberline {5.3.3}Errore di stima risorse/costi}{11}{subsubsection.5.3.3}
 \contentsline {subsection}{\numberline {5.4}Ritardi}{11}{subsection.5.4}
 \contentsline {subsubsection}{\numberline {5.4.1}Ritardo nel completamento di un'attivit\IeC {\`a}}{11}{subsubsection.5.4.1}
 \contentsline {subsubsection}{\numberline {5.4.2}Ritardata partecipazione ad una revisione}{12}{subsubsection.5.4.2}
-\contentsline {section}{\numberline {6}Pianificazione delle risorse}{13}{section.6}
-\contentsline {subsection}{\numberline {6.1}Scadenze}{13}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Pianificazione attivit\IeC {\`a} di sviluppo}{13}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Rotazione dei ruoli}{13}{subsubsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2}Analisi}{14}{subsubsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.3}Progettazione}{15}{subsubsection.6.2.3}
-\contentsline {subsubsection}{\numberline {6.2.4}Codifica}{17}{subsubsection.6.2.4}
-\contentsline {subsubsection}{\numberline {6.2.5}Verifica e validazione}{19}{subsubsection.6.2.5}
-\contentsline {section}{\numberline {7}Conto Economico Preventivo}{20}{section.7}
-\contentsline {subsection}{\numberline {7.1}Vincoli economici e didattici}{20}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Preventivo}{21}{subsection.7.2}
-\contentsline {subsubsection}{\numberline {7.2.1}Incidenza Fasi}{21}{subsubsection.7.2.1}
-\contentsline {subsubsection}{\numberline {7.2.2}Incidenza Ruoli}{22}{subsubsection.7.2.2}
-\contentsline {subsection}{\numberline {7.3}Prospetto Orario}{23}{subsection.7.3}
-\contentsline {section}{\numberline {8}Consuntivi}{24}{section.8}
-\contentsline {subsection}{\numberline {8.1}Fase di Analisi}{24}{subsection.8.1}
-\contentsline {subsubsection}{\numberline {8.1.1}Analisi di periodo}{24}{subsubsection.8.1.1}
-\contentsline {subsubsection}{\numberline {8.1.2}Preventivo a finire}{25}{subsubsection.8.1.2}
-\contentsline {subsubsubsection}{\numberline {8.1.2.1}Progettazione Architetturale}{25}{subsubsubsection.8.1.2.1}
-\contentsline {subsubsubsection}{\numberline {8.1.2.2}Progettazione di Dettaglio e Codifica}{27}{subsubsubsection.8.1.2.2}
-\contentsline {subsubsubsection}{\numberline {8.1.2.3}Prospetto Orario Aggiornato}{28}{subsubsubsection.8.1.2.3}
-\contentsline {subsubsubsection}{\numberline {8.1.2.4}Preventivo}{29}{subsubsubsection.8.1.2.4}
-\contentsline {subsection}{\numberline {8.2}Fase di Progettazione Architetturale}{30}{subsection.8.2}
-\contentsline {subsubsection}{\numberline {8.2.1}Analisi di periodo}{30}{subsubsection.8.2.1}
-\contentsline {subsubsection}{\numberline {8.2.2}Preventivo a finire}{31}{subsubsection.8.2.2}
-\contentsline {subsubsubsection}{\numberline {8.2.2.1}Progettazione di Dettaglio e Codifica}{31}{subsubsubsection.8.2.2.1}
-\contentsline {subsubsubsection}{\numberline {8.2.2.2}Prospetto Orario Aggiornato}{32}{subsubsubsection.8.2.2.2}
-\contentsline {subsubsubsection}{\numberline {8.2.2.3}Preventivo}{33}{subsubsubsection.8.2.2.3}
+\contentsline {section}{\numberline {6}Pianificazione delle risorse}{14}{section.6}
+\contentsline {subsection}{\numberline {6.1}Scadenze}{14}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Pianificazione attivit\IeC {\`a} di sviluppo}{14}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Rotazione dei ruoli}{14}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Analisi}{15}{subsubsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.3}Progettazione}{16}{subsubsection.6.2.3}
+\contentsline {subsubsection}{\numberline {6.2.4}Codifica}{18}{subsubsection.6.2.4}
+\contentsline {subsubsection}{\numberline {6.2.5}Verifica e validazione}{20}{subsubsection.6.2.5}
+\contentsline {section}{\numberline {7}Conto Economico Preventivo}{21}{section.7}
+\contentsline {subsection}{\numberline {7.1}Vincoli economici e didattici}{21}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Preventivo}{22}{subsection.7.2}
+\contentsline {subsubsection}{\numberline {7.2.1}Incidenza Fasi}{22}{subsubsection.7.2.1}
+\contentsline {subsubsection}{\numberline {7.2.2}Incidenza Ruoli}{23}{subsubsection.7.2.2}
+\contentsline {subsection}{\numberline {7.3}Prospetto Orario}{24}{subsection.7.3}
+\contentsline {section}{\numberline {8}Consuntivi}{25}{section.8}
+\contentsline {subsection}{\numberline {8.1}Fase di Analisi}{25}{subsection.8.1}
+\contentsline {subsubsection}{\numberline {8.1.1}Consuntivo di periodo}{25}{subsubsection.8.1.1}
+\contentsline {subsubsection}{\numberline {8.1.2}Preventivo a finire}{26}{subsubsection.8.1.2}
+\contentsline {subsubsubsection}{\numberline {8.1.2.1}Progettazione Architetturale}{26}{subsubsubsection.8.1.2.1}
+\contentsline {subsubsubsection}{\numberline {8.1.2.2}Progettazione di Dettaglio e Codifica}{28}{subsubsubsection.8.1.2.2}
+\contentsline {subsubsubsection}{\numberline {8.1.2.3}Prospetto Orario Aggiornato}{29}{subsubsubsection.8.1.2.3}
+\contentsline {subsubsubsection}{\numberline {8.1.2.4}Preventivo}{30}{subsubsubsection.8.1.2.4}
+\contentsline {subsection}{\numberline {8.2}Fase di Progettazione Architetturale}{31}{subsection.8.2}
+\contentsline {subsubsection}{\numberline {8.2.1}Consuntivo di periodo}{31}{subsubsection.8.2.1}
+\contentsline {subsubsection}{\numberline {8.2.2}Preventivo a finire}{32}{subsubsection.8.2.2}
+\contentsline {subsubsubsection}{\numberline {8.2.2.1}Progettazione di Dettaglio e Codifica}{32}{subsubsubsection.8.2.2.1}
+\contentsline {subsubsubsection}{\numberline {8.2.2.2}Prospetto Orario Aggiornato}{33}{subsubsubsection.8.2.2.2}
+\contentsline {subsubsubsection}{\numberline {8.2.2.3}Preventivo}{34}{subsubsubsection.8.2.2.3}
+\contentsline {subsection}{\numberline {8.3}Fase di Progettazione di Dettaglio e Codifica}{34}{subsection.8.3}
