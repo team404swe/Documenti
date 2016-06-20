@@ -176,7 +176,6 @@ immagini.}
 	\newpage
 \sezioneglos{S}
 	\beginglos
-		\itemglos{StarUML}{@@@}
 		\itemglos{Stub}{una porzione di codice utilizzata in sostituzione di altre funzionalità software. Uno stub può simulare il comportamento di codice esistente, ed essere temporaneo sostituto di codice ancora da sviluppare. Gli stub sono perciò molto utili durante il porting di software, l'elaborazione distribuita e in generale durante lo sviluppo di software e il software testing.}
 		\itemglos{Subscribe}{si veda "\textbf{Publish-Subscribe}".}
 	\fineglos
