@@ -87,7 +87,7 @@
 	\item\textbf{Attività svolte e dati trattati}:
 \end{itemize}
 
-			\subsubsection{Package Subscribers}
+\subsubsection{Package Subscribers}
 \begin{figure}[h!]
 \begin{center}
 	\includegraphics[scale=0.65]{../images/SubscribersClass.png}
@@ -147,82 +147,7 @@
 	\item\textbf{Relazione d'uso di altre componenti}:  si relaziona con il package esterno 'accounts-ui';
 	\item\textbf{Attività svolte e dati trattati}: espone le funzionalità di salvataggio e cancellazione di utenti dal sistema.
 \end{itemize}
-\newpage
-
-\subsubsection{Package QuestionManager}	
-Il package fa uso del design pattern \emph{Abstract Factory}.
-\begin{figure}[h!]
-\begin{center}
-	\includegraphics[scale=0.65]{../images/QuestionManagerClass.png}
-	\caption{Diagramma delle classi del package QuestionManager}
-\end{center}
-\end{figure}
-\subsubsubsection{Interfaccia QuestionFactory}
-\begin{itemize}
-	\item\textbf{Funzione del componente}: interfaccia di base delle Factory di tipi Question.
-	\item\textbf{Relazione d'uso di altre componenti}: può essere concretizzata in diversi tipi di QuestionFactory.
-	\item\textbf{Attività svolte e dati trattati}: definisce il contratto delle factory Question, cioè le operazioni di costruzione di Question che saranno definite in ogni concretizzazione.
-\end{itemize}
-
-\subsubsubsection{Classe astratta Question}
-\begin{itemize}
-	\item\textbf{Funzione del componente}: classe di base del tipo Question.
-	\item\textbf{Relazione d'uso di altre componenti}: può essere concretizzata in diversi tipi di Question.
-	\item\textbf{Attività svolte e dati trattati}: definisce il contratto generale delle Question, cioè le loro operazioni e dati.
-\end{itemize}
-
-\subsubsubsection{Classe QML2HTMLQuestionFactory}
-La classe QML2HTMLQuestionFactory è un \emph{singleton}.
-\begin{itemize}
-	\item\textbf{Funzione del componente}: crea oggetti di tipo HTMLQuestion.
-	\item\textbf{Relazione d'uso di altre componenti}: è concretizzazione della classe QuestionFactory. Crea oggetti HTMLQuestion. Si interfaccia con la classe Translator.
-	\item\textbf{Attività svolte e dati trattati}: crea su richiesta oggetti di tipo HTMLQuestion, delegando la traduzione del codice QML alla classe Translator.
-\end{itemize}
-
-\subsubsubsection{Classe HTMLQuestion}	
-\begin{itemize}
-	\item\textbf{Funzione del componente}: rappresenta una domanda in formato HTML.
-	\item\textbf{Relazione d'uso di altre componenti}: è concretizzazione di Question.
-	\item\textbf{Attività svolte e dati trattati}: eredita e specializza le funzionalità dell'interfaccia Question.
-\end{itemize}
-
-\subsubsubsection{Classe Translator}
-\begin{itemize}
-	\item\textbf{Funzione del componente}: s'interfaccia con le componenti del package Interpreter per la traduzione di quesiti QML in HTML.
-	\item\textbf{Relazione d'uso di altre componenti}: collabora con le interfacce Interpreter e InterpreterFactory.
-	\item\textbf{Attività svolte e dati trattati}: riceve dalla classe ViewUpdater le richieste di traduzione e il codice QML da tradurre. Attraverso la factory InterpreterFactory (una sua concretizzazione) costruisce un Interpreter concreto e lo utilizza per la traduzione del codice. L'esito della traduzione viene reso disponibile a ViewUpdater.
-\end{itemize}
-\newpage
-
-\subsubsection{Package QuizManager}
-Il package fa uso del design pattern \emph{Builder}.
-\begin{figure}[h!]
-\begin{center}
-	\includegraphics[scale=0.65]{../images/QuizManagerClass.png}
-	\caption{Diagramma delle classi del package QuizManager}
-\end{center}
-\end{figure}
-\subsubsubsection{Classe QuizDirector}
-\begin{itemize}
-\item\textbf{Funzione del componente}: è responsabile della costruzione di un oggetto di tipo Quiz.
-	\item\textbf{Relazione d'uso di altre componenti}: utilizza la classe QuizBuilder.
-	\item\textbf{Attività svolte e dati trattati}: la classe, a partire da un set di domande (in questo caso in QML), utilizza il Builder per costruire un Quiz.
-\end{itemize}
-
-\subsubsubsection{Classe QuizBuilder}
-\begin{itemize}
-\item\textbf{Funzione del componente}: Costruisce domanda per domanda un questionario.
-	\item\textbf{Relazione d'uso di altre componenti}: interagisce con il package QuestionManager.
-	\item\textbf{Attività svolte e dati trattati}: Costruisce passo pe r passo un oggetto di tipo Quiz. Si appoggia al package QuestionManager per la creazione delle singole domande.
-\end{itemize}
-
-\subsubsubsection{Classe Quiz}
-\begin{itemize}
-\item\textbf{Funzione del componente}: la classe rappresenta un Quiz, una raccolta di domande.
-	\item\textbf{Relazione d'uso di altre componenti}: nessuna.
-	\item\textbf{Attività svolte e dati trattati}: la classe possiede i dati e fornisce le operazioni necessaria alla fruizione di un Quiz.
-\end{itemize}
-\clearpage			
+\newpage			
 
 \subsubsection{Package Interpreter}
 \begin{figure}[h!]
@@ -234,13 +159,13 @@ Il package fa uso del design pattern \emph{Builder}.
 \subsubsubsection{Interfaccia Interpreter}
 \begin{itemize}
 	\item\textbf{Funzione del componente}: interfaccia di base del tipo Interpreter.
-	\item\textbf{Relazione d'uso di altre componenti}: può essere concretizzata in diversi tipi di Interpreter. Viene riferita dalla classe Translator.
+	\item\textbf{Relazione d'uso di altre componenti}: può essere concretizzata in diversi tipi di Interpreter.
 	\item\textbf{Attività svolte e dati trattati}: definisce il contratto degli Interpreter, cioè le operazioni di traduzione che saranno definite in ogni concretizzazione.
 \end{itemize}
 \subsubsubsection{Interfaccia InterpreterFactory}
 \begin{itemize}
 	\item\textbf{Funzione del componente}: interfaccia di base delle Factory di tipi Interpreter.
-	\item\textbf{Relazione d'uso di altre componenti}: può essere concretizzata in diversi tipi di InterpreterFactory. Viene riferita dalla classe Translator.
+	\item\textbf{Relazione d'uso di altre componenti}: può essere concretizzata in diversi tipi di InterpreterFactory.
 	\item\textbf{Attività svolte e dati trattati}: definisce il contratto delle factory, cioè le operazioni di costruzione di Interpreter che saranno definite in ogni concretizzazione.
 \end{itemize}
 \subsubsubsection{Classe QMLInterpreterFactory}

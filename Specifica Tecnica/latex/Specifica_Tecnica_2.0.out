@@ -88,38 +88,26 @@
 \BOOKMARK [4][-]{subsubsubsection.7.2.3.1}{Classe QuestionMethods}{subsubsection.7.2.3}% 88
 \BOOKMARK [4][-]{subsubsubsection.7.2.3.2}{Classe QuizMethods}{subsubsection.7.2.3}% 89
 \BOOKMARK [4][-]{subsubsubsection.7.2.3.3}{Classe UserMethods}{subsubsection.7.2.3}% 90
-\BOOKMARK [3][-]{subsubsection.7.2.4}{Package QuestionManager}{subsection.7.2}% 91
-\BOOKMARK [4][-]{subsubsubsection.7.2.4.1}{Interfaccia QuestionFactory}{subsubsection.7.2.4}% 92
-\BOOKMARK [4][-]{subsubsubsection.7.2.4.2}{Classe astratta Question}{subsubsection.7.2.4}% 93
-\BOOKMARK [4][-]{subsubsubsection.7.2.4.3}{Classe QML2HTMLQuestionFactory}{subsubsection.7.2.4}% 94
-\BOOKMARK [4][-]{subsubsubsection.7.2.4.4}{Classe HTMLQuestion}{subsubsection.7.2.4}% 95
-\BOOKMARK [4][-]{subsubsubsection.7.2.4.5}{Classe Translator}{subsubsection.7.2.4}% 96
-\BOOKMARK [3][-]{subsubsection.7.2.5}{Package QuizManager}{subsection.7.2}% 97
-\BOOKMARK [4][-]{subsubsubsection.7.2.5.1}{Classe QuizDirector}{subsubsection.7.2.5}% 98
-\BOOKMARK [4][-]{subsubsubsection.7.2.5.2}{Classe QuizBuilder}{subsubsection.7.2.5}% 99
-\BOOKMARK [4][-]{subsubsubsection.7.2.5.3}{Classe Quiz}{subsubsection.7.2.5}% 100
-\BOOKMARK [3][-]{subsubsection.7.2.6}{Package Interpreter}{subsection.7.2}% 101
-\BOOKMARK [4][-]{subsubsubsection.7.2.6.1}{Interfaccia Interpreter}{subsubsection.7.2.6}% 102
-\BOOKMARK [4][-]{subsubsubsection.7.2.6.2}{Interfaccia InterpreterFactory}{subsubsection.7.2.6}% 103
-\BOOKMARK [4][-]{subsubsubsection.7.2.6.3}{Classe QMLInterpreterFactory}{subsubsection.7.2.6}% 104
-\BOOKMARK [4][-]{subsubsubsection.7.2.6.4}{Classe QMLInterpreter}{subsubsection.7.2.6}% 105
-\BOOKMARK [4][-]{subsubsubsection.7.2.6.5}{Classe QML2HTMLInterpreter}{subsubsection.7.2.6}% 106
-\BOOKMARK [1][-]{section.8}{Diagrammi di attivit\340}{}% 107
-\BOOKMARK [2][-]{subsection.8.1}{Creazione Questionario}{section.8}% 108
-\BOOKMARK [2][-]{subsection.8.2}{Creazione Domanda}{section.8}% 109
-\BOOKMARK [2][-]{subsection.8.3}{Compilazione Questionario}{section.8}% 110
-\BOOKMARK [2][-]{subsection.8.4}{Scelta Questionario}{section.8}% 111
-\BOOKMARK [1][-]{section.9}{Diagrammi di sequenza}{}% 112
-\BOOKMARK [2][-]{subsection.9.1}{Salvataggio di una Domanda}{section.9}% 113
-\BOOKMARK [2][-]{subsection.9.2}{Visualizzazione e scelta di un Questionario}{section.9}% 114
-\BOOKMARK [2][-]{subsection.9.3}{Caricamento di un Questionario}{section.9}% 115
-\BOOKMARK [2][-]{subsection.9.4}{Traduzione di una domanda}{section.9}% 116
-\BOOKMARK [2][-]{subsection.9.5}{Svolgimento di un Questionario}{section.9}% 117
-\BOOKMARK [1][-]{section.10}{Design pattern utilizzati}{}% 118
-\BOOKMARK [2][-]{subsection.10.1}{Abstract Factory}{section.10}% 119
-\BOOKMARK [2][-]{subsection.10.2}{Singleton}{section.10}% 120
-\BOOKMARK [2][-]{subsection.10.3}{Builder}{section.10}% 121
-\BOOKMARK [2][-]{subsection.10.4}{Command}{section.10}% 122
-\BOOKMARK [1][-]{section.11}{Tracciamento}{}% 123
-\BOOKMARK [2][-]{subsection.11.1}{Mappatura componenti-requisiti}{section.11}% 124
-\BOOKMARK [2][-]{subsection.11.2}{Mappatura requisiti - componenti}{section.11}% 125
+\BOOKMARK [3][-]{subsubsection.7.2.4}{Package Interpreter}{subsection.7.2}% 91
+\BOOKMARK [4][-]{subsubsubsection.7.2.4.1}{Interfaccia Interpreter}{subsubsection.7.2.4}% 92
+\BOOKMARK [4][-]{subsubsubsection.7.2.4.2}{Interfaccia InterpreterFactory}{subsubsection.7.2.4}% 93
+\BOOKMARK [4][-]{subsubsubsection.7.2.4.3}{Classe QMLInterpreterFactory}{subsubsection.7.2.4}% 94
+\BOOKMARK [4][-]{subsubsubsection.7.2.4.4}{Classe QMLInterpreter}{subsubsection.7.2.4}% 95
+\BOOKMARK [4][-]{subsubsubsection.7.2.4.5}{Classe QML2HTMLInterpreter}{subsubsection.7.2.4}% 96
+\BOOKMARK [1][-]{section.8}{Diagrammi di attivit\340}{}% 97
+\BOOKMARK [2][-]{subsection.8.1}{Creazione Questionario}{section.8}% 98
+\BOOKMARK [2][-]{subsection.8.2}{Creazione Domanda}{section.8}% 99
+\BOOKMARK [2][-]{subsection.8.3}{Compilazione Questionario}{section.8}% 100
+\BOOKMARK [2][-]{subsection.8.4}{Scelta Questionario}{section.8}% 101
+\BOOKMARK [1][-]{section.9}{Diagrammi di sequenza}{}% 102
+\BOOKMARK [2][-]{subsection.9.1}{Salvataggio di una Domanda}{section.9}% 103
+\BOOKMARK [2][-]{subsection.9.2}{Visualizzazione e scelta di un Questionario}{section.9}% 104
+\BOOKMARK [2][-]{subsection.9.3}{Caricamento di un Questionario}{section.9}% 105
+\BOOKMARK [2][-]{subsection.9.4}{Traduzione di una domanda}{section.9}% 106
+\BOOKMARK [2][-]{subsection.9.5}{Svolgimento di un Questionario}{section.9}% 107
+\BOOKMARK [1][-]{section.10}{Design pattern utilizzati}{}% 108
+\BOOKMARK [2][-]{subsection.10.1}{Abstract Factory}{section.10}% 109
+\BOOKMARK [2][-]{subsection.10.2}{Singleton}{section.10}% 110
+\BOOKMARK [1][-]{section.11}{Tracciamento}{}% 111
+\BOOKMARK [2][-]{subsection.11.1}{Mappatura componenti-requisiti}{section.11}% 112
+\BOOKMARK [2][-]{subsection.11.2}{Mappatura requisiti - componenti}{section.11}% 113

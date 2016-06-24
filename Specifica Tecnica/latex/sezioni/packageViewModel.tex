@@ -1,6 +1,6 @@
 \subsubsection{Package della componente ViewModel}
 	\begin{center}
-		\includegraphics[scale=0.6]{../images/ViewModelPackage.png}
+		\includegraphics[scale=0.65]{../images/ViewModelPackage.png}
 	\end{center}
 	Gli elementi del package collaborano e interagiscono con l'obiettivo comune di realizzare il data-binding con i componenti della View e interagire col Model per richiedere e aggiornare i dati.
 	Il package del ViewModel contiene i seguenti sub-packages:
@@ -33,27 +33,7 @@
 		\item \textit{QuestionMethods}
 		\item \textit{QuizMethods}
 		\item \textit{UserMethods}
-	\end{itemize}
-	
-	\item \textbf{QuestionManager}:
-	Il package \emph{QuestionManager} espone le funzionalità necessarie alla creazione e gestione di domande. Per permettere al package di essere estendibile in futuro con domande in diversi formati, le classi al suo interno sono organizzate seguendo il pattern \emph{Abstract Factory}. \\
-	Il package contiene al suo interno le classi:
-	\begin{itemize}
-		\item \textit{QuestionFactory}
-		\item \textit{Question}
-		\item \textit{QML2HTMLFactory}
-		\item \textit{HTMLQuestion}
-		\item \textit{Translator}
-	\end{itemize}
-	
-	\item\textbf{QuizManager}:
-	Il Package \emph{QuizManager} espone le funzionalità necessarie alla creazione e gestione di quiz, collaborando con il package \emph{QuestionManager}. Per disaccoppiare la creazione di un quiz dalle domande che lo compongono, la classi all'interno del package seguono la struttura del design pattern \emph{Builder}.\\ 
-	Il package contiene al suo interno le classi:
-	\begin{itemize}
-		\item \textit{QuizDirector}
-		\item \textit{QuizBuilder}
-		\item \textit{Quiz}
-	\end{itemize}
+	\end{itemize}		
 	
 	\item \textbf{Interpreter}:
 	Il package \emph{Interpreter} è responsabile della traduzione di testo QML in codice HTML5 visualizzabile da browser. Per permettere al package di essere estendibile in futuro con nuovi tipi di "Interpreter", le classi al suo interno sono organizzate seguendo il pattern \emph{Abstract Factory} . \\
