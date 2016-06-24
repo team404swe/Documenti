@@ -110,6 +110,7 @@
 \contentsline {section}{\numberline {10}Design pattern utilizzati}{37}{section.10}
 \contentsline {subsection}{\numberline {10.1}Abstract Factory}{37}{subsection.10.1}
 \contentsline {subsection}{\numberline {10.2}Singleton}{38}{subsection.10.2}
-\contentsline {section}{\numberline {11}Tracciamento}{40}{section.11}
-\contentsline {subsection}{\numberline {11.1}Mappatura componenti-requisiti}{40}{subsection.11.1}
-\contentsline {subsection}{\numberline {11.2}Mappatura requisiti - componenti}{44}{subsection.11.2}
+\contentsline {subsection}{\numberline {10.3}Publish - Subscribe}{39}{subsection.10.3}
+\contentsline {section}{\numberline {11}Tracciamento}{41}{section.11}
+\contentsline {subsection}{\numberline {11.1}Mappatura componenti-requisiti}{41}{subsection.11.1}
+\contentsline {subsection}{\numberline {11.2}Mappatura requisiti - componenti}{45}{subsection.11.2}

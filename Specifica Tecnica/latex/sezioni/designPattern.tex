@@ -63,5 +63,35 @@ di sovrascrivere le funzioni di classe poiché statiche e non virtuali.
 		\end{itemize}
 		\item\textbf{Utilizzo}: nel sistema Quizzipedia il design pattern è stato utilizzato per le classi\\
 		 QML2HTMLQuestionFactory e QMLInterpreterFactory. Usato in collaborazione con\\ l'\emph{Abstract Factory}, il pattern assicura che la costruzione degli oggetti Interpreter e Question abbia un unico punto d'accesso nelle classi sopracitate.
+	\end{itemize}		
+	
+	\subsection{Publish - Subscribe}
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[scale=1.2]{../images/publish-subscribe-pattern.png}
+		\caption{Design Pattern Publish-Subscribe}
+	\end{center}
+	\end{figure}
+	\begin{itemize}
+		\item\textbf{Scopo}: in questo schema, mittenti e destinatari di messaggi dialogano attraverso un tramite, che può essere detto dispatcher o broker. Il mittente di un messaggio (detto publisher) non deve essere consapevole dell'identità dei destinatari (detti subscriber); esso si limita a "pubblicare" (in inglese to publish) il proprio messaggio al dispatcher. I destinatari si rivolgono a loro volta al dispatcher "abbonandosi" (in inglese to subscribe) alla ricezione di messaggi. Il dispatcher quindi inoltra ogni messaggio inviato da un publisher a tutti i subscriber interessati a quel messaggio.
+		\item\textbf{Applicabilità}:
+		\begin{itemize}
+			\item implementare la comunicazione asincrona tra diverse componenti
+			\item rendere disponibili al Client solo una parte ristretta dei dati d'interesse.
+		\end{itemize}
+		\item\textbf{Conseguenze}:
+		\begin{itemize}
+			\item disaccoppiamento tra publisher e subscribers
+			\item alta scalabilità
+			\item scarsa flessibilità nella struttura dei dati pubblicati.
+		\end{itemize}
+		\item\textbf{Utilizzo}: nel sistema Quizzipedia il design pattern è stato utilizzato per le classi Publishers e Subscribers, il cui funzionamento è del tutto analogo a quanto descritto sopra. Va notato che nel framework Meteor la componente 'dispatcher' è completamente trasparente al programmatore. E' sufficiente 'pubblicare' i dati lato server e 'abbonarsi' ai dati lato client, Meteor si preoccuperà della comunicazione client-server.
+		
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[scale=0.8]{../images/PublishSubscribeDesignPattern.png}
+		\caption{Publish-Subscribe in Quizzipedia}
+	\end{center}
+	\end{figure}
 	\end{itemize}
-	\newpage		
+	\newpage

@@ -108,6 +108,7 @@
 \BOOKMARK [1][-]{section.10}{Design pattern utilizzati}{}% 108
 \BOOKMARK [2][-]{subsection.10.1}{Abstract Factory}{section.10}% 109
 \BOOKMARK [2][-]{subsection.10.2}{Singleton}{section.10}% 110
-\BOOKMARK [1][-]{section.11}{Tracciamento}{}% 111
-\BOOKMARK [2][-]{subsection.11.1}{Mappatura componenti-requisiti}{section.11}% 112
-\BOOKMARK [2][-]{subsection.11.2}{Mappatura requisiti - componenti}{section.11}% 113
+\BOOKMARK [2][-]{subsection.10.3}{Publish - Subscribe}{section.10}% 111
+\BOOKMARK [1][-]{section.11}{Tracciamento}{}% 112
+\BOOKMARK [2][-]{subsection.11.1}{Mappatura componenti-requisiti}{section.11}% 113
+\BOOKMARK [2][-]{subsection.11.2}{Mappatura requisiti - componenti}{section.11}% 114
