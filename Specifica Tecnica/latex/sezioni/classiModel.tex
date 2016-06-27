@@ -5,19 +5,19 @@
 			\end{center}
  			\subsubsubsection{Classe UserManager}
  			\begin{itemize}
-		    	\item\textbf{Funzione del componente:} la classe permettera' l'inserimento, la lettura, la modifica e la rimozione di utenti all'interno della collezione
-			\item\textbf{Relazioni d'uso di altri componenti:} interagisce con il Presenter, gestendo le richieste per inserire, modificare o eliminare utenti
+		    	\item\textbf{Funzione del componente:} la classe permettera' l'inserimento, la lettura e la rimozione di utenti all'interno della collezione
+			\item\textbf{Relazioni d'uso di altri componenti:} interagisce con la ViewModel, gestendone le richieste di interazione sugli utenti
 
 			\end{itemize}
 			\subsubsubsection{Classe QuizManager}
 			\begin{itemize}
-		    	\item\textbf{Funzione del componente:} la classe permettera' l'inserimento, la lettura, la modifica e la rimozione di quiz all'interno della collezione
-			\item\textbf{Relazioni d'uso di altri componenti:} interagisce con il Presenter, gestendo le richieste per inserire, modificare o eliminare quiz
+		    	\item\textbf{Funzione del componente:} la classe permettera' l'inserimento, la lettura e la rimozione di questionari all'interno della collezione
+			\item\textbf{Relazioni d'uso di altri componenti:} interagisce con la ViewModel, gestendo le richieste per inserire, modificare o eliminare quiz
 			\end{itemize}
 			\subsubsubsection{Classe QuestionManager}
 			\begin{itemize}
-		    	\item\textbf{Funzione del componente:} la classe permettera' l'inserimento, la lettura, la modifica e la rimozione di quesiti all'interno della collezione
-			\item\textbf{Relazioni d'uso di altri componenti:} interagisce con il Presenter, gestendo le richieste per inserire, modificare o eliminare quesiti
+		    	\item\textbf{Funzione del componente:} la classe permettera' l'inserimento, la lettura e la rimozione di singoli quesiti all'interno della collezione
+			\item\textbf{Relazioni d'uso di altri componenti:} interagisce con la ViewModel, gestendo le richieste per inserire, modificare o eliminare quesiti
 			\end{itemize}
 			
 			\subsubsection{Package Parser}
@@ -30,13 +30,13 @@
 			\item\textbf{Attivita' svolte e dati trattati:} il Parser controlla che il testo fornito in input rispetta la sintassi QML e fornisce in caso di errore un messaggio avvertendo l'utente di dove si trova l'errore e la tipologia
 			\end{itemize}
 			
-			\subsubsection{Package Statistiche}
+			\subsubsection{Package Statistics}
 			\begin{center}
 				\includegraphics[scale=0.6]{../images/Statistics.jpg}
 			\end{center}
- 			\subsubsubsection{Classe Statistic}
+ 			\subsubsubsection{Classe Statistics}
  			\begin{itemize}
-		    	\item\textbf{Funzione del componente:} questa classe fornisce funzionalita' per il raccoglimento delle statistiche all'interno di Quizzipedia
+		    	\item\textbf{Funzione del componente:} questa classe fornisce funzionalita' per il raccoglimento delle statistiche sulle prestazioni degli utenti del sistema
 			\item\textbf{Attivita' svolte e dati trattati:} la classe aggiornera' le statistiche relative ai quesiti, questionari ed utenti.
 			Per i quesiti verranno indicati il numero di volte che e' stato proposto e il numero di risposte corrette.
 			Per i questionari verranno indicati le valutazioni medie ottenute dagli utenti e il numero di volte che e' stato proposto.

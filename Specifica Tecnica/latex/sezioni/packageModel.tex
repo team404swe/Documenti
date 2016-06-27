@@ -1,13 +1,13 @@
 \subsubsection{Package della componente Model}
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[scale=0.65]{../images/ModelPackage.jpg}
+		\includegraphics[scale=0.45]{../images/ModelPackage.jpg}
 		\caption{Package della componente Model}
 	\end{center}
 	\end{figure}
 	Il package per il componente Model del pattern architetturale MVP contiene i seguenti sotto packages:
 	\begin{itemize}
-		\item\textbf{Database:} questo package si occuperà di gestire le richieste in arrivo dal Presenter e avviserà quest'ultimo ogni qualvolta si verifica un cambiamento dei dati salvati nel sistema tramite appositi eventi; Per fare ciò si avvale delle classi:
+		\item\textbf{Database:} questo package si occuperà di gestire le richieste in arrivo dalla ViewModel e avviserà quest'ultima ogni qualvolta si verifichi un cambiamento dei dati salvati nel sistema; per fare ciò si avvale delle classi:
 			\begin{itemize}
 				\item\textit{UserManager}
 				\item\textit{QuizManager}
@@ -17,7 +17,7 @@
 			\begin{itemize}
 				\item\textit{Parser}
 			\end{itemize}
-		\item\textbf{Statistic:} questo package fornisce classi per il raccoglimento delle statistiche relative ai quesiti, questionari ed utenti; Per fare ciò si avvale delle classi:
+		\item\textbf{Statistics:} questo package fornisce classi per il raccoglimento delle statistiche relative ai quesiti, questionari ed utenti; Per fare ciò si avvale delle classi:
 			\begin{itemize}
 				\item\textit{Statistics}
 			\end{itemize}
