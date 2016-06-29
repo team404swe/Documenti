@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.3.14)  6 JUN 2016 17:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.3.14)  29 JUN 2016 09:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3646,209 +3646,213 @@ Underfull \hbox (badness 2261) in paragraph at lines 1546--1546
  []
 
 
-Overfull \hbox (35.99997pt too wide) in alignment at lines 1527--1562
+Overfull \hbox (35.99997pt too wide) in alignment at lines 1527--1563
  [] [] [] 
  []
 
 File: team404_small.jpg Graphic file (type jpg)
 <use team404_small.jpg>
-Package pdftex.def Info: team404_small.jpg used on input line 1562.
+Package pdftex.def Info: team404_small.jpg used on input line 1563.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [45]
 File: team404_small.jpg Graphic file (type jpg)
  <use team404_small.jpg>
-Package pdftex.def Info: team404_small.jpg used on input line 1562.
+Package pdftex.def Info: team404_small.jpg used on input line 1563.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [46]
-Overfull \hbox (35.99997pt too wide) in alignment at lines 1564--1569
- [] [] [] 
- []
-
-
-Overfull \hbox (35.99997pt too wide) in alignment at lines 1569--1573
- [] [] [] 
- []
-
-
-Overfull \hbox (35.99997pt too wide) in alignment at lines 1573--1576
- [] [] [] 
- []
-
-
-Overfull \hbox (35.99997pt too wide) in alignment at lines 1576--1579
- [] [] [] 
- []
-
-
-Overfull \hbox (35.99997pt too wide) in alignment at lines 1579--1593
- [] [] [] 
- []
+Overfull \vbox (6.53354pt too high) has occurred while \output is active []
 
 File: team404_small.jpg Graphic file (type jpg)
+
 <use team404_small.jpg>
-Package pdftex.def Info: team404_small.jpg used on input line 1593.
+Package pdftex.def Info: team404_small.jpg used on input line 1563.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [47]
-Overfull \hbox (35.99997pt too wide) in alignment at lines 1595--1600
+Overfull \hbox (35.99997pt too wide) in alignment at lines 1565--1570
  [] [] [] 
  []
 
 
-Overfull \hbox (35.99997pt too wide) in alignment at lines 1600--1604
+Overfull \hbox (35.99997pt too wide) in alignment at lines 1570--1574
  [] [] [] 
  []
 
 
-Overfull \hbox (35.99997pt too wide) in alignment at lines 1604--1607
+Overfull \hbox (35.99997pt too wide) in alignment at lines 1574--1577
  [] [] [] 
  []
 
 
-Overfull \hbox (35.99997pt too wide) in alignment at lines 1607--1610
+Overfull \hbox (35.99997pt too wide) in alignment at lines 1577--1580
  [] [] [] 
  []
 
 
-Overfull \hbox (35.99997pt too wide) in alignment at lines 1610--1634
+Overfull \hbox (35.99997pt too wide) in alignment at lines 1580--1598
+ [] [] [] 
+ []
+
+
+Overfull \hbox (35.99997pt too wide) in alignment at lines 1600--1605
+ [] [] [] 
+ []
+
+
+Overfull \hbox (35.99997pt too wide) in alignment at lines 1605--1609
+ [] [] [] 
+ []
+
+
+Overfull \hbox (35.99997pt too wide) in alignment at lines 1609--1612
+ [] [] [] 
+ []
+
+
+Overfull \hbox (35.99997pt too wide) in alignment at lines 1612--1615
+ [] [] [] 
+ []
+
+
+Overfull \hbox (35.99997pt too wide) in alignment at lines 1615--1639
  [] [] [] 
  []
 
 File: team404_small.jpg Graphic file (type jpg)
 <use team404_small.jpg>
-Package pdftex.def Info: team404_small.jpg used on input line 1634.
+Package pdftex.def Info: team404_small.jpg used on input line 1639.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [48]
 File: team404_small.jpg Graphic file (type jpg)
  <use team404_small.jpg>
-Package pdftex.def Info: team404_small.jpg used on input line 1636.
+Package pdftex.def Info: team404_small.jpg used on input line 1641.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [49]
-Overfull \hbox (24.0pt too wide) in alignment at lines 1639--1644
+Overfull \hbox (24.0pt too wide) in alignment at lines 1644--1649
  [] [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 1644--1648
+Overfull \hbox (24.0pt too wide) in alignment at lines 1649--1653
  [] [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 1648--1651
+Overfull \hbox (24.0pt too wide) in alignment at lines 1653--1656
  [] [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 1651--1654
+Overfull \hbox (24.0pt too wide) in alignment at lines 1656--1659
  [] [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 1654--1695
+Overfull \hbox (24.0pt too wide) in alignment at lines 1659--1700
  [] [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 1695--1735
+Overfull \hbox (24.0pt too wide) in alignment at lines 1700--1740
  [] [] 
  []
 
 File: team404_small.jpg Graphic file (type jpg)
 <use team404_small.jpg>
-Package pdftex.def Info: team404_small.jpg used on input line 1735.
+Package pdftex.def Info: team404_small.jpg used on input line 1740.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [50]
-Overfull \hbox (24.0pt too wide) in alignment at lines 1735--1771
+Overfull \hbox (24.0pt too wide) in alignment at lines 1740--1776
  [] [] 
  []
 
 File: team404_small.jpg Graphic file (type jpg)
 <use team404_small.jpg>
-Package pdftex.def Info: team404_small.jpg used on input line 1771.
+Package pdftex.def Info: team404_small.jpg used on input line 1776.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [51]
 File: team404_small.jpg Graphic file (type jpg)
  <use team404_small.jpg>
-Package pdftex.def Info: team404_small.jpg used on input line 1771.
+Package pdftex.def Info: team404_small.jpg used on input line 1776.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [52]
-Overfull \hbox (24.0pt too wide) in alignment at lines 1774--1779
+Overfull \hbox (24.0pt too wide) in alignment at lines 1779--1784
  [] [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 1779--1783
+Overfull \hbox (24.0pt too wide) in alignment at lines 1784--1788
  [] [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 1783--1786
+Overfull \hbox (24.0pt too wide) in alignment at lines 1788--1791
  [] [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 1786--1789
+Overfull \hbox (24.0pt too wide) in alignment at lines 1791--1794
  [] [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 1789--1830
+Overfull \hbox (24.0pt too wide) in alignment at lines 1794--1835
  [] [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 1830--1870
+Overfull \hbox (24.0pt too wide) in alignment at lines 1835--1875
  [] [] 
  []
 
 File: team404_small.jpg Graphic file (type jpg)
 <use team404_small.jpg>
-Package pdftex.def Info: team404_small.jpg used on input line 1870.
+Package pdftex.def Info: team404_small.jpg used on input line 1875.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [53]
-Overfull \hbox (24.0pt too wide) in alignment at lines 1870--1910
+Overfull \hbox (24.0pt too wide) in alignment at lines 1875--1915
  [] [] 
  []
 
 File: team404_small.jpg Graphic file (type jpg)
 <use team404_small.jpg>
-Package pdftex.def Info: team404_small.jpg used on input line 1910.
+Package pdftex.def Info: team404_small.jpg used on input line 1915.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [54]
-Overfull \hbox (24.0pt too wide) in alignment at lines 1910--1950
+Overfull \hbox (24.0pt too wide) in alignment at lines 1915--1955
  [] [] 
  []
 
 File: team404_small.jpg Graphic file (type jpg)
 <use team404_small.jpg>
-Package pdftex.def Info: team404_small.jpg used on input line 1950.
+Package pdftex.def Info: team404_small.jpg used on input line 1955.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [55]
-Overfull \hbox (24.0pt too wide) in alignment at lines 1950--1974
+Overfull \hbox (24.0pt too wide) in alignment at lines 1955--1979
  [] [] 
  []
 
 File: team404_small.jpg Graphic file (type jpg)
 <use team404_small.jpg>
-Package pdftex.def Info: team404_small.jpg used on input line 1974.
+Package pdftex.def Info: team404_small.jpg used on input line 1979.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [56]
 File: team404_small.jpg Graphic file (type jpg)
  <use team404_small.jpg>
-Package pdftex.def Info: team404_small.jpg used on input line 1974.
+Package pdftex.def Info: team404_small.jpg used on input line 1979.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [57]
 
 AED: lastpage setting LastPage
 File: team404_small.jpg Graphic file (type jpg)
 <use team404_small.jpg>
-Package pdftex.def Info: team404_small.jpg used on input line 1976.
+Package pdftex.def Info: team404_small.jpg used on input line 1981.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [58]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1976.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1976.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1981.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1981.
  (./analisi_dei_requisiti_3.0.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1976.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1976.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1981.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1981.
 
 Package rerunfilecheck Info: File `analisi_dei_requisiti_3.0.out' has not chang
 ed.
@@ -3870,7 +3874,7 @@ ist/fonts/type1/public/cantarell/Cantarell-Bold.pfb><c:/texlive/2015/texmf-dist
 /fonts/type1/public/cantarell/Cantarell-Regular.pfb><c:/texlive/2015/texmf-dist
 /fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2015/texmf-dist/fonts/typ
 e1/public/cm-super/sftt1440.pfb>
-Output written on analisi_dei_requisiti_3.0.pdf (66 pages, 922106 bytes).
+Output written on analisi_dei_requisiti_3.0.pdf (66 pages, 938519 bytes).
 PDF statistics:
  1013 PDF objects out of 1200 (max. 8388607)
  895 compressed objects within 9 object streams
