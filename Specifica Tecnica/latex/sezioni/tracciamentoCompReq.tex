@@ -18,9 +18,11 @@ Nome componente & Codice requisito \\
 
 %  M	O	D	E	L
 
-Model::Database 	& F 1.2.1.2\\
+% mancano quelli con scritto ancora non tracciabile
+
+Model::Database 	
 							& F 1.2.2\\
-							& F 1.2.3\\
+							
 							& F 2.3.1.1\\
 							& F 3\\
 							& F 3.1.1\\
@@ -66,12 +68,10 @@ Model::Publishers::QuizPublishers	& Non tracciabile\\
 \midrule
 Model::Publishers::QuestionPublishers	& Non tracciabile\\
 
-%  V	I	E	W
-
-
+%  V	I	E	W   quasi completo 
 
 \midrule
-View::Pages::LoginPage						& F 1\\
+View::Pages::RegistrationPage	& F 1\\
 								& F 1.1\\
 								& F 1.1.1\\
 								& F 1.1.2\\
@@ -79,16 +79,17 @@ View::Pages::LoginPage						& F 1\\
 								& F 1.2\\
 								& F 1.2.1.1\\
 								& F 1.2.1.2\\
-								& F 2\\
+								& F 1.2.3\\
+\midrule
+View::Pages::LoginPage			& F 2\\
 								& F 2.1\\
 								& F 2.1.1\\
 								& F 2.1.2\\
-								& F 2.2\\
-								& F 2.2.1\\
-								& F 2.2.2.2\\
 								& F 2.3\\
+								& F 2.3.1\\
 								& F 2.3.1.1\\
-
+								& F 2.3.2\\
+								
 \midrule
 View::Pages::CategoryListPage					& F 3.1\\
 								& F 3.1.1\\
@@ -131,108 +132,114 @@ View::Pages::QuizExecutionPage
 & F 4.7\\
 
 \midrule
-View::Pages::RegistrationPage	& Non traccibile\\
+View::Pages::PasswordRecoveryPage	& F 2.2\\
+								& F 2.2.1\\
+								& F 2.2.2\\
+								& F 2.2.2.1\\
+								& F 2.2.2.2\\
+								& F 2.2.3\\
 
-\midrule
-View::Pages::PasswordRecoveryPage	& Non traccibile\\
+%mancano questi
 
 \midrule
 View::Pages::QuizResultPage	& Non traccibile\\	
 							
 \midrule
-View::Pages::QuizManagementPage	& Non traccibile\\
+View::Pages::QuizManagementPage	& Non tracciabile\\
 
 \midrule
 View::Pages::ViewTutorialPage	& Non tracciabile\\
 
 \midrule
-View::Pages::QuizCreationPage	& Non traccibile\\
+View::Pages::QuizCreationPage	& Non tracciabile\\
 
 \midrule
-View::Pages::QuestionCreationPage	& Non traccibile\\
+View::Pages::QuestionCreationPage	& Non tracciabile\\
 
 \midrule
-View::Pages::QuestionUpdatePage	& Non traccibile\\
+View::Pages::QuestionUpdatePage	& Non tracciabile\\
 
-
-
-%i templates vanno tracciati?
+% templates TO DO
 
 \midrule
-View::Templates::QuestionList	& Non traccibile\\
+View::Templates::QuestionList	& Non tracciabile\\
 \midrule
-View::Templates::Question	& Non traccibile\\
+View::Templates::Question	& Non tracciabile\\
 \midrule
-View::Templates:QuizList:	& Non traccibile\\
+View::Templates:QuizList:	& Non tracciabile\\
 \midrule
-View::Templates::Quiz	& Non traccibile\\
+View::Templates::Quiz	& Non tracciabile\\
 \midrule
-View::Templates::QuestionForm	& Non traccibile\\
+View::Templates::QuestionForm	& Non tracciabile\\
 \midrule
-View::Templates::QuizCreationForm	& Non traccibile\\
+View::Templates::QuizCreationForm	& Non tracciabile\\
 \midrule
-View::Templates::QuestionCompilation	& Non traccibile\\
+View::Templates::QuestionCompilation	& Non tracciabile\\
 \midrule
-View::Templates::QuizResults	& Non traccibile\\
+View::Templates::QuizResults	& Non tracciabile\\
 \midrule
-View::Templates::RegistrationForm	& Non traccibile\\
+View::Templates::RegistrationForm	& Non tracciabile\\
 \midrule
-View::Templates::LoginForm	& Non traccibile\\
+View::Templates::LoginForm	& Non tracciabile\\
 \midrule
-View::Templates::PasswordRecoveryForm	& Non traccibile\\
+View::Templates::PasswordRecoveryForm	& Non tracciabile\\
 \midrule
-View::Templates::SearchForm	& Non traccibile\\
+View::Templates::SearchForm	& Non tracciabile\\
 
 
 %  V	I	E	W	M	O	D	E	L
 
-% package controller
+% package controller TO DO
 
 \midrule
-ViewModel::Controllers::NewQuestionController	& Non traccibile\\
+ViewModel::Controllers::NewQuestionController	& Non tracciabile\\
 \midrule
-ViewModel::Controllers::NewQuizController	& Non traccibile\\
+ViewModel::Controllers::NewQuizController	& Non tracciabile\\
 \midrule
-ViewModel::Controllers::QuestionManagementController	& Non traccibile\\
+ViewModel::Controllers::QuestionManagementController	& Non tracciabile\\
 \midrule
-ViewModel::Controllers::DeleteQuestionController	& Non traccibile\\
+ViewModel::Controllers::DeleteQuestionController	& Non tracciabile\\
 \midrule
-ViewModel::Controllers::DeleteQuizController	& Non traccibile\\
+ViewModel::Controllers::DeleteQuizController	& Non tracciabile\\
 \midrule
-ViewModel::Controllers::QuizManagementController	& Non traccibile\\
+ViewModel::Controllers::QuizManagementController	& Non tracciabile\\
 \midrule
-ViewModel::Controllers::QuizListController	& Non traccibile\\
+ViewModel::Controllers::QuizListController	& Non tracciabile\\
 \midrule
-ViewModel::Controllers::QMLEditorController	& Non traccibile\\
+ViewModel::Controllers::QMLEditorController	& Non tracciabile\\
 \midrule
-ViewModel::Controllers::QuizDetailsController	& Non traccibile\\
+ViewModel::Controllers::QuizDetailsController	& Non tracciabile\\
 
-% package subscribers
-
-\midrule
-ViewModel::Subscribers::QuestionSubscriber	& Non traccibile\\
-\midrule
-ViewModel::Subscribers::QuizSubscriber	& Non traccibile\\
-\midrule
-ViewModel::Subscribers::UserSubscriber	& Non traccibile\\
-
-% package methods
+% package subscribers OK
 
 \midrule
-ViewModel::Methods::QuestionMethods	& Non traccibile\\
+ViewModel::Subscribers::QuestionSubscriber	& Non tracciabile\\
 \midrule
-ViewModel::Methods::QuizMethods	& Non traccibile\\
+ViewModel::Subscribers::QuizSubscriber	& Non tracciabile\\
 \midrule
-ViewModel::Methods::UserMethods	& Non traccibile\\
+ViewModel::Subscribers::UserSubscriber	& Non tracciabile\\
 
-% package interpreter
+% package methods OK
 
 \midrule
-ViewModel::Interpreter::QMLInterpreterFactory	& Non traccibile\\
+ViewModel::Methods::QuestionMethods	& Non tracciabile\\
 \midrule
-ViewModel::Interpreter::QMLInterpreter	& Non traccibile\\
+ViewModel::Methods::QuizMethods	& Non tracciabile\\
 \midrule
-ViewModel::Interpreter::QML2HTMLInterpreter	& Non traccibile\\
+ViewModel::Methods::UserMethods	& Non tracciabile\\
+
+% package interpreter OK
+
+\midrule
+ViewModel::Interpreter::QMLInterpreterFactory	& F 8\\
+												
+\midrule
+ViewModel::Interpreter::QMLInterpreter	& F 8.1\\
+										& F 8.2\\
+\midrule
+ViewModel::Interpreter::QML2HTMLInterpreter	& F 8\\
+											& F 8.1\\
+											& F 8.2\\
 \midrule
 							
 	\end{longtable}			
