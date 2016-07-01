@@ -47,7 +47,8 @@
 	
 		\beginregistro
 			\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}{\hspace{5 mm} \textbf{Descrizione}}
-\rigaregistro{2.0.3}{Luca Alessio (Analista)}{07/06/2016}{Aggiunti requisiti manuale. Correzione errori di battitura.} 			
+%prossimamente andrebbero aggiunti più requisiti sulle statistiche
+\rigaregistro{2.0.3}{Luca Alessio (Analista)}{07/06/2016}{Aggiunti requisiti manuale. Ristrutturato requisito 5.5. Correzione errori di battitura.} 			
 			\rigaregistro{2.0.2}{Luca Alessio (Analista)}{04/06/2016}{Ampliati vincoli di sistema. Riformulati UC 6 e UC 11. Correzioni minori in diversi paragrafi.} 			
 			\rigaregistro{2.0.1}{Luca Alessio (Analista)}{01/06/2016}{Varie modifiche sul documento secondo quanto segnalato in seguito alla RP} 		
 	 		\rigaregistro{2.0}{Andrea Multineddu (Verificatore)}{13/05/2016}{Verifica e revisione documento.}
@@ -1400,6 +1401,14 @@ F 3.2.4 & Per ogni elemento dell'elenco viene visualizzato l'autore & Facoltativ
 \midrule
 F 3.2.5 & Per ogni elemento dell'elenco viene visualizzato la data di creazione & Facoltativo\\
 \midrule
+F 3.3 & Il sistema deve permettere all'utente la ricerca di un determinato questionario & Desiderabile\\
+\midrule
+F 3.3.1 & Il sistema deve permettere all'utente la ricerca per nome & Desiderabile\\
+\midrule
+F 3.3.2 & Il sistema deve permettere all'utente la ricerca per numero di domande & Desiderabile\\
+\midrule
+F 3.3.3 & Il sistema deve permettere all'utente la ricerca per popolarità & Facoltativo\\
+\midrule
 F 4 & Il sistema deve fornire la possibilità di compilare un questionario & Obbligatorio\\
 \midrule
 F 4.1 & Durante la compilazione del questionario un utente può navigare liberamente tra le domande che lo compongono & Desiderabile\\
@@ -1480,11 +1489,17 @@ F 5.3 & L'utente ha la possibilità di modificare domande da lui precedentemente
 \midrule
 F 5.3.1 & Qualora la modifica venga ritenuta valida essa viene salvata e l'utente ne viene notificato & Facoltativo\\
 \midrule
-F 5.3 & Qualora la modifica non venga ritenuta conforme l'utente viene avvertito da un messaggio d'errore & Facoltativo\\
+F 5.3.2 & Qualora la modifica non venga ritenuta conforme l'utente viene avvertito da un messaggio d'errore & Facoltativo\\
 \midrule
 F 5.4 & L'utente ha la possibilità di eliminare domande da lui precedentemente create & Facoltativo\\
 \midrule
-F 5.5 & L'utente ha la possibilità di annullare la creazione, modifica od eliminazione di una domanda & Facoltativo\\
+F 5.5 & L'utente ha la possibilità di annullare alcune operazioni effettuate & Facoltativo\\
+\midrule
+F 5.5.1 & L'utente ha la possibilità di annullare la creazione di una domanda & Facoltativo\\
+\midrule
+F 5.5.2 & L'utente ha la possibilità di annullare la modifica di una domanda & Facoltativo\\
+\midrule
+F 5.5.3 & L'utente ha la possibilità di annullare l'eliminazione di una domanda & Facoltativo\\
 \midrule
 F 6 & Il sistema deve fornire la possibilità ad un utente autenticato di creare un nuovo questionario & Obbligatorio\\
 \midrule

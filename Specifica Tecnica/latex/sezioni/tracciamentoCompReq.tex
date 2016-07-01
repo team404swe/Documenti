@@ -18,46 +18,50 @@ Nome componente & Codice requisito \\
 
 %  M	O	D	E	L
 
-% mancano quelli con scritto ancora non tracciabile
-
-Model::Database 	
-							& F 1.2.2\\
-							
-							& F 2.3.1.1\\
+Model::Database 			& F 1.2.2\\
 							& F 3\\
 							& F 3.1.1\\
 							& F 3.2\\
-							& F 4\\
-							& F 4.5\\
-							& F 5\\
-							& F 5.2.2\\
 							& F 6.2.2\\
 \midrule
-Model::Database::QuestionManager::AddQuestion	& F 5.2.2.1\\
-										
-\midrule
-Model::Database::QuestionManager::RemoveQuestion	& Non tracciabile\\
+Model::Database::QuestionManager::AddQuestion	& F 5\\
+												& F 5.1\\
+												& F 5.2\\
 
 \midrule
-Model::Database::QuizManager::AddQuiz	& F 6.2.2.1\\
+Model::Database::QuestionManager::ModifyQuestion	& F 5.3\\
+									
+\midrule
+Model::Database::QuestionManager::RemoveQuestion	& F 5.4\\
+
+\midrule
+Model::Database::QuizManager::AddQuiz	& F 6\\
+										& F 6.1\\
+										& F 6.2\\
 
 \midrule
 Model::Database::QuizManager::RemoveQuiz	& Non tracciabile\\
 
 \midrule
-Model::Database::UserManager::LogIn	& Non tracciabile\\
-
+Model::Database::UserManager::LogIn	& F 2\\
+									& F 2.2\\
 \midrule
-Model::Database::UserManager::AddUser	& Non tracciabile\\
-
+Model::Database::UserManager::AddUser	& F 1\\
+										& F 2.3.2\\
+										
 \midrule
 Model::Database::UserManager::RemoveUser	& Non tracciabile\\
 
 \midrule
 Model::Parser::Parser		& F 5.2.1\\
+							& F 8\\
 
 \midrule
-Model::Statistics::Statistics	& Non tracciabile\\
+Model::Statistics::Statistics	& 4.5.2\\
+								& 4.5.2.1\\
+								& 4.5.2.1.1\\
+								& 4.5.2.1.2\\
+								& 4.5.2.1.3\\
 
 \midrule
 Model::Publishers::UserPublishers	& Non tracciabile\\
@@ -68,7 +72,7 @@ Model::Publishers::QuizPublishers	& Non tracciabile\\
 \midrule
 Model::Publishers::QuestionPublishers	& Non tracciabile\\
 
-%  V	I	E	W   quasi completo 
+%  V	I	E	W 
 
 \midrule
 View::Pages::RegistrationPage	& F 1\\
@@ -108,7 +112,7 @@ View::Pages::QuizListPage					& F 3\\
 								& F 3.2.3\\
 								
 \midrule
-View::Pages::QuizExecutionPage
+View::Pages::QuizExecutionPage	& F 4\\
 								& F 4.1\\
 								& F 4.2.1\\
 								& F 4.2.2\\
@@ -122,6 +126,7 @@ View::Pages::QuizExecutionPage
 								& F 4.2\\
 								& F 4.3\\
 								& F 4.4\\
+								& F 4.5\\
 								& F 4.5.1\\
 								& F 4.5.2.1\\
 								& F 4.5.2.1\\
@@ -139,78 +144,81 @@ View::Pages::PasswordRecoveryPage	& F 2.2\\
 								& F 2.2.2.2\\
 								& F 2.2.3\\
 
-%mancano questi
-
 \midrule
-View::Pages::QuizResultPage	& Non traccibile\\	
+View::Pages::QuizResultPage	& 4.5.2\\
+								& 4.5.2.1\\
+								& 4.5.2.1.1\\
+								& 4.5.2.1.2\\
+								& 4.5.2.1.3\\	
 							
 \midrule
-View::Pages::QuizManagementPage	& Non tracciabile\\
+View::Pages::QuizManagementPage	& F 6\\
 
 \midrule
-View::Pages::ViewTutorialPage	& Non tracciabile\\
+View::Pages::ViewTutorialPage	& F 8.3\\
 
 \midrule
-View::Pages::QuizCreationPage	& Non tracciabile\\
+View::Pages::QuizCreationPage	& F 6\\
 
 \midrule
-View::Pages::QuestionCreationPage	& Non tracciabile\\
+View::Pages::QuestionCreationPage	& F 5\\
 
 \midrule
-View::Pages::QuestionUpdatePage	& Non tracciabile\\
+View::Pages::QuestionUpdatePage	& F 5.3\\
 
-% templates TO DO
+% templates
 
 \midrule
-View::Templates::QuestionList	& Non tracciabile\\
+View::Templates::QuestionList	& F 4.1.1\\
 \midrule
-View::Templates::Question	& Non tracciabile\\
+View::Templates::Question	& F 4.2\\
 \midrule
-View::Templates:QuizList:	& Non tracciabile\\
+View::Templates:QuizList:	& F 3\\
 \midrule
-View::Templates::Quiz	& Non tracciabile\\
+View::Templates::Quiz	& F 4\\
 \midrule
-View::Templates::QuestionForm	& Non tracciabile\\
+View::Templates::QuestionForm	& F 5\\
 \midrule
-View::Templates::QuizCreationForm	& Non tracciabile\\
+View::Templates::QuizCreationForm	& F 6\\
 \midrule
-View::Templates::QuestionCompilation	& Non tracciabile\\
+View::Templates::QuestionCompilation	& F 4\\
 \midrule
-View::Templates::QuizResults	& Non tracciabile\\
+View::Templates::QuizResults	& F 4.5.2\\
 \midrule
-View::Templates::RegistrationForm	& Non tracciabile\\
+View::Templates::RegistrationForm	& F 1\\
 \midrule
-View::Templates::LoginForm	& Non tracciabile\\
+View::Templates::LoginForm	& F 2\\
 \midrule
-View::Templates::PasswordRecoveryForm	& Non tracciabile\\
+View::Templates::PasswordRecoveryForm	& F 2.2\\
 \midrule
-View::Templates::SearchForm	& Non tracciabile\\
+View::Templates::SearchForm	& F 3.3\\
 
 
 %  V	I	E	W	M	O	D	E	L
 
-% package controller TO DO
+% package controller
 
 \midrule
-ViewModel::Controllers::NewQuestionController	& Non tracciabile\\
+ViewModel::Controllers::NewQuestionController	& F 5\\
 \midrule
-ViewModel::Controllers::NewQuizController	& Non tracciabile\\
+ViewModel::Controllers::NewQuizController	& F 6\\
 \midrule
-ViewModel::Controllers::QuestionManagementController	& Non tracciabile\\
+ViewModel::Controllers::QuestionManagementController	& F 5.3\\
 \midrule
-ViewModel::Controllers::DeleteQuestionController	& Non tracciabile\\
+ViewModel::Controllers::DeleteQuestionController	& F 5.4\\
 \midrule
 ViewModel::Controllers::DeleteQuizController	& Non tracciabile\\
 \midrule
-ViewModel::Controllers::QuizManagementController	& Non tracciabile\\
+ViewModel::Controllers::QuizManagementController	& F 6\\
 \midrule
 ViewModel::Controllers::QuizListController	& Non tracciabile\\
 \midrule
-ViewModel::Controllers::QMLEditorController	& Non tracciabile\\
+ViewModel::Controllers::QMLEditorController	& F 5.2.1\\
+							& F 8\\
 \midrule
 ViewModel::Controllers::QuizDetailsController	& Non tracciabile\\
 
-% package subscribers OK
+% package subscribers
 
 \midrule
 ViewModel::Subscribers::QuestionSubscriber	& Non tracciabile\\
@@ -219,7 +227,7 @@ ViewModel::Subscribers::QuizSubscriber	& Non tracciabile\\
 \midrule
 ViewModel::Subscribers::UserSubscriber	& Non tracciabile\\
 
-% package methods OK
+% package methods
 
 \midrule
 ViewModel::Methods::QuestionMethods	& Non tracciabile\\
@@ -228,7 +236,7 @@ ViewModel::Methods::QuizMethods	& Non tracciabile\\
 \midrule
 ViewModel::Methods::UserMethods	& Non tracciabile\\
 
-% package interpreter OK
+% package interpreter
 
 \midrule
 ViewModel::Interpreter::QMLInterpreterFactory	& F 8\\
