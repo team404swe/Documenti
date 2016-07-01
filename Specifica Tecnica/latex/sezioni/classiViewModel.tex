@@ -187,4 +187,19 @@ La classe QMLInterpreterFactory è un \emph{singleton}.
 	\item\textbf{Relazione d'uso di altre componenti}: è concretizzazione di QMLInterpreter.
 	\item\textbf{Attività svolte e dati trattati}: riceve in input domande in QML e le traduce in codice HTML visualizzabile da browser.
 \end{itemize}
+
+\subsubsection{Classe Router}
+\begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.65]{../images/Router.png}
+	\caption{Diagramma della classe Router}
+\end{center}
+\end{figure}
+\begin{itemize}
+	\item\textbf{Funzione del componente}: implementa il routing dinamico dell'applicazione. Permette di dividere la parte statica dell'applicazione dalla parte che va caricata dinamicamente;
+	\item\textbf{Relazione d'uso di altre componenti}: Utilizza il package esterno ui-router. Conosce i Template dell'applicazione.
+	\item\textbf{Attività svolte e dati trattati}: il Router collega elementi di navigazione associando Url univoci al caricamento dinamico di specifici template.
+
+\end{itemize}
+
 \newpage
