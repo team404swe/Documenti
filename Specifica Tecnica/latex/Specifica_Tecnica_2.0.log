@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.20)  2 JUL 2016 13:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.20)  2 JUL 2016 16:05
 entering extended mode
 **Specifica_Tecnica_2.0.tex
 (Specifica_Tecnica_2.0.tex
@@ -1477,7 +1477,7 @@ Package pdftex.def Info: ../../team404_small.jpg used on input line 70.
 File: ../images/SubscribersClass.png Graphic file (type png)
 
 <use ../images/SubscribersClass.png>
-Package pdftex.def Info: ../images/SubscribersClass.png used on input line 93.
+Package pdftex.def Info: ../images/SubscribersClass.png used on input line 85.
 (pdftex.def)             Requested size: 230.96013pt x 157.88799pt.
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
@@ -1488,39 +1488,39 @@ Package pdftex.def Info: ../../team404_small.jpg used on input line 102.
 File: ../images/MethodsClass.png Graphic file (type png)
 
 <use ../images/MethodsClass.png>
-Package pdftex.def Info: ../images/MethodsClass.png used on input line 125.
+Package pdftex.def Info: ../images/MethodsClass.png used on input line 117.
 (pdftex.def)             Requested size: 225.74069pt x 152.66856pt.
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 133.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 132.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [24 <../images/MethodsClass.png>]
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 150.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 142.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [25]
 <../images/InterpreterClass.png, id=825, 604.2575pt x 411.5375pt>
 File: ../images/InterpreterClass.png Graphic file (type png)
 
 <use ../images/InterpreterClass.png>
-Package pdftex.def Info: ../images/InterpreterClass.png used on input line 155.
+Package pdftex.def Info: ../images/InterpreterClass.png used on input line 147.
 
 (pdftex.def)             Requested size: 392.76273pt x 267.4962pt.
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 176.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 168.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [26 <../images/InterpreterClass.png>]
 <../images/Router.png, id=832, 427.5975pt x 178.6675pt>
 File: ../images/Router.png Graphic file (type png)
 
 <use ../images/Router.png>
-Package pdftex.def Info: ../images/Router.png used on input line 194.
+Package pdftex.def Info: ../images/Router.png used on input line 186.
 (pdftex.def)             Requested size: 277.93507pt x 116.13249pt.
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 205.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 197.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [27 <../images/Router.png>]) (sezioni/attività.tex
 <"../images/diagramma 1".png, id=839, 3872.4675pt x 1650.165pt>
@@ -1860,8 +1860,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 161.
  (Specifica_Tecnica_2.0.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 161.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 161.
-Package rerunfilecheck Info: File `Specifica_Tecnica_2.0.out' has not changed.
-(rerunfilecheck)             Checksum: 23084FE385AB009A1E80D42876934BE5;9392.
+
+
+Package rerunfilecheck Warning: File `Specifica_Tecnica_2.0.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Specifica_Tecnica_2.0.out':
+(rerunfilecheck)             Before: 23084FE385AB009A1E80D42876934BE5;9392
+(rerunfilecheck)             After:  33A8B2F540C56B314656C4BAAA10A15A;9302.
  ) 
 Here is how much of TeX's memory you used:
  11183 strings out of 493698
@@ -1871,15 +1878,18 @@ Here is how much of TeX's memory you used:
  28741 words of font info for 83 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  38i,17n,47p,1085b,534s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cantarell/cantarell-01.enc}{C:/P
-rogram Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Program Fi
-les/MiKTeX 2.9/fonts/enc/dvips/cantarell/cantarell-03.enc}<C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/cantarell/Cantarell-Bold.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/cantarell/Cantarell-Regular.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/cantarell/Cantarell-Regular.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/cm-super/sftt1095.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/cm-super/sftt1440.pfb>
-Output written on Specifica_Tecnica_2.0.pdf (53 pages, 1535365 bytes).
+pdfTeX warning (dest): name{subsubsubsection.7.2.1.10} has been referenced bu
+t does not exist, replaced by a fixed one
+
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cantarell/cantarell-01.enc}{C:/Pro
+gram Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Program File
+s/MiKTeX 2.9/fonts/enc/dvips/cantarell/cantarell-03.enc}<C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/cantarell/Cantarell-Bold.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/cantarell/Cantarell-Regular.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/cantarell/Cantarell-Regular.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/cm-super/sftt1095.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/cm-super/sftt1440.pfb>
+Output written on Specifica_Tecnica_2.0.pdf (53 pages, 1538577 bytes).
 PDF statistics:
  1028 PDF objects out of 1200 (max. 8388607)
  190 named destinations out of 1000 (max. 500000)

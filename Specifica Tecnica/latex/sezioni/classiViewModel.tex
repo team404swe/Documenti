@@ -11,7 +11,7 @@
 
 \begin{itemize}
 	\item\textbf{Funzione del componente}: la classe permette di gestire la creazione di una nuova domanda;
-	\item\textbf{Relazione d'uso di altre componenti}: il controller è collegato al template. Si relaziona inoltre con  l'editor QML;
+	\item\textbf{Relazione d'uso di altre componenti}: il controller è collegato al template QuestionForm.
 	\item\textbf{Attività svolte e dati trattati}: Fornisce le funzionalità per la creazione di una domanda, quali la scelta della categoria e l'inserimento del testo, e espone la funzione di salvataggio dei dati inseriti che compongono la nuova domanda.
 \end{itemize}
 
@@ -19,7 +19,7 @@
 
 \begin{itemize}
 	\item\textbf{Funzione del componente}: la classe permette di gestire la creazione di un nuovo quiz (questionario); 
-	\item\textbf{Relazione d'uso di altre componenti}: il controller è collegato al template;
+	\item\textbf{Relazione d'uso di altre componenti}: il controller è collegato al template QuizCreationForm;
 	\item\textbf{Attività svolte e dati trattati}: fornisce le funzionalità per la creazione del nuovo quiz, tramite la scelta di più domande e la scelta della categoria. Espone la funzione di salvataggio del nuovo quiz.
 \end{itemize}
 
@@ -27,7 +27,7 @@
 
 \begin{itemize}
 	\item\textbf{Funzione del componente}:  la classe permette il caricamento e la visualizzazione della lista di quiz disponibili nel sistema;
-	\item\textbf{Relazione d'uso di altre componenti}: il controller è collegato al templat.; Si relaziona inoltre con il modulo QuizDetails per la visualizzazione dei dettagli di un quiz;
+	\item\textbf{Relazione d'uso di altre componenti}: il controller è collegato al template QuizList;
 	\item\textbf{Attività svolte e dati trattati}: la classe si occupa di caricare la lista aggiornata dei quiz creati dagli utenti, e fornisce funzionalità di ordinamento della stessa e di selezione dei singoli quiz per la visualizzazione dei dettagli. 
 \end{itemize}
 
@@ -35,7 +35,7 @@
 
 \begin{itemize}
 	\item\textbf{Funzione del componente}: la classe permette di visualizzare le informazioni generali di un quiz, una volta selezionato dalla lista dei quiz;
-	\item\textbf{Relazione d'uso di altre componenti}: il controller è collegato al template. Si relaziona inoltre con il modulo QuizList.
+	\item\textbf{Relazione d'uso di altre componenti}: il controller è collegato al template Quiz. Si relaziona inoltre con il modulo QuizList.
 	\item\textbf{Attività svolte e dati trattati}: la classe si occupa di recuperare e rendere visualizzabili le informazioni relative ad un singolo quiz.
 \end{itemize}
 
@@ -43,7 +43,7 @@
 
 \begin{itemize}
 	\item\textbf{Funzione del componente}: la classe fornisce le funzionalità necessarie alla cancellazione di una domanda precedentemente creata;
-	\item\textbf{Relazione d'uso di altre componenti}: il controller è collegato al template. Si relaziona inoltre con il package Methods.
+	\item\textbf{Relazione d'uso di altre componenti}: il controller è collegato al template QuestionList. Si relaziona inoltre con il package Methods.
 	\item\textbf{Attività svolte e dati trattati}: la classe si occupa di richiedere la cancellazione di una domanda, precedentemente creata dall'utente, dal sistema.
 \end{itemize}
 
@@ -51,7 +51,7 @@
 
 \begin{itemize}
 	\item\textbf{Funzione del componente}: la classe fornisce le funzionalità necessarie alla cancellazione di un quiz precedentemente creato;
-	\item\textbf{Relazione d'uso di altre componenti}: il controller è collegato al template. Si relaziona inoltre con il package Methods.
+	\item\textbf{Relazione d'uso di altre componenti}: il controller è collegato al template QuizList. Si relaziona inoltre con il package Methods.
 	\item\textbf{Attività svolte e dati trattati}:  la classe si occupa di richiedere la cancellazione di un quiz, precedentemente creato dall'utente, dal sistema.
 \end{itemize}
 
@@ -59,7 +59,7 @@
 
 \begin{itemize}
 	\item\textbf{Funzione del componente}: la classe permette di gestire la somministrazione di un questionario;
-	\item\textbf{Relazione d'uso di altre componenti}: il controller è collegato al template. Si relaziona inoltre con il modulo QuestionsManagement;
+	\item\textbf{Relazione d'uso di altre componenti}: il controller è collegato al template QuestionCompilation;
 	\item\textbf{Attività svolte e dati trattati}: la classe si occupa di gestire la risoluzione di un questionario da parte di un utente fornendo la possibilità di navigare tra le domande, salvando le risposte dell'utente e gestendo il tempo limite. Espone la funzione di consegna del quiz compilato.
 \end{itemize}
 
@@ -67,7 +67,7 @@
 
 \begin{itemize}
 	\item\textbf{Funzione del componente}: la classe permette di gestire la somministrazione di una singola domanda all'interno di un questionario;
-	\item\textbf{Relazione d'uso di altre componenti}: il controller è collegato al template. Si relaziona inoltre con il modulo QuizManagement;
+	\item\textbf{Relazione d'uso di altre componenti}: il controller è collegato al template Question.
 	\item\textbf{Attività svolte e dati trattati}: la classe si occupa di recuperare i dati associati ad una singola domanda di un questionario e di presentarli all'utente. Tali operazioni si svolgono durante la somministrazione all'utente di un questionario.
 \end{itemize}
 
@@ -75,16 +75,8 @@
 
 \begin{itemize}
 	\item\textbf{Funzione del componente}: fornisce le funzionalità per creare e modificare una domanda tramite editor QML;
-	\item\textbf{Relazione d'uso di altre componenti}: il controller è collegato al template. Si relaziona inoltre con il modulo NewQuestion;
+	\item\textbf{Relazione d'uso di altre componenti}: il controller è collegato al template QuizCreationForm.
 	\item\textbf{Attività svolte e dati trattati}: la classe definisce la logica dello strumento principale di creazione delle domande, l'editor QML, gestisce il testo che viene inserito e espone la funzionalità di checking sintattico del testo inserito.
-\end{itemize}
-
-\subsubsubsection{Classe Controller}
-
-\begin{itemize}
-	\item\textbf{Funzione del componente}: 
-	\item\textbf{Relazione d'uso di altre componenti}: 
-	\item\textbf{Attività svolte e dati trattati}:
 \end{itemize}
 
 \subsubsection{Package Subscribers}
