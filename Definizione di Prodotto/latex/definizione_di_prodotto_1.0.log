@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.3.14)  1 JUL 2016 14:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.3.14)  2 JUL 2016 14:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -996,7 +996,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 12.
-<../team_not_found.jpg, id=317, 382.42876pt x 153.57375pt>
+<../team_not_found.jpg, id=321, 382.42876pt x 153.57375pt>
 File: ../team_not_found.jpg Graphic file (type jpg)
 
 <use ../team_not_found.jpg>
@@ -1036,7 +1036,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--43
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|\T1/fca/m/n/9 Davide Bor-tot
+[]|\T1/fca/m/n/9 Luca Ales-sio
  []
 
 
@@ -1045,14 +1045,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--45
  []
 
 
-Underfull \vbox (badness 10000) detected at line 47
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[]|\T1/fca/m/n/9 Davide Bor-tot
  []
 
-<../../team404_small.jpg, id=330, 382.42876pt x 153.57375pt>
+
+Underfull \vbox (badness 10000) detected at line 48
+ []
+
+<../../team404_small.jpg, id=334, 382.42876pt x 153.57375pt>
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 49.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 50.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
 
 
@@ -1073,7 +1078,7 @@ Package pdftex.def Info: ../../team404_small.jpg used on input line 48.
 
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 53.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 54.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [1]
 (./definizione_di_prodotto_1.0.lof)
@@ -1087,69 +1092,74 @@ Package pdftex.def Info: ../../team404_small.jpg used on input line 53.
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 57.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 58.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [2]
 LaTeX Font Info:    Font shape `T1/fca/m/it' in size <10.95> not available
-(Font)              Font shape `T1/fca/m/sl' tried instead on input line 62.
+(Font)              Font shape `T1/fca/m/sl' tried instead on input line 63.
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 64.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 65.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.64 	\newpage
+l.65 	\newpage
                [1]
 LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <12> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 66.
+(Font)              Font shape `T1/fca/b/n' tried instead on input line 67.
 LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <8> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 70.
+(Font)              Font shape `T1/fca/b/n' tried instead on input line 71.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 70.
+(Font)              <5> on input line 71.
 LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <6> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 70.
-LaTeX Font Info:    Try loading font information for TS1+fca on input line 79.
+(Font)              Font shape `T1/fca/b/n' tried instead on input line 71.
+LaTeX Font Info:    Try loading font information for TS1+fca on input line 80.
  (c:/texlive/2015/texmf-dist/tex/latex/cantarell/ts1fca.fd
 File: ts1fca.fd 2012/06/11 Fontinst v1.933 font definitions for TS1/fca.
 )
-Overfull \hbox (4.93379pt too wide) in paragraph at lines 87--90
+Overfull \hbox (4.93379pt too wide) in paragraph at lines 88--91
 [][]$\T1/cmtt/m/n/10.95 http : / / www . math . unipd . it / ~tullio / IS-[]1 /
  2015 / Dispense / PD01 . pdf$[][] [][]$http : / / www . math .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--90
+Underfull \hbox (badness 10000) in paragraph at lines 88--91
 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 92.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 93.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.92 	\newpage
+l.93 	\newpage
                [2] (./sezioni/architettura.tex)
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 94.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 95.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.94 	\newpage
+l.95 	\newpage
                [3] (./sezioni/view.tex
-<../images/ViewPackage.png, id=456, 507.8975pt x 339.2675pt>
+<../images/ViewPackage.png, id=461, 395.4775pt x 339.2675pt>
 File: ../images/ViewPackage.png Graphic file (type png)
 
 <use ../images/ViewPackage.png>
 Package pdftex.def Info: ../images/ViewPackage.png used on input line 4.
-(pdftex.def)             Requested size: 355.52583pt x 237.48563pt.
+(pdftex.def)             Requested size: 276.83235pt x 237.48563pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
@@ -1177,7 +1187,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 34.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 30.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [4 <../images/ViewPackage.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
@@ -1191,6 +1201,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
 
  []
 
@@ -1229,16 +1244,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 80.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [5]
 Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 85.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [5]
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
@@ -1278,16 +1298,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 132.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [6]
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
+
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 140.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
@@ -1332,7 +1357,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 181.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [7]
 Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
@@ -1342,11 +1371,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 188.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [7]
+
 Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
  []
@@ -1363,6 +1388,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--214
 
  []
 
@@ -1386,7 +1416,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 228.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [8]
 Underfull \hbox (badness 10000) in paragraph at lines 229--230
 
  []
@@ -1401,12 +1435,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 239--240
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 240.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [8]
+
 Underfull \hbox (badness 10000) in paragraph at lines 244--245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--254
 
  []
 
@@ -1440,7 +1475,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 278.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [9]
 Underfull \hbox (badness 10000) in paragraph at lines 279--280
 
  []
@@ -1450,11 +1489,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 284--285
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 294.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [9]
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--294
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 299--300
 
  []
@@ -1494,6 +1534,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 324--325
 
  []
 
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 332.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [10]
+Underfull \hbox (badness 10000) in paragraph at lines 332--334
+
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 339--340
 
@@ -1504,11 +1553,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 341.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [10]
+
 Underfull \hbox (badness 10000) in paragraph at lines 341--342
 
  []
@@ -1548,7 +1593,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 380--381
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 381.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [11]
 Underfull \hbox (badness 10000) in paragraph at lines 381--382
 
  []
@@ -1563,11 +1612,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 389--390
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 393.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [11]
+
 Underfull \hbox (badness 10000) in paragraph at lines 394--395
 
  []
@@ -1579,6 +1624,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 399--400
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 404--405
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
 
  []
 
@@ -1602,7 +1652,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 422--423
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 426.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [12]
 Underfull \hbox (badness 10000) in paragraph at lines 429--430
 
  []
@@ -1617,12 +1671,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 439--440
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 444.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [12]
+
 Underfull \hbox (badness 10000) in paragraph at lines 444--445
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--454
 
  []
 
@@ -1656,7 +1711,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 474--475
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 475.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [13]
 Underfull \hbox (badness 10000) in paragraph at lines 479--480
 
  []
@@ -1666,11 +1725,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 484--485
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 497.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [13]
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--494
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--500
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 500--501
 
  []
@@ -1686,27 +1751,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 502--503
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 503--504
+Underfull \hbox (badness 10000) in paragraph at lines 509--510
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 510--511
+Underfull \hbox (badness 10000) in paragraph at lines 514--515
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 515--516
+Underfull \hbox (badness 10000) in paragraph at lines 519--520
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 520--521
+Underfull \hbox (badness 10000) in paragraph at lines 524--525
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 525--526
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 525.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [14]
+Underfull \hbox (badness 10000) in paragraph at lines 533--535
 
  []
 
@@ -1730,11 +1799,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 543--544
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 544.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [14]
+
 Underfull \hbox (badness 10000) in paragraph at lines 550--551
 
  []
@@ -1755,6 +1820,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 565--566
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 573--575
+
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 575.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [15]
 Underfull \hbox (badness 10000) in paragraph at lines 580--581
 
  []
@@ -1784,17 +1858,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 595--596
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 596.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [15]
+
 Underfull \hbox (badness 10000) in paragraph at lines 600--601
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 605--606
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 613--615
 
  []
 
@@ -1808,7 +1883,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 621--622
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 622.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [16]
 Underfull \hbox (badness 10000) in paragraph at lines 622--623
 
  []
@@ -1838,11 +1917,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 645--646
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 646.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [16]
+
+Underfull \hbox (badness 10000) in paragraph at lines 653--655
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 660--661
 
  []
@@ -1862,7 +1942,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 663--664
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 670.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [17]
 Underfull \hbox (badness 10000) in paragraph at lines 670--671
 
  []
@@ -1887,11 +1971,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 700--701
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 701.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [17]
+
 Underfull \hbox (badness 10000) in paragraph at lines 701--702
 
  []
@@ -1916,7 +1996,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 715--716
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 719.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [18]
 Underfull \hbox (badness 10000) in paragraph at lines 720--721
 
  []
@@ -1946,11 +2030,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 743--744
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 749.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [18]
+
 Underfull \hbox (badness 10000) in paragraph at lines 750--751
 
  []
@@ -1970,7 +2050,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 765--766
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 773.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [19]
 Underfull \hbox (badness 10000) in paragraph at lines 780--781
 
  []
@@ -2005,11 +2089,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 800--801
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 801.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [19]
+
 Underfull \hbox (badness 10000) in paragraph at lines 805--806
 
  []
@@ -2024,7 +2104,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 821--822
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 822.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [20]
 Underfull \hbox (badness 10000) in paragraph at lines 822--823
 
  []
@@ -2054,11 +2138,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 845--846
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 855.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [20]
+
 Underfull \hbox (badness 10000) in paragraph at lines 860--861
 
  []
@@ -2083,7 +2163,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 870--871
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 871.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [21]
 Underfull \hbox (badness 10000) in paragraph at lines 875--876
 
  []
@@ -2108,11 +2192,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 901--902
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 902.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [21]
+
 Underfull \hbox (badness 10000) in paragraph at lines 902--903
 
  []
@@ -2137,7 +2217,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 920--921
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 921.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [22]
 Underfull \hbox (badness 10000) in paragraph at lines 925--926
 
  []
@@ -2167,11 +2251,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 950--951
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 954.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [22]
+
 Underfull \hbox (badness 10000) in paragraph at lines 955--956
 
  []
@@ -2186,18 +2266,67 @@ Underfull \hbox (badness 10000) in paragraph at lines 965--966
 
  []
 
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 975.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [23]
+Underfull \hbox (badness 10000) in paragraph at lines 980--981
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 981--982
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 982--983
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 983--984
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 990--991
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 995--996
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1000--1001
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1006
+
+ []
+
 )
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 96.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 97.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [23] (./sezioni/model.tex
-<../images/ModelPackage.png, id=564, 451.6875pt x 315.1775pt>
+ [24] (./sezioni/model.tex
+<../images/ModelPackage.png, id=574, 451.6875pt x 315.1775pt>
 File: ../images/ModelPackage.png Graphic file (type png)
 
 <use ../images/ModelPackage.png>
 Package pdftex.def Info: ../images/ModelPackage.png used on input line 3.
 (pdftex.def)             Requested size: 316.17908pt x 220.62274pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
@@ -2223,22 +2352,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 31.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [25 <../images/ModelPackage.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 33.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [24 <../images/ModelPackage.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--52
 
  []
 
@@ -2277,16 +2411,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 78.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [26]
 Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 83.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [25]
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
@@ -2328,9 +2467,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 138.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 131.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [26]
+ [27]
+Underfull \hbox (badness 10000) in paragraph at lines 131--133
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
@@ -2371,6 +2515,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 163--164
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 172--174
+
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 174.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [28]
 Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
@@ -2390,11 +2543,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 183.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [27]
+
 Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
  []
@@ -2415,6 +2564,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 204--205
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 213--215
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 220--221
 
  []
@@ -2424,7 +2578,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 222.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [29]
 Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
  []
@@ -2439,11 +2597,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 234.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [28]
+
 Underfull \hbox (badness 10000) in paragraph at lines 235--236
 
  []
@@ -2478,7 +2632,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 270.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [30]
 Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
@@ -2493,11 +2651,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 280--281
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 285.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [29]
+
 Underfull \hbox (badness 10000) in paragraph at lines 285--286
 
  []
@@ -2532,7 +2686,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 315--316
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 320.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [31]
 Underfull \hbox (badness 10000) in paragraph at lines 320--321
 
  []
@@ -2545,18 +2703,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 325--326
 )
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 98.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 99.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [30] (./sezioni/viewmodel.tex
-<../images/ViewModelPackage.png, id=604, 740.7675pt x 363.3575pt>
+ [32] (./sezioni/viewmodel.tex
+<../images/ViewModelPackage.png, id=620, 740.7675pt x 283.0575pt>
 File: ../images/ViewModelPackage.png Graphic file (type png)
 
 <use ../images/ViewModelPackage.png>
 Package pdftex.def Info: ../images/ViewModelPackage.png used on input line 4.
-(pdftex.def)             Requested size: 518.5337pt x 254.3485pt.
+(pdftex.def)             Requested size: 518.5337pt x 198.13889pt.
 
 Overfull \hbox (63.2896pt too wide) in paragraph at lines 4--5
  [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
  []
 
 
@@ -2584,22 +2747,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 32.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [31 <../images/ViewModelPackage.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 34.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [33 <../images/ViewModelPackage.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
 
  []
 
@@ -2638,12 +2806,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 83.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 84.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [32]
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+ [34]
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
 
  []
 
@@ -2687,11 +2860,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--132
+
+ []
+
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 137.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 132.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [33]
+ [35]
 Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
@@ -2732,6 +2910,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--163
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 170--172
+
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 177.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [36]
 Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
@@ -2751,11 +2938,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 184.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [34]
+
 Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
@@ -2795,7 +2978,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--221
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 224.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [37]
 Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
@@ -2805,11 +2992,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 232--233
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 236.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [35]
+
 Underfull \hbox (badness 10000) in paragraph at lines 237--238
 
  []
@@ -2849,7 +3032,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 273.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [38]
 Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
@@ -2859,11 +3046,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 282--283
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 290.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [36]
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--292
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 297--298
 
  []
@@ -2898,8 +3086,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 317--318
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 322.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [39]
 Underfull \hbox (badness 10000) in paragraph at lines 322--323
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--332
 
  []
 
@@ -2913,11 +3110,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 339.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [37]
+
 Underfull \hbox (badness 10000) in paragraph at lines 339--340
 
  []
@@ -2947,6 +3140,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 362--363
 
  []
 
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 372.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [40]
+Underfull \hbox (badness 10000) in paragraph at lines 372--374
+
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 379--380
 
@@ -2972,11 +3174,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 389--390
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 390.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [38]
+
 Underfull \hbox (badness 10000) in paragraph at lines 394--395
 
  []
@@ -2992,6 +3190,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 404--405
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
+
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 416.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [41]
 Underfull \hbox (badness 10000) in paragraph at lines 419--420
 
  []
@@ -3026,12 +3233,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 439--440
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 440.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [39]
+
 Underfull \hbox (badness 10000) in paragraph at lines 444--445
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--454
 
  []
 
@@ -3045,7 +3253,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 460--461
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 461.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [42]
 Underfull \hbox (badness 10000) in paragraph at lines 461--462
 
  []
@@ -3075,11 +3287,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 484--485
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 495.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [40]
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--495
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 500--501
 
  []
@@ -3099,7 +3312,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 503--504
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 504.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [43]
 Underfull \hbox (badness 10000) in paragraph at lines 510--511
 
  []
@@ -3120,6 +3337,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 525--526
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 533--535
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 540--541
 
  []
@@ -3129,11 +3351,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 541--542
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 542.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [41]
+
 Underfull \hbox (badness 10000) in paragraph at lines 542--543
 
  []
@@ -3148,7 +3366,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 550--551
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 551.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [44]
 Underfull \hbox (badness 10000) in paragraph at lines 555--556
 
  []
@@ -3160,6 +3382,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 560--561
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 565--566
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 573--575
 
  []
 
@@ -3188,11 +3415,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 590--591
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 591.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [42]
+
 Underfull \hbox (badness 10000) in paragraph at lines 595--596
 
  []
@@ -3202,8 +3425,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 600--601
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 601.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [45]
 Underfull \hbox (badness 10000) in paragraph at lines 605--606
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 614--616
 
  []
 
@@ -3242,12 +3474,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 641--642
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 646--647
+
+ []
+
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 642.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 654.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [43]
-Underfull \hbox (badness 10000) in paragraph at lines 646--647
+ [46]
+Underfull \hbox (badness 10000) in paragraph at lines 654--656
 
  []
 
@@ -3291,16 +3528,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 686--687
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 696.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [44]
-Underfull \hbox (badness 10000) in paragraph at lines 701--702
+
+Underfull \hbox (badness 10000) in paragraph at lines 694--696
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 701--702
+
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 702.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [47]
 Underfull \hbox (badness 10000) in paragraph at lines 702--703
 
  []
@@ -3336,6 +3578,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 726--727
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 734--736
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 741--742
 
  []
@@ -3345,11 +3592,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 742--743
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 743.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [45]
+
 Underfull \hbox (badness 10000) in paragraph at lines 743--744
 
  []
@@ -3359,7 +3602,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 744--745
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 745.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [48]
 Underfull \hbox (badness 10000) in paragraph at lines 751--752
 
  []
@@ -3376,6 +3623,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 761--762
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 766--767
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 774--776
 
  []
 
@@ -3406,9 +3658,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 791--792
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 795.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 796.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [46]
+ [49]
 Underfull \hbox (badness 10000) in paragraph at lines 796--797
 
  []
@@ -3420,6 +3672,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 801--802
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 806--807
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 816--818
 
  []
 
@@ -3453,16 +3710,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 838--839
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 843.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [50]
 Underfull \hbox (badness 10000) in paragraph at lines 843--844
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 847.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [47]
+
 Underfull \hbox (badness 10000) in paragraph at lines 848--849
 
  []
@@ -3470,9 +3727,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 848--849
 )
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 100.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 101.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [48] (./sezioni/tracciamento.tex
+ [51] (./sezioni/tracciamento.tex
 Overfull \hbox (23.99998pt too wide) in alignment at lines 3--9
  [] [] 
  []
@@ -3503,7 +3760,7 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 33.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [49]
+ [52]
 Overfull \hbox (23.99998pt too wide) in alignment at lines 37--42
  [] [] 
  []
@@ -3532,23 +3789,23 @@ Overfull \hbox (23.99998pt too wide) in alignment at lines 52--62
 AED: lastpage setting LastPage
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 102.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 103.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [50]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
+ [53]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
  (./definizione_di_prodotto_1.0.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `definizione_di_prodotto_1.0.out' has not cha
 nged.
-(rerunfilecheck)             Checksum: FE1BB890B5DA845D1A800011AA139FBB;6560.
+(rerunfilecheck)             Checksum: EEA25AF64EAB445A473090C7DF6A14A1;6654.
  ) 
 Here is how much of TeX's memory you used:
- 11103 strings out of 493033
- 162008 string characters out of 6137754
+ 11108 strings out of 493033
+ 162071 string characters out of 6137754
  285915 words of memory out of 5000000
- 14272 multiletter control sequences out of 15000+600000
+ 14273 multiletter control sequences out of 15000+600000
  28741 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,17n,49p,981b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3560,10 +3817,10 @@ ist/fonts/type1/public/cantarell/Cantarell-Bold.pfb><c:/texlive/2015/texmf-dist
 /fonts/type1/public/cantarell/Cantarell-Regular.pfb><c:/texlive/2015/texmf-dist
 /fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2015/texmf-dist/fonts/typ
 e1/public/cm-super/sftt1440.pfb>
-Output written on definizione_di_prodotto_1.0.pdf (55 pages, 240430 bytes).
+Output written on definizione_di_prodotto_1.0.pdf (58 pages, 266274 bytes).
 PDF statistics:
- 769 PDF objects out of 1000 (max. 8388607)
- 692 compressed objects within 7 object streams
- 138 named destinations out of 1000 (max. 500000)
- 650 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 791 PDF objects out of 1000 (max. 8388607)
+ 710 compressed objects within 8 object streams
+ 142 named destinations out of 1000 (max. 500000)
+ 658 words of extra memory for PDF output out of 10000 (max. 10000000)
 
