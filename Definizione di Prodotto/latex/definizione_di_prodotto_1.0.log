@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.20)  3 JUL 2016 17:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.20)  3 JUL 2016 18:23
 entering extended mode
 **definizione_di_prodotto_1.0.tex
 (definizione_di_prodotto_1.0.tex
@@ -1030,27 +1030,17 @@ LaTeX Font Info:    Try loading font information for TS1+fca on input line 86.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\cantarell\ts1fca.fd"
 File: ts1fca.fd 2012/06/11 Fontinst v1.933 font definitions for TS1/fca.
 )
-Overfull \hbox (4.93379pt too wide) in paragraph at lines 94--97
-[][]$\T1/cmtt/m/n/10.95 http : / / www . math . unipd . it / ~tullio / IS-[]1 /
- 2015 / Dispense / PD01 . pdf$[][] [][]$http : / / www . math .$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--97
-
- []
-
 File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 99.
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 104.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.99 	\newpage
-               [2] (sezioni/view.tex
-<../images/ViewPackage.png, id=374, 395.4775pt x 339.2675pt>
+l.104 	\newpage
+                [2] (sezioni/view.tex
+<../images/ViewPackage.png, id=375, 395.4775pt x 339.2675pt>
 File: ../images/ViewPackage.png Graphic file (type png)
 
 <use ../images/ViewPackage.png>
@@ -1427,10 +1417,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 288--289
 )
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 101.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 106.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [10] (sezioni/model.tex
-<../images/ModelPackage.jpg, id=418, 1051.93pt x 449.68pt>
+<../images/ModelPackage.jpg, id=419, 1051.93pt x 449.68pt>
 File: ../images/ModelPackage.jpg Graphic file (type jpg)
 
 <use ../images/ModelPackage.jpg>
@@ -1656,10 +1646,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--144
 )
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 103.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 108.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [14] (sezioni/viewmodel.tex
-<../images/ViewModelPackage.png, id=441, 740.7675pt x 283.0575pt>
+<../images/ViewModelPackage.png, id=442, 740.7675pt x 283.0575pt>
 File: ../images/ViewModelPackage.png Graphic file (type png)
 
 <use ../images/ViewModelPackage.png>
@@ -2122,7 +2112,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 518--519
 )
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 105.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 110.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [26] (sezioni/tracciamento.tex
 Overfull \hbox (23.99998pt too wide) in alignment at lines 3--9
@@ -2241,17 +2231,21 @@ Package pdftex.def Info: ../../team404_small.jpg used on input line 333.
 AED: lastpage setting LastPage
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 107.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 112.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [32]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
  (definizione_di_prodotto_1.0.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
 Package rerunfilecheck Info: File `definizione_di_prodotto_1.0.out' has not cha
 nged.
 (rerunfilecheck)             Checksum: AF69B69D576435E5CCAC6F655C7FBE3D;5342.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
  10881 strings out of 493698
@@ -2269,9 +2263,9 @@ X 2.9/fonts/type1/public/cantarell/Cantarell-Regular.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/cantarell/Cantarell-Regular.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/cm-super/sftt1095.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/cm-super/sftt1440.pfb>
-Output written on definizione_di_prodotto_1.0.pdf (37 pages, 333424 bytes).
+Output written on definizione_di_prodotto_1.0.pdf (37 pages, 333737 bytes).
 PDF statistics:
- 586 PDF objects out of 1000 (max. 8388607)
+ 587 PDF objects out of 1000 (max. 8388607)
  105 named destinations out of 1000 (max. 500000)
  530 words of extra memory for PDF output out of 10000 (max. 10000000)
 
