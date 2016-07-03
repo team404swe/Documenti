@@ -7,110 +7,110 @@
 \contentsline {subsection}{\numberline {1.4}Riferimenti}{2}{subsection.1.4}
 \contentsline {subsubsection}{\numberline {1.4.1}Normativi}{2}{subsubsection.1.4.1}
 \contentsline {subsubsection}{\numberline {1.4.2}Informativi}{2}{subsubsection.1.4.2}
-\contentsline {section}{\numberline {2}Specifiche del prodotto}{3}{section.2}
-\contentsline {subsection}{\numberline {2.1}Architettura generale del sistema}{3}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Descrizione del componente Model}{4}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Descrizione del componente View}{4}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Descrizione del componente ViewModel}{4}{subsection.2.4}
-\contentsline {section}{\numberline {3}Tecnologie e strumenti utilizzati}{5}{section.3}
-\contentsline {subsection}{\numberline {3.1}HTML5}{5}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}CSS3}{5}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Materialize}{5}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Javascript}{5}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Node.js}{6}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}MongoDB}{6}{subsection.3.6}
-\contentsline {subsection}{\numberline {3.7}AngularJS}{7}{subsection.3.7}
-\contentsline {subsection}{\numberline {3.8}Meteor}{7}{subsection.3.8}
-\contentsline {section}{\numberline {4}Risorse necessarie}{8}{section.4}
-\contentsline {section}{\numberline {5}Diagrammi dei packages}{9}{section.5}
-\contentsline {subsection}{\numberline {5.1}Server}{9}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Package della componente Model}{9}{subsubsection.5.1.1}
-\contentsline {subsection}{\numberline {5.2}Client}{11}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Package della componente View}{11}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}Package della componente ViewModel}{12}{subsubsection.5.2.2}
-\contentsline {section}{\numberline {6}Diagrammi delle classi del Server}{13}{section.6}
-\contentsline {subsection}{\numberline {6.1}Diagrammi delle classi del Model}{13}{subsection.6.1}
-\contentsline {subsubsection}{\numberline {6.1.1}Package Database}{13}{subsubsection.6.1.1}
-\contentsline {subsubsubsection}{\numberline {6.1.1.1}Classe QuizManager}{13}{subsubsubsection.6.1.1.1}
-\contentsline {subsubsubsection}{\numberline {6.1.1.2}Classe QuestionManager}{14}{subsubsubsection.6.1.1.2}
-\contentsline {subsubsection}{\numberline {6.1.2}Package Parser}{14}{subsubsection.6.1.2}
-\contentsline {subsubsubsection}{\numberline {6.1.2.1}Classe Parser}{14}{subsubsubsection.6.1.2.1}
-\contentsline {subsubsection}{\numberline {6.1.3}Package Statistics}{14}{subsubsection.6.1.3}
-\contentsline {subsubsubsection}{\numberline {6.1.3.1}Classe Statistics}{14}{subsubsubsection.6.1.3.1}
-\contentsline {subsubsection}{\numberline {6.1.4}Package Publishers}{15}{subsubsection.6.1.4}
-\contentsline {subsubsubsection}{\numberline {6.1.4.1}Classe UserPublisher}{15}{subsubsubsection.6.1.4.1}
-\contentsline {subsubsubsection}{\numberline {6.1.4.2}Classe QuizPublisher}{15}{subsubsubsection.6.1.4.2}
-\contentsline {subsubsubsection}{\numberline {6.1.4.3}Classe QuestionPublisher}{15}{subsubsubsection.6.1.4.3}
-\contentsline {section}{\numberline {7}Diagrammi delle classi del Client}{16}{section.7}
-\contentsline {subsection}{\numberline {7.1}Diagrammi delle classi della View}{16}{subsection.7.1}
-\contentsline {subsubsection}{\numberline {7.1.1}Package Pages}{16}{subsubsection.7.1.1}
-\contentsline {subsubsubsection}{\numberline {7.1.1.1}Interfaccia Page}{16}{subsubsubsection.7.1.1.1}
-\contentsline {subsubsubsection}{\numberline {7.1.1.2}Classe LoginPage}{16}{subsubsubsection.7.1.1.2}
-\contentsline {subsubsubsection}{\numberline {7.1.1.3}Classe RegistrationPage}{17}{subsubsubsection.7.1.1.3}
-\contentsline {subsubsubsection}{\numberline {7.1.1.4}Classe PasswordRecoveryPage}{17}{subsubsubsection.7.1.1.4}
-\contentsline {subsubsubsection}{\numberline {7.1.1.5}Classe CategoryListPage}{17}{subsubsubsection.7.1.1.5}
-\contentsline {subsubsubsection}{\numberline {7.1.1.6}Classe QuizListPage}{17}{subsubsubsection.7.1.1.6}
-\contentsline {subsubsubsection}{\numberline {7.1.1.7}Classe QuizExecutionPage}{17}{subsubsubsection.7.1.1.7}
-\contentsline {subsubsubsection}{\numberline {7.1.1.8}Classe QuizResultsPage}{18}{subsubsubsection.7.1.1.8}
-\contentsline {subsubsubsection}{\numberline {7.1.1.9}Classe QuestionManagmentPage}{18}{subsubsubsection.7.1.1.9}
-\contentsline {subsubsubsection}{\numberline {7.1.1.10}Classe QuestionCreationPage}{18}{subsubsubsection.7.1.1.10}
-\contentsline {subsubsubsection}{\numberline {7.1.1.11}Classe QuestionUpdatePage}{18}{subsubsubsection.7.1.1.11}
-\contentsline {subsubsubsection}{\numberline {7.1.1.12}Classe QuizCreationPage}{18}{subsubsubsection.7.1.1.12}
-\contentsline {subsubsection}{\numberline {7.1.2}Package Templates}{19}{subsubsection.7.1.2}
-\contentsline {subsubsubsection}{\numberline {7.1.2.1}Classe QuestionList}{19}{subsubsubsection.7.1.2.1}
-\contentsline {subsubsubsection}{\numberline {7.1.2.2}Classe Question}{19}{subsubsubsection.7.1.2.2}
-\contentsline {subsubsubsection}{\numberline {7.1.2.3}Classe QuizList}{19}{subsubsubsection.7.1.2.3}
-\contentsline {subsubsubsection}{\numberline {7.1.2.4}Classe Quiz}{19}{subsubsubsection.7.1.2.4}
-\contentsline {subsubsubsection}{\numberline {7.1.2.5}Classe QuestionCompilation}{20}{subsubsubsection.7.1.2.5}
-\contentsline {subsubsubsection}{\numberline {7.1.2.6}Classe QuestionForm}{20}{subsubsubsection.7.1.2.6}
-\contentsline {subsubsubsection}{\numberline {7.1.2.7}Classe QuizCreation}{20}{subsubsubsection.7.1.2.7}
-\contentsline {subsubsubsection}{\numberline {7.1.2.8}Classe QuizResults}{20}{subsubsubsection.7.1.2.8}
-\contentsline {subsubsubsection}{\numberline {7.1.2.9}Classe SearchForm}{20}{subsubsubsection.7.1.2.9}
-\contentsline {subsubsubsection}{\numberline {7.1.2.10}Classe RegistrationForm}{20}{subsubsubsection.7.1.2.10}
-\contentsline {subsubsubsection}{\numberline {7.1.2.11}Classe LoginForm}{20}{subsubsubsection.7.1.2.11}
-\contentsline {subsubsubsection}{\numberline {7.1.2.12}Classe PasswordRecoveryForm}{20}{subsubsubsection.7.1.2.12}
-\contentsline {subsection}{\numberline {7.2}Diagrammi delle classi del ViewModel}{21}{subsection.7.2}
-\contentsline {subsubsection}{\numberline {7.2.1}Package Controllers}{21}{subsubsection.7.2.1}
-\contentsline {subsubsubsection}{\numberline {7.2.1.1}Classe NewQuestionController}{21}{subsubsubsection.7.2.1.1}
-\contentsline {subsubsubsection}{\numberline {7.2.1.2}Classe NewQuizController}{21}{subsubsubsection.7.2.1.2}
-\contentsline {subsubsubsection}{\numberline {7.2.1.3}Classe QuizListController}{21}{subsubsubsection.7.2.1.3}
-\contentsline {subsubsubsection}{\numberline {7.2.1.4}Classe QuizDetailsController}{22}{subsubsubsection.7.2.1.4}
-\contentsline {subsubsubsection}{\numberline {7.2.1.5}Classe DeleteQuestionController}{22}{subsubsubsection.7.2.1.5}
-\contentsline {subsubsubsection}{\numberline {7.2.1.6}Classe DeleteQuizController}{22}{subsubsubsection.7.2.1.6}
-\contentsline {subsubsubsection}{\numberline {7.2.1.7}Classe QuizManagementController}{22}{subsubsubsection.7.2.1.7}
-\contentsline {subsubsubsection}{\numberline {7.2.1.8}Classe QuestionsManagementController}{23}{subsubsubsection.7.2.1.8}
-\contentsline {subsubsubsection}{\numberline {7.2.1.9}Classe QMLEditorController}{23}{subsubsubsection.7.2.1.9}
-\contentsline {subsubsection}{\numberline {7.2.2}Package Subscribers}{23}{subsubsection.7.2.2}
-\contentsline {subsubsubsection}{\numberline {7.2.2.1}Classe QuestionsSubscriber}{23}{subsubsubsection.7.2.2.1}
-\contentsline {subsubsubsection}{\numberline {7.2.2.2}Classe QuizSubscriber}{24}{subsubsubsection.7.2.2.2}
-\contentsline {subsubsubsection}{\numberline {7.2.2.3}Classe UsersSubscriber}{24}{subsubsubsection.7.2.2.3}
-\contentsline {subsubsection}{\numberline {7.2.3}Package Methods}{24}{subsubsection.7.2.3}
-\contentsline {subsubsubsection}{\numberline {7.2.3.1}Classe QuestionMethods}{24}{subsubsubsection.7.2.3.1}
-\contentsline {subsubsubsection}{\numberline {7.2.3.2}Classe QuizMethods}{25}{subsubsubsection.7.2.3.2}
-\contentsline {subsubsubsection}{\numberline {7.2.3.3}Classe UserMethods}{25}{subsubsubsection.7.2.3.3}
-\contentsline {subsubsection}{\numberline {7.2.4}Package Interpreter}{26}{subsubsection.7.2.4}
-\contentsline {subsubsubsection}{\numberline {7.2.4.1}Interfaccia Interpreter}{26}{subsubsubsection.7.2.4.1}
-\contentsline {subsubsubsection}{\numberline {7.2.4.2}Interfaccia InterpreterFactory}{26}{subsubsubsection.7.2.4.2}
-\contentsline {subsubsubsection}{\numberline {7.2.4.3}Classe QMLInterpreterFactory}{26}{subsubsubsection.7.2.4.3}
-\contentsline {subsubsubsection}{\numberline {7.2.4.4}Classe QMLInterpreter}{27}{subsubsubsection.7.2.4.4}
-\contentsline {subsubsubsection}{\numberline {7.2.4.5}Classe QML2HTMLInterpreter}{27}{subsubsubsection.7.2.4.5}
-\contentsline {subsubsection}{\numberline {7.2.5}Package Router}{27}{subsubsection.7.2.5}
-\contentsline {subsubsubsection}{\numberline {7.2.5.1}Classe Router}{27}{subsubsubsection.7.2.5.1}
-\contentsline {section}{\numberline {8}Diagrammi di attivit\IeC {\`a}}{28}{section.8}
-\contentsline {subsection}{\numberline {8.1}Creazione Questionario}{28}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Creazione Domanda}{29}{subsection.8.2}
-\contentsline {subsection}{\numberline {8.3}Compilazione Questionario}{30}{subsection.8.3}
-\contentsline {subsection}{\numberline {8.4}Scelta Questionario}{31}{subsection.8.4}
-\contentsline {section}{\numberline {9}Diagrammi di sequenza}{32}{section.9}
-\contentsline {subsection}{\numberline {9.1}Salvataggio di una Domanda}{32}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Visualizzazione e scelta di un Questionario}{33}{subsection.9.2}
-\contentsline {subsection}{\numberline {9.3}Caricamento di un Questionario}{34}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}Traduzione di una domanda}{35}{subsection.9.4}
-\contentsline {subsection}{\numberline {9.5}Svolgimento di un Questionario}{36}{subsection.9.5}
-\contentsline {section}{\numberline {10}Design pattern utilizzati}{37}{section.10}
-\contentsline {subsection}{\numberline {10.1}Abstract Factory}{37}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}Singleton}{38}{subsection.10.2}
-\contentsline {subsection}{\numberline {10.3}Publish - Subscribe}{39}{subsection.10.3}
-\contentsline {section}{\numberline {11}Tracciamento}{41}{section.11}
-\contentsline {subsection}{\numberline {11.1}Mappatura componenti-requisiti}{41}{subsection.11.1}
-\contentsline {subsection}{\numberline {11.2}Mappatura requisiti - componenti}{45}{subsection.11.2}
+\contentsline {section}{\numberline {2}Specifiche del prodotto}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Architettura generale del sistema}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Descrizione del componente Model}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Descrizione del componente View}{5}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Descrizione del componente ViewModel}{5}{subsection.2.4}
+\contentsline {section}{\numberline {3}Tecnologie e strumenti utilizzati}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}HTML5}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}CSS3}{6}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Materialize}{6}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Javascript}{6}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Node.js}{7}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}MongoDB}{7}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}AngularJS}{8}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}Meteor}{8}{subsection.3.8}
+\contentsline {section}{\numberline {4}Risorse necessarie}{9}{section.4}
+\contentsline {section}{\numberline {5}Diagrammi dei packages}{10}{section.5}
+\contentsline {subsection}{\numberline {5.1}Server}{10}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Package della componente Model}{10}{subsubsection.5.1.1}
+\contentsline {subsection}{\numberline {5.2}Client}{12}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Package della componente View}{12}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Package della componente ViewModel}{13}{subsubsection.5.2.2}
+\contentsline {section}{\numberline {6}Diagrammi delle classi del Server}{14}{section.6}
+\contentsline {subsection}{\numberline {6.1}Diagrammi delle classi del Model}{14}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Package Database}{14}{subsubsection.6.1.1}
+\contentsline {subsubsubsection}{\numberline {6.1.1.1}Classe QuizManager}{14}{subsubsubsection.6.1.1.1}
+\contentsline {subsubsubsection}{\numberline {6.1.1.2}Classe QuestionManager}{15}{subsubsubsection.6.1.1.2}
+\contentsline {subsubsection}{\numberline {6.1.2}Package Parser}{15}{subsubsection.6.1.2}
+\contentsline {subsubsubsection}{\numberline {6.1.2.1}Classe Parser}{15}{subsubsubsection.6.1.2.1}
+\contentsline {subsubsection}{\numberline {6.1.3}Package Statistics}{15}{subsubsection.6.1.3}
+\contentsline {subsubsubsection}{\numberline {6.1.3.1}Classe Statistics}{15}{subsubsubsection.6.1.3.1}
+\contentsline {subsubsection}{\numberline {6.1.4}Package Publishers}{16}{subsubsection.6.1.4}
+\contentsline {subsubsubsection}{\numberline {6.1.4.1}Classe UserPublisher}{16}{subsubsubsection.6.1.4.1}
+\contentsline {subsubsubsection}{\numberline {6.1.4.2}Classe QuizPublisher}{16}{subsubsubsection.6.1.4.2}
+\contentsline {subsubsubsection}{\numberline {6.1.4.3}Classe QuestionPublisher}{16}{subsubsubsection.6.1.4.3}
+\contentsline {section}{\numberline {7}Diagrammi delle classi del Client}{17}{section.7}
+\contentsline {subsection}{\numberline {7.1}Diagrammi delle classi della View}{17}{subsection.7.1}
+\contentsline {subsubsection}{\numberline {7.1.1}Package Pages}{17}{subsubsection.7.1.1}
+\contentsline {subsubsubsection}{\numberline {7.1.1.1}Interfaccia Page}{17}{subsubsubsection.7.1.1.1}
+\contentsline {subsubsubsection}{\numberline {7.1.1.2}Classe LoginPage}{17}{subsubsubsection.7.1.1.2}
+\contentsline {subsubsubsection}{\numberline {7.1.1.3}Classe RegistrationPage}{18}{subsubsubsection.7.1.1.3}
+\contentsline {subsubsubsection}{\numberline {7.1.1.4}Classe PasswordRecoveryPage}{18}{subsubsubsection.7.1.1.4}
+\contentsline {subsubsubsection}{\numberline {7.1.1.5}Classe CategoryListPage}{18}{subsubsubsection.7.1.1.5}
+\contentsline {subsubsubsection}{\numberline {7.1.1.6}Classe QuizListPage}{18}{subsubsubsection.7.1.1.6}
+\contentsline {subsubsubsection}{\numberline {7.1.1.7}Classe QuizExecutionPage}{18}{subsubsubsection.7.1.1.7}
+\contentsline {subsubsubsection}{\numberline {7.1.1.8}Classe QuizResultsPage}{19}{subsubsubsection.7.1.1.8}
+\contentsline {subsubsubsection}{\numberline {7.1.1.9}Classe QuestionManagmentPage}{19}{subsubsubsection.7.1.1.9}
+\contentsline {subsubsubsection}{\numberline {7.1.1.10}Classe QuestionCreationPage}{19}{subsubsubsection.7.1.1.10}
+\contentsline {subsubsubsection}{\numberline {7.1.1.11}Classe QuestionUpdatePage}{19}{subsubsubsection.7.1.1.11}
+\contentsline {subsubsubsection}{\numberline {7.1.1.12}Classe QuizCreationPage}{19}{subsubsubsection.7.1.1.12}
+\contentsline {subsubsection}{\numberline {7.1.2}Package Templates}{20}{subsubsection.7.1.2}
+\contentsline {subsubsubsection}{\numberline {7.1.2.1}Classe QuestionList}{20}{subsubsubsection.7.1.2.1}
+\contentsline {subsubsubsection}{\numberline {7.1.2.2}Classe Question}{20}{subsubsubsection.7.1.2.2}
+\contentsline {subsubsubsection}{\numberline {7.1.2.3}Classe QuizList}{20}{subsubsubsection.7.1.2.3}
+\contentsline {subsubsubsection}{\numberline {7.1.2.4}Classe Quiz}{20}{subsubsubsection.7.1.2.4}
+\contentsline {subsubsubsection}{\numberline {7.1.2.5}Classe QuestionCompilation}{21}{subsubsubsection.7.1.2.5}
+\contentsline {subsubsubsection}{\numberline {7.1.2.6}Classe QuestionForm}{21}{subsubsubsection.7.1.2.6}
+\contentsline {subsubsubsection}{\numberline {7.1.2.7}Classe QuizCreation}{21}{subsubsubsection.7.1.2.7}
+\contentsline {subsubsubsection}{\numberline {7.1.2.8}Classe QuizResults}{21}{subsubsubsection.7.1.2.8}
+\contentsline {subsubsubsection}{\numberline {7.1.2.9}Classe SearchForm}{21}{subsubsubsection.7.1.2.9}
+\contentsline {subsubsubsection}{\numberline {7.1.2.10}Classe RegistrationForm}{21}{subsubsubsection.7.1.2.10}
+\contentsline {subsubsubsection}{\numberline {7.1.2.11}Classe LoginForm}{21}{subsubsubsection.7.1.2.11}
+\contentsline {subsubsubsection}{\numberline {7.1.2.12}Classe PasswordRecoveryForm}{21}{subsubsubsection.7.1.2.12}
+\contentsline {subsection}{\numberline {7.2}Diagrammi delle classi del ViewModel}{22}{subsection.7.2}
+\contentsline {subsubsection}{\numberline {7.2.1}Package Controllers}{22}{subsubsection.7.2.1}
+\contentsline {subsubsubsection}{\numberline {7.2.1.1}Classe NewQuestionController}{22}{subsubsubsection.7.2.1.1}
+\contentsline {subsubsubsection}{\numberline {7.2.1.2}Classe NewQuizController}{22}{subsubsubsection.7.2.1.2}
+\contentsline {subsubsubsection}{\numberline {7.2.1.3}Classe QuizListController}{22}{subsubsubsection.7.2.1.3}
+\contentsline {subsubsubsection}{\numberline {7.2.1.4}Classe QuizDetailsController}{23}{subsubsubsection.7.2.1.4}
+\contentsline {subsubsubsection}{\numberline {7.2.1.5}Classe DeleteQuestionController}{23}{subsubsubsection.7.2.1.5}
+\contentsline {subsubsubsection}{\numberline {7.2.1.6}Classe DeleteQuizController}{23}{subsubsubsection.7.2.1.6}
+\contentsline {subsubsubsection}{\numberline {7.2.1.7}Classe QuizManagementController}{23}{subsubsubsection.7.2.1.7}
+\contentsline {subsubsubsection}{\numberline {7.2.1.8}Classe QuestionsManagementController}{24}{subsubsubsection.7.2.1.8}
+\contentsline {subsubsubsection}{\numberline {7.2.1.9}Classe QMLEditorController}{24}{subsubsubsection.7.2.1.9}
+\contentsline {subsubsection}{\numberline {7.2.2}Package Subscribers}{24}{subsubsection.7.2.2}
+\contentsline {subsubsubsection}{\numberline {7.2.2.1}Classe QuestionsSubscriber}{24}{subsubsubsection.7.2.2.1}
+\contentsline {subsubsubsection}{\numberline {7.2.2.2}Classe QuizSubscriber}{25}{subsubsubsection.7.2.2.2}
+\contentsline {subsubsubsection}{\numberline {7.2.2.3}Classe UsersSubscriber}{25}{subsubsubsection.7.2.2.3}
+\contentsline {subsubsection}{\numberline {7.2.3}Package Methods}{25}{subsubsection.7.2.3}
+\contentsline {subsubsubsection}{\numberline {7.2.3.1}Classe QuestionMethods}{25}{subsubsubsection.7.2.3.1}
+\contentsline {subsubsubsection}{\numberline {7.2.3.2}Classe QuizMethods}{26}{subsubsubsection.7.2.3.2}
+\contentsline {subsubsubsection}{\numberline {7.2.3.3}Classe UserMethods}{26}{subsubsubsection.7.2.3.3}
+\contentsline {subsubsection}{\numberline {7.2.4}Package Interpreter}{27}{subsubsection.7.2.4}
+\contentsline {subsubsubsection}{\numberline {7.2.4.1}Interfaccia Interpreter}{27}{subsubsubsection.7.2.4.1}
+\contentsline {subsubsubsection}{\numberline {7.2.4.2}Interfaccia InterpreterFactory}{27}{subsubsubsection.7.2.4.2}
+\contentsline {subsubsubsection}{\numberline {7.2.4.3}Classe QMLInterpreterFactory}{27}{subsubsubsection.7.2.4.3}
+\contentsline {subsubsubsection}{\numberline {7.2.4.4}Classe QMLInterpreter}{28}{subsubsubsection.7.2.4.4}
+\contentsline {subsubsubsection}{\numberline {7.2.4.5}Classe QML2HTMLInterpreter}{28}{subsubsubsection.7.2.4.5}
+\contentsline {subsubsection}{\numberline {7.2.5}Package Router}{28}{subsubsection.7.2.5}
+\contentsline {subsubsubsection}{\numberline {7.2.5.1}Classe Router}{28}{subsubsubsection.7.2.5.1}
+\contentsline {section}{\numberline {8}Diagrammi di attivit\IeC {\`a}}{29}{section.8}
+\contentsline {subsection}{\numberline {8.1}Creazione Questionario}{29}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Creazione Domanda}{30}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Compilazione Questionario}{31}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Scelta Questionario}{32}{subsection.8.4}
+\contentsline {section}{\numberline {9}Diagrammi di sequenza}{33}{section.9}
+\contentsline {subsection}{\numberline {9.1}Salvataggio di una Domanda}{33}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Visualizzazione e scelta di un Questionario}{34}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Caricamento di un Questionario}{35}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}Traduzione di una domanda}{36}{subsection.9.4}
+\contentsline {subsection}{\numberline {9.5}Svolgimento di un Questionario}{37}{subsection.9.5}
+\contentsline {section}{\numberline {10}Design pattern utilizzati}{38}{section.10}
+\contentsline {subsection}{\numberline {10.1}Abstract Factory}{38}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Singleton}{39}{subsection.10.2}
+\contentsline {subsection}{\numberline {10.3}Publish - Subscribe}{40}{subsection.10.3}
+\contentsline {section}{\numberline {11}Tracciamento}{42}{section.11}
+\contentsline {subsection}{\numberline {11.1}Mappatura componenti-requisiti}{42}{subsection.11.1}
+\contentsline {subsection}{\numberline {11.2}Mappatura requisiti - componenti}{46}{subsection.11.2}
