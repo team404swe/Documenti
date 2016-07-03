@@ -42,44 +42,35 @@
 \BOOKMARK [4][-]{subsubsubsection.3.6.2.3}{Dependency count}{subsubsection.3.6.2}% 42
 \BOOKMARK [4][-]{subsubsubsection.3.6.2.4}{Maintainability Index}{subsubsection.3.6.2}% 43
 \BOOKMARK [2][-]{subsection.3.7}{System/Software Qualification Testing Process}{section.3}% 44
-\BOOKMARK [3][-]{subsubsection.3.7.1}{Obiettivi}{subsection.3.7}% 45
+\BOOKMARK [3][-]{subsubsection.3.7.1}{Obiettivi e strategie}{subsection.3.7}% 45
 \BOOKMARK [3][-]{subsubsection.3.7.2}{Metriche e misure}{subsection.3.7}% 46
-\BOOKMARK [2][-]{subsection.3.8}{Software Documentation Management Process}{section.3}% 47
-\BOOKMARK [3][-]{subsubsection.3.8.1}{Obiettivi}{subsection.3.8}% 48
-\BOOKMARK [2][-]{subsection.3.9}{Metriche e misure}{section.3}% 49
-\BOOKMARK [3][-]{subsubsection.3.9.1}{Indice Gulpease}{subsection.3.9}% 50
-\BOOKMARK [2][-]{subsection.3.10}{Software Verification Process}{section.3}% 51
-\BOOKMARK [3][-]{subsubsection.3.10.1}{Obiettivi}{subsection.3.10}% 52
-\BOOKMARK [3][-]{subsubsection.3.10.2}{Metriche e misure}{subsection.3.10}% 53
-\BOOKMARK [1][-]{section.4}{Organizzazione}{}% 54
-\BOOKMARK [2][-]{subsubsection.4.0.3}{Analisi}{section.4}% 55
-\BOOKMARK [3][-]{subsubsection.4.0.4}{Progettazione architetturale}{subsubsection.4.0.3}% 56
-\BOOKMARK [3][-]{subsubsection.4.0.5}{Progettazione di dettaglio e Codifica}{subsubsection.4.0.3}% 57
-\BOOKMARK [1][-]{section.5}{Misure e metriche: riepilogo parametri di tolleranza}{}% 58
-\BOOKMARK [2][-]{subsection.5.1}{Processi}{section.5}% 59
-\BOOKMARK [2][-]{subsection.5.2}{Documenti}{section.5}% 60
-\BOOKMARK [2][-]{subsection.5.3}{Software}{section.5}% 61
-\BOOKMARK [1][-]{section*.3}{Appendici}{}% 62
-\BOOKMARK [1][-]{appendix.Alph1}{Misure e Metriche}{}% 63
-\BOOKMARK [2][-]{subsection.Alph1.1}{Di progetto}{appendix.Alph1}% 64
-\BOOKMARK [2][-]{subsection.Alph1.2}{Per i documenti}{appendix.Alph1}% 65
-\BOOKMARK [2][-]{subsection.Alph1.3}{Per il software}{appendix.Alph1}% 66
-\BOOKMARK [3][-]{subsubsection.Alph1.3.1}{First-order density}{subsection.Alph1.3}% 67
-\BOOKMARK [3][-]{subsubsection.Alph1.3.2}{W3C - Markup Validation Service}{subsection.Alph1.3}% 68
-\BOOKMARK [1][-]{appendix.Alph2}{Specifica test}{}% 69
-\BOOKMARK [2][-]{subsection.Alph2.1}{Livelli di testing}{appendix.Alph2}% 70
-\BOOKMARK [2][-]{subsection.Alph2.2}{Test di accettazione}{appendix.Alph2}% 71
-\BOOKMARK [2][-]{subsection.Alph2.3}{Test di sistema}{appendix.Alph2}% 72
-\BOOKMARK [3][-]{subsubsection.Alph2.3.1}{Requisiti funzionali}{subsection.Alph2.3}% 73
-\BOOKMARK [3][-]{subsubsection.Alph2.3.2}{Requisiti di qualit\340}{subsection.Alph2.3}% 74
-\BOOKMARK [2][-]{subsection.Alph2.4}{Test di integrazione}{appendix.Alph2}% 75
-\BOOKMARK [2][-]{subsection.Alph2.5}{Test di unit\340}{appendix.Alph2}% 76
-\BOOKMARK [1][-]{appendix.Alph3}{Tracciamento componenti - requisiti}{}% 77
-\BOOKMARK [1][-]{appendix.Alph4}{Tracciamento requisiti - componenti}{}% 78
-\BOOKMARK [1][-]{appendix.Alph5}{Tracciamento metodi - test di unit\340}{}% 79
-\BOOKMARK [1][-]{appendix.Alph6}{Tracciamento test di unit\340 - metodi}{}% 80
-\BOOKMARK [1][-]{appendix.Alph7}{Esito misurazioni}{}% 81
-\BOOKMARK [2][-]{subsection.Alph7.1}{Analisi}{appendix.Alph7}% 82
-\BOOKMARK [3][-]{subsubsection.Alph7.1.1}{Processi}{subsection.Alph7.1}% 83
-\BOOKMARK [3][-]{subsubsection.Alph7.1.2}{Documenti}{subsection.Alph7.1}% 84
-\BOOKMARK [2][-]{subsection.Alph7.2}{Progettazione Architetturale}{appendix.Alph7}% 85
+\BOOKMARK [4][-]{subsubsubsection.3.7.2.1}{Test di Accettazione eseguiti}{subsubsection.3.7.2}% 47
+\BOOKMARK [4][-]{subsubsubsection.3.7.2.2}{Test di Sistema eseguiti}{subsubsection.3.7.2}% 48
+\BOOKMARK [4][-]{subsubsubsection.3.7.2.3}{Test di Integrazione eseguiti}{subsubsection.3.7.2}% 49
+\BOOKMARK [4][-]{subsubsubsection.3.7.2.4}{Test di Unit\340 eseguiti}{subsubsection.3.7.2}% 50
+\BOOKMARK [2][-]{subsection.3.8}{Software Documentation Management Process}{section.3}% 51
+\BOOKMARK [3][-]{subsubsection.3.8.1}{Obiettivi e strategie}{subsection.3.8}% 52
+\BOOKMARK [3][-]{subsubsection.3.8.2}{Metriche e misure}{subsection.3.8}% 53
+\BOOKMARK [3][-]{subsubsection.3.8.3}{Indice Gulpease}{subsection.3.8}% 54
+\BOOKMARK [1][-]{section.4}{Misure e metriche: riepilogo parametri di tolleranza}{}% 55
+\BOOKMARK [2][-]{subsection.4.1}{Processi}{section.4}% 56
+\BOOKMARK [2][-]{subsection.4.2}{Documenti}{section.4}% 57
+\BOOKMARK [2][-]{subsection.4.3}{Software}{section.4}% 58
+\BOOKMARK [1][-]{section*.3}{Appendici}{}% 59
+\BOOKMARK [1][-]{appendix.Alph1}{Specifica test}{}% 60
+\BOOKMARK [2][-]{subsection.Alph1.1}{Livelli di testing}{appendix.Alph1}% 61
+\BOOKMARK [2][-]{subsection.Alph1.2}{Test di accettazione}{appendix.Alph1}% 62
+\BOOKMARK [2][-]{subsection.Alph1.3}{Test di sistema}{appendix.Alph1}% 63
+\BOOKMARK [3][-]{subsubsection.Alph1.3.1}{Requisiti funzionali}{subsection.Alph1.3}% 64
+\BOOKMARK [3][-]{subsubsection.Alph1.3.2}{Requisiti di qualit\340}{subsection.Alph1.3}% 65
+\BOOKMARK [2][-]{subsection.Alph1.4}{Test di integrazione}{appendix.Alph1}% 66
+\BOOKMARK [2][-]{subsection.Alph1.5}{Test di unit\340}{appendix.Alph1}% 67
+\BOOKMARK [1][-]{appendix.Alph2}{Tracciamento componenti - requisiti}{}% 68
+\BOOKMARK [1][-]{appendix.Alph3}{Tracciamento requisiti - componenti}{}% 69
+\BOOKMARK [1][-]{appendix.Alph4}{Tracciamento metodi - test di unit\340}{}% 70
+\BOOKMARK [1][-]{appendix.Alph5}{Tracciamento test di unit\340 - metodi}{}% 71
+\BOOKMARK [1][-]{appendix.Alph6}{Esito misurazioni}{}% 72
+\BOOKMARK [2][-]{subsection.Alph6.1}{Analisi}{appendix.Alph6}% 73
+\BOOKMARK [3][-]{subsubsection.Alph6.1.1}{Processi}{subsection.Alph6.1}% 74
+\BOOKMARK [3][-]{subsubsection.Alph6.1.2}{Documenti}{subsection.Alph6.1}% 75
+\BOOKMARK [2][-]{subsection.Alph6.2}{Progettazione Architetturale}{appendix.Alph6}% 76

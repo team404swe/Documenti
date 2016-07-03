@@ -466,12 +466,68 @@ Parametri utilizzati:
 %%\item Range di accettazione: [100\%]
 %%\end{itemize}
 \subsection{System/Software Qualification Testing Process}
-\subsubsection{Obiettivi}
+Scopo di questo processo è di assicurare e verificare l'implementazione corretta di ogni requisito individuato.
+\subsubsection{Obiettivi e strategie}
+La modalità di verifica comporta la creazione e l'esecuzione di test adeguati. A tal proposito si intende usare il framework di testing Jasmine.
+I test da pianificare ed effettuare, come spiegato nel documento \textit{Norme-di-progetto-2.0.pdf}, sono divisi in quattro categorie:
+\begin{itemize}
+\item Test di Accettazione (TA)
+\item Test di Sistema (TS)
+\item Test di Integrazione (TI)
+\item Test di Unità (TU)
+\end{itemize}
+
 \subsubsection{Metriche e misure}
+\subsubsubsection{Test di Accettazione eseguiti}
+Indica la percentuale di test di accettazione eseguiti (AE) rispetto al numero di test pianificati.
+\begin{center}
+\textit{AE = Numero test eseguiti * 100/Numero test pianificati}
+\end{center}
+Parametri utilizzati: 
+\begin{itemize}
+	\item Range-accettazione: \begin{math}[100\%]\end{math}
+\item Range-ottimale: \begin{math}[100\%]\end{math}
+	\end{itemize}
+\subsubsubsection{Test di Sistema eseguiti}
+Indica la percentuale di test di sistema eseguiti rispetto al numero di test pianificati.
+Indica la percentuale di test di sistema eseguiti (SE) rispetto al numero di test pianificati.
+\begin{center}
+\textit{SE = Numero test eseguiti * 100/Numero test pianificati}
+\end{center}
+Parametri utilizzati: 
+\begin{itemize}
+	\item Range-accettazione: \begin{math}[100\%]\end{math}
+\item Range-ottimale: \begin{math}[100\%]\end{math}
+	\end{itemize}
+\subsubsubsection{Test di Integrazione eseguiti}
+
+Indica la percentuale di test di integrazione eseguiti (IE) rispetto al numero di test pianificati.
+\begin{center}
+\textit{IE = Numero test eseguiti * 100/Numero test pianificati}
+\end{center}
+Parametri utilizzati: 
+\begin{itemize}
+	\item Range-accettazione: \begin{math}[70\%]\end{math}
+\item Range-ottimale: \begin{math}[60\%]\end{math}
+	\end{itemize}
+
+\subsubsubsection{Test di Unità eseguiti}
+Indica la percentuale di test di unità eseguiti rispetto al numero di test pianificati.
+
+Indica la percentuale di test di unità eseguiti (AE) rispetto al numero di test pianificati.
+\begin{center}
+\textit{UE = Numero test eseguiti * 100/Numero test pianificati}
+\end{center}
+Parametri utilizzati: 
+\begin{itemize}
+	\item Range-accettazione: \begin{math}[100\%]\end{math}
+\item Range-ottimale: \begin{math}[100\%]\end{math}
+	\end{itemize}
 
 \subsection{Software Documentation Management Process}
-\subsubsection{Obiettivi}
-Oltre a questo, la documentazione subisce un processo di verifica più approfondito secondo le seguenti linee guida:  
+Processo che mira a produrre la documentazione di supporto necessaria allo sviluppo del prodotto.
+\subsubsection{Obiettivi e strategie}
+La documentazione subisce un processo di verifica secondo le seguenti linee guida:  
 \begin{itemize}
 \item Verifica della presenza di tutti i documenti necessari;
 \item Attinenza di ogni documento alle specifiche di stile e formattazione presenti nel documento \textit{Norme-di-progetto-2.0};
@@ -483,7 +539,10 @@ Oltre a questo, la documentazione subisce un processo di verifica più approfond
 \item Verifica di assenza di \textbf{ridondanza} di determinati contenuti tra i diversi documenti;
 \item Calcolo dell'indice di leggibilità \textbf{Gulpease}.
 \end{itemize}
-\subsection{Metriche e misure}
+
+%\subsection{Software Verification Process}
+
+\subsubsection{Metriche e misure}
 \subsubsection{Indice Gulpease} Indice di leggibilità di un testo tarato sulla lingua italiana. \\
 Questo indice considera due variabili linguistiche: la lunghezza della parola e la lunghezza della frase rispetto al numero delle lettere.
 La formula per il suo calcolo è la seguente:\\
@@ -503,27 +562,27 @@ In generale risulta che testi con un indice:
 \item Range di accettazione: \begin{math}[50 - 100]\end{math}
 \item Range ottimale: \begin{math}[60 - 100]\end{math}
 \end{itemize}
-\subsection{Software Verification Process}
-\subsubsection{Obiettivi}
-\subsubsection{Metriche e misure}
+%\subsection{Software Verification Process}
+%\subsubsection{Obiettivi}
+%\subsubsection{Metriche e misure}
 \newpage
 
 
-\section{Organizzazione}
-Di seguito vengono descritte le attività di verifica da effettuare per ogni fase di sviluppo. Tali fasi seguono la pianificazione definita nel documento allegato \textit{Piano-di-progetto-2.0.pdf}.
-\subsubsection{Analisi}
-\begin{itemize}
-\item \textbf{Organizzazione interna}:
-\begin{itemize}
-\item \textbf{XXXAssegnazione dei ruoli} secondo la pianificazione specificata nel documento \textit{Piano-di-Progetto-2.0.pdf} redatto dal Responsabile di progetto;
-\item \textbf{XXXCorretta pianificazione di sviluppo} secondo quanto stilato sempre nel documento \textit{Piano-di-Progetto-2.0.pdf}. In particolare viene verificata la corretta divisione temporale delle diverse fasi di progetto (vedere sezione precedente) e la correttezza del preventivo in base al budget disponibile;
-\item \textbf{XXXDisponibilità delle risorse umane e tecnologiche} e dell'ambiente di lavoro;
-\item \textbf{XXXLettura e sottoscrizione delle Norme di Progetto}. Il responsabile deve accertarsi che ogni membro del gruppo abbia letto e compreso il documento \textit{Norme-di-progetto-2.0}. Il documento deve essere quindi preventivamente redatto.
-
-
-\end{itemize} 
- 
-\item \textbf{Documentazione}: il processo di verifica per la documentazione deve seguire le linee guida descritte nella sezione 3 (Misure e metriche: parametri di tolleranza).
+%\section{Organizzazione}
+%Di seguito vengono descritte le attività di verifica da effettuare per ogni fase di sviluppo. Tali fasi seguono la pianificazione definita nel documento allegato \textit{Piano-di-progetto-2.0.pdf}.
+%\subsubsection{Analisi}
+%\begin{itemize}
+%\item \textbf{Organizzazione interna}:
+%\begin{itemize}
+%\item \textbf{XXXAssegnazione dei ruoli} secondo la pianificazione specificata nel documento \textit{Piano-di-Progetto-2.0.pdf} redatto dal Responsabile di progetto;
+%\item \textbf{XXXCorretta pianificazione di sviluppo} secondo quanto stilato sempre nel documento \textit{Piano-di-Progetto-2.0.pdf}. In particolare viene verificata la corretta divisione temporale delle diverse fasi di progetto (vedere sezione precedente) e la correttezza del preventivo in base al budget disponibile;
+%\item \textbf{XXXDisponibilità delle risorse umane e tecnologiche} e dell'ambiente di lavoro;
+%\item \textbf{XXXLettura e sottoscrizione delle Norme di Progetto}. Il responsabile deve accertarsi che ogni membro del gruppo abbia letto e compreso il documento \textit{Norme-di-progetto-2.0}. Il documento deve essere quindi preventivamente redatto.
+%
+%
+%\end{itemize} 
+% 
+%\item \textbf{Documentazione}: il processo di verifica per la documentazione deve seguire le linee guida descritte nella sezione 3 (Misure e metriche: parametri di tolleranza).
 %\begin{itemize}
 %\item Verifica della presenza di tutti i documenti necessari;
 %\item Attinenza di ogni documento alle specifiche di stile e formattazione presenti nel documento \textit{Norme-di-progetto-1.0};
@@ -538,13 +597,13 @@ Di seguito vengono descritte le attività di verifica da effettuare per ogni fas
 
  
 
-\end{itemize}
+%\end{itemize}
 
-\subsubsection{Progettazione architetturale}
-
-\subsubsection{Progettazione di dettaglio e Codifica}
-Durante questa fase la verifica è volta al controllo del corretto funzionamento dell'applicazione tramite tecniche di analisi statica (walkthrough e inspection) e dinamica. Durante lo sviluppo del codice è di fondamentale importanza procedere di pari passo con la verifica tramite i test di unità.
-Il codice prodotto deve seguire le regole definite nel documento \textit{Norme-di-progetto-2.0.pdf} e le direttive definite nel documento \textit{Definizione-di-dettaglio-1.0.pdf}.
+%\subsubsection{Progettazione architetturale}
+%
+%\subsubsection{Progettazione di dettaglio e Codifica}
+%Durante questa fase la verifica è volta al controllo del corretto funzionamento dell'applicazione tramite tecniche di analisi statica (walkthrough e inspection) e dinamica. Durante lo sviluppo del codice è di fondamentale importanza procedere di pari passo con la verifica tramite i test di unità.
+%Il codice prodotto deve seguire le regole definite nel documento \textit{Norme-di-progetto-2.0.pdf} e le direttive definite nel documento \textit{Definizione-di-dettaglio-1.0.pdf}.
 %\subsection{Verifica e validazione}
 %RAMO ASCENDENTE DEL MODELLO A V\\
 %-test di unità\\
@@ -650,19 +709,19 @@ I valori di tolleranza fissati per tale indice sono:
 \renewcommand{\thetable}{A.\arabic{table}}
 
 \newpage
-\section{Misure e Metriche}
-\label{Appendice A}
-\subsection{Di progetto}
-
-
-\subsection{Per i documenti}
-
-
-\subsection{Per il software}
-
-In questa sezione vengono elencate le metriche utilizzate dal software di analisi Complexity-report come \textbf{Maintainability Index}\addglos, \textbf{Metriche di Halstead}\addglos e \textbf{Complessità Ciclomatica}\addglos) e altri indicatori come la percentuale di \textit{Copertura dei test} e la validazione W3C\addglos dei file HTML.  
-\\Il software complexity-report offre un resoconto delle misurazioni effettuate sull'intero codice, a livello di file, e a livello di funzione presente in ogni file. 
-Di seguito vengono presentate le metriche utilizzate per ogni livello.
+%\section{Misure e Metriche}
+%\label{Appendice A}
+%\subsection{Di progetto}
+%
+%
+%\subsection{Per i documenti}
+%
+%
+%\subsection{Per il software}
+%
+%In questa sezione vengono elencate le metriche utilizzate dal software di analisi Complexity-report come \textbf{Maintainability Index}\addglos, \textbf{Metriche di Halstead}\addglos e \textbf{Complessità Ciclomatica}\addglos) e altri indicatori come la percentuale di \textit{Copertura dei test} e la validazione W3C\addglos dei file HTML.  
+%\\Il software complexity-report offre un resoconto delle misurazioni effettuate sull'intero codice, a livello di file, e a livello di funzione presente in ogni file. 
+%Di seguito vengono presentate le metriche utilizzate per ogni livello.
 
 %\subsubsection{Logical LOC}
 %Numero di righe di codice che rappresentano degli statement\addglos. 
@@ -715,16 +774,16 @@ Di seguito vengono presentate le metriche utilizzate per ogni livello.
 %\end{figure}
 %\end{itemize}
 
-\subsubsection{First-order density}
-Percentuale di tutte le possibili dipendenze interne tra i moduli del progetto. 
-\begin{itemize}
-	\item Range di accettazione: \begin{math}[\le 20\%]\end{math}
-	\item Range ottimale: \begin{math}[\le 15\%]\end{math}
-	\end{itemize}
-
-
-\subsubsection{W3C - Markup Validation Service}
-Per la validazione delle pagine HTML e i file CSS sviluppati si intende affidarsi allo strumento online W3C Markup Validation Service (\url{https://validator.w3.org/}). 
+%\subsubsection{First-order density}
+%Percentuale di tutte le possibili dipendenze interne tra i moduli del progetto. 
+%\begin{itemize}
+%	\item Range di accettazione: \begin{math}[\le 20\%]\end{math}
+%	\item Range ottimale: \begin{math}[\le 15\%]\end{math}
+%	\end{itemize}
+%
+%
+%\subsubsection{W3C - Markup Validation Service}
+%Per la validazione delle pagine HTML e i file CSS sviluppati si intende affidarsi allo strumento online W3C Markup Validation Service (\url{https://validator.w3.org/}). 
 
 %\subsubsection{Use Case Points}
 %non so se metterla o meno
