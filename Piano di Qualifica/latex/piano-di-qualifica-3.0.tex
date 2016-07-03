@@ -14,7 +14,7 @@
 	% da qui : add by Martin
 	\thispagestyle{empty}
 	\begin{center}	
-	\includegraphics{../../team_not_found}\\
+	\includegraphics{../../team_not_found}
 	\fontsize{5mm}{3mm}\url{team404swe@gmail.com}\\
 	
 	\vspace{50mm}
@@ -125,123 +125,10 @@
 \section{Strategia generale di qualifica}
 \subsection{Definizione obiettivi}
 Il gruppo di lavoro, per garantire la qualità del prodotto software \textbf{Quizzipedia} e dei processi coinvolti al suo sviluppo, intende adottare metodologie standard ed il più possibile automatizzabili per ridurre al minimo l'attività umana e favorire processi automatici laddove sia possibile.\\
-Vengono di seguito quindi elencati gli obiettivi di qualità che si vogliono raggiungere per quanto riguarda il prodotto finale e i processi coinvolti per lo sviluppo dello stesso, e le strategie necessarie all'attuazione della corretta verifica e validazione del prodotto.\\
+Vengono di seguito elencati gli obiettivi di qualità che si vogliono raggiungere per quanto riguarda il prodotto finale e i processi coinvolti per lo sviluppo dello stesso, e le strategie necessarie all'attuazione della corretta verifica e validazione del prodotto.\\
 Lo scopo principale è quello di rendere definibili e misurabili tutti i processi di sviluppo e verifica per poterne controllare l'andamento e la produttività. 
-\subsubsection{Qualità di processo}
-Per quanto riguarda la valutazione qualitativa dei processi si fa riferimento a due modelli: 
-\begin{itemize}
-\item SPICE\addglos : definito dallo standard \underline{ISO/IEC 15504:1998}, fornisce un modello per la valutazione del livello di “maturità”
-dei processi per identificare quali azioni possono essere necessarie per migliorare un processo specifico.
-\item PDCA\addglos : metodo di gestione iterativo utilizzato per il controllo e il miglioramento continuo dei processi e dei prodotti. 
-\end{itemize}
+\subsection{Qualità di processo}
 
-%\textbf{DA DESCRIVERE IN APPENDICE I DUE MODELLI}
-\subsubsection{Qualità di prodotto}
-Come punto di riferimento per la qualità del prodotto software si fa riferimento allo standard \underline{ISO/IEC 9126:2001}.\\
-L'immagine seguente elenca le principali caratteristiche a cui un prodotto software di qualità deve aspirare:\\
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.55]{../images/ISO-9126-cut}
-\caption{Riepilogo caratteristiche ISO/IEC 9126:2001}
-\end{figure}
-%\subsection{Pianificazione attività di sviluppo}
-%La suddivisione temporale delle diverse fasi di sviluppo segue il cosiddetto modello a V ed è descritta nel documento allegato \textit{Piano-di-Progetto-1.0.pdf}.
-%\begin{figure}[h!]
-%\centering
-%\includegraphics[scale=0.4]{../images/vmodel-final4.png}
-%\caption{Fasi di sviluppo}
-%\end{figure} 
-%%questo paragrafo era abbastanza da rivedere, ora credo sia più chiaro ma aspetto anche la revisione di andrea e casomai lo modificheremo ancora
-%Questo modello prevede un lavoro di controllo e verifica corrispondente ad ogni attività per evitare l'accumulo di errori difficilmente gestibili in seguito.\\
-%La divisione in diverse fasi, e l'attività di verifica abbinata ad ogni fase e processo, hanno come scopo quello di facilitare l'integrazione e il corretto funzionamento delle parti che comporranno il sistema finale.
-%Il ramo discendente descritto nella precedente figura rappresenta la successione delle fasi di sviluppo: ciascuna fase è accompagnata da una costante attività di verifica in modo da poter permettere il passaggio alla fase successiva esclusivamente quando si è sicuri che non ci siano errori. Ciò è essenziale durante la delicata attività di raccolta e documentazione dei requisiti, nella progettazione architetturale ad alto livello ed in seguito nella progettazione di dettaglio.\\ 
-%%in questa frase non capivo proprio cosa volevi dire, nel dubbio sotto la mia frase ti lascio quello che avevi scritto se vuoi rimetterlo
-%Del ramo ascendente che attraversa le attività di testing è importante sottolineare l'utilizzo dell'approccio bottom-up.
-%%Per quanto riguarda il ramo ascendente, da notare l'essenziale importanza, per l'attività di testing,  dell'approccio bottom-up che inizia nel ramo più basso del diagramma. 
-%Dalla fase di codifica quindi, per mezzo di test specifici sulle singole componenti (test di unità), si è in grado di garantire la correttezza del lavoro svolto prima che le singole componenti vengano integrate tra loro. Ovviamente l'esito positivo di ogni test su ogni unità non garantisce la correttezza dell'integrazione tra le stesse. \\
-%Nelle sezioni successive verranno elencate le varie fasi del ramo discendente e ne verranno descritte le strategie di verifica qualitativa inerenti.
-\subsection{Organizzazione}
-Di seguito vengono descritte le attività di verifica da effettuare per ogni fase di sviluppo. Tali fasi seguono la pianificazione definita nel documento allegato \textit{Piano-di-progetto-2.0.pdf}.
-\subsubsection{Analisi}
-\begin{itemize}
-\item \textbf{Organizzazione interna}:
-\begin{itemize}
-\item \textbf{Assegnazione dei ruoli} secondo la pianificazione specificata nel documento \textit{Piano-di-Progetto-2.0.pdf} redatto dal Responsabile di progetto;
-\item \textbf{Corretta pianificazione di sviluppo} secondo quanto stilato sempre nel documento \textit{Piano-di-Progetto-2.0.pdf}. In particolare viene verificata la corretta divisione temporale delle diverse fasi di progetto (vedere sezione precedente) e la correttezza del preventivo in base al budget disponibile;
-\item \textbf{Disponibilità delle risorse umane e tecnologiche} e dell'ambiente di lavoro;
-\item \textbf{Lettura e sottoscrizione delle Norme di Progetto}. Il responsabile deve accertarsi che ogni membro del gruppo abbia letto e compreso il documento \textit{Norme-di-progetto-2.0}. Il documento deve essere quindi preventivamente redatto.
-
-
-\end{itemize} 
- 
-\item \textbf{Documentazione}: il processo di verifica per la documentazione deve seguire le linee guida descritte nella sezione 3 (Misure e metriche: parametri di tolleranza).
-%\begin{itemize}
-%\item Verifica della presenza di tutti i documenti necessari;
-%\item Attinenza di ogni documento alle specifiche di stile e formattazione presenti nel documento \textit{Norme-di-progetto-1.0};
-%\item Verifica della presenza e del corretto utilizzo del registro delle modifiche interno ad ogni documento;
-%\item Verifica iniziale dei documenti tramite la tecnica di analisi statica \textbf{walkthrough};
-%\item Verifica dei documenti tramite tecnica di analisi statica di tipo \textbf{inspection}. In questo caso l'attenzione del verificatore si focalizza solo su particolari aspetti del testo (per esempio accenti, sillabazione, maiuscole, ecc);
-%\item Monitoraggio da parte dei verificatori del registro delle modifiche in modo da poter attuare la verifica solo alla parte inerente alla sezione modificata;
-%\item \textbf{Coerenza} di informazioni tra i diversi documenti;
-%\item Verifica di assenza di \textbf{ridondanza} di determinati contenuti tra i diversi documenti;
-%\item Calcolo dell'indice di leggibilità \textbf{Gulpease}.
-%\end{itemize}
-\item \textbf{Requisiti e Use Case}: 
-\begin{itemize}
-\item Correttezza dei diagrammi UML per quanto riguarda l'adeguata rappresentazione grafica degli Use Case. Verifica, leggibilità e adeguato livello di granularità;
-\item Verifica della correttezza degli Use Case (testuali e grafici) secondo lo standard UML2.0;
-\item Verifica delle precondizioni e delle postcondizioni di ogni Use Case;
-\item Completezza dei requisiti in base alle esigenze di capitolato;
-\item Tracciabilità dei requisiti tramite tabella di mappatura requisiti - casi d'uso;
-\item Controllo eventuali conflitti o imprecisioni nella codifica dei requisiti e dei casi d'uso.
-\end{itemize}
- 
-
-\end{itemize}
-
-\subsubsection{Progettazione architetturale}
-In questa fase è necessaria la verifica dei nuovi documenti prodotti (la Specifica tecnica) e la correttezza delle modifiche apportate alla documentazione in seguito alla prima revisione. In particolare deve essere verificato che la progettazione ad alto livello soddisfi i requisiti emersi nella precedente fase e descritti nel documento \textit{Analisi-dei-requisiti-2.0.pdf}. \\
-Di fondamentale importanza è la pianificazione dei test di sistema e la verifica che i requisiti siano soddisfatti.
-Per la Specifica Tecnica, il documento principale di questa fase, deve essere verificata la correttezza di tutti i diagrammi secondo lo standard UML 2. \\
-I diagrammi presenti devono essere verificati secondo le seguenti linee guida: 
-\begin{itemize}
-\item \textbf{diagrammi dei package:} 
-\begin{itemize}
-\item correttezza delle relazioni tra i package
-\item i package devono essere descritti per struttura e a livello logico
-\end{itemize}
-\item \textbf{diagrammi delle classi:}
-\begin{itemize}
-\item verifica del corretto utilizzo di interfacce e classi astratte
-\item le classi inserite non devono essere ridondanti o addirittura inutilizzate
-\item verifica che nei diagrammi di ogni classe siano presenti i tipi di ogni parametro dei metodi e degli attributi di classe
-\item verifica mirata al controllo della visibilità dei metodi, dei costruttori (se presenti nel diagramma) e degli attributi. I metodi pubblici devono essere limitati allo stretto necessario
-\end{itemize}
-\item \textbf{diagrammi di attività:}
-\begin{itemize}
-\item verifica della correttezza del flusso di ogni diagramma
-\item verifica dell'utilizzo delle entità atomiche opportune
-\end{itemize}
-\item \textbf{diagrammi di sequenza:}
-\begin{itemize}
-\item verifica della corretta individuazione degli attori
-\end{itemize}
-\end{itemize}
-\subsubsection{Progettazione di dettaglio e Codifica}
-Durante questa fase la verifica è volta al controllo del corretto funzionamento dell'applicazione tramite tecniche di analisi statica (walkthrough e inspection) e dinamica. Durante lo sviluppo del codice è di fondamentale importanza procedere di pari passo con la verifica tramite i test di unità.
-Il codice prodotto deve seguire le regole definite nel documento \textit{Norme-di-progetto-2.0.pdf}.
-%\subsection{Verifica e validazione}
-%RAMO ASCENDENTE DEL MODELLO A V\\
-%-test di unità\\
-%-test di integrazione\\
-%-test di sistema\\
-%-test di accettazione\\
-%\begin{figure}[h!]
-%\centering
-%\includegraphics[scale=0.4]{../images/vmodel-final4.png}
-%\caption{Fasi di sviluppo}
-%\end{figure} 
-\subsection{Gestione amministrativa della revisione}
 Ogni processo coinvolto nell'attività di sviluppo ha bisogno di una costante attività di verifica di supporto in grado di identificare possibili miglioramenti o peggioramenti ed apportare eventuali correzioni. \\
 Il modello che il gruppo intende quindi seguire è il cosiddetto PDCA (o Ciclo di Deming), modello volto al miglioramento continuo che definisce quattro fasi cicliche:
 \begin{itemize}
@@ -258,14 +145,10 @@ Le due fasi chiave del modello PDCA sono la prima fase di definizione (P) del pr
 \includegraphics[scale=0.6]{../images/PDCA}
 \caption{PDCA e miglioramento complessivo}
 \end{figure}
-Il concetto generale fa riferimento anche al metodo di \textit{Correctness by construction}, che ha come principio base quello di fare in modo di non introdurre errori già dall'inizio e/o di correggere tali errori nel \textbf{momento più vicino possibile a quando sono stati introdotti}.\\ L'attività costante di verifica, quindi,  deve servire proprio a far sì che gli errori e le divergenze vengano individuate il prima possibile.\\
-Piccoli errori iniziali, se non gestiti, possono portare all'assoluta ingestibilità dell'attività di verifica e quindi compromettere pesantemente il successo finale del progetto. Per evitare ciò, un processo dipendente da un altro non può avere inizio finché il precedente non sia stato verificato e ne sia stata accertata la correttezza.\\\\ %ho scambiato due frasi perchè erano abbastanza scollegate prima
-Nella sezione Misure e metriche vengono elencate due metriche (\textbf{Schedule variance} e \textbf{Budget variance}) necessarie al controllo e alla valutazione dei processi in termini di tempo (schedule) e in termini di costo e risorse impiegate (budget). 
-Tali misurazioni, da effettuare alla fine di ogni fase, si basano sui valori dei consuntivi di ogni fase (presenti nel documento \textit{piano\_di\_progetto\_2.0.pdf}). La valutazione di queste metriche è essenziale per verificare l'andamento di ogni processo misurato e valutarne quindi il miglioramento o il peggioramento complessivo. \\
-Per il coordinamento delle attività giornaliere ci si affida ad un sistema di \textbf{ticketing\addglos} fornito dalla piattaforma online \textbf{Trello}\addglos (vedere documento \textit{norme\_di\_progetto\_2.0.pdf} per una spiegazione dettagliata del suo utilizzo). Tale sistema permette di tenere costantemente sotto controllo l'andamento dei compiti (\textbf{Task}\addglos) e la loro realizzazione. 
+Il concetto generale fa riferimento anche al metodo di \textit{Correctness by construction}, che ha come principio base quello di fare in modo di non introdurre errori già dall'inizio e/o di correggere tali errori nel \textbf{momento più vicino possibile a quando sono stati introdotti}.\\ L'attività costante di verifica, quindi,  deve servire proprio a far sì che gli errori e le divergenze vengano individuate il prima possibile.
+Piccoli errori iniziali, se non gestiti, possono portare all'assoluta ingestibilità dell'attività di verifica e quindi compromettere pesantemente il successo finale del progetto. Per evitare ciò, un processo dipendente da un altro non può avere inizio finché il precedente non sia stato verificato e ne sia stata accertata la correttezza. 
+%\textbf{DA DESCRIVERE IN APPENDICE I DUE MODELLI}
 
-
-\subsection{Procedure di controllo di qualità di processo}
 Le linee guida fornite dal modell PDCA per l'attività di controllo ed il miglioramento continuo dei processi sono:
 \begin{itemize}
 \item Pianificazione dettagliata
@@ -280,8 +163,400 @@ In generale, tali misurazioni tengono conto dei seguenti elementi:
 \item Risorse utilizzate 
 \item Attinenza alla pianificazione
 \end{itemize}
-Tramite le piattaforme Trello e GitHub i verificatori possono tenere traccia dello storico dei ticket assegnati, valutarne quindi i tempi di completamento e agire in modo propositivo nel caso si verifichino ritardi nella realizzazione di compiti assegnati.
+\subsubsection{Standard utilizzati}
+Per quanto riguarda la valutazione qualitativa dei processi si fa riferimento ai seguenti standard: 
+\begin{itemize}
+\item SPICE\addglos : definito dallo standard \underline{ISO/IEC 15504:1998}, fornisce un modello per la valutazione del livello di “maturità”
+dei processi per identificare quali azioni possono essere necessarie per migliorare un processo specifico.
+\item PDCA\addglos : metodo di gestione iterativo utilizzato per il controllo e il miglioramento continuo dei processi e dei prodotti.
+\item \underline{ISO/IEC 12207:2008}: utilizzato come riferimento per l'individuazione dei processi da sottoporre ad attività di verifica qualitativa:
+\begin{itemize}
+\item Infrastructure Management Process
+\item Risk Management ProcessXXXX
+\item System/Software Requirements Analysis Process
+\item System/Software Architectural Design Process
+\item Software Detailed Design Process
+\item Software Construction Process
+\item System/Software Integration Process
+\item System/Software Qualification Testing Process
+\item Software Documentation Management Process
+\item Software Verification Process
+
+\end{itemize} 
+\end{itemize}
+\subsection{Qualità di prodotto}
+AGGIUNGERE TESTO
+\begin{itemize}
+\item \textbf{Software Quality Assurance}: insieme delle attività volte a garantire il raggiungimento degli obiettivi di qualità. Queste attività prevedono l'utilizzo di tecniche di analisi statica e dinamica
+\item \textbf{Verifica}: attività costante durante l'intera fase del progetto; serve a controllare che l'output aspettato dalle entità in oggetto di verifica.
+\item \textbf{Validazione}: la conferma oggettiva che il sistema soddisfi i requisiti. 
+\subsubsection{Standard utilizzati}
+Come punto di riferimento per la qualità del prodotto software si fa riferimento allo standard \underline{ISO/IEC 9126:2001}.\\
+L'immagine seguente elenca le principali caratteristiche a cui un prodotto software di qualità deve aspirare:\\
+\vspace{6mm}
+\noindent%
+\begin{minipage}{\linewidth}% to keep image and caption on one page
+\makebox[\linewidth]{%        to center the image
+  \includegraphics[keepaspectratio=true,scale=0.6]{../images/ISO-9126-cut}}
+\captionof{figure}{Riepilogo caratteristiche ISO/IEC 9126:2001}  
+\end{minipage}\\
+
+\newpage
+\section{Verifica qualitativa sui processi}
+
+\subsection{Infrastructure Management Process}
+Processo di gestione dell'infrastruttura: ha lo scopo di monitorare e mantenere operativo l'ambiente di lavoro, verificare che siano presenti e funzionanti le risorse necessarie allo sviluppo del progetto.
+L'infrastruttura è rappresentata da tutte le risorse tecnologiche (hardware, software, metodologie standard) ed umane impiegate nello sviluppo del prodotto.
+
+\subsubsection{Obiettivi e strategie}
+Gli obiettivi specifici di questo processo sono volti alla verifica della disponibilità e al corretto e costante utilizzo (da parte dei membri del team) delle risorse tecnologiche da utilizzare. 
+%verifica della disponibilità delle risorse umane e tecnologiche e dell'ambiente di lavoro.
+Il responsabile deve inoltre accertarsi che ogni membro del gruppo abbia letto e compreso il documento (preventivamente redatto) \textit{Norme-di-progetto-2.0}.
+
+Devono quindi essere definiti e correttamente configurati gli strumenti di comunicazione e coordinamento Trello e GitHub. Tramite queste piattaforme i verificatori possono tenere traccia dello storico dei ticket assegnati, valutarne quindi i tempi di completamento e agire in modo propositivo nel caso si verifichino ritardi nella realizzazione di compiti assegnati.
+
 La verifica del completamento dei ticket viene integrata con un controllo altrettanto costante dell'attività dei commit sulla piattaforma GitHub. Sarà quindi necessario osservare e verificare l'andamento dei commit, verificandone sia correttezza che frequenza.
+
+L'infrastruttura quindi dovrà tenere conto dei seguenti obiettivi:
+\begin{itemize}
+%\item \textbf{Assegnazione dei ruoli} secondo la pianificazione specificata nel documento \textit{Piano-di-Progetto-2.0.pdf} redatto dal Responsabile di progetto;
+%\item \textbf{Corretta pianificazione di sviluppo} secondo quanto stilato sempre nel documento \textit{Piano-di-Progetto-2.0.pdf}. In particolare viene verificata la corretta divisione temporale delle diverse fasi di progetto e la correttezza del preventivo in base al budget disponibile;
+%\item verifica della \textbf{disponibilità delle risorse umane e tecnologiche} e dell'ambiente di lavoro;
+\item Corretta configurazione iniziale delle piattaforme Trello e GitHub per l'utilizzo da parte di tutti i membri del gruppo
+\item Monitoraggio dell'effettivo utilizzo delle piattaforme Trello e GitHub da parte di tutti i membri
+\item Monitoraggio del tempo trascorso tra l'assegnazione del ticket ed il suo completamento
+\end{itemize} 
+
+\subsubsection{Metriche}
+DA FARE
+
+\subsection{Project Planning, Assessment and Control Process}
+Processo che deve fornire la pianificazione dettagliata delle attività di sviluppo del progetto come la suddivisione temporale delle varie fasi di sviluppo, la scelta del modello di ciclo di vita del prodotto, l'assegnazione dei ruoli, i preventivi ed i consuntivi.
+
+\subsubsection{Obiettivi e strategie}
+La verifica per questa fase deve accertarsi che:
+\begin{itemize}
+\item i ruoli e le attività siano correttamente assegnati secondo la pianificazione specificata nel documento \textit{Piano-di-Progetto-2.0.pdf} redatto dal Responsabile.
+\item i costi effettivi per ogni fase non eccedano rispetto ai costi preventivati
+\end{itemize}
+\subsubsection{Metriche}
+Per il controllo e la misurazione dei processi in termini di tempo (schedule) e in termini di costo e risorse impiegate (budget), vengono utilizzate le metriche (\textbf{Schedule variance} e \textbf{Budget variance}) 
+Tali misurazioni, da effettuare alla fine di ogni fase, si basano sui valori dei consuntivi di ogni fase (presenti nel documento \textit{piano\_di\_progetto\_2.0.pdf}). La valutazione di queste metriche è essenziale per verificare l'andamento di ogni processo misurato e valutarne quindi il miglioramento o il peggioramento complessivo.
+
+\subsubsubsection{Schedule Variance}
+Il valore SV (schedule variance) indica se si è in linea, in anticipo o in ritardo rispetto alla schedulazione delle attività di progetto pianificate nella baseline.\\
+Se SV > 0 significa che il progetto sta producendo (ossia rilasciando deliverable) con maggior velocità a quanto pianificato, viceversa se negativo.
+Formula:
+\begin{center}
+\textbf{SV = BCWP – BCWS\\}
+\end{center}
+Dati:
+\begin{itemize}
+\item \textbf{BCWP} (Budgeted Cost of Work Performed): Valore delle attività realizzate alla data corrente.
+\item \textbf{BCWS} (Budgeted Cost of Work Scheduled): Costo pianificato per realizzare le attività di progetto alla data corrente.
+\end{itemize}
+\begin{itemize}
+	\item Range-accettazione: \begin{math} [ \ge -(PreventivoFase*5\%)]
+	\end{math}
+	\item Range-ottimale: \begin{math}[ \ge 0]\end{math}
+	\end{itemize}
+
+\subsubsubsection{Budget variance} Indica se alla data corrente si è speso di più o di meno rispetto a quanto previsto a budget alla data corrente.\\
+Formula: 
+\begin{center}
+\textbf{BV = BCWS – ACWP}
+\end{center}
+Dati:
+\begin{itemize}
+\item \textbf{ACWP} (Actual Cost of Work Performed): Costo effettivamente sostenuto alla data corrente.
+\end{itemize}
+Se BV > 0 significa che il progetto sta spendendo il proprio budget con minor velocità di quanto pianificato, viceversa se negativo. Il fatto di spendere più velocemente il budget non ha nulla a che fare con il risparmio che se ne può avere, rappresentato invece da CV.\\\\
+Parametri utilizzati: 
+\begin{itemize}
+	\item Range-accettazione: \begin{math}[ \ge -(PreventivoFase*10\%)]
+	\end{math}
+	\item Range-ottimale: \begin{math}[ \ge 0]\end{math}
+	\end{itemize}
+	
+	
+%\subsection{Risk Management Process}
+%\subsubsection{Obiettivi}
+%\subsubsection{Metriche e misure}
+
+\subsection{System/Software Requirements Analysis Process}
+Processo che ha lo scopo di definire e catalogare precisamente tutti i requisiti. Produce il documento Analisi dei Requisiti. 
+
+\subsubsection{Obiettivi e strategie}
+La verifica su questo processo deve tenere conto di:
+\begin{itemize}
+\item Correttezza dei diagrammi UML per quanto riguarda l'adeguata rappresentazione grafica degli Use Case. Verifica, leggibilità e adeguato livello di granularità;
+\item Correttezza degli Use Case (testuali e grafici) secondo lo standard UML2.0;
+\item Correttezza delle precondizioni e delle postcondizioni di ogni Use Case;
+\item Completezza dei requisiti in base alle esigenze di capitolato;
+\item Tracciabilità dei requisiti tramite tabella di mappatura requisiti - casi d'uso;
+\item Controllo eventuali conflitti o imprecisioni nella codifica dei requisiti e dei casi d'uso.
+\end{itemize}
+\subsubsection{Metriche e misure}
+\subsubsubsection{Copertura dei requisiti DA CORREGGERE}
+Indica la percentuale dei casi testati rispetto alla totalità dei casi da testare. Una percentuale del 100\% può essere auspicabile solo se sono stati ben definiti i casi che necessitano realmente di essere testati. 
+\begin{center}
+\textit{Copertura dei test = Numero funzioni testate * 100/Numero funzioni da testare}
+\end{center}
+Parametri utilizzati: 
+\begin{itemize}
+	\item Range-accettazione: \begin{math}[70 - 100]\end{math}
+\item Range-ottimale: \begin{math}[80 - 100]\end{math}
+	\end{itemize}
+	
+\subsection{System/Software Architectural Design Process}
+Processo che produce il documento Specifica Tecnica che descrive l'architettura ad alto livello del sistema secondo i requisiti. La progettazione ad alto livello deve soddisfare i requisiti emersi dall'analisi. 
+
+\subsubsection{Obiettivi}
+Deve essere verificato che la progettazione ad alto livello presentata nel documento Specifica Tecnica soddisfi i requisiti.
+
+I diagrammi presenti in tale documento devono essere verificati secondo le seguenti linee guida: 
+\begin{itemize}
+
+\item correttezza delle relazioni tra i package
+\item i package devono essere descritti per struttura e a livello logico
+
+\item verifica della correttezza del flusso di ogni diagramma
+\item verifica della corretta individuazione degli attori
+\end{itemize}
+L'architettura ad alto livello presentata nel documento deve soddisfare i seguenti requisiti:
+\begin{itemize}
+\item basso accoppiamento ed alta coesione
+\item i componenti devono soddisfare tutti i requisiti 
+\item tracciabilità di ogni componente con il corrispettivo requisito
+\end{itemize}
+\subsubsection{Metriche e misure}
+\subsubsubsection{Change cost}
+Percentuale dei moduli affetti da cambiamento quando un modulo all'interno del progetto viene modificato.
+\begin{itemize}
+	\item Range di accettazione: \begin{math}[\le 50\%]\end{math}
+	\item Range ottimale: \begin{math}[\le 40\%]\end{math}
+	\end{itemize}
+\subsubsubsection{Core size}
+La percentuale dei moduli che hanno molte dipendenze verso (e da) altri moduli.
+\begin{itemize}
+	\item Range di accettazione: \begin{math}[\le 30\%]\end{math}
+	\item Range ottimale: \begin{math}[\le 25\%]\end{math}
+	\end{itemize}
+%\subsubsection{First-order density}
+%Percentuale di tutte le possibili dipendenze interne tra i moduli del progetto. 
+%\begin{itemize}
+%	\item Range di accettazione: \begin{math}[\le 20\%]\end{math}
+%	\item Range ottimale: \begin{math}[\le 15\%]\end{math}
+%	\end{itemize}
+\subsection{Software Detailed Design Process}
+Processo che produce il documento Definizione di Prodotto che descrive l'architettura a basso livello del sistema.
+\subsubsection{Obiettivi}
+L'attività di verifica deve avere i seguenti obiettivi:
+\begin{itemize}
+
+\item corretto utilizzo di interfacce e classi astratte
+\item le classi inserite non devono essere ridondanti o addirittura inutilizzate
+\item verifica che nei diagrammi di ogni classe siano presenti i tipi di ogni parametro dei metodi e degli attributi di classe
+\item verifica mirata al controllo della visibilità dei metodi, dei costruttori (se presenti nel diagramma) e degli attributi. I metodi pubblici devono essere limitati allo stretto necessario
+\end{itemize}
+\subsubsection{Metriche e misure}
+\subsubsubsection{Parameter count}
+Numero di parametri per funzione. Valori bassi sono da preferire.
+Parametri utilizzati:
+\begin{itemize}
+	\item Range di accettazione: \begin{math}[0 - 7]\end{math}
+	\item Range ottimale: \begin{math}[0 - 5]\end{math}
+	\end{itemize}
+\subsubsubsection{XXXNumber of methods}
+Numero di metodi definiti in una classe.
+Parametri utilizzati:
+\begin{itemize}
+	\item Range di accettazione: \begin{math}[1 - 7]\end{math}
+	\item Range ottimale: \begin{math}[1 - 10]\end{math}
+	\end{itemize}
+\subsection{Software Construction Process}
+Questo processo coinvolge l'attività di codifica vera e propria secondo le direttive definite nel documento \textit{Definizione-di-dettaglio-1.0.pdf}.
+\subsubsection{Obiettivi}
+L'attività di verifica deve essere volta al controllo della qualità del codice prodotto. A tal proposito vengono utilizzate le metriche descritte nella sezione successiva. Sarà inoltre compito del programmatore di produrre codice facilmente manutenibile e comprensibile, per facilitare anche l'attività di test su di esso.
+\subsubsection{Metriche e misure}
+\subsubsubsection{Cyclomatic complexity}
+Metrica software usata per indicare la complessità ciclomatica di un programma. Rappresenta una misura quantitativa del numero di cammini linearmente indipendenti che si possono percorrere nel codice sorgente.  
+La complessità ciclomatica può essere misurata per funzioni individuali, metodi e classi all'interno di un programma.
+\begin{itemize}
+	\item Range di accettazione: \begin{math}[0 - 15]\end{math}
+	\item Range ottimale: \begin{math}[0 - 10]\end{math}
+	\end{itemize}
+\subsubsubsection{Metriche di Halstead} Queste metriche sono state concepite per identificare proprietà misurabili del codice e le relazioni tra di esse. Questi numeri sono staticamente calcolati dal codice sorgente.\\
+Dati: 
+\begin{itemize}
+\item \textit{n}\begin{tiny}{\ped{1}} \end{tiny} = numero di operatori distinti;
+\item \textit{n}\begin{tiny}{\ped{2}} \end{tiny} = numero di operandi distinti;
+\item \textit{N}\begin{tiny}{\ped{1}} \end{tiny} = numero totale degli operatori;
+\item \textit{N}\begin{tiny}{\ped{2}} \end{tiny} = numero totale degli operandi.
+\end{itemize}
+
+Da questi numeri si possono calcolare le seguenti misure: 
+ 
+\begin{itemize}
+\item Program Vocabulary: \textit{n} = \textit{n}\begin{tiny}{\ped{1}} \end{tiny} + \textit{n}\begin{tiny}{\ped{2}} \end{tiny}
+\item Program Lenght: \textit{N} = \textit{N}\begin{tiny}{\ped{1}} \end{tiny} + \textit{N}\begin{tiny}{\ped{2}} \end{tiny}
+\item \textbf{Volume}: \textit{V = Nlog\begin{tiny}{\ped{2}} \end{tiny}n}
+\begin{itemize}
+	\item Range di accettazione: \begin{math}[20 - 1500]\end{math}
+	\item Range ottimale: \begin{math}[20 - 1000]\end{math}
+	\end{itemize}
+%%\item Number of Delivered Bugs: \textit{B} = 
+%%\begin{math}
+%%\frac{V}{3000}
+%%\end{math}
+%%\begin{itemize}
+%%	\item Range di accettazione: \begin{math}[ = 0 ]\end{math}
+%%	\item Range ottimale: \begin{math}[ \le 2 ]\end{math}
+%%	\end{itemize}
+\item \textbf{Difficulty}: 
+\begin{math}
+D = \frac{\textit{n}\begin{tiny}{\ped{1}} \end{tiny}}{2} * \frac{\textit{N}\begin{tiny}{\ped{1}} \end{tiny}}{\textit{n}\begin{tiny}{\ped{2}} \end{tiny}}
+\end{math}
+\begin{itemize}
+	\item Range di accettazione: \begin{math}[0 - 30]\end{math}
+	\item Range ottimale: \begin{math}[0 - 15]\end{math}
+	\end{itemize}
+\item \textbf{Effort}: 
+\begin{math}
+E = D * V
+\end{math}
+\begin{itemize}
+	\item Range di accettazione: \begin{math}[0 - 400]\end{math}
+	\item Range ottimale: \begin{math}[0 - 300]\end{math}
+	\end{itemize}
+\end{itemize} 
+\subsubsubsection{Dependency count}
+Conteggio del numero di chiamate di tipo \textbf{require}\addglos di ogni metodo. Valori bassi sono da preferire.
+\subsubsubsection{Maintainability Index} Rappresenta l'indice principale dei risultati dell'analisi effettuata da Plato sull'intero codice. Compreso tra 0 e 100, questo indice rappresenta la relativa facilità di manutenzione del codice analizzato. Valori alti rappresentano miglior manutenibilità.\\
+Questo indice viene calcolato utilizzando la seguente formula: \\
+\begin{center}
+\begin{math}
+MI = MAX\bigg[ 0,100 \frac{171-5.2\ln V - 0,23G - 16,2\ln L}{171} \bigg]
+\end{math}
+\end{center}
+dove: 
+\begin{itemize}
+\item \textbf{MI} = Maintainability Index
+\item \textbf{V} = Halstead Volume
+\item \textbf{L} = Source Lines of Code (SLOC)
+\item \textbf{G} = Complessità Ciclomatica totale
+\end{itemize}
+Parametri utilizzati: 
+\begin{itemize}
+	\item Range di accettazione: \begin{math}[20 - 100]\end{math}
+	\item Range ottimale: \begin{math}[70 - 100]\end{math}
+	\end{itemize}
+
+%%\subsection{System/Software Integration Process}
+%%Processo che ha la funzione di integrare le varie componenti del sistema controllandone la corretta interazione. 
+%
+%%\subsubsection{Obiettivi}
+%%Per rendere l'attività di verifica della corretta integrazione delle diverse parti, si utilizza il framework di testing \textit{Jasmine}. Tale strumento rende più facile e gestibile l'attività di creazione ed esecuzione dei test di integrazione.
+
+%%\subsubsection{Metriche e misure}
+%%\subsubsubsection{Componenti integrate}
+%%Indica la percentuale di componenti implementate che interagiscono correttamente all'interno del sistema, rispetto al totale delle componenti progettate.
+%%\begin{itemize}
+%%\item Range ottimale: [100\%]
+%%\item Range di accettazione: [100\%]
+%%\end{itemize}
+\subsection{System/Software Qualification Testing Process}
+\subsubsection{Obiettivi}
+\subsubsection{Metriche e misure}
+
+\subsection{Software Documentation Management Process}
+\subsubsection{Obiettivi}
+Oltre a questo, la documentazione subisce un processo di verifica più approfondito secondo le seguenti linee guida:  
+\begin{itemize}
+\item Verifica della presenza di tutti i documenti necessari;
+\item Attinenza di ogni documento alle specifiche di stile e formattazione presenti nel documento \textit{Norme-di-progetto-2.0};
+\item Verifica della presenza e del corretto utilizzo del registro delle modifiche interno ad ogni documento;
+\item Verifica iniziale dei documenti tramite la tecnica di analisi statica \textbf{walkthrough};
+\item Verifica dei documenti tramite tecnica di analisi statica di tipo \textbf{inspection}. In questo caso l'attenzione del verificatore si focalizza solo su particolari aspetti del testo (per esempio accenti, sillabazione, maiuscole, ecc);
+\item Monitoraggio da parte dei verificatori del registro delle modifiche in modo da poter attuare la verifica solo alla parte inerente alla sezione modificata;
+\item \textbf{Coerenza} di informazioni tra i diversi documenti;
+\item Verifica di assenza di \textbf{ridondanza} di determinati contenuti tra i diversi documenti;
+\item Calcolo dell'indice di leggibilità \textbf{Gulpease}.
+\end{itemize}
+\subsection{Metriche e misure}
+\subsubsection{Indice Gulpease} Indice di leggibilità di un testo tarato sulla lingua italiana. \\
+Questo indice considera due variabili linguistiche: la lunghezza della parola e la lunghezza della frase rispetto al numero delle lettere.
+La formula per il suo calcolo è la seguente:\\
+\begin{center}
+\begin{math}
+89 - \frac{(300 * NumeroFrasi) - (10 * NumeroLettere)}{NumeroParole}
+\end{math}
+\end{center}
+I risultati sono compresi tra 0 e 100, dove il valore 100 indica la leggibilità più alta e 0 la leggibilità più bassa.\\
+In generale risulta che testi con un indice:
+\begin{itemize}
+\item inferiore a 80 sono difficili da leggere per chi ha la licenza elementare;
+\item inferiore a 60 sono difficili da leggere per chi ha la licenza media;
+\item inferiore a 40 sono difficili da leggere per chi ha un diploma superiore.
+\end{itemize}
+\begin{itemize}
+\item Range di accettazione: \begin{math}[50 - 100]\end{math}
+\item Range ottimale: \begin{math}[60 - 100]\end{math}
+\end{itemize}
+\subsection{Software Verification Process}
+\subsubsection{Obiettivi}
+\subsubsection{Metriche e misure}
+\newpage
+
+
+\section{Organizzazione}
+Di seguito vengono descritte le attività di verifica da effettuare per ogni fase di sviluppo. Tali fasi seguono la pianificazione definita nel documento allegato \textit{Piano-di-progetto-2.0.pdf}.
+\subsubsection{Analisi}
+\begin{itemize}
+\item \textbf{Organizzazione interna}:
+\begin{itemize}
+\item \textbf{XXXAssegnazione dei ruoli} secondo la pianificazione specificata nel documento \textit{Piano-di-Progetto-2.0.pdf} redatto dal Responsabile di progetto;
+\item \textbf{XXXCorretta pianificazione di sviluppo} secondo quanto stilato sempre nel documento \textit{Piano-di-Progetto-2.0.pdf}. In particolare viene verificata la corretta divisione temporale delle diverse fasi di progetto (vedere sezione precedente) e la correttezza del preventivo in base al budget disponibile;
+\item \textbf{XXXDisponibilità delle risorse umane e tecnologiche} e dell'ambiente di lavoro;
+\item \textbf{XXXLettura e sottoscrizione delle Norme di Progetto}. Il responsabile deve accertarsi che ogni membro del gruppo abbia letto e compreso il documento \textit{Norme-di-progetto-2.0}. Il documento deve essere quindi preventivamente redatto.
+
+
+\end{itemize} 
+ 
+\item \textbf{Documentazione}: il processo di verifica per la documentazione deve seguire le linee guida descritte nella sezione 3 (Misure e metriche: parametri di tolleranza).
+%\begin{itemize}
+%\item Verifica della presenza di tutti i documenti necessari;
+%\item Attinenza di ogni documento alle specifiche di stile e formattazione presenti nel documento \textit{Norme-di-progetto-1.0};
+%\item Verifica della presenza e del corretto utilizzo del registro delle modifiche interno ad ogni documento;
+%\item Verifica iniziale dei documenti tramite la tecnica di analisi statica \textbf{walkthrough};
+%\item Verifica dei documenti tramite tecnica di analisi statica di tipo \textbf{inspection}. In questo caso l'attenzione del verificatore si focalizza solo su particolari aspetti del testo (per esempio accenti, sillabazione, maiuscole, ecc);
+%\item Monitoraggio da parte dei verificatori del registro delle modifiche in modo da poter attuare la verifica solo alla parte inerente alla sezione modificata;
+%\item \textbf{Coerenza} di informazioni tra i diversi documenti;
+%\item Verifica di assenza di \textbf{ridondanza} di determinati contenuti tra i diversi documenti;
+%\item Calcolo dell'indice di leggibilità \textbf{Gulpease}.
+%\end{itemize}
+
+ 
+
+\end{itemize}
+
+\subsubsection{Progettazione architetturale}
+
+\subsubsection{Progettazione di dettaglio e Codifica}
+Durante questa fase la verifica è volta al controllo del corretto funzionamento dell'applicazione tramite tecniche di analisi statica (walkthrough e inspection) e dinamica. Durante lo sviluppo del codice è di fondamentale importanza procedere di pari passo con la verifica tramite i test di unità.
+Il codice prodotto deve seguire le regole definite nel documento \textit{Norme-di-progetto-2.0.pdf} e le direttive definite nel documento \textit{Definizione-di-dettaglio-1.0.pdf}.
+%\subsection{Verifica e validazione}
+%RAMO ASCENDENTE DEL MODELLO A V\\
+%-test di unità\\
+%-test di integrazione\\
+%-test di sistema\\
+%-test di accettazione\\
+%\begin{figure}[h!]
+%\centering
+%\includegraphics[scale=0.4]{../images/vmodel-final4.png}
+%\caption{Fasi di sviluppo}
+%\end{figure} 
+
 %In periodi di alta attività il numero di commit per persona deve essere maggiore o uguale a 1 (viene inteso un commit significativo relativo all'intera giornata di lavoro) 
 %da qui in poi il resto del documento è abbastanza incompleto (quello che c'è però va bene) e ti darò una mano a finirlo in questi giorni
 %ti prego però, non scrivere ancora la parola "verifica", usa qualche sinonimo che l'hai ripetuta tipo 40 volte XD
@@ -317,15 +592,11 @@ La verifica del completamento dei ticket viene integrata con un controllo altret
 %\item \textbf{Trello}: piattaforma online per l'organizzazione e la gestione di progetti. 
 %\end{itemize}
 %\textit{Si rimanda alla sezione Misure e Metriche del presente documento per una spiegazione dettagliata delle metriche utilizzate da Complexity-report, e al documento Norme-di-progetto.pdf per quanto riguarda le modalità di utilizzo dei sopracitati software.} 
-\subsection{Procedure di controllo qualità di prodotto}
-\begin{itemize}
-\item \textbf{Software Quality Assurance}: insieme delle attività volte a garantire il raggiungimento degli obiettivi di qualità. Queste attività prevedono l'utilizzo di tecniche di analisi statica e dinamica
-\item \textbf{Verifica}: attività costante durante l'intera fase del progetto; serve a controllare che l'output aspettato dalle entità in oggetto di verifica.
-\item \textbf{Validazione}: la conferma oggettiva che il sistema soddisfi i requisiti. 
 
+\newpage
 \end{itemize}
-\section{Misure e metriche: parametri di tolleranza}
-Di seguito vengono elencate le metriche adottate per il controllo qualitativo dei processi, dei documenti e del prodotto software in sviluppo. Per una dettagliata descrizione di ogni metrica vedere la sezione appendici in coda al documento. 
+\section{Misure e metriche: riepilogo parametri di tolleranza}
+Di seguito vengono elencate le metriche adottate per il controllo qualitativo dei processi, dei documenti e del prodotto software in sviluppo. 
 \subsection{Processi}
 Metriche utilizzate per il controllo dell'andamento dei processi di supporto allo sviluppo:
 \begin{center}
@@ -346,18 +617,7 @@ La metrica che si è scelto di utilizzare per un'analisi il più possibile ogget
 Gulpease Index &  \begin{math}[50 - 100]\end{math} & \begin{math}[60 - 100]\end{math} \\ \hline
 \end{tabular}
 \end{center}
-Oltre a questo, la documentazione subisce un processo di verifica più approfondito secondo le seguenti linee guida:  
-\begin{itemize}
-\item Verifica della presenza di tutti i documenti necessari;
-\item Attinenza di ogni documento alle specifiche di stile e formattazione presenti nel documento \textit{Norme-di-progetto-2.0};
-\item Verifica della presenza e del corretto utilizzo del registro delle modifiche interno ad ogni documento;
-\item Verifica iniziale dei documenti tramite la tecnica di analisi statica \textbf{walkthrough};
-\item Verifica dei documenti tramite tecnica di analisi statica di tipo \textbf{inspection}. In questo caso l'attenzione del verificatore si focalizza solo su particolari aspetti del testo (per esempio accenti, sillabazione, maiuscole, ecc);
-\item Monitoraggio da parte dei verificatori del registro delle modifiche in modo da poter attuare la verifica solo alla parte inerente alla sezione modificata;
-\item \textbf{Coerenza} di informazioni tra i diversi documenti;
-\item Verifica di assenza di \textbf{ridondanza} di determinati contenuti tra i diversi documenti;
-\item Calcolo dell'indice di leggibilità \textbf{Gulpease}.
-\end{itemize}
+
 
 \subsection{Software}
 Per l'analisi statica del codice prodotto viene utilizzato il software di analisi Complexity-report, per una descrizione dettagliata delle metriche utilizzate dal software vedere appendice B sezione 3.5.
@@ -393,60 +653,11 @@ I valori di tolleranza fissati per tale indice sono:
 \section{Misure e Metriche}
 \label{Appendice A}
 \subsection{Di progetto}
-\subsubsection{Schedule Variance}
-Il valore SV (schedule variance) indica se si è in linea, in anticipo o in ritardo rispetto alla schedulazione delle attività di progetto pianificate nella baseline.\\
-Se SV > 0 significa che il progetto sta producendo (ossia rilasciando deliverable) con maggior velocità a quanto pianificato, viceversa se negativo.
-Formula:
-\begin{center}
-\textbf{SV = BCWP – BCWS\\}
-\end{center}
-Dati:
-\begin{itemize}
-\item \textbf{BCWP} (Budgeted Cost of Work Performed): Valore delle attività realizzate alla data corrente.
-\item \textbf{BCWS} (Budgeted Cost of Work Scheduled): Costo pianificato per realizzare le attività di progetto alla data corrente.
-\end{itemize}
-\begin{itemize}
-	\item Range-accettazione: \begin{math} [ \ge -(PreventivoFase*5\%)]
-	\end{math}
-	\item Range-ottimale: \begin{math}[ \ge 0]\end{math}
-	\end{itemize}
-\subsubsection{Budget variance} Indica se alla data corrente si è speso di più o di meno rispetto a quanto previsto a budget alla data corrente.\\
-Formula: 
-\begin{center}
-\textbf{BV = BCWS – ACWP}
-\end{center}
-Dati:
-\begin{itemize}
-\item \textbf{ACWP} (Actual Cost of Work Performed): Costo effettivamente sostenuto alla data corrente.
-\end{itemize}
-Se BV > 0 significa che il progetto sta spendendo il proprio budget con minor velocità di quanto pianificato, viceversa se negativo. Il fatto di spendere più velocemente il budget non ha nulla a che fare con il risparmio che se ne può avere, rappresentato invece da CV.\\\\
-Parametri utilizzati: 
-\begin{itemize}
-	\item Range-accettazione: \begin{math}[ \ge -(PreventivoFase*10\%)]
-	\end{math}
-	\item Range-ottimale: \begin{math}[ \ge 0]\end{math}
-	\end{itemize}
+
+
 \subsection{Per i documenti}
 
-\subsubsection{Indice Gulpease} Indice di leggibilità di un testo tarato sulla lingua italiana. \\
-Questo indice considera due variabili linguistiche: la lunghezza della parola e la lunghezza della frase rispetto al numero delle lettere.
-La formula per il suo calcolo è la seguente:\\
-\begin{center}
-\begin{math}
-89 - \frac{(300 * NumeroFrasi) - (10 * NumeroLettere)}{NumeroParole}
-\end{math}
-\end{center}
-I risultati sono compresi tra 0 e 100, dove il valore 100 indica la leggibilità più alta e 0 la leggibilità più bassa.\\
-In generale risulta che testi con un indice:
-\begin{itemize}
-\item inferiore a 80 sono difficili da leggere per chi ha la licenza elementare;
-\item inferiore a 60 sono difficili da leggere per chi ha la licenza media;
-\item inferiore a 40 sono difficili da leggere per chi ha un diploma superiore.
-\end{itemize}
-\begin{itemize}
-\item Range di accettazione: \begin{math}[50 - 100]\end{math}
-\item Range ottimale: \begin{math}[60 - 100]\end{math}
-\end{itemize}
+
 \subsection{Per il software}
 
 In questa sezione vengono elencate le metriche utilizzate dal software di analisi Complexity-report come \textbf{Maintainability Index}\addglos, \textbf{Metriche di Halstead}\addglos e \textbf{Complessità Ciclomatica}\addglos) e altri indicatori come la percentuale di \textit{Copertura dei test} e la validazione W3C\addglos dei file HTML.  
@@ -455,85 +666,13 @@ Di seguito vengono presentate le metriche utilizzate per ogni livello.
 
 %\subsubsection{Logical LOC}
 %Numero di righe di codice che rappresentano degli statement\addglos. 
-\subsubsection{Parameter count}
-Numero di parametri per funzione. Valori bassi sono da preferire.
-Parametri utilizzati:
-\begin{itemize}
-	\item Range di accettazione: \begin{math}[0 - 7]\end{math}
-	\item Range ottimale: \begin{math}[0 - 5]\end{math}
-	\end{itemize}
-\subsubsection{Cyclomatic complexity}
-Metrica software usata per indicare la complessità ciclomatica di un programma. Rappresenta una misura quantitativa del numero di cammini linearmente indipendenti che si possono percorrere nel codice sorgente.  
-La complessità ciclomatica può essere misurata per funzioni individuali, metodi e classi all'interno di un programma.
-\begin{itemize}
-	\item Range di accettazione: \begin{math}[0 - 15]\end{math}
-	\item Range ottimale: \begin{math}[0 - 10]\end{math}
-	\end{itemize}
-\subsubsection{Metriche di Halstead} Queste metriche sono state concepite per identificare proprietà misurabili del codice e le relazioni tra di esse. Questi numeri sono staticamente calcolati dal codice sorgente.\\
-Dati: 
-\begin{itemize}
-\item \textit{n}\begin{tiny}{\ped{1}} \end{tiny} = numero di operatori distinti;
-\item \textit{n}\begin{tiny}{\ped{2}} \end{tiny} = numero di operandi distinti;
-\item \textit{N}\begin{tiny}{\ped{1}} \end{tiny} = numero totale degli operatori;
-\item \textit{N}\begin{tiny}{\ped{2}} \end{tiny} = numero totale degli operandi.
-\end{itemize}
-
-Da questi numeri si possono calcolare le seguenti misure: 
- 
-\begin{itemize}
-\item Program Vocabulary: \textit{n} = \textit{n}\begin{tiny}{\ped{1}} \end{tiny} + \textit{n}\begin{tiny}{\ped{2}} \end{tiny}
-\item Program Lenght: \textit{N} = \textit{N}\begin{tiny}{\ped{1}} \end{tiny} + \textit{N}\begin{tiny}{\ped{2}} \end{tiny}
-\item \textbf{Volume}: \textit{V = Nlog\begin{tiny}{\ped{2}} \end{tiny}n}
-\begin{itemize}
-	\item Range di accettazione: \begin{math}[20 - 1500]\end{math}
-	\item Range ottimale: \begin{math}[20 - 1000]\end{math}
-	\end{itemize}
-%\item Number of Delivered Bugs: \textit{B} = 
-%\begin{math}
-%\frac{V}{3000}
-%\end{math}
+%\subsubsection{Parameter count}
+%Numero di parametri per funzione. Valori bassi sono da preferire.
+%Parametri utilizzati:
 %\begin{itemize}
-%	\item Range di accettazione: \begin{math}[ = 0 ]\end{math}
-%	\item Range ottimale: \begin{math}[ \le 2 ]\end{math}
+%	\item Range di accettazione: \begin{math}[0 - 7]\end{math}
+%	\item Range ottimale: \begin{math}[0 - 5]\end{math}
 %	\end{itemize}
-\item \textbf{Difficulty}: 
-\begin{math}
-D = \frac{\textit{n}\begin{tiny}{\ped{1}} \end{tiny}}{2} * \frac{\textit{N}\begin{tiny}{\ped{1}} \end{tiny}}{\textit{n}\begin{tiny}{\ped{2}} \end{tiny}}
-\end{math}
-\begin{itemize}
-	\item Range di accettazione: \begin{math}[0 - 30]\end{math}
-	\item Range ottimale: \begin{math}[0 - 15]\end{math}
-	\end{itemize}
-\item \textbf{Effort}: 
-\begin{math}
-E = D * V
-\end{math}
-\begin{itemize}
-	\item Range di accettazione: \begin{math}[0 - 400]\end{math}
-	\item Range ottimale: \begin{math}[0 - 300]\end{math}
-	\end{itemize}
-\end{itemize} 
-\subsubsection{Dependency count}
-Conteggio del numero di chiamate di tipo \textbf{require}\addglos di ogni metodo. Valori bassi sono da preferire.
-\subsubsection{Maintainability Index} Rappresenta l'indice principale dei risultati dell'analisi effettuata da Plato sull'intero codice. Compreso tra 0 e 100, questo indice rappresenta la relativa facilità di manutenzione del codice analizzato. Valori alti rappresentano miglior manutenibilità.\\
-Questo indice viene calcolato utilizzando la seguente formula: \\
-\begin{center}
-\begin{math}
-MI = MAX\bigg[ 0,100 \frac{171-5.2\ln V - 0,23G - 16,2\ln L}{171} \bigg]
-\end{math}
-\end{center}
-dove: 
-\begin{itemize}
-\item \textbf{MI} = Maintainability Index
-\item \textbf{V} = Halstead Volume
-\item \textbf{L} = Source Lines of Code (SLOC)
-\item \textbf{G} = Complessità Ciclomatica totale
-\end{itemize}
-Parametri utilizzati: 
-\begin{itemize}
-	\item Range di accettazione: \begin{math}[20 - 100]\end{math}
-	\item Range ottimale: \begin{math}[70 - 100]\end{math}
-	\end{itemize}
 %\begin{figure}[h!]
 %\centering
 %\includegraphics[scale=0.40]{plato_main.png}
@@ -575,34 +714,15 @@ Parametri utilizzati:
 %\caption{Plato report - Lint errors}
 %\end{figure}
 %\end{itemize}
+
 \subsubsection{First-order density}
 Percentuale di tutte le possibili dipendenze interne tra i moduli del progetto. 
 \begin{itemize}
 	\item Range di accettazione: \begin{math}[\le 20\%]\end{math}
 	\item Range ottimale: \begin{math}[\le 15\%]\end{math}
 	\end{itemize}
-\subsubsection{Change cost}
-Percentuale dei moduli affetti da cambiamento quando un modulo all'interno del progetto viene modificato.
-\begin{itemize}
-	\item Range di accettazione: \begin{math}[\le 50\%]\end{math}
-	\item Range ottimale: \begin{math}[\le 40\%]\end{math}
-	\end{itemize}
-\subsubsection{Core size}
-La percentuale dei moduli che hanno molte dipendenze verso (e da) altri moduli.
-\begin{itemize}
-	\item Range di accettazione: \begin{math}[\le 30\%]\end{math}
-	\item Range ottimale: \begin{math}[\le 25\%]\end{math}
-	\end{itemize}
-\subsubsection{Copertura dei test}
-Indica la percentuale dei casi testati rispetto alla totalità dei casi da testare. Una percentuale del 100\% può essere auspicabile solo se sono stati ben definiti i casi che necessitano realmente di essere testati. 
-\begin{center}
-\textit{Copertura dei test = Numero funzioni testate * 100/Numero funzioni da testare}
-\end{center}
-Parametri utilizzati: 
-\begin{itemize}
-	\item Range-accettazione: \begin{math}[70 - 100]\end{math}
-\item Range-ottimale: \begin{math}[80 - 100]\end{math}
-	\end{itemize}
+
+
 \subsubsection{W3C - Markup Validation Service}
 Per la validazione delle pagine HTML e i file CSS sviluppati si intende affidarsi allo strumento online W3C Markup Validation Service (\url{https://validator.w3.org/}). 
 
