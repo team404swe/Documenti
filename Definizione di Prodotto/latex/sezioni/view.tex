@@ -12,11 +12,11 @@
 				\item\textbf{Relazioni d'uso con altre componenti:} L'interfaccia Page viene concretizzata dalle sue classi derivate, una rappresentativa per ogni pagina dell'applicazione\\ \\
 \item\textbf{Attributi}:
 	\begin{itemize}
-		\item\code{controller}: reference to page controller\\
+		\item\code{- controller}: riferimento al controller della page\\
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{show()}: metodo astratto che mostra il contenuto della pagina\\
+		\item\code{+ show()}: metodo astratto che mostra il contenuto della pagina\\
 	\end{itemize}
 \end{itemize}
 
@@ -31,7 +31,7 @@ La classe utilizza:
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{show()}: visualizza il form di autenticazione al sistema\\
+		\item\code{+ show()}: visualizza il form di autenticazione al sistema\\
 		\textbf{Precondizioni}: viene richiesta la pagina di autenticazione. L'utente non è ancora autenticato\\
 		\textbf{Postcondizioni}: viene visualizzata la pagina di autenticazione\\
 	\end{itemize}
@@ -48,7 +48,7 @@ La classe utilizza:
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{show()}: visualizza il form di registrazione al sistema\\
+		\item\code{+ show()}: visualizza il form di registrazione al sistema\\
 		\textbf{Precondizioni}: viene richiesta la pagina di registrazione. L'utente non è autenticato\\
 		\textbf{Postcondizioni}: viene visualizzata la pagina di registrazione\\
 	\end{itemize}
@@ -65,7 +65,7 @@ La classe utilizza:
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{show()}: visualizza il form per il recupero della password\\
+		\item\code{+ show()}: visualizza il form per il recupero della password\\
 		\textbf{Precondizioni}: viene richiesta la pagina della procedura per il recupero della password. L'utente non è autenticato\\
 		\textbf{Postcondizioni}: viene visualizzata la pagina della procedura per il recupero della password\\
 	\end{itemize}
@@ -82,11 +82,11 @@ La classe utilizza:
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
-		\item\code{user}: l'utente autenticato che sta creando il questionario\\
+		\item\code{- user}: l'utente autenticato che sta creando il questionario\\
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{show()}: visualizza il form per la creazione di un questionario\\
+		\item\code{+ show()}: visualizza il form per la creazione di un questionario\\
 		\textbf{Precondizioni}: viene richiesta la pagina di creazione di un questionario. L'utente è autenticato\\
 		\textbf{Postcondizioni}: viene visualizzata la pagina di creazione di un questionario\\
 	\end{itemize}
@@ -103,12 +103,12 @@ La classe utilizza:
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
-		\item\code{user}: l'utente autenticato che sta modificando la domanda\\
-		\item\code{question}: la domanda da modificare\\
+		\item\code{- user}: l'utente autenticato che sta modificando la domanda\\
+		\item\code{- question}: la domanda da modificare\\
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{show()}: visualizza il form per la modifica di una domanda compilato con i dati attuali\\
+		\item\code{+ show()}: visualizza il form per la modifica di una domanda compilato con i dati attuali\\
 		\textbf{Precondizioni}: viene richiesta la pagina di modifica di una domanda. L'utente è autenticato\\
 		\textbf{Postcondizioni}: viene visualizzata la pagina di modifica di una domanda\\
 	\end{itemize}
@@ -125,11 +125,11 @@ La classe utilizza:
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
-		\item\code{user}: l'utente autenticato che sta creando la domanda\\
+		\item\code{- user}: l'utente autenticato che sta creando la domanda\\
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{show()}: visualizza il form per la creazione di una domanda\\
+		\item\code{+ show()}: visualizza il form per la creazione di una domanda\\
 		\textbf{Precondizioni}: viene richiesta la pagina di creazione di una domanda. L'utente è autenticato\\
 		\textbf{Postcondizioni}: viene visualizzata la pagina di creazione di una domanda\\
 	\end{itemize}
@@ -147,22 +147,22 @@ La classe utilizza:
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
-		\item\code{user}: l'utente autenticato che sta gestendo le proprie domande\\
-		\item\code{questions}: le domande dell'utente user\\
+		\item\code{- user}: l'utente autenticato che sta gestendo le proprie domande\\
+		\item\code{- questions}: le domande dell'utente user\\
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{show()}: visualizza la lista delle domande dell'utente permettendone la modifica e l'eliminazione. Permette inoltre di creare una nuova domanda, di ordinare la lista e fare una ricerca tra le domande\\
+		\item\code{+ show()}: visualizza la lista delle domande dell'utente permettendone la modifica e l'eliminazione. Permette inoltre di creare una nuova domanda, di ordinare la lista e fare una ricerca tra le domande\\
 			\textbf{Precondizioni}: viene richiesta la pagina di gestione delle proprie domande. L'utente è autenticato\\
 			\textbf{Postcondizioni}: viene visualizzata la pagina di gestione delle proprie domande\\
-		\item\code{sort(by)}: ordina la lista delle domande secondo il criterio \code{by}\\
+		\item\code{+ sort()}: ordina la lista delle domande secondo il criterio \code{by}\\
 			\textbf{Precondizioni}: l'utente ha selezionato un criterio di ordinamento\\
 			\textbf{Postcondizioni}: la lista di domande viene ordinata secondo il criterio inserito\\
 			\textbf{Parametri}:
 				\begin{itemize}
 					\item\code{by}: criterio di ordinamento\\
 				\end{itemize}
-		\item\code{search(query)}: visualizza la lista delle domande che soddisfano il criterio di ricerca \code{query}\\
+		\item\code{+ search()}: visualizza la lista delle domande che soddisfano il criterio di ricerca \code{query}\\
 			\textbf{Precondizioni}: l'utente ha selezionato un criterio di ricerca\\
 			\textbf{Postcondizioni}: la lista di domande viene filtrata secondo il criterio di ricerca\\
 			\textbf{Parametri}:
@@ -183,11 +183,11 @@ La classe utilizza:
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
-		\item\code{quizResults}: i risultati del quiz appena compilato dall'utente\\
+		\item\code{- quizResults}: i risultati del quiz appena compilato dall'utente\\
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{show()}: visualizza i risultati ottenuti nel quiz appena compilato\\
+		\item\code{+ show()}: visualizza i risultati ottenuti nel quiz appena compilato\\
 		\textbf{Precondizioni}: viene richiesta la pagina di visualizzazione dei risultati di un quiz. L'utente ha compilato un quiz\\
 		\textbf{Postcondizioni}: viene visualizzata la pagina di visualizzazione dei risultati di un quiz.\\
 	\end{itemize}
@@ -204,17 +204,17 @@ La classe utilizza:
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
-		\item\code{timer}: il tempo rimasto per la compilazione del questionario\\
+		\item\code{- timer}: il tempo rimasto per la compilazione del questionario\\
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{show()}: visualizza i dati del questionario e la domanda corrente. Permette l'inserimento o la scelta della risposta\\
+		\item\code{+ show()}: visualizza i dati del questionario e la domanda corrente. Permette l'inserimento o la scelta della risposta\\
 			\textbf{Precondizioni}: viene richiesta la pagina di compilazione di un quiz. L'utente ha scelto un quiz\\
 			\textbf{Postcondizioni}: viene visualizzata la pagina di compilazione di un quiz.\\
-		\item\code{nextQuestion()}: visualizza la domanda successiva nel riquadro della domanda corrente\\
+		\item\code{+ nextQuestion()}: visualizza la domanda successiva nel riquadro della domanda corrente\\
 			\textbf{Precondizioni}: viene richiesta la domanda successiva. L'utente ha compilato la domanda corrente o ha deciso di passare alla domanda successiva\\
 			\textbf{Postcondizioni}: viene visualizzata la domanda successiva.\\
-		\item\code{previousQuestion()}: visualizza la domanda precedente nel riquadro della domanda corrente\\
+		\item\code{- previousQuestion()}: visualizza la domanda precedente nel riquadro della domanda corrente\\
 			\textbf{Precondizioni}: viene richiesta la domanda precedente. L'utente ha deciso di passare alla domanda precedente\\
 			\textbf{Postcondizioni}: viene visualizzata la domanda precedente.\\
 	\end{itemize}
@@ -232,21 +232,21 @@ La classe utilizza:
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
-		\item\code{quizList}: la lista di quiz da visualizzare\\
+		\item\code{- quizList}: la lista di quiz da visualizzare\\
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{show()}: visualizza la lista dei questionari. Permette inoltre di ordinare la lista e fare una ricerca tra i questionari\\
+		\item\code{+ show()}: visualizza la lista dei questionari. Permette inoltre di ordinare la lista e fare una ricerca tra i questionari\\
 			\textbf{Precondizioni}: viene richiesta una pagina che mostri una lista di questionari\\
 			\textbf{Postcondizioni}: viene visualizzata una pagina che mostra una lista di questionari\\
-		\item\code{sort(by)}: ordina la lista dei questionari secondo il criterio \code{by}\\
+		\item\code{+ sort()}: ordina la lista dei questionari secondo il criterio \code{by}\\
 			\textbf{Precondizioni}: l'utente ha selezionato un criterio di ordinamento\\
 			\textbf{Postcondizioni}: la lista di questionari viene ordinata secondo il criterio inserito\\
 			\textbf{Parametri}:
 				\begin{itemize}
 					\item\code{by}: criterio di ordinamento\\
 				\end{itemize}
-		\item\code{search(query)}: visualizza la lista dei questionari che soddisfano il criterio di ricerca \code{query}\\
+		\item\code{+ search()}: visualizza la lista dei questionari che soddisfano il criterio di ricerca \code{query}\\
 			\textbf{Precondizioni}: l'utente ha selezionato un criterio di ricerca\\
 			\textbf{Postcondizioni}: la lista dei questionari viene filtrata secondo il criterio di ricerca\\
 			\textbf{Parametri}:
@@ -266,21 +266,21 @@ La classe utilizza:
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
-		\item\code{categories}: la lista delle categorie da visualizzare\\
+		\item\code{- categories}: la lista delle categorie da visualizzare\\
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{show()}: visualizza la lista delle categorie. Permette inoltre di ordinare la lista e fare una ricerca tra le categorie\\
+		\item\code{+ show()}: visualizza la lista delle categorie. Permette inoltre di ordinare la lista e fare una ricerca tra le categorie\\
 			\textbf{Precondizioni}: viene richiesta una pagina che mostri una lista di categorie\\
 			\textbf{Postcondizioni}: viene visualizzata una pagina che mostra una lista di categorie\\
-		\item\code{sort(by)}: ordina la lista delle categorie secondo il criterio \code{by}\\
+		\item\code{+ sort(by)}: ordina la lista delle categorie secondo il criterio \code{by}\\
 			\textbf{Precondizioni}: l'utente ha selezionato un criterio di ordinamento\\
 			\textbf{Postcondizioni}: la lista di categorie viene ordinata secondo il criterio inserito\\
 			\textbf{Parametri}:
 				\begin{itemize}
 					\item\code{by}: criterio di ordinamento\\
 				\end{itemize}
-		\item\code{search(query)}: visualizza la lista delle categorie che soddisfano il criterio di ricerca \code{query}\\
+		\item\code{+ search()}: visualizza la lista delle categorie che soddisfano il criterio di ricerca \code{query}\\
 			\textbf{Precondizioni}: l'utente ha selezionato un criterio di ricerca\\
 			\textbf{Postcondizioni}: la lista delle categorie viene filtrata secondo il criterio di ricerca\\
 			\textbf{Parametri}:
