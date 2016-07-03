@@ -11,8 +11,8 @@
 	\item\textbf{Relazione d'uso con altre componenti}: \\
 La classe utilizza:
 	\begin{itemize}
-		\item QuestionMethods
-		\item QuestionForm
+		\item ViewModel::Methods::QuestionMethods
+		\item View::Templates::QuestionForm
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
@@ -40,8 +40,8 @@ La classe utilizza:
 \item\textbf{Relazioni con altre componenti}: \\
 La classe utilizza:
 	\begin{itemize}
-		\item QuizMethods
-		\item QuizCreationForm
+		\item ViewModel::Methods::QuizMethods
+		\item View::Templates::QuizCreationForm
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
@@ -71,7 +71,7 @@ La classe utilizza:
 	\item\textbf{Relazione d'uso con altre componenti}:
 La classe utilizza:
 	\begin{itemize}
-		\item QuizList
+		\item View::Templates::QuizList
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
@@ -99,7 +99,7 @@ La classe utilizza:
 	\item\textbf{Relazione d'uso con altre componenti}: \\
 La classe utilizza:
 	\begin{itemize}
-		\item QuizList
+		\item View::Templates::QuizList
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
@@ -126,8 +126,8 @@ La classe utilizza:
 	\item\textbf{Relazione d'uso con altre componenti}: \\
 La classe utilizza:
 	\begin{itemize}
-		\item QuestionMethods
-		\item QuestionList
+		\item ViewModel::Methods::QuestionMethods
+		\item View::Templates::QuestionList
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
@@ -155,8 +155,8 @@ La classe utilizza:
 	\item\textbf{Relazione d'uso con altre componenti}: \\
 La classe utilizza:
 	\begin{itemize}
-		\item QuizMethods
-		\item QuizList
+		\item ViewModel::Methods::QuizMethods
+		\item View::Templates::QuizList
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
@@ -183,7 +183,7 @@ La classe utilizza:
 	\item\textbf{Relazione d'uso con altre componenti}: \\
 La classe utilizza:
 	\begin{itemize}
-		\item QuestionCompilation
+		\item View::Templates::QuestionCompilation
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
@@ -216,8 +216,8 @@ La classe utilizza:
 	\item\textbf{Relazione d'uso con altre componenti}: \\
 La classe utilizza:
 	\begin{itemize}
-		\item QuestionCompilation
-		\item QuestionMethods
+		\item View::Templates::QuestionCompilation
+		\item ViewModel::Methods::QuestionMethods
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
@@ -244,8 +244,8 @@ La classe utilizza:
 	\item\textbf{Relazione d'uso con altre componenti}: \\
 La classe utilizza:
 	\begin{itemize}
-		\item NewQuestion
-		\item QuestionMethods
+		\item ViewModel::Controllers::NewQuestionController
+		\item ViewModel::Methods::QuestionMethods
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
@@ -274,7 +274,7 @@ La classe utilizza:
 	\item\textbf{Relazione d'uso con altre componenti}: \\
 La classe utilizza:
 	\begin{itemize}
-		\item QuestionsPublisher	
+		\item Model::Publishers::QuestionsPublisher	
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
@@ -297,7 +297,7 @@ La classe utilizza:
 	\item\textbf{Relazione d'uso con altre componenti}:\\
 La classe utilizza:
 	\begin{itemize}
-		\item QuizPublisher
+		\item Model::Publishers::QuizPublisher
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
@@ -320,7 +320,7 @@ La classe utilizza:
 	\item\textbf{Relazione d'uso con altre componenti}: \\
 La classe utilizza:
 	\begin{itemize}
-		\item UserPublisher
+		\item Model::Publishers::UserPublisher
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
@@ -344,7 +344,7 @@ La classe utilizza:
 	\item\textbf{Relazione d'uso con altre componenti}: \\
 La classe utilizza:
 	\begin{itemize}
-		\item QuestionPublisher
+		\item Model::Publishers::QuestionPublisher
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
@@ -371,7 +371,7 @@ La classe utilizza:
 	\item\textbf{Relazione d'uso con altre componenti}: \\
 La classe utilizza:
 	\begin{itemize}
-		\item QuizPublisher
+		\item Model::Publishers::QuizPublisher
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
@@ -398,7 +398,7 @@ La classe utilizza:
 	\item\textbf{Relazione d'uso con altre componenti}: \\
 La classe utilizza:
 	\begin{itemize}
-		\item UserPublisher
+		\item Model::Publishers::UserPublisher
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
@@ -423,7 +423,7 @@ La classe utilizza:
 \subsubsection{ViewModel::Interpreter::Interpreter}
 \begin{itemize}
 \item\textbf{Funzione del componente}: interfaccia di base del tipo Interpreter.
-	\item\textbf{Relazione d'uso con altre componenti}: viene concretizzata in QMLInterpreter.\\ \\
+	\item\textbf{Relazione d'uso con altre componenti}: viene concretizzata in ViewModel::Interpreter::QMLInterpreter.\\ \\
 
 \item\textbf{Attributi}: nessuno
 \item\textbf{Metodi}:
@@ -439,7 +439,7 @@ La classe utilizza:
 \subsubsection{ViewModel::Interpreter::InterpreterFactory}
 \begin{itemize}
 \item\textbf{Funzione del componente}: interfaccia di base delle Factory di tipi Interpreter.
-	\item\textbf{Relazione d'uso con altre componenti}: viene concretizzata da QMLInterpreterFactory.\\ 
+	\item\textbf{Relazione d'uso con altre componenti}: viene concretizzata da ViewModel::Interpreter::QMLInterpreterFactory.\\ 
 \item\textbf{Attributi}: nessuno
 \item\textbf{Metodi}:
 	\begin{itemize}
@@ -450,7 +450,7 @@ La classe utilizza:
 \subsubsection{ViewModel::Interpreter::QMLInterpreterFactory}
 \begin{itemize}
 \item\textbf{Funzione del componente}: crea oggetti di tipo QMLInterpreter.
-	\item\textbf{Relazione d'uso con altre componenti}: è concretizzazione dalla classe InterpreterFactory. Crea oggetti QMLInterpreter.\\
+	\item\textbf{Relazione d'uso con altre componenti}: è concretizzazione dalla classe ViewModel::Interpreter::InterpreterFactory. Crea oggetti QMLInterpreter.\\
 \item\textbf{Attributi}:
 	\begin{itemize}
 		\item\code{- instance: QMLInterpreterFactory}: campo dati statico che rappresenta l'unica istanza della classe\\
@@ -466,7 +466,7 @@ La classe utilizza:
 \subsubsection{ViewModel::Interpreter::QMLInterpreter}
 \begin{itemize}
 \item\textbf{Funzione del componente}: classe astratta che rappresenta gli Interpreter che traducono codice QML in un altro formato.
-	\item\textbf{Relazione d'uso con altre componenti}: è sottotipo di Interpreter. Viene concretizzata in QML2HTMLInterpreter.\\ 
+	\item\textbf{Relazione d'uso con altre componenti}: è sottotipo di ViewModel::Interpreter::Interpreter. Viene concretizzata in ViewModel::Interpreter::QML2HTMLInterpreter.\\ 
 \item\textbf{Attributi}: Nessuno
 \item\textbf{Metodi}:
 	\begin{itemize}
@@ -481,7 +481,7 @@ La classe utilizza:
 \subsubsection{ViewModel::Interpreter::QML2HTMLInterpreterFactory}
 \begin{itemize}
 \item\textbf{Funzione del componente}: traduce codice QML in codice HTML.
-	\item\textbf{Relazione d'uso con altre componenti}: la classe è concretizzazione di QMLInterpreter.\\
+	\item\textbf{Relazione d'uso con altre componenti}: la classe è concretizzazione di ViewModel::Interpreter::QMLInterpreter.\\
 \item\textbf{Attributi}: Nessuno
 \item\textbf{Metodi}:
 	\begin{itemize}
