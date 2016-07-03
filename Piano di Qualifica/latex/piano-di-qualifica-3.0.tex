@@ -1535,14 +1535,14 @@ ViewModel::Router & TI11
 
 \begin{center}
 \begin{longtable}
-{p{0.60\columnwidth} p{0.23\columnwidth}}
+{l c}
 			\caption{Tracciamento Componenti - Test di integrazione} \\
 
-\textbf{Metodo/Classe} & \textbf{ID Test} \\
-\midrule
+\textbf{Metodo} & \textbf{ID Test} \\
+
 \endfirsthead
 
-\textbf{Metodo/Classe} & \textbf{ID Test} \\
+\textbf{Metodo} & \textbf{ID Test} \\
 \midrule
 \endhead
 
@@ -1551,22 +1551,37 @@ ViewModel::Router & TI11
 
 \multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Tracciamento Componenti - Test di integrazione}
 \endlastfoot
-Model::Database::UserManager::logIn() & TU1 \\\midrule
-Model::Database::UserManager::addUser() & TU2 \\\midrule
-Model::Database::UserManager::removeUser() & TU3 \\\midrule
-Model::Database::QuestionManager::addQuestion() & TU4 \\\midrule
-Model::Database::QuestionManager::modifyQuestion & TU5\\\midrule
-Model::Database::QuestionManager::removeQuestion & TU6 \\\midrule
-Model::Database::QuizManager::addQuiz() & TU7 \\\midrule
-Model::Database::QuizManager::modifyQuiz() & TU8 \\\midrule
-Model::Database::QuizManager::removeQuiz() & TU9 \\\midrule
-Model::Parser::check() & TU10 \\\midrule
-Model::Statistics::updateQuestionStatistic() & TU11 \\\midrule
-Model::Statistics::updateQuizStatistic() & TU12 \\\midrule
-Model::Statistics::updateUserStatistics() & TU13 \\\midrule
-Model::Publishers::UserPublishers::publishUser() & TU14 \\\midrule
-Model::Publishers::UserPublishers::publishQuiz() & TU15 \\\midrule
-Model::Publishers::UserPublishers::publishQuestion() & TU16\\
+\midrule
+Model::Database::QuizManager::addQuiz() & TU1 \\
+Model::Database::QuizManager::modifyQuiz() &\\
+Model::Database::QuizManager::removeQuiz() &\\\midrule
+Model::Database::QuestionManager::addQuestion() & TU2 \\
+Model::Database::QuestionManager::modifyQuestion()\\
+Model::Database::QuestionManager::removeQuestion()\\\midrule
+Model::Parser::Parser::check() & TU3\\\midrule
+Model::Statistics::Statistics::updateQuestionStats() & TU4\\
+Model::Statistics::Statistics::updateQuizStats() &\\
+Model::Statistics::Statistics::updateUserStatitics() &\\\midrule
+Model::Publishers::UserPublishers::publishUser() & TU5\\\midrule
+Model::Publishers::QuizPublishers::publishQuiz() & TU6 \\
+Model::Publishers::QuestionPublishers::publishQuestion()& \\\midrule
+ViewModel::Controllers::NewQuestionController::NewQuestionController()& TU7\\
+ViewModel::Controllers::NewQuestionController::saveQuestion() & \\\midrule
+ViewModel::Controllers::NewQuizController::newQuizController() & TU8\\
+ViewModel::Controllers::NewQuizController::saveQuiz() &\\
+\midrule
+ViewModel::Controllers::QuizListController::quizListController()&TU9\\
+ViewModel::Controllers::QuizListController::quizzes()&\\
+ViewModel::Controllers::QuizListController::quizDetails()&\\
+ViewModel::Controllers::QuizListController::orderBy()&\\
+\midrule
+ViewModel::Controllers::QuizDetailsController::quizDetailsController()&TU10 \\
+\midrule
+ViewModel::Controllers::DeleteQuestionController::DeleteQuestionController()&TU11\\
+ViewModel::Controllers::DeleteQuestionController::deleteQuestion() & \\
+
+
+
 
 \end{longtable}
 \end{center}
