@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.20)  3 JUL 2016 17:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.20)  3 JUL 2016 17:48
 entering extended mode
 **definizione_di_prodotto_1.0.tex
 (definizione_di_prodotto_1.0.tex
@@ -1253,16 +1253,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 150.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [6]
 Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 151.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 151--152
 
  []
@@ -1400,16 +1400,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--266
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 269.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [9]
 Underfull \hbox (badness 10000) in paragraph at lines 269--270
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 270.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [9]
+
 Underfull \hbox (badness 10000) in paragraph at lines 273--276
 
  []
@@ -1967,6 +1967,12 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../../team404_small.jpg used on input line 426.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [23]
+Overfull \hbox (78.90694pt too wide) in paragraph at lines 426--427
+[]\T1/fca/b/n/10.95 Relazione d'u-so con al-tre com-po-nen-ti\T1/fca/m/n/10.95 
+: vie-ne con-cre-tiz-za-ta in View-Mo-del::Interpreter::QMLInterpreter. 
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 426--427
 
  []
@@ -1982,6 +1988,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 434--435
  []
 
 
+Overfull \hbox (119.50948pt too wide) in paragraph at lines 442--443
+[]\T1/fca/b/n/10.95 Relazione d'u-so con al-tre com-po-nen-ti\T1/fca/m/n/10.95 
+: vie-ne con-cre-tiz-za-ta da View-Mo-del::Interpreter::QMLInterpreterFactory. 
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 442--443
 
  []
@@ -1989,6 +2002,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 442--443
 
 Underfull \hbox (badness 10000) in paragraph at lines 446--447
 
+ []
+
+
+Overfull \hbox (137.18274pt too wide) in paragraph at lines 453--454
+[]\T1/fca/b/n/10.95 Relazione d'u-so con al-tre com-po-nen-ti\T1/fca/m/n/10.95 
+: è con-cre-tiz-za-zio-ne dal-la clas-se View-Mo-del::Interpreter::InterpreterF
+actory.
  []
 
 
@@ -2021,6 +2041,12 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../../team404_small.jpg used on input line 463.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [24]
+Overfull \hbox (16.48106pt too wide) in paragraph at lines 469--470
+[]\T1/fca/b/n/10.95 Relazione d'u-so con al-tre com-po-nen-ti\T1/fca/m/n/10.95 
+: è sot-to-ti-po di View-Mo-del::Interpreter::Interpreter.
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 469--470
 
  []
@@ -2028,6 +2054,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 469--470
 
 Underfull \hbox (badness 10000) in paragraph at lines 476--477
 
+ []
+
+
+Overfull \hbox (120.26501pt too wide) in paragraph at lines 484--485
+[]\T1/fca/b/n/10.95 Relazione d'u-so con al-tre com-po-nen-ti\T1/fca/m/n/10.95 
+: la clas-se è con-cre-tiz-za-zio-ne di View-Mo-del::Interpreter::QMLInterprete
+r. 
  []
 
 
@@ -2236,7 +2269,7 @@ X 2.9/fonts/type1/public/cantarell/Cantarell-Regular.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/cantarell/Cantarell-Regular.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/cm-super/sftt1095.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/cm-super/sftt1440.pfb>
-Output written on definizione_di_prodotto_1.0.pdf (37 pages, 333364 bytes).
+Output written on definizione_di_prodotto_1.0.pdf (37 pages, 333424 bytes).
 PDF statistics:
  586 PDF objects out of 1000 (max. 8388607)
  105 named destinations out of 1000 (max. 500000)
