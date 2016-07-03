@@ -36,8 +36,8 @@
 \contentsline {subsection}{\numberline {6.2}Pianificazione attivit\IeC {\`a} di sviluppo}{14}{subsection.6.2}
 \contentsline {subsubsection}{\numberline {6.2.1}Rotazione dei ruoli}{14}{subsubsection.6.2.1}
 \contentsline {subsubsection}{\numberline {6.2.2}Analisi}{15}{subsubsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.3}Progettazione}{16}{subsubsection.6.2.3}
-\contentsline {subsubsection}{\numberline {6.2.4}Codifica}{18}{subsubsection.6.2.4}
+\contentsline {subsubsection}{\numberline {6.2.3}Progettazione Architetturale}{16}{subsubsection.6.2.3}
+\contentsline {subsubsection}{\numberline {6.2.4}Progettazione di Dettaglio e Codifica}{18}{subsubsection.6.2.4}
 \contentsline {subsubsection}{\numberline {6.2.5}Verifica e validazione}{20}{subsubsection.6.2.5}
 \contentsline {section}{\numberline {7}Conto Economico Preventivo}{21}{section.7}
 \contentsline {subsection}{\numberline {7.1}Vincoli economici e didattici}{21}{subsection.7.1}
@@ -59,4 +59,9 @@
 \contentsline {subsubsubsection}{\numberline {8.2.2.1}Progettazione di Dettaglio e Codifica}{32}{subsubsubsection.8.2.2.1}
 \contentsline {subsubsubsection}{\numberline {8.2.2.2}Prospetto Orario Aggiornato}{33}{subsubsubsection.8.2.2.2}
 \contentsline {subsubsubsection}{\numberline {8.2.2.3}Preventivo}{34}{subsubsubsection.8.2.2.3}
-\contentsline {subsection}{\numberline {8.3}Fase di Progettazione di Dettaglio e Codifica}{34}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.3}Fase di Progettazione di Dettaglio e Codifica}{35}{subsection.8.3}
+\contentsline {subsubsection}{\numberline {8.3.1}Consuntivo di periodo}{35}{subsubsection.8.3.1}
+\contentsline {subsubsection}{\numberline {8.3.2}Preventivo a finire}{35}{subsubsection.8.3.2}
+\contentsline {subsubsubsection}{\numberline {8.3.2.1}Verifica e validazione}{36}{subsubsubsection.8.3.2.1}
+\contentsline {subsubsubsection}{\numberline {8.3.2.2}Prospetto Orario Aggiornato}{37}{subsubsubsection.8.3.2.2}
+\contentsline {subsubsubsection}{\numberline {8.3.2.3}Preventivo}{38}{subsubsubsection.8.3.2.3}

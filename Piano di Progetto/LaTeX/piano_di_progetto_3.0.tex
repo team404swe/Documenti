@@ -37,7 +37,7 @@
 			{D. Bortot - M. Mbouenda}		%6 Redazione1
 			%{} 							%7 Redazione2
 			{Andrea Multineddu} 			%8 Verifica
-			{Luca Alessio} 				%9 Approvazione
+			{Alex Beccaro} 				%9 Approvazione
 	
 	\newpage
 	\thispagestyle{empty}
@@ -51,14 +51,15 @@
 	 		\hline			
 \rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}						{\hspace{5 mm} \textbf{Descrizione}}	
 			
-			\rigaregistro{3.0}{L. Alessio  \newline(Analista)}{10/06/2016}{Approvazione documento}
-			\rigaregistro{2.1.2}{M. Mbouenda  \newline(Responsabile)}{07/06/2016}{Correzioni errori rilevati in seguito a revisione}
-			\rigaregistro{2.1.3}{A. Multineddu  \newline(Progettista)}{05/06/2016}{Revisione documento}
-			\rigaregistro{2.1.1}{M. Mbouenda  \newline(Responsabile)}{03/06/2016}{Aggiunta Fase di Progettazione di dettaglio e codifica in sezione §\ref{conto:consuntivo}}			
+			\rigaregistro{3.0}{A. Beccaro   \newline(Responsabile)}{12/06/2016}{Approvazione documento. }
+			\rigaregistro{2.2}{M. Mbouenda  \newline(Verificatore)}{12/06/2016}{ verificate le sezioni §\ref{con:consuper} e \ref{con:prevfinire}}
+			\rigaregistro{2.1.3}{A. Beccaro  \newline(Responsabile)}{02/06/2016}{aggiunta preventivo a finire \ref{con:prevfinire} }
+			\rigaregistro{2.1.2}{A. Beccaro  \newline(Responsabile)}{01/06/2016}{aggiunta consuntivo di periodo in §\ref{con:consuper} }
+			\rigaregistro{2.1.1}{M. Crivellaro  \newline(Responsabile)}{30/05/2016}{aggiunta Fase di Progettazione di dettaglio e codifica in sezione §\ref{conto:consuntivo}}			
 			\rigaregistro{2.1.0}{A. Multineddu  \newline(Verificatore)}{29/05/2016}{Verifica della sezione §\ref{risk:rischi} e delle sotto sezioni §\ref{risk:risorse}, §\ref{risk:conoscenze }, §\ref{risk: errori} ,§\ref{risk:ritardi } }
-			\rigaregistro{2.0.3}{M. Mbouenda  \newline(Responsabile)}{28/05/2016}{Completamento analisi dei rischi in §\ref{risk:risorse}, §\ref{risk:conoscenze }, §\ref{risk: errori} ,§\ref{risk:ritardi } }
-			\rigaregistro{2.0.2}{M. Mbouenda \newline(Responsabile)}{28/05/2016}{Inizio analizzi dei rischi per la fase di progettazione di dettaglio e codifica.}
-			\rigaregistro{2.0.1}{M. Mbouenda \newline(Responsabile)}{27/05/2016}{Modifica di 'Analisi Dinamica' in 'Riscontro'.}
+			\rigaregistro{2.0.3}{M. Crivellaro  \newline(Responsabile)}{28/05/2016}{completamento analisi dei rischi in §\ref{risk:risorse}, §\ref{risk:conoscenze }, §\ref{risk: errori} ,§\ref{risk:ritardi } }
+			\rigaregistro{2.0.2}{M. Crivellaro \newline(Responsabile)}{28/05/2016}{inizio analizzi dei rischi per la fase di progettazione di dettaglio e codifica.}
+			\rigaregistro{2.0.1}{M. Crivellaro \newline(Responsabile)}{27/05/2016}{modifica di 'Analisi Dinamica' in 'Riscontro'.}
 			
 					
 			\rigaregistro{2.0}{M. Mbouenda \newline(Verificatore)}{12/05/2016}{Approvazione documento.}
@@ -113,15 +114,15 @@
 	\subsection{Scopo del prodotto}
 	Il progetto \textbf{Quizzipedia} ha come obiettivo lo sviluppo di un sistema software basato su tecnologie Web (Javascript\addglos, Node.js\addglos, HTML5\addglos, CSS3\addglos) che permetta la creazione, gestione e fruizione di questionari. Il sistema dovrà quindi poter archiviare i questionari suddivisi per argomento, le cui domande dovranno essere raccolte attraverso uno specifico linguaggio di markup (Quiz Markup Language) d'ora in poi denominato QML\addglos. In un caso d'uso a titolo esemplificativo, un "esaminatore" dovrà poter costruire il proprio questionario scegliendo tra le domande archiviate, ed il questionario così composto sarà presentato e fruibile all' "esaminando", traducendo l'oggetto QML\addglos in una pagina HTML\addglos, tramite un'apposita interfaccia web. Il sistema presentato dovrà inoltre poter proporre questionari preconfezionati e valutare le risposte fornite dall'utente finale.
 	\\
-	Per un'analisi più approfondita del progetto si rimanda al documento "\textit{analisi\_dei\_requisiti\_3.0.pdf}".
+	Per un'analisi più approfondita del progetto si rimanda al documento "\textit{analisi\_dei\_requisiti\_2.0.pdf}".
 	\subsection{Glossario}
-	Viene allegato un glossario nel file ``\textit{glossario\_3.0.pdf}'' nel quale viene data una definizione a tutti i termini che in questo documento appaiono con il simbolo "\addglos" a pedice .
+	Viene allegato un glossario nel file ``\textit{glossario\_2.0.pdf}'' nel quale viene data una definizione a tutti i termini che in questo documento appaiono con il simbolo "\addglos" a pedice .
 	\subsection{Riferimenti}
 		\subsubsection{Normativi}
 		\begin{itemize}
 			\item Capitolato d'appalto Quizzipedia:\\
 			\url{http://www.math.unipd.it/~tullio/IS-1/2015/Progetto/C5.pdf}
-			\item Norme di Progetto: "\textit{norme\_di\_progetto\_3.0.pdf}"
+			\item Norme di Progetto: "\textit{norme\_di\_progetto\_2.0.pdf}"
 		\end{itemize}
 		\subsubsection{Informativi}
 		\begin{itemize}
@@ -205,7 +206,7 @@
 			\end{table}	
 
 	\subsection{Ruoli di progetto}
-		Per un più sistematico sviluppo di progetto, e per adempiere alle regole di progetto riportate nella sezione Riferimenti, ai componenti del gruppo verranno assegnati nel tempo 6 diversi ruoli: \textbf{Responsabile}, \textbf{Amministratore}, \textbf{Analista}, \textbf{Progettista}, \textbf{Programmatore} e \textbf{Verificatore} la cui definizione è data nel documento "\textit{norme\_di\_progetto\_3.0.pdf}". La pianificazione delle risorse assicurerà che tutti gli elementi del gruppo ricopriranno almeno una volta ognuno dei ruoli riportati, in modo da poter spaziare nei vari ambiti dello sviluppo software.
+		Per un più sistematico sviluppo di progetto, e per adempiere alle regole di progetto riportate nella sezione Riferimenti, ai componenti del gruppo verranno assegnati nel tempo 6 diversi ruoli: \textbf{Responsabile}, \textbf{Amministratore}, \textbf{Analista}, \textbf{Progettista}, \textbf{Programmatore} e \textbf{Verificatore} la cui definizione è data nel documento "\textit{norme\_di\_progetto\_2.0.pdf}". La pianificazione delle risorse assicurerà che tutti gli elementi del gruppo ricopriranno almeno una volta ognuno dei ruoli riportati, in modo da poter spaziare nei vari ambiti dello sviluppo software.
 		
 	\pagebreak	
 	
@@ -497,8 +498,8 @@ I ruoli subiranno una rotazione per permettere a tutti gli elementi di avere esp
 		
 		Come evidenziato dalla Figura 2 la maggior parte dell'impegno è stata riposta nell'assicurare un'approfondita analisi dei requisiti, mentre c'è stato pari impegno nella stesura dei documenti di competenza rispettivamente di Responsabile e Amministratore. Più di un quarto delle ore preventivate è stato usato nel processo di verifica, controllo di qualità e validazione del materiale prodotto, processo che è continuato fino alla data di consegna. I costi sostenuti e le ore svolte in questa prima fase non verranno acclusi al preventivo, ma vengono riportati per completezza.
 		\pagebreak
-		\subsubsection{Progettazione}
-		Questa fase ha avuto inizio il 19/04/2016 ed è finita il 22/05/2016. In virtù dell'attenta analisi dei requisiti derivante dalla fase precedente, il gruppo conta di poter iniziare fin da subito un'efficace attività di progettazione. L'uscita dalla fase coinciderà con la partecipazione alla RP-max, quindi alla presentazione del prodotto già definito a livello di progettazione di dettaglio. In questo periodo lo sviluppo sarà incentrato sui seguenti punti:
+		\subsubsection{Progettazione Architetturale}
+		Questa fase ha avuto inizio il 19/04/2016 ed è finita il 22/05/2016. In virtù dell'attenta analisi dei requisiti derivante dalla fase precedente, il gruppo conta di poter iniziare fin da subito un'efficace attività di progettazione. L'uscita dalla fase coinciderà con la partecipazione alla RP-min, quindi alla presentazione dell'architettura del prodotto . In questo periodo lo sviluppo sarà incentrato sui seguenti punti:
 		\begin{itemize}
 		\item Continuo raffinamento e validazione dei requisiti;
 		\item Trasformazione dei requisiti in una solida progettazione architetturale, che costituisca una base il più possibile stabile per futuri incrementi;
@@ -566,7 +567,7 @@ I ruoli subiranno una rotazione per permettere a tutti gli elementi di avere esp
 		
 		La suddivisione del lavoro è stata pensata in modo che l'attività del progettista, ruolo che tutti gli elementi ricopriranno almeno una volta durante la fase, sia controllata e supportata da una notevole quantità d'ore dedicate al processo di verifica. Questa è la fase alla quale vengono dedicate più ore in tutto il progetto, in modo da garantire una progettazione completa che permetta di iniziare la codifica senza bisogno di molti aggiustamenti ulteriori.
 		\newpage
-		\subsubsection{Codifica}
+		\subsubsection{Progettazione di Dettaglio e Codifica}
 		Questa fase inizierà il 24/05/2016 e finirà il 10/07/2016. Nel primo periodo vi saranno le ultime attività di perfezionamento e correzione della progettazione; nel contempo inizierà l'attività di codifica basata sulla progettazione di dettaglio prodotta. Come per la fase precedente il processo principale, in questo caso la codifica, sarà continuamente monitorata e validata dal processo di verifica. Nell'ottica di consentire a tutto il gruppo di essere partecipe nel ruolo di Programmatore la rotazione dei ruoli è stata così definita:
 		\begin{table}[h!]			
 		\begin{center}
@@ -1151,8 +1152,145 @@ La fase si è conclusa con un costo di \textbf{2953 \euro}, inferiore di \textbf
 		
 		Dalle tabelle precedente, si nota che le ore effettivamente svolte sono inferiore a quelle preventivate, soprattutto per via dello spostamento di ore della progettazione di dettaglio, ma anche grazie alla migliore collaborazione del team e a un uso migliore degli strumento di documentazione e di sviluppo da parte del gruppo. Il tutto ci ha permesso di risparmiare tempo senza incidere sul raggiungimento degli obbiettivi prefissati. Nonostante ciò, l'importo totale effettivo rimane superiore di \textbf{323\euro}.
 	
+		\newpage
 	
 		\subsection{Fase di Progettazione di Dettaglio e Codifica}
+	Viene proposto di seguito il consuntivo relativo alla fase di Progettazione di Dettaglio e di codifica. Il grafico a barre seguente illustra il rapporto tra ore di lavoro pianificate e ore effettuate per ruolo. 	
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[scale=0.7]{../Images/chart-Consuntivo_Ore_Prog_Det_Cod}
+	\caption{Consuntivo Ore Progettazione di Dettaglio}
+	\end{figure}
+	
+	\begin{table}[h!]
+	\begin{center}
+		\begin{tabular}{l c c c}
+			\textbf{Ruolo} & \textbf{Preventivo} & \textbf{Consuntivo} &\textbf{Bilancio}\\
+			\midrule 
+			Responsabile 	& 450 	& 450	& 0		\\
+			Analista 		& 550 	& 625	& 75	\\
+			Amministratore 	& 300 	& 300	& 0		\\			
+			Progettista 	& 1496 	& 1540	& 44 	\\
+			Verificatore 	& 1710 	& 1545	& -165	\\
+			Programmatore	& 1830	& 1575  & -255	\\
+			\midrule
+			\textbf{Totale} & \textbf{6336 \euro} & \textbf{ 6035 \euro}	& \textbf{ -301\euro}
+		\end{tabular}
+		\end{center}
+	\caption{Consuntivo Costi Progettazione di dettaglio e Codifica}
+	\end{table}
+	
+La fase si è conclusa con un costo di \textbf{ 6035 \euro}, inferiore di \textbf{ 301 \euro} rispetto a quanto preventivato.
+	\subsubsection{Consuntivo di periodo} \label{con:consuper}
+	Avendo saltato una revisione, abbiamo dilazionato il lavoro su un arco temporale più ampio e questo ci ha permesso di lavorare in modo più sereno alla progettazione di dettaglio migliorando l'efficienza e risparmiando così un pò di tempo.  
+	 
+	
+	
+	\subsubsection{Preventivo a finire} \label{con:prevfinire}
+		La maggior considerazione dell'impegno necessario per la progettazione di dettaglio ci ha portato a una nuova rivalutazione della pianificazione in modo da ricollocare nell'ordine di un terzo, parte del tempo preventivato per questa fase nella successiva.
+	\subsubsubsection{Verifica e validazione}
+		\begin{table}[h!]			
+		\begin{center}
+			\begin{tabular}{l r r r c}
+\textbf{Componente} & \textbf{Ruolo I (ore)}&\textbf{Ruolo II (ore)}&\textbf{Ruolo III (ore)}&\textbf{Totale Ore}\\
+			\midrule
+			Davide Bortot 		& Amministratore(5)		&Programmatore(6) 	&Verificatore(10) 	& 21\\			
+			Martin V. Mbouenda  & Progettista(3)		&Verifica)(16)		& Amministratore(6)& 25	\\
+			Marco Crivellaro 	& Programmatore(9)	 	& Verificatore(15)	&					& 24	\\
+			Alex Beccaro 		& Verificatore(15)		& Progettista(5)	&					& 20	\\
+			Luca Alessio 		&Responsabile(10)		& Programmatore(6) 	& Verificatore(6)	& 22	\\
+			Andrea Multineddu 	& Progettista(5)		&Verificatore(10)	& Responsabile(5)	& 20	\\
+			\midrule
+			\textbf{Ore medie per persona} & & & &\textbf{19.83}\\
+			\end{tabular}
+		\end{center}
+		\caption{Ruoli Verifica e validazione}
+		\end{table}
 		
+
+		\begin{table}[h!]			
+		\begin{center}
+			\begin{tabular}{l l l}
+			\textbf{Ruolo} & \textbf{Ore Totali} & \textbf{Costi}\\
+			\midrule
+			Programmatore 	& 21 	& 225 	\euro	\\
+			Verificatore 	& 72 	& 915	\euro	\\
+			Progettista 	& 13 	& 286	\euro	\\		
+			Responsabile 	& 15 	& 450 	\euro	\\
+			Amministratore 	& 11 	& 300 	\euro	\\
+			\midrule
+			\textbf{Totale} & \textbf{132} & \textbf{ 2176 \euro}\\
+			\end{tabular}
+		\end{center}
+		\caption{Ore e Costi Verifica e validazione}
+		\end{table}
+		\clearpage
+		
+		\begin{figure}[h!]
+		    \centering
+			\includegraphics[scale=0.7]{../Images/chart-Confronto_Progettazione3vs4_Codifica.png}
+			\caption{Confronto Ore Pianificazione v3 e Pianificazione v4 per la Codifica}
+		\end{figure}		
+		
+	\subsubsubsection{Prospetto Orario Aggiornato}
+		\begin{table}[h!]
+		\hspace{0.2cm}\begin{tabular}{l c c c c c c}
+& \textbf{Davide} & \textbf{Martin}   & \textbf{Marco} 		& \textbf{Alex}    & \textbf{Luca}    & \textbf{Andrea}\\
+& \textbf{Bortot} & \textbf{Mbouenda} & \textbf{Crivellaro} & \textbf{Beccaro} & \textbf{Alessio} &\textbf{Multineddu}\\
+			\midrule
+			Responsabile 	& 8 	& 3  	& 10 	& 5 	& 10 	& 5 \\
+			Analista 		& 4  	& 12  	& 11  	& 4 	& 13  	& 4 \\
+			Amministratore 	& 5  	& 6 	& 5   	& 10 	& 3  	& 5	\\
+			Progettista 	& 27 	& 26 	& 8  	& 15 	& 27 	& 29	\\
+			Programmatore 	& 24 	& 17 	& 24  	& 21 	& 20 	& 20\\
+			Verificatore 	& 36 	& 35 	& 44  	& 45 	& 30 	& 39\\
+			\midrule
+			\textbf{Totale} & \textbf{104} & \textbf{99} & \textbf{102} & \textbf{100} & \textbf{103} & \textbf{102}
+		\end{tabular}
+	\caption{Prospetto Orario v4}
+	\end{table}	
+	\clearpage	
+	
+	\subsubsubsection{Preventivo}
+		Il preventivo a finire basato sulle precedenti modifiche è il seguente
+		
+		\begin{table}[h!]
+		\begin{center}
+			\begin{tabular}{l r r}
+			\textbf{Ruolo} 		& \textbf{Ore} 	& \textbf{Costo}\\
+			\midrule
+				Responsabile 	& 41 			& 1 230\euro		\\
+				Analista 		& 48 			& 1 200\euro 	\\
+				Amministratore 	& 34 			& 680\euro		\\
+				Progettista 	& 132 			& 2 904\euro 	\\
+				Programmatore 	& 126 			& 1 890\euro		\\
+				Verificatore 	& 229 			& 3 435\euro		\\
+			\midrule
+			\textbf{Totale} 	& \textbf{610} 	& \textbf{ 11 339 \euro}
+			\end{tabular}
+		\end{center}
+			\caption{Preventivo a finire}
+		\end{table}
+		
+		Il preventivo a finire si discosta leggermente dal preventivo precedente con una differenza di \textbf{96\euro} anche perché l'ampio arco temporale a disposizione avendo saltato la precedente scadenza nonostante tutto ci ha permesso di organizzarci meglio e di rispettare le ore preventivate ad inizio progetto.
+		
+		\begin{table}[h!]
+	\begin{center}
+		\begin{tabular}{l l l}
+			\textbf{Periodo di Progetto} 	& \textbf{Ore} 	& \textbf{Costo}\\
+			\midrule
+			Progettazione Architetturale	& 145 			& 2 953 \\
+			Prog. di Dettaglio e Codifica 	& 333 			& 6 035 \\
+			Verifica e Validazione 			& 132 			& 2 351	\\
+			\midrule
+			\textbf{Totale} 				&\textbf{610} 	&\textbf{11 339\euro}
+		\end{tabular} 
+		\end{center}
+	\caption{Costi per periodo preventivo a finire}
+	\end{table}	
+		
+		Dalle tabelle precedente, si nota che le ore effettivamente svolte sono inferiore a quelle preventivate, soprattutto per via di una migliore collaborazione del team e a un uso migliore degli strumento di documentazione e di sviluppo da parte del gruppo. Il tutto ci ha permesso di risparmiare tempo senza incidere sul raggiungimento degli obbiettivi prefissati. Questa fase si conclude con preventivo a finire inferiore di \textbf{106\euro} rispetto al preventivo iniziale.
+	
 			
 \end{document}	

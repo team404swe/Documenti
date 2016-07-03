@@ -1,6 +1,6 @@
 \select@language {italian}
 \select@language {italian}
-\contentsline {table}{\numberline {1}{\ignorespaces Versionamento del documento\relax }}{II}{table.1}
+\contentsline {table}{\numberline {1}{\ignorespaces Versionamento del documento}}{II}{table.1}
 \contentsline {table}{\numberline {2}{\ignorespaces Redazione documento\relax }}{3}{table.caption.2}
 \contentsline {table}{\numberline {3}{\ignorespaces Revisione documento\relax }}{3}{table.caption.3}
 \contentsline {table}{\numberline {4}{\ignorespaces Approvazione documento\relax }}{3}{table.caption.4}
@@ -40,3 +40,9 @@
 \contentsline {table}{\numberline {38}{\ignorespaces Prospetto Orario v3\relax }}{33}{table.caption.50}
 \contentsline {table}{\numberline {39}{\ignorespaces Preventivo a finire\relax }}{34}{table.caption.51}
 \contentsline {table}{\numberline {40}{\ignorespaces Costi per periodo preventivo a finire\relax }}{34}{table.caption.52}
+\contentsline {table}{\numberline {41}{\ignorespaces Consuntivo Costi Progettazione di dettaglio e Codifica\relax }}{35}{table.caption.54}
+\contentsline {table}{\numberline {42}{\ignorespaces Ruoli Verifica e validazione\relax }}{36}{table.caption.55}
+\contentsline {table}{\numberline {43}{\ignorespaces Ore e Costi Verifica e validazione\relax }}{36}{table.caption.56}
+\contentsline {table}{\numberline {44}{\ignorespaces Prospetto Orario v4\relax }}{37}{table.caption.58}
+\contentsline {table}{\numberline {45}{\ignorespaces Preventivo a finire\relax }}{38}{table.caption.59}
+\contentsline {table}{\numberline {46}{\ignorespaces Costi per periodo preventivo a finire\relax }}{38}{table.caption.60}
