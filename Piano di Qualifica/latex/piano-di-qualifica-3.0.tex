@@ -1535,7 +1535,7 @@ ViewModel::Router & TI11
 
 \begin{center}
 \begin{longtable}
-{l c}
+{p{.80\textwidth} p{.20\textwidth}}
 			\caption{Tracciamento Componenti - Test di integrazione} \\
 
 \textbf{Metodo} & \textbf{ID Test} \\
@@ -1583,7 +1583,7 @@ ViewModel::Controllers::DeleteQuestionController::deleteQuestion() & \\
 ViewModel::Controllers::DeleteQuizController::DeleteQuizController() & TU12\\
 ViewModel::Controllers::DeleteQuizController::deleteQuiz()&\\
 \midrule
-ViewModel::Controllers::QuizManagementController::QuizManagementController() & TU13\\
+ViewModel::Controllers::QuizManagementController::\\QuizManagementController() & TU13\\
 ViewModel::Controllers::QuizManagementController::nextQuestion() & \\
 ViewModel::Controllers::QuizManagementController::previousQuestion() & \\
 ViewModel::Controllers::QuizManagementController::endQuiz() & \\
@@ -1626,6 +1626,39 @@ ViewModel::Interpreter::QML2HTMLInterpreterFactory::translate()& TU26 \\
 \midrule
 ViewModel::Router::Router::state() & TU27\\
 \midrule
+\textit{View::Pages::Page::show()} & TU28 \\
+\midrule
+View::Pages::LoginPage::show() & TU29\\
+\midrule
+View::Pages::RegistrationPage::show() & TU30\\
+\midrule
+View::Pages::PasswordRecoveryPage::show() & TU30\\
+\midrule
+View::Pages::QuizCreationPage::show() & TU31\\
+\midrule
+View::Pages::QuestionUpdatePage::show() & TU32\\
+\midrule
+View::Pages::QuestionCreationPage::show() & TU33\\
+\midrule
+View::Pages::QuestionManagementPage::show() & TU34 \\
+View::Pages::QuestionManagementPage::sort() & \\
+View::Pages::QuestionManagementPage::search()&\\
+\midrule
+View::Pages::QuizResultsPage::show() & TU35\\
+\midrule
+View::Pages::QuizExecutionPage::show() & TU36\\
+View::Pages::QuizExecutionPage::nextQuestion()&\\
+View::Pages::QuizExecutionPage::previousQuestion()&\\
+\midrule
+View::Pages::QuizListPage::show() & TU37 \\
+View::Pages::QuizListPage::sort() & \\
+View::Pages::QuizListPage::search() &\\
+\midrule
+View::Pages::CategoryListPage::show() & TU38 \\
+View::Pages::CategoryListPage::sort() &  \\
+View::Pages::CategoryListPage::search() & \\
+\midrule
+
 
 
 
