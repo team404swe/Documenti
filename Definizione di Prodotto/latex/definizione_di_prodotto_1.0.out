@@ -42,9 +42,9 @@
 \BOOKMARK [2][-]{subsection.3.3}{Model::Statistics}{section.3}% 42
 \BOOKMARK [3][-]{subsubsection.3.3.1}{Model::Statistics::Statistics}{subsection.3.3}% 43
 \BOOKMARK [2][-]{subsection.3.4}{Model::Publishers}{section.3}% 44
-\BOOKMARK [3][-]{subsubsection.3.4.1}{Model::Publishers::UserPublishers}{subsection.3.4}% 45
-\BOOKMARK [3][-]{subsubsection.3.4.2}{Model::Publishers::QuizPublishers}{subsection.3.4}% 46
-\BOOKMARK [3][-]{subsubsection.3.4.3}{Model::Publishers::QuestionPublishers}{subsection.3.4}% 47
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Model::Publishers::UserPublisher}{subsection.3.4}% 45
+\BOOKMARK [3][-]{subsubsection.3.4.2}{Model::Publishers::QuizPublisher}{subsection.3.4}% 46
+\BOOKMARK [3][-]{subsubsection.3.4.3}{Model::Publishers::QuestionPublisher}{subsection.3.4}% 47
 \BOOKMARK [1][-]{section.4}{Package ViewModel}{}% 48
 \BOOKMARK [2][-]{subsection.4.1}{ViewModel::Controllers}{section.4}% 49
 \BOOKMARK [3][-]{subsubsection.4.1.1}{ViewModel::Controllers::NewQuestionController}{subsection.4.1}% 50

@@ -1,6 +1,6 @@
 \section{Package Model}\begin{figure}[h!]
 \begin{center}
-	\includegraphics[scale=0.7]{../images/ModelPackage.png}
+	\includegraphics[scale=0.4]{../images/ModelPackage.jpg}
 \end{center}
 \end{figure}
 \subsection{Model::Database}
@@ -10,21 +10,26 @@
 \item\textbf{Relazioni d'uso con altre componenti:} ViewModel::Methods::QuestionMethods\\
 \item\textbf{Metodi}:
 \begin{itemize}
-	\item\code{+ AddQuiz()}\\
+	\item\code{+ addQuiz()} : Metodo per aggiungere un nuovo quiz al database\\
 	\textbf{Parametri}:
 	\begin{itemize}
-		\item\code{utente: string}\\
-		\item\code{testo\_QML: string}\\
-		\item\code{categoria: string}\\
+		\item\code{ID\_utente: int}\\
+		\item\code{Titolo\_quiz: string}\\
+		\item\code{Tempo: int}\\
+		\item\code{Domande: Array}\\
+		\item\code{Categorie: Array}\\
 	\end{itemize}
-	\item\code{+ ModifyQuiz()}\\
+	\item\code{+ modifyQuiz()} :  Metodo per modificare un quiz nel database\\
 	\textbf{Parametri}:
 	\begin{itemize}
 		\item\code{ID\_utente: int}\\
 		\item\code{ID\_quiz: int}\\
-		\item\code{Domande: string}\\
+		\item\code{Titolo\_quiz: string}\\
+		\item\code{Tempo: int}\\
+		\item\code{Domande: Array}\\
+		\item\code{Categorie: Array}\\
 	\end{itemize}
-	\item\code{+ RemoveQuiz()}\\
+	\item\code{+ removeQuiz()} : Metodo per rimuovere un quiz dal database\\
 	\textbf{Parametri}:
 	\begin{itemize}
 		\item\code{ID\_utente: int}\\
@@ -39,14 +44,14 @@
 \item\textbf{Relazioni d'uso con altre componenti:} ViewModel::Methods::QuizMethods\\
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{+ AddQuestion()}\\
+		\item\code{+ addQuestion()} : Metodo per aggiungere un nuovo quesito al database\\
 		\textbf{Parametri}:
 			\begin{itemize}
-				\item\code{utente: string}\\
+				\item\code{ID\_utente: int}\\
 				\item\code{testo\_QML: string}\\
 				\item\code{categoria: string}\\
 			\end{itemize}
-		\item\code{+ ModifyQuestion()}\\
+		\item\code{+ modifyQuestion()} : Metodo per modificare un quesito nel database\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{ID\_utente: int}\\
@@ -54,7 +59,7 @@
 				\item\code{testo\_QML: string}\\
 				\item\code{categoria: string}\\
 			\end{itemize}
-		\item\code{+ RemoveQuestion()}\\
+		\item\code{+ removeQuestion()} : Metodo per rimuovere un quesito dal database\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{ID\_utente: int}\\
@@ -70,7 +75,7 @@
 \item\textbf{Relazioni d'uso con altre componenti:} QuestionManager\\
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{+ Check()}\\
+		\item\code{+ check()} : Metodo per controllare che un nuovo quesito rispetti la sintassi QML prima di essere aggiunto al database\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{testo\_da\_controllare: string}\\
@@ -85,20 +90,20 @@
 \item\textbf{Relazioni d'uso con altre componenti:} Nessuna\\
 \item\textbf{Metodi}:
 \begin{itemize}
-	\item\code{+ UpdateQuestionStatitics()}\\
+	\item\code{+ updateQuestionStatitics()} : Metodo per aggiornare le statistiche di un quesito nel database\\
 	\textbf{Parametri}:
 	\begin{itemize}
 		\item\code{ID\_quesito: int}\\
 		\item\code{Corretta: bool}\\
 	\end{itemize}
-	\item\code{+ UpdateQuizStatitics()}\\
+	\item\code{+ updateQuizStatitics()} : Metodo per aggiornare le statistiche di un quiz nel database\\
 	\textbf{Parametri}:
 	\begin{itemize}
 		\item\code{ID\_quiz: int}\\
 		\item\code{ID\_utente: int}\\
 		\item\code{Risposte: Array}\\
 	\end{itemize}
-	\item\code{+ UpdateUserStatitics()}\\
+	\item\code{+ updateUserStatitics()} : Metodo per aggiornare le statistiche di un utente nel database\\
 	\textbf{Parametri}:
 	\begin{itemize}
 		\item\code{ID\_utente: int}\\
@@ -109,32 +114,32 @@
 \end{itemize}
 
 \subsection{Model::Publishers}
-\subsubsection{Model::Publishers::UserPublishers}
+\subsubsection{Model::Publishers::UserPublisher}
 \begin{itemize}
 \item\textbf{Funzione del componente:} questa classe fornisce funzionalita' per rendere pubblica la collezione degli utenti all'avvio del Sistema
 \item\textbf{Relazioni d'uso con altre componenti:} Nessuna \\
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{+ PublishUser()}\\
+		\item\code{+ publishUser()} : Metodo per rendere accessibili la collezione degli utenti all'avvio del Sistema\\
 	\end{itemize}
 \end{itemize}
 
-\subsubsection{Model::Publishers::QuizPublishers}
+\subsubsection{Model::Publishers::QuizPublisher}
 \begin{itemize}
 \item\textbf{Funzione del componente:} questa classe fornisce funzionalita' per rendere pubblica la collezione dei quiz all'avvio del Sistema
 \item\textbf{Relazioni d'uso con altre componenti:} Nessuna \\
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{+ PublishQuiz()}\\
+		\item\code{+ publishQuiz()} : Metodo per rendere accessibili la collezione dei quiz all'avvio del Sistema\\
 	\end{itemize}
 \end{itemize}
 
-\subsubsection{Model::Publishers::QuestionPublishers}
+\subsubsection{Model::Publishers::QuestionPublisher}
 \begin{itemize}
 \item\textbf{Funzione del componente:} questa classe fornisce funzionalita' per rendere pubblica la collezione dei quesiti all'avvio del Sistema
 \item\textbf{Relazioni d'uso con altre componenti:} Nessuna \\
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{+ PublishQuestion()}\\
+		\item\code{+ publishQuestion()} : Metodo per rendere accessibili la collezione dei quesiti all'avvio del Sistema\\
 	\end{itemize}
 \end{itemize}

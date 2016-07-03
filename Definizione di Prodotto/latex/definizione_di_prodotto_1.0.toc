@@ -39,14 +39,14 @@
 \contentsline {subsection}{\numberline {3.1}Model::Database}{24}{subsection.3.1}
 \contentsline {subsubsection}{\numberline {3.1.1}Model::Database::QuizManager}{24}{subsubsection.3.1.1}
 \contentsline {subsubsection}{\numberline {3.1.2}Model::Database::QuestionManager}{25}{subsubsection.3.1.2}
-\contentsline {subsection}{\numberline {3.2}Model::Parser}{25}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Model::Parser::Parser}{25}{subsubsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2}Model::Parser}{26}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Model::Parser::Parser}{26}{subsubsection.3.2.1}
 \contentsline {subsection}{\numberline {3.3}Model::Statistics}{26}{subsection.3.3}
 \contentsline {subsubsection}{\numberline {3.3.1}Model::Statistics::Statistics}{26}{subsubsection.3.3.1}
-\contentsline {subsection}{\numberline {3.4}Model::Publishers}{26}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}Model::Publishers::UserPublishers}{26}{subsubsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}Model::Publishers::QuizPublishers}{27}{subsubsection.3.4.2}
-\contentsline {subsubsection}{\numberline {3.4.3}Model::Publishers::QuestionPublishers}{27}{subsubsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4}Model::Publishers}{27}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Model::Publishers::UserPublisher}{27}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Model::Publishers::QuizPublisher}{27}{subsubsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.3}Model::Publishers::QuestionPublisher}{27}{subsubsection.3.4.3}
 \contentsline {section}{\numberline {4}Package ViewModel}{28}{section.4}
 \contentsline {subsection}{\numberline {4.1}ViewModel::Controllers}{28}{subsection.4.1}
 \contentsline {subsubsection}{\numberline {4.1.1}ViewModel::Controllers::NewQuestionController}{28}{subsubsection.4.1.1}
