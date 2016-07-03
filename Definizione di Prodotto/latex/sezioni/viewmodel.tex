@@ -84,12 +84,7 @@ La classe utilizza:
 			\begin{itemize}
 				\item\code{\$scope}: campo dati contenente un riferimento all’oggetto \$scope creato da Angular, viene utilizzato come mezzo di comunicazione tra il controller e il template.\\
 			\end{itemize}
-		\item\code{+ quizzes()}: metodo che ritorna la lista dei quiz del sistema.\\
-		\item\code{+ quizDetails()}: metodo che permette la visualizzazione dei dettagli di un quiz.\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{quizID: String}: identificativo univoco del quiz da visualizzare.\\
-			\end{itemize}
+		\item\code{+ quizzes()}: metodo che ritorna la lista dei quiz del sistema.\\		
 		\item\code{+ orderBy()}: metodo che permette l'ordinamento della lista di quiz.\\
 		\textbf{Parametri}:
 			\begin{itemize}
@@ -98,12 +93,13 @@ La classe utilizza:
 	\end{itemize}
 \end{itemize}
 
-\subsubsection{ViewModel::Controllers::QuizDetailsController}\begin{itemize}
+\subsubsection{ViewModel::Controllers::QuizDetailsController}
+\begin{itemize}
 \item\textbf{Funzione del componente}: la classe permette di visualizzare le informazioni generali di un quiz, una volta selezionato dalla lista dei quiz;
 	\item\textbf{Relazione d'uso con altre componenti}: \\
 La classe utilizza:
 	\begin{itemize}
-		\item
+		\item QuizList
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
@@ -115,6 +111,11 @@ La classe utilizza:
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{\$scope}: campo dati contenente un riferimento all’oggetto \$scope creato da Angular, viene utilizzato come mezzo di comunicazione tra il controller e il template.\\
+			\end{itemize}
+		\item\code{+ quizDetails()}: metodo che permette la visualizzazione dei dettagli di un quiz.\\
+		\textbf{Parametri}:
+			\begin{itemize}
+				\item\code{quizID: String}: identificativo univoco del quiz da visualizzare.\\
 			\end{itemize}
 	\end{itemize}
 \end{itemize}
@@ -270,39 +271,22 @@ La classe utilizza:
 \subsubsection{ViewModel::Subscribers::QuestionsSubscriber}
 \begin{itemize}
 \item\textbf{Funzione del componente}: la classe è necessaria ad effettuare il \emph{subscribe} relativo alla collezione di domande del sistema;
-	\item\textbf{Relazione d'uso con altre componenti}: si relazione con la componente QuestionsManagementController;\\ \\
+	\item\textbf{Relazione d'uso con altre componenti}: \\
 La classe utilizza:
 	\begin{itemize}
-		\item
+		\item QuestionsPublisher	
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
-		\item\code{}\\
-		\item\code{}\\
-		\item\code{}\\
-		\item\code{}\\
+		\item\code{- collection: String}: il nome della collezione sulla quale effettuare il subscribe.\\	
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{}\\
+		\item\code{+ getCollection(): String}: ritorna la collezione sulla quale può effettuare il subscribe.\\
+		\item\code{+ subscribe()}: metodo che effettua il subscribe del parametro controller alla collezione\\
 		\textbf{Parametri}:
 			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
+				\item\code{controller: Object}: il controller che necessita della collezione\\
 			\end{itemize}
 	\end{itemize}
 \end{itemize}
@@ -310,39 +294,22 @@ La classe utilizza:
 \subsubsection{ViewModel::Subscribers::QuizSubscriber}
 \begin{itemize}
 \item\textbf{Funzione del componente}: la classe è necessaria ad effettuare il \emph{subscribe} relativo alla collezione di quiz del sistema;
-	\item\textbf{Relazione d'uso con altre componenti}: si relazione con le componenti QuizListController e QuizManagementController;\\ \\
+	\item\textbf{Relazione d'uso con altre componenti}:\\
 La classe utilizza:
 	\begin{itemize}
-		\item
+		\item QuizPublisher
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
-		\item\code{}\\
-		\item\code{}\\
-		\item\code{}\\
-		\item\code{}\\
+		\item\code{- collection: String}: il nome della collezione sulla quale effettuare il subscribe.\\	
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{}\\
+		\item\code{+ getCollection(): String}: ritorna la collezione sulla quale può effettuare il subscribe.\\
+		\item\code{+ subscribe()}: metodo che effettua il subscribe del parametro controller alla collezione\\
 		\textbf{Parametri}:
 			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
+				\item\code{controller: Object}: il controller che necessita della collezione\\
 			\end{itemize}
 	\end{itemize}
 \end{itemize}
@@ -350,39 +317,22 @@ La classe utilizza:
 \subsubsection{ViewModel::Subscribers::UsersSubscriber}
 \begin{itemize}
 \item\textbf{Funzione del componente}: la classe è necessaria ad effettuare il \emph{subscribe} relativo alla collezione di utenti del sistema;
-	\item\textbf{Relazione d'uso con altre componenti}: si relaziona con il package esterno 'accounts-ui';\\ 
+	\item\textbf{Relazione d'uso con altre componenti}: \\
 La classe utilizza:
 	\begin{itemize}
-		\item
+		\item UserPublisher
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
-		\item\code{}\\
-		\item\code{}\\
-		\item\code{}\\
-		\item\code{}\\
+		\item\code{- collection: String}: il nome della collezione sulla quale effettuare il subscribe.\\
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{}\\
+		\item\code{+ getCollection(): String}: ritorna la collezione sulla quale può effettuare il subscribe.\\
+		\item\code{+ subscribe()}: metodo che effettua il subscribe del parametro controller alla collezione\\
 		\textbf{Parametri}:
 			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
+				\item\code{controller: Object}: il controller che necessita della collezione\\
 			\end{itemize}
 	\end{itemize}
 \end{itemize}
@@ -391,39 +341,26 @@ La classe utilizza:
 \subsubsection{ViewModel::Methods::QuestionMethods}
 \begin{itemize}
 \item\textbf{Funzione del componente}: permette al client di richiedere la modifica della collezione di domande del server;
-	\item\textbf{Relazione d'uso con altre componenti}: si relaziona con le classi NewQuestionController e DeleteQuestionController;\\ \\
+	\item\textbf{Relazione d'uso con altre componenti}: \\
 La classe utilizza:
 	\begin{itemize}
-		\item
+		\item QuestionPublisher
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
-		\item\code{}\\
-		\item\code{}\\
-		\item\code{}\\
-		\item\code{}\\
+		\item\code{- collection: String}: la collezione sulla quale verranno implementati i methods\\
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{}\\
+		\item\code{+ insert()}: metodo che inserisce una domanda nella collezione\\
 		\textbf{Parametri}:
 			\begin{itemize}
-				\item\code{}\\
+				\item\code{questionId: String}: identificativo univoco della domanda da aggiungere\\
 			\end{itemize}
-		\item\code{}\\
+		\item\code{+ remove()}: metodo che rimuove una domanda dalla collezione\\
 		\textbf{Parametri}:
 			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
+				\item\code{questionId: String}: identificativo univoco della domanda da rimuovere\\
 			\end{itemize}
 	\end{itemize}
 \end{itemize}
@@ -431,39 +368,26 @@ La classe utilizza:
 \subsubsection{ViewModel::Methods::QuizMethods}
 \begin{itemize}
 \item\textbf{Funzione del componente}: permette al client di richiedere la modifica della collezione di quiz del server;
-	\item\textbf{Relazione d'uso con altre componenti}: si relaziona con le classi NewQuizController e DeleteQuizController;\\ \\
+	\item\textbf{Relazione d'uso con altre componenti}: \\
 La classe utilizza:
 	\begin{itemize}
-		\item
+		\item QuizPublisher
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
-		\item\code{}\\
-		\item\code{}\\
-		\item\code{}\\
-		\item\code{}\\
+		\item\code{- collection: String}: la collezione sulla quale verranno implementati i methods\\
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{}\\
+		\item\code{+ insert()}: metodo che inserisce un quiz nella collezione\\
 		\textbf{Parametri}:
 			\begin{itemize}
-				\item\code{}\\
+				\item\code{quizId: String}: identificativo univoco del quiz da aggiungere\\
 			\end{itemize}
-		\item\code{}\\
+		\item\code{+ remove()}: metodo che rimuove un quiz dalla collezione\\
 		\textbf{Parametri}:
 			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
+				\item\code{quizId: String}: identificativo univoco della domanda da rimuovere\\
 			\end{itemize}
 	\end{itemize}
 \end{itemize}
@@ -471,39 +395,26 @@ La classe utilizza:
 \subsubsection{ViewModel::Methods::UserMethods}
 \begin{itemize}
 \item\textbf{Funzione del componente}: permette al client di richiedere la modifica della collezione di utenti del server;
-	\item\textbf{Relazione d'uso con altre componenti}:  si relaziona con il package esterno 'accounts-ui';\\ \\
+	\item\textbf{Relazione d'uso con altre componenti}: \\
 La classe utilizza:
 	\begin{itemize}
-		\item
+		\item UserPublisher
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
-		\item\code{}\\
-		\item\code{}\\
-		\item\code{}\\
-		\item\code{}\\
+		\item\code{- collection: String}: la collezione sulla quale verranno implementati i methods\\
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{}\\
+		\item\code{+ insert()}: metodo che inserisce un utente nella collezione\\
 		\textbf{Parametri}:
 			\begin{itemize}
-				\item\code{}\\
+				\item\code{userId: String}: identificativo univoco dell'utente da aggiungere\\
 			\end{itemize}
-		\item\code{}\\
+		\item\code{+ remove()}: metodo che rimuove un utente dalla collezione\\
 		\textbf{Parametri}:
 			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
+				\item\code{userId: String}: identificativo univoco dell'utente da rimuovere\\
 			\end{itemize}
 	\end{itemize}
 \end{itemize}
@@ -512,39 +423,15 @@ La classe utilizza:
 \subsubsection{ViewModel::Interpreter::Interpreter}
 \begin{itemize}
 \item\textbf{Funzione del componente}: interfaccia di base del tipo Interpreter.
-	\item\textbf{Relazione d'uso con altre componenti}: può essere concretizzata in diversi tipi di Interpreter.\\ \\
-La classe utilizza:
-	\begin{itemize}
-		\item
-	\end{itemize}
-\item\textbf{Attributi}:
-	\begin{itemize}
-		\item\code{}\\
-		\item\code{}\\
-		\item\code{}\\
-		\item\code{}\\
-	\end{itemize}
+	\item\textbf{Relazione d'uso con altre componenti}: viene concretizzata in QMLInterpreter.\\ \\
+
+\item\textbf{Attributi}: nessuno
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{}\\
+		\item\code{+ translate(): String}: metodo astratto per la traduzione di un testo\\
 		\textbf{Parametri}:
 			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
+				\item\code{data: String}: l'input testuale che deve essere tradotto \\
 			\end{itemize}
 	\end{itemize}
 \end{itemize}
@@ -552,119 +439,41 @@ La classe utilizza:
 \subsubsection{ViewModel::Interpreter::InterpreterFactory}
 \begin{itemize}
 \item\textbf{Funzione del componente}: interfaccia di base delle Factory di tipi Interpreter.
-	\item\textbf{Relazione d'uso con altre componenti}: può essere concretizzata in diversi tipi di InterpreterFactory.\\ \\
-La classe utilizza:
-	\begin{itemize}
-		\item
-	\end{itemize}
-\item\textbf{Attributi}:
-	\begin{itemize}
-		\item\code{}\\
-		\item\code{}\\
-		\item\code{}\\
-		\item\code{}\\
-	\end{itemize}
+	\item\textbf{Relazione d'uso con altre componenti}: viene concretizzata da QMLInterpreterFactory.\\ 
+\item\textbf{Attributi}: nessuno
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
+		\item\code{+ createInterpreter(): Interpreter}: metodo astratto per la creazione di un Interpreter.\\
 	\end{itemize}
 \end{itemize}
 
 \subsubsection{ViewModel::Interpreter::QMLInterpreterFactory}
 \begin{itemize}
 \item\textbf{Funzione del componente}: crea oggetti di tipo QMLInterpreter.
-	\item\textbf{Relazione d'uso con altre componenti}: è concretizzazione della classe InterpreterFactory. Crea oggetti QMLInterpreter.\\ \\
-La classe utilizza:
-	\begin{itemize}
-		\item
-	\end{itemize}
+	\item\textbf{Relazione d'uso con altre componenti}: è concretizzazione dalla classe InterpreterFactory. Crea oggetti QMLInterpreter.\\
 \item\textbf{Attributi}:
 	\begin{itemize}
-		\item\code{}\\
-		\item\code{}\\
-		\item\code{}\\
-		\item\code{}\\
+		\item\code{- instance: QMLInterpreterFactory}: campo dati statico che rappresenta l'unica istanza della classe\\
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
+		\item\code{- QMLInterpreterFactory()}: costruttore privato della classe\\
+		\item\code{+ getInstance(): : QMLInterpreterFactory}: metodo che ritorna l'unica istanza della classe\\
+		\item\code{+ createInterpreter(): QMLInterpreter}: metodo ereditato da InterpreterFactorye concretizzato per la creazione di un interprete di tipo QMLInterpreter.\\
 	\end{itemize}
 \end{itemize}
 
 \subsubsection{ViewModel::Interpreter::QMLInterpreter}
 \begin{itemize}
 \item\textbf{Funzione del componente}: classe astratta che rappresenta gli Interpreter che traducono codice QML in un altro formato.
-	\item\textbf{Relazione d'uso con altre componenti}: è sottotipo di Interpreter. Può essere concretizzata in più tipi di QMLInterpreter.\\ \\
-La classe utilizza:
-	\begin{itemize}
-		\item
-	\end{itemize}
-\item\textbf{Attributi}:
-	\begin{itemize}
-		\item\code{}\\
-		\item\code{}\\
-		\item\code{}\\
-		\item\code{}\\
-	\end{itemize}
+	\item\textbf{Relazione d'uso con altre componenti}: è sottotipo di Interpreter. Viene concretizzata in QML2HTMLInterpreter.\\ 
+\item\textbf{Attributi}: Nessuno
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{}\\
+		\item\code{translate(): String}: metodo astratto ereditato da Interpreter\\
 		\textbf{Parametri}:
 			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
+				\item\code{data: String}: l'input QML che deve essere tradotto \\
 			\end{itemize}
 	\end{itemize}
 \end{itemize}
@@ -672,81 +481,41 @@ La classe utilizza:
 \subsubsection{ViewModel::Interpreter::QML2HTMLInterpreterFactory}
 \begin{itemize}
 \item\textbf{Funzione del componente}: traduce codice QML in codice HTML.
-	\item\textbf{Relazione d'uso con altre componenti}: è concretizzazione di QMLInterpreter.\\ \\
-La classe utilizza:
-	\begin{itemize}
-		\item
-	\end{itemize}
-\item\textbf{Attributi}:
-	\begin{itemize}
-		\item\code{}\\
-		\item\code{}\\
-		\item\code{}\\
-		\item\code{}\\
-	\end{itemize}
+	\item\textbf{Relazione d'uso con altre componenti}: la classe è concretizzazione di QMLInterpreter.\\
+\item\textbf{Attributi}: Nessuno
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{}\\
+		\item\code{translate(): String}: metodo ereditato da QMLInterpreter e concretizzato per la traduzione di testo QML in testo HTML.\\
 		\textbf{Parametri}:
 			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
+				\item\code{data: String}: l'input QML che deve essere tradotto \\
 			\end{itemize}
 	\end{itemize}
 \end{itemize}
-
 
 \subsection{ViewModel::Router}
 \subsubsection{ViewModel::Router::Router}
 \begin{itemize}
 \item\textbf{Funzione del componente}: implementa il routing dinamico dell'applicazione. Permette di dividere la parte statica dell'applicazione dalla parte che va caricata dinamicamente;
-	\item\textbf{Relazione d'uso con altre componenti}: Utilizza il package esterno ui-router. Conosce i Template dell'applicazione.\\ \\
+	\item\textbf{Relazione d'uso con altre componenti}: \\
 La classe utilizza:
 	\begin{itemize}
-		\item
+		\item ui-router
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
-		\item\code{}\\
-		\item\code{}\\
-		\item\code{}\\
-		\item\code{}\\
+		\item\code{\$locationProvider: \$locationProvider}: provider AngularJs per rendere gli Url più leggibili\\
+		\item\code{\$urlRouterProvider: \$urlRouterProvider}: modulo del package ui-router per definire il routing di default dell'applicazione\\
+		\item\code{\$stateProvider: \$stateProvider}: modulo del package ui-router per mappare gli Url al caricamento dinamico dei template dell'applicazione. Tale associazione è definita come uno 'state'\\
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{}\\
+		\item\code{state()}: metodo per collegare un Url dell'applicazione al rispettivo template da caricare\\
 		\textbf{Parametri}:
 			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
-			\end{itemize}
-		\item\code{}\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{}\\
+				\item\code{state: String}: il nome dello stato rappresentato dall'associazione Url-Template\\
+				\item\code{url: String}: l'Url sul quale effettuare il matching\\
+				\item\code{template: String}: il template da caricare una volta trovato il match\\
 			\end{itemize}
 	\end{itemize}
 \end{itemize}
