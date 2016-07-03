@@ -1,0 +1,25 @@
+allora marco, ho dato una letta (superficiale alle parti vecchie e approfondita alle parti nuove) al pdq e ho trovato le seguenti cose che sarebbero da rivedere:
+
+copertina - metti m crivellaro come reddatore e l alessio come verificatore, quei ruoli (alex, davide, martin) sono stati rispettati solo nella prima versione del documento
+
+registro delle modifiche - bisogna aggiungere un sacco di cose, al prof piace vedere l'evoluzione del cambiamento, probabilmente adesso non ricorderai in che ordine hai fatto dei cambiamenti però guardando le commit dovresti riuscire a inventarti qualcosa da aggiungere
+
+introduzione e riferimenti - si fa ancora riferimento a documenti 2.0 anziche 3.0
+
+le sezioni vecchie le avevamo già corrette, in teoria non è cambiato nulla per cui mi fido
+
+sezione 2.3 - c'è un AGGIUNGERE TESTO da eliminare o da sostituire con del testo appropriato
+
+sezione 3.1.2 - metriche da fare?
+
+sezione 3.10 - vuota, è necessaria? altrimenti si può tagliare o casomai inserire nella versione 4 del pdq
+
+sezione 4 - anche qui tutti i documenti sono riferiti per versione 2.0 anzichè 3.0
+
+4.0.3 - perchè ci sono le xxx ?
+
+pagina 21/41 del pdf o inizio della sezione 5 - c'è un errore grafico nell'header della pagina
+
+appendice A - metriche ha alcuni paragrafi vuoti ma penso sia in to do list
+
+per quanto riguarda tutti i test, ne ho letti un ma non sto qua a leggerli tutti (anche perchè come il tracciamento non viene considerata molto nella correzione mi han detto), quello che ho visto mi pareva ok, bel lavoro
