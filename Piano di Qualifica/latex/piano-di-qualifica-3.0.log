@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.13)  3 JUL 2016 17:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.13)  4 JUL 2016 00:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -911,7 +911,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 15.
-<../../team_not_found.jpg, id=309, 382.42876pt x 153.57375pt>
+<../../team_not_found.jpg, id=305, 382.42876pt x 153.57375pt>
 File: ../../team_not_found.jpg Graphic file (type jpg)
 
 <use ../../team_not_found.jpg>
@@ -1003,7 +1003,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--69
 []|\T1/fca/m/n/9 A. Mul-ti-ned-du
  []
 
-<../../team404_small.jpg, id=322, 382.42876pt x 153.57375pt>
+<../../team404_small.jpg, id=318, 382.42876pt x 153.57375pt>
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
@@ -1085,7 +1085,7 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.122 
-       [3] <../images/PDCA.png, id=447, 636.3775pt x 336.25626pt>
+       [3] <../images/PDCA.png, id=442, 636.3775pt x 336.25626pt>
 File: ../images/PDCA.png Graphic file (type png)
 
 <use ../images/PDCA.png>
@@ -1101,7 +1101,7 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../../team404_small.jpg used on input line 190.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [5]
-<../images/ISO-9126-cut.png, id=459, 736.25063pt x 108.405pt>
+<../images/ISO-9126-cut.png, id=454, 736.25063pt x 108.405pt>
 File: ../images/ISO-9126-cut.png Graphic file (type png)
 
 <use ../images/ISO-9126-cut.png>
@@ -1211,7 +1211,7 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../../team404_small.jpg used on input line 705.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [16]
-<../images/vmodel-final4.png, id=528, 990.70125pt x 570.63188pt>
+<../images/vmodel-final4.png, id=523, 990.70125pt x 570.63188pt>
 File: ../images/vmodel-final4.png Graphic file (type png)
 
 <use ../images/vmodel-final4.png>
@@ -1887,127 +1887,146 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../../team404_small.jpg used on input line 1451.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [31]
+Underfull \hbox (badness 1325) in paragraph at lines 1483--1483
+[]|\T1/fca/m/n/10.95 Verifica che il me-to-do som-mi-ni-stri cor-ret-ta-men-te 
+la
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 1489--1489
+\T1/fca/m/n/10.95 l'in-se-ri-men-to e al-la ri-mo-zio-ne di un quiz fun-zio-ni-
+no
+ []
+
 File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1528.
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1510.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [32]
-Overfull \hbox (15.08807pt too wide) in alignment at lines 1538--1543
+File: ../../team404_small.jpg Graphic file (type jpg)
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1544.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [33]
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1554--1559
  [] [] 
  []
 
 
-Overfull \hbox (15.08807pt too wide) in alignment at lines 1543--1547
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1559--1563
  [] [] 
  []
 
 
-Overfull \hbox (15.08807pt too wide) in alignment at lines 1547--1550
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1563--1566
  [] [] 
  []
 
 
-Overfull \hbox (15.08807pt too wide) in alignment at lines 1550--1553
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1566--1569
  [] [] 
  []
 
 
-Overfull \hbox (15.08807pt too wide) in alignment at lines 1553--1576
+Overfull \hbox (9.44951pt too wide) in paragraph at lines 1584--1584
+[]|\T1/fca/m/n/10.95 ViewModel::Controllers::NewQuestionController::NewQuestion
+Controller()| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1569--1592
  [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1576
+Underfull \vbox (badness 10000) detected at line 1592
  []
 
 
-Overfull \hbox (15.08807pt too wide) in alignment at lines 1576--1605
- [] [] 
+Overfull \hbox (30.03542pt too wide) in paragraph at lines 1596--1596
+[]|\T1/fca/m/n/10.95 ViewModel::Controllers::DeleteQuestionController::DeleteQu
+estionController()| 
  []
 
 
-Overfull \hbox (15.08807pt too wide) in alignment at lines 1605--1633
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1592--1619
  [] [] 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1633.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [33]
-File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1678.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1619.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [34]
+Overfull \hbox (0.98506pt too wide) in paragraph at lines 1634--1634
+[]|\T1/fca/m/n/10.95 ViewModel::Interpreter::QMLInterpreterFactory::QMLInterpre
+terFactory()| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1619--1654
+ [] [] 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1654--1680
+ [] [] 
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1680.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [35]
+File: ../../team404_small.jpg Graphic file (type jpg)
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1746.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [36]
 
 AED: lastpage setting LastPage
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1710.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1757.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [35]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1710.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1710.
+ [37]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1757.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1757.
  (./piano-di-qualifica-3.0.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1710.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1710.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1757.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1757.
 
+Package rerunfilecheck Info: File `piano-di-qualifica-3.0.out' has not changed.
 
-
-Package rerunfilecheck Warning: File `piano-di-qualifica-3.0.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `piano-di-qualifica-3.0.out':
-(rerunfilecheck)             Before: DAE0291F896EBAA5E695A962B3B19B8F;5907
-(rerunfilecheck)             After:  654F4FDD55ED4BAAF6CC951B3AF46573;5828.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Checksum: 654F4FDD55ED4BAAF6CC951B3AF46573;5828.
  ) 
 Here is how much of TeX's memory you used:
- 11083 strings out of 495017
- 162465 string characters out of 6181021
+ 11078 strings out of 495017
+ 162362 string characters out of 6181021
  319462 words of memory out of 5000000
- 13895 multiletter control sequences out of 15000+600000
+ 13893 multiletter control sequences out of 15000+600000
  32559 words of font info for 93 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,17n,47p,974b,635s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsection.Alph6.2} has been referenced but does 
-not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.Alph6.1.2} has been referenced but do
-es not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.Alph6.1.1} has been referenced but do
-es not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.Alph6.1} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{appendix.Alph6} has been referenced but does not ex
-ist, replaced by a fixed one
-
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cantarell/cantarell-03.enc}{/usr
-/share/texlive/texmf-dist/fonts/enc/dvips/cantarell/cantarell-01.enc}{/usr/shar
-e/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist
-/fonts/type1/public/cantarell/Cantarell-Bold.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/cantarell/Cantarell-Regular.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/cantarell/Cantarell-Regular.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-</usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fo
-nts/type1/public/cm-super/sftt1440.pfb>
-Output written on piano-di-qualifica-3.0.pdf (39 pages, 376861 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cantarell/cantarell-03.enc}{/u
+sr/share/texlive/texmf-dist/fonts/enc/dvips/cantarell/cantarell-01.enc}{/usr/sh
+are/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-di
+st/fonts/type1/public/cantarell/Cantarell-Bold.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/cantarell/Cantarell-Regular.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/cantarell/Cantarell-Regular.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pf
+b></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sftt1440.pfb>
+Output written on piano-di-qualifica-3.0.pdf (41 pages, 380326 bytes).
 PDF statistics:
- 786 PDF objects out of 1000 (max. 8388607)
- 716 compressed objects within 8 object streams
- 182 named destinations out of 1000 (max. 500000)
- 634 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 785 PDF objects out of 1000 (max. 8388607)
+ 713 compressed objects within 8 object streams
+ 179 named destinations out of 1000 (max. 500000)
+ 626 words of extra memory for PDF output out of 10000 (max. 10000000)
 
