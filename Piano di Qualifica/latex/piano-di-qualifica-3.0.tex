@@ -1579,6 +1579,53 @@ ViewModel::Controllers::QuizDetailsController::quizDetailsController()&TU10 \\
 \midrule
 ViewModel::Controllers::DeleteQuestionController::DeleteQuestionController()&TU11\\
 ViewModel::Controllers::DeleteQuestionController::deleteQuestion() & \\
+\midrule
+ViewModel::Controllers::DeleteQuizController::DeleteQuizController() & TU12\\
+ViewModel::Controllers::DeleteQuizController::deleteQuiz()&\\
+\midrule
+ViewModel::Controllers::QuizManagementController::QuizManagementController() & TU13\\
+ViewModel::Controllers::QuizManagementController::nextQuestion() & \\
+ViewModel::Controllers::QuizManagementController::previousQuestion() & \\
+ViewModel::Controllers::QuizManagementController::endQuiz() & \\
+\midrule
+ViewModel::Controllers::QuestionsManagementController & TU14\\
+::QuestionsManagementController() & \\
+ViewModel::Controllers::QuestionsManagementController::getQuestion() &\\
+\midrule
+ViewModel::Controllers::QMLEditorController::QMLEditorController() & TU 15\\
+ViewModel::Controllers::QMLEditorController::check() & \\
+\midrule
+ViewModel::Subscribers::QuestionsSubscriber::getCollection() & TU16 \\
+ViewModel::Subscribers::QuestionsSubscriber::subscribe()&\\
+\midrule
+ViewModel::Subscribers::QuizSubscriber::getCollection() & TU17 \\
+ViewModel::Subscribers::QuizSubscriber::subscribe() &\\
+\midrule
+ViewModel::Subscribers::UsersSubscriber::getCollection() &TU18\\
+ViewModel::Subscribers::UsersSubscriber::subscribe()&\\
+\midrule
+ViewModel::Methods::QuestionMethods::insert() & TU19\\
+ViewModel::Methods::QuestionMethods::remove() &\\
+\midrule
+ViewModel::Methods::QuizMethods::insert() & TU20\\
+ViewModel::Methods::QuizMethods::remove() &\\
+\midrule
+ViewModel::Methods::UserMethods::insert() & TU21\\
+ViewModel::Methods::UserMethods::remove() &\\
+\midrule
+NON SO SE VA MESSO ViewModel::Interpreter::Interpreter::translate() & TU22 \\
+\midrule
+ViewModel::Interpreter::InterpreterFactory::createInterpreter() & TU23\\
+\midrule
+ViewModel::Interpreter::QMLInterpreterFactory::QMLInterpreterFactory() &TU24\\
+ViewModel::Interpreter::QMLInterpreterFactory::getInstance() &\\
+\midrule
+ViewModel::Interpreter::QMLInterpreter::translate()& TU25 \\
+\midrule
+ViewModel::Interpreter::QML2HTMLInterpreterFactory::translate()& TU26 \\
+\midrule
+ViewModel::Router::Router::state() & TU27\\
+\midrule
 
 
 
@@ -1586,45 +1633,45 @@ ViewModel::Controllers::DeleteQuestionController::deleteQuestion() & \\
 \end{longtable}
 \end{center}
 
-\section{Tracciamento test di unità - metodi}
-
-\begin{center}
-\begin{longtable}
-{p{0.23\columnwidth} p{0.60\columnwidth}}
-			\caption{Tracciamento Componenti - Test di integrazione} \\
-
-\textbf{Metodo/Classe} & \textbf{ID Test} \\
-\midrule
-\endfirsthead
-
-\textbf{Metodo/Classe} & \textbf{ID Test} \\
-\midrule
-\endhead
-
-\multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Tracciamento Componenti - Test di integrazione}
-\endfoot
-
-\multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Tracciamento Componenti - Test di integrazione}
-\endlastfoot
-TU1 & Model::Database::UserManager::logIn() \\\midrule
-TU2 & Model::Database::UserManager::addUser()  \\\midrule
-TU3 &Model::Database::UserManager::removeUser()  \\\midrule
-TU4 &Model::Database::QuestionManager::addQuestion() \\\midrule
-TU5 &Model::Database::QuestionManager::modifyQuestion \\\midrule
-TU6 &Model::Database::QuestionManager::removeQuestion  \\\midrule
-TU7 &Model::Database::QuizManager::addQuiz()  \\\midrule
-TU8 &Model::Database::QuizManager::modifyQuiz()  \\\midrule
-TU9 &Model::Database::QuizManager::removeQuiz()  \\\midrule
-TU10 &Model::Parser::check() \\\midrule
-TU11 &Model::Statistics::updateQuestionStatistic() \\\midrule
-TU12 &Model::Statistics::updateQuizStatistic()  \\\midrule
-TU13 &Model::Statistics::updateUserStatistics()  \\\midrule
-TU14 &Model::Publishers::UserPublishers::publishUser() \\\midrule
-TU15 & Model::Publishers::UserPublishers::publishQuiz()  \\\midrule
-TU16 & Model::Publishers::UserPublishers::publishQuestion() \\
-
-\end{longtable}
-\end{center}
+%\section{Tracciamento test di unità - metodi}
+%
+%\begin{center}
+%\begin{longtable}
+%{p{0.23\columnwidth} p{0.60\columnwidth}}
+%			\caption{Tracciamento Componenti - Test di integrazione} \\
+%
+%\textbf{Metodo/Classe} & \textbf{ID Test} \\
+%\midrule
+%\endfirsthead
+%
+%\textbf{Metodo/Classe} & \textbf{ID Test} \\
+%\midrule
+%\endhead
+%
+%\multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Tracciamento Componenti - Test di integrazione}
+%\endfoot
+%
+%\multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Tracciamento Componenti - Test di integrazione}
+%\endlastfoot
+%TU1 & Model::Database::UserManager::logIn() \\\midrule
+%TU2 & Model::Database::UserManager::addUser()  \\\midrule
+%TU3 &Model::Database::UserManager::removeUser()  \\\midrule
+%TU4 &Model::Database::QuestionManager::addQuestion() \\\midrule
+%TU5 &Model::Database::QuestionManager::modifyQuestion \\\midrule
+%TU6 &Model::Database::QuestionManager::removeQuestion  \\\midrule
+%TU7 &Model::Database::QuizManager::addQuiz()  \\\midrule
+%TU8 &Model::Database::QuizManager::modifyQuiz()  \\\midrule
+%TU9 &Model::Database::QuizManager::removeQuiz()  \\\midrule
+%TU10 &Model::Parser::check() \\\midrule
+%TU11 &Model::Statistics::updateQuestionStatistic() \\\midrule
+%TU12 &Model::Statistics::updateQuizStatistic()  \\\midrule
+%TU13 &Model::Statistics::updateUserStatistics()  \\\midrule
+%TU14 &Model::Publishers::UserPublishers::publishUser() \\\midrule
+%TU15 & Model::Publishers::UserPublishers::publishQuiz()  \\\midrule
+%TU16 & Model::Publishers::UserPublishers::publishQuestion() \\
+%
+%\end{longtable}
+%\end{center}
 \section{Esito misurazioni}
 \label{Appendice C}
 Di seguito viene fornito il resoconto dell'attività di verifica inerente ad ogni fase di sviluppo.
