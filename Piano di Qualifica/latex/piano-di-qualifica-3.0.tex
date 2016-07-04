@@ -18,19 +18,19 @@
 	\fontsize{5mm}{3mm}\url{team404swe@gmail.com}\\
 	
 	\vspace{50mm}
-	\textbf{Piano di qualifica 2.0}
+	\textbf{Piano di qualifica 3.0}
 	%\'end{center}
 	%\'begin{center}
 	%\vspace{4mm}
 	\end{center}
 	\introtab{Piano di qualifica}			%1 nome documento
-			{2.0} 							%2 versione
+			{3.0} 							%2 versione
 			{Esterno} 						%3 Uso
 			{21 dicembre 2015} 				%4 Data cre
 			{\today} 						%5 Data mod
-			{Alex Beccaro}	%6 Redazione
-			{Davide Bortot - Marco Crivellaro } 	%7 Verifica
-			{Martin Vadice Mbouenda} 			%8 Approvazione
+			{--}	%6 Redazione
+			{--} 	%7 Verifica
+			{--} 			%8 Approvazione
 	%fino a qui : add by Martin
 	\newpage
 	\thispagestyle{empty}
@@ -184,12 +184,16 @@ dei processi per identificare quali azioni possono essere necessarie per miglior
 
 \end{itemize} 
 \end{itemize}
+
+
 \subsection{Qualità di prodotto}
-AGGIUNGERE TESTO
+Il controllo per la qualità di prodotto definisce i seguenti processi
+Per il controllo qualità del prodotto sono definiti i seguenti processi:
 \begin{itemize}
 \item \textbf{Software Quality Assurance}: insieme delle attività volte a garantire il raggiungimento degli obiettivi di qualità. Queste attività prevedono l'utilizzo di tecniche di analisi statica e dinamica
 \item \textbf{Verifica}: attività costante durante l'intera fase del progetto; serve a controllare che l'output aspettato dalle entità in oggetto di verifica.
 \item \textbf{Validazione}: la conferma oggettiva che il sistema soddisfi i requisiti. 
+\end{itemize}
 \subsubsection{Standard utilizzati}
 Come punto di riferimento per la qualità del prodotto software si fa riferimento allo standard \underline{ISO/IEC 9126:2001}.\\
 L'immagine seguente elenca le principali caratteristiche a cui un prodotto software di qualità deve aspirare:\\
@@ -227,8 +231,8 @@ L'infrastruttura quindi dovrà tenere conto dei seguenti obiettivi:
 \item Monitoraggio del tempo trascorso tra l'assegnazione del ticket ed il suo completamento
 \end{itemize} 
 
-\subsubsection{Metriche}
-DA FARE
+%\subsubsection{Metriche}
+%DA FARE
 
 \subsection{Project Planning, Assessment and Control Process}
 Processo che deve fornire la pianificazione dettagliata delle attività di sviluppo del progetto come la suddivisione temporale delle varie fasi di sviluppo, la scelta del modello di ciclo di vita del prodotto, l'assegnazione dei ruoli, i preventivi ed i consuntivi.
@@ -297,15 +301,15 @@ La verifica su questo processo deve tenere conto di:
 \item Controllo eventuali conflitti o imprecisioni nella codifica dei requisiti e dei casi d'uso.
 \end{itemize}
 \subsubsection{Metriche e misure}
-\subsubsubsection{Copertura dei requisiti DA CORREGGERE}
-Indica la percentuale dei casi testati rispetto alla totalità dei casi da testare. Una percentuale del 100\% può essere auspicabile solo se sono stati ben definiti i casi che necessitano realmente di essere testati. 
+\subsubsubsection{Copertura dei requisiti}
+Indica la percentuale dei requisiti soddisfatti rispetto alla totalità dei requisiti emersi.  
 \begin{center}
-\textit{Copertura dei test = Numero funzioni testate * 100/Numero funzioni da testare}
+\textit{Copertura requisiti = Numero requisiti implementati * 100/Numero requisiti da implementare}
 \end{center}
 Parametri utilizzati: 
 \begin{itemize}
-	\item Range-accettazione: \begin{math}[70 - 100]\end{math}
-\item Range-ottimale: \begin{math}[80 - 100]\end{math}
+	\item Range-accettazione: \begin{math}[80 - 100]\end{math}
+\item Range-ottimale: \begin{math}[90 - 100]\end{math}
 	\end{itemize}
 	
 \subsection{System/Software Architectural Design Process}
@@ -367,13 +371,13 @@ Parametri utilizzati:
 	\item Range di accettazione: \begin{math}[0 - 7]\end{math}
 	\item Range ottimale: \begin{math}[0 - 5]\end{math}
 	\end{itemize}
-\subsubsubsection{XXXNumber of methods}
-Numero di metodi definiti in una classe.
-Parametri utilizzati:
-\begin{itemize}
-	\item Range di accettazione: \begin{math}[1 - 7]\end{math}
-	\item Range ottimale: \begin{math}[1 - 10]\end{math}
-	\end{itemize}
+%\subsubsubsection{XXXNumber of methods}
+%Numero di metodi definiti in una classe.
+%Parametri utilizzati:
+%\begin{itemize}
+%	\item Range di accettazione: \begin{math}[1 - 7]\end{math}
+%	\item Range ottimale: \begin{math}[1 - 10]\end{math}
+%	\end{itemize}
 \subsection{Software Construction Process}
 Questo processo coinvolge l'attività di codifica vera e propria secondo le direttive definite nel documento \textit{Definizione-di-dettaglio-1.0.pdf}.
 \subsubsection{Obiettivi}
@@ -432,7 +436,13 @@ E = D * V
 \end{itemize} 
 \subsubsubsection{Dependency count}
 Conteggio del numero di chiamate di tipo \textbf{require}\addglos di ogni metodo. Valori bassi sono da preferire.
-\subsubsubsection{Maintainability Index} Rappresenta l'indice principale dei risultati dell'analisi effettuata da Plato sull'intero codice. Compreso tra 0 e 100, questo indice rappresenta la relativa facilità di manutenzione del codice analizzato. Valori alti rappresentano miglior manutenibilità.\\
+\subsubsubsection{Maintainability Index} Rappresenta l'indice principale dei risultati dell'analisi effettuata sull'intero codice. Compreso tra 0 e 100, questo indice rappresenta la relativa facilità di manutenzione del codice analizzato. Valori alti rappresentano miglior manutenibilità.\\
+I valori di tolleranza per tale indice sono:
+\begin{itemize}
+\item  \begin{math} MI \ge 20: \end{math} alta manutenibilità
+\item \begin{math}10 \leq MI \geq 20: \end{math} moderata manutenibilità
+\item \begin{math}MI \leq 10: \end{math} bassa manutenibilità
+\end{itemize}
 Questo indice viene calcolato utilizzando la seguente formula: \\
 \begin{center}
 \begin{math}
@@ -653,11 +663,10 @@ In generale risulta che testi con un indice:
 %\textit{Si rimanda alla sezione Misure e Metriche del presente documento per una spiegazione dettagliata delle metriche utilizzate da Complexity-report, e al documento Norme-di-progetto.pdf per quanto riguarda le modalità di utilizzo dei sopracitati software.} 
 
 \newpage
-\end{itemize}
+%\end{itemize}
 \section{Misure e metriche: riepilogo parametri di tolleranza}
 Di seguito vengono elencate le metriche adottate per il controllo qualitativo dei processi, dei documenti e del prodotto software in sviluppo. 
 \subsection{Processi}
-Metriche utilizzate per il controllo dell'andamento dei processi di supporto allo sviluppo:
 \begin{center}
 \begin{tabular}{{p{8cm} p{2.5cm} p{2cm}}}
 \textbf{Metrica} & \textbf{Accettazione} & \textbf{Ottimale}\\ \hline
@@ -666,10 +675,9 @@ Budget Variance & \begin{math} \ge -(P*10\%) \end{math} & \begin{math} \ge 0 \en
 \end{tabular}
 \end{center}
 \textit{P = PreventivoFase}\\\\
-\textit{Schedule variance} e \textit{budget variance} danno un resoconto in termini di tempo e di costi effettuati confrontati con il preventivo.\\
-I margini di tolleranza di errore sono stati impostati al 5\% sulle scadenze prefissate e al 10\% sul budget.
-\subsection{Documenti}
-La metrica che si è scelto di utilizzare per un'analisi il più possibile oggettiva sul contenuto dei documenti è l'indice Gullpease (vedere appendice X per una descrizione più completa). 
+%\textit{Schedule variance} e \textit{budget variance} danno un resoconto in termini di tempo e di costi effettuati confrontati con il preventivo.\\
+%I margini di tolleranza di errore sono stati impostati al 5\% sulle scadenze prefissate e al 10\% sul budget.
+\subsection{Documenti} 
 \begin{center}
 \begin{tabular}{{p{8cm} p{2.5cm} p{2cm}}}
 \textbf{Metrica} & \textbf{Accettazione} & \textbf{Ottimale}\\ \hline
@@ -679,7 +687,7 @@ Gulpease Index &  \begin{math}[50 - 100]\end{math} & \begin{math}[60 - 100]\end{
 
 
 \subsection{Software}
-Per l'analisi statica del codice prodotto viene utilizzato il software di analisi Complexity-report, per una descrizione dettagliata delle metriche utilizzate dal software vedere appendice B sezione 3.5.
+
 \begin{center}
 \begin{tabular}{{p{8cm} p{2.5cm} p{2cm}}}
 \textbf{Metrica} & \textbf{Accettazione} & \textbf{Ottimale}\\ \hline
@@ -692,16 +700,20 @@ First-order density & \begin{math} \le 20\% \end{math} & \begin{math} \le 15\%  
 Change cost & \begin{math} \le 50\% \end{math} & \begin{math} \le 40\%\end{math}\\ \hline
 Core size & \begin{math} \le 30\% \end{math} & \begin{math} \le 25\%\end{math}\\ \hline
 Maintainability Index & \begin{math}[20 - 100]\end{math} & \begin{math}[70 - 100]\end{math}\\ \hline
-Copertura dei test & \begin{math}[70 - 100]\end{math}& \begin{math}[80 - 100]\end{math}\\ \hline
+Copertura dei requisiti & \begin{math}[80 - 100]\end{math}& \begin{math}[90 - 100]\end{math}\\ \hline
+Copertura dei test di accettazione & \begin{math}[100\%]\end{math}& \begin{math}[100\%]\end{math}\\ \hline
+Copertura dei test di sistema & \begin{math}[80\%]\end{math}& \begin{math}[90\%]\end{math}\\ \hline
+Copertura dei test integrazione & \begin{math}[80\%]\end{math}& \begin{math}[90\%]\end{math}\\ \hline
+Copertura dei test di unità & \begin{math}[90\%]\end{math}& \begin{math}[100\%]\end{math}\\ \hline
 \end{tabular}
 \end{center}
-La metrica fondamentale di questo software è il \textbf{Maintainability Index} che offre un valore sul livello di manutenibilità del codice.\\
-I valori di tolleranza fissati per tale indice sono:
-\begin{itemize}
-\item  \begin{math} MI \ge 20: \end{math} alta manutenibilità
-\item \begin{math}10 \leq MI \geq 20: \end{math} moderata manutenibilità
-\item \begin{math}MI \leq 10: \end{math} bassa manutenibilità
-\end{itemize}
+%La metrica fondamentale di questo software è il \textbf{Maintainability Index} che offre un valore sul livello di manutenibilità del codice.\\
+%I valori di tolleranza fissati per tale indice sono:
+%\begin{itemize}
+%\item  \begin{math} MI \ge 20: \end{math} alta manutenibilità
+%\item \begin{math}10 \leq MI \geq 20: \end{math} moderata manutenibilità
+%\item \begin{math}MI \leq 10: \end{math} bassa manutenibilità
+%\end{itemize}
 \newpage
 \appendix
 \addappheadtotoc
@@ -1546,13 +1558,44 @@ ViewModel::Router & TI11
 
 \section{Tracciamento requisiti - componenti}
 
+\begin{center}
+\begin{longtable}
+{p{0.45\columnwidth} p{0.33\columnwidth}}
+			\caption{Tracciamento Componenti - Test di integrazione} \\
+
+\textbf{Componente} & \textbf{ID Test} \\
+\midrule
+\endfirsthead
+
+\textbf{Componente} & \textbf{ID Test} \\
+\midrule
+\endhead
+
+\multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Tracciamento Componenti - Test di integrazione}
+\endfoot
+
+\multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Tracciamento Componenti - Test di integrazione}
+\endlastfoot
+TI1 & Model::Database   \\\midrule
+TI2 & Model::Parser  \\\midrule
+TI3 & Model::Statistics  \\\midrule
+TI4 & Model::Publishers  \\\midrule
+TI5 & View::Pages  \\\midrule
+TI6 & View::Templates   \\\midrule
+TI7 & ViewModel::Controllers   \\\midrule
+TI8 & ViewModel::Subscribers  \\\midrule
+TI9 & ViewModel::Methods   \\\midrule
+TI10 & ViewModel::Interpreter  \\\midrule
+TI11 & ViewModel::Router \\\midrule
+\end{longtable}
+\end{center}
 
 \section{Tracciamento metodi - test di unità}
 
 \begin{center}
 \begin{longtable}
 {p{.80\textwidth} p{.20\textwidth}}
-			\caption{Tracciamento Componenti - Test di integrazione} \\
+			\caption{Tracciamento metodi - Test di unità} \\
 
 \textbf{Metodo} & \textbf{ID Test} \\
 
@@ -1562,10 +1605,10 @@ ViewModel::Router & TI11
 \midrule
 \endhead
 
-\multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Tracciamento Componenti - Test di integrazione}
+\multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Tracciamento metodi - Test di unità}
 \endfoot
 
-\multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Tracciamento Componenti - Test di integrazione}
+\multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Tracciamento metodi - Test di unità}
 \endlastfoot
 \midrule
 Model::Database::QuizManager::addQuiz() & TU1 \\
@@ -1593,7 +1636,7 @@ ViewModel::Controllers::QuizListController::orderBy()&\\
 \midrule
 ViewModel::Controllers::QuizDetailsController::quizDetailsController()&TU9 \\
 \midrule
-ViewModel::Controllers::DeleteQuestionController::DeleteQuestionController()&TU10\\
+ViewModel::Controllers::DeleteQuestionController::\\DeleteQuestionController()&TU10\\
 ViewModel::Controllers::DeleteQuestionController::deleteQuestion() & \\
 \midrule
 ViewModel::Controllers::DeleteQuizController::DeleteQuizController() & TU11\\
@@ -1680,45 +1723,139 @@ View::Pages::CategoryListPage::search() & \\
 \end{longtable}
 \end{center}
 
-%\section{Tracciamento test di unità - metodi}
-%
-%\begin{center}
-%\begin{longtable}
-%{p{0.23\columnwidth} p{0.60\columnwidth}}
-%			\caption{Tracciamento Componenti - Test di integrazione} \\
-%
-%\textbf{Metodo/Classe} & \textbf{ID Test} \\
+\section{Tracciamento test di unità - metodi}
+
+\begin{center}
+\begin{longtable}
+{p{.20\textwidth} p{.80\textwidth}}
+			\caption{Tracciamento test di unità - metodi} \\
+
+\textbf{Metodo} & \textbf{ID Test} \\
+
+\endfirsthead
+
+\textbf{Metodo} & \textbf{ID Test} \\
+\midrule
+\endhead
+
+\multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Tracciamento test di unità - metodi}
+\endfoot
+
+\multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Tracciamento test di unità - metodi}
+\endlastfoot
+\midrule
+TU1 &Model::Database::QuizManager::addQuiz()   \\
+ & Model::Database::QuizManager::modifyQuiz() \\
+& Model::Database::QuizManager::removeQuiz() \\\midrule
+TU2 & Model::Database::QuestionManager::addQuestion() \\
+& Model::Database::QuestionManager::modifyQuestion()\\
+& Model::Database::QuestionManager::removeQuestion()\\\midrule
+TU3 & Model::Parser::Parser::check()  \\\midrule
+TU4 & Model::Statistics::Statistics::updateQuestionStats() \\
+& Model::Statistics::Statistics::updateQuizStats() \\
+& Model::Statistics::Statistics::updateUserStatitics()\\\midrule
+TU5 & Model::Publishers::UserPublishers::publishUser() \\
+& Model::Publishers::QuizPublishers::publishQuiz()   \\
+& Model::Publishers::QuestionPublishers::publishQuestion() \\\midrule
+& ViewModel::Controllers::NewQuestionController::NewQuestionController() TU6\\
+& ViewModel::Controllers::NewQuestionController::saveQuestion() \\\midrule
+& ViewModel::Controllers::NewQuizController::newQuizController()  TU7\\
+& ViewModel::Controllers::NewQuizController::saveQuiz() \\
+\midrule
+TU8&ViewModel::Controllers::QuizListController::quizListController()\\
+&ViewModel::Controllers::QuizListController::quizzes()\\
+&ViewModel::Controllers::QuizListController::quizDetails()\\
+&ViewModel::Controllers::QuizListController::orderBy()\\
+\midrule
+TU9&ViewModel::Controllers::QuizDetailsController::quizDetailsController() \\
+\midrule
+TU10&ViewModel::Controllers::DeleteQuestionController::\\&DeleteQuestionController()\\
+&ViewModel::Controllers::DeleteQuestionController::deleteQuestion()  \\
+\midrule
+TU11&ViewModel::Controllers::DeleteQuizController::DeleteQuizController()  \\
+&ViewModel::Controllers::DeleteQuizController::deleteQuiz()\\
+\midrule
+TU12&ViewModel::Controllers::QuizManagementController::\\&QuizManagementController()  \\
+&ViewModel::Controllers::QuizManagementController::nextQuestion()  \\
+&ViewModel::Controllers::QuizManagementController::previousQuestion()  \\
+&ViewModel::Controllers::QuizManagementController::endQuiz()  \\
+\midrule
+TU13&ViewModel::Controllers::QuestionsManagementController  \\
+&::QuestionsManagementController()  \\
+&ViewModel::Controllers::QuestionsManagementController::getQuestion() \\
+\midrule
+TU14&ViewModel::Controllers::QMLEditorController::QMLEditorController()  \\
+&ViewModel::Controllers::QMLEditorController::check()  \\
+\midrule
+TU15&ViewModel::Subscribers::QuestionsSubscriber::getCollection()  TU15 \\
+&ViewModel::Subscribers::QuestionsSubscriber::subscribe()\\
+\midrule
+TU16&ViewModel::Subscribers::QuizSubscriber::getCollection()   \\
+&ViewModel::Subscribers::QuizSubscriber::subscribe() \\
+\midrule
+TU17&ViewModel::Subscribers::UsersSubscriber::getCollection() \\
+&ViewModel::Subscribers::UsersSubscriber::subscribe()\\
+\midrule
+TU18&ViewModel::Methods::QuestionMethods::insert()  \\
+&ViewModel::Methods::QuestionMethods::remove() \\
+\midrule
+TU19&ViewModel::Methods::QuizMethods::insert()  \\
+&ViewModel::Methods::QuizMethods::remove() \\
+\midrule
+TU20&ViewModel::Methods::UserMethods::insert()  \\
+&ViewModel::Methods::UserMethods::remove() \\
+\midrule
+TU21&ViewModel::Interpreter::Interpreter::translate()   \\
+&ViewModel::Interpreter::InterpreterFactory::createInterpreter()\\
+&ViewModel::Interpreter::QMLInterpreterFactory::QMLInterpreterFactory() \\
+&ViewModel::Interpreter::QMLInterpreterFactory::getInstance() \\
+
+&ViewModel::Interpreter::QMLInterpreter::translate()  \\
+
+&ViewModel::Interpreter::QML2HTMLInterpreterFactory::translate()  \\
+\midrule
+TU22&ViewModel::Router::Router::state()  \\
+\midrule
+%\textit{View::Pages::Page::show()} & TU26 \\
 %\midrule
-%\endfirsthead
-%
-%\textbf{Metodo/Classe} & \textbf{ID Test} \\
-%\midrule
-%\endhead
-%
-%\multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Tracciamento Componenti - Test di integrazione}
-%\endfoot
-%
-%\multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Tracciamento Componenti - Test di integrazione}
-%\endlastfoot
-%TU1 & Model::Database::UserManager::logIn() \\\midrule
-%TU2 & Model::Database::UserManager::addUser()  \\\midrule
-%TU3 &Model::Database::UserManager::removeUser()  \\\midrule
-%TU4 &Model::Database::QuestionManager::addQuestion() \\\midrule
-%TU5 &Model::Database::QuestionManager::modifyQuestion \\\midrule
-%TU6 &Model::Database::QuestionManager::removeQuestion  \\\midrule
-%TU7 &Model::Database::QuizManager::addQuiz()  \\\midrule
-%TU8 &Model::Database::QuizManager::modifyQuiz()  \\\midrule
-%TU9 &Model::Database::QuizManager::removeQuiz()  \\\midrule
-%TU10 &Model::Parser::check() \\\midrule
-%TU11 &Model::Statistics::updateQuestionStatistic() \\\midrule
-%TU12 &Model::Statistics::updateQuizStatistic()  \\\midrule
-%TU13 &Model::Statistics::updateUserStatistics()  \\\midrule
-%TU14 &Model::Publishers::UserPublishers::publishUser() \\\midrule
-%TU15 & Model::Publishers::UserPublishers::publishQuiz()  \\\midrule
-%TU16 & Model::Publishers::UserPublishers::publishQuestion() \\
-%
-%\end{longtable}
-%\end{center}
+TU23&View::Pages::LoginPage::show()  \\
+\midrule
+TU24&View::Pages::RegistrationPage::show()  \\
+\midrule
+TU25&View::Pages::PasswordRecoveryPage::show()  \\
+\midrule
+TU26&View::Pages::QuizCreationPage::show()  \\
+\midrule
+TU27&View::Pages::QuestionUpdatePage::show()  \\
+\midrule
+TU28&View::Pages::QuestionCreationPage::show()  \\
+\midrule
+TU29&View::Pages::QuestionManagementPage::show()   \\
+&View::Pages::QuestionManagementPage::sort()  \\
+&View::Pages::QuestionManagementPage::search()\\
+\midrule
+TU30&View::Pages::QuizResultsPage::show()  \\
+\midrule
+TU31&View::Pages::QuizExecutionPage::show()  \\
+&View::Pages::QuizExecutionPage::nextQuestion()\\
+&View::Pages::QuizExecutionPage::previousQuestion()\\
+\midrule
+TU32&View::Pages::QuizListPage::show()  \\
+&View::Pages::QuizListPage::sort()  \\
+&View::Pages::QuizListPage::search() \\
+\midrule
+TU33 & View::Pages::CategoryListPage::show()   \\
+ & View::Pages::CategoryListPage::sort()   \\
+ & View::Pages::CategoryListPage::search()  \\
+\midrule
+
+
+
+
+
+\end{longtable}
+\end{center}
+\newpage
 \section{Esito misurazioni}
 \label{Appendice C}
 Di seguito viene fornito il resoconto dell'attività di verifica inerente ad ogni fase di sviluppo.

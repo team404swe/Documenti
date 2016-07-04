@@ -16,16 +16,15 @@
 \contentsline {section}{\numberline {3}Verifica qualitativa sui processi}{7}{section.3}
 \contentsline {subsection}{\numberline {3.1}Infrastructure Management Process}{7}{subsection.3.1}
 \contentsline {subsubsection}{\numberline {3.1.1}Obiettivi e strategie}{7}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}Metriche}{7}{subsubsection.3.1.2}
 \contentsline {subsection}{\numberline {3.2}Project Planning, Assessment and Control Process}{7}{subsection.3.2}
 \contentsline {subsubsection}{\numberline {3.2.1}Obiettivi e strategie}{7}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}Metriche}{8}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2}Metriche}{7}{subsubsection.3.2.2}
 \contentsline {subsubsubsection}{\numberline {3.2.2.1}Schedule Variance}{8}{subsubsubsection.3.2.2.1}
 \contentsline {subsubsubsection}{\numberline {3.2.2.2}Budget variance}{8}{subsubsubsection.3.2.2.2}
-\contentsline {subsection}{\numberline {3.3}System/Software Requirements Analysis Process}{9}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.3}System/Software Requirements Analysis Process}{8}{subsection.3.3}
 \contentsline {subsubsection}{\numberline {3.3.1}Obiettivi e strategie}{9}{subsubsection.3.3.1}
 \contentsline {subsubsection}{\numberline {3.3.2}Metriche e misure}{9}{subsubsection.3.3.2}
-\contentsline {subsubsubsection}{\numberline {3.3.2.1}Copertura dei requisiti DA CORREGGERE}{9}{subsubsubsection.3.3.2.1}
+\contentsline {subsubsubsection}{\numberline {3.3.2.1}Copertura dei requisiti}{9}{subsubsubsection.3.3.2.1}
 \contentsline {subsection}{\numberline {3.4}System/Software Architectural Design Process}{9}{subsection.3.4}
 \contentsline {subsubsection}{\numberline {3.4.1}Obiettivi}{9}{subsubsection.3.4.1}
 \contentsline {subsubsection}{\numberline {3.4.2}Metriche e misure}{10}{subsubsection.3.4.2}
@@ -33,45 +32,45 @@
 \contentsline {subsubsubsection}{\numberline {3.4.2.2}Core size}{10}{subsubsubsection.3.4.2.2}
 \contentsline {subsection}{\numberline {3.5}Software Detailed Design Process}{10}{subsection.3.5}
 \contentsline {subsubsection}{\numberline {3.5.1}Obiettivi}{10}{subsubsection.3.5.1}
-\contentsline {subsubsection}{\numberline {3.5.2}Metriche e misure}{11}{subsubsection.3.5.2}
-\contentsline {subsubsubsection}{\numberline {3.5.2.1}Parameter count}{11}{subsubsubsection.3.5.2.1}
-\contentsline {subsubsubsection}{\numberline {3.5.2.2}XXXNumber of methods}{11}{subsubsubsection.3.5.2.2}
-\contentsline {subsection}{\numberline {3.6}Software Construction Process}{11}{subsection.3.6}
+\contentsline {subsubsection}{\numberline {3.5.2}Metriche e misure}{10}{subsubsection.3.5.2}
+\contentsline {subsubsubsection}{\numberline {3.5.2.1}Parameter count}{10}{subsubsubsection.3.5.2.1}
+\contentsline {subsection}{\numberline {3.6}Software Construction Process}{10}{subsection.3.6}
 \contentsline {subsubsection}{\numberline {3.6.1}Obiettivi}{11}{subsubsection.3.6.1}
 \contentsline {subsubsection}{\numberline {3.6.2}Metriche e misure}{11}{subsubsection.3.6.2}
 \contentsline {subsubsubsection}{\numberline {3.6.2.1}Cyclomatic complexity}{11}{subsubsubsection.3.6.2.1}
 \contentsline {subsubsubsection}{\numberline {3.6.2.2}Metriche di Halstead}{11}{subsubsubsection.3.6.2.2}
 \contentsline {subsubsubsection}{\numberline {3.6.2.3}Dependency count}{12}{subsubsubsection.3.6.2.3}
 \contentsline {subsubsubsection}{\numberline {3.6.2.4}Maintainability Index}{12}{subsubsubsection.3.6.2.4}
-\contentsline {subsection}{\numberline {3.7}System/Software Qualification Testing Process}{13}{subsection.3.7}
-\contentsline {subsubsection}{\numberline {3.7.1}Obiettivi e strategie}{13}{subsubsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7}System/Software Qualification Testing Process}{12}{subsection.3.7}
+\contentsline {subsubsection}{\numberline {3.7.1}Obiettivi e strategie}{12}{subsubsection.3.7.1}
 \contentsline {subsubsection}{\numberline {3.7.2}Metriche e misure}{13}{subsubsection.3.7.2}
 \contentsline {subsubsubsection}{\numberline {3.7.2.1}Test di Accettazione eseguiti}{13}{subsubsubsection.3.7.2.1}
 \contentsline {subsubsubsection}{\numberline {3.7.2.2}Test di Sistema eseguiti}{13}{subsubsubsection.3.7.2.2}
-\contentsline {subsubsubsection}{\numberline {3.7.2.3}Test di Integrazione eseguiti}{14}{subsubsubsection.3.7.2.3}
-\contentsline {subsubsubsection}{\numberline {3.7.2.4}Test di Unit\IeC {\`a} eseguiti}{14}{subsubsubsection.3.7.2.4}
-\contentsline {subsection}{\numberline {3.8}Software Documentation Management Process}{14}{subsection.3.8}
+\contentsline {subsubsubsection}{\numberline {3.7.2.3}Test di Integrazione eseguiti}{13}{subsubsubsection.3.7.2.3}
+\contentsline {subsubsubsection}{\numberline {3.7.2.4}Test di Unit\IeC {\`a} eseguiti}{13}{subsubsubsection.3.7.2.4}
+\contentsline {subsection}{\numberline {3.8}Software Documentation Management Process}{13}{subsection.3.8}
 \contentsline {subsubsection}{\numberline {3.8.1}Obiettivi e strategie}{14}{subsubsection.3.8.1}
-\contentsline {subsubsection}{\numberline {3.8.2}Metriche e misure}{15}{subsubsection.3.8.2}
-\contentsline {subsubsection}{\numberline {3.8.3}Indice Gulpease}{15}{subsubsection.3.8.3}
-\contentsline {section}{\numberline {4}Misure e metriche: riepilogo parametri di tolleranza}{16}{section.4}
-\contentsline {subsection}{\numberline {4.1}Processi}{16}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Documenti}{16}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Software}{16}{subsection.4.3}
-\contentsline {section}{Appendici}{17}{section*.3}
-\contentsline {section}{\numberline {A}Specifica test}{17}{appendix.Alph1}
-\contentsline {subsection}{\numberline {A.1}Livelli di testing}{17}{subsection.Alph1.1}
-\contentsline {subsection}{\numberline {A.2}Test di accettazione}{18}{subsection.Alph1.2}
-\contentsline {subsection}{\numberline {A.3}Test di sistema}{23}{subsection.Alph1.3}
-\contentsline {subsubsection}{\numberline {A.3.1}Requisiti funzionali}{23}{subsubsection.Alph1.3.1}
-\contentsline {subsubsection}{\numberline {A.3.2}Requisiti di qualit\IeC {\`a}}{30}{subsubsection.Alph1.3.2}
-\contentsline {subsection}{\numberline {A.4}Test di integrazione}{31}{subsection.Alph1.4}
-\contentsline {subsection}{\numberline {A.5}Test di unit\IeC {\`a}}{32}{subsection.Alph1.5}
-\contentsline {section}{\numberline {B}Tracciamento componenti - requisiti}{33}{appendix.Alph2}
-\contentsline {section}{\numberline {C}Tracciamento requisiti - componenti}{34}{appendix.Alph3}
+\contentsline {subsubsection}{\numberline {3.8.2}Metriche e misure}{14}{subsubsection.3.8.2}
+\contentsline {subsubsection}{\numberline {3.8.3}Indice Gulpease}{14}{subsubsection.3.8.3}
+\contentsline {section}{\numberline {4}Misure e metriche: riepilogo parametri di tolleranza}{15}{section.4}
+\contentsline {subsection}{\numberline {4.1}Processi}{15}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Documenti}{15}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Software}{15}{subsection.4.3}
+\contentsline {section}{Appendici}{16}{section*.3}
+\contentsline {section}{\numberline {A}Specifica test}{16}{appendix.Alph1}
+\contentsline {subsection}{\numberline {A.1}Livelli di testing}{16}{subsection.Alph1.1}
+\contentsline {subsection}{\numberline {A.2}Test di accettazione}{17}{subsection.Alph1.2}
+\contentsline {subsection}{\numberline {A.3}Test di sistema}{22}{subsection.Alph1.3}
+\contentsline {subsubsection}{\numberline {A.3.1}Requisiti funzionali}{22}{subsubsection.Alph1.3.1}
+\contentsline {subsubsection}{\numberline {A.3.2}Requisiti di qualit\IeC {\`a}}{29}{subsubsection.Alph1.3.2}
+\contentsline {subsection}{\numberline {A.4}Test di integrazione}{30}{subsection.Alph1.4}
+\contentsline {subsection}{\numberline {A.5}Test di unit\IeC {\`a}}{31}{subsection.Alph1.5}
+\contentsline {section}{\numberline {B}Tracciamento componenti - requisiti}{32}{appendix.Alph2}
+\contentsline {section}{\numberline {C}Tracciamento requisiti - componenti}{33}{appendix.Alph3}
 \contentsline {section}{\numberline {D}Tracciamento metodi - test di unit\IeC {\`a}}{34}{appendix.Alph4}
-\contentsline {section}{\numberline {E}Esito misurazioni}{36}{appendix.Alph5}
-\contentsline {subsection}{\numberline {E.1}Analisi}{36}{subsection.Alph5.1}
-\contentsline {subsubsection}{\numberline {E.1.1}Processi}{36}{subsubsection.Alph5.1.1}
-\contentsline {subsubsection}{\numberline {E.1.2}Documenti}{37}{subsubsection.Alph5.1.2}
-\contentsline {subsection}{\numberline {E.2}Progettazione Architetturale}{37}{subsection.Alph5.2}
+\contentsline {section}{\numberline {E}Tracciamento test di unit\IeC {\`a} - metodi}{36}{appendix.Alph5}
+\contentsline {section}{\numberline {F}Esito misurazioni}{39}{appendix.Alph6}
+\contentsline {subsection}{\numberline {F.1}Analisi}{39}{subsection.Alph6.1}
+\contentsline {subsubsection}{\numberline {F.1.1}Processi}{39}{subsubsection.Alph6.1.1}
+\contentsline {subsubsection}{\numberline {F.1.2}Documenti}{39}{subsubsection.Alph6.1.2}
+\contentsline {subsection}{\numberline {F.2}Progettazione Architetturale}{39}{subsection.Alph6.2}
