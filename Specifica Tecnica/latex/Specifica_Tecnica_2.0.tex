@@ -1,5 +1,6 @@
 \documentclass[a4paper,11pt]{article}
 	\input{../../template.tex}
+	\newcommand{\code}[1]{\texttt{#1}}
 
 	\title{\textbf{{\fontsize{8mm}{5mm}\selectfont QUIZZIPEDIA}}}
 	\date{}
@@ -40,19 +41,20 @@
 	
 	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm} 
 	\textbf{Descrizione}}
-	\rigaregistro{2.0}{Luca Alessio (Analista)}{25/06/2016}{Approvazione del documento.}
-	\rigaregistro{1.0.20}{Davide Bortot (Progettista)}{23/06/2016}{Correzione errori rilevati in seguito a verifica.}
-	\rigaregistro{1.0.19}{Andrea Multineddu (Progettista)}{22/06/2016}{Verifica del documento.}
-	\rigaregistro{1.0.18}{Davide Bortot (Progettista)}{21/06/2016}{Caricati i diagrammi di sequenza aggiornati alla nuova architettura (§9).}
+	\rigaregistro{2.0}{Luca Alessio (Responsabile)}{25/06/2016}{Approvazione del documento.}
+	\rigaregistro{1.1.1}{Davide Bortot (Progettista)}{23/06/2016}{Correzione errori rilevati in seguito a verifica.}
+	\rigaregistro{1.1}{Marco Crivellaro (Progettista)}{22/06/2016}{Verifica del documento.}
+	\rigaregistro{1.0.19}{Davide Bortot (Progettista)}{21/06/2016}{Aggiunta sezione "Linguaggio QML" (§5).}
+	\rigaregistro{1.0.18}{Davide Bortot (Progettista)}{21/06/2016}{Caricati i diagrammi di sequenza aggiornati alla nuova architettura (§10).}
 	\rigaregistro{1.0.17}{Luca Alessio (Analista)}{20/06/2016}{Termine stesura e aggiornamento sezione "Tracciamento", inizio aggiornamento sezione "Diagrammi di sequenza".}
-	\rigaregistro{1.0.16}{Davide Bortot (Progettista)}{19/06/2016}{Aggiunta la classe Router al ViewModel (aggiunte in §5.2.2 e §7.2.5) e il rispettivo tracciamento in §11.1.}
+	\rigaregistro{1.0.16}{Davide Bortot (Progettista)}{19/06/2016}{Aggiunta la classe Router al ViewModel (aggiunte in §6.2.2 e §8.2.5) e il rispettivo tracciamento in §21.1.}
 	\rigaregistro{1.0.15}{Luca Alessio (Analista)}{18/06/2016}{Inizio revisione tracciamento}
 	\rigaregistro{1.0.14}{Luca Alessio (Analista)}{16/06/2016}{Revisione e correzione sezioni Model e View}
-	\rigaregistro{1.0.13}{Davide Bortot (Progettista)}{11/06/2016}{Eliminati ed inglobati nel package "Controllers" i packages "QuizManager" e "QuestionManager", ed eliminati i relativi design pattern in §10. Riadattato il package Interpreter (§7.2.4). Aggiunto il design pattern Publish-Subscribe (§10.3).}
-	\rigaregistro{1.0.12}{Andrea Multineddu (Progettista)}{09/06/2016}{Definizione delle subpackage del Model "Database"(§6.1.1) e "Publishers" (§6.1.4).}
-	\rigaregistro{1.0.11}{Andrea Multineddu (Progettista)}{08/06/2016}{Ridefinizione del package Model (§5.1).}
-	\rigaregistro{1.0.10}{Davide Bortot (Progettista)}{05/06/2016}{Definizione delle classi del ViewModel "Controllers" (§7.2.1), "Subscribers" (§7.2.2) e "Methods" (§7.2.3).}
-	\rigaregistro{1.0.9}{Davide Bortot (Progettista)}{04/06/2016}{Prima definizione delle classi del ViewModel, con conseguente aggiornamento di §5.2.2 e §7.2.}
+	\rigaregistro{1.0.13}{Davide Bortot (Progettista)}{11/06/2016}{Eliminati ed inglobati nel package "Controllers" i packages "QuizManager" e "QuestionManager", ed eliminati i relativi design pattern in §11. Riadattato il package Interpreter (§8.2.4). Aggiunto il design pattern Publish-Subscribe (§11.3).}
+	\rigaregistro{1.0.12}{Andrea Multineddu (Progettista)}{09/06/2016}{Definizione delle subpackage del Model "Database"(§7.1.1) e "Publishers" (§7.1.4).}
+	\rigaregistro{1.0.11}{Andrea Multineddu (Progettista)}{08/06/2016}{Ridefinizione del package Model (§6.1).}
+	\rigaregistro{1.0.10}{Davide Bortot (Progettista)}{05/06/2016}{Definizione delle classi del ViewModel "Controllers" (§8.2.1), "Subscribers" (§82.2) e "Methods" (§8.2.3).}
+	\rigaregistro{1.0.9}{Davide Bortot (Progettista)}{04/06/2016}{Prima definizione delle classi del ViewModel, con conseguente aggiornamento di §6.2.2 e §8.2.}
 	\rigaregistro{1.0.8}{Davide Bortot (Progettista)}{03/06/2016}{Prima rivisitazione ed adattamento di §5.2.2, divenuto package "ViewModel".}
 	\rigaregistro{1.0.7}{Davide Bortot (Progettista)}{02/06/2016}{Rivisitate le sezioni §2.2, §2.3, §2.4 in seguito alla redifinizione di §2.1.}
 	\rigaregistro{1.0.6}{Davide Bortot (Progettista)}{02/06/2016}{Riscritta la sezione "Architettura generale del sistema" (§2.1) con l'introduzione dei framework scelti e dell'adozione del pattern MVVM.}
@@ -150,6 +152,7 @@ livello, la gerarchia dei package, le loro interazioni e le principali classi in
 	\input{sezioni/specifiche.tex}	
 	\input{sezioni/tecnologie.tex}
 	\input{sezioni/risorse.tex}
+	\input{sezioni/QML.tex}
 	
 	\section{Diagrammi dei packages}
 		\subsection{Server}
