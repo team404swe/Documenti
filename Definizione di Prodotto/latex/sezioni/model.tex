@@ -18,6 +18,8 @@
 		\item\code{Tempo: int}\\
 		\item\code{Domande: Array}\\
 		\item\code{Categorie: Array}\\
+		\textbf{Precondizioni}: Vengono richiesti i dati necessari per la creazione e il salvataggio di un quiz\\
+		\textbf{Postcondizioni}: Il quiz e' stato salvato correttamente nel database\\
 	\end{itemize}
 	\item\code{+ modifyQuiz()} :  Metodo per modificare un quiz nel database\\
 	\textbf{Parametri}:
@@ -28,12 +30,16 @@
 		\item\code{Tempo: int}\\
 		\item\code{Domande: Array}\\
 		\item\code{Categorie: Array}\\
+		\textbf{Precondizioni}: Vengono richiesti i dati necessari per la modifica di un quiz\\
+		\textbf{Postcondizioni}: Il quiz e' stato modificato nel database\\
 	\end{itemize}
 	\item\code{+ removeQuiz()} : Metodo per rimuovere un quiz dal database\\
 	\textbf{Parametri}:
 	\begin{itemize}
 		\item\code{ID\_utente: int}\\
 		\item\code{ID\_quiz: int}\\
+		\textbf{Precondizioni}: Vengono richiesti i dati necessari per la rimozione di un quiz\\
+		\textbf{Postcondizioni}: Il quiz e' stato rimosso dal database\\
 	\end{itemize}
 \end{itemize}
 \end{itemize}
@@ -50,6 +56,8 @@
 				\item\code{ID\_utente: int}\\
 				\item\code{testo\_QML: string}\\
 				\item\code{categoria: string}\\
+				\textbf{Precondizioni}: Vengono richiesti i dati necessari per la creazione e il salvataggio di un nuovo quesito\\
+				\textbf{Postcondizioni}: Il quesito e' stato salvato correttamente nel database se viene rispettata la sintassi QML altrimenti viene restituito un messaggio d'errore\\
 			\end{itemize}
 		\item\code{+ modifyQuestion()} : Metodo per modificare un quesito nel database\\
 		\textbf{Parametri}:
@@ -58,12 +66,16 @@
 				\item\code{ID\_quesito: int}\\
 				\item\code{testo\_QML: string}\\
 				\item\code{categoria: string}\\
+				\textbf{Precondizioni}: Vengono richiesti i dati necessari per la modifica di un quesito\\
+				\textbf{Postcondizioni}: Il quesito e' stato modificato nel database se viene rispettata la sintassi QML altrimenti viene restituito un messaggio d'errore\\
 			\end{itemize}
 		\item\code{+ removeQuestion()} : Metodo per rimuovere un quesito dal database\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{ID\_utente: int}\\
 				\item\code{ID\_quesito: int}\\
+				\textbf{Precondizioni}: Vengono richiesti i dati necessari per la rimozione di un quesito\\
+				\textbf{Postcondizioni}: Il quesito e' stato rimosso dal database\\
 			\end{itemize}
 	\end{itemize}
 \end{itemize}
@@ -79,6 +91,8 @@
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{testo\_da\_controllare: string}\\
+				\textbf{Precondizioni}: Viene richiesta una string che contiene la domanda\\
+				\textbf{Postcondizioni}: Viene restituito un messaggio contenente il risultato dell'operazione di controllo sintattico\\
 			\end{itemize}
 	\end{itemize}
 \end{itemize}
@@ -95,6 +109,8 @@
 	\begin{itemize}
 		\item\code{ID\_quesito: int}\\
 		\item\code{Corretta: bool}\\
+		\textbf{Precondizioni}: Vengono richiesti i risultati conseguiti dall'utente per lo specifico quesito\\
+		\textbf{Postcondizioni}: Le statistiche relative al quesito risultano aggiornate\\
 	\end{itemize}
 	\item\code{+ updateQuizStatitics()} : Metodo per aggiornare le statistiche di un quiz nel database\\
 	\textbf{Parametri}:
@@ -102,6 +118,8 @@
 		\item\code{ID\_quiz: int}\\
 		\item\code{ID\_utente: int}\\
 		\item\code{Risposte: Array}\\
+		\textbf{Precondizioni}: Vengono richiesti i risultati conseguiti dall'utente per lo specifico quiz\\
+		\textbf{Postcondizioni}: Viene salvato un record relativo ad una singola esecuzione del quiz\\
 	\end{itemize}
 	\item\code{+ updateUserStatitics()} : Metodo per aggiornare le statistiche di un utente nel database\\
 	\textbf{Parametri}:
@@ -109,21 +127,13 @@
 		\item\code{ID\_utente: int}\\
 		\item\code{quesiti\_corretti: int}\\
 		\item\code{quesiti\_totali\_quiz: int}\\
+		\textbf{Precondizioni}: Vengono richiesti i risultati conseguiti dall'utente in un quiz\\
+		\textbf{Postcondizioni}: Viene aggiornate le statistiche globali dell'utente\\
 	\end{itemize}
 \end{itemize}
 \end{itemize}
 
 \subsection{Model::Publishers}
-\subsubsection{Model::Publishers::UserPublisher}
-\begin{itemize}
-\item\textbf{Funzione del componente:} questa classe fornisce funzionalita' per rendere pubblica la collezione degli utenti all'avvio del Sistema
-\item\textbf{Relazioni d'uso con altre componenti:} Nessuna \\
-\item\textbf{Metodi}:
-	\begin{itemize}
-		\item\code{+ publishUser()} : Metodo per rendere accessibili la collezione degli utenti all'avvio del Sistema\\
-	\end{itemize}
-\end{itemize}
-
 \subsubsection{Model::Publishers::QuizPublisher}
 \begin{itemize}
 \item\textbf{Funzione del componente:} questa classe fornisce funzionalita' per rendere pubblica la collezione dei quiz all'avvio del Sistema
@@ -131,6 +141,8 @@
 \item\textbf{Metodi}:
 	\begin{itemize}
 		\item\code{+ publishQuiz()} : Metodo per rendere accessibili la collezione dei quiz all'avvio del Sistema\\
+		\textbf{Precondizioni}: Il Sistema non ha ancora reso pubblica la collezione dei quiz\\
+		\textbf{Postcondizioni}: Il Sistema ha reso pubblica la collezione dei quiz\\
 	\end{itemize}
 \end{itemize}
 
@@ -141,5 +153,7 @@
 \item\textbf{Metodi}:
 	\begin{itemize}
 		\item\code{+ publishQuestion()} : Metodo per rendere accessibili la collezione dei quesiti all'avvio del Sistema\\
+		\textbf{Precondizioni}: Il Sistema non ha ancora reso pubblica la collezione dei quesiti\\
+		\textbf{Postcondizioni}: Il Sistema ha reso pubblica la collezione dei quesiti\\
 	\end{itemize}
 \end{itemize}

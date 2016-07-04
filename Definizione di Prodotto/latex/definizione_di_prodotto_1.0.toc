@@ -21,45 +21,55 @@
 \contentsline {subsubsection}{\numberline {2.1.10}View::Pages::QuizExecutionPage}{8}{subsubsection.2.1.10}
 \contentsline {subsubsection}{\numberline {2.1.11}View::Pages::QuizListPage}{9}{subsubsection.2.1.11}
 \contentsline {subsubsection}{\numberline {2.1.12}View::Pages::CategoryListPage}{9}{subsubsection.2.1.12}
-\contentsline {section}{\numberline {3}Package Model}{11}{section.3}
-\contentsline {subsection}{\numberline {3.1}Model::Database}{11}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}Model::Database::QuizManager}{11}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}Model::Database::QuestionManager}{12}{subsubsection.3.1.2}
-\contentsline {subsection}{\numberline {3.2}Model::Parser}{13}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Model::Parser::Parser}{13}{subsubsection.3.2.1}
-\contentsline {subsection}{\numberline {3.3}Model::Statistics}{13}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Model::Statistics::Statistics}{13}{subsubsection.3.3.1}
-\contentsline {subsection}{\numberline {3.4}Model::Publishers}{14}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}Model::Publishers::UserPublisher}{14}{subsubsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}Model::Publishers::QuizPublisher}{14}{subsubsection.3.4.2}
-\contentsline {subsubsection}{\numberline {3.4.3}Model::Publishers::QuestionPublisher}{14}{subsubsection.3.4.3}
-\contentsline {section}{\numberline {4}Package ViewModel}{15}{section.4}
-\contentsline {subsection}{\numberline {4.1}ViewModel::Controllers}{15}{subsection.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}ViewModel::Controllers::NewQuestionController}{15}{subsubsection.4.1.1}
-\contentsline {subsubsection}{\numberline {4.1.2}ViewModel::Controllers::NewQuizController}{16}{subsubsection.4.1.2}
-\contentsline {subsubsection}{\numberline {4.1.3}ViewModel::Controllers::QuizListController}{16}{subsubsection.4.1.3}
-\contentsline {subsubsection}{\numberline {4.1.4}ViewModel::Controllers::QuizDetailsController}{17}{subsubsection.4.1.4}
-\contentsline {subsubsection}{\numberline {4.1.5}ViewModel::Controllers::DeleteQuestionController}{18}{subsubsection.4.1.5}
-\contentsline {subsubsection}{\numberline {4.1.6}ViewModel::Controllers::DeleteQuizController}{18}{subsubsection.4.1.6}
-\contentsline {subsubsection}{\numberline {4.1.7}ViewModel::Controllers::QuizManagementController}{19}{subsubsection.4.1.7}
-\contentsline {subsubsection}{\numberline {4.1.8}ViewModel::Controllers::QuestionsManagementController}{19}{subsubsection.4.1.8}
-\contentsline {subsubsection}{\numberline {4.1.9}ViewModel::Controllers::QMLEditorController}{20}{subsubsection.4.1.9}
-\contentsline {subsection}{\numberline {4.2}ViewModel::Subscribers}{21}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}ViewModel::Subscribers::QuestionsSubscriber}{21}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2}ViewModel::Subscribers::QuizSubscriber}{21}{subsubsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.3}ViewModel::Subscribers::UsersSubscriber}{22}{subsubsection.4.2.3}
-\contentsline {subsection}{\numberline {4.3}ViewModel::Methods}{22}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}ViewModel::Methods::QuestionMethods}{22}{subsubsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}ViewModel::Methods::QuizMethods}{23}{subsubsection.4.3.2}
-\contentsline {subsubsection}{\numberline {4.3.3}ViewModel::Methods::UserMethods}{23}{subsubsection.4.3.3}
-\contentsline {subsection}{\numberline {4.4}ViewModel::Interpreter}{24}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}ViewModel::Interpreter::Interpreter}{24}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}ViewModel::Interpreter::InterpreterFactory}{24}{subsubsection.4.4.2}
-\contentsline {subsubsection}{\numberline {4.4.3}ViewModel::Interpreter::QMLInterpreterFactory}{24}{subsubsection.4.4.3}
-\contentsline {subsubsection}{\numberline {4.4.4}ViewModel::Interpreter::QMLInterpreter}{25}{subsubsection.4.4.4}
-\contentsline {subsubsection}{\numberline {4.4.5}ViewModel::Interpreter::QML2HTMLInterpreterFactory}{25}{subsubsection.4.4.5}
-\contentsline {subsection}{\numberline {4.5}ViewModel::Router}{25}{subsection.4.5}
-\contentsline {subsubsection}{\numberline {4.5.1}ViewModel::Router::Router}{25}{subsubsection.4.5.1}
-\contentsline {section}{\numberline {5}Tracciamento}{27}{section.5}
-\contentsline {subsection}{\numberline {5.1}Mappatura classi - requisiti}{27}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Mappatura requisiti - classi}{31}{subsection.5.2}
+\contentsline {subsection}{\numberline {2.2}View::Templates}{10}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}View::Templates::QuestionList}{10}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}View::Templates::Question}{11}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}View::Templates::QuizList}{11}{subsubsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.4}View::Templates::Quiz}{11}{subsubsection.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.5}View::Templates::QuestionForm}{12}{subsubsection.2.2.5}
+\contentsline {subsubsection}{\numberline {2.2.6}View::Templates::QuizCreationForm}{12}{subsubsection.2.2.6}
+\contentsline {subsubsection}{\numberline {2.2.7}View::Templates::QuestionCompilation}{12}{subsubsection.2.2.7}
+\contentsline {subsubsection}{\numberline {2.2.8}View::Templates::QuizResults}{13}{subsubsection.2.2.8}
+\contentsline {subsubsection}{\numberline {2.2.9}View::Templates::SearchForm}{13}{subsubsection.2.2.9}
+\contentsline {section}{\numberline {3}Package Model}{14}{section.3}
+\contentsline {subsection}{\numberline {3.1}Model::Database}{14}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Model::Database::QuizManager}{14}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Model::Database::QuestionManager}{15}{subsubsection.3.1.2}
+\contentsline {subsection}{\numberline {3.2}Model::Parser}{16}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Model::Parser::Parser}{16}{subsubsection.3.2.1}
+\contentsline {subsection}{\numberline {3.3}Model::Statistics}{16}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Model::Statistics::Statistics}{16}{subsubsection.3.3.1}
+\contentsline {subsection}{\numberline {3.4}Model::Publishers}{17}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Model::Publishers::UserPublisher}{17}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Model::Publishers::QuizPublisher}{17}{subsubsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.3}Model::Publishers::QuestionPublisher}{17}{subsubsection.3.4.3}
+\contentsline {section}{\numberline {4}Package ViewModel}{18}{section.4}
+\contentsline {subsection}{\numberline {4.1}ViewModel::Controllers}{18}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}ViewModel::Controllers::NewQuestionController}{18}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}ViewModel::Controllers::NewQuizController}{19}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.3}ViewModel::Controllers::QuizListController}{19}{subsubsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.4}ViewModel::Controllers::QuizDetailsController}{20}{subsubsection.4.1.4}
+\contentsline {subsubsection}{\numberline {4.1.5}ViewModel::Controllers::DeleteQuestionController}{21}{subsubsection.4.1.5}
+\contentsline {subsubsection}{\numberline {4.1.6}ViewModel::Controllers::DeleteQuizController}{21}{subsubsection.4.1.6}
+\contentsline {subsubsection}{\numberline {4.1.7}ViewModel::Controllers::QuizManagementController}{22}{subsubsection.4.1.7}
+\contentsline {subsubsection}{\numberline {4.1.8}ViewModel::Controllers::QuestionsManagementController}{22}{subsubsection.4.1.8}
+\contentsline {subsubsection}{\numberline {4.1.9}ViewModel::Controllers::QMLEditorController}{23}{subsubsection.4.1.9}
+\contentsline {subsection}{\numberline {4.2}ViewModel::Subscribers}{24}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}ViewModel::Subscribers::QuestionsSubscriber}{24}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}ViewModel::Subscribers::QuizSubscriber}{24}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}ViewModel::Subscribers::UsersSubscriber}{25}{subsubsection.4.2.3}
+\contentsline {subsection}{\numberline {4.3}ViewModel::Methods}{25}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}ViewModel::Methods::QuestionMethods}{25}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}ViewModel::Methods::QuizMethods}{26}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}ViewModel::Methods::UserMethods}{26}{subsubsection.4.3.3}
+\contentsline {subsection}{\numberline {4.4}ViewModel::Interpreter}{27}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}ViewModel::Interpreter::Interpreter}{27}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}ViewModel::Interpreter::InterpreterFactory}{27}{subsubsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.3}ViewModel::Interpreter::QMLInterpreterFactory}{27}{subsubsection.4.4.3}
+\contentsline {subsubsection}{\numberline {4.4.4}ViewModel::Interpreter::QMLInterpreter}{28}{subsubsection.4.4.4}
+\contentsline {subsubsection}{\numberline {4.4.5}ViewModel::Interpreter::QML2HTMLInterpreterFactory}{28}{subsubsection.4.4.5}
+\contentsline {subsection}{\numberline {4.5}ViewModel::Router}{28}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}ViewModel::Router::Router}{28}{subsubsection.4.5.1}
+\contentsline {section}{\numberline {5}Tracciamento}{30}{section.5}
+\contentsline {subsection}{\numberline {5.1}Mappatura classi - requisiti}{30}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Mappatura requisiti - classi}{34}{subsection.5.2}
