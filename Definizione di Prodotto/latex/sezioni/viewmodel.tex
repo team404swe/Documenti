@@ -26,6 +26,8 @@ La classe utilizza:
 				\item\code{\$scope}: campo dati contenente un riferimento all’oggetto \$scope creato da Angular, viene utilizzato come mezzo di comunicazione tra il controller e il template.\\
 			\end{itemize}
 		\item\code{+ saveQuestion()}: metodo che permette il salvataggio di una nuova domanda tramite la chiamata ad un Method.\\
+		\textbf{Precondizioni}: viene richiesto di salvare una nuova domanda\\
+		\textbf{Postcondizioni}: la nuova domanda è stata salvata nel sistema\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{question: String}: il testo QML della domanda da salvare.\\
@@ -49,12 +51,14 @@ La classe utilizza:
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{+ NewQuizController()}: metodo costruttore della classe\\
+		\item\code{+ NewQuizController()}: metodo costruttore della classe\\	
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{\$scope}: campo dati contenente un riferimento all’oggetto \$scope creato da Angular, viene utilizzato come mezzo di comunicazione tra il controller e il template.\\
 			\end{itemize}
 		\item\code{+ saveQuiz()}: metodo per richiedere il salvataggio del nuovo quiz\\
+		\textbf{Precondizioni}: viene richiesto di salvare un nuovo quiz\\
+		\textbf{Postcondizioni}: il nuovo quiz è stato salvato nel sistema \\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{title: String}: il titolo del questionario.\\
@@ -85,7 +89,11 @@ La classe utilizza:
 				\item\code{\$scope}: campo dati contenente un riferimento all’oggetto \$scope creato da Angular, viene utilizzato come mezzo di comunicazione tra il controller e il template.\\
 			\end{itemize}
 		\item\code{+ quizzes()}: metodo che ritorna la lista dei quiz del sistema.\\		
+		\textbf{Precondizioni}: viene richiesta la collezione di quiz del sistema\\
+		\textbf{Postcondizioni}: la lista di quiz è disponibile\\
 		\item\code{+ orderBy()}: metodo che permette l'ordinamento della lista di quiz.\\
+		\textbf{Precondizioni}: viene richiesto di ordinare la lista di quiz secondo un parametro\\
+		\textbf{Postcondizioni}: la lista è stata riordinata\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{orderBy: String}: il parametro in base al quale riordinare la lista di quiz.\\
@@ -113,6 +121,8 @@ La classe utilizza:
 				\item\code{\$scope}: campo dati contenente un riferimento all’oggetto \$scope creato da Angular, viene utilizzato come mezzo di comunicazione tra il controller e il template.\\
 			\end{itemize}
 		\item\code{+ quizDetails()}: metodo che permette la visualizzazione dei dettagli di un quiz.\\
+		\textbf{Precondizioni}: vengono richiesti i dettagli di un quiz\\
+		\textbf{Postcondizioni}: i dettagli del quiz vengono visualizzati\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{quizID: String}: identificativo univoco del quiz da visualizzare.\\
@@ -142,6 +152,8 @@ La classe utilizza:
 				\item\code{\$scope}: campo dati contenente un riferimento all’oggetto \$scope creato da Angular, viene utilizzato come mezzo di comunicazione tra il controller e il template.\\
 			\end{itemize}
 		\item\code{+ deleteQuestion()}: metodo per richiedere l'eliminazione di una domanda\\
+		\textbf{Precondizioni}: viene richiesta l'eliminazione di una domanda dal sistema\\
+		\textbf{Postcondizioni}: la domanda è stata eliminata dal sistema\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{question: String}: identificativo univoco della domanda da eliminare\\
@@ -170,6 +182,8 @@ La classe utilizza:
 				\item\code{\$scope}: campo dati contenente un riferimento all’oggetto \$scope creato da Angular, viene utilizzato come mezzo di comunicazione tra il controller e il template.\\
 			\end{itemize}
 		\item\code{+ deleteQuiz()}:  metodo per richiedere l'eliminazione di un quiz\\
+		\textbf{Precondizioni}: viene richiesta l'eliminazione di un quiz dal sistema\\
+		\textbf{Postcondizioni}: il quiz è stato eliminato dal sistema\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{quiz: String}: identificativo univoco del quiz da eliminare\\
@@ -197,16 +211,22 @@ La classe utilizza:
 				\item\code{\$scope}: campo dati contenente un riferimento all'oggetto \$scope creato da Angular, viene utilizzato come mezzo di comunicazione tra il controller e il template.\\
 			\end{itemize}
 		\item\code{+ nextQuestion()}: funzione che ritorna la domanda successiva nel questionario\\
+		\textbf{Precondizioni}: viene richiesta la domanda successiva nel questionario\\
+		\textbf{Postcondizioni}: viene visualizzata la domanda successiva nel questionario\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{question: String}: identificativo univoco della domanda\\
 			\end{itemize}
 		\item\code{+ previousQuestion()}: funzione che ritorna la domanda precedente nel questionario\\
+		\textbf{Precondizioni}: viene richiesta la domanda precedente nel questionario\\
+		\textbf{Postcondizioni}: viene visualizzata la domanda precedente nel questionario\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{question: String}: identificativo univoco della domanda\\
 			\end{itemize}
 		\item\code{+ endQuiz()}: metodo per la consegna del quiz in compilazione\\
+		\textbf{Precondizioni}: viene richiesto di consegnare il quiz compilato\\
+		\textbf{Postcondizioni}: il quiz compilato viene consegnato e ne vengono visualizzati i risultati\\
 	\end{itemize}
 \end{itemize}
 
@@ -231,6 +251,8 @@ La classe utilizza:
 				\item\code{\$scope}: campo dati contenente un riferimento all’oggetto \$scope creato da Angular, viene utilizzato come mezzo di comunicazione tra il controller e il template.\\
 			\end{itemize}
 		\item\code{+ getQuestion()}: metodo per caricare una domanda specifica\\
+		\textbf{Precondizioni}: viene richiesta una domanda del sistema\\
+		\textbf{Postcondizioni}: la domanda è stata caricata e viene visualizzata\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{question: String}: identificativo univoco della domanda\\
@@ -259,6 +281,8 @@ La classe utilizza:
 				\item\code{\$scope}: campo dati contenente un riferimento all’oggetto \$scope creato da Angular, viene utilizzato come mezzo di comunicazione tra il controller e il template.\\
 			\end{itemize}
 		\item\code{check()}: metodo che controlla che il testo QML inserito sia sintatticamente corretto\\
+		\textbf{Precondizioni}: viene richiesto di controllare la validità del testo QML inserito\\
+		\textbf{Postcondizioni}: il testo è stato validato e viene visualizzato l'esito della validazione\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{text: String}: il testo QML inserito\\
@@ -283,7 +307,11 @@ La classe utilizza:
 \item\textbf{Metodi}:
 	\begin{itemize}
 		\item\code{+ getCollection(): String}: ritorna la collezione sulla quale può effettuare il subscribe.\\
+		\textbf{Precondizioni}: viene richiesta la collezione di pertinenza della classe\\
+		\textbf{Postcondizioni}: viene ritornato il nome della collezione\\
 		\item\code{+ subscribe()}: metodo che effettua il subscribe del parametro controller alla collezione\\
+		\textbf{Precondizioni}: viene richiesto di effettuare il subscribe del parametro controller alla collezione\\
+		\textbf{Postcondizioni}: è stato effettuato il subscribe del controller alla collezione\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{controller: Object}: il controller che necessita della collezione\\
@@ -306,7 +334,11 @@ La classe utilizza:
 \item\textbf{Metodi}:
 	\begin{itemize}
 		\item\code{+ getCollection(): String}: ritorna la collezione sulla quale può effettuare il subscribe.\\
-		\item\code{+ subscribe()}: metodo che effettua il subscribe del parametro controller alla collezione\\
+		\textbf{Precondizioni}: viene richiesta la collezione di pertinenza della classe\\
+		\textbf{Postcondizioni}: viene ritornato il nome della collezione\\
+		\item\code{+ subscribe()}: metodo che effettua il subscribe del parametro controller alla
+		\textbf{Precondizioni}: viene richiesto di effettuare il subscribe del parametro controller alla collezione\\
+		\textbf{Postcondizioni}: è stato effettuato il subscribe del controller alla collezione\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{controller: Object}: il controller che necessita della collezione\\
@@ -329,7 +361,11 @@ La classe utilizza:
 \item\textbf{Metodi}:
 	\begin{itemize}
 		\item\code{+ getCollection(): String}: ritorna la collezione sulla quale può effettuare il subscribe.\\
+		\textbf{Precondizioni}: viene richiesta la collezione di pertinenza della classe\\
+		\textbf{Postcondizioni}: viene ritornato il nome della collezione\\
 		\item\code{+ subscribe()}: metodo che effettua il subscribe del parametro controller alla collezione\\
+		\textbf{Precondizioni}: viene richiesto di effettuare il subscribe del parametro controller alla collezione\\
+		\textbf{Postcondizioni}: è stato effettuato il subscribe del controller alla collezione\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{controller: Object}: il controller che necessita della collezione\\
@@ -353,11 +389,15 @@ La classe utilizza:
 \item\textbf{Metodi}:
 	\begin{itemize}
 		\item\code{+ insert()}: metodo che inserisce una domanda nella collezione\\
+		\textbf{Precondizioni}: viene richiesto di inserire una nuova domanda nella collezione\\
+		\textbf{Postcondizioni}: la nuova domanda è stata salvata nel sistema\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{questionId: String}: identificativo univoco della domanda da aggiungere\\
 			\end{itemize}
 		\item\code{+ remove()}: metodo che rimuove una domanda dalla collezione\\
+		\textbf{Precondizioni}: viene richiesta l'eliminazione di una domanda dal sistema\\
+		\textbf{Postcondizioni}: la domanda è stata eliminata dal sistema\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{questionId: String}: identificativo univoco della domanda da rimuovere\\
@@ -380,11 +420,15 @@ La classe utilizza:
 \item\textbf{Metodi}:
 	\begin{itemize}
 		\item\code{+ insert()}: metodo che inserisce un quiz nella collezione\\
+		\textbf{Precondizioni}: viene richiesto di inserire un nuovo quiz nella collezione\\
+		\textbf{Postcondizioni}: il nuovo quiz è stato salvato nel sistema\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{quizId: String}: identificativo univoco del quiz da aggiungere\\
 			\end{itemize}
 		\item\code{+ remove()}: metodo che rimuove un quiz dalla collezione\\
+		\textbf{Precondizioni}: viene richiesta l'eliminazione di un quiz dal sistema\\
+		\textbf{Postcondizioni}: il quiz è stato eliminato dal sistema\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{quizId: String}: identificativo univoco della domanda da rimuovere\\
@@ -407,11 +451,15 @@ La classe utilizza:
 \item\textbf{Metodi}:
 	\begin{itemize}
 		\item\code{+ insert()}: metodo che inserisce un utente nella collezione\\
+		\textbf{Precondizioni}: viene richiesto di inserire un nuovo utente nella collezione\\
+		\textbf{Postcondizioni}: il nuovo utente è stato salvato nel sistema\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{userId: String}: identificativo univoco dell'utente da aggiungere\\
 			\end{itemize}
 		\item\code{+ remove()}: metodo che rimuove un utente dalla collezione\\
+		\textbf{Precondizioni}: viene richiesta l'eliminazione di un utente dal sistema\\
+		\textbf{Postcondizioni}: l'utente è stato eliminato dal sistema\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{userId: String}: identificativo univoco dell'utente da rimuovere\\
@@ -423,12 +471,14 @@ La classe utilizza:
 \subsubsection{ViewModel::Interpreter::Interpreter}
 \begin{itemize}
 \item\textbf{Funzione del componente}: interfaccia di base del tipo Interpreter.
-	\item\textbf{Relazione d'uso con altre componenti}: viene concretizzata in ViewModel::Interpreter::QMLInterpreter.\\ \\
+	\item\textbf{Relazione d'uso con altre componenti}: viene concretizzata in ViewModel::Interpreter::QMLInterpreter.\\
 
 \item\textbf{Attributi}: nessuno
 \item\textbf{Metodi}:
 	\begin{itemize}
 		\item\code{+ translate(): String}: metodo astratto per la traduzione di un testo\\
+		\textbf{Precondizioni}: viene richiesta la traduzione di un testo\\
+		\textbf{Postcondizioni}: il testo è stato tradotto in un altro linguaggio\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{data: String}: l'input testuale che deve essere tradotto \\
@@ -444,6 +494,8 @@ La classe utilizza:
 \item\textbf{Metodi}:
 	\begin{itemize}
 		\item\code{+ createInterpreter(): Interpreter}: metodo astratto per la creazione di un Interpreter.\\
+		\textbf{Precondizioni}: viene richiesta l'istanziazione di un Interpreter\\
+		\textbf{Postcondizioni}: il nuovo Interpreter viene creato e ritornato al chiamante\\
 	\end{itemize}
 \end{itemize}
 
@@ -459,7 +511,11 @@ La classe utilizza:
 	\begin{itemize}
 		\item\code{- QMLInterpreterFactory()}: costruttore privato della classe\\
 		\item\code{+ getInstance(): : QMLInterpreterFactory}: metodo che ritorna l'unica istanza della classe\\
+		\textbf{Precondizioni}: viene richiesta la factory QMLInterpreterFactory\\
+		\textbf{Postcondizioni}: l'unica istanza della factory viene ritornata al chiamante. Se la factory non esisteva è stata creata.\\
 		\item\code{+ createInterpreter(): QMLInterpreter}: metodo ereditato da InterpreterFactorye concretizzato per la creazione di un interprete di tipo QMLInterpreter.\\
+		\textbf{Precondizioni}: viene richiesta l'istanziazione di un QMLInterpreter\\
+		\textbf{Postcondizioni}: il nuovo QMLInterpreter viene creato e ritornato al chiamante\\
 	\end{itemize}
 \end{itemize}
 
@@ -470,7 +526,9 @@ La classe utilizza:
 \item\textbf{Attributi}: Nessuno
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{translate(): String}: metodo astratto ereditato da Interpreter\\
+		\item\code{translate(): String}: metodo astratto ereditato da Interpreter\\\\
+		\textbf{Precondizioni}: viene richiesta la traduzione di un testo QML\\
+		\textbf{Postcondizioni}: il testo QML è stato tradotto in un altro linguaggio\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{data: String}: l'input QML che deve essere tradotto \\
@@ -486,6 +544,8 @@ La classe utilizza:
 \item\textbf{Metodi}:
 	\begin{itemize}
 		\item\code{translate(): String}: metodo ereditato da QMLInterpreter e concretizzato per la traduzione di testo QML in testo HTML.\\
+		\textbf{Precondizioni}: viene richiesta la traduzione di un testo QML in HTML\\
+		\textbf{Postcondizioni}: il testo QML è stato tradotto in HTML\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{data: String}: l'input QML che deve essere tradotto \\
@@ -511,6 +571,8 @@ La classe utilizza:
 \item\textbf{Metodi}:
 	\begin{itemize}
 		\item\code{state()}: metodo per collegare un Url dell'applicazione al rispettivo template da caricare\\
+		\textbf{Precondizioni}: viene richiesta l'associazione di un Url al caricamento di un template\\
+		\textbf{Postcondizioni}: un Url univoco è stato associato al caricamento dinamico di uno specifico template\\
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{state: String}: il nome dello stato rappresentato dall'associazione Url-Template\\
