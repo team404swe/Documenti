@@ -90,8 +90,8 @@
 \contentsline {subsubsubsection}{\numberline {3.12.0.3}UC 10.3 - Inserimento data di creazione}{36}{subsubsubsection.3.12.0.3}
 \contentsline {subsubsubsection}{\numberline {3.12.0.4}UC 10.4 - Avvio ricerca}{36}{subsubsubsection.3.12.0.4}
 \contentsline {subsection}{\numberline {3.13}UC 11 - Recupero password}{37}{subsection.3.13}
-\contentsline {subsubsubsection}{\numberline {3.13.0.1}UC 11.1 - Inserimento email}{37}{subsubsubsection.3.13.0.1}
-\contentsline {subsubsubsection}{\numberline {3.13.0.2}UC 11.2 - Invio email recupero password}{38}{subsubsubsection.3.13.0.2}
+\contentsline {subsubsubsection}{\numberline {3.13.0.5}UC 11.1 - Inserimento email}{37}{subsubsubsection.3.13.0.5}
+\contentsline {subsubsubsection}{\numberline {3.13.0.6}UC 11.2 - Invio email recupero password}{38}{subsubsubsection.3.13.0.6}
 \contentsline {section}{\numberline {4}Requisiti}{39}{section.4}
 \contentsline {subsection}{\numberline {4.1}Requisiti funzionali}{39}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Requisiti di qualit\IeC {\`a}}{48}{subsection.4.2}
