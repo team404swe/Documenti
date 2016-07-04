@@ -28,9 +28,9 @@
 			{Esterno} 						%3 Uso
 			{21 dicembre 2015} 				%4 Data cre
 			{\today} 						%5 Data mod
-			{--}	%6 Redazione
-			{--} 	%7 Verifica
-			{--} 			%8 Approvazione
+			{Marco Crivellaro}	%6 Redazione
+			{Luca Alessio - Alex Beccaro} 	%7 Verifica
+			{Alex Beccaro} 			%8 Approvazione
 	%fino a qui : add by Martin
 	\newpage
 	\thispagestyle{empty}
@@ -47,6 +47,28 @@
 	
 	\beginregistro
 	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm} \textbf{Descrizione}}
+	\rigaregistro{3.0}{A. Beccaro (Responsabile)}{3/7/2016}{Approvazione documento}
+	\rigaregistro{2.4.1}{M.Crivellaro (Verificatore)}{3/7/2016}{Verifica finale}
+	\rigaregistro{2.4}{M. Crivellaro (Verificatore)}
+	{2/7/2016}{aggiunta sezione esito misurazioni per la fase progettazione dettaglio}
+	\rigaregistro{2.3.7}{M.Crivellaro (Verificatore)}
+	{2/7/2016}{aggiunte tabelle tracciamento metodi - test di unità, test di unità - metodi}
+	\rigaregistro{2.3.6}{M.Crivellaro (Verificatore)}
+	{1/7/2016}{aggiunte tabelle tracciamento componenti - requisiti e requisiti componenti}
+	\rigaregistro{2.3.5}{M.Crivellaro (Verificatore)}
+	{27/6/2016}{sezione test di unità completata}
+	\rigaregistro{2.3.4}{M.Crivellaro (Verificatore)}
+	{25/6/2016}{bozza test di unità}
+	\rigaregistro{2.3.3}{M.Crivellaro (Verificatore)}
+	{19/6/2016}{conclusa sezione test di integrazione}
+	\rigaregistro{2.3.2}{M. Crivellaro (Verificatore)}
+	{18/6/2016}{conclusa sezione test di integrazione}
+	\rigaregistro{2.3.1}{M. Crivellaro (Verificatore)}
+	{17/6/2016}{Aggiunta sezione test di integrazione prima bozza}
+	\rigaregistro{2.3}{M. Crivellaro (Verificatore)}
+	{15/6/2016}{Inizio redazione paragrafo specifica test}
+	\rigaregistro{2.2}{M. Crivellaro (Verificatore)}{11/6/2016}{Spostati contenuti di gestione amministrativa revisione e procedure controllo qualità processi e prodotto nella prima nuova sezioneStrategia generale di qualifica}
+	\rigaregistro{2.1}{M. Crivellaro (Verificatore)}{10/6/2016}{Riarrangiamento sezioni ora divise per processi secondo standard ISO}
 	\rigaregistro{2.0}{M. V.  Mbouenda(Responsabile)}{14/05/2016}{Approvazione documento}
 	\rigaregistro{1.6.2}{M.Crivellaro (Analista/Ver.)}{13/05/2016}{Verifica finale}
 	\rigaregistro{1.6.1}{A. Beccaro (Verificatore)}{12/05/2016}{Miglioramento impaginazione tabelle e completamento sezione test}
@@ -92,16 +114,16 @@
 	\subsection{Scopo del prodotto}
 	Il progetto \textbf{Quizzipedia} ha come obiettivo lo sviluppo di un sistema software basato su tecnologie Web (Javascript\addglos, Node.js\addglos, HTML5\addglos, CSS3\addglos) che permetta la creazione, gestione e fruizione di questionari. Il sistema dovrà quindi poter archiviare i questionari suddivisi per argomento, le cui domande dovranno essere raccolte attraverso uno specifico linguaggio di markup (Quiz Markup Language) d'ora in poi denominato QML\addglos. In un caso d'uso a titolo esemplificativo, un "esaminatore" dovrà poter costruire il proprio questionario scegliendo tra le domande archiviate, ed il questionario così composto sarà presentato e fruibile all' "esaminando", traducendo l'oggetto QML in una pagina HTML\addglos, tramite un'apposita interfaccia web. Il sistema presentato dovrà inoltre poter proporre questionari preconfezionati e valutare le risposte fornite dall'utente finale.
 	\\
-	Per un'analisi più precisa ed approfondita del progetto si rimanda al documento\\ "\textit{analisi\_dei\_requisiti\_2.0.pdf}".
+	Per un'analisi più precisa ed approfondita del progetto si rimanda al documento\\ "\textit{analisi\_dei\_requisiti\_3.0.pdf}".
 	\subsection{Glossario}
-	Viene allegato un glossario nel file ``\textit{glossario\_2.0.pdf}'' nel quale viene data una definizione a tutti i termini che in questo documento appaiono con il simbolo '\addglos' a pedice.
+	Viene allegato un glossario nel file ``\textit{glossario\_3.0.pdf}'' nel quale viene data una definizione a tutti i termini che in questo documento appaiono con il simbolo '\addglos' a pedice.
 	\newpage
 	\subsection{Riferimenti}
 		\subsubsection{Normativi}
 		\begin{itemize}
 			\item Capitolato d'appalto Quizzipedia:\\
 			\url{http://www.math.unipd.it/~tullio/IS-1/2015/Progetto/C5.pdf}
-			\item Norme di Progetto: "\textit{norme\_di\_progetto\_2.0.pdf}"
+			\item Norme di Progetto: "\textit{norme\_di\_progetto\_3.0.pdf}"
 		\end{itemize}
 		\subsubsection{Informativi}
 		\begin{itemize}
@@ -215,7 +237,7 @@ L'infrastruttura è rappresentata da tutte le risorse tecnologiche (hardware, so
 \subsubsection{Obiettivi e strategie}
 Gli obiettivi specifici di questo processo sono volti alla verifica della disponibilità e al corretto e costante utilizzo (da parte dei membri del team) delle risorse tecnologiche da utilizzare. 
 %verifica della disponibilità delle risorse umane e tecnologiche e dell'ambiente di lavoro.
-Il responsabile deve inoltre accertarsi che ogni membro del gruppo abbia letto e compreso il documento (preventivamente redatto) \textit{Norme-di-progetto-2.0}.
+Il responsabile deve inoltre accertarsi che ogni membro del gruppo abbia letto e compreso il documento (preventivamente redatto) \textit{Norme-di-progetto-3.0}.
 
 Devono quindi essere definiti e correttamente configurati gli strumenti di comunicazione e coordinamento Trello e GitHub. Tramite queste piattaforme i verificatori possono tenere traccia dello storico dei ticket assegnati, valutarne quindi i tempi di completamento e agire in modo propositivo nel caso si verifichino ritardi nella realizzazione di compiti assegnati.
 
@@ -240,12 +262,12 @@ Processo che deve fornire la pianificazione dettagliata delle attività di svilu
 \subsubsection{Obiettivi e strategie}
 La verifica per questa fase deve accertarsi che:
 \begin{itemize}
-\item i ruoli e le attività siano correttamente assegnati secondo la pianificazione specificata nel documento \textit{Piano-di-Progetto-2.0.pdf} redatto dal Responsabile.
+\item i ruoli e le attività siano correttamente assegnati secondo la pianificazione specificata nel documento \textit{Piano-di-Progetto-3.0.pdf} redatto dal Responsabile.
 \item i costi effettivi per ogni fase non eccedano rispetto ai costi preventivati
 \end{itemize}
 \subsubsection{Metriche}
 Per il controllo e la misurazione dei processi in termini di tempo (schedule) e in termini di costo e risorse impiegate (budget), vengono utilizzate le metriche (\textbf{Schedule variance} e \textbf{Budget variance}) 
-Tali misurazioni, da effettuare alla fine di ogni fase, si basano sui valori dei consuntivi di ogni fase (presenti nel documento \textit{piano\_di\_progetto\_2.0.pdf}). La valutazione di queste metriche è essenziale per verificare l'andamento di ogni processo misurato e valutarne quindi il miglioramento o il peggioramento complessivo.
+Tali misurazioni, da effettuare alla fine di ogni fase, si basano sui valori dei consuntivi di ogni fase (presenti nel documento \textit{piano\_di\_progetto\_3.0.pdf}). La valutazione di queste metriche è essenziale per verificare l'andamento di ogni processo misurato e valutarne quindi il miglioramento o il peggioramento complessivo.
 
 \subsubsubsection{Schedule Variance}
 Il valore SV (schedule variance) indica se si è in linea, in anticipo o in ritardo rispetto alla schedulazione delle attività di progetto pianificate nella baseline.\\
@@ -379,7 +401,7 @@ Parametri utilizzati:
 %	\item Range ottimale: \begin{math}[1 - 10]\end{math}
 %	\end{itemize}
 \subsection{Software Construction Process}
-Questo processo coinvolge l'attività di codifica vera e propria secondo le direttive definite nel documento \textit{Definizione-di-dettaglio-1.0.pdf}.
+Questo processo coinvolge l'attività di codifica vera e propria secondo le direttive definite nel documento \textit{Definizione-di-Prodotto-1.0.pdf}.
 \subsubsection{Obiettivi}
 L'attività di verifica deve essere volta al controllo della qualità del codice prodotto. A tal proposito vengono utilizzate le metriche descritte nella sezione successiva. Sarà inoltre compito del programmatore di produrre codice facilmente manutenibile e comprensibile, per facilitare anche l'attività di test su di esso.
 \subsubsection{Metriche e misure}
@@ -479,7 +501,7 @@ Parametri utilizzati:
 Scopo di questo processo è di assicurare e verificare l'implementazione corretta di ogni requisito individuato.
 \subsubsection{Obiettivi e strategie}
 La modalità di verifica comporta la creazione e l'esecuzione di test adeguati. A tal proposito si intende usare il framework di testing Jasmine.
-I test da pianificare ed effettuare, come spiegato nel documento \textit{Norme-di-progetto-2.0.pdf}, sono divisi in quattro categorie:
+I test da pianificare ed effettuare, come spiegato nel documento \textit{Norme-di-progetto-3.0.pdf}, sono divisi in quattro categorie:
 \begin{itemize}
 \item Test di Accettazione (TA)
 \item Test di Sistema (TS)
@@ -540,7 +562,7 @@ Processo che mira a produrre la documentazione di supporto necessaria allo svilu
 La documentazione subisce un processo di verifica secondo le seguenti linee guida:  
 \begin{itemize}
 \item Verifica della presenza di tutti i documenti necessari;
-\item Attinenza di ogni documento alle specifiche di stile e formattazione presenti nel documento \textit{Norme-di-progetto-2.0};
+\item Attinenza di ogni documento alle specifiche di stile e formattazione presenti nel documento \textit{Norme-di-progetto-3.0};
 \item Verifica della presenza e del corretto utilizzo del registro delle modifiche interno ad ogni documento;
 \item Verifica iniziale dei documenti tramite la tecnica di analisi statica \textbf{walkthrough};
 \item Verifica dei documenti tramite tecnica di analisi statica di tipo \textbf{inspection}. In questo caso l'attenzione del verificatore si focalizza solo su particolari aspetti del testo (per esempio accenti, sillabazione, maiuscole, ecc);
@@ -818,7 +840,7 @@ Copertura dei test di unità & \begin{math}[90\%]\end{math}& \begin{math}[100\%]
 \newpage
 \section{Specifica test}
 \label{Appendice B} 
-La suddivisione temporale delle diverse fasi di sviluppo segue il cosiddetto modello a V ed è descritta nel documento allegato \textit{Piano-di-Progetto-2.0.pdf}.
+La suddivisione temporale delle diverse fasi di sviluppo segue il cosiddetto modello a V ed è descritta nel documento allegato \textit{Piano-di-Progetto-3.0.pdf}.
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.4]{../images/vmodel-final4.png}
@@ -833,7 +855,7 @@ Del ramo ascendente che attraversa le attività di testing è importante sottoli
 %Per quanto riguarda il ramo ascendente, da notare l'essenziale importanza, per l'attività di testing,  dell'approccio bottom-up che inizia nel ramo più basso del diagramma. 
 Dalla fase di codifica quindi, per mezzo di test specifici sulle singole componenti (test di unità), si è in grado di garantire la correttezza del lavoro svolto prima che le singole componenti vengano integrate tra loro. Ovviamente l'esito positivo di ogni test su ogni unità non garantisce la correttezza dell'integrazione tra le stesse. \\
 \subsection{Livelli di testing}
-I test da pianificare ed effettuare, come spiegato nel documento \textit{Norme-di-progetto-2.0.pdf}, sono divisi in quattro categorie:
+I test da pianificare ed effettuare, come spiegato nel documento \textit{Norme-di-progetto-3.0.pdf}, sono divisi in quattro categorie:
 \begin{itemize}
 \item \textbf{Test di Accettazione (TA)}
 \item \textbf{Test di Sistema (TS)}
@@ -1757,9 +1779,9 @@ TU4 & Model::Statistics::Statistics::updateQuestionStats() \\
 TU5 & Model::Publishers::UserPublishers::publishUser() \\
 & Model::Publishers::QuizPublishers::publishQuiz()   \\
 & Model::Publishers::QuestionPublishers::publishQuestion() \\\midrule
-& ViewModel::Controllers::NewQuestionController::NewQuestionController() TU6\\
+ TU6& ViewModel::Controllers::NewQuestionController::NewQuestionController()\\
 & ViewModel::Controllers::NewQuestionController::saveQuestion() \\\midrule
-& ViewModel::Controllers::NewQuizController::newQuizController()  TU7\\
+TU7& ViewModel::Controllers::NewQuizController::newQuizController()  \\
 & ViewModel::Controllers::NewQuizController::saveQuiz() \\
 \midrule
 TU8&ViewModel::Controllers::QuizListController::quizListController()\\
@@ -1861,7 +1883,7 @@ TU33 & View::Pages::CategoryListPage::show()   \\
 Di seguito viene fornito il resoconto dell'attività di verifica inerente ad ogni fase di sviluppo.
 \subsection{Analisi}
 \subsubsection{Processi}
-Di seguito vengono riportati i valori degli indici si Schedule e Budget Variance per la validazione dei processi misurati. I valori sono risultati da colcoli sul consuntivo presentato nel documento piano-di-progetto-2.0.pdf.
+Di seguito vengono riportati i valori degli indici si Schedule e Budget Variance per la validazione dei processi misurati. I valori sono risultati da colcoli sul consuntivo presentato nel documento piano-di-progetto-3.0.pdf.
 \begin{center}
 \begin{tabular}{{p{5cm} p{2.5cm} p{2.5cm} p{2cm}}}
 \textbf{Metrica} & \textbf{Valore}&\textbf{Accettazione} & \textbf{Ottimale}\\ \hline
@@ -1890,5 +1912,41 @@ Schedule Variance & 41 ore & Superato & Superato\\
 Budget Variance & 764 euro & Superato & Superato\\
 \end{tabular}
 \end{center}
+\subsubsection{Documenti}
+\begin{center}
+\begin{tabular}{{p{5cm} p{2cm} p{2.5cm} p{2.5cm}}}
+\textbf{Metrica} & \textbf{Gulpease}&\textbf{Accettazione} & \textbf{Ottimale}\\ \hline
+Norme di Progetto & 58 & Superato & Superato\\
+Piano di Progetto & 52 & Superato & Superato\\
+Piano di Qualifica & 62 & Superato & Superato\\
+Analisi dei Requisiti & 71 & Superato & Superato\\
+Studio di Fattibilità & 53 & Superato & Superato\\
+Specifica Tecnica & 52 & Superato & Superato \\
+\end{tabular}
+\end{center}
+\subsection{Progettazione di dettaglio}
+\subsubsection{Processi}
 
+\begin{center}
+\begin{tabular}{{p{5cm} p{2.5cm} p{2.5cm} p{2.5cm}}}
+\textbf{Metrica} & \textbf{Valore}&\textbf{Accettazione} & \textbf{Ottimale}\\ \hline
+Schedule Variance & 23 & Superato & non superato\\
+\midrule
+Budget Variance & 301 & Superato & non superato\\
+\end{tabular}
+\end{center}
+\subsubsection{Documenti}
+\begin{center}
+\begin{tabular}{{p{5cm} p{2cm} p{2.5cm} p{2.5cm}}}
+\textbf{Metrica} & \textbf{Gulpease}&\textbf{Accettazione} & \textbf{Ottimale}\\ \hline
+Norme di Progetto & 56 & Superato & Superato\\
+Piano di Progetto & 53 & Superato & Superato\\
+Piano di Qualifica & 55 & Superato & Superato\\
+Analisi dei Requisiti & 69 & Superato & Superato\\
+Studio di Fattibilità & 53 & Superato & Superato\\
+Specifica Tecnica & 53 & Superato & Superato \\
+Definizione di Prodotto & 47 & Non superato & Non superato \\
+
+\end{tabular}
+\end{center}
 \end{document}
