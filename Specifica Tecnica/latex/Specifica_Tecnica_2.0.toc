@@ -38,9 +38,8 @@
 \contentsline {subsubsection}{\numberline {6.1.3}Package Statistics}{15}{subsubsection.6.1.3}
 \contentsline {subsubsubsection}{\numberline {6.1.3.1}Classe Statistics}{15}{subsubsubsection.6.1.3.1}
 \contentsline {subsubsection}{\numberline {6.1.4}Package Publishers}{16}{subsubsection.6.1.4}
-\contentsline {subsubsubsection}{\numberline {6.1.4.1}Classe UserPublisher}{16}{subsubsubsection.6.1.4.1}
-\contentsline {subsubsubsection}{\numberline {6.1.4.2}Classe QuizPublisher}{16}{subsubsubsection.6.1.4.2}
-\contentsline {subsubsubsection}{\numberline {6.1.4.3}Classe QuestionPublisher}{16}{subsubsubsection.6.1.4.3}
+\contentsline {subsubsubsection}{\numberline {6.1.4.1}Classe QuizPublisher}{16}{subsubsubsection.6.1.4.1}
+\contentsline {subsubsubsection}{\numberline {6.1.4.2}Classe QuestionPublisher}{16}{subsubsubsection.6.1.4.2}
 \contentsline {section}{\numberline {7}Diagrammi delle classi del Client}{17}{section.7}
 \contentsline {subsection}{\numberline {7.1}Diagrammi delle classi della View}{17}{subsection.7.1}
 \contentsline {subsubsection}{\numberline {7.1.1}Package Pages}{17}{subsubsection.7.1.1}
