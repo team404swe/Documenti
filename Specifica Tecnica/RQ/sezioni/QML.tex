@@ -1,0 +1,50 @@
+\section{Linguaggio QML}
+Il linguaggio QMl è lo strumento scelto per definire le domande del sistema Quizzipedia.
+Ogni domanda avrà sempre:
+\begin{itemize}
+\item un tipo 
+\item un teso della domanda
+\item un insieme di risposte, alcune giuste, alcune errate
+\end{itemize}
+Per rappresentare queste informazioni in modo semplice e intuitivo si è deciso di utilizzare la seguente sintassi:
+\begin{itemize}
+\item  \textit{Definizione della domanda}: \code{<question> *Contenuto* <fine>}\\
+i marcatori \code{<question>} e \code{<fine>} definiscono i confini della definizione di una domanda
+\item \textit{Definizione del tipo:} \code{ \{TIPO\} }\\
+la sintassi \code{ \{TIPO\} }, inserita all inizio della definizione della domanda, ne identifica univocamente il tipo. La dicitura \code{ "TIPO" } sarà una coppia di lettere che identifica il tipo della domanda, ad esempio:
+	\begin{itemize}
+		\item \textbf{VF}: domanda Vero o Falso
+		\item \textbf{MU}: domanda a Risposta Multipla con unica risposta esatta
+		\item \textbf{MX}: domanda a Risposta Multipla con più risposte esatte
+	\end{itemize}
+\item \textit{Definizione del testo}: \code{=> *Testo della domanda*}\\
+la sintassi \code{=>} posta dopo la definizione del tipo, delimita la definizione del testo della domanda.
+\item\textit{Definizione delle risposte}: cambia da domanda a domanda\\
+Le risposte saranno una lista di elementi del tipo 
+
+\code{\newline\{\} Risposta1\newline\{\} Risposta2\newline\{X\} Risposta3\newline\{\} Risposta4} 
+\newline
+
+dove l'elemento \code{\{X\}} contiene la risposta esatta, nel caso delle domande a risposta multipla.
+\newline
+
+Si potrà avere ad esempio una lista per domande Vero o Falso
+
+\code{\newline\{V\} Risposta1\newline\{F\} Risposta2 }
+\end{itemize} 
+\pagebreak
+
+Viene riportato un esempio completo di domanda a risposta multipla con più risposte complete, che utilizza tutti gli elementi di cui sopra:
+\newline
+
+\noindent
+\code{
+<question> \{MX\} \newline
+=>scegli i frutti. \newline
+\{\}  mais \newline
+\{X\} mango \newline
+\{\}  fagioli \newline
+\{X\}  pera \newline
+<fine>
+}
+\newpage

@@ -1,0 +1,74 @@
+\subsection{Mappatura requisiti - componenti}
+
+\begin{longtable}{p{0.20\textwidth}p{0.80\textwidth}}
+\caption{Mappatura dei requisiti sui componenti} \\
+
+Codice Requisito & Nome Componente \\
+\midrule
+\endfirsthead
+
+Codice Requisito & Nome Componente \\
+\midrule
+\endhead
+
+\multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Mappatura dei requisiti sui componenti}
+\endfoot
+
+\multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Mappatura dei requisiti sui componenti}
+\endlastfoot
+
+F 1 & View::Pages::RegistrationPage\\
+	& Model::Database::UserManager::AddUser\\
+	& View::Templates::RegistrationForm\\
+
+\midrule
+F 2 & Model::Database::UserManager::LogIn\\
+	& View::Pages::LoginPage\\
+	& View::Pages::PasswordRecoveryPage\\
+	& View::Templates::LoginForm\\
+	& View::Templates::PasswordRecoveryForm\\
+			
+\midrule
+F 3 & Model::Database\\
+	& View::Pages::CategoryListPage\\
+	& View::Pages::QuizListPage\\
+	& View::Templates:QuizList:\\
+	& View::Templates::SearchForm\\
+	
+\midrule	
+F 4		& View::Pages::QuizExecutionPage\\
+		& View::Pages::QuizResultPage\\
+		& Model::Statistics::Statistics\\
+		& View::Templates::QuestionList\\
+		& View::Templates::Question\\
+		& View::Templates::Quiz\\
+		& View::Templates::QuestionCompilation\\
+		& View::Templates::QuizResults\\
+\midrule
+F 5		& Model::Database::QuestionManager::AddQuestion\\
+		& Model::Database::QuestionManager::ModifyQuestion\\
+		& Model::Database::QuestionManager::RemoveQuestion\\
+		& Model::Parser::Parser\\
+		& View::Pages::QuestionCreationPage\\
+			& View::Pages::QuestionUpdatePage\\
+			& View::Templates::QuestionForm\\	
+			& ViewModel::Controllers::NewQuestionController\\
+			& ViewModel::Controllers::QuestionManagementController\\
+			& ViewModel::Controllers::DeleteQuestionController\\
+			& ViewModel::Controllers::QMLEditorController\\
+\midrule
+F 6		& Model::Database::QuizManager::AddQuiz\\
+& View::Pages::QuizManagementPage\\	
+		& View::Pages::QuizCreationPage\\
+		& View::Templates::QuizCreationForm\\
+		& ViewModel::Controllers::NewQuizController\\
+		& ViewModel::Controllers::QuizManagementController\\
+
+\midrule
+F 8 & View::Pages::ViewTutorialPage\\
+	& ViewModel::Controllers::QMLEditorController\\
+	& ViewModel::Interpreter::QMLInterpreterFactory\\
+	& ViewModel::Interpreter::QMLInterpreter\\
+	& ViewModel::Interpreter::QML2HTMLInterpreter\\
+			
+	\end{longtable}

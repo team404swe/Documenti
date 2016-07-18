@@ -1,0 +1,185 @@
+\documentclass[a4paper,11pt]{article}
+	\input{../../template.tex}
+	\newcommand{\code}[1]{\texttt{#1}}
+
+	\title{\textbf{{\fontsize{8mm}{5mm}\selectfont QUIZZIPEDIA}}}
+	\date{}
+	\author{}	
+
+
+	\begin{document}
+	\maketitle
+	\thispagestyle{empty}
+	\begin{center}	
+	\includegraphics{../team_not_found.jpg}\\
+	\fontsize{5mm}{3mm}\url{team404swe@gmail.com}\\
+	
+	\vspace{50mm}
+	\textbf{Specifica Tecnica 3.0}
+	\end{center}
+	\introtab{Specifica Tecnica 3.0}			%1 nome documento
+			{3.0} 							%2 versione
+			{Esterno} 						%3 Uso
+			{22 aprile 2016} 				%4 Data cre
+			{\today} 						%5 Data mod
+			{A. Multineddu - L. Alessio - D. Bortot}	%6 Redazione
+			{Alex Beccaro } 			%7 Verifica
+			{Martin V. Mbouenda} 				%8 Approvazione
+	\newpage
+	\thispagestyle{empty}
+	\null  
+
+	\newpage
+	\newpage
+	\fancyhead[R]{REGISTRO DELLE MODIFICHE}
+	\fancyfoot[R]{\thepage}
+	
+	\hspace{30 mm}
+	\section*{Registro delle modifiche}
+	
+	\beginregistro
+	
+	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm} 
+	\textbf{Descrizione}}
+	\rigaregistro{2.0.2}{Andrea Multineddu (Programmatore)}{15/07/2016}{Modifica diagrammi di attività (fig. 9 - 10)}
+	\rigaregistro{2.0.1}{Luca Alessio (Verificatore)}{13/07/2016}{Apportamento correzioni rilevate durante la RQ: ampliamento spiegazione svantaggi AngularJS, revisione di alcune scelte architetturali e correzione di altri errori minori.}
+	\rigaregistro{2.0}{Luca Alessio (Responsabile)}{25/06/2016}{Approvazione del documento.}
+	\rigaregistro{1.1.1}{Davide Bortot (Progettista)}{23/06/2016}{Correzione errori rilevati in seguito a verifica.}
+	\rigaregistro{1.1}{Marco Crivellaro (Progettista)}{22/06/2016}{Verifica del documento.}
+	\rigaregistro{1.0.19}{Davide Bortot (Progettista)}{21/06/2016}{Aggiunta sezione "Linguaggio QML" (§5).}
+	\rigaregistro{1.0.18}{Davide Bortot (Progettista)}{21/06/2016}{Caricati i diagrammi di sequenza aggiornati alla nuova architettura (§10).}
+	\rigaregistro{1.0.17}{Luca Alessio (Analista)}{20/06/2016}{Termine stesura e aggiornamento sezione "Tracciamento", inizio aggiornamento sezione "Diagrammi di sequenza".}
+	\rigaregistro{1.0.16}{Davide Bortot (Progettista)}{19/06/2016}{Aggiunta la classe Router al ViewModel (aggiunte in §6.2.2 e §8.2.5) e il rispettivo tracciamento in §21.1.}
+	\rigaregistro{1.0.15}{Luca Alessio (Analista)}{18/06/2016}{Inizio revisione tracciamento}
+	\rigaregistro{1.0.14}{Luca Alessio (Analista)}{16/06/2016}{Revisione e correzione sezioni Model e View}
+	\rigaregistro{1.0.13}{Davide Bortot (Progettista)}{11/06/2016}{Eliminati ed inglobati nel package "Controllers" i packages "QuizManager" e "QuestionManager", ed eliminati i relativi design pattern in §11. Riadattato il package Interpreter (§8.2.4). Aggiunto il design pattern Publish-Subscribe (§11.3).}
+	\rigaregistro{1.0.12}{Andrea Multineddu (Progettista)}{09/06/2016}{Definizione delle subpackage del Model "Database"(§7.1.1) e "Publishers" (§7.1.4).}
+	\rigaregistro{1.0.11}{Andrea Multineddu (Progettista)}{08/06/2016}{Ridefinizione del package Model (§6.1).}
+	\rigaregistro{1.0.10}{Davide Bortot (Progettista)}{05/06/2016}{Definizione delle classi del ViewModel "Controllers" (§8.2.1), "Subscribers" (§82.2) e "Methods" (§8.2.3).}
+	\rigaregistro{1.0.9}{Davide Bortot (Progettista)}{04/06/2016}{Prima definizione delle classi del ViewModel, con conseguente aggiornamento di §6.2.2 e §8.2.}
+	\rigaregistro{1.0.8}{Davide Bortot (Progettista)}{03/06/2016}{Prima rivisitazione ed adattamento di §5.2.2, divenuto package "ViewModel".}
+	\rigaregistro{1.0.7}{Davide Bortot (Progettista)}{02/06/2016}{Rivisitate le sezioni §2.2, §2.3, §2.4 in seguito alla redifinizione di §2.1.}
+	\rigaregistro{1.0.6}{Davide Bortot (Progettista)}{02/06/2016}{Riscritta la sezione "Architettura generale del sistema" (§2.1) con l'introduzione dei framework scelti e dell'adozione del pattern MVVM.}
+	\rigaregistro{1.0.5}{Davide Bortot (Progettista)}{01/06/2016}{Ampliamento sezione "Risorse necessarie" (§4) con MongoDB, Meteor, Openshift.}
+	\rigaregistro{1.0.4}{Luca Alessio (Analista)}{01/06/2016}{Ampliamento sezione "Tecnologie utilizzate" (aggiunti paragrafi AngularJS, Meteor, MongoDB).}
+	\rigaregistro{1.0.3}{Davide Bortot (Progettista)}{30/05/2016}{Riformattamento  del documento e ristrutturazione dei file LaTeX.}
+	\rigaregistro{1.0.2}{Davide Bortot (Progettista)}{27/05/2016}{Correzione e contestualizzazione dei design pattern individuati in §9.}
+	\rigaregistro{1.0.1}{Luca Alessio (Analista)}{24/05/2016}{Correzione diagrammi di attività e revisione sintattica di diversi paragrafi.}
+	\rigaregistro{1.0}{Martin Mbouenda (responsabile)}{16/05/2016}{Approvazione del documento.}
+	\rigaregistro{0.1.0}{A. Beccaro (Verificatore)}{13/05/2016}{Verifica completa del documento.}
+	\rigaregistro{0.0.19}{A. Multineddu (Progettista)}{12/05/2016}{Stesura della tracciamento requisiti - componenti".}
+	\rigaregistro{0.0.18}{Davide Bortot (Progettista)}{11/05/2016}{Stesura della tracciamento componenti - requisiti".}
+	\rigaregistro{0.0.17}{Luca Alessio (Progettista)}{12/05/2016}{Termine stesura sezione diagrammi e revisione/ampliamento di vari paragrafi}
+	\rigaregistro{0.0.16}{Davide Bortot (Progettista)}{10/05/2016}{Stesura della sezione "Design pattern utilizzati".}
+	\rigaregistro{0.0.15}{Davide Bortot (Progettista)}{08/05/2016}{Inseriti grafici dei Diagrammi di Sequenza. Aggiunta tecnologia "Materialize" alla sezione "Tecnologie e strumenti utilizzati".}
+	\rigaregistro{0.0.14}{Luca Alessio (Progettista)}{07/05/2016}{Stesura sezione "Diagrammi di Sequenza" per la parte descrittiva.}
+	\rigaregistro{0.0.13}{Davide Bortot (Progettista)}{06/05/2016}{Integrara la sezione "Diagrammi delle classi del Presenter" con l'aggiunta dei grafici UML.}
+	\rigaregistro{0.0.12}{Andrea Multineddu (Progettista)}{06/05/2016}{Aggiunte immagini sezione "Diagrammi delle attività".}
+	\rigaregistro{0.0.11}{Davide Bortot (Progettista)}{05/05/2016}{Completata la parte descrittiva della sezione "Diagrammi delle classi del Presenter". Riadattamento allo stile del documento di §4.3. Inseriti grafici UML dei Package del Model e della View.}
+	\rigaregistro{0.0.10}{Luca Alessio (Progettista)}{04/05/2016}{Stesura sezione "Diagrammi delle attività" e correzioni varie su altre sezioni.}
+	\rigaregistro{0.0.9}{Davide Bortot (Progettista)}{03/05/2016}{Stesura sezione "Package della componente Presenter", inserito rispettivo grafico UML, e prima stesura di "Diagrammi delle classi del Presenter".}
+	\rigaregistro{0.0.8}{Andrea Multineddu (Progettista)}{01/05/2016}{Prima stesura sezioni "Package della componente Model" e "Diagrammi delle classi del Model".}
+	\rigaregistro{0.0.7}{Luca Alessio (Progettista)}{30/04/2016}{Prima stesura sezioni "Package della componente View" e "Diagrammi delle classi del View".}	
+	\rigaregistro{0.0.6}{Davide Bortot (Progettista)}{28/04/2016}{Stesura delle sezioni §2.2, §2.3, §2.4 con la descrizione d'alto livello delle componenti MVP.}
+	\rigaregistro{0.0.5}{Luca Alessio (Progettista)}{27/04/2016}{Stesura parziale sezione "Tecnologie e strumenti utilizzati"}
+	\rigaregistro{0.0.4}{Davide Bortot (Progettista)}{25/04/2016}{Ampliata la sezione "Architettura generale del sistema".}
+	\rigaregistro{0.0.3}{Luca Alessio (Progettista)}{24/04/2016}{Stesura parziale sezione "Architettura generale del sistema"}
+	\rigaregistro{0.0.2}{Davide Bortot (Progettista)}{23/04/2016}{Strutturazione iniziale del documento e stesura sezione introduttiva}
+	\rigaregistro{0.0.1}{Marco Crivellaro (Progettista)}{22/04/2016}{Creazione documento.}
+	\fineregistro
+
+	\newpage
+	\fancyhead[R]{\leftmark}
+	\tableofcontents
+	\pagenumbering{Roman}
+	\newpage
+	\listoffigures
+	\listoftables
+	
+	\newpage
+	\pagenumbering{arabic}
+	
+	\section*{Sommario}
+	Questo documento, redatto dal gruppo \textbf{Team404}, contiene la descrizione dell'architettura software sulla quale verrà sviluppato il progetto Quizzipedia, commissionato da Zucchetti S.p.A..
+Scopo del documento è quello di illustrare le scelte progettuali che il gruppo ha deciso di
+seguire per realizzare il prodotto.
+	
+	\newpage
+	\section{Introduzione}
+	\subsection{Scopo del documento}
+	Lo scopo della Specifica Tecnica è quello di illustrare le scelte progettuali che il gruppo ha deciso di seguire nella realizzazione del prodotto. Vengono presentati, pur restando ad alto
+livello, la gerarchia dei package, le loro interazioni e le principali classi in essi contenute, specificandone lo scopo e l'utilizzo. Verranno presentati inoltre i design pattern utilizzati nell'architettura.
+	
+	\subsection{Scopo del prodotto}
+	Il progetto \textbf{Quizzipedia} ha come obiettivo lo sviluppo di un sistema software basato su tecnologie Web (Javascript\addglos, Node.js\addglos, HTML5\addglos, CSS3\addglos) che permetta la creazione, gestione e fruizione di questionari. Il sistema dovrà quindi poter archiviare i questionari suddivisi per argomento, le cui domande dovranno essere raccolte attraverso uno specifico linguaggio di markup (Quiz Markup Language) d'ora in poi denominato QML\addglos. In un caso d'uso a titolo esemplificativo, un "esaminatore" dovrà poter costruire il proprio questionario scegliendo tra le domande archiviate, ed il questionario così composto sarà presentato e fruibile all' "esaminando", traducendo l'oggetto QML in una pagina HTML\addglos, tramite un'apposita interfaccia web. Il sistema presentato dovrà inoltre poter proporre questionari preconfezionati e valutare le risposte fornite dall'utente finale.
+	\\
+	Per un'analisi più precisa ed approfondita del progetto si rimanda al documento\\ "\textit{analisi\_dei\_requisiti\_4.0.pdf}".
+	\subsection{Glossario}
+	Viene allegato un glossario nel file ``\textit{glossario\_4.0.pdf}'' nel quale viene data una definizione a tutti i termini che in questo documento appaiono con il simbolo '\addglos' a pedice.
+	\subsection{Riferimenti}
+		\subsubsection{Normativi}
+
+		\begin{itemize}
+			\item Capitolato d'appalto Quizzipedia:\\
+			\url{http://www.math.unipd.it/~tullio/IS-1/2015/Progetto/C5.pdf}
+			\item Norme di Progetto: "\textit{norme\_di\_progetto\_4.0.pdf}"
+		\end{itemize}
+		\subsubsection{Informativi}
+		\begin{itemize}
+			\item Corso di Ingegneria del Software anno 2015/2016:\\
+			\url{http://www.math.unipd.it/~tullio/IS-1/2015/}
+			\item Regole del progetto didattico:\\
+			\url{http://www.math.unipd.it/~tullio/IS-1/2015/Dispense/PD01.pdf}
+			\url{http://www.math.unipd.it/~tullio/IS-1/2015/Progetto/}\\
+			\item Framework Meteor:\\
+			\url{https://www.meteor.com/}
+			\item Framework AngularJs:\\
+			\url{https://www.angularjs.org/}
+			\item Framework Materialize:\\
+			\url{http://www.materializecss.com/}
+			\item NodeJs:\\
+			\url{https://www.nodejs.org/}
+			\item MongoDB:\\
+			\url{https://www.mongodb.com/}
+			\item Cloud hosting OpenShift:\\
+			\url{https://www.openshift.com}
+			\item Specifica HTML5 del W3C:\\
+			\url{http://www.w3schools.com/html/}
+			\item Specifica CSS3 del W3C:\\
+			\url{http://www.w3schools.com/css/}
+			\end{itemize}
+	\pagebreak
+	\newpage
+
+	\input{sezioni/specifiche.tex}	
+	\input{sezioni/tecnologie.tex}
+	\input{sezioni/risorse.tex}
+	\input{sezioni/QML.tex}
+	
+	\section{Diagrammi dei packages}
+		\subsection{Server}
+		Nella parte \emph{Server} del sistema lavorano gli elementi del Model.
+			\input{sezioni/packageModel.tex}
+		\subsection{Client}
+		Nella parte \emph{Client} del sistema risiedono i componenti dalla View e del ViewModel.
+			\input{sezioni/packageView.tex}
+			\input{sezioni/packageViewModel.tex}
+	
+	\section{Diagrammi delle classi del Server}
+		\input{sezioni/classiModel.tex}
+	\section{Diagrammi delle classi del Client}
+		\input{sezioni/classiView.tex}
+		\input{sezioni/classiViewModel.tex}
+	
+	\section{Diagrammi di attività}
+		\input{sezioni/attività.tex}
+	\section{Diagrammi di sequenza}
+		\input{sezioni/sequenza.tex}
+	\section{Design pattern utilizzati}
+		\input{sezioni/designPattern.tex}
+	
+	\section{Tracciamento}
+		\input{sezioni/tracciamentoCompReq}
+		\input{sezioni/tracciamentoReqComp}
+	
+\end{document}
