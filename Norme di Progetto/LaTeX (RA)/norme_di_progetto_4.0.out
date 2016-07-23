@@ -1,0 +1,93 @@
+\BOOKMARK [1][-]{section.1}{Introduzione}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Scopo del documento}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Scopo del Prodotto}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Glossario}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{Riferimenti}{section.1}% 5
+\BOOKMARK [3][-]{subsubsection.1.4.1}{Normativi}{subsection.1.4}% 6
+\BOOKMARK [3][-]{subsubsection.1.4.2}{Informativi}{subsection.1.4}% 7
+\BOOKMARK [1][-]{section.2}{Processi Primari}{}% 8
+\BOOKMARK [2][-]{subsection.2.1}{Processo di fornitura}{section.2}% 9
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Studio di fattibilit\340}{subsection.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.2}{Processo di sviluppo}{section.2}% 11
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Analisi dei requisiti}{subsection.2.2}% 12
+\BOOKMARK [4][-]{subsubsubsection.2.2.1.1}{ Casi d'uso}{subsubsection.2.2.1}% 13
+\BOOKMARK [4][-]{subsubsubsection.2.2.1.2}{ Requisiti}{subsubsection.2.2.1}% 14
+\BOOKMARK [4][-]{subsubsubsection.2.2.1.3}{ Strumenti per il tracciamento dei requisiti}{subsubsection.2.2.1}% 15
+\BOOKMARK [3][-]{subsubsection.2.2.2}{ Progettazione}{subsection.2.2}% 16
+\BOOKMARK [4][-]{subsubsubsection.2.2.2.1}{ Scopo del processo}{subsubsection.2.2.2}% 17
+\BOOKMARK [4][-]{subsubsubsection.2.2.2.2}{ Descrizione}{subsubsection.2.2.2}% 18
+\BOOKMARK [4][-]{subsubsubsection.2.2.2.3}{ Diagrammi UML}{subsubsection.2.2.2}% 19
+\BOOKMARK [4][-]{subsubsubsection.2.2.2.4}{ Stile di progettazione}{subsubsection.2.2.2}% 20
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Specifica tecnica - ST}{subsection.2.2}% 21
+\BOOKMARK [3][-]{subsubsection.2.2.4}{Definizione di progetto - DP}{subsection.2.2}% 22
+\BOOKMARK [3][-]{subsubsection.2.2.5}{Codifica}{subsection.2.2}% 23
+\BOOKMARK [4][-]{subsubsubsection.2.2.5.1}{Scopo del processo}{subsubsection.2.2.5}% 24
+\BOOKMARK [4][-]{subsubsubsection.2.2.5.2}{Descrizione}{subsubsection.2.2.5}% 25
+\BOOKMARK [4][-]{subsubsubsection.2.2.5.3}{Intestazione dei file}{subsubsection.2.2.5}% 26
+\BOOKMARK [4][-]{subsubsubsection.2.2.5.4}{Formattazione}{subsubsection.2.2.5}% 27
+\BOOKMARK [3][-]{subsubsection.2.2.6}{ Tecnologia}{subsection.2.2}% 28
+\BOOKMARK [3][-]{subsubsection.2.2.7}{Verifica e validazione}{subsection.2.2}% 29
+\BOOKMARK [4][-]{subsubsubsection.2.2.7.1}{Strumenti di verifica}{subsubsection.2.2.7}% 30
+\BOOKMARK [1][-]{section.3}{Processi di supporto}{}% 31
+\BOOKMARK [2][-]{subsection.3.1}{Processo di documentazione}{section.3}% 32
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Scopo del processo}{subsection.3.1}% 33
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Procedure}{subsection.3.1}% 34
+\BOOKMARK [3][-]{subsubsection.3.1.3}{Template}{subsection.3.1}% 35
+\BOOKMARK [3][-]{subsubsection.3.1.4}{Struttura dei documenti}{subsection.3.1}% 36
+\BOOKMARK [4][-]{subsubsubsection.3.1.4.1}{Comandi personalizzati}{subsubsection.3.1.4}% 37
+\BOOKMARK [4][-]{subsubsubsection.3.1.4.2}{Frontespizio}{subsubsection.3.1.4}% 38
+\BOOKMARK [4][-]{subsubsubsection.3.1.4.3}{Registro delle modifiche}{subsubsection.3.1.4}% 39
+\BOOKMARK [4][-]{subsubsubsection.3.1.4.4}{Indice}{subsubsection.3.1.4}% 40
+\BOOKMARK [4][-]{subsubsubsection.3.1.4.5}{Intestazione}{subsubsection.3.1.4}% 41
+\BOOKMARK [4][-]{subsubsubsection.3.1.4.6}{Pi\350 di pagina}{subsubsection.3.1.4}% 42
+\BOOKMARK [3][-]{subsubsection.3.1.5}{Versionamento}{subsection.3.1}% 43
+\BOOKMARK [3][-]{subsubsection.3.1.6}{Norme tipografiche}{subsection.3.1}% 44
+\BOOKMARK [4][-]{subsubsubsection.3.1.6.1}{Formattazione del testo}{subsubsection.3.1.6}% 45
+\BOOKMARK [4][-]{subsubsubsection.3.1.6.2}{Punteggiatura}{subsubsection.3.1.6}% 46
+\BOOKMARK [4][-]{subsubsubsection.3.1.6.3}{Composizione del testo}{subsubsection.3.1.6}% 47
+\BOOKMARK [4][-]{subsubsubsection.3.1.6.4}{Formati}{subsubsection.3.1.6}% 48
+\BOOKMARK [3][-]{subsubsection.3.1.7}{Sigle}{subsection.3.1}% 49
+\BOOKMARK [3][-]{subsubsection.3.1.8}{Componenti grafiche}{subsection.3.1}% 50
+\BOOKMARK [4][-]{subsubsubsection.3.1.8.1}{Tabelle}{subsubsection.3.1.8}% 51
+\BOOKMARK [4][-]{subsubsubsection.3.1.8.2}{Immagini}{subsubsection.3.1.8}% 52
+\BOOKMARK [3][-]{subsubsection.3.1.9}{Elenco dei documenti}{subsection.3.1}% 53
+\BOOKMARK [2][-]{subsection.3.2}{Processo di verifica}{section.3}% 54
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Scopo del processo}{subsection.3.2}% 55
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Risultati osservabili}{subsection.3.2}% 56
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Tecniche di analisi}{subsection.3.2}% 57
+\BOOKMARK [4][-]{subsubsubsection.3.2.3.1}{Analisi statica}{subsubsection.3.2.3}% 58
+\BOOKMARK [4][-]{subsubsubsection.3.2.3.2}{Analisi dinamica}{subsubsection.3.2.3}% 59
+\BOOKMARK [3][-]{subsubsection.3.2.4}{Test}{subsection.3.2}% 60
+\BOOKMARK [4][-]{subsubsubsection.3.2.4.1}{Test di unit\340}{subsubsection.3.2.4}% 61
+\BOOKMARK [4][-]{subsubsubsection.3.2.4.2}{Test di integrazione}{subsubsection.3.2.4}% 62
+\BOOKMARK [4][-]{subsubsubsection.3.2.4.3}{Test di sistema}{subsubsection.3.2.4}% 63
+\BOOKMARK [4][-]{subsubsubsection.3.2.4.4}{Test di regressione}{subsubsection.3.2.4}% 64
+\BOOKMARK [4][-]{subsubsubsection.3.2.4.5}{Test di accettazione}{subsubsection.3.2.4}% 65
+\BOOKMARK [1][-]{section.4}{Processi Organizzativi}{}% 66
+\BOOKMARK [2][-]{subsection.4.1}{Scopo del processo}{section.4}% 67
+\BOOKMARK [2][-]{subsection.4.2}{Processo di gestione}{section.4}% 68
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Ruoli di progetto}{subsection.4.2}% 69
+\BOOKMARK [4][-]{subsubsubsection.4.2.1.1}{Definizione dei ruoli}{subsubsection.4.2.1}% 70
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Comunicazione}{subsection.4.2}% 71
+\BOOKMARK [4][-]{subsubsubsection.4.2.2.1}{Interna}{subsubsection.4.2.2}% 72
+\BOOKMARK [4][-]{subsubsubsection.4.2.2.2}{Esterna}{subsubsection.4.2.2}% 73
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Incontri}{subsection.4.2}% 74
+\BOOKMARK [4][-]{subsubsubsection.4.2.3.1}{Interni}{subsubsection.4.2.3}% 75
+\BOOKMARK [4][-]{subsubsubsection.4.2.3.2}{Esterni}{subsubsection.4.2.3}% 76
+\BOOKMARK [3][-]{subsubsection.4.2.4}{Ticketing}{subsection.4.2}% 77
+\BOOKMARK [2][-]{subsection.4.3}{Processo di Allestimento}{section.4}% 78
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Strumenti di progetto}{subsection.4.3}% 79
+\BOOKMARK [4][-]{subsubsubsection.4.3.1.1}{Sistema operativo}{subsubsection.4.3.1}% 80
+\BOOKMARK [4][-]{subsubsubsection.4.3.1.2}{Codifica dei caratteri}{subsubsection.4.3.1}% 81
+\BOOKMARK [4][-]{subsubsubsection.4.3.1.3}{Versionamento}{subsubsection.4.3.1}% 82
+\BOOKMARK [4][-]{subsubsubsection.4.3.1.4}{Git - Modo d'uso}{subsubsection.4.3.1}% 83
+\BOOKMARK [4][-]{subsubsubsection.4.3.1.5}{GitHub - Modo d'uso}{subsubsection.4.3.1}% 84
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Openshift online}{subsection.4.3}% 85
+\BOOKMARK [4][-]{subsubsubsection.4.3.2.1}{MeteorJS}{subsubsection.4.3.2}% 86
+\BOOKMARK [4][-]{subsubsubsection.4.3.2.2}{AngularJS}{subsubsection.4.3.2}% 87
+\BOOKMARK [4][-]{subsubsubsection.4.3.2.3}{MaterializeCss - da valutare}{subsubsection.4.3.2}% 88
+\BOOKMARK [3][-]{subsubsection.4.3.3}{ Installazione Meteor-Angular-Materialize}{subsection.4.3}% 89
+\BOOKMARK [3][-]{subsubsection.4.3.4}{Produzione dei documenti}{subsection.4.3}% 90
+\BOOKMARK [4][-]{subsubsubsection.4.3.4.1}{Dropbox}{subsubsection.4.3.4}% 91
+\BOOKMARK [4][-]{subsubsubsection.4.3.4.2}{Editor}{subsubsection.4.3.4}% 92
+\BOOKMARK [4][-]{subsubsubsection.4.3.4.3}{Correttore ortografico}{subsubsection.4.3.4}% 93
