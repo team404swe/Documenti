@@ -107,8 +107,7 @@
 \BOOKMARK [2][-]{subsection.10.5}{Svolgimento di un Questionario}{section.10}% 107
 \BOOKMARK [1][-]{section.11}{Design pattern utilizzati}{}% 108
 \BOOKMARK [2][-]{subsection.11.1}{Abstract Factory}{section.11}% 109
-\BOOKMARK [2][-]{subsection.11.2}{Singleton}{section.11}% 110
-\BOOKMARK [2][-]{subsection.11.3}{Publish - Subscribe}{section.11}% 111
-\BOOKMARK [1][-]{section.12}{Tracciamento}{}% 112
-\BOOKMARK [2][-]{subsection.12.1}{Mappatura componenti-requisiti}{section.12}% 113
-\BOOKMARK [2][-]{subsection.12.2}{Mappatura requisiti - componenti}{section.12}% 114
+\BOOKMARK [2][-]{subsection.11.2}{Publish - Subscribe}{section.11}% 110
+\BOOKMARK [1][-]{section.12}{Tracciamento}{}% 111
+\BOOKMARK [2][-]{subsection.12.1}{Mappatura componenti-requisiti}{section.12}% 112
+\BOOKMARK [2][-]{subsection.12.2}{Mappatura requisiti - componenti}{section.12}% 113

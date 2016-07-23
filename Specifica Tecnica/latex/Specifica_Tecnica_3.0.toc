@@ -109,8 +109,7 @@
 \contentsline {subsection}{\numberline {10.5}Svolgimento di un Questionario}{39}{subsection.10.5}
 \contentsline {section}{\numberline {11}Design pattern utilizzati}{40}{section.11}
 \contentsline {subsection}{\numberline {11.1}Abstract Factory}{40}{subsection.11.1}
-\contentsline {subsection}{\numberline {11.2}Singleton}{41}{subsection.11.2}
-\contentsline {subsection}{\numberline {11.3}Publish - Subscribe}{42}{subsection.11.3}
-\contentsline {section}{\numberline {12}Tracciamento}{44}{section.12}
-\contentsline {subsection}{\numberline {12.1}Mappatura componenti-requisiti}{44}{subsection.12.1}
-\contentsline {subsection}{\numberline {12.2}Mappatura requisiti - componenti}{48}{subsection.12.2}
+\contentsline {subsection}{\numberline {11.2}Publish - Subscribe}{41}{subsection.11.2}
+\contentsline {section}{\numberline {12}Tracciamento}{43}{section.12}
+\contentsline {subsection}{\numberline {12.1}Mappatura componenti-requisiti}{43}{subsection.12.1}
+\contentsline {subsection}{\numberline {12.2}Mappatura requisiti - componenti}{47}{subsection.12.2}
