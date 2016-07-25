@@ -33,6 +33,13 @@ La classe utilizza:
 				\item\code{question: String}: il testo QML della domanda da salvare.\\
 				\item\code{category: String}: la categoria della domanda da salvare.\\
 			\end{itemize}
+			\item\code{+ check()}: metodo che invoca un Method per effettuare il check del testo QML inserito\\
+		\textbf{Precondizioni}: l'utente clicca sul bottone "Check QML"\\
+		\textbf{Postcondizioni}: viene effettuato il parsing del testo e l'esito viene comunicato all'utente\\
+		\textbf{Parametri}:
+			\begin{itemize}
+				\item\code{QMLtext: String}: il testo QML inserito del quale viene richiesto il parsing.\\
+			\end{itemize}
 	\end{itemize}
 \end{itemize}
 
@@ -47,14 +54,16 @@ La classe utilizza:
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
-		\item\code{-\$scope}: Campo dati contenente un riferimento all'oggetto \$scope creato da Angular, viene utilizzato come mezzo di comunicazione tra il controller e il template.\\
+		\item\code{-\$scope}: Campo dati contenente un riferimento all'oggetto \$scope creato da Angular, viene utilizzato come mezzo di comunicazione tra il controller e il template.
+		\item\code{+ questions: Array}: variabile che contiene gli id delle domande aggiunte al questionario.
+		\item\code{+ categories: Array[category: String, counter: int]}: variabile che contiene la lista delle categorie delle domande aggiunte al questionario. Ad ogni categoria aggiunta viene associato il numero di domande del questionario appartenenti alla categoria.
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
 		\item\code{+ NewQuizController()}: metodo costruttore della classe\\	
 		\textbf{Parametri}:
 			\begin{itemize}
-				\item\code{\$scope}: campo dati contenente un riferimento all’oggetto \$scope creato da Angular, viene utilizzato come mezzo di comunicazione tra il controller e il template.\\
+				\item\code{\$scope}: campo dati contenente un riferimento all'oggetto \$scope creato da Angular, viene utilizzato come mezzo di comunicazione tra il controller e il template.\\
 			\end{itemize}
 		\item\code{+ saveQuiz()}: metodo per richiedere il salvataggio del nuovo quiz\\
 		\textbf{Precondizioni}: viene richiesto di salvare un nuovo quiz\\
@@ -62,9 +71,16 @@ La classe utilizza:
 		\textbf{Parametri}:
 			\begin{itemize}
 				\item\code{title: String}: il titolo del questionario.\\
-				\item\code{categories: Array}: la lista delle categorie associate al questionario.\\
 				\item\code{questions: Array}: la lista di id delle domande che compongono il questionario.\\
+				\item\code{categories: Array}: la lista delle categorie associate al questionario.\\				
 				\item\code{time: Int}: il tempo massimo in minuti per la compilazione del questionario.\\
+			\end{itemize}
+		\item\code{+ toggleSelection()}: metodo che aggiunge la categoria della domanda scelta alle categorie del questionario. Se la categoria era già presente il contatore associato viene incrementato\\
+		\textbf{Precondizioni}: l'utente sceglie di aggiungere o di togliere una domanda al quiz in creazione, selezionando il rispettivo check-box\\
+		\textbf{Postcondizioni}: la categoria della domanda appena scelta viene aggiunta alle categorie del quiz e mostrata all'utente. Se la categoria era già presente il contatore associato viene incrementato\\
+		\textbf{Parametri}:
+		\begin{itemize}
+				\item\code{question: Question}: la variabile che rappresenta la domanda selezionata\\
 			\end{itemize}
 	\end{itemize}
 \end{itemize}
