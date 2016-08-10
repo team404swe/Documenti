@@ -291,63 +291,89 @@ La classe utilizza:
 \end{itemize}
 
 \subsection{View::Templates}
-\subsubsection{View::Templates::QuestionList}
+
+
+
+
+
+
+
+dove ho scritto relazione con parser in realtà non dovrebbe essere interpreter?
+
+reinserire attributi??
+
+
+
+
+\subsubsection{View::Templates::QuestionListController}
 \begin{itemize}
 \item\textbf{Funzione del componente:} visualizza una lista di domande
 				\item\textbf{Relazioni d'uso con altre componenti:} \\
-La classe utilizza:
+La classe si relaziona con:
 	\begin{itemize}
 		\item View::Templates::Question
+		\item View::Pages::QuestionList
+		\item Model::Publishers::QuestionPublishers
+		\item Model::Parser::Parser	
 	\end{itemize}
-\item\textbf{Attributi}:
+\item\textbf{Funzionalità}:
 \begin{itemize}
-		\item\code{+ controller: String}: variabile contenente il nome del controller del template;\\
-		\item\code{+ \$scope: \$scope}: oggetto scope interno del template, contiene le funzionalità per gestire i dati presenti all’interno;\\
-		\item\code{+ templateUrl: String}: stringa contenente il percorso del file HTML che contiene il template\\
+		\item\code{+ getQuestionDetails(QMLtext)}: restituisce la domanda corrente se essa è valida;\\
+		\item\code{+ deleteQuestion(questionID)}: richiede la rimozione dal database di una domanda;\\
+		\item\code{+ openAlertQuestion(questionID)}: ;\\
 	\end{itemize}
 \end{itemize}
 
-\subsubsection{View::Templates::Question}
+\subsubsection{View::Templates::QuestionController}
 \begin{itemize}
-\item\textbf{Funzione del componente:} visualizza una domanda inserita in una lista
+\item\textbf{Funzione del componente:} permette la visualizzazione di una singola domanda
 				\item\textbf{Relazioni d'uso con altre componenti:} 
-La classe è utilizzata da:
+La classe è in relazione con:
 \begin{itemize}
-		\item View::Templates::QuestionList
+		\item View::Pages::Question
+		\item View::Templates::QuestionListController
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
 		\item\code{+ controller: String}: variabile contenente il nome del controller del template;\\
 		\item\code{+ \$scope: \$scope}: oggetto scope interno del template, contiene le funzionalità per gestire i dati presenti all’interno;\\
 		\item\code{+ templateUrl: String}: stringa contenente il percorso del file HTML che contiene il template\\
-		\item\code{+ category: String}: stringa contenente la categoria della domanda
-		\item\code{+ type: String}: stringa contenente il tipo della domanda
 	\end{itemize}
 \end{itemize}
 
-\subsubsection{View::Templates::QuizList}
+\subsubsection{View::Templates::QuizListController}
 \begin{itemize}
-\item\textbf{Funzione del componente:} visualizza una lista di quiz
+\item\textbf{Funzione del componente:} permette visualizzazione e interazione di una lista di questionari
 				\item\textbf{Relazioni d'uso con altre componenti:}\\
 La classe utilizza:
 	\begin{itemize}
 		\item View::Templates::Quiz
+		\item Model::Publishers::QuizPublishers
+		\item Model::Publishers::QuestionPublishers
+		\item Model::Parser::Parser
 	\end{itemize}
-\item\textbf{Attributi}:
+\item\textbf{Funzionalità}:
 	\begin{itemize}
-		\item\code{+ controller: String}: variabile contenente il nome del controller del template;\\
-		\item\code{+ \$scope: \$scope}: oggetto scope interno del template, contiene le funzionalità per gestire i dati presenti all’interno;\\
-		\item\code{+ templateUrl: String}: stringa contenente il percorso del file HTML che contiene il template\\
+		\item\code{+ helpers.quizzes()}: restituisce i questionari della categoria ricercata;\\
+		\item\code{+ helpers.questions()}: restituisce le domande contenute nel questionario selezionato;\\
+		\item\code{+ helpers.inputCategories()}: recupera tutte le categorie dei quiz per popolare la select senza inserire duplicati;\\
+		\item\code{+ getAuthor(quizOwnerID)}: restituisce l'autore del quiz selezionato\\
+		\item\code{+ isOwner(ownerID)}: restituisce un esito positivo se il creatore del quiz è l'utente attualmente loggato\\
+		\item\code{+ setQuiz(qID}:\\
+		\item\code{+ deleteQuiz(quiz)}: permette l'eliminazione del quiz scelto\\
+		\item\code{+ openAlertQuiz(quizID)}:\\
+		\item\code{+}:\\
 	\end{itemize}
 \end{itemize}
 
-\subsubsection{View::Templates::Quiz}
+\subsubsection{View::Templates::QuizController}
 \begin{itemize}
 \item\textbf{Funzione del componente:} visualizza un quiz inserito in una lista
 				\item\textbf{Relazioni d'uso con altre componenti:}\\
  La classe è utilizzata da:
  	\begin{itemize}
  		\item View::Templates::QuizList
+ 		\item View::Templates::QuestionListController
  	\end{itemize}
  \item\textbf{Attributi}:
  	\begin{itemize}
@@ -361,7 +387,7 @@ La classe utilizza:
  
  \subsubsection{View::Templates::QuestionForm}
  \begin{itemize}
- \item\textbf{Funzione del componente:} visualizza il form per i dati di una domanda. Utilizzabile sia per la creazione che per la modifica della domanda (se viene modificata una domanda già esistente nei campi vengono inseriti i valori attuali)
+ \item\textbf{Funzione del componente:} visualizza il form utilizzabile sia per la creazione che per la modifica di una domanda
  \item\textbf{Attributi}:
  	\begin{itemize}
  		\item\code{+ controller: String}: variabile contenente il nome del controller del template;\\
@@ -370,16 +396,33 @@ La classe utilizza:
 		\item\code{+ category: String}: stringa contenente la categoria della domanda
 		\item\code{+ text: String}: stringa contenente il testo della domanda
  	\end{itemize}
+ 	\item\textbf{Metodi}:
+ 	\begin{itemize}
+ 		\item\code{+ check(QMLtext)}: si occupa della verifica della correttezza del testo QML inserito dall'utente;\\
+ 		\item\code{+ saveQuestion(QMLtext, category)}: salva le modifiche effettuate su una domanda;\\
+ 	\end{itemize}
  \end{itemize}
  
  \subsubsection{View::Templates::QuizCreationForm}
  \begin{itemize}
  \item\textbf{Funzione del componente:} visualizza il form di creazione di un questionario
+ \item\textbf{Relazione d'uso con altri componenti}:
+ \begin{itemize}
+ 	\item View::Pages::QuizCreationPage
+ 	\item Model::Publishers::QuestionPublishers
+ \end{itemize}
  \item\textbf{Attributi}:
  	\begin{itemize}
  		\item\code{+ controller: String}: variabile contenente il nome del controller del template;\\
 		\item\code{+ \$scope: \$scope}: oggetto scope interno del template, contiene le funzionalità per gestire i dati presenti all’interno;\\
 		\item\code{+ templateUrl: String}: stringa contenente il percorso del file HTML che contiene il template\\
+ 	\end{itemize}
+ 	\item\textbf{Metodi};
+ 	\begin{itemize}
+ 		\item\code{+ toggleSelection(questionID)}: si occupa di gestire la selezione della domanda da inserire nel questionario attualmente in fase di creazione;\\
+ 		\item\code{+ savequiz(title,questions,categories,description,time)}:
+ 		gestisce il salvataggio del questionario;\\
+ 		\item\code{+ getQuestionDetails(QMLtext)}: fornisce informazioni su una specifica domanda candidata all'inserimento nel questionario;\\
  	\end{itemize}
  \end{itemize}
  
