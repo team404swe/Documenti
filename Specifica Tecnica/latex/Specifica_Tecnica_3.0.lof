@@ -3,21 +3,21 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces Il design pattern Model View ViewModel\relax }}{4}{figure.caption.2}
 \contentsline {figure}{\numberline {2}{\ignorespaces Package della componente Model\relax }}{12}{figure.caption.3}
 \contentsline {figure}{\numberline {3}{\ignorespaces Package della componente View\relax }}{13}{figure.caption.4}
-\contentsline {figure}{\numberline {4}{\ignorespaces Diagramma delle classi del package Controllers\relax }}{24}{figure.caption.5}
-\contentsline {figure}{\numberline {5}{\ignorespaces Diagramma delle classi del package Subscribers\relax }}{26}{figure.caption.6}
-\contentsline {figure}{\numberline {6}{\ignorespaces Diagramma delle classi del package Methods\relax }}{27}{figure.caption.7}
-\contentsline {figure}{\numberline {7}{\ignorespaces Diagramma delle classi del package Interpreter\relax }}{29}{figure.caption.8}
-\contentsline {figure}{\numberline {8}{\ignorespaces Diagramma del package Router\relax }}{30}{figure.caption.9}
-\contentsline {figure}{\numberline {9}{\ignorespaces Diagramma di attivit\IeC {\`a} che descrive la creazione di un questionario\relax }}{31}{figure.caption.10}
-\contentsline {figure}{\numberline {10}{\ignorespaces Diagramma di attivit\IeC {\`a} sulla creazione di una domanda\relax }}{32}{figure.caption.11}
-\contentsline {figure}{\numberline {11}{\ignorespaces Diagramma di attivit\IeC {\`a} sulla compilazione di un questionario\relax }}{33}{figure.caption.12}
-\contentsline {figure}{\numberline {12}{\ignorespaces Diagramma di attivit\IeC {\`a} sulla scelta di un questionario\relax }}{34}{figure.caption.13}
-\contentsline {figure}{\numberline {13}{\ignorespaces Diagramma di sequenza del salvataggio di una domanda\relax }}{35}{figure.caption.14}
-\contentsline {figure}{\numberline {14}{\ignorespaces Diagramma di sequenza sulla visualizzazione e scelta di un questionario\relax }}{36}{figure.caption.15}
-\contentsline {figure}{\numberline {15}{\ignorespaces Diagramma di sequenza sul caricamento di un questionario\relax }}{37}{figure.caption.16}
-\contentsline {figure}{\numberline {16}{\ignorespaces Diagramma di sequenza sulla traduzione di una domanda QML\relax }}{38}{figure.caption.17}
-\contentsline {figure}{\numberline {17}{\ignorespaces Diagramma di sequenza sullo svolgimento di un questionario\relax }}{39}{figure.caption.18}
-\contentsline {figure}{\numberline {18}{\ignorespaces Design Pattern Abstract Factory\relax }}{40}{figure.caption.19}
-\contentsline {figure}{\numberline {19}{\ignorespaces Abstract Factory in Interpreter\relax }}{41}{figure.caption.20}
-\contentsline {figure}{\numberline {20}{\ignorespaces Design Pattern Publish-Subscribe\relax }}{41}{figure.caption.21}
-\contentsline {figure}{\numberline {21}{\ignorespaces Publish-Subscribe in Quizzipedia\relax }}{42}{figure.caption.22}
+\contentsline {figure}{\numberline {4}{\ignorespaces Diagramma delle classi del package Controllers\relax }}{22}{figure.caption.5}
+\contentsline {figure}{\numberline {5}{\ignorespaces Diagramma delle classi del package Subscribers\relax }}{24}{figure.caption.6}
+\contentsline {figure}{\numberline {6}{\ignorespaces Diagramma delle classi del package Methods\relax }}{25}{figure.caption.7}
+\contentsline {figure}{\numberline {7}{\ignorespaces Diagramma delle classi del package Interpreter\relax }}{27}{figure.caption.8}
+\contentsline {figure}{\numberline {8}{\ignorespaces Diagramma del package Router\relax }}{28}{figure.caption.9}
+\contentsline {figure}{\numberline {9}{\ignorespaces Diagramma di attivit\IeC {\`a} che descrive la creazione di un questionario\relax }}{29}{figure.caption.10}
+\contentsline {figure}{\numberline {10}{\ignorespaces Diagramma di attivit\IeC {\`a} sulla creazione di una domanda\relax }}{30}{figure.caption.11}
+\contentsline {figure}{\numberline {11}{\ignorespaces Diagramma di attivit\IeC {\`a} sulla compilazione di un questionario\relax }}{31}{figure.caption.12}
+\contentsline {figure}{\numberline {12}{\ignorespaces Diagramma di attivit\IeC {\`a} sulla scelta di un questionario\relax }}{32}{figure.caption.13}
+\contentsline {figure}{\numberline {13}{\ignorespaces Diagramma di sequenza del salvataggio di una domanda\relax }}{33}{figure.caption.14}
+\contentsline {figure}{\numberline {14}{\ignorespaces Diagramma di sequenza sulla visualizzazione e scelta di un questionario\relax }}{34}{figure.caption.15}
+\contentsline {figure}{\numberline {15}{\ignorespaces Diagramma di sequenza sul caricamento di un questionario\relax }}{35}{figure.caption.16}
+\contentsline {figure}{\numberline {16}{\ignorespaces Diagramma di sequenza sulla traduzione di una domanda QML\relax }}{36}{figure.caption.17}
+\contentsline {figure}{\numberline {17}{\ignorespaces Diagramma di sequenza sullo svolgimento di un questionario\relax }}{37}{figure.caption.18}
+\contentsline {figure}{\numberline {18}{\ignorespaces Design Pattern Abstract Factory\relax }}{38}{figure.caption.19}
+\contentsline {figure}{\numberline {19}{\ignorespaces Abstract Factory in Interpreter\relax }}{39}{figure.caption.20}
+\contentsline {figure}{\numberline {20}{\ignorespaces Design Pattern Publish-Subscribe\relax }}{39}{figure.caption.21}
+\contentsline {figure}{\numberline {21}{\ignorespaces Publish-Subscribe in Quizzipedia\relax }}{40}{figure.caption.22}

@@ -43,73 +43,64 @@
 \contentsline {subsubsubsection}{\numberline {7.1.4.2}Classe QuestionPublisher}{18}{subsubsubsection.7.1.4.2}
 \contentsline {section}{\numberline {8}Diagrammi delle classi del Client}{19}{section.8}
 \contentsline {subsection}{\numberline {8.1}Diagrammi delle classi della View}{19}{subsection.8.1}
-\contentsline {subsubsection}{\numberline {8.1.1}Package Pages}{19}{subsubsection.8.1.1}
-\contentsline {subsubsubsection}{\numberline {8.1.1.1}Interfaccia Page}{19}{subsubsubsection.8.1.1.1}
-\contentsline {subsubsubsection}{\numberline {8.1.1.2}Classe LoginPage}{19}{subsubsubsection.8.1.1.2}
-\contentsline {subsubsubsection}{\numberline {8.1.1.3}Classe RegistrationPage}{20}{subsubsubsection.8.1.1.3}
-\contentsline {subsubsubsection}{\numberline {8.1.1.4}Classe PasswordRecoveryPage}{20}{subsubsubsection.8.1.1.4}
-\contentsline {subsubsubsection}{\numberline {8.1.1.5}Classe CategoryListPage}{20}{subsubsubsection.8.1.1.5}
-\contentsline {subsubsubsection}{\numberline {8.1.1.6}Classe QuizListPage}{20}{subsubsubsection.8.1.1.6}
-\contentsline {subsubsubsection}{\numberline {8.1.1.7}Classe QuizExecutionPage}{20}{subsubsubsection.8.1.1.7}
-\contentsline {subsubsubsection}{\numberline {8.1.1.8}Classe QuizResultsPage}{21}{subsubsubsection.8.1.1.8}
-\contentsline {subsubsubsection}{\numberline {8.1.1.9}Classe QuestionManagmentPage}{21}{subsubsubsection.8.1.1.9}
-\contentsline {subsubsubsection}{\numberline {8.1.1.10}Classe QuestionCreationPage}{21}{subsubsubsection.8.1.1.10}
-\contentsline {subsubsubsection}{\numberline {8.1.1.11}Classe QuestionUpdatePage}{21}{subsubsubsection.8.1.1.11}
-\contentsline {subsubsubsection}{\numberline {8.1.1.12}Classe QuizCreationPage}{21}{subsubsubsection.8.1.1.12}
-\contentsline {subsubsection}{\numberline {8.1.2}Package Templates}{22}{subsubsection.8.1.2}
-\contentsline {subsubsubsection}{\numberline {8.1.2.1}Classe QuestionList}{22}{subsubsubsection.8.1.2.1}
-\contentsline {subsubsubsection}{\numberline {8.1.2.2}Classe Question}{22}{subsubsubsection.8.1.2.2}
-\contentsline {subsubsubsection}{\numberline {8.1.2.3}Classe QuizList}{22}{subsubsubsection.8.1.2.3}
-\contentsline {subsubsubsection}{\numberline {8.1.2.4}Classe Quiz}{22}{subsubsubsection.8.1.2.4}
-\contentsline {subsubsubsection}{\numberline {8.1.2.5}Classe QuestionCompilation}{23}{subsubsubsection.8.1.2.5}
-\contentsline {subsubsubsection}{\numberline {8.1.2.6}Classe QuestionForm}{23}{subsubsubsection.8.1.2.6}
-\contentsline {subsubsubsection}{\numberline {8.1.2.7}Classe QuizCreation}{23}{subsubsubsection.8.1.2.7}
-\contentsline {subsubsubsection}{\numberline {8.1.2.8}Classe QuizResults}{23}{subsubsubsection.8.1.2.8}
-\contentsline {subsubsubsection}{\numberline {8.1.2.9}Classe SearchForm}{23}{subsubsubsection.8.1.2.9}
-\contentsline {subsubsubsection}{\numberline {8.1.2.10}Classe RegistrationForm}{23}{subsubsubsection.8.1.2.10}
-\contentsline {subsubsubsection}{\numberline {8.1.2.11}Classe LoginForm}{23}{subsubsubsection.8.1.2.11}
-\contentsline {subsubsubsection}{\numberline {8.1.2.12}Classe PasswordRecoveryForm}{23}{subsubsubsection.8.1.2.12}
-\contentsline {subsection}{\numberline {8.2}Diagrammi delle classi del ViewModel}{24}{subsection.8.2}
-\contentsline {subsubsection}{\numberline {8.2.1}Package Controllers}{24}{subsubsection.8.2.1}
-\contentsline {subsubsubsection}{\numberline {8.2.1.1}Classe NewQuestionController}{24}{subsubsubsection.8.2.1.1}
-\contentsline {subsubsubsection}{\numberline {8.2.1.2}Classe NewQuizController}{24}{subsubsubsection.8.2.1.2}
-\contentsline {subsubsubsection}{\numberline {8.2.1.3}Classe QuizListController}{24}{subsubsubsection.8.2.1.3}
-\contentsline {subsubsubsection}{\numberline {8.2.1.4}Classe QuizDetailsController}{25}{subsubsubsection.8.2.1.4}
-\contentsline {subsubsubsection}{\numberline {8.2.1.5}Classe DeleteQuestionController}{25}{subsubsubsection.8.2.1.5}
-\contentsline {subsubsubsection}{\numberline {8.2.1.6}Classe DeleteQuizController}{25}{subsubsubsection.8.2.1.6}
-\contentsline {subsubsubsection}{\numberline {8.2.1.7}Classe QuizManagementController}{25}{subsubsubsection.8.2.1.7}
-\contentsline {subsubsubsection}{\numberline {8.2.1.8}Classe QuestionsManagementController}{26}{subsubsubsection.8.2.1.8}
-\contentsline {subsubsubsection}{\numberline {8.2.1.9}Classe QMLEditorController}{26}{subsubsubsection.8.2.1.9}
-\contentsline {subsubsection}{\numberline {8.2.2}Package Subscribers}{26}{subsubsection.8.2.2}
-\contentsline {subsubsubsection}{\numberline {8.2.2.1}Classe QuestionsSubscriber}{26}{subsubsubsection.8.2.2.1}
-\contentsline {subsubsubsection}{\numberline {8.2.2.2}Classe QuizSubscriber}{27}{subsubsubsection.8.2.2.2}
-\contentsline {subsubsubsection}{\numberline {8.2.2.3}Classe UsersSubscriber}{27}{subsubsubsection.8.2.2.3}
-\contentsline {subsubsection}{\numberline {8.2.3}Package Methods}{27}{subsubsection.8.2.3}
-\contentsline {subsubsubsection}{\numberline {8.2.3.1}Classe QuestionMethods}{27}{subsubsubsection.8.2.3.1}
-\contentsline {subsubsubsection}{\numberline {8.2.3.2}Classe QuizMethods}{28}{subsubsubsection.8.2.3.2}
-\contentsline {subsubsubsection}{\numberline {8.2.3.3}Classe UserMethods}{28}{subsubsubsection.8.2.3.3}
-\contentsline {subsubsection}{\numberline {8.2.4}Package Interpreter}{29}{subsubsection.8.2.4}
-\contentsline {subsubsubsection}{\numberline {8.2.4.1}Interfaccia Interpreter}{29}{subsubsubsection.8.2.4.1}
-\contentsline {subsubsubsection}{\numberline {8.2.4.2}Interfaccia InterpreterFactory}{29}{subsubsubsection.8.2.4.2}
-\contentsline {subsubsubsection}{\numberline {8.2.4.3}Classe QMLInterpreterFactory}{29}{subsubsubsection.8.2.4.3}
-\contentsline {subsubsubsection}{\numberline {8.2.4.4}Classe QMLInterpreter}{30}{subsubsubsection.8.2.4.4}
-\contentsline {subsubsubsection}{\numberline {8.2.4.5}Classe QML2HTMLInterpreter}{30}{subsubsubsection.8.2.4.5}
-\contentsline {subsubsection}{\numberline {8.2.5}Package Router}{30}{subsubsection.8.2.5}
-\contentsline {subsubsubsection}{\numberline {8.2.5.1}Classe Router}{30}{subsubsubsection.8.2.5.1}
-\contentsline {section}{\numberline {9}Diagrammi di attivit\IeC {\`a}}{31}{section.9}
-\contentsline {subsection}{\numberline {9.1}Creazione Questionario}{31}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Creazione Domanda}{32}{subsection.9.2}
-\contentsline {subsection}{\numberline {9.3}Compilazione Questionario}{33}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}Scelta Questionario}{34}{subsection.9.4}
-\contentsline {section}{\numberline {10}Diagrammi di sequenza}{35}{section.10}
-\contentsline {subsection}{\numberline {10.1}Salvataggio di una Domanda}{35}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}Visualizzazione e scelta di un Questionario}{36}{subsection.10.2}
-\contentsline {subsection}{\numberline {10.3}Caricamento di un Questionario}{37}{subsection.10.3}
-\contentsline {subsection}{\numberline {10.4}Traduzione di una domanda}{38}{subsection.10.4}
-\contentsline {subsection}{\numberline {10.5}Svolgimento di un Questionario}{39}{subsection.10.5}
-\contentsline {section}{\numberline {11}Design pattern utilizzati}{40}{section.11}
-\contentsline {subsection}{\numberline {11.1}Abstract Factory}{40}{subsection.11.1}
-\contentsline {subsection}{\numberline {11.2}Publish - Subscribe}{41}{subsection.11.2}
-\contentsline {section}{\numberline {12}Tracciamento}{43}{section.12}
-\contentsline {subsection}{\numberline {12.1}Mappatura componenti-requisiti}{43}{subsection.12.1}
-\contentsline {subsection}{\numberline {12.2}Mappatura requisiti - componenti}{47}{subsection.12.2}
+\contentsline {subsubsection}{\numberline {8.1.1}Classe Quizzipedia}{19}{subsubsection.8.1.1}
+\contentsline {subsubsection}{\numberline {8.1.2}Package Templates}{20}{subsubsection.8.1.2}
+\contentsline {subsubsubsection}{\numberline {8.1.2.1}Classe QuestionList}{20}{subsubsubsection.8.1.2.1}
+\contentsline {subsubsubsection}{\numberline {8.1.2.2}Classe Question}{20}{subsubsubsection.8.1.2.2}
+\contentsline {subsubsubsection}{\numberline {8.1.2.3}Classe QuizList}{20}{subsubsubsection.8.1.2.3}
+\contentsline {subsubsubsection}{\numberline {8.1.2.4}Classe Quiz}{20}{subsubsubsection.8.1.2.4}
+\contentsline {subsubsubsection}{\numberline {8.1.2.5}Classe QuestionCompilation}{21}{subsubsubsection.8.1.2.5}
+\contentsline {subsubsubsection}{\numberline {8.1.2.6}Classe QuestionForm}{21}{subsubsubsection.8.1.2.6}
+\contentsline {subsubsubsection}{\numberline {8.1.2.7}Classe QuizCreation}{21}{subsubsubsection.8.1.2.7}
+\contentsline {subsubsubsection}{\numberline {8.1.2.8}Classe QuizResults}{21}{subsubsubsection.8.1.2.8}
+\contentsline {subsubsubsection}{\numberline {8.1.2.9}Classe LoginForm}{21}{subsubsubsection.8.1.2.9}
+\contentsline {subsubsubsection}{\numberline {8.1.2.10}Classe QuizResult}{21}{subsubsubsection.8.1.2.10}
+\contentsline {subsubsubsection}{\numberline {8.1.2.11}Classe QuizHome}{21}{subsubsubsection.8.1.2.11}
+\contentsline {subsubsubsection}{\numberline {8.1.2.12}Classe QuizStatistics}{21}{subsubsubsection.8.1.2.12}
+\contentsline {subsubsubsection}{\numberline {8.1.2.13}Classe SearchForm}{21}{subsubsubsection.8.1.2.13}
+\contentsline {subsubsubsection}{\numberline {8.1.2.14}Classe Topbar}{21}{subsubsubsection.8.1.2.14}
+\contentsline {subsubsubsection}{\numberline {8.1.2.15}Classe UserProfile}{21}{subsubsubsection.8.1.2.15}
+\contentsline {subsection}{\numberline {8.2}Diagrammi delle classi del ViewModel}{22}{subsection.8.2}
+\contentsline {subsubsection}{\numberline {8.2.1}Package Controllers}{22}{subsubsection.8.2.1}
+\contentsline {subsubsubsection}{\numberline {8.2.1.1}Classe NewQuestionController}{22}{subsubsubsection.8.2.1.1}
+\contentsline {subsubsubsection}{\numberline {8.2.1.2}Classe NewQuizController}{22}{subsubsubsection.8.2.1.2}
+\contentsline {subsubsubsection}{\numberline {8.2.1.3}Classe QuizListController}{22}{subsubsubsection.8.2.1.3}
+\contentsline {subsubsubsection}{\numberline {8.2.1.4}Classe QuizDetailsController}{23}{subsubsubsection.8.2.1.4}
+\contentsline {subsubsubsection}{\numberline {8.2.1.5}Classe DeleteQuestionController}{23}{subsubsubsection.8.2.1.5}
+\contentsline {subsubsubsection}{\numberline {8.2.1.6}Classe DeleteQuizController}{23}{subsubsubsection.8.2.1.6}
+\contentsline {subsubsubsection}{\numberline {8.2.1.7}Classe QuizManagementController}{23}{subsubsubsection.8.2.1.7}
+\contentsline {subsubsubsection}{\numberline {8.2.1.8}Classe QuestionsManagementController}{24}{subsubsubsection.8.2.1.8}
+\contentsline {subsubsubsection}{\numberline {8.2.1.9}Classe QMLEditorController}{24}{subsubsubsection.8.2.1.9}
+\contentsline {subsubsection}{\numberline {8.2.2}Package Subscribers}{24}{subsubsection.8.2.2}
+\contentsline {subsubsubsection}{\numberline {8.2.2.1}Classe QuestionsSubscriber}{24}{subsubsubsection.8.2.2.1}
+\contentsline {subsubsubsection}{\numberline {8.2.2.2}Classe QuizSubscriber}{25}{subsubsubsection.8.2.2.2}
+\contentsline {subsubsubsection}{\numberline {8.2.2.3}Classe UsersSubscriber}{25}{subsubsubsection.8.2.2.3}
+\contentsline {subsubsection}{\numberline {8.2.3}Package Methods}{25}{subsubsection.8.2.3}
+\contentsline {subsubsubsection}{\numberline {8.2.3.1}Classe QuestionMethods}{25}{subsubsubsection.8.2.3.1}
+\contentsline {subsubsubsection}{\numberline {8.2.3.2}Classe QuizMethods}{26}{subsubsubsection.8.2.3.2}
+\contentsline {subsubsubsection}{\numberline {8.2.3.3}Classe UserMethods}{26}{subsubsubsection.8.2.3.3}
+\contentsline {subsubsection}{\numberline {8.2.4}Package Interpreter}{27}{subsubsection.8.2.4}
+\contentsline {subsubsubsection}{\numberline {8.2.4.1}Interfaccia Interpreter}{27}{subsubsubsection.8.2.4.1}
+\contentsline {subsubsubsection}{\numberline {8.2.4.2}Interfaccia InterpreterFactory}{27}{subsubsubsection.8.2.4.2}
+\contentsline {subsubsubsection}{\numberline {8.2.4.3}Classe QMLInterpreterFactory}{27}{subsubsubsection.8.2.4.3}
+\contentsline {subsubsubsection}{\numberline {8.2.4.4}Classe QMLInterpreter}{28}{subsubsubsection.8.2.4.4}
+\contentsline {subsubsubsection}{\numberline {8.2.4.5}Classe QML2HTMLInterpreter}{28}{subsubsubsection.8.2.4.5}
+\contentsline {subsubsection}{\numberline {8.2.5}Package Router}{28}{subsubsection.8.2.5}
+\contentsline {subsubsubsection}{\numberline {8.2.5.1}Classe Router}{28}{subsubsubsection.8.2.5.1}
+\contentsline {section}{\numberline {9}Diagrammi di attivit\IeC {\`a}}{29}{section.9}
+\contentsline {subsection}{\numberline {9.1}Creazione Questionario}{29}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Creazione Domanda}{30}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Compilazione Questionario}{31}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}Scelta Questionario}{32}{subsection.9.4}
+\contentsline {section}{\numberline {10}Diagrammi di sequenza}{33}{section.10}
+\contentsline {subsection}{\numberline {10.1}Salvataggio di una Domanda}{33}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Visualizzazione e scelta di un Questionario}{34}{subsection.10.2}
+\contentsline {subsection}{\numberline {10.3}Caricamento di un Questionario}{35}{subsection.10.3}
+\contentsline {subsection}{\numberline {10.4}Traduzione di una domanda}{36}{subsection.10.4}
+\contentsline {subsection}{\numberline {10.5}Svolgimento di un Questionario}{37}{subsection.10.5}
+\contentsline {section}{\numberline {11}Design pattern utilizzati}{38}{section.11}
+\contentsline {subsection}{\numberline {11.1}Abstract Factory}{38}{subsection.11.1}
+\contentsline {subsection}{\numberline {11.2}Publish - Subscribe}{39}{subsection.11.2}
+\contentsline {section}{\numberline {12}Tracciamento}{41}{section.12}
+\contentsline {subsection}{\numberline {12.1}Mappatura componenti-requisiti}{41}{subsection.12.1}
+\contentsline {subsection}{\numberline {12.2}Mappatura requisiti - componenti}{45}{subsection.12.2}

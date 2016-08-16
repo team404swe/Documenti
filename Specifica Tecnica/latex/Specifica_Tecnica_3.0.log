@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.20)  23 JUL 2016 17:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.20)  16 AUG 2016 23:30
 entering extended mode
 **specifica_tecnica_3.0.tex
 (specifica_tecnica_3.0.tex
@@ -899,7 +899,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 12.
-<../team_not_found.jpg, id=455, 382.42876pt x 153.57375pt>
+<../team_not_found.jpg, id=419, 382.42876pt x 153.57375pt>
 File: ../team_not_found.jpg Graphic file (type jpg)
 
 <use ../team_not_found.jpg>
@@ -937,23 +937,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--44
  []
 
 
-Underfull \hbox (badness 7722) in paragraph at lines 45--45
+Underfull \hbox (badness 3679) in paragraph at lines 44--44
+[]|\T1/fca/m/n/9 Riadattate clas-si del pac-ka-ge View (ü8.1, ü8.1.1,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]|\T1/fca/m/n/9 Davide Bor-tot
+ []
+
+
+Underfull \hbox (badness 7722) in paragraph at lines 46--46
 \T1/fca/m/n/9 du (Pro-gram-ma-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
 []|\T1/fca/m/n/9 Davide Bor-tot
  []
 
 
-Underfull \hbox (badness 2671) in paragraph at lines 49--49
+Underfull \hbox (badness 2671) in paragraph at lines 50--50
 []|\T1/fca/m/n/9 Marco Cri-vel-la-ro
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-[]|\T1/fca/m/n/9 Davide Bor-tot
  []
 
 
@@ -963,17 +968,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--51
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 52--52
-[]|\T1/fca/m/n/9 Luca Ales-sio
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
 []|\T1/fca/m/n/9 Davide Bor-tot
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
 []|\T1/fca/m/n/9 Luca Ales-sio
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+[]|\T1/fca/m/n/9 Davide Bor-tot
  []
 
 
@@ -983,22 +988,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--55
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 56--56
+[]|\T1/fca/m/n/9 Luca Ales-sio
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
 []|\T1/fca/m/n/9 Davide Bor-tot
  []
 
 
-Underfull \hbox (badness 6675) in paragraph at lines 57--57
+Underfull \hbox (badness 6675) in paragraph at lines 58--58
 []|\T1/fca/m/n/9 Definizione del-le sub-pac-ka-ge del Mo-del "Da-ta-ba-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
-[]|\T1/fca/m/n/9 Davide Bor-tot
- []
-
-
-Underfull \hbox (badness 1173) in paragraph at lines 59--59
-[]|\T1/fca/m/n/9 Definizione del-le clas-si del View-Mo-del "Con-trol-lers"
  []
 
 
@@ -1007,13 +1007,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--60
  []
 
 
-Underfull \hbox (badness 3568) in paragraph at lines 60--60
-[]|\T1/fca/m/n/9 Prima de-fi-ni-zio-ne del-le clas-si del View-Mo-del, con
+Underfull \hbox (badness 1173) in paragraph at lines 60--60
+[]|\T1/fca/m/n/9 Definizione del-le clas-si del View-Mo-del "Con-trol-lers"
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 61--61
 []|\T1/fca/m/n/9 Davide Bor-tot
+ []
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 61--61
+[]|\T1/fca/m/n/9 Prima de-fi-ni-zio-ne del-le clas-si del View-Mo-del, con
  []
 
 
@@ -1031,35 +1036,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--63
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 63--63
-[]|\T1/fca/m/n/9 Riscritta la se-zio-ne "Ar-chi-tet-tu-ra ge-ne-ra-le del si-st
-e-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 64--64
 []|\T1/fca/m/n/9 Davide Bor-tot
  []
 
 
-Underfull \hbox (badness 3158) in paragraph at lines 64--64
-[]|\T1/fca/m/n/9 Ampliamento se-zio-ne "Ri-sor-se ne-ces-sa-rie" (ü4) con
+Underfull \hbox (badness 1448) in paragraph at lines 64--64
+[]|\T1/fca/m/n/9 Riscritta la se-zio-ne "Ar-chi-tet-tu-ra ge-ne-ra-le del si-st
+e-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 65--65
-[]|\T1/fca/m/n/9 Luca Ales-sio
+[]|\T1/fca/m/n/9 Davide Bor-tot
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 65--65
-[]|\T1/fca/m/n/9 Ampliamento se-zio-ne "Tec-no-lo-gie uti-liz-za-te" (ag-giun-t
-i
+Underfull \hbox (badness 3158) in paragraph at lines 65--65
+[]|\T1/fca/m/n/9 Ampliamento se-zio-ne "Ri-sor-se ne-ces-sa-rie" (ü4) con
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 66--66
-[]|\T1/fca/m/n/9 Davide Bor-tot
+[]|\T1/fca/m/n/9 Luca Ales-sio
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 66--66
+[]|\T1/fca/m/n/9 Ampliamento se-zio-ne "Tec-no-lo-gie uti-liz-za-te" (ag-giun-t
+i
  []
 
 
@@ -1068,33 +1073,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--67
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+[]|\T1/fca/m/n/9 Davide Bor-tot
+ []
+
+
+Underfull \hbox (badness 2245) in paragraph at lines 68--68
 []|\T1/fca/m/n/9 Correzione e con-te-stua-liz-za-zio-ne dei de-si-gn pat-tern
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 []|\T1/fca/m/n/9 Luca Ales-sio
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
-[]|\T1/fca/m/n/9 A. Mul-ti-ned-du
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 72--72
-[]|\T1/fca/m/n/9 Davide Bor-tot
+[]|\T1/fca/m/n/9 A. Mul-ti-ned-du
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 73--73
-[]|\T1/fca/m/n/9 Luca Ales-sio
+[]|\T1/fca/m/n/9 Davide Bor-tot
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 74--74
-[]|\T1/fca/m/n/9 Davide Bor-tot
+[]|\T1/fca/m/n/9 Luca Ales-sio
  []
 
 
@@ -1104,80 +1109,85 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--75
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[]|\T1/fca/m/n/9 Luca Ales-sio
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
 []|\T1/fca/m/n/9 Davide Bor-tot
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--79
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[]|\T1/fca/m/n/9 Luca Ales-sio
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 []|\T1/fca/m/n/9 Davide Bor-tot
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 80--80
-[]|\T1/fca/m/n/9 Luca Ales-sio
+[]|\T1/fca/m/n/9 Davide Bor-tot
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 81--81
+[]|\T1/fca/m/n/9 Luca Ales-sio
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
 []|\T1/fca/m/n/9 Davide Bor-tot
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 81--81
+Underfull \hbox (badness 1442) in paragraph at lines 82--82
 []|\T1/fca/m/n/9 Stesura se-zio-ne "Pac-ka-ge del-la com-po-nen-te Pre-sen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\T1/fca/m/n/9 Luca Ales-sio
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 84--84
-[]|\T1/fca/m/n/9 Davide Bor-tot
+[]|\T1/fca/m/n/9 Luca Ales-sio
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 85--85
-[]|\T1/fca/m/n/9 Luca Ales-sio
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
 []|\T1/fca/m/n/9 Davide Bor-tot
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
 []|\T1/fca/m/n/9 Luca Ales-sio
  []
 
 
-Underfull \hbox (badness 3679) in paragraph at lines 87--87
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+[]|\T1/fca/m/n/9 Davide Bor-tot
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[]|\T1/fca/m/n/9 Luca Ales-sio
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 88--88
 []|\T1/fca/m/n/9 Stesura par-zia-le se-zio-ne "Ar-chi-tet-tu-ra ge-ne-ra-le del
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
 []|\T1/fca/m/n/9 Davide Bor-tot
  []
 
 
-Underfull \hbox (badness 2671) in paragraph at lines 89--89
+Underfull \hbox (badness 2671) in paragraph at lines 90--90
 []|\T1/fca/m/n/9 Marco Cri-vel-la-ro
  []
 
-<../../team404_small.jpg, id=468, 382.42876pt x 153.57375pt>
+<../../team404_small.jpg, id=432, 382.42876pt x 153.57375pt>
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 90.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 91.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
 
 
@@ -1189,13 +1199,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [2 <../../team404_small.jpg>]
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 90.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 91.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [3]
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 92.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 93.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [4] (specifica_tecnica_3.0.toc
 File: ../../team404_small.jpg Graphic file (type jpg)
@@ -1206,14 +1216,14 @@ Package pdftex.def Info: ../../team404_small.jpg used on input line 45.
  [5]
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 94.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 93.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [6])
 \tf@toc=\write4
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 96.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 97.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [1] (specifica_tecnica_3.0.lof)
 \tf@lof=\write5
@@ -1222,66 +1232,66 @@ Package pdftex.def Info: ../../team404_small.jpg used on input line 96.
 \tf@lot=\write6
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 100.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 101.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [2]
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 108.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 109.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.108 	\newpage
+l.109 	\newpage
                 [1]
 LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <12> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 110.
+(Font)              Font shape `T1/fca/b/n' tried instead on input line 111.
 LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <8> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 115.
+(Font)              Font shape `T1/fca/b/n' tried instead on input line 116.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 115.
+(Font)              <5> on input line 116.
 LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <6> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 115.
+(Font)              Font shape `T1/fca/b/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `T1/fca/m/it' in size <10.95> not available
-(Font)              Font shape `T1/fca/m/sl' tried instead on input line 117.
-LaTeX Font Info:    Try loading font information for TS1+fca on input line 124.
+(Font)              Font shape `T1/fca/m/sl' tried instead on input line 118.
+LaTeX Font Info:    Try loading font information for TS1+fca on input line 125.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\cantarell\ts1fca.fd"
 File: ts1fca.fd 2012/06/11 Fontinst v1.933 font definitions for TS1/fca.
 )
-Overfull \hbox (4.93379pt too wide) in paragraph at lines 132--135
+Overfull \hbox (4.93379pt too wide) in paragraph at lines 133--136
 [][]$\T1/cmtt/m/n/10.95 http : / / www . math . unipd . it / ~tullio / IS-[]1 /
  2015 / Dispense / PD01 . pdf$[][] [][]$http : / / www . math .$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--135
+Underfull \hbox (badness 10000) in paragraph at lines 133--136
 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 141.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 142.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.141 			\item N
+l.142 			\item N
                 odeJs:\\ [2]
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 153.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 154.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.153 	\newpage
+l.154 	\newpage
                 [3] (sezioni/specifiche.tex
-<../images/mvvm.png, id=692, 580.41844pt x 174.6525pt>
+<../images/mvvm.png, id=647, 580.41844pt x 174.6525pt>
 File: ../images/mvvm.png Graphic file (type png)
 
 <use ../images/mvvm.png>
@@ -1363,7 +1373,7 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../../team404_small.jpg used on input line 50.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [11]) (sezioni/packageModel.tex
-<../images/ModelPackage.jpg, id=735, 1051.93pt x 449.68pt>
+<../images/ModelPackage.jpg, id=690, 1051.93pt x 449.68pt>
 File: ../images/ModelPackage.jpg Graphic file (type jpg)
 
 <use ../images/ModelPackage.jpg>
@@ -1379,7 +1389,7 @@ File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 1.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [12 <../images/ModelPackage.jpg>] <../images/ViewPackage.png, id=741, 395.4775
+ [12 <../images/ModelPackage.jpg>] <../images/ViewPackage.png, id=696, 395.4775
 pt x 339.2675pt>
 File: ../images/ViewPackage.png Graphic file (type png)
 
@@ -1402,7 +1412,7 @@ Package pdftex.def Info: ../../team404_small.jpg used on input line 14.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [13 <../images/ViewPackage.png>])
 (sezioni/packageViewModel.tex
-<../images/ViewModelPackage.png, id=748, 740.7675pt x 283.0575pt>
+<../images/ViewModelPackage.png, id=703, 740.7675pt x 283.0575pt>
 File: ../images/ViewModelPackage.png Graphic file (type png)
 
 <use ../images/ViewModelPackage.png>
@@ -1424,7 +1434,7 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../../team404_small.jpg used on input line 56.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [15]) (sezioni/classiModel.tex
-<../images/Database.jpg, id=760, 955.57pt x 497.86pt>
+<../images/Database.jpg, id=715, 955.57pt x 497.86pt>
 File: ../images/Database.jpg Graphic file (type jpg)
 
 <use ../images/Database.jpg>
@@ -1435,7 +1445,7 @@ Overfull \hbox (22.53972pt too wide) in paragraph at lines 4--5
  [] 
  []
 
-<../images/Parser.jpg, id=761, 345.54094pt x 82.05656pt>
+<../images/Parser.jpg, id=716, 345.54094pt x 82.05656pt>
 File: ../images/Parser.jpg Graphic file (type jpg)
 
 <use ../images/Parser.jpg>
@@ -1446,14 +1456,14 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../../team404_small.jpg used on input line 24.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [16 <../images/Database.jpg> <../images/Parser.jpg>]
-<../images/Statistics.jpg, id=767, 955.57pt x 248.93pt>
+<../images/Statistics.jpg, id=722, 955.57pt x 248.93pt>
 File: ../images/Statistics.jpg Graphic file (type jpg)
 
 <use ../images/Statistics.jpg>
 Package pdftex.def Info: ../images/Statistics.jpg used on input line 29.
 (pdftex.def)             Requested size: 382.22122pt x 99.57022pt.
 
-<../images/Publishers.jpg, id=768, 379.4175pt x 180.675pt>
+<../images/Publishers.jpg, id=723, 379.4175pt x 180.675pt>
 File: ../images/Publishers.jpg Graphic file (type jpg)
 
 <use ../images/Publishers.jpg>
@@ -1470,50 +1480,40 @@ Package pdftex.def Info: ../../team404_small.jpg used on input line 54.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [18])
 (sezioni/classiView.tex
-<../images/Pages.png, id=780, 759.83875pt x 557.08125pt>
-File: ../images/Pages.png Graphic file (type png)
+<../images/Quizzipedia.png, id=735, 612.2875pt x 275.0275pt>
+File: ../images/Quizzipedia.png Graphic file (type png)
 
-<use ../images/Pages.png>
-Package pdftex.def Info: ../images/Pages.png used on input line 5.
-(pdftex.def)             Requested size: 455.90675pt x 334.25133pt.
+<use ../images/Quizzipedia.png>
+Package pdftex.def Info: ../images/Quizzipedia.png used on input line 4.
+(pdftex.def)             Requested size: 367.37534pt x 165.01776pt.
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 17.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 10.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [19 <../images/Pages.png>]
-File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 52.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [20]
-<../images/Templates.png, id=792, 837.1275pt x 564.1075pt>
+ [19 <../images/Quizzipedia.png>] <../images/Templates.png, id=742, 853.1875pt 
+x 556.0775pt>
 File: ../images/Templates.png Graphic file (type png)
 
 <use ../images/Templates.png>
-Package pdftex.def Info: ../images/Templates.png used on input line 82.
-(pdftex.def)             Requested size: 502.28038pt x 338.4671pt.
+Package pdftex.def Info: ../images/Templates.png used on input line 14.
+(pdftex.def)             Requested size: 511.91646pt x 333.64908pt.
 
-Overfull \hbox (47.03627pt too wide) in paragraph at lines 82--83
+Overfull \hbox (56.67235pt too wide) in paragraph at lines 14--15
  [] 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 83.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 39.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [21]
+ [20 <../images/Templates.png>]
 File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 107.
+
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 82.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [22 <../images/Templates.png>]
-File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 137.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [23])
-(sezioni/classiViewModel.tex
-<../images/ControllersClass.png, id=810, 788.9475pt x 355.3275pt>
+ [21]) (sezioni/classiViewModel.tex
+<../images/ControllersClass.png, id=754, 788.9475pt x 355.3275pt>
 File: ../images/ControllersClass.png Graphic file (type png)
 
 <use ../images/ControllersClass.png>
@@ -1528,14 +1528,14 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 31.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [24 <../images/ControllersClass.png>]
+ [22 <../images/ControllersClass.png>]
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 70.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [25]
-<../images/SubscribersClass.png, id=822, 355.3275pt x 242.9075pt>
+ [23]
+<../images/SubscribersClass.png, id=767, 355.3275pt x 242.9075pt>
 File: ../images/SubscribersClass.png Graphic file (type png)
 
 <use ../images/SubscribersClass.png>
@@ -1545,8 +1545,8 @@ File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 102.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [26 <../images/SubscribersClass.png>]
-<../images/MethodsClass.png, id=829, 347.2975pt x 234.8775pt>
+ [24 <../images/SubscribersClass.png>]
+<../images/MethodsClass.png, id=774, 347.2975pt x 234.8775pt>
 File: ../images/MethodsClass.png Graphic file (type png)
 
 <use ../images/MethodsClass.png>
@@ -1556,13 +1556,13 @@ File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 132.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [27 <../images/MethodsClass.png>]
+ [25 <../images/MethodsClass.png>]
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 142.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [28]
-<../images/InterpreterClass.png, id=841, 548.0475pt x 379.4175pt>
+ [26]
+<../images/InterpreterClass.png, id=786, 548.0475pt x 379.4175pt>
 File: ../images/InterpreterClass.png Graphic file (type png)
 
 <use ../images/InterpreterClass.png>
@@ -1573,8 +1573,8 @@ File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 172.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [29 <../images/InterpreterClass.png>]
-<../images/Router.png, id=849, 427.5975pt x 178.6675pt>
+ [27 <../images/InterpreterClass.png>]
+<../images/Router.png, id=793, 427.5975pt x 178.6675pt>
 File: ../images/Router.png Graphic file (type png)
 
 <use ../images/Router.png>
@@ -1584,8 +1584,8 @@ File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 197.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [30 <../images/Router.png>]) (sezioni/attivit√†.tex
-<"../images/diagramma 1".png, id=856, 6524.375pt x 2204.235pt>
+ [28 <../images/Router.png>]) (sezioni/attivit√†.tex
+<"../images/diagramma 1".png, id=800, 6524.375pt x 2204.235pt>
 File: "../images/diagramma 1".png Graphic file (type png)
 
 <use "../images/diagramma 1".png>
@@ -1595,8 +1595,8 @@ File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 14.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [31 <../images/diagramma 1.png>]
-<"../images/diagramma 2".png, id=863, 4707.5875pt x 2573.615pt>
+ [29 <../images/diagramma 1.png>]
+<"../images/diagramma 2".png, id=808, 4707.5875pt x 2573.615pt>
 File: "../images/diagramma 2".png Graphic file (type png)
 
 <use "../images/diagramma 2".png>
@@ -1606,8 +1606,8 @@ File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 27.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [32 <../images/diagramma 2.png>]
-<"../images/diagramma 3".png, id=870, 1936.98656pt x 2538.48375pt>
+ [30 <../images/diagramma 2.png>]
+<"../images/diagramma 3".png, id=815, 1936.98656pt x 2538.48375pt>
 File: "../images/diagramma 3".png Graphic file (type png)
 
 <use "../images/diagramma 3".png>
@@ -1617,8 +1617,8 @@ File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 41.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [33 <../images/diagramma 3.png>]
-<"../images/diagramma 4".png, id=877, 3230.31844pt x 2035.605pt>
+ [31 <../images/diagramma 3.png>]
+<"../images/diagramma 4".png, id=822, 3230.31844pt x 2035.605pt>
 File: "../images/diagramma 4".png Graphic file (type png)
 
 <use "../images/diagramma 4".png>
@@ -1628,8 +1628,8 @@ File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 54.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [34 <../images/diagramma 4.png>]) (sezioni/sequenza.tex
-<../images/QuestionCreation.png, id=884, 1008.76875pt x 612.2875pt>
+ [32 <../images/diagramma 4.png>]) (sezioni/sequenza.tex
+<../images/QuestionCreation.png, id=829, 1008.76875pt x 612.2875pt>
 File: ../images/QuestionCreation.png Graphic file (type png)
 
 <use ../images/QuestionCreation.png>
@@ -1659,8 +1659,8 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 12.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [35 <../images/QuestionCreation.png>]
-<../images/ChooseViewQuiz.png, id=892, 724.7075pt x 531.9875pt>
+ [33 <../images/QuestionCreation.png>]
+<../images/ChooseViewQuiz.png, id=836, 724.7075pt x 531.9875pt>
 File: ../images/ChooseViewQuiz.png Graphic file (type png)
 
 <use ../images/ChooseViewQuiz.png>
@@ -1680,8 +1680,8 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 29.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [36 <../images/ChooseViewQuiz.png>]
-<../images/LoadQuiz.png, id=899, 612.2875pt x 307.1475pt>
+ [34 <../images/ChooseViewQuiz.png>]
+<../images/LoadQuiz.png, id=843, 612.2875pt x 307.1475pt>
 File: ../images/LoadQuiz.png Graphic file (type png)
 
 <use ../images/LoadQuiz.png>
@@ -1701,8 +1701,8 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 43.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [37 <../images/LoadQuiz.png>]
-<../images/QuestionTranslation.png, id=906, 805.0075pt x 382.42876pt>
+ [35 <../images/LoadQuiz.png>]
+<../images/QuestionTranslation.png, id=851, 805.0075pt x 382.42876pt>
 File: ../images/QuestionTranslation.png Graphic file (type png)
 
 <use ../images/QuestionTranslation.png>
@@ -1713,8 +1713,8 @@ File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 56.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [38 <../images/QuestionTranslation.png>]
-<../images/QuizExecution.png, id=913, 732.7375pt x 560.0925pt>
+ [36 <../images/QuestionTranslation.png>]
+<../images/QuizExecution.png, id=858, 732.7375pt x 560.0925pt>
 File: ../images/QuizExecution.png Graphic file (type png)
 
 <use ../images/QuizExecution.png>
@@ -1739,9 +1739,9 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 70.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [39 <../images/QuizExecution.png>])
+ [37 <../images/QuizExecution.png>])
 (sezioni/designPattern.tex
-<../images/AbsFactory.png, id=920, 314.3745pt x 284.262pt>
+<../images/AbsFactory.png, id=865, 314.3745pt x 284.262pt>
 File: ../images/AbsFactory.png Graphic file (type png)
 
 <use ../images/AbsFactory.png>
@@ -1751,15 +1751,15 @@ File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 26.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [40 <../images/AbsFactory.png>]
-<../images/interpreterClass.png, id=926, 548.0475pt x 379.4175pt>
+ [38 <../images/AbsFactory.png>]
+<../images/interpreterClass.png, id=871, 548.0475pt x 379.4175pt>
 File: ../images/interpreterClass.png Graphic file (type png)
 
 <use ../images/interpreterClass.png>
 Package pdftex.def Info: ../images/interpreterClass.png used on input line 34.
 (pdftex.def)             Requested size: 274.02307pt x 189.70828pt.
 
-<../images/publish-subscribe-pattern.png, id=927, 126.2316pt x 144.54pt>
+<../images/publish-subscribe-pattern.png, id=872, 126.2316pt x 144.54pt>
 File: ../images/publish-subscribe-pattern.png Graphic file (type png)
 
 <use ../images/publish-subscribe-pattern.png>
@@ -1771,9 +1771,9 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../../team404_small.jpg used on input line 79.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
 
-[41 <../images/interpreterClass.png> <../images/publish-subscribe-pattern.png>]
+[39 <../images/interpreterClass.png> <../images/publish-subscribe-pattern.png>]
 
-<../images/PublishSubscribeDesignPattern.png, id=935, 475.7775pt x 202.7575pt>
+<../images/PublishSubscribeDesignPattern.png, id=879, 475.7775pt x 202.7575pt>
 File: ../images/PublishSubscribeDesignPattern.png Graphic file (type png)
 
 <use ../images/PublishSubscribeDesignPattern.png>
@@ -1785,7 +1785,7 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 99.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [42 <../images/PublishSubscribeDesignPattern.png>]) (sezioni/tracciamentoCompR
+ [40 <../images/PublishSubscribeDesignPattern.png>]) (sezioni/tracciamentoCompR
 eq.tex
 Overfull \hbox (23.99998pt too wide) in alignment at lines 2--7
  [] [] 
@@ -1827,7 +1827,7 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 115.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [43]
+ [41]
 Overfull \hbox (23.99998pt too wide) in alignment at lines 115--135
  [] [] 
  []
@@ -1846,7 +1846,7 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 223.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [44]
+ [42]
 Overfull \hbox (23.99998pt too wide) in alignment at lines 223--253
  [] [] 
  []
@@ -1855,12 +1855,12 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 253.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [45]
+ [43]
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 254.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [46])
+ [44])
 (sezioni/tracciamentoReqComp.tex
 Overfull \hbox (23.99998pt too wide) in alignment at lines 3--8
  [] [] 
@@ -1900,26 +1900,26 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 74.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [47]) 
+ [45]) 
 AED: lastpage setting LastPage
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 186.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 187.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [48]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
+ [46]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
  (specifica_tecnica_3.0.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
 Package rerunfilecheck Info: File `specifica_tecnica_3.0.out' has not changed.
-(rerunfilecheck)             Checksum: C45F5C892BD60D416F9E7B416FC960F0;9203.
+(rerunfilecheck)             Checksum: FB87A4628652C3A8A00540E13F9D2953;8321.
  ) 
 Here is how much of TeX's memory you used:
- 11179 strings out of 493698
- 166116 string characters out of 3144408
+ 11160 strings out of 493698
+ 165687 string characters out of 3144408
  310344 words of memory out of 3000000
- 14034 multiletter control sequences out of 15000+200000
+ 14025 multiletter control sequences out of 15000+200000
  28741 words of font info for 83 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  38i,17n,47p,1085b,534s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1931,9 +1931,9 @@ X 2.9/fonts/type1/public/cantarell/Cantarell-Regular.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/cantarell/Cantarell-Regular.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/cm-super/sftt1095.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/cm-super/sftt1440.pfb>
-Output written on specifica_tecnica_3.0.pdf (56 pages, 1568166 bytes).
+Output written on specifica_tecnica_3.0.pdf (54 pages, 1543068 bytes).
 PDF statistics:
- 1039 PDF objects out of 1200 (max. 8388607)
- 189 named destinations out of 1000 (max. 500000)
- 1055 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 980 PDF objects out of 1000 (max. 8388607)
+ 178 named destinations out of 1000 (max. 500000)
+ 983 words of extra memory for PDF output out of 10000 (max. 10000000)
 

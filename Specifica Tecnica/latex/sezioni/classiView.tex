@@ -1,82 +1,14 @@
 \subsection{Diagrammi delle classi della View}	
-		
-	\subsubsection{Package Pages}
-		\begin{center}
-			\centerline{\includegraphics[scale=0.6]{../images/Pages.png}}
+	\subsubsection{Classe Quizzipedia}
+	\begin{center}
+			\includegraphics[scale=0.6]{../images/Quizzipedia.png}
 		\end{center}
-		\subsubsubsection{Interfaccia Page}
 			\begin{itemize}
-		    		\item\textbf{Funzione del componente:} rappresenta una pagina web
-				\item\textbf{Relazioni d'uso di altri componenti:} L'interfaccia Page viene concretizzata dalle sue classi derivate, una rappresentativa per ogni pagina dell'applicazione
-				\item\textbf{Attività svolte e dati trattati:} fornisce il contratto di base che una pagina deve soddisfare (visualizzare il proprio contenuto in maniera semplice e fruibile per l'utente). Fornisce inoltre un tipo che gli altri package possono utilizzare per riferirsi ad una qualsiasi pagina indipendentemente dalla sua concretizzazione e favorendo quindi l'estendibilità del codice.
-			\end{itemize}
-		\subsubsubsection{Classe LoginPage}
-			\begin{itemize}
-		    		\item\textbf{Funzione del componente:} visualizza il form di autenticazione e permette il login dell'utente. Fornisce inoltre un link alla pagina di registrazione e uno alla pagina di recupero della password 
-				\item\textbf{Relazioni d'uso di altri componenti:} concretizza l'interfaccia Page da cui è diretta discendente e utilizza il template LoginForm
-				\item\textbf{Attività svolte e dati trattati:} permette l'autenticazione dell'utente nel sistema
-			\end{itemize}
-		\subsubsubsection{Classe RegistrationPage}
-			\begin{itemize}
-		    		\item\textbf{Funzione del componente:} visualizza il form di registrazione. Fornisce inoltre un link alla pagina di login
-				\item\textbf{Relazioni d'uso di altri componenti:} concretizza l'interfaccia Page da cui è diretta discendente e utilizza il template RegistrationForm
-				\item\textbf{Attività svolte e dati trattati:} permette la registrazione dell'utente nel sistema
-			\end{itemize}
-		\subsubsubsection{Classe PasswordRecoveryPage}
-			\begin{itemize}
-		  		\item\textbf{Funzione del componente:} visualizza il form per il recupero della password
-				\item\textbf{Relazioni d'uso di altri componenti:} concretizza l'interfaccia Page da cui è diretta discendente e utilizza il template PasswordRecoveryForm
-				\item\textbf{Attività svolte e dati trattati:} permette il recupero della password dimenticata tramite l'invio di una email
-			\end{itemize}
-		\subsubsubsection{Classe CategoryListPage}
-			\begin{itemize}
-		    		\item\textbf{Funzione del componente:} visualizza la lista delle categorie
-				\item\textbf{Relazioni d'uso di altri componenti:} concretizza l'interfaccia Page da cui è diretta discendente
-				\item\textbf{Attività svolte e dati trattati:} permette la selezione di una categoria che porta ad una pagina in cui vengono visualizzati tutti i questionari della categoria scelta
-			\end{itemize}
-		\subsubsubsection{Classe QuizListPage}
-			\begin{itemize}
-		    		\item\textbf{Funzione del componente:} visualizza una lista di questionari
-				\item\textbf{Relazioni d'uso di altri componenti:} concretizza l'interfaccia Page da cui è diretta discendente e utilizza il template QuizList
-				\item\textbf{Attività svolte e dati trattati:} permette la selezione di un questionario che porta alla pagina di compilazione del questionario scelto
-			\end{itemize}
-		\subsubsubsection{Classe QuizExecutionPage}
-			\begin{itemize}
-		    		\item\textbf{Funzione del componente:} visualizza un questionario (una domanda alla volta) e tutti i dati relativi (tempo rimasto, numero domande, ecc...)
-				\item\textbf{Relazioni d'uso di altri componenti:} concretizza l'interfaccia Page da cui è diretta discendente e utilizza il template QuestionCompilation
-				\item\textbf{Attività svolte e dati trattati:} permette la compilazione di un questionario
-			\end{itemize}
-		\subsubsubsection{Classe QuizResultsPage}
-			\begin{itemize}
-		    		\item\textbf{Funzione del componente:} visualizza i risultati del questionario appena compilato
-				\item\textbf{Relazioni d'uso di altri componenti:} concretizza l'interfaccia Page da cui è diretta discendente e utilizza il template QuizResults
-				\item\textbf{Attività svolte e dati trattati:} permette la compilazione di un questionario
-			\end{itemize}
-		\subsubsubsection{Classe QuestionManagmentPage}
-			\begin{itemize}
-		    		\item\textbf{Funzione del componente:} visualizza la lista delle domande create dall'utente
-				\item\textbf{Relazioni d'uso di altri componenti:} concretizza l'interfaccia Page da cui è diretta discendente e utilizza il template QuestionList
-				\item\textbf{Attività svolte e dati trattati:} permette l'accesso alle pagine di creazione di una nuova domanda e modifica di una domanda esistente. Permette inoltre l'eliminazione di una domanda
-			\end{itemize}
-		\subsubsubsection{Classe QuestionCreationPage}
-			\begin{itemize}
-		    		\item\textbf{Funzione del componente:} visualizza il form di creazione di una nuova domanda
-				\item\textbf{Relazioni d'uso di altri componenti:} concretizza l'interfaccia Page da cui è diretta discendente e utilizza il template QuestionForm
-				\item\textbf{Attività svolte e dati trattati:} permette la creazione di una nuova domanda
-			\end{itemize}
-		\subsubsubsection{Classe QuestionUpdatePage}
-			\begin{itemize}
-		    		\item\textbf{Funzione del componente:} visualizza il form di modifica di una domanda
-				\item\textbf{Relazioni d'uso di altri componenti:} concretizza l'interfaccia Page da cui è diretta discendente e utilizza il template QuestionForm
-				\item\textbf{Attività svolte e dati trattati:} permette la modifica di una domanda
-			\end{itemize}
-		\subsubsubsection{Classe QuizCreationPage}
-			\begin{itemize}
-		    		\item\textbf{Funzione del componente:} visualizza il form di creazione di un nuovo questionario
-				\item\textbf{Relazioni d'uso di altri componenti:} concretizza l'interfaccia Page da cui è diretta discendente e utilizza il template QuizCreationForm
-				\item\textbf{Attività svolte e dati trattati:} permette la creazione di un nuovo questionario
-			\end{itemize}
-			
+				\item\textbf{Funzione del componente:} pagina wrapper che visualizza gli elementi comuni a tutte le pagine e all'interno della quale vengono caricati dinamicamente gli altri templates tramite la componente Router.
+				\item\textbf{Relazioni d'uso di altri componenti:} si relaziona con tutti gli altri templates e con la componente Router del ViewModel
+			\end{itemize}	
+	\newpage	
+	
 	\subsubsection{Package Templates}
 		\begin{center}
 			\includegraphics[scale=0.6]{../images/Templates.png}
@@ -117,21 +49,34 @@
 			\begin{itemize}
 				\item\textbf{Funzione del componente:} visualizza i risultati ottenuti in seguito alla compilazione di un quiz
 			\end{itemize}
-		\subsubsubsection{Classe SearchForm}
-			\begin{itemize}
-				\item\textbf{Funzione del componente:} visualizza un form per l'inserimento dei dati desiderati e l'avvio della ricerca
-			\end{itemize}
-		\subsubsubsection{Classe RegistrationForm}
-			\begin{itemize}
-				\item\textbf{Funzione del componente:} visualizza un form per la registrazione di un nuovo utente
-			\end{itemize}
 		\subsubsubsection{Classe LoginForm}
 			\begin{itemize}
-				\item\textbf{Funzione del componente:} visualizza un form per l'autenticazione di un utente
+				\item\textbf{Funzione del componente:} visualizza un form per l'autenticazione, registrazione e recupero password di un utente
 			\end{itemize}
-		\subsubsubsection{Classe PasswordRecoveryForm}
+		\subsubsubsection{Classe QuizResult}
 			\begin{itemize}
-				\item\textbf{Funzione del componente:} visualizza un form per il recupero della password dimenticata
+				\item\textbf{Funzione del componente:} visualizza i risultati di un quiz appena compilato
+			\end{itemize}		
+		\subsubsubsection{Classe QuizHome}
+			\begin{itemize}
+				\item\textbf{Funzione del componente:} pagina di benvenuto di Quizzipedia
+			\end{itemize}				
+		\subsubsubsection{Classe QuizStatistics}
+			\begin{itemize}
+				\item\textbf{Funzione del componente:} permette la visualizzazione delle statistiche generali di un quiz
+			\end{itemize}	
+		\subsubsubsection{Classe SearchForm}
+			\begin{itemize}
+				\item\textbf{Funzione del componente:} visualizza una form per l’inserimento dei dati desiderati e l’avvio della ricerca
+			\end{itemize}								
+		\subsubsubsection{Classe Topbar}
+			\begin{itemize}
+				\item\textbf{Funzione del componente:} visualizza il menù orizzontale situato in cima all'applicazione
 			\end{itemize}
-			
+		\subsubsubsection{Classe UserProfile}
+			\begin{itemize}
+				\item\textbf{Funzione del componente:} permette la visualizzazione del profilo utente e delle funzionalità ad esso associato
+				\item\textbf{Relazioni d'uso di altri componenti:} fa uso dei templates QuizList e QuestionList 
+			\end{itemize}			
+					
 			\newpage
