@@ -1,0 +1,2363 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Quizzipedia",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Diagrammi",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"visible": true,
+					"defaultDiagram": true
+				},
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFWdMw1PPhTeYQ=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "ClassDiagram1",
+					"visible": true,
+					"defaultDiagram": false
+				}
+			],
+			"visibility": "public"
+		},
+		{
+			"_type": "UMLPackage",
+			"_id": "AAAAAAFWfnpOwn1GVvg=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "View",
+			"ownedElements": [
+				{
+					"_type": "UMLPackage",
+					"_id": "AAAAAAFWfnqRCn1Kyy4=",
+					"_parent": {
+						"$ref": "AAAAAAFWfnpOwn1GVvg="
+					},
+					"name": "Pages",
+					"ownedElements": [
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWfnsINX1S53s=",
+							"_parent": {
+								"$ref": "AAAAAAFWfnqRCn1Kyy4="
+							},
+							"name": "Page",
+							"visibility": "public",
+							"attributes": [
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfntJYH1WMTw=",
+									"_parent": {
+										"$ref": "AAAAAAFWfnsINX1S53s="
+									},
+									"name": "controller",
+									"visibility": "private",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								}
+							],
+							"operations": [
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWfnu1b31bfA4=",
+									"_parent": {
+										"$ref": "AAAAAAFWfnsINX1S53s="
+									},
+									"name": "show",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": true
+								}
+							],
+							"isAbstract": true,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWfnxd7H2NeKQ=",
+							"_parent": {
+								"$ref": "AAAAAAFWfnqRCn1Kyy4="
+							},
+							"name": "LoginPage",
+							"visibility": "public",
+							"operations": [
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWfoDIWzbKgPM=",
+									"_parent": {
+										"$ref": "AAAAAAFWfnxd7H2NeKQ="
+									},
+									"name": "show",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWfnzO432RFms=",
+							"_parent": {
+								"$ref": "AAAAAAFWfnqRCn1Kyy4="
+							},
+							"name": "RegistrationPage",
+							"visibility": "public",
+							"operations": [
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWfoE44jbLDSk=",
+									"_parent": {
+										"$ref": "AAAAAAFWfnzO432RFms="
+									},
+									"name": "show",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWfn0KZ32VOjE=",
+							"_parent": {
+								"$ref": "AAAAAAFWfnqRCn1Kyy4="
+							},
+							"name": "QuizCreationPage",
+							"visibility": "public",
+							"attributes": [
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfoG7F337anY=",
+									"_parent": {
+										"$ref": "AAAAAAFWfn0KZ32VOjE="
+									},
+									"name": "user",
+									"visibility": "private",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								}
+							],
+							"operations": [
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWfoGxGTbN3pQ=",
+									"_parent": {
+										"$ref": "AAAAAAFWfn0KZ32VOjE="
+									},
+									"name": "show",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWfn0axDbCobU=",
+							"_parent": {
+								"$ref": "AAAAAAFWfnqRCn1Kyy4="
+							},
+							"name": "PasswordRecoveryPage",
+							"visibility": "public",
+							"operations": [
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWfoFeujbMn1s=",
+									"_parent": {
+										"$ref": "AAAAAAFWfn0axDbCobU="
+									},
+									"name": "show",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWfn0rJDbFk5U=",
+							"_parent": {
+								"$ref": "AAAAAAFWfnqRCn1Kyy4="
+							},
+							"name": "QuestionUpdatePage",
+							"visibility": "public",
+							"attributes": [
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfoI7G34D9Nk=",
+									"_parent": {
+										"$ref": "AAAAAAFWfn0rJDbFk5U="
+									},
+									"name": "user",
+									"visibility": "private",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfoJd7n4GmXw=",
+									"_parent": {
+										"$ref": "AAAAAAFWfn0rJDbFk5U="
+									},
+									"name": "question",
+									"visibility": "private",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								}
+							],
+							"operations": [
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWfoIvMTbObK8=",
+									"_parent": {
+										"$ref": "AAAAAAFWfn0rJDbFk5U="
+									},
+									"name": "show",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWfn0t6zbGVFI=",
+							"_parent": {
+								"$ref": "AAAAAAFWfnqRCn1Kyy4="
+							},
+							"name": "QuestionCreationPage",
+							"visibility": "public",
+							"attributes": [
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfoNvvzbPKbc=",
+									"_parent": {
+										"$ref": "AAAAAAFWfn0t6zbGVFI="
+									},
+									"name": "user",
+									"visibility": "private",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								}
+							],
+							"operations": [
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWfoOF1zbRbzU=",
+									"_parent": {
+										"$ref": "AAAAAAFWfn0t6zbGVFI="
+									},
+									"name": "show",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWfn0wezbHHeI=",
+							"_parent": {
+								"$ref": "AAAAAAFWfnqRCn1Kyy4="
+							},
+							"name": "QuestionManagementPage",
+							"visibility": "public",
+							"attributes": [
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfoRX3jbSBKA=",
+									"_parent": {
+										"$ref": "AAAAAAFWfn0wezbHHeI="
+									},
+									"name": "user",
+									"visibility": "private",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfoRp0H4dAOQ=",
+									"_parent": {
+										"$ref": "AAAAAAFWfn0wezbHHeI="
+									},
+									"name": "questions",
+									"visibility": "private",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								}
+							],
+							"operations": [
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWfoRfpjbTQjI=",
+									"_parent": {
+										"$ref": "AAAAAAFWfn0wezbHHeI="
+									},
+									"name": "show",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWfn00IzbIAJI=",
+							"_parent": {
+								"$ref": "AAAAAAFWfnqRCn1Kyy4="
+							},
+							"name": "QuizResultsPage",
+							"visibility": "public",
+							"attributes": [
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfoTRnH4hbpI=",
+									"_parent": {
+										"$ref": "AAAAAAFWfn00IzbIAJI="
+									},
+									"name": "quizResults",
+									"visibility": "private",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								}
+							],
+							"operations": [
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWfoUHF34lJls=",
+									"_parent": {
+										"$ref": "AAAAAAFWfn00IzbIAJI="
+									},
+									"name": "show",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWfn022zbJH9Q=",
+							"_parent": {
+								"$ref": "AAAAAAFWfnqRCn1Kyy4="
+							},
+							"name": "QuizExecutionPage",
+							"visibility": "public",
+							"attributes": [
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfoV0434pMps=",
+									"_parent": {
+										"$ref": "AAAAAAFWfn022zbJH9Q="
+									},
+									"name": "timer",
+									"visibility": "private",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								}
+							],
+							"operations": [
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWfoZTX340uEs=",
+									"_parent": {
+										"$ref": "AAAAAAFWfn022zbJH9Q="
+									},
+									"name": "show",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								},
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWfoZebDbUY7k=",
+									"_parent": {
+										"$ref": "AAAAAAFWfn022zbJH9Q="
+									},
+									"name": "nextQuestion",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								},
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWfoZo3DbVJ6k=",
+									"_parent": {
+										"$ref": "AAAAAAFWfn022zbJH9Q="
+									},
+									"name": "previousQuestion",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWfn76kX26Dd4=",
+							"_parent": {
+								"$ref": "AAAAAAFWfnqRCn1Kyy4="
+							},
+							"name": "QuizListPage",
+							"visibility": "public",
+							"attributes": [
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfob9mn5A4bE=",
+									"_parent": {
+										"$ref": "AAAAAAFWfn76kX26Dd4="
+									},
+									"name": "quizList",
+									"visibility": "private",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								}
+							],
+							"operations": [
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWfocySn5Fi7Q=",
+									"_parent": {
+										"$ref": "AAAAAAFWfn76kX26Dd4="
+									},
+									"name": "show",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								},
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWfoeqWX5JUFI=",
+									"_parent": {
+										"$ref": "AAAAAAFWfn76kX26Dd4="
+									},
+									"name": "sort",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"parameters": [
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWfofqOX5NBzA=",
+											"_parent": {
+												"$ref": "AAAAAAFWfoeqWX5JUFI="
+											},
+											"name": "by",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "string",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										}
+									],
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								},
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWfogz9X5S9sY=",
+									"_parent": {
+										"$ref": "AAAAAAFWfn76kX26Dd4="
+									},
+									"name": "search",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"parameters": [
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWfohQ3X5W5Us=",
+											"_parent": {
+												"$ref": "AAAAAAFWfogz9X5S9sY="
+											},
+											"name": "query",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "string",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										}
+									],
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWfn8IHH29RLI=",
+							"_parent": {
+								"$ref": "AAAAAAFWfnqRCn1Kyy4="
+							},
+							"name": "CategoryListPage",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						}
+					],
+					"visibility": "public"
+				},
+				{
+					"_type": "UMLPackage",
+					"_id": "AAAAAAFWfnqvEn1OWI0=",
+					"_parent": {
+						"$ref": "AAAAAAFWfnpOwn1GVvg="
+					},
+					"name": "Templates",
+					"ownedElements": [
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWfol+xX5bcvQ=",
+							"_parent": {
+								"$ref": "AAAAAAFWfnqvEn1OWI0="
+							},
+							"name": "QuestionList",
+							"visibility": "public",
+							"attributes": [
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfpM10jb3kkQ=",
+									"_parent": {
+										"$ref": "AAAAAAFWfol+xX5bcvQ="
+									},
+									"name": "controller",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfpNQIjb4RXE=",
+									"_parent": {
+										"$ref": "AAAAAAFWfol+xX5bcvQ="
+									},
+									"name": "$scope",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "$scope",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfpNiQjb5h7A=",
+									"_parent": {
+										"$ref": "AAAAAAFWfol+xX5bcvQ="
+									},
+									"name": "templateUrl",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWfomKgjbWjyU=",
+							"_parent": {
+								"$ref": "AAAAAAFWfnqvEn1OWI0="
+							},
+							"name": "Question",
+							"visibility": "public",
+							"attributes": [
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfpIIGjb0KFk=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomKgjbWjyU="
+									},
+									"name": "controller",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfpIZMjb16Tk=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomKgjbWjyU="
+									},
+									"name": "$scope",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "$scope",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfpIsWjb2Y10=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomKgjbWjyU="
+									},
+									"name": "templateUrl",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfpJTQH70Dqc=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomKgjbWjyU="
+									},
+									"name": "category",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfpKBKH75jSE=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomKgjbWjyU="
+									},
+									"name": "type",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWfomPCjbX8Lk=",
+							"_parent": {
+								"$ref": "AAAAAAFWfnqvEn1OWI0="
+							},
+							"name": "QuizList",
+							"visibility": "public",
+							"attributes": [
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfpGB8jbxtYo=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomPCjbX8Lk="
+									},
+									"name": "templateUrl",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfpGYIjbyPc4=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomPCjbX8Lk="
+									},
+									"name": "controller",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfpGh8jbzr+w=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomPCjbX8Lk="
+									},
+									"name": "$scope",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "$scope",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWfomTszbYrrM=",
+							"_parent": {
+								"$ref": "AAAAAAFWfnqvEn1OWI0="
+							},
+							"name": "Quiz",
+							"visibility": "public",
+							"attributes": [
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfpDOgjbuImY=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomTszbYrrM="
+									},
+									"name": "templateUrl",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfpDa2jbveSQ=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomTszbYrrM="
+									},
+									"name": "controller",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfpDnEjbwZHQ=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomTszbYrrM="
+									},
+									"name": "$scope",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "$scope",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfpEI6H7Zpdw=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomTszbYrrM="
+									},
+									"name": "title",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfpE4bH7eElw=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomTszbYrrM="
+									},
+									"name": "categories",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWfomXXDbZvYs=",
+							"_parent": {
+								"$ref": "AAAAAAFWfnqvEn1OWI0="
+							},
+							"name": "QuestionForm",
+							"visibility": "public",
+							"attributes": [
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfo+0qjbrwmM=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomXXDbZvYs="
+									},
+									"name": "templateUrl",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfo/BCTbsSb8=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomXXDbZvYs="
+									},
+									"name": "controller",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfo/M6jbttI4=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomXXDbZvYs="
+									},
+									"name": "$scope",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "$scope",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfo/XzH7Hg9U=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomXXDbZvYs="
+									},
+									"name": "category",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfpAviH7Mnag=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomXXDbZvYs="
+									},
+									"name": "text",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWfombejbakpk=",
+							"_parent": {
+								"$ref": "AAAAAAFWfnqvEn1OWI0="
+							},
+							"name": "QuizCreationForm",
+							"visibility": "public",
+							"attributes": [
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfo9ayjboM1I=",
+									"_parent": {
+										"$ref": "AAAAAAFWfombejbakpk="
+									},
+									"name": "templateUrl",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfo9kSTbpJFU=",
+									"_parent": {
+										"$ref": "AAAAAAFWfombejbakpk="
+									},
+									"name": "controller",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfo91yjbqybc=",
+									"_parent": {
+										"$ref": "AAAAAAFWfombejbakpk="
+									},
+									"name": "$scope",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "$scope",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWfomewzbbaQk=",
+							"_parent": {
+								"$ref": "AAAAAAFWfnqvEn1OWI0="
+							},
+							"name": "QuestionCompilation",
+							"visibility": "public",
+							"attributes": [
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfo7g8TblfiA=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomewzbbaQk="
+									},
+									"name": "controller",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfo7tMTbmmQI=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomewzbbaQk="
+									},
+									"name": "$scope",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "$scope",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfo75MjbnEi8=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomewzbbaQk="
+									},
+									"name": "templateUrl",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWfomiOjbcLfI=",
+							"_parent": {
+								"$ref": "AAAAAAFWfnqvEn1OWI0="
+							},
+							"name": "QuizResults",
+							"visibility": "public",
+							"attributes": [
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfo596TbilAk=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomiOjbcLfI="
+									},
+									"name": "controller",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfo6Q6jbjpFk=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomiOjbcLfI="
+									},
+									"name": "$scope",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "$scope",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfo6gQTbk16M=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomiOjbcLfI="
+									},
+									"name": "templateUrl",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWfoml0jbd86w=",
+							"_parent": {
+								"$ref": "AAAAAAFWfnqvEn1OWI0="
+							},
+							"name": "SearchForm",
+							"visibility": "public",
+							"attributes": [
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfo0M/H6P7+Q=",
+									"_parent": {
+										"$ref": "AAAAAAFWfoml0jbd86w="
+									},
+									"name": "controller",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfo0aejbfAXU=",
+									"_parent": {
+										"$ref": "AAAAAAFWfoml0jbd86w="
+									},
+									"name": "$scope",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "$scope",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfo0e8jbg/kE=",
+									"_parent": {
+										"$ref": "AAAAAAFWfoml0jbd86w="
+									},
+									"name": "templateUrl",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFWfo0iqjbh1GM=",
+									"_parent": {
+										"$ref": "AAAAAAFWfoml0jbd86w="
+									},
+									"name": "query",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"isDerived": false,
+									"aggregation": "none",
+									"isID": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWfomr0jbee1k=",
+							"_parent": {
+								"$ref": "AAAAAAFWfnqvEn1OWI0="
+							},
+							"name": "NavBarController",
+							"visibility": "public",
+							"operations": [
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWfovrdH6HufM=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomr0jbee1k="
+									},
+									"name": "navVisible",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								},
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWfoxt/H6LUpk=",
+									"_parent": {
+										"$ref": "AAAAAAFWfomr0jbee1k="
+									},
+									"name": "slideMenu",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWfotTJX6CZZ8=",
+							"_parent": {
+								"$ref": "AAAAAAFWfnqvEn1OWI0="
+							},
+							"name": "TopBarController",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						}
+					],
+					"visibility": "public"
+				}
+			],
+			"visibility": "public"
+		},
+		{
+			"_type": "UMLPackage",
+			"_id": "AAAAAAFWfpV8BX8IRL4=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLPackage",
+					"_id": "AAAAAAFWea9TqvjeDLk=",
+					"_parent": {
+						"$ref": "AAAAAAFWfpV8BX8IRL4="
+					},
+					"name": "Database",
+					"ownedElements": [
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWdMxfdPhWYDA=",
+							"_parent": {
+								"$ref": "AAAAAAFWea9TqvjeDLk="
+							},
+							"name": "QuizManager",
+							"visibility": "public",
+							"operations": [
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWdM1Yl/iBcvA=",
+									"_parent": {
+										"$ref": "AAAAAAFWdMxfdPhWYDA="
+									},
+									"name": "quizzes.insert",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"parameters": [
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWeXtboPiJAm0=",
+											"_parent": {
+												"$ref": "AAAAAAFWdM1Yl/iBcvA="
+											},
+											"name": "owner",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "String",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										},
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWeX0BaviO3+g=",
+											"_parent": {
+												"$ref": "AAAAAAFWdM1Yl/iBcvA="
+											},
+											"name": "title",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "String",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										},
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWeX1m2viTsBs=",
+											"_parent": {
+												"$ref": "AAAAAAFWdM1Yl/iBcvA="
+											},
+											"name": "time",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "int",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										},
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWeX2WQ/iYK28=",
+											"_parent": {
+												"$ref": "AAAAAAFWdM1Yl/iBcvA="
+											},
+											"name": "questions",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "array",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										},
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWeX4cb/idGYs=",
+											"_parent": {
+												"$ref": "AAAAAAFWdM1Yl/iBcvA="
+											},
+											"name": "categories",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "array",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										},
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWeX7VBPijsXM=",
+											"_parent": {
+												"$ref": "AAAAAAFWdM1Yl/iBcvA="
+											},
+											"name": "createdAt",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "date",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										}
+									],
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								},
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWeapr5vi1d18=",
+									"_parent": {
+										"$ref": "AAAAAAFWdMxfdPhWYDA="
+									},
+									"name": "quizzes.update",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"parameters": [
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWeay1tvi8KsQ=",
+											"_parent": {
+												"$ref": "AAAAAAFWeapr5vi1d18="
+											},
+											"name": "quizID",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "string",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										},
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWeazhq/jA8FY=",
+											"_parent": {
+												"$ref": "AAAAAAFWeapr5vi1d18="
+											},
+											"name": "title",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "string",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										},
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWea0F1/jEmO4=",
+											"_parent": {
+												"$ref": "AAAAAAFWeapr5vi1d18="
+											},
+											"name": "time",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "int",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										},
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWea0i0fjI6P4=",
+											"_parent": {
+												"$ref": "AAAAAAFWeapr5vi1d18="
+											},
+											"name": "questions",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "array",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										}
+									],
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								},
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWea4b1vjRbZc=",
+									"_parent": {
+										"$ref": "AAAAAAFWdMxfdPhWYDA="
+									},
+									"name": "quizzes.remove",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"parameters": [
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWea5UTPjYvEs=",
+											"_parent": {
+												"$ref": "AAAAAAFWea4b1vjRbZc="
+											},
+											"name": "quizID",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "string",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										}
+									],
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWea+tvfjjjVs=",
+							"_parent": {
+								"$ref": "AAAAAAFWea9TqvjeDLk="
+							},
+							"name": "QuestionManager",
+							"visibility": "public",
+							"operations": [
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWea/2PvjnaF4=",
+									"_parent": {
+										"$ref": "AAAAAAFWea+tvfjjjVs="
+									},
+									"name": "questions.insert",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"parameters": [
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWebDgMvjzAM8=",
+											"_parent": {
+												"$ref": "AAAAAAFWea/2PvjnaF4="
+											},
+											"name": "QMLText",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "string",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										},
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWebDqc7B+S1U=",
+											"_parent": {
+												"$ref": "AAAAAAFWea/2PvjnaF4="
+											},
+											"name": "category",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "string",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										}
+									],
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								},
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWebABHPjqIOw=",
+									"_parent": {
+										"$ref": "AAAAAAFWea+tvfjjjVs="
+									},
+									"name": "question.update",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"parameters": [
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWebL4LflWMfc=",
+											"_parent": {
+												"$ref": "AAAAAAFWebABHPjqIOw="
+											},
+											"name": "questionID",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "string",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										},
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWebMFlLB/dTM=",
+											"_parent": {
+												"$ref": "AAAAAAFWebABHPjqIOw="
+											},
+											"name": "QMLText",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "string",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										},
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWebMLk7CAH1g=",
+											"_parent": {
+												"$ref": "AAAAAAFWebABHPjqIOw="
+											},
+											"name": "category",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "string",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										}
+									],
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								},
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWebASCbB9nPE=",
+									"_parent": {
+										"$ref": "AAAAAAFWea+tvfjjjVs="
+									},
+									"name": "questions.remove",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"parameters": [
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWebPkwflmqjk=",
+											"_parent": {
+												"$ref": "AAAAAAFWebASCbB9nPE="
+											},
+											"name": "questionID",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "string",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										}
+									],
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWebRY0PlrLds=",
+							"_parent": {
+								"$ref": "AAAAAAFWea9TqvjeDLk="
+							},
+							"name": "Search",
+							"visibility": "public",
+							"operations": [
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWebSgrPlvh6E=",
+									"_parent": {
+										"$ref": "AAAAAAFWebRY0PlrLds="
+									},
+									"name": "question.search",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"parameters": [
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWebXU8fl3TI0=",
+											"_parent": {
+												"$ref": "AAAAAAFWebSgrPlvh6E="
+											},
+											"name": "text",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "string",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										}
+									],
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								},
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWebTgwflzC0Y=",
+									"_parent": {
+										"$ref": "AAAAAAFWebRY0PlrLds="
+									},
+									"name": "quizzes.search",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"parameters": [
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWebYF7fl8WtY=",
+											"_parent": {
+												"$ref": "AAAAAAFWebTgwflzC0Y="
+											},
+											"name": "text",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "string",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										}
+									],
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						}
+					],
+					"visibility": "public"
+				},
+				{
+					"_type": "UMLPackage",
+					"_id": "AAAAAAFWecBTm/qmiUI=",
+					"_parent": {
+						"$ref": "AAAAAAFWfpV8BX8IRL4="
+					},
+					"name": "Statistics",
+					"ownedElements": [
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWebgXpvnuuJI=",
+							"_parent": {
+								"$ref": "AAAAAAFWecBTm/qmiUI="
+							},
+							"name": "Statistics",
+							"visibility": "public",
+							"operations": [
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWebiPL/nyCg0=",
+									"_parent": {
+										"$ref": "AAAAAAFWebgXpvnuuJI="
+									},
+									"name": "statistics.QuizExecutionStats",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"parameters": [
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWebjuj/n2R2o=",
+											"_parent": {
+												"$ref": "AAAAAAFWebiPL/nyCg0="
+											},
+											"name": "QuizObject",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "JSON",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										},
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWebk2Uvn79sc=",
+											"_parent": {
+												"$ref": "AAAAAAFWebiPL/nyCg0="
+											},
+											"name": "userID",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "string",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										}
+									],
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								},
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWebyvXvoAh9k=",
+									"_parent": {
+										"$ref": "AAAAAAFWebgXpvnuuJI="
+									},
+									"name": "statistics.UserExecutionStats",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"parameters": [
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWebzigfoE7UE=",
+											"_parent": {
+												"$ref": "AAAAAAFWebyvXvoAh9k="
+											},
+											"name": "QuizObject",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "JSON",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										},
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWeb0krvoJ31o=",
+											"_parent": {
+												"$ref": "AAAAAAFWebyvXvoAh9k="
+											},
+											"name": "UserID",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "string",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										}
+									],
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								},
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWeb2QDfo7XLc=",
+									"_parent": {
+										"$ref": "AAAAAAFWebgXpvnuuJI="
+									},
+									"name": "statistics.UserExecutionStats",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"parameters": [
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWeb3OcfpCFmk=",
+											"_parent": {
+												"$ref": "AAAAAAFWeb2QDfo7XLc="
+											},
+											"name": "UserID",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "string",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										},
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWeb4XwfpHIdg=",
+											"_parent": {
+												"$ref": "AAAAAAFWeb2QDfo7XLc="
+											},
+											"name": "QuestionAnswered",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "array",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										},
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWeb6HEfpM5k8=",
+											"_parent": {
+												"$ref": "AAAAAAFWeb2QDfo7XLc="
+											},
+											"name": "QuestionCorrectAnswered",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "array",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										}
+									],
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								},
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWeb7tovpRczw=",
+									"_parent": {
+										"$ref": "AAAAAAFWebgXpvnuuJI="
+									},
+									"name": "statistics.QuestionExecutionStats",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"parameters": [
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWeb8ZGvpYNHQ=",
+											"_parent": {
+												"$ref": "AAAAAAFWeb7tovpRczw="
+											},
+											"name": "QuestionID",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "string",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										},
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWeb9Opfpdo54=",
+											"_parent": {
+												"$ref": "AAAAAAFWeb7tovpRczw="
+											},
+											"name": "Correct",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "bool",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										}
+									],
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						}
+					],
+					"visibility": "public"
+				},
+				{
+					"_type": "UMLPackage",
+					"_id": "AAAAAAFWecCozvqrIJY=",
+					"_parent": {
+						"$ref": "AAAAAAFWfpV8BX8IRL4="
+					},
+					"name": "Parser",
+					"ownedElements": [
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWebagEvmw+3k=",
+							"_parent": {
+								"$ref": "AAAAAAFWecCozvqrIJY="
+							},
+							"name": "Parser",
+							"visibility": "public",
+							"operations": [
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWebbyHfnb3kc=",
+									"_parent": {
+										"$ref": "AAAAAAFWebagEvmw+3k="
+									},
+									"name": "check",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"parameters": [
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAFWebcNNvnix0E=",
+											"_parent": {
+												"$ref": "AAAAAAFWebbyHfnb3kc="
+											},
+											"name": "QMLtext",
+											"visibility": "public",
+											"isStatic": false,
+											"isLeaf": false,
+											"type": "string",
+											"isReadOnly": false,
+											"isOrdered": false,
+											"isUnique": false,
+											"direction": "in"
+										}
+									],
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						}
+					],
+					"visibility": "public"
+				},
+				{
+					"_type": "UMLPackage",
+					"_id": "AAAAAAFWecFviPqwbPQ=",
+					"_parent": {
+						"$ref": "AAAAAAFWfpV8BX8IRL4="
+					},
+					"name": "Publishers",
+					"ownedElements": [
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWecGxGPq0GZ8=",
+							"_parent": {
+								"$ref": "AAAAAAFWecFviPqwbPQ="
+							},
+							"name": "QuizPublisher",
+							"visibility": "public",
+							"operations": [
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWecKg4Ptzgls=",
+									"_parent": {
+										"$ref": "AAAAAAFWecGxGPq0GZ8="
+									},
+									"name": "Meteor.publish",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFWecH3SPq4GxQ=",
+							"_parent": {
+								"$ref": "AAAAAAFWecFviPqwbPQ="
+							},
+							"name": "QuestionPublisher",
+							"visibility": "public",
+							"operations": [
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFWecMLqPt3zAg=",
+									"_parent": {
+										"$ref": "AAAAAAFWecH3SPq4GxQ="
+									},
+									"name": "publishQuestion",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"concurrency": "sequential",
+									"isQuery": false,
+									"isAbstract": false
+								}
+							],
+							"isAbstract": false,
+							"isFinalSpecialization": false,
+							"isLeaf": false,
+							"isActive": false
+						}
+					],
+					"visibility": "public"
+				}
+			],
+			"visibility": "public"
+		},
+		{
+			"_type": "UMLPackage",
+			"_id": "AAAAAAFWfpcy9YDb9S8=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "ViewModel",
+			"visibility": "public"
+		}
+	]
+}
