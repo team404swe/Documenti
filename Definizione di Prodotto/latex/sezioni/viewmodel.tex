@@ -15,7 +15,7 @@
 	\item\textbf{Relazione d'uso con altre componenti}: \\
 La classe utilizza:
 	\begin{itemize}
-		\item Model::Publishers::QuestionsPublisher	
+		\item Model::Publishers::QuestionPublisher	
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
@@ -63,33 +63,6 @@ La classe utilizza:
 	\end{itemize}
 \end{itemize}
 
-\subsubsection{ViewModel::Subscribers::UsersSubscriber}
-\begin{itemize}
-\item\textbf{Funzione del componente}: la classe è necessaria ad effettuare il \emph{subscribe} relativo alla collezione di utenti del sistema;
-	\item\textbf{Relazione d'uso con altre componenti}: \\
-La classe utilizza:
-	\begin{itemize}
-		\item Model::Publishers::UserPublisher
-	\end{itemize}
-\item\textbf{Attributi}:
-	\begin{itemize}
-		\item\code{- collection: String}: il nome della collezione sulla quale effettuare il subscribe.\\
-	\end{itemize}
-\item\textbf{Metodi}:
-	\begin{itemize}
-		\item\code{+ getCollection(): String}: ritorna la collezione sulla quale può effettuare il subscribe.\\
-		\textbf{Precondizioni}: viene richiesta la collezione di pertinenza della classe\\
-		\textbf{Postcondizioni}: viene ritornato il nome della collezione\\
-		\item\code{+ subscribe()}: metodo che effettua il subscribe del parametro controller alla collezione\\
-		\textbf{Precondizioni}: viene richiesto di effettuare il subscribe del parametro controller alla collezione\\
-		\textbf{Postcondizioni}: è stato effettuato il subscribe del controller alla collezione\\
-		\textbf{Parametri}:
-			\begin{itemize}
-				\item\code{controller: Object}: il controller che necessita della collezione\\
-			\end{itemize}
-	\end{itemize}
-\end{itemize}
-
 \subsection{ViewModel::Methods}
 \subsubsection{ViewModel::Methods::QuestionMethods}
 \begin{itemize}
@@ -98,6 +71,7 @@ La classe utilizza:
 La classe utilizza:
 	\begin{itemize}
 		\item Model::Publishers::QuestionPublisher
+		\item Model::Statistics::Statistics
 	\end{itemize}
 \item\textbf{Attributi}:
 	\begin{itemize}
@@ -105,14 +79,15 @@ La classe utilizza:
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{+ insert()}: metodo che inserisce una domanda nella collezione\\
+		\item\code{+ questions.insert()}: metodo che inserisce una domanda nella collezione\\
 		\textbf{Precondizioni}: viene richiesto di inserire una nuova domanda nella collezione\\
 		\textbf{Postcondizioni}: la nuova domanda è stata salvata nel sistema\\
 		\textbf{Parametri}:
 			\begin{itemize}
-				\item\code{questionId: String}: identificativo univoco della domanda da aggiungere\\
+				\item\code{QMLtext: string}: testo QML (corretto perchè viene prima parsato) corrispondente alla nuova domanda\\
+				\item\code{category: string}: testo contente la categorie di appertenenza della domanda che si vuole inserire\\
 			\end{itemize}
-		\item\code{+ remove()}: metodo che rimuove una domanda dalla collezione\\
+		\item\code{+ questions.remove()}: metodo che rimuove una domanda dalla collezione\\
 		\textbf{Precondizioni}: viene richiesta l'eliminazione di una domanda dal sistema\\
 		\textbf{Postcondizioni}: la domanda è stata eliminata dal sistema\\
 		\textbf{Parametri}:
@@ -136,14 +111,18 @@ La classe utilizza:
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{+ insert()}: metodo che inserisce un quiz nella collezione\\
+		\item\code{+ quizzes.insert()}: metodo che inserisce un quiz nella collezione\\
 		\textbf{Precondizioni}: viene richiesto di inserire un nuovo quiz nella collezione\\
 		\textbf{Postcondizioni}: il nuovo quiz è stato salvato nel sistema\\
 		\textbf{Parametri}:
 			\begin{itemize}
-				\item\code{quizId: String}: identificativo univoco del quiz da aggiungere\\
+				\item\code{title: string}: contiene il titolo del nuovo questionario\\
+				\item\code{questions: array}: elenca le domande presenti nel nuovo questionario\\
+				\item\code{categories: array}: elenca le categorie di pertinenza del nuovo questionario\\
+				\item\code{description: string}: contiene una breve descrizione testuale del questionario\\
+				\item\code{time: int}: stabilisce il tempo massimo per la risoluzione del quiz\\
 			\end{itemize}
-		\item\code{+ remove()}: metodo che rimuove un quiz dalla collezione\\
+		\item\code{+ quizzes.remove()}: metodo che rimuove un quiz dalla collezione\\
 		\textbf{Precondizioni}: viene richiesta l'eliminazione di un quiz dal sistema\\
 		\textbf{Postcondizioni}: il quiz è stato eliminato dal sistema\\
 		\textbf{Parametri}:
@@ -273,12 +252,7 @@ La classe utilizza:
 \subsection{ViewModel::Router}
 \subsubsection{ViewModel::Router::Router}
 \begin{itemize}
-\item\textbf{Funzione del componente}: implementa il routing dinamico dell'applicazione. Permette di dividere la parte statica dell'applicazione dalla parte che va caricata dinamicamente;
-	\item\textbf{Relazione d'uso con altre componenti}: \\
-La classe utilizza:
-	\begin{itemize}
-		\item ui-router
-	\end{itemize}
+\item\textbf{Funzione del componente}: implementa il routing dinamico dell'applicazione. Permette di dividere la parte statica dell'applicazione dalla parte che viene elaborata dinamicamente;
 \item\textbf{Attributi}:
 	\begin{itemize}
 		\item\code{\$locationProvider: \$locationProvider}: provider AngularJs per rendere gli Url più leggibili\\
@@ -287,6 +261,9 @@ La classe utilizza:
 	\end{itemize}
 \item\textbf{Metodi}:
 	\begin{itemize}
+		\item\code{config()}: si occupa di gestire le varie chiamate del metodo state() all'inizializzazione dell'applicazione\\
+		\textbf{Precondizioni}: l'applicazione Quizzipedia viene avviata\\
+		\textbf{Postcondizioni}: tutti i template sono disponibili al caricamento\\
 		\item\code{state()}: metodo per collegare un Url dell'applicazione al rispettivo template da caricare\\
 		\textbf{Precondizioni}: viene richiesta l'associazione di un Url al caricamento di un template\\
 		\textbf{Postcondizioni}: un Url univoco è stato associato al caricamento dinamico di uno specifico template\\
@@ -458,12 +435,11 @@ La classe utilizza:
  \item\textbf{Attributi}:
  	\begin{itemize}
  		\item\code{+ controller: String}: variabile contenente il nome del controller del template;\\
-		
 		\item\code{+ templateUrl: String}: stringa contenente il percorso del file HTML che contiene il template\\
  	\end{itemize}
  	\item\textbf{Metodi}:
  	\begin{itemize}
- 		\item\code{+ getQuiz()}: DA FARE
+ 		\item\code{+ getQuiz()}: si occupa di fornire il punteggio finale
  	\end{itemize}
  \end{itemize}
  
@@ -477,12 +453,21 @@ La classe utilizza:
 		\item\code{+ templateUrl: String}: stringa contenente il percorso del file HTML che contiene il template\\
 		\item\code{+ query: String}: stringa contenente la query da sottomettere al sistema\\
  	\end{itemize}
- 	DA FARE
+ 	\item\textbf{Funzionalità}:
+ 	\begin{itemize}
+ 		\item\code{+ find():} esegue l'effettiva attività di ricerca nel sistema\\
+		\item\code{+ show():} fornisce la rappresentazione grafica dei risultati\\
+		\item\code{+ clear():} metodo di servizio per la pulizia dell'interfaccia\\
+ 	\end{itemize}
  \end{itemize}
  
  \subsubsection{ViewModel::Controller::NavBar}
  \begin{itemize}
  \item\textbf{Funzione del componente:} Fornisce un menù laterale che facilita l'interazione dell'utente con l'applicazione
+ \item\textbf{Relazione con altri componenti:}
+ \begin{itemize}
+ 	\item View::Templates::navbar
+ \end{itemize}
  \item\textbf{Funzionalità}:
  	\begin{itemize}
  		\item\code{+ navVisible():} imposta la larghezza del menù laterale\\
@@ -492,11 +477,11 @@ La classe utilizza:
  
  \subsubsection{ViewModel::Controller::TopBar}
  \begin{itemize}
- \item\textbf{Funzione del componente:} Fornisce il menù orrizontale con cui l'utente può interfacciarsi con il sistema
- \item\textbf{Funzionalità}:
- 	\begin{itemize}
- 		\item\code{+ :}\\
- 	\end{itemize}
+ \item\textbf{Funzione del componente:} Fornisce il menù orizzontale con cui l'utente può interfacciarsi con il sistema
+ \item\textbf{Relazione con altri componenti:}
+ \begin{itemize}
+ 	\item View::Templates::topbar
+ \end{itemize}
  \end{itemize}
  
   \subsubsection{ViewModel::Controller::UserProfile}
@@ -513,7 +498,6 @@ La classe utilizza:
  \item\textbf{Attributi:}
  \begin{itemize}
  	\item\code{+ controller: String}: variabile contenente il nome del controller del template;\\
-		
 		\item\code{+ templateUrl: String}: stringa contenente il percorso del file HTML che contiene il template\\
  \end{itemize}
  \item\textbf{Metodi:}
@@ -525,5 +509,50 @@ La classe utilizza:
  \end{itemize}
  
  \subsubsection{ViewModel::Controller::QuizHome}
+ \begin{itemize}
+ \item\textbf{Funzione del componente:} 
+ \item\textbf{Relazione con altri componenti:}
+ \begin{itemize}
+	\item V
+ \end{itemize}
+ \item\textbf{Attributi:}
+ \begin{itemize}
+	\item a
+ \end{itemize}
+ \item\textbf{Metodi:}
+ 	\begin{itemize}
+\item V
+ 	\end{itemize}
+ \end{itemize}
  \subsubsection{ViewModel::Controller::QuizStatistics}
+  \begin{itemize}
+ \item\textbf{Funzione del componente:} 
+ \item\textbf{Relazione con altri componenti:}
+ \begin{itemize}
+		\item V
+ \end{itemize}
+ \item\textbf{Attributi:}
+ \begin{itemize}
+\item a
+ \end{itemize}
+ \item\textbf{Metodi:}
+ 	\begin{itemize}
+\item wddwdad
+ 	\end{itemize}
+ \end{itemize}
  \subsubsection{ViewModel::Controller::QuizCompilation}
+  \begin{itemize}
+ \item\textbf{Funzione del componente:} 
+ \item\textbf{Relazione con altri componenti:}
+ \begin{itemize}
+\item afewf
+ \end{itemize}
+ \item\textbf{Attributi:}
+ \begin{itemize}
+		\item a
+ \end{itemize}
+ \item\textbf{Metodi:}
+ 	\begin{itemize}
+\item faf
+ 	\end{itemize}
+ \end{itemize}
