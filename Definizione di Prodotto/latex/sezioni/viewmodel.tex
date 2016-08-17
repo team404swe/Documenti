@@ -192,6 +192,11 @@ La classe utilizza:
 	\item\textbf{Relazione d'uso con altre componenti}: viene concretizzata in ViewModel::Interpreter::QMLInterpreter.\\
 \end{itemize}
 \subsubsection{ViewModel::Interpreter::InterpreterFactory}
+\begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.4]{../images/ViewModel/Interpreter/InterpreterFactory.png}
+\end{center}
+\end{figure}
 \begin{itemize}
 \item\textbf{Funzione del componente}: interfaccia di base delle Factory di tipi Interpreter.
 	\item\textbf{Relazione d'uso con altre componenti}: viene concretizzata da\\ ViewModel::Interpreter::QMLInterpreterFactory.\\ 
@@ -205,6 +210,11 @@ La classe utilizza:
 \end{itemize}
 
 \subsubsection{ViewModel::Interpreter::QMLInterpreterFactory}
+\begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.4]{../images/ViewModel/Interpreter/QMLInterpreterFactory.png}
+\end{center}
+\end{figure}
 \begin{itemize}
 \item\textbf{Funzione del componente}: crea oggetti di tipo QMLInterpreter.
 	\item\textbf{Relazione d'uso con altre componenti}: è concretizzazione dalla classe\\ ViewModel::Interpreter::InterpreterFactory. Crea oggetti QMLInterpreter.\\
@@ -225,6 +235,11 @@ La classe utilizza:
 \end{itemize}
 
 \subsubsection{ViewModel::Interpreter::QMLInterpreter}
+\begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.4]{../images/ViewModel/Interpreter/QMLInterpreter.png}
+\end{center}
+\end{figure}
 \begin{itemize}
 \item\textbf{Funzione del componente}: classe astratta che rappresenta gli Interpreter che traducono codice QML in un altro formato.
 	\item\textbf{Relazione d'uso con altre componenti}: è sottotipo di ViewModel::Interpreter::Interpreter. Viene concretizzata in ViewModel::Interpreter::QML2HTMLInterpreter.\\ 
@@ -242,6 +257,11 @@ La classe utilizza:
 \end{itemize}
 
 \subsubsection{ViewModel::Interpreter::QML2HTMLInterpreter}
+\begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.4]{../images/ViewModel/Interpreter/QML2HTMLInterpreter.png}
+\end{center}
+\end{figure}
 \begin{itemize}
 	\item\textbf{Funzione del componente}: traduce codice QML in codice HTML.
 	\item\textbf{Relazione d'uso con altre componenti}: la classe è concretizzazione di\\ ViewModel::Interpreter::QMLInterpreter.\\
