@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.20)  16 AUG 2016 23:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.20)  17 AUG 2016 15:03
 entering extended mode
 **specifica_tecnica_3.0.tex
 (specifica_tecnica_3.0.tex
@@ -1513,79 +1513,74 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../../team404_small.jpg used on input line 82.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [21]) (sezioni/classiViewModel.tex
-<../images/ControllersClass.png, id=754, 788.9475pt x 355.3275pt>
+<../images/ControllersClass.png, id=754, 660.4675pt x 379.4175pt>
 File: ../images/ControllersClass.png Graphic file (type png)
 
 <use ../images/ControllersClass.png>
 Package pdftex.def Info: ../images/ControllersClass.png used on input line 5.
-(pdftex.def)             Requested size: 473.37215pt x 213.19814pt.
-
-Overfull \hbox (18.12804pt too wide) in paragraph at lines 5--6
- [] 
- []
-
+(pdftex.def)             Requested size: 396.28355pt x 227.65225pt.
 File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 31.
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 30.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [22 <../images/ControllersClass.png>]
 File: ../../team404_small.jpg Graphic file (type jpg)
-
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 70.
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 64.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [23]
-<../images/SubscribersClass.png, id=767, 355.3275pt x 242.9075pt>
+<../images/SubscribersClass.png, id=767, 355.3275pt x 170.6375pt>
 File: ../images/SubscribersClass.png Graphic file (type png)
 
 <use ../images/SubscribersClass.png>
-Package pdftex.def Info: ../images/SubscribersClass.png used on input line 85.
-(pdftex.def)             Requested size: 230.96013pt x 157.88799pt.
-File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 102.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [24 <../images/SubscribersClass.png>]
-<../images/MethodsClass.png, id=774, 347.2975pt x 234.8775pt>
+Package pdftex.def Info: ../images/SubscribersClass.png used on input line 70.
+(pdftex.def)             Requested size: 230.96013pt x 110.91304pt.
+
+<../images/MethodsClass.png, id=768, 347.2975pt x 234.8775pt>
 File: ../images/MethodsClass.png Graphic file (type png)
 
 <use ../images/MethodsClass.png>
-Package pdftex.def Info: ../images/MethodsClass.png used on input line 117.
+Package pdftex.def Info: ../images/MethodsClass.png used on input line 94.
 (pdftex.def)             Requested size: 225.74069pt x 152.66856pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 132.
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 104.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [24 <../images/SubscribersClass.png>]
+File: ../../team404_small.jpg Graphic file (type jpg)
+
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 119.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [25 <../images/MethodsClass.png>]
-File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 142.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [26]
-<../images/InterpreterClass.png, id=786, 548.0475pt x 379.4175pt>
+<../images/InterpreterClass.png, id=781, 548.0475pt x 379.4175pt>
 File: ../images/InterpreterClass.png Graphic file (type png)
 
 <use ../images/InterpreterClass.png>
-Package pdftex.def Info: ../images/InterpreterClass.png used on input line 147.
+Package pdftex.def Info: ../images/InterpreterClass.png used on input line 124.
 
 (pdftex.def)             Requested size: 356.22665pt x 246.61844pt.
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 172.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 149.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [27 <../images/InterpreterClass.png>]
-<../images/Router.png, id=793, 427.5975pt x 178.6675pt>
+ [26 <../images/InterpreterClass.png>]
+<../images/Router.png, id=788, 427.5975pt x 178.6675pt>
 File: ../images/Router.png Graphic file (type png)
 
 <use ../images/Router.png>
-Package pdftex.def Info: ../images/Router.png used on input line 185.
+Package pdftex.def Info: ../images/Router.png used on input line 162.
 (pdftex.def)             Requested size: 277.93507pt x 116.13249pt.
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 197.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 174.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [28 <../images/Router.png>]) (sezioni/attività.tex
-<"../images/diagramma 1".png, id=800, 6524.375pt x 2204.235pt>
+ [27 <../images/Router.png>]) (sezioni/attività.tex
+<"../images/diagramma 1".png, id=795, 6524.375pt x 2204.235pt>
 File: "../images/diagramma 1".png Graphic file (type png)
 
 <use "../images/diagramma 1".png>
@@ -1595,8 +1590,8 @@ File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 14.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [29 <../images/diagramma 1.png>]
-<"../images/diagramma 2".png, id=808, 4707.5875pt x 2573.615pt>
+ [28 <../images/diagramma 1.png>]
+<"../images/diagramma 2".png, id=802, 4707.5875pt x 2573.615pt>
 File: "../images/diagramma 2".png Graphic file (type png)
 
 <use "../images/diagramma 2".png>
@@ -1606,8 +1601,8 @@ File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 27.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [30 <../images/diagramma 2.png>]
-<"../images/diagramma 3".png, id=815, 1936.98656pt x 2538.48375pt>
+ [29 <../images/diagramma 2.png>]
+<"../images/diagramma 3".png, id=810, 1936.98656pt x 2538.48375pt>
 File: "../images/diagramma 3".png Graphic file (type png)
 
 <use "../images/diagramma 3".png>
@@ -1617,8 +1612,8 @@ File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 41.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [31 <../images/diagramma 3.png>]
-<"../images/diagramma 4".png, id=822, 3230.31844pt x 2035.605pt>
+ [30 <../images/diagramma 3.png>]
+<"../images/diagramma 4".png, id=817, 3230.31844pt x 2035.605pt>
 File: "../images/diagramma 4".png Graphic file (type png)
 
 <use "../images/diagramma 4".png>
@@ -1628,8 +1623,8 @@ File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 54.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [32 <../images/diagramma 4.png>]) (sezioni/sequenza.tex
-<../images/QuestionCreation.png, id=829, 1008.76875pt x 612.2875pt>
+ [31 <../images/diagramma 4.png>]) (sezioni/sequenza.tex
+<../images/QuestionCreation.png, id=824, 1008.76875pt x 612.2875pt>
 File: ../images/QuestionCreation.png Graphic file (type png)
 
 <use ../images/QuestionCreation.png>
@@ -1659,8 +1654,8 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 12.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [33 <../images/QuestionCreation.png>]
-<../images/ChooseViewQuiz.png, id=836, 724.7075pt x 531.9875pt>
+ [32 <../images/QuestionCreation.png>]
+<../images/ChooseViewQuiz.png, id=831, 724.7075pt x 531.9875pt>
 File: ../images/ChooseViewQuiz.png Graphic file (type png)
 
 <use ../images/ChooseViewQuiz.png>
@@ -1680,8 +1675,8 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 29.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [34 <../images/ChooseViewQuiz.png>]
-<../images/LoadQuiz.png, id=843, 612.2875pt x 307.1475pt>
+ [33 <../images/ChooseViewQuiz.png>]
+<../images/LoadQuiz.png, id=838, 612.2875pt x 307.1475pt>
 File: ../images/LoadQuiz.png Graphic file (type png)
 
 <use ../images/LoadQuiz.png>
@@ -1701,8 +1696,8 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 43.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [35 <../images/LoadQuiz.png>]
-<../images/QuestionTranslation.png, id=851, 805.0075pt x 382.42876pt>
+ [34 <../images/LoadQuiz.png>]
+<../images/QuestionTranslation.png, id=845, 805.0075pt x 382.42876pt>
 File: ../images/QuestionTranslation.png Graphic file (type png)
 
 <use ../images/QuestionTranslation.png>
@@ -1713,8 +1708,8 @@ File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 56.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [36 <../images/QuestionTranslation.png>]
-<../images/QuizExecution.png, id=858, 732.7375pt x 560.0925pt>
+ [35 <../images/QuestionTranslation.png>]
+<../images/QuizExecution.png, id=853, 732.7375pt x 560.0925pt>
 File: ../images/QuizExecution.png Graphic file (type png)
 
 <use ../images/QuizExecution.png>
@@ -1739,9 +1734,9 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 70.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [37 <../images/QuizExecution.png>])
+ [36 <../images/QuizExecution.png>])
 (sezioni/designPattern.tex
-<../images/AbsFactory.png, id=865, 314.3745pt x 284.262pt>
+<../images/AbsFactory.png, id=860, 314.3745pt x 284.262pt>
 File: ../images/AbsFactory.png Graphic file (type png)
 
 <use ../images/AbsFactory.png>
@@ -1751,15 +1746,15 @@ File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 26.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [38 <../images/AbsFactory.png>]
-<../images/interpreterClass.png, id=871, 548.0475pt x 379.4175pt>
+ [37 <../images/AbsFactory.png>]
+<../images/interpreterClass.png, id=866, 548.0475pt x 379.4175pt>
 File: ../images/interpreterClass.png Graphic file (type png)
 
 <use ../images/interpreterClass.png>
 Package pdftex.def Info: ../images/interpreterClass.png used on input line 34.
 (pdftex.def)             Requested size: 274.02307pt x 189.70828pt.
 
-<../images/publish-subscribe-pattern.png, id=872, 126.2316pt x 144.54pt>
+<../images/publish-subscribe-pattern.png, id=867, 126.2316pt x 144.54pt>
 File: ../images/publish-subscribe-pattern.png Graphic file (type png)
 
 <use ../images/publish-subscribe-pattern.png>
@@ -1771,9 +1766,9 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../../team404_small.jpg used on input line 79.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
 
-[39 <../images/interpreterClass.png> <../images/publish-subscribe-pattern.png>]
+[38 <../images/interpreterClass.png> <../images/publish-subscribe-pattern.png>]
 
-<../images/PublishSubscribeDesignPattern.png, id=879, 475.7775pt x 202.7575pt>
+<../images/PublishSubscribeDesignPattern.png, id=874, 475.7775pt x 202.7575pt>
 File: ../images/PublishSubscribeDesignPattern.png Graphic file (type png)
 
 <use ../images/PublishSubscribeDesignPattern.png>
@@ -1785,7 +1780,7 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 99.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [40 <../images/PublishSubscribeDesignPattern.png>]) (sezioni/tracciamentoCompR
+ [39 <../images/PublishSubscribeDesignPattern.png>]) (sezioni/tracciamentoCompR
 eq.tex
 Overfull \hbox (23.99998pt too wide) in alignment at lines 2--7
  [] [] 
@@ -1827,7 +1822,7 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 115.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [41]
+ [40]
 Overfull \hbox (23.99998pt too wide) in alignment at lines 115--135
  [] [] 
  []
@@ -1846,7 +1841,7 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 223.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [42]
+ [41]
 Overfull \hbox (23.99998pt too wide) in alignment at lines 223--253
  [] [] 
  []
@@ -1855,12 +1850,12 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 253.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [43]
+ [42]
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 254.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [44])
+ [43])
 (sezioni/tracciamentoReqComp.tex
 Overfull \hbox (23.99998pt too wide) in alignment at lines 3--8
  [] [] 
@@ -1900,40 +1895,59 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 74.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [45]) 
+ [44]) 
 AED: lastpage setting LastPage
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 187.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [46]
+ [45]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
  (specifica_tecnica_3.0.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
-Package rerunfilecheck Info: File `specifica_tecnica_3.0.out' has not changed.
-(rerunfilecheck)             Checksum: FB87A4628652C3A8A00540E13F9D2953;8321.
+
+
+Package rerunfilecheck Warning: File `specifica_tecnica_3.0.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `specifica_tecnica_3.0.out':
+(rerunfilecheck)             Before: FB87A4628652C3A8A00540E13F9D2953;8321
+(rerunfilecheck)             After:  5909B8A2B2DCEFE75AF354FE58E90E0C;7962.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 11160 strings out of 493698
- 165687 string characters out of 3144408
+ 11159 strings out of 493698
+ 165680 string characters out of 3144408
  310344 words of memory out of 3000000
  14025 multiletter control sequences out of 15000+200000
  28741 words of font info for 83 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  38i,17n,47p,1085b,534s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cantarell/cantarell-03.enc}{C:/P
-rogram Files/MiKTeX 2.9/fonts/enc/dvips/cantarell/cantarell-01.enc}{C:/Program 
-Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/cantarell/Cantarell-Bold.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/cantarell/Cantarell-Regular.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/cantarell/Cantarell-Regular.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/cm-super/sftt1095.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/cm-super/sftt1440.pfb>
-Output written on specifica_tecnica_3.0.pdf (54 pages, 1543068 bytes).
+pdfTeX warning (dest): name{subsubsubsection.8.2.2.3} has been referenced but
+ does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsubsection.8.2.1.9} has been referenced but d
+oes not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsubsection.8.2.1.8} has been referenced but d
+oes not exist, replaced by a fixed one
+
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cantarell/cantarell-03.enc}{C:/Pro
+gram Files/MiKTeX 2.9/fonts/enc/dvips/cantarell/cantarell-01.enc}{C:/Program Fi
+les/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/cantarell/Cantarell-Bold.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/cantarell/Cantarell-Regular.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/cantarell/Cantarell-Regular.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/cm-super/sftt1095.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/cm-super/sftt1440.pfb>
+Output written on specifica_tecnica_3.0.pdf (53 pages, 1602958 bytes).
 PDF statistics:
- 980 PDF objects out of 1000 (max. 8388607)
- 178 named destinations out of 1000 (max. 500000)
+ 975 PDF objects out of 1000 (max. 8388607)
+ 177 named destinations out of 1000 (max. 500000)
  983 words of extra memory for PDF output out of 10000 (max. 10000000)
 

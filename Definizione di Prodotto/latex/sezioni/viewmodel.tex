@@ -195,17 +195,71 @@ La classe utilizza:
 \begin{itemize}
 \item\textbf{Funzione del componente}: interfaccia di base del tipo Interpreter.
 	\item\textbf{Relazione d'uso con altre componenti}: viene concretizzata in ViewModel::Interpreter::QMLInterpreter.\\
-
-\item\textbf{Attributi}: nessuno
 \item\textbf{Metodi}:
 	\begin{itemize}
-		\item\code{+ translate(): String}: metodo astratto per la traduzione di un testo\\
-		\textbf{Precondizioni}: viene richiesta la traduzione di un testo\\
-		\textbf{Postcondizioni}: il testo è stato tradotto in un altro linguaggio\\
+		\item\code{+ QML2HTML(): String}:\\
+		 metodo per la traduzione da QML ad HTML. Questo metodo prende in input un file di testo in formato QML restituisce un elemento JavaScript da utilizzare nella pagina HTML per la visualizzazione della domanda \\
 		\textbf{Parametri}:
 			\begin{itemize}
-				\item\code{data: String}: l'input testuale che deve essere tradotto \\
+				\item\code{QMLText: String}:\\
+				 l'input testuale che deve essere convertito \\
 			\end{itemize}
+		\textbf{Precondizioni}: viene richiesta la conversione di un testo QML in un elemento Javascript\\
+		\textbf{Postcondizioni}: il testo è stato convertito ed è stato restituito un elemento javascript definito\\
+		\item\code{- getRightAnsMU(): Object}\\
+		 \\Metodo che restituisce la risposta giusta per il tipo MU\\
+		\textbf{Precondizioni}: la funzione QML2HTML() ha preso in input il testo in formato QML ed è stata creata e definita la variabile m di tipo array che contiene i risultati della funzione exec() chiamata in QML2HTML()\\
+		\textbf{Postcondizioni}: viene restituita l'unica risposta corretta \\
+		
+		\item\code{- getRightAnsMX(): Object}\\
+		 \\Metodo che restituisce la risposta giusta per il tipo MX\\
+		\textbf{Precondizioni}: la funzione QML2HTML() ha preso in input il testo in formato QML ed è stata creata e definita la variabile m di tipo array che contiene i risultati della funzione exec() chiamata in QML2HTML()\\
+		\textbf{Postcondizioni}: vengono restituite le risposte corrette \\
+		
+		\item\code{- getRightAnsAS(): Object}\\
+		 \\Metodo che restituisce la risposta giusta per il tipo AS\\
+		\textbf{Precondizioni}: la funzione QML2HTML() ha preso in input il testo in formato QML ed è stata creata e definita la variabile m di tipo array che contiene i risultati della funzione exec() chiamata in QML2HTML()\\
+		\textbf{Postcondizioni}: vengono restituiti due array di elementi che rappresentano l'insieme A e l'insieme B. Ogni elemento di un insieme è composto dal testo della risposta e dal suo numero identificativo \\
+		
+		\item\code{- getRightAnsOD(): Object}\\
+		 \\Metodo che restituisce la risposta giusta per il tipo OD\\
+		\textbf{Precondizioni}: la funzione QML2HTML() ha preso in input il testo in formato QML ed è stata creata e definita la variabile m di tipo array che contiene i risultati della funzione exec() chiamata in QML2HTML()\\
+		\textbf{Postcondizioni}: viene restituito un array di elementi in cui ogni elemento è composto dal testo della risposta e dal suo identificativo di posizio \\
+		
+		\item\code{+ HTML2QML(): String}:\\
+		 metodo per la conversione di un elemento domanda da JSObject a QML. Questo metodo prende in input un elemento JavaScript prodotto dal form di creazione domanda e restituisce una stringa in formato QML. \\
+		\textbf{Parametri}:
+			\begin{itemize}
+				\item\code{JSObject}: Object\\
+				 L'oggetto JavaScript da convertire in QML \\
+			\end{itemize}
+		\textbf{Precondizioni}: viene richiesta la conversione di un elemento Javascrip in un testo QML, l'elemento deve essere stato quindi definito\\
+		\textbf{Postcondizioni}: viene restituita una variabile stringa in formato QML\\
+		\item\code{- getQMLVF(): string}\\
+		 Metodo che restituisce la stringa QML dell'elemento domanda di tipo Vero/Falso\\
+		\textbf{Precondizioni}: la funzione HTML2QML() ha preso in input l'elemento JavaScript per la conversione\\
+		\textbf{Postcondizioni}: viene restituita una variabile stringa in formato QML\\
+		
+		\item\code{- getQMLMU(): string}\\
+		 Metodo che restituisce la stringa QML dell'elemento domanda di tipo risposta multipla\\
+		\textbf{Precondizioni}: la funzione HTML2QML() ha preso in input l'elemento JavaScript per la conversione\\
+		\textbf{Postcondizioni}: viene restituita una variabile stringa in formato QML \\
+		
+		\item\code{- getQMLMX(): string}\\
+		 Metodo che restituisce la stringa QML dell'elemento domanda di tipo risposta multipla a più risposte giuste possibili\\
+		\textbf{Precondizioni}: la funzione HTML2QML() ha preso in input l'elemento JavaScript per la conversione\\
+		\textbf{Postcondizioni}: viene restituita una variabile stringa in formato QML \\
+		
+		\item\code{- getQMLAS(): string}\\
+		 Metodo che restituisce la stringa QML dell'elemento domanda di tipo associazione\\
+		\textbf{Precondizioni}: la funzione HTML2QML() ha preso in input l'elemento JavaScript per la conversione\\
+		\textbf{Postcondizioni}: viene restituita una variabile stringa in formato QML \\
+		
+		\item\code{- getQMLOD(): string}\\
+		 Metodo che restituisce la stringa QML dell'elemento domanda di tipo ordinamento\\
+		\textbf{Precondizioni}: la funzione HTML2QML() ha preso in input l'elemento JavaScript per la conversione\\
+		\textbf{Postcondizioni}: viene restituita una variabile stringa in formato QML \\
+		
 	\end{itemize}
 \end{itemize}
 \newpage
@@ -554,19 +608,12 @@ La classe utilizza:
 \end{center}
 \end{figure}
  \begin{itemize}
- \item\textbf{Funzione del componente:} 
+ \item\textbf{Funzione del componente:} istanzia il template per la visualizzazione della pagina principale
  \item\textbf{Relazione con altri componenti:}
- \begin{itemize}
-	\item V
+ \begin{itemize} 
+	\item View::Templates::QuizHome
+	\item View::Quizzipedia
  \end{itemize}
- \item\textbf{Attributi:}
- \begin{itemize}
-	\item a
- \end{itemize}
- \item\textbf{Metodi:}
- 	\begin{itemize}
-\item V
- 	\end{itemize}
  \end{itemize}
 \newpage
 
@@ -577,19 +624,12 @@ La classe utilizza:
 \end{center}
 \end{figure}
   \begin{itemize}
- \item\textbf{Funzione del componente:} 
+ \item\textbf{Funzione del componente:} istanzia il template per la visualizzazione delle statistiche dettagliate per una determinata domanda o questionario
  \item\textbf{Relazione con altri componenti:}
  \begin{itemize}
-		\item V
+		\item View::Templates::QuizStatistics
+		\item View::Templates::QuizResults
  \end{itemize}
- \item\textbf{Attributi:}
- \begin{itemize}
-\item a
- \end{itemize}
- \item\textbf{Metodi:}
- 	\begin{itemize}
-\item wddwdad
- 	\end{itemize}
  \end{itemize}
 \newpage
 
@@ -600,17 +640,77 @@ La classe utilizza:
 \end{center}
 \end{figure}
   \begin{itemize}
- \item\textbf{Funzione del componente:} 
+ \item\textbf{Funzione del componente:} gestisce l'intera compilazione di un questionario
  \item\textbf{Relazione con altri componenti:}
  \begin{itemize}
-\item afewf
+	\item View::Templates::QuizCompilation
+	\item ViewModel::Interpreter::Interpreter
  \end{itemize}
  \item\textbf{Attributi:}
  \begin{itemize}
-		\item a
+		\item\code{punti: int} mantiene il punteggio corrente dell'utente
+		\item\code{quizPlay: bool} vera se il questionario è in esecuzione, falsa altrimenti
+		\item\code{idx: int} indice della domanda correntemente visualizzata
+		\item\code{pageTime: int} contatore contenente il tempo rimanente
+		\item\code{myQuiz: array} array che contiene il questionario caricato
+		\item\code{myQuestion: object} contiene la singola domanda attualmente visualizzata
  \end{itemize}
  \item\textbf{Metodi:}
  	\begin{itemize}
-\item faf
+\item setClass()
+\begin{itemize}
+	\item{Precondizione: L'utente seleziona una domanda}
+	\item{Postcondizione: La domanda su cui è stato invocato il metodo viene visualizzata}
+\end{itemize}
+\item checkTime()
+\begin{itemize}
+	\item{Precondizione: Viene richiesto il tempo rimanente}
+	\item{Postcondizione: Viene restituito il tempo rimanente ed eventualmente viene forzata la consegna}
+\end{itemize}
+\item startQuiz()
+\begin{itemize}
+	\item{Precondizione: L'utente ha richiesto un questionario per lo svolgimento}
+	\item{Postcondizione: Il questionario prescelto è in esecuzione}
+\end{itemize}
+\item prevQuestion()
+\begin{itemize}
+	\item{Precondizione: L'utente ha cliccato sul tasto Domanda Precedente}
+	\item{Postcondizione: Viene visualizzata la domanda precedente}
+\end{itemize}
+\item nextQuestion()
+\begin{itemize}
+	\item{Precondizione: L'utente ha cliccato sul tasto Domanda Successiva}
+	\item{Postcondizione: Viene visualizzata la domanda successiva}
+\end{itemize}
+\item goIndex(index)
+\begin{itemize}
+	\item{Precondizione: L'utente seleziona una domanda nella barra delle domande}
+	\item{Postcondizione: La domanda selezionata viene visualizzata}
+\end{itemize}
+\item goBack()
+\begin{itemize}
+	\item{Precondizione: L'utente clicca sul tasto Esci}
+	\item{Postcondizione: Il questionario viene terminato e non consegnato, viene visualizzata la pagina di selezione del questionario}
+\end{itemize}
+\item submitQuiz()
+\begin{itemize}
+	\item{Precondizione: L'utente clicca sul tasto Consegna}
+	\item{Postcondizione: Viene consegnato il quiz che verrà poi valutato dal sistema}
+\end{itemize}
+\item setAnswer(ans)
+\begin{itemize}
+	\item{Precondizione: L'utente ha selezionato una risposta}
+	\item{Postcondizione: La risposta viene registrata come data}
+\end{itemize}
+\item countPoints()
+\begin{itemize}
+	\item{Precondizione: viene richiesto il conteggio totale dei punti effettuati}
+	\item{Postcondizione: viene restituito il punteggio corrente}
+\end{itemize}
+\item questionResult(question)
+\begin{itemize}
+	\item{Precondizione: viene richiesta la verifica della correttezza di una risposta data dall'utente}
+	\item{Postcondizione: viene attribuito un punteggio positivo in caso di riposta corretta}
+\end{itemize}
  	\end{itemize}
  \end{itemize}
