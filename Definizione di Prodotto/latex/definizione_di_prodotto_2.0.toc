@@ -9,63 +9,63 @@
 \contentsline {subsubsection}{\numberline {1.4.2}Informativi}{2}{subsubsection.1.4.2}
 \contentsline {section}{\numberline {2}Package View}{3}{section.2}
 \contentsline {subsection}{\numberline {2.1}View::Quizzipedia}{3}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}View::Templates}{4}{subsection.2.2}
-\contentsline {subsubsection}{\numberline {2.2.1}View::Templates::quizHome}{4}{subsubsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2}View::Templates::quizList}{4}{subsubsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.3}View::Templates::quizResults}{4}{subsubsection.2.2.3}
-\contentsline {subsubsection}{\numberline {2.2.4}View::Templates::quizStatistics}{4}{subsubsection.2.2.4}
-\contentsline {subsubsection}{\numberline {2.2.5}View::Templates::searchForm}{4}{subsubsection.2.2.5}
-\contentsline {subsubsection}{\numberline {2.2.6}View::Templates::topbar}{4}{subsubsection.2.2.6}
-\contentsline {subsubsection}{\numberline {2.2.7}View::Templates::userProfile}{5}{subsubsection.2.2.7}
-\contentsline {subsubsection}{\numberline {2.2.8}View::Templates::navbar}{5}{subsubsection.2.2.8}
-\contentsline {subsubsection}{\numberline {2.2.9}View::Templates::question}{5}{subsubsection.2.2.9}
-\contentsline {subsubsection}{\numberline {2.2.10}View::Templates::questionForm}{5}{subsubsection.2.2.10}
-\contentsline {subsubsection}{\numberline {2.2.11}View::Templates::questionList}{5}{subsubsection.2.2.11}
-\contentsline {subsubsection}{\numberline {2.2.12}View::Templates::quiz}{5}{subsubsection.2.2.12}
-\contentsline {subsubsection}{\numberline {2.2.13}View::Templates::quizCompilation}{6}{subsubsection.2.2.13}
-\contentsline {subsubsection}{\numberline {2.2.14}View::Templates::quizCreationForm}{6}{subsubsection.2.2.14}
-\contentsline {section}{\numberline {3}Package Model}{7}{section.3}
-\contentsline {subsection}{\numberline {3.1}Model::Database}{7}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}Model::Database::QuizManager}{7}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}Model::Database::QuestionManager}{9}{subsubsection.3.1.2}
-\contentsline {subsubsection}{\numberline {3.1.3}Model::Database::Search}{11}{subsubsection.3.1.3}
-\contentsline {subsection}{\numberline {3.2}Model::Parser}{12}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Model::Parser::Parser}{12}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}La sintassi QML}{14}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}Esempi di domande secondo la sintassi corretta}{16}{subsubsection.3.2.3}
-\contentsline {subsection}{\numberline {3.3}Model::Statistics}{17}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Model::Statistics::Statistics}{17}{subsubsection.3.3.1}
-\contentsline {subsection}{\numberline {3.4}Model::Publishers}{19}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}Model::Publishers::QuizPublisher}{19}{subsubsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}Model::Publishers::QuestionPublisher}{20}{subsubsection.3.4.2}
-\contentsline {section}{\numberline {4}Package ViewModel}{21}{section.4}
-\contentsline {subsection}{\numberline {4.1}ViewModel::Subscribers}{21}{subsection.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}ViewModel::Subscribers::QuestionsSubscriber}{21}{subsubsection.4.1.1}
-\contentsline {subsubsection}{\numberline {4.1.2}ViewModel::Subscribers::QuizSubscriber}{23}{subsubsection.4.1.2}
-\contentsline {subsection}{\numberline {4.2}ViewModel::Methods}{24}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}ViewModel::Methods::QuestionMethods}{24}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2}ViewModel::Methods::QuizMethods}{25}{subsubsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.3}ViewModel::Methods::UserMethods}{26}{subsubsection.4.2.3}
-\contentsline {subsection}{\numberline {4.3}ViewModel::Interpreter}{27}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}ViewModel::Interpreter::Interpreter}{27}{subsubsection.4.3.1}
-\contentsline {subsection}{\numberline {4.4}ViewModel::Router}{28}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}ViewModel::Router::Router}{28}{subsubsection.4.4.1}
-\contentsline {subsection}{\numberline {4.5}ViewModel::Controller}{29}{subsection.4.5}
-\contentsline {subsubsection}{\numberline {4.5.1}ViewModel::Controller::QuestionList}{29}{subsubsection.4.5.1}
-\contentsline {subsubsection}{\numberline {4.5.2}ViewModel::Controller::Question}{30}{subsubsection.4.5.2}
-\contentsline {subsubsection}{\numberline {4.5.3}ViewModel::Controller::QuizList}{31}{subsubsection.4.5.3}
-\contentsline {subsubsection}{\numberline {4.5.4}ViewModel::Controller::Quiz}{32}{subsubsection.4.5.4}
-\contentsline {subsubsection}{\numberline {4.5.5}ViewModel::Controller::QuestionForm}{33}{subsubsection.4.5.5}
-\contentsline {subsubsection}{\numberline {4.5.6}ViewModel::Controller::QuizCreationForm}{34}{subsubsection.4.5.6}
-\contentsline {subsubsection}{\numberline {4.5.7}ViewModel::Controller::QuestionCompilation}{35}{subsubsection.4.5.7}
-\contentsline {subsubsection}{\numberline {4.5.8}ViewModel::Controller::QuizResults}{36}{subsubsection.4.5.8}
-\contentsline {subsubsection}{\numberline {4.5.9}ViewModel::Controller::SearchForm}{37}{subsubsection.4.5.9}
-\contentsline {subsubsection}{\numberline {4.5.10}ViewModel::Controller::NavBar}{38}{subsubsection.4.5.10}
-\contentsline {subsubsection}{\numberline {4.5.11}ViewModel::Controller::TopBar}{39}{subsubsection.4.5.11}
-\contentsline {subsubsection}{\numberline {4.5.12}ViewModel::Controller::UserProfile}{40}{subsubsection.4.5.12}
-\contentsline {subsubsection}{\numberline {4.5.13}ViewModel::Controller::QuizHome}{41}{subsubsection.4.5.13}
-\contentsline {subsubsection}{\numberline {4.5.14}ViewModel::Controller::QuizStatistics}{42}{subsubsection.4.5.14}
-\contentsline {subsubsection}{\numberline {4.5.15}ViewModel::Controller::QuizCompilation}{43}{subsubsection.4.5.15}
-\contentsline {section}{\numberline {5}Tracciamento}{44}{section.5}
-\contentsline {subsection}{\numberline {5.1}Mappatura classi - requisiti}{44}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Mappatura requisiti - classi}{48}{subsection.5.2}
+\contentsline {subsection}{\numberline {2.2}View::Templates}{5}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}View::Templates::quizHome}{5}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}View::Templates::quizList}{5}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}View::Templates::quizResults}{5}{subsubsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.4}View::Templates::quizStatistics}{5}{subsubsection.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.5}View::Templates::searchForm}{5}{subsubsection.2.2.5}
+\contentsline {subsubsection}{\numberline {2.2.6}View::Templates::topbar}{5}{subsubsection.2.2.6}
+\contentsline {subsubsection}{\numberline {2.2.7}View::Templates::userProfile}{6}{subsubsection.2.2.7}
+\contentsline {subsubsection}{\numberline {2.2.8}View::Templates::navbar}{6}{subsubsection.2.2.8}
+\contentsline {subsubsection}{\numberline {2.2.9}View::Templates::question}{6}{subsubsection.2.2.9}
+\contentsline {subsubsection}{\numberline {2.2.10}View::Templates::questionForm}{6}{subsubsection.2.2.10}
+\contentsline {subsubsection}{\numberline {2.2.11}View::Templates::questionList}{6}{subsubsection.2.2.11}
+\contentsline {subsubsection}{\numberline {2.2.12}View::Templates::quiz}{6}{subsubsection.2.2.12}
+\contentsline {subsubsection}{\numberline {2.2.13}View::Templates::quizCompilation}{7}{subsubsection.2.2.13}
+\contentsline {subsubsection}{\numberline {2.2.14}View::Templates::quizCreationForm}{7}{subsubsection.2.2.14}
+\contentsline {section}{\numberline {3}Package Model}{8}{section.3}
+\contentsline {subsection}{\numberline {3.1}Model::Database}{8}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Model::Database::QuizManager}{8}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Model::Database::QuestionManager}{10}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}Model::Database::Search}{12}{subsubsection.3.1.3}
+\contentsline {subsection}{\numberline {3.2}Model::Parser}{13}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Model::Parser::Parser}{13}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}La sintassi QML}{15}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Esempi di domande secondo la sintassi corretta}{17}{subsubsection.3.2.3}
+\contentsline {subsection}{\numberline {3.3}Model::Statistics}{18}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Model::Statistics::Statistics}{18}{subsubsection.3.3.1}
+\contentsline {subsection}{\numberline {3.4}Model::Publishers}{20}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Model::Publishers::QuizPublisher}{20}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Model::Publishers::QuestionPublisher}{21}{subsubsection.3.4.2}
+\contentsline {section}{\numberline {4}Package ViewModel}{22}{section.4}
+\contentsline {subsection}{\numberline {4.1}ViewModel::Subscribers}{22}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}ViewModel::Subscribers::QuestionsSubscriber}{22}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}ViewModel::Subscribers::QuizSubscriber}{24}{subsubsection.4.1.2}
+\contentsline {subsection}{\numberline {4.2}ViewModel::Methods}{25}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}ViewModel::Methods::QuestionMethods}{25}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}ViewModel::Methods::QuizMethods}{26}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}ViewModel::Methods::UserMethods}{27}{subsubsection.4.2.3}
+\contentsline {subsection}{\numberline {4.3}ViewModel::Interpreter}{28}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}ViewModel::Interpreter::Interpreter}{28}{subsubsection.4.3.1}
+\contentsline {subsection}{\numberline {4.4}ViewModel::Router}{31}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}ViewModel::Router::Router}{31}{subsubsection.4.4.1}
+\contentsline {subsection}{\numberline {4.5}ViewModel::Controller}{32}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}ViewModel::Controller::QuestionList}{32}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}ViewModel::Controller::Question}{33}{subsubsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.3}ViewModel::Controller::QuizList}{34}{subsubsection.4.5.3}
+\contentsline {subsubsection}{\numberline {4.5.4}ViewModel::Controller::Quiz}{35}{subsubsection.4.5.4}
+\contentsline {subsubsection}{\numberline {4.5.5}ViewModel::Controller::QuestionForm}{36}{subsubsection.4.5.5}
+\contentsline {subsubsection}{\numberline {4.5.6}ViewModel::Controller::QuizCreationForm}{37}{subsubsection.4.5.6}
+\contentsline {subsubsection}{\numberline {4.5.7}ViewModel::Controller::QuestionCompilation}{38}{subsubsection.4.5.7}
+\contentsline {subsubsection}{\numberline {4.5.8}ViewModel::Controller::QuizResults}{39}{subsubsection.4.5.8}
+\contentsline {subsubsection}{\numberline {4.5.9}ViewModel::Controller::SearchForm}{40}{subsubsection.4.5.9}
+\contentsline {subsubsection}{\numberline {4.5.10}ViewModel::Controller::NavBar}{41}{subsubsection.4.5.10}
+\contentsline {subsubsection}{\numberline {4.5.11}ViewModel::Controller::TopBar}{42}{subsubsection.4.5.11}
+\contentsline {subsubsection}{\numberline {4.5.12}ViewModel::Controller::UserProfile}{43}{subsubsection.4.5.12}
+\contentsline {subsubsection}{\numberline {4.5.13}ViewModel::Controller::QuizHome}{44}{subsubsection.4.5.13}
+\contentsline {subsubsection}{\numberline {4.5.14}ViewModel::Controller::QuizStatistics}{45}{subsubsection.4.5.14}
+\contentsline {subsubsection}{\numberline {4.5.15}ViewModel::Controller::QuizCompilation}{46}{subsubsection.4.5.15}
+\contentsline {section}{\numberline {5}Tracciamento}{48}{section.5}
+\contentsline {subsection}{\numberline {5.1}Mappatura classi - requisiti}{48}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Mappatura requisiti - classi}{52}{subsection.5.2}
