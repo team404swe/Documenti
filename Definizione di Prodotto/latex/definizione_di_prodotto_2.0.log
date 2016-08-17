@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.20)  17 AUG 2016 16:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.20)  17 AUG 2016 17:24
 entering extended mode
 **definizione_di_prodotto_2.0.tex
 (definizione_di_prodotto_2.0.tex
@@ -937,13 +937,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--43
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
 []|\T1/fca/m/n/9 Davide Bor-tot
- []
-
-
-Underfull \hbox (badness 2671) in paragraph at lines 46--46
-[]|\T1/fca/m/n/9 Marco Cri-vel-la-ro
  []
 
 
@@ -952,53 +947,53 @@ Underfull \hbox (badness 2671) in paragraph at lines 47--47
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
-[]|\T1/fca/m/n/9 Revisione in-te-gra-le View-Mo-del::Interpreter e
- []
-
-
 Underfull \hbox (badness 2671) in paragraph at lines 48--48
 []|\T1/fca/m/n/9 Marco Cri-vel-la-ro
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-[]|\T1/fca/m/n/9 Terminate se-zio-ni View-Mo-del::Controller,
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+[]|\T1/fca/m/n/9 Revisione in-te-gra-le View-Mo-del::Interpreter e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-[]|\T1/fca/m/n/9 Stesura se-zio-ne View-Mo-del::Subscribers e
- []
-
-
-Underfull \hbox (badness 2671) in paragraph at lines 51--51
+Underfull \hbox (badness 2671) in paragraph at lines 49--49
 []|\T1/fca/m/n/9 Marco Cri-vel-la-ro
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+[]|\T1/fca/m/n/9 Terminate se-zio-ni View-Mo-del::Controller,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+[]|\T1/fca/m/n/9 Stesura se-zio-ne View-Mo-del::Subscribers e
+ []
+
+
+Underfull \hbox (badness 2671) in paragraph at lines 52--52
+[]|\T1/fca/m/n/9 Marco Cri-vel-la-ro
+ []
+
+
+Underfull \hbox (badness 3209) in paragraph at lines 55--55
 []|\T1/fca/m/n/9 Inizio re-vi-sio-ne se-zio-ne View (ag-giun-ta sot-to-se-zio-n
 i
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
 []|\T1/fca/m/n/9 Davide Bor-tot
  []
 
 
-Underfull \hbox (badness 2671) in paragraph at lines 58--58
+Underfull \hbox (badness 2671) in paragraph at lines 59--59
 []|\T1/fca/m/n/9 Marco Cri-vel-la-ro
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
-[]|\T1/fca/m/n/9 Davide Bor-tot
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 []|\T1/fca/m/n/9 Davide Bor-tot
  []
 
@@ -1012,12 +1007,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--62
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
-[]|\T1/fca/m/n/9 Luca Ales-sio
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+[]|\T1/fca/m/n/9 Davide Bor-tot
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
 []|\T1/fca/m/n/9 Luca Ales-sio
  []
 
@@ -1028,7 +1023,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--67
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 68--68
-[]|\T1/fca/m/n/9 Davide Bor-tot
+[]|\T1/fca/m/n/9 Luca Ales-sio
  []
 
 
@@ -1036,11 +1031,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--69
 []|\T1/fca/m/n/9 Davide Bor-tot
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+[]|\T1/fca/m/n/9 Davide Bor-tot
+ []
+
 <../../team404_small.jpg, id=308, 382.42876pt x 153.57375pt>
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 71.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 72.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
 
 
@@ -1052,7 +1052,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [2 <../../team404_small.jpg>]
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 73.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 74.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [3]
 (definizione_di_prodotto_2.0.toc
@@ -1065,7 +1065,7 @@ Package pdftex.def Info: ../../team404_small.jpg used on input line 48.
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 77.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 78.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [1] (definizione_di_prodotto_2.0.lof)
 \tf@lof=\write5
@@ -1074,44 +1074,44 @@ Package pdftex.def Info: ../../team404_small.jpg used on input line 77.
 \tf@lot=\write6
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 81.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 82.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [2]
 LaTeX Font Info:    Font shape `T1/fca/m/it' in size <10.95> not available
-(Font)              Font shape `T1/fca/m/sl' tried instead on input line 86.
+(Font)              Font shape `T1/fca/m/sl' tried instead on input line 87.
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 88.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 89.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.88 	\newpage
+l.89 	\newpage
                [1]
 LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <12> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 90.
+(Font)              Font shape `T1/fca/b/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <8> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 94.
+(Font)              Font shape `T1/fca/b/n' tried instead on input line 95.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 94.
+(Font)              <5> on input line 95.
 LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <6> not available
-(Font)              Font shape `T1/fca/b/n' tried instead on input line 94.
-LaTeX Font Info:    Try loading font information for TS1+fca on input line 103.
+(Font)              Font shape `T1/fca/b/n' tried instead on input line 95.
+LaTeX Font Info:    Try loading font information for TS1+fca on input line 104.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\cantarell\ts1fca.fd"
 File: ts1fca.fd 2012/06/11 Fontinst v1.933 font definitions for TS1/fca.
 )
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 121.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 122.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.121 	\newpage
+l.122 	\newpage
                 [2] (sezioni/view.tex
 <../images/ViewPackage.png, id=430, 475.7775pt x 459.7175pt>
 File: ../images/ViewPackage.png Graphic file (type png)
@@ -1290,7 +1290,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--104
 )
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 123.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 124.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [7] (sezioni/model.tex
 <../images/ModelPackage.jpg, id=458, 1051.93pt x 449.68pt>
@@ -1454,7 +1454,7 @@ File: ../images/Model/Database/Search.png Graphic file (type png)
 <use ../images/Model/Database/Search.png>
 Package pdftex.def Info: ../images/Model/Database/Search.png used on input line
  105.
-(pdftex.def)             Requested size: 108.00157pt x 65.84482pt.
+(pdftex.def)             Requested size: 162.00648pt x 98.76976pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
@@ -1486,7 +1486,7 @@ File: ../images/Model/Parser/Parser.png Graphic file (type png)
 <use ../images/Model/Parser/Parser.png>
 Package pdftex.def Info: ../images/Model/Parser/Parser.png used on input line 1
 40.
-(pdftex.def)             Requested size: 106.79709pt x 87.12395pt.
+(pdftex.def)             Requested size: 160.19972pt x 130.68924pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
@@ -1626,7 +1626,7 @@ File: ../images/Model/Statistics/Statistics.png Graphic file (type png)
 <use ../images/Model/Statistics/Statistics.png>
 Package pdftex.def Info: ../images/Model/Statistics/Statistics.png used on inpu
 t line 319.
-(pdftex.def)             Requested size: 289.87787pt x 77.8896pt.
+(pdftex.def)             Requested size: 434.82785pt x 116.83739pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 327--328
 
@@ -1667,18 +1667,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 352--353
 
  []
 
-
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 353.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [18 <../images/Model/Statistics/Statistics.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 353--356
 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 356.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [18 <../images/Model/Statistics/Statistics.png>]
-File: ../../team404_small.jpg Graphic file (type jpg)
-
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 359.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
@@ -1689,7 +1687,7 @@ File: ../images/Model/Publishers/QuizPublisher.png Graphic file (type png)
 <use ../images/Model/Publishers/QuizPublisher.png>
 Package pdftex.def Info: ../images/Model/Publishers/QuizPublisher.png used on i
 nput line 365.
-(pdftex.def)             Requested size: 89.5329pt x 64.23885pt.
+(pdftex.def)             Requested size: 134.30278pt x 96.36073pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 370--371
 
@@ -1711,7 +1709,7 @@ File: ../images/Model/Publishers/QuestionPublisher.png Graphic file (type png)
  <use ../images/Model/Publishers/QuestionPublisher.png>
 Package pdftex.def Info: ../images/Model/Publishers/QuestionPublisher.png used 
 on input line 383.
-(pdftex.def)             Requested size: 88.72992pt x 63.03436pt.
+(pdftex.def)             Requested size: 133.09825pt x 94.55397pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 388--389
 
@@ -1725,7 +1723,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 391--394
 )
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 125.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 126.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [21 <../images/Model/Publishers/QuestionPublisher.png>] (sezioni/viewmodel.tex
 
@@ -1908,108 +1906,120 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../../team404_small.jpg used on input line 186.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [27 <../images/ViewModel/Methods/UserMethods.png>]
-Overfull \hbox (78.90694pt too wide) in paragraph at lines 192--193
-[]\T1/fca/b/n/10.95 Relazione d'u-so con al-tre com-po-nen-ti\T1/fca/m/n/10.95 
-: vie-ne con-cre-tiz-za-ta in View-Mo-del::Interpreter::QMLInterpreter. 
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
+<../images/ViewModel/Interpreter/InterpreterFactory.png, id=661, 232.87pt x 149
+.55875pt>
+File: ../images/ViewModel/Interpreter/InterpreterFactory.png Graphic file (type
+ png)
+ <use ../images/ViewModel/Interpreter/InterpreterFactory.png>
+Package pdftex.def Info: ../images/ViewModel/Interpreter/InterpreterFactory.png
+ used on input line 197.
+(pdftex.def)             Requested size: 93.14633pt x 59.82243pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--204
+Underfull \hbox (badness 10000) in paragraph at lines 206--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
+<../images/ViewModel/Interpreter/QMLInterpreterFactory.png, id=662, 318.18875pt
+ x 187.70125pt>
+File: ../images/ViewModel/Interpreter/QMLInterpreterFactory.png Graphic file (t
+ype png)
+
+<use ../images/ViewModel/Interpreter/QMLInterpreterFactory.png>
+Package pdftex.def Info: ../images/ViewModel/Interpreter/QMLInterpreterFactory.
+png used on input line 215.
+(pdftex.def)             Requested size: 127.27324pt x 75.07916pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 218--221
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 221--224
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 230.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 224.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [28]
-Overfull \hbox (16.48106pt too wide) in paragraph at lines 230--231
+ [28 <../images/ViewModel/Interpreter/InterpreterFactory.png> <../images/ViewMo
+del/Interpreter/QMLInterpreterFactory.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+
+Overfull \hbox (4.52538pt too wide) in paragraph at lines 228--231
+[]\T1/cmtt/m/n/10.95 + getInstance(): QMLInterpreterFactory\T1/fca/m/n/10.95 : 
+me-to-do che ri-tor-na l'u-ni-ca istan-za del-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--231
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--234
+
+ []
+
+
+<../images/ViewModel/Interpreter/QMLInterpreter.png, id=672, 291.0875pt x 178.6
+675pt>
+File: ../images/ViewModel/Interpreter/QMLInterpreter.png Graphic file (type png
+)
+ <use ../images/ViewModel/Interpreter/QMLInterpreter.png>
+Package pdftex.def Info: ../images/ViewModel/Interpreter/QMLInterpreter.png use
+d on input line 240.
+(pdftex.def)             Requested size: 116.43292pt x 71.46573pt.
+
+Overfull \hbox (16.48106pt too wide) in paragraph at lines 245--246
 []\T1/fca/b/n/10.95 Relazione d'u-so con al-tre com-po-nen-ti\T1/fca/m/n/10.95 
 : è sot-to-ti-po di View-Mo-del::Interpreter::Interpreter.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--238
+Underfull \hbox (badness 10000) in paragraph at lines 249--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--256
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--259
-
- []
+<../images/ViewModel/Interpreter/QML2HTMLInterpreter.png, id=673, 326.21875pt x
+ 297.11pt>
+File: ../images/ViewModel/Interpreter/QML2HTMLInterpreter.png Graphic file (typ
+e png)
+ <use ../images/ViewModel/Interpreter/QML2HTMLInterpreter.png>
+Package pdftex.def Info: ../images/ViewModel/Interpreter/QML2HTMLInterpreter.pn
+g used on input line 262.
+(pdftex.def)             Requested size: 130.48518pt x 118.84189pt.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--263
-
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--263
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--268
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--268
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
  []
 
@@ -2017,57 +2027,67 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 268.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [29]
-Underfull \hbox (badness 10000) in paragraph at lines 269--273
+ [29 <../images/ViewModel/Interpreter/QMLInterpreter.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 274--276
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--273
+Underfull \hbox (badness 10000) in paragraph at lines 277--279
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--278
+Underfull \hbox (badness 10000) in paragraph at lines 279--283
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--278
+Underfull \hbox (badness 10000) in paragraph at lines 279--283
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--285
+Underfull \hbox (badness 10000) in paragraph at lines 284--288
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--288
+Underfull \hbox (badness 10000) in paragraph at lines 284--288
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--292
+Underfull \hbox (badness 10000) in paragraph at lines 289--293
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--297
+Underfull \hbox (badness 10000) in paragraph at lines 289--293
 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 297.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 293.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [30]
-Underfull \hbox (badness 10000) in paragraph at lines 298--302
+ [30 <../images/ViewModel/Interpreter/QML2HTMLInterpreter.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 294--298
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--307
+Underfull \hbox (badness 10000) in paragraph at lines 294--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--305
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--308
 
  []
 
@@ -2076,367 +2096,369 @@ Underfull \hbox (badness 10000) in paragraph at lines 308--312
 
  []
 
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 315.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [31]
-<../images/ViewModel/Router/Router.png, id=682, 377.41pt x 202.7575pt>
-File: ../images/ViewModel/Router/Router.png Graphic file (type png)
 
-<use ../images/ViewModel/Router/Router.png>
-Package pdftex.def Info: ../images/ViewModel/Router/Router.png used on input li
-ne 321.
-(pdftex.def)             Requested size: 150.96132pt x 81.10156pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
+Underfull \hbox (badness 10000) in paragraph at lines 313--317
 
  []
 
 
-Overfull \hbox (1.07611pt too wide) in paragraph at lines 329--330
+Underfull \hbox (badness 10000) in paragraph at lines 318--322
+
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 322.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [31]
+Underfull \hbox (badness 10000) in paragraph at lines 323--327
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--332
+
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 335.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [32]
+<../images/ViewModel/Router/Router.png, id=699, 377.41pt x 202.7575pt>
+File: ../images/ViewModel/Router/Router.png Graphic file (type png)
+
+<use ../images/ViewModel/Router/Router.png>
+Package pdftex.def Info: ../images/ViewModel/Router/Router.png used on input li
+ne 341.
+(pdftex.def)             Requested size: 150.96132pt x 81.10156pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
+
+ []
+
+
+Overfull \hbox (1.07611pt too wide) in paragraph at lines 349--350
 []\T1/cmtt/m/n/10.95 $urlRouterProvider: $urlRouterProvider\T1/fca/m/n/10.95 : 
 mo-du-lo del pac-ka-ge ui-router per de-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--330
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--331
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--337
+Underfull \hbox (badness 10000) in paragraph at lines 354--357
 
  []
 
 
-Overfull \hbox (14.38388pt too wide) in paragraph at lines 342--343
+Overfull \hbox (14.38388pt too wide) in paragraph at lines 362--363
 []\T1/cmtt/m/n/10.95 state: String\T1/fca/m/n/10.95 : il no-me del-lo sta-to ra
 p-pre-sen-ta-to dal-l'as-so-cia-zio-ne Url-Template 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
+Underfull \hbox (badness 10000) in paragraph at lines 363--364
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--345
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 348.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 368.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [32 <../images/ViewModel/Router/Router.png>]
-<../images/ViewModel/Controller/QuestionList.png, id=690, 313.17pt x 207.77625p
+ [33 <../images/ViewModel/Router/Router.png>]
+<../images/ViewModel/Controller/QuestionList.png, id=707, 313.17pt x 207.77625p
 t>
 File: ../images/ViewModel/Controller/QuestionList.png Graphic file (type png)
  <use ../images/ViewModel/Controller/QuestionList.png>
 Package pdftex.def Info: ../images/ViewModel/Controller/QuestionList.png used o
-n input line 354.
+n input line 374.
 (pdftex.def)             Requested size: 187.90344pt x 124.6667pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--370
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--371
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--372
+Underfull \hbox (badness 10000) in paragraph at lines 391--392
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--376
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--378
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 380.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 400.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [33 <../images/ViewModel/Controller/QuestionList.png>]
-<../images/ViewModel/Controller/Question.png, id=698, 271.0125pt x 204.765pt>
+ [34 <../images/ViewModel/Controller/QuestionList.png>]
+<../images/ViewModel/Controller/Question.png, id=715, 271.0125pt x 204.765pt>
 File: ../images/ViewModel/Controller/Question.png Graphic file (type png)
 
 <use ../images/ViewModel/Controller/Question.png>
 Package pdftex.def Info: ../images/ViewModel/Controller/Question.png used on in
-put line 385.
+put line 405.
 (pdftex.def)             Requested size: 162.60875pt x 122.85992pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--399
+Underfull \hbox (badness 10000) in paragraph at lines 418--419
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
+Underfull \hbox (badness 10000) in paragraph at lines 420--421
 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 405.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 425.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [34 <../images/ViewModel/Controller/Question.png>]
-<../images/ViewModel/Controller/QuizList.png, id=706, 280.04625pt x 251.94125pt
+ [35 <../images/ViewModel/Controller/Question.png>]
+<../images/ViewModel/Controller/QuizList.png, id=723, 280.04625pt x 251.94125pt
 >
 File: ../images/ViewModel/Controller/QuizList.png Graphic file (type png)
  <use ../images/ViewModel/Controller/QuizList.png>
 Package pdftex.def Info: ../images/ViewModel/Controller/QuizList.png used on in
-put line 410.
+put line 430.
 (pdftex.def)             Requested size: 168.02904pt x 151.16591pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--426
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--427
+Underfull \hbox (badness 10000) in paragraph at lines 446--447
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--428
+Underfull \hbox (badness 10000) in paragraph at lines 447--448
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--429
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--430
+Underfull \hbox (badness 10000) in paragraph at lines 449--450
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--431
+Underfull \hbox (badness 10000) in paragraph at lines 450--451
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 431--432
+Underfull \hbox (badness 10000) in paragraph at lines 451--452
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--433
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 435.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 455.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [35 <../images/ViewModel/Controller/QuizList.png>] <../images/ViewModel/Contro
-ller/Quiz.png, id=714, 219.82124pt x 183.68625pt>
+ [36 <../images/ViewModel/Controller/QuizList.png>] <../images/ViewModel/Contro
+ller/Quiz.png, id=731, 219.82124pt x 183.68625pt>
 File: ../images/ViewModel/Controller/Quiz.png Graphic file (type png)
 
 <use ../images/ViewModel/Controller/Quiz.png>
 Package pdftex.def Info: ../images/ViewModel/Controller/Quiz.png used on input 
-line 440.
+line 460.
 (pdftex.def)             Requested size: 131.89375pt x 110.21259pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
+Underfull \hbox (badness 10000) in paragraph at lines 474--475
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 456--457
+Underfull \hbox (badness 10000) in paragraph at lines 476--477
 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 461.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 481.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [36 <../images/ViewModel/Controller/Quiz.png>]
-<../images/ViewModel/Controller/QuestionForm.png, id=722, 379.4175pt x 201.7537
+ [37 <../images/ViewModel/Controller/Quiz.png>]
+<../images/ViewModel/Controller/QuestionForm.png, id=740, 379.4175pt x 201.7537
 5pt>
 File: ../images/ViewModel/Controller/QuestionForm.png Graphic file (type png)
  <use ../images/ViewModel/Controller/QuestionForm.png>
 Package pdftex.def Info: ../images/ViewModel/Controller/QuestionForm.png used o
-n input line 466.
+n input line 486.
 (pdftex.def)             Requested size: 227.65225pt x 121.05318pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--474
+Underfull \hbox (badness 10000) in paragraph at lines 493--494
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 475--476
+Underfull \hbox (badness 10000) in paragraph at lines 495--496
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 481--482
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 482--483
-
- []
-
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 485.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [37 <../images/ViewModel/Controller/QuestionForm.png>]
-<../images/ViewModel/Controller/QuizCreationForm.png, id=731, 405.515pt x 193.7
-2375pt>
-File: ../images/ViewModel/Controller/QuizCreationForm.png Graphic file (type pn
-g)
- <use ../images/ViewModel/Controller/QuizCreationForm.png>
-Package pdftex.def Info: ../images/ViewModel/Controller/QuizCreationForm.png us
-ed on input line 490.
-(pdftex.def)             Requested size: 243.31087pt x 116.23514pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 502--503
 
  []
 
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 505.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [38 <../images/ViewModel/Controller/QuestionForm.png>]
+<../images/ViewModel/Controller/QuizCreationForm.png, id=748, 405.515pt x 193.7
+2375pt>
+File: ../images/ViewModel/Controller/QuizCreationForm.png Graphic file (type pn
+g)
+ <use ../images/ViewModel/Controller/QuizCreationForm.png>
+Package pdftex.def Info: ../images/ViewModel/Controller/QuizCreationForm.png us
+ed on input line 510.
+(pdftex.def)             Requested size: 243.31087pt x 116.23514pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 504--505
+Underfull \hbox (badness 10000) in paragraph at lines 522--523
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 508--509
+Underfull \hbox (badness 10000) in paragraph at lines 524--525
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 509--511
+Underfull \hbox (badness 10000) in paragraph at lines 528--529
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--512
+Underfull \hbox (badness 10000) in paragraph at lines 529--531
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--532
 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 514.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 534.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [38 <../images/ViewModel/Controller/QuizCreationForm.png>]
-<../images/ViewModel/Controller/QuestionCompilation.png, id=739, 286.06876pt x 
+ [39 <../images/ViewModel/Controller/QuizCreationForm.png>]
+<../images/ViewModel/Controller/QuestionCompilation.png, id=756, 286.06876pt x 
 170.6375pt>
 File: ../images/ViewModel/Controller/QuestionCompilation.png Graphic file (type
  png)
  <use ../images/ViewModel/Controller/QuestionCompilation.png>
 Package pdftex.def Info: ../images/ViewModel/Controller/QuestionCompilation.png
- used on input line 519.
+ used on input line 539.
 (pdftex.def)             Requested size: 171.64258pt x 102.38327pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 532--533
+Underfull \hbox (badness 10000) in paragraph at lines 552--553
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 534--535
+Underfull \hbox (badness 10000) in paragraph at lines 554--555
 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 537.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 557.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [39 <../images/ViewModel/Controller/QuestionCompilation.png>]
-<../images/ViewModel/Controller/QuizResults.png, id=747, 207.77625pt x 175.6562
+ [40 <../images/ViewModel/Controller/QuestionCompilation.png>]
+<../images/ViewModel/Controller/QuizResults.png, id=764, 207.77625pt x 175.6562
 5pt>
 File: ../images/ViewModel/Controller/QuizResults.png Graphic file (type png)
  <use ../images/ViewModel/Controller/QuizResults.png>
 Package pdftex.def Info: ../images/ViewModel/Controller/QuizResults.png used on
- input line 542.
+ input line 562.
 (pdftex.def)             Requested size: 124.6667pt x 105.39455pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 555--556
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 556--557
-
- []
-
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 563.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [40 <../images/ViewModel/Controller/QuizResults.png>]
-<../images/ViewModel/Controller/SearchForm.png, id=755, 234.8775pt x 210.7875pt
->
-File: ../images/ViewModel/Controller/SearchForm.png Graphic file (type png)
- <use ../images/ViewModel/Controller/SearchForm.png>
-Package pdftex.def Info: ../images/ViewModel/Controller/SearchForm.png used on 
-input line 568.
-(pdftex.def)             Requested size: 140.92758pt x 126.47346pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 575--576
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 577--578
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 578--579
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 582--583
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 583--584
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 584--585
+Underfull \hbox (badness 10000) in paragraph at lines 576--577
 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 587.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 583.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [41 <../images/ViewModel/Controller/SearchForm.png>]
-<../images/ViewModel/Controller/NavBar.png, id=763, 175.65625pt x 146.5475pt>
-File: ../images/ViewModel/Controller/NavBar.png Graphic file (type png)
+ [41 <../images/ViewModel/Controller/QuizResults.png>]
+<../images/ViewModel/Controller/SearchForm.png, id=772, 234.8775pt x 210.7875pt
+>
+File: ../images/ViewModel/Controller/SearchForm.png Graphic file (type png)
+ <use ../images/ViewModel/Controller/SearchForm.png>
+Package pdftex.def Info: ../images/ViewModel/Controller/SearchForm.png used on 
+input line 588.
+(pdftex.def)             Requested size: 140.92758pt x 126.47346pt.
 
-<use ../images/ViewModel/Controller/NavBar.png>
-Package pdftex.def Info: ../images/ViewModel/Controller/NavBar.png used on inpu
-t line 592.
-(pdftex.def)             Requested size: 105.39455pt x 87.92915pt.
+Underfull \hbox (badness 10000) in paragraph at lines 595--596
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 598--599
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 602--603
+
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 603--604
 
@@ -2451,84 +2473,106 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 607.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [42 <../images/ViewModel/Controller/NavBar.png>]
+ [42 <../images/ViewModel/Controller/SearchForm.png>]
+<../images/ViewModel/Controller/NavBar.png, id=780, 175.65625pt x 146.5475pt>
+File: ../images/ViewModel/Controller/NavBar.png Graphic file (type png)
+
+<use ../images/ViewModel/Controller/NavBar.png>
+Package pdftex.def Info: ../images/ViewModel/Controller/NavBar.png used on inpu
+t line 612.
+(pdftex.def)             Requested size: 105.39455pt x 87.92915pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 623--624
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 624--625
+
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 627.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [43 <../images/ViewModel/Controller/NavBar.png>]
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 617.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 637.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [43]
-<../images/ViewModel/Controller/UserProfile.png, id=777, 179.67125pt x 180.675p
+ [44]
+<../images/ViewModel/Controller/UserProfile.png, id=794, 179.67125pt x 180.675p
 t>
 File: ../images/ViewModel/Controller/UserProfile.png Graphic file (type png)
  <use ../images/ViewModel/Controller/UserProfile.png>
 Package pdftex.def Info: ../images/ViewModel/Controller/UserProfile.png used on
- input line 622.
+ input line 642.
 (pdftex.def)             Requested size: 107.80356pt x 108.40582pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--627
+Underfull \hbox (badness 10000) in paragraph at lines 646--647
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 637--638
+Underfull \hbox (badness 10000) in paragraph at lines 657--658
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--639
+Underfull \hbox (badness 10000) in paragraph at lines 658--659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 642--643
+Underfull \hbox (badness 10000) in paragraph at lines 662--663
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 643--644
+Underfull \hbox (badness 10000) in paragraph at lines 663--664
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 644--645
+Underfull \hbox (badness 10000) in paragraph at lines 664--665
 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 647.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 667.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [44 <../images/ViewModel/Controller/UserProfile.png>]
+ [45 <../images/ViewModel/Controller/UserProfile.png>]
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 658.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [45]
-File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 669.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 678.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [46]
-<../images/ViewModel/Controller/QuizCompilation.png, id=795, 323.2075pt x 379.4
+File: ../../team404_small.jpg Graphic file (type jpg)
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 689.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [47]
+<../images/ViewModel/Controller/QuizCompilation.png, id=812, 323.2075pt x 379.4
 175pt>
 File: ../images/ViewModel/Controller/QuizCompilation.png Graphic file (type png
 )
  <use ../images/ViewModel/Controller/QuizCompilation.png>
 Package pdftex.def Info: ../images/ViewModel/Controller/QuizCompilation.png use
-d on input line 674.
+d on input line 694.
 (pdftex.def)             Requested size: 193.926pt x 227.65225pt.
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 713.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 733.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [47 <../images/ViewModel/Controller/QuizCompilation.png>])
+ [48 <../images/ViewModel/Controller/QuizCompilation.png>])
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 127.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 128.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [48] (sezioni/tracciamento.tex
+ [49] (sezioni/tracciamento.tex
 Overfull \hbox (23.99998pt too wide) in alignment at lines 3--9
  [] [] 
  []
@@ -2569,7 +2613,7 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 118.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [49]
+ [50]
 Overfull \hbox (23.99998pt too wide) in alignment at lines 118--138
  [] [] 
  []
@@ -2588,7 +2632,7 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 222.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [50]
+ [51]
 Overfull \hbox (23.99998pt too wide) in alignment at lines 222--257
  [] [] 
  []
@@ -2597,12 +2641,12 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 257.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [51]
+ [52]
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 258.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [52]
+ [53]
 Overfull \hbox (23.99998pt too wide) in alignment at lines 262--267
  [] [] 
  []
@@ -2641,27 +2685,27 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 333.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [53]) 
+ [54]) 
 AED: lastpage setting LastPage
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 129.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 130.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [54]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
+ [55]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
  (definizione_di_prodotto_2.0.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 130.
 Package rerunfilecheck Info: File `definizione_di_prodotto_2.0.out' has not cha
 nged.
 (rerunfilecheck)             Checksum: C236A8FF5444EF8F7053A3C67DABA0A7;6110.
  ) 
 Here is how much of TeX's memory you used:
- 11491 strings out of 493698
- 169330 string characters out of 3144408
+ 11517 strings out of 493698
+ 170465 string characters out of 3144408
  388344 words of memory out of 3000000
- 14339 multiletter control sequences out of 15000+200000
+ 14355 multiletter control sequences out of 15000+200000
  29369 words of font info for 85 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  38i,17n,47p,979b,1251s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2675,9 +2719,9 @@ TeX 2.9/fonts/type1/public/cm-super/sfit0900.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/cm-super/sftt0900.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/cm-super/sftt1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 cm-super/sftt1440.pfb>
-Output written on definizione_di_prodotto_2.0.pdf (60 pages, 820362 bytes).
+Output written on definizione_di_prodotto_2.0.pdf (61 pages, 818681 bytes).
 PDF statistics:
- 919 PDF objects out of 1000 (max. 8388607)
- 219 named destinations out of 1000 (max. 500000)
- 735 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 938 PDF objects out of 1000 (max. 8388607)
+ 224 named destinations out of 1000 (max. 500000)
+ 755 words of extra memory for PDF output out of 10000 (max. 10000000)
 

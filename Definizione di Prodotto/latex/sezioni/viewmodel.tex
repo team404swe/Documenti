@@ -189,7 +189,7 @@ La classe utilizza:
 \subsubsection{ViewModel::Interpreter::Interpreter}
 \begin{itemize}
 \item\textbf{Funzione del componente}: interfaccia di base del tipo Interpreter.
-	\item\textbf{Relazione d'uso con altre componenti}: viene concretizzata in ViewModel::Interpreter::QMLInterpreter.\\
+	\item\textbf{Relazione d'uso con altre componenti}: viene concretizzata in\\ ViewModel::Interpreter::QMLInterpreter.\\
 \end{itemize}
 \subsubsection{ViewModel::Interpreter::InterpreterFactory}
 \begin{figure}[h!]
@@ -225,7 +225,7 @@ La classe utilizza:
 \item\textbf{Metodi}:
 	\begin{itemize}
 		\item\code{- QMLInterpreterFactory()}: costruttore privato della classe\\
-		\item\code{+ getInstance(): : QMLInterpreterFactory}: metodo che ritorna l'unica istanza della classe\\
+		\item\code{+ getInstance(): QMLInterpreterFactory}: metodo che ritorna l'unica istanza della classe\\
 		\textbf{Precondizioni}: viene richiesta la factory QMLInterpreterFactory\\
 		\textbf{Postcondizioni}: l'unica istanza della factory viene ritornata al chiamante. Se la factory non esisteva è stata creata.\\
 		\item\code{+ createInterpreter(): QMLInterpreter}: metodo ereditato da InterpreterFactorye concretizzato per la creazione di un interprete di tipo QMLInterpreter.\\
