@@ -46,24 +46,28 @@
 \BOOKMARK [3][-]{subsubsection.4.2.3}{ViewModel::Methods::UserMethods}{subsection.4.2}% 46
 \BOOKMARK [2][-]{subsection.4.3}{ViewModel::Interpreter}{section.4}% 47
 \BOOKMARK [3][-]{subsubsection.4.3.1}{ViewModel::Interpreter::Interpreter}{subsection.4.3}% 48
-\BOOKMARK [2][-]{subsection.4.4}{ViewModel::Router}{section.4}% 49
-\BOOKMARK [3][-]{subsubsection.4.4.1}{ViewModel::Router::Router}{subsection.4.4}% 50
-\BOOKMARK [2][-]{subsection.4.5}{ViewModel::Controller}{section.4}% 51
-\BOOKMARK [3][-]{subsubsection.4.5.1}{ViewModel::Controller::QuestionList}{subsection.4.5}% 52
-\BOOKMARK [3][-]{subsubsection.4.5.2}{ViewModel::Controller::Question}{subsection.4.5}% 53
-\BOOKMARK [3][-]{subsubsection.4.5.3}{ViewModel::Controller::QuizList}{subsection.4.5}% 54
-\BOOKMARK [3][-]{subsubsection.4.5.4}{ViewModel::Controller::Quiz}{subsection.4.5}% 55
-\BOOKMARK [3][-]{subsubsection.4.5.5}{ViewModel::Controller::QuestionForm}{subsection.4.5}% 56
-\BOOKMARK [3][-]{subsubsection.4.5.6}{ViewModel::Controller::QuizCreationForm}{subsection.4.5}% 57
-\BOOKMARK [3][-]{subsubsection.4.5.7}{ViewModel::Controller::QuestionCompilation}{subsection.4.5}% 58
-\BOOKMARK [3][-]{subsubsection.4.5.8}{ViewModel::Controller::QuizResults}{subsection.4.5}% 59
-\BOOKMARK [3][-]{subsubsection.4.5.9}{ViewModel::Controller::SearchForm}{subsection.4.5}% 60
-\BOOKMARK [3][-]{subsubsection.4.5.10}{ViewModel::Controller::NavBar}{subsection.4.5}% 61
-\BOOKMARK [3][-]{subsubsection.4.5.11}{ViewModel::Controller::TopBar}{subsection.4.5}% 62
-\BOOKMARK [3][-]{subsubsection.4.5.12}{ViewModel::Controller::UserProfile}{subsection.4.5}% 63
-\BOOKMARK [3][-]{subsubsection.4.5.13}{ViewModel::Controller::QuizHome}{subsection.4.5}% 64
-\BOOKMARK [3][-]{subsubsection.4.5.14}{ViewModel::Controller::QuizStatistics}{subsection.4.5}% 65
-\BOOKMARK [3][-]{subsubsection.4.5.15}{ViewModel::Controller::QuizCompilation}{subsection.4.5}% 66
-\BOOKMARK [1][-]{section.5}{Tracciamento}{}% 67
-\BOOKMARK [2][-]{subsection.5.1}{Mappatura classi - requisiti}{section.5}% 68
-\BOOKMARK [2][-]{subsection.5.2}{Mappatura requisiti - classi}{section.5}% 69
+\BOOKMARK [3][-]{subsubsection.4.3.2}{ViewModel::Interpreter::InterpreterFactory}{subsection.4.3}% 49
+\BOOKMARK [3][-]{subsubsection.4.3.3}{ViewModel::Interpreter::QMLInterpreterFactory}{subsection.4.3}% 50
+\BOOKMARK [3][-]{subsubsection.4.3.4}{ViewModel::Interpreter::QMLInterpreter}{subsection.4.3}% 51
+\BOOKMARK [3][-]{subsubsection.4.3.5}{ViewModel::Interpreter::QML2HTMLInterpreter}{subsection.4.3}% 52
+\BOOKMARK [2][-]{subsection.4.4}{ViewModel::Router}{section.4}% 53
+\BOOKMARK [3][-]{subsubsection.4.4.1}{ViewModel::Router::Router}{subsection.4.4}% 54
+\BOOKMARK [2][-]{subsection.4.5}{ViewModel::Controller}{section.4}% 55
+\BOOKMARK [3][-]{subsubsection.4.5.1}{ViewModel::Controller::QuestionList}{subsection.4.5}% 56
+\BOOKMARK [3][-]{subsubsection.4.5.2}{ViewModel::Controller::Question}{subsection.4.5}% 57
+\BOOKMARK [3][-]{subsubsection.4.5.3}{ViewModel::Controller::QuizList}{subsection.4.5}% 58
+\BOOKMARK [3][-]{subsubsection.4.5.4}{ViewModel::Controller::Quiz}{subsection.4.5}% 59
+\BOOKMARK [3][-]{subsubsection.4.5.5}{ViewModel::Controller::QuestionForm}{subsection.4.5}% 60
+\BOOKMARK [3][-]{subsubsection.4.5.6}{ViewModel::Controller::QuizCreationForm}{subsection.4.5}% 61
+\BOOKMARK [3][-]{subsubsection.4.5.7}{ViewModel::Controller::QuestionCompilation}{subsection.4.5}% 62
+\BOOKMARK [3][-]{subsubsection.4.5.8}{ViewModel::Controller::QuizResults}{subsection.4.5}% 63
+\BOOKMARK [3][-]{subsubsection.4.5.9}{ViewModel::Controller::SearchForm}{subsection.4.5}% 64
+\BOOKMARK [3][-]{subsubsection.4.5.10}{ViewModel::Controller::NavBar}{subsection.4.5}% 65
+\BOOKMARK [3][-]{subsubsection.4.5.11}{ViewModel::Controller::TopBar}{subsection.4.5}% 66
+\BOOKMARK [3][-]{subsubsection.4.5.12}{ViewModel::Controller::UserProfile}{subsection.4.5}% 67
+\BOOKMARK [3][-]{subsubsection.4.5.13}{ViewModel::Controller::QuizHome}{subsection.4.5}% 68
+\BOOKMARK [3][-]{subsubsection.4.5.14}{ViewModel::Controller::QuizStatistics}{subsection.4.5}% 69
+\BOOKMARK [3][-]{subsubsection.4.5.15}{ViewModel::Controller::QuizCompilation}{subsection.4.5}% 70
+\BOOKMARK [1][-]{section.5}{Tracciamento}{}% 71
+\BOOKMARK [2][-]{subsection.5.1}{Mappatura classi - requisiti}{section.5}% 72
+\BOOKMARK [2][-]{subsection.5.2}{Mappatura requisiti - classi}{section.5}% 73

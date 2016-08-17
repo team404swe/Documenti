@@ -187,15 +187,65 @@ La classe utilizza:
 
 \subsection{ViewModel::Interpreter}
 \subsubsection{ViewModel::Interpreter::Interpreter}
-\begin{figure}[h!]
-\begin{center}
-	\includegraphics[scale=0.4]{../images/ViewModel/Interpreter/Interpreter.png}
-\end{center}
-\end{figure}
 \begin{itemize}
 \item\textbf{Funzione del componente}: interfaccia di base del tipo Interpreter.
 	\item\textbf{Relazione d'uso con altre componenti}: viene concretizzata in ViewModel::Interpreter::QMLInterpreter.\\
+\end{itemize}
+\subsubsection{ViewModel::Interpreter::InterpreterFactory}
+\begin{itemize}
+\item\textbf{Funzione del componente}: interfaccia di base delle Factory di tipi Interpreter.
+	\item\textbf{Relazione d'uso con altre componenti}: viene concretizzata da\\ ViewModel::Interpreter::QMLInterpreterFactory.\\ 
+\item\textbf{Attributi}: nessuno
 \item\textbf{Metodi}:
+	\begin{itemize}
+		\item\code{+ createInterpreter(): Interpreter}: metodo astratto per la creazione di un Interpreter.\\
+		\textbf{Precondizioni}: viene richiesta l'istanziazione di un Interpreter\\
+		\textbf{Postcondizioni}: il nuovo Interpreter viene creato e ritornato al chiamante\\
+	\end{itemize}
+\end{itemize}
+
+\subsubsection{ViewModel::Interpreter::QMLInterpreterFactory}
+\begin{itemize}
+\item\textbf{Funzione del componente}: crea oggetti di tipo QMLInterpreter.
+	\item\textbf{Relazione d'uso con altre componenti}: è concretizzazione dalla classe\\ ViewModel::Interpreter::InterpreterFactory. Crea oggetti QMLInterpreter.\\
+\item\textbf{Attributi}:
+	\begin{itemize}
+		\item\code{- instance: QMLInterpreterFactory}: campo dati statico che rappresenta l'unica istanza della classe\\
+	\end{itemize}
+\item\textbf{Metodi}:
+	\begin{itemize}
+		\item\code{- QMLInterpreterFactory()}: costruttore privato della classe\\
+		\item\code{+ getInstance(): : QMLInterpreterFactory}: metodo che ritorna l'unica istanza della classe\\
+		\textbf{Precondizioni}: viene richiesta la factory QMLInterpreterFactory\\
+		\textbf{Postcondizioni}: l'unica istanza della factory viene ritornata al chiamante. Se la factory non esisteva è stata creata.\\
+		\item\code{+ createInterpreter(): QMLInterpreter}: metodo ereditato da InterpreterFactorye concretizzato per la creazione di un interprete di tipo QMLInterpreter.\\
+		\textbf{Precondizioni}: viene richiesta l'istanziazione di un QMLInterpreter\\
+		\textbf{Postcondizioni}: il nuovo QMLInterpreter viene creato e ritornato al chiamante\\
+	\end{itemize}
+\end{itemize}
+
+\subsubsection{ViewModel::Interpreter::QMLInterpreter}
+\begin{itemize}
+\item\textbf{Funzione del componente}: classe astratta che rappresenta gli Interpreter che traducono codice QML in un altro formato.
+	\item\textbf{Relazione d'uso con altre componenti}: è sottotipo di ViewModel::Interpreter::Interpreter. Viene concretizzata in ViewModel::Interpreter::QML2HTMLInterpreter.\\ 
+\item\textbf{Attributi}: Nessuno
+\item\textbf{Metodi}:
+	\begin{itemize}
+		\item\code{translate(): String}: metodo astratto ereditato da Interpreter\\\\
+		\textbf{Precondizioni}: viene richiesta la traduzione di un testo QML\\
+		\textbf{Postcondizioni}: il testo QML è stato tradotto in un altro linguaggio\\
+		\textbf{Parametri}:
+			\begin{itemize}
+				\item\code{data: String}: l'input QML che deve essere tradotto \\
+			\end{itemize}
+	\end{itemize}
+\end{itemize}
+
+\subsubsection{ViewModel::Interpreter::QML2HTMLInterpreter}
+\begin{itemize}
+	\item\textbf{Funzione del componente}: traduce codice QML in codice HTML.
+	\item\textbf{Relazione d'uso con altre componenti}: la classe è concretizzazione di\\ ViewModel::Interpreter::QMLInterpreter.\\
+	\item\textbf{Metodi}:
 	\begin{itemize}
 		\item\code{+ QML2HTML(): String}:\\
 		 metodo per la traduzione da QML ad HTML. Questo metodo prende in input un file di testo in formato QML restituisce un elemento JavaScript da utilizzare nella pagina HTML per la visualizzazione della domanda \\
@@ -301,7 +351,7 @@ La classe utilizza:
 \subsubsection{ViewModel::Controller::QuestionList}
 \begin{figure}[h!]
 \begin{center}
-	\includegraphics[scale=0.4]{../images/ViewModel/Controller/QuestionList.png}
+	\includegraphics[scale=0.6]{../images/ViewModel/Controller/QuestionList.png}
 \end{center}
 \end{figure}
 \begin{itemize}
@@ -332,7 +382,7 @@ La classe si relaziona con:
 \subsubsection{ViewModel::Controller::Question}
 \begin{figure}[h!]
 \begin{center}
-	\includegraphics[scale=0.4]{../images/ViewModel/Controller/Question.png}
+	\includegraphics[scale=0.6]{../images/ViewModel/Controller/Question.png}
 \end{center}
 \end{figure}
 \begin{itemize}
@@ -357,7 +407,7 @@ La classe è in relazione con:
 \subsubsection{ViewModel::Controller::QuizList}
 \begin{figure}[h!]
 \begin{center}
-	\includegraphics[scale=0.4]{../images/ViewModel/Controller/QuizList.png}
+	\includegraphics[scale=0.6]{../images/ViewModel/Controller/QuizList.png}
 \end{center}
 \end{figure}
 \begin{itemize}
@@ -387,7 +437,7 @@ La classe utilizza:
 \subsubsection{ViewModel::Controller::Quiz}
 \begin{figure}[h!]
 \begin{center}
-	\includegraphics[scale=0.4]{../images/ViewModel/Controller/Quiz.png}
+	\includegraphics[scale=0.6]{../images/ViewModel/Controller/Quiz.png}
 \end{center}
 \end{figure}
 \begin{itemize}
@@ -413,7 +463,7 @@ La classe utilizza:
  \subsubsection{ViewModel::Controller::QuestionForm}
  \begin{figure}[h!]
 \begin{center}
-	\includegraphics[scale=0.4]{../images/ViewModel/Controller/QuestionForm.png}
+	\includegraphics[scale=0.6]{../images/ViewModel/Controller/QuestionForm.png}
 \end{center}
 \end{figure}
  \begin{itemize}
@@ -437,7 +487,7 @@ La classe utilizza:
  \subsubsection{ViewModel::Controller::QuizCreationForm}
  \begin{figure}[h!]
 \begin{center}
-	\includegraphics[scale=0.4]{../images/ViewModel/Controller/QuizCreationForm.png}
+	\includegraphics[scale=0.6]{../images/ViewModel/Controller/QuizCreationForm.png}
 \end{center}
 \end{figure}
  \begin{itemize}
@@ -466,7 +516,7 @@ La classe utilizza:
  \subsubsection{ViewModel::Controller::QuestionCompilation}
  \begin{figure}[h!]
 \begin{center}
-	\includegraphics[scale=0.4]{../images/ViewModel/Controller/QuestionCompilation.png}
+	\includegraphics[scale=0.6]{../images/ViewModel/Controller/QuestionCompilation.png}
 \end{center}
 \end{figure}
  \begin{itemize}
@@ -489,7 +539,7 @@ La classe utilizza:
  \subsubsection{ViewModel::Controller::QuizResults}
  \begin{figure}[h!]
 \begin{center}
-	\includegraphics[scale=0.4]{../images/ViewModel/Controller/QuizResults.png}
+	\includegraphics[scale=0.6]{../images/ViewModel/Controller/QuizResults.png}
 \end{center}
 \end{figure}
  \begin{itemize}
@@ -515,7 +565,7 @@ La classe utilizza:
  \subsubsection{ViewModel::Controller::SearchForm}
  \begin{figure}[h!]
 \begin{center}
-	\includegraphics[scale=0.4]{../images/ViewModel/Controller/SearchForm.png}
+	\includegraphics[scale=0.6]{../images/ViewModel/Controller/SearchForm.png}
 \end{center}
 \end{figure}
  \begin{itemize}
@@ -539,7 +589,7 @@ La classe utilizza:
  \subsubsection{ViewModel::Controller::NavBar}
  \begin{figure}[h!]
 \begin{center}
-	\includegraphics[scale=0.4]{../images/ViewModel/Controller/NavBar.png}
+	\includegraphics[scale=0.6]{../images/ViewModel/Controller/NavBar.png}
 \end{center}
 \end{figure}
  \begin{itemize}
@@ -557,11 +607,6 @@ La classe utilizza:
 \newpage
  
  \subsubsection{ViewModel::Controller::TopBar}
- \begin{figure}[h!]
-\begin{center}
-	\includegraphics[scale=0.4]{../images/ViewModel/Controller/TopBar.png}
-\end{center}
-\end{figure}
  \begin{itemize}
  \item\textbf{Funzione del componente:} Fornisce il menù orizzontale con cui l'utente può interfacciarsi con il sistema
  \item\textbf{Relazione con altri componenti:}
@@ -574,7 +619,7 @@ La classe utilizza:
   \subsubsection{ViewModel::Controller::UserProfile}
   \begin{figure}[h!]
 \begin{center}
-	\includegraphics[scale=0.4]{../images/ViewModel/Controller/UserProfile.png}
+	\includegraphics[scale=0.6]{../images/ViewModel/Controller/UserProfile.png}
 \end{center}
 \end{figure}
  \begin{itemize}
@@ -602,11 +647,6 @@ La classe utilizza:
 \newpage
  
  \subsubsection{ViewModel::Controller::QuizHome}
- \begin{figure}[h!]
-\begin{center}
-	\includegraphics[scale=0.4]{../images/ViewModel/Controller/QuizHome.png}
-\end{center}
-\end{figure}
  \begin{itemize}
  \item\textbf{Funzione del componente:} istanzia il template per la visualizzazione della pagina principale
  \item\textbf{Relazione con altri componenti:}
@@ -618,11 +658,6 @@ La classe utilizza:
 \newpage
 
  \subsubsection{ViewModel::Controller::QuizStatistics}
- \begin{figure}[h!]
-\begin{center}
-	\includegraphics[scale=0.4]{../images/ViewModel/Controller/QuizStatistics.png}
-\end{center}
-\end{figure}
   \begin{itemize}
  \item\textbf{Funzione del componente:} istanzia il template per la visualizzazione delle statistiche dettagliate per una determinata domanda o questionario
  \item\textbf{Relazione con altri componenti:}
@@ -636,7 +671,7 @@ La classe utilizza:
  \subsubsection{ViewModel::Controller::QuizCompilation}
  \begin{figure}[h!]
 \begin{center}
-	\includegraphics[scale=0.4]{../images/ViewModel/Controller/QuizCompilation.png}
+	\includegraphics[scale=0.6]{../images/ViewModel/Controller/QuizCompilation.png}
 \end{center}
 \end{figure}
   \begin{itemize}
