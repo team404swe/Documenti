@@ -65,37 +65,45 @@
 \BOOKMARK [4][-]{subsubsubsection.8.2.1.3}{Classe QuizList}{subsubsection.8.2.1}% 65
 \BOOKMARK [4][-]{subsubsubsection.8.2.1.4}{Classe Quiz}{subsubsection.8.2.1}% 66
 \BOOKMARK [4][-]{subsubsubsection.8.2.1.5}{Classe QuestionList}{subsubsection.8.2.1}% 67
-\BOOKMARK [4][-]{subsubsubsection.8.2.1.6}{Classe QuizCompilation}{subsubsection.8.2.1}% 68
-\BOOKMARK [4][-]{subsubsubsection.8.2.1.7}{Classe QuestionCompilation}{subsubsection.8.2.1}% 69
-\BOOKMARK [3][-]{subsubsection.8.2.2}{Package Subscribers}{subsection.8.2}% 70
-\BOOKMARK [4][-]{subsubsubsection.8.2.2.1}{Classe QuestionsSubscriber}{subsubsection.8.2.2}% 71
-\BOOKMARK [4][-]{subsubsubsection.8.2.2.2}{Classe QuizSubscriber}{subsubsection.8.2.2}% 72
-\BOOKMARK [3][-]{subsubsection.8.2.3}{Package Methods}{subsection.8.2}% 73
-\BOOKMARK [4][-]{subsubsubsection.8.2.3.1}{Classe QuestionMethods}{subsubsection.8.2.3}% 74
-\BOOKMARK [4][-]{subsubsubsection.8.2.3.2}{Classe QuizMethods}{subsubsection.8.2.3}% 75
-\BOOKMARK [4][-]{subsubsubsection.8.2.3.3}{Classe UserMethods}{subsubsection.8.2.3}% 76
-\BOOKMARK [3][-]{subsubsection.8.2.4}{Package Interpreter}{subsection.8.2}% 77
-\BOOKMARK [4][-]{subsubsubsection.8.2.4.1}{Interfaccia Interpreter}{subsubsection.8.2.4}% 78
-\BOOKMARK [4][-]{subsubsubsection.8.2.4.2}{Interfaccia InterpreterFactory}{subsubsection.8.2.4}% 79
-\BOOKMARK [4][-]{subsubsubsection.8.2.4.3}{Classe QMLInterpreterFactory}{subsubsection.8.2.4}% 80
-\BOOKMARK [4][-]{subsubsubsection.8.2.4.4}{Classe QMLInterpreter}{subsubsection.8.2.4}% 81
-\BOOKMARK [4][-]{subsubsubsection.8.2.4.5}{Classe QML2HTMLInterpreter}{subsubsection.8.2.4}% 82
-\BOOKMARK [3][-]{subsubsection.8.2.5}{Package Router}{subsection.8.2}% 83
-\BOOKMARK [4][-]{subsubsubsection.8.2.5.1}{Classe Router}{subsubsection.8.2.5}% 84
-\BOOKMARK [1][-]{section.9}{Diagrammi di attivit\340}{}% 85
-\BOOKMARK [2][-]{subsection.9.1}{Creazione Questionario}{section.9}% 86
-\BOOKMARK [2][-]{subsection.9.2}{Creazione Domanda}{section.9}% 87
-\BOOKMARK [2][-]{subsection.9.3}{Compilazione Questionario}{section.9}% 88
-\BOOKMARK [2][-]{subsection.9.4}{Scelta Questionario}{section.9}% 89
-\BOOKMARK [1][-]{section.10}{Diagrammi di sequenza}{}% 90
-\BOOKMARK [2][-]{subsection.10.1}{Salvataggio di una Domanda}{section.10}% 91
-\BOOKMARK [2][-]{subsection.10.2}{Visualizzazione e scelta di un Questionario}{section.10}% 92
-\BOOKMARK [2][-]{subsection.10.3}{Caricamento di un Questionario}{section.10}% 93
-\BOOKMARK [2][-]{subsection.10.4}{Traduzione di una domanda}{section.10}% 94
-\BOOKMARK [2][-]{subsection.10.5}{Svolgimento di un Questionario}{section.10}% 95
-\BOOKMARK [1][-]{section.11}{Design pattern utilizzati}{}% 96
-\BOOKMARK [2][-]{subsection.11.1}{Abstract Factory}{section.11}% 97
-\BOOKMARK [2][-]{subsection.11.2}{Publish - Subscribe}{section.11}% 98
-\BOOKMARK [1][-]{section.12}{Tracciamento}{}% 99
-\BOOKMARK [2][-]{subsection.12.1}{Mappatura componenti-requisiti}{section.12}% 100
-\BOOKMARK [2][-]{subsection.12.2}{Mappatura requisiti - componenti}{section.12}% 101
+\BOOKMARK [4][-]{subsubsubsection.8.2.1.6}{Classe Question}{subsubsection.8.2.1}% 68
+\BOOKMARK [4][-]{subsubsubsection.8.2.1.7}{Classe QuizCompilation}{subsubsection.8.2.1}% 69
+\BOOKMARK [4][-]{subsubsubsection.8.2.1.8}{Classe QuestionCompilation}{subsubsection.8.2.1}% 70
+\BOOKMARK [4][-]{subsubsubsection.8.2.1.9}{Classe QuizResults}{subsubsection.8.2.1}% 71
+\BOOKMARK [4][-]{subsubsubsection.8.2.1.10}{Classe SearchForm}{subsubsection.8.2.1}% 72
+\BOOKMARK [4][-]{subsubsubsection.8.2.1.11}{Classe NavBar}{subsubsection.8.2.1}% 73
+\BOOKMARK [4][-]{subsubsubsection.8.2.1.12}{Classe TopBar}{subsubsection.8.2.1}% 74
+\BOOKMARK [4][-]{subsubsubsection.8.2.1.13}{Classe UserProfile}{subsubsection.8.2.1}% 75
+\BOOKMARK [4][-]{subsubsubsection.8.2.1.14}{Classe QuizHome}{subsubsection.8.2.1}% 76
+\BOOKMARK [4][-]{subsubsubsection.8.2.1.15}{Classe QuizStatistics}{subsubsection.8.2.1}% 77
+\BOOKMARK [3][-]{subsubsection.8.2.2}{Package Subscribers}{subsection.8.2}% 78
+\BOOKMARK [4][-]{subsubsubsection.8.2.2.1}{Classe QuestionsSubscriber}{subsubsection.8.2.2}% 79
+\BOOKMARK [4][-]{subsubsubsection.8.2.2.2}{Classe QuizSubscriber}{subsubsection.8.2.2}% 80
+\BOOKMARK [3][-]{subsubsection.8.2.3}{Package Methods}{subsection.8.2}% 81
+\BOOKMARK [4][-]{subsubsubsection.8.2.3.1}{Classe QuestionMethods}{subsubsection.8.2.3}% 82
+\BOOKMARK [4][-]{subsubsubsection.8.2.3.2}{Classe QuizMethods}{subsubsection.8.2.3}% 83
+\BOOKMARK [4][-]{subsubsubsection.8.2.3.3}{Classe UserMethods}{subsubsection.8.2.3}% 84
+\BOOKMARK [3][-]{subsubsection.8.2.4}{Package Interpreter}{subsection.8.2}% 85
+\BOOKMARK [4][-]{subsubsubsection.8.2.4.1}{Interfaccia Interpreter}{subsubsection.8.2.4}% 86
+\BOOKMARK [4][-]{subsubsubsection.8.2.4.2}{Interfaccia InterpreterFactory}{subsubsection.8.2.4}% 87
+\BOOKMARK [4][-]{subsubsubsection.8.2.4.3}{Classe QMLInterpreterFactory}{subsubsection.8.2.4}% 88
+\BOOKMARK [4][-]{subsubsubsection.8.2.4.4}{Classe QMLInterpreter}{subsubsection.8.2.4}% 89
+\BOOKMARK [4][-]{subsubsubsection.8.2.4.5}{Classe QML2HTMLInterpreter}{subsubsection.8.2.4}% 90
+\BOOKMARK [3][-]{subsubsection.8.2.5}{Package Router}{subsection.8.2}% 91
+\BOOKMARK [4][-]{subsubsubsection.8.2.5.1}{Classe Router}{subsubsection.8.2.5}% 92
+\BOOKMARK [1][-]{section.9}{Diagrammi di attivit\340}{}% 93
+\BOOKMARK [2][-]{subsection.9.1}{Creazione Questionario}{section.9}% 94
+\BOOKMARK [2][-]{subsection.9.2}{Creazione Domanda}{section.9}% 95
+\BOOKMARK [2][-]{subsection.9.3}{Compilazione Questionario}{section.9}% 96
+\BOOKMARK [2][-]{subsection.9.4}{Scelta Questionario}{section.9}% 97
+\BOOKMARK [1][-]{section.10}{Diagrammi di sequenza}{}% 98
+\BOOKMARK [2][-]{subsection.10.1}{Salvataggio di una Domanda}{section.10}% 99
+\BOOKMARK [2][-]{subsection.10.2}{Visualizzazione e scelta di un Questionario}{section.10}% 100
+\BOOKMARK [2][-]{subsection.10.3}{Caricamento di un Questionario}{section.10}% 101
+\BOOKMARK [2][-]{subsection.10.4}{Traduzione di una domanda}{section.10}% 102
+\BOOKMARK [2][-]{subsection.10.5}{Svolgimento di un Questionario}{section.10}% 103
+\BOOKMARK [1][-]{section.11}{Design pattern utilizzati}{}% 104
+\BOOKMARK [2][-]{subsection.11.1}{Abstract Factory}{section.11}% 105
+\BOOKMARK [2][-]{subsection.11.2}{Publish - Subscribe}{section.11}% 106
+\BOOKMARK [1][-]{section.12}{Tracciamento}{}% 107
+\BOOKMARK [2][-]{subsection.12.1}{Mappatura componenti-requisiti}{section.12}% 108
+\BOOKMARK [2][-]{subsection.12.2}{Mappatura requisiti - componenti}{section.12}% 109
