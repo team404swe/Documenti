@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.20)  17 AUG 2016 16:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.20)  17 AUG 2016 16:18
 entering extended mode
 **specifica_tecnica_3.0.tex
 (specifica_tecnica_3.0.tex
@@ -1568,18 +1568,19 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../../team404_small.jpg used on input line 184.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [27]
-<../images/Interpreter.png, id=816, 299.1175pt x 210.7875pt>
-File: ../images/Interpreter.png Graphic file (type png)
+<../images/InterpreterClass.png, id=816, 548.0475pt x 379.4175pt>
+File: ../images/InterpreterClass.png Graphic file (type png)
 
-<use ../images/Interpreter.png>
-Package pdftex.def Info: ../images/Interpreter.png used on input line 189.
-(pdftex.def)             Requested size: 194.42406pt x 137.01025pt.
+<use ../images/InterpreterClass.png>
+Package pdftex.def Info: ../images/InterpreterClass.png used on input line 189.
+
+(pdftex.def)             Requested size: 356.22665pt x 246.61844pt.
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 216.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 214.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [28 <../images/Interpreter.png>] <../images/Router.png, id=823, 427.5975pt x 1
-78.6675pt>
+ [28 <../images/InterpreterClass.png>]
+<../images/Router.png, id=823, 427.5975pt x 178.6675pt>
 File: ../images/Router.png Graphic file (type png)
 
 <use ../images/Router.png>
@@ -1922,7 +1923,7 @@ Package rerunfilecheck Info: File `specifica_tecnica_3.0.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  11171 strings out of 493698
- 165931 string characters out of 3144408
+ 165956 string characters out of 3144408
  312344 words of memory out of 3000000
  14030 multiletter control sequences out of 15000+200000
  28741 words of font info for 83 fonts, out of 3000000 for 9000
@@ -1936,7 +1937,7 @@ X 2.9/fonts/type1/public/cantarell/Cantarell-Regular.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/cantarell/Cantarell-Regular.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/cm-super/sftt1095.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/cm-super/sftt1440.pfb>
-Output written on specifica_tecnica_3.0.pdf (55 pages, 1539446 bytes).
+Output written on specifica_tecnica_3.0.pdf (55 pages, 1566430 bytes).
 PDF statistics:
  1013 PDF objects out of 1200 (max. 8388607)
  184 named destinations out of 1000 (max. 500000)
