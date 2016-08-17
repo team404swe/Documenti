@@ -34,12 +34,13 @@
 \contentsline {subsubsection}{\numberline {7.1.1}Package Database}{16}{subsubsection.7.1.1}
 \contentsline {subsubsubsection}{\numberline {7.1.1.1}Classe QuizManager}{16}{subsubsubsection.7.1.1.1}
 \contentsline {subsubsubsection}{\numberline {7.1.1.2}Classe QuestionManager}{16}{subsubsubsection.7.1.1.2}
-\contentsline {subsubsection}{\numberline {7.1.2}Package Parser}{16}{subsubsection.7.1.2}
+\contentsline {subsubsubsection}{\numberline {7.1.1.3}Classe Search}{16}{subsubsubsection.7.1.1.3}
+\contentsline {subsubsection}{\numberline {7.1.2}Package Parser}{17}{subsubsection.7.1.2}
 \contentsline {subsubsubsection}{\numberline {7.1.2.1}Classe Parser}{17}{subsubsubsection.7.1.2.1}
 \contentsline {subsubsection}{\numberline {7.1.3}Package Statistics}{17}{subsubsection.7.1.3}
 \contentsline {subsubsubsection}{\numberline {7.1.3.1}Classe Statistics}{17}{subsubsubsection.7.1.3.1}
 \contentsline {subsubsection}{\numberline {7.1.4}Package Publishers}{17}{subsubsection.7.1.4}
-\contentsline {subsubsubsection}{\numberline {7.1.4.1}Classe QuizPublisher}{17}{subsubsubsection.7.1.4.1}
+\contentsline {subsubsubsection}{\numberline {7.1.4.1}Classe QuizPublisher}{18}{subsubsubsection.7.1.4.1}
 \contentsline {subsubsubsection}{\numberline {7.1.4.2}Classe QuestionPublisher}{18}{subsubsubsection.7.1.4.2}
 \contentsline {section}{\numberline {8}Diagrammi delle classi del Client}{19}{section.8}
 \contentsline {subsection}{\numberline {8.1}Diagrammi delle classi della View}{19}{subsection.8.1}
