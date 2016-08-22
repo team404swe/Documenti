@@ -40,9 +40,10 @@
 	\beginregistro
 	
 	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm}}
-	
-	\rigaregistro{0.0.5}{Andrea Multineddu (Programmatore)}{17/06/2016}{Inserimento immagini}
-	\rigaregistro{0.0.4}{Luca Alessio (Verificatore)}{16/06/2016}{Primo abbozzo sezioni discorsive del documento}
+	\rigaregistro{0.0.7}{Luca Alessio (Verificatore)}{18/06/2016}{Stesura sezione "Scelta di un questionario"}
+	\rigaregistro{0.0.6}{Luca Alessio (Verificatore)}{18/06/2016}{Stesura sezioni "Registrazione" e "Autenticazione"}
+	\rigaregistro{0.0.5}{Luca Alessio (Verificatore)}{18/06/2016}{Stesura sezione "L'applicazione a prima vista"}
+	\rigaregistro{0.0.4}{Andrea Multineddu (Programmatore)}{17/06/2016}{Inserimento immagini}
 	\rigaregistro{0.0.3}{Luca Alessio (Verificatore)}{16/06/2016}{Stesurea sezione "Requisiti di sistema"}
 	\rigaregistro{0.0.2}{Luca Alessio (Verificatore)}{16/06/2016}{Stesura sezione "Introduzione"}
 	\rigaregistro{0.0.1}{Luca Alessio (Verificatore)}{16/06/2016}{Creazione del documento}
@@ -112,22 +113,39 @@ Quizzipedia supporta i seguenti browser:
 \end{itemize}
 	\newpage
 	\section{L'applicazione a prima vista}
-	l'applicazione si presenta come segue:\\
-	immagine home\\
-	al suo ingresso nell'applicazione l'utente ha la possibilità partire direttamente con la risoluzione di un questionario o di autenticarsi nel sistema per usufruire delle funzionalità di gestione di domande e questionari che vedremo nel dettaglio nei seguenti paragrafi\\
-	descrizione menù laterale
+	All'accesso dell'utente l'applicazione si presenta come segue:\\
+	\begin{figure}[h!]
+	\begin{center}
+	\includegraphics[scale=0.5]{../images/screen_home.png}
+	\end{center}
+	\end{figure}
+	L'utente ha la possibilità partire direttamente con la risoluzione di un questionario o di autenticarsi nel sistema per usufruire delle funzionalità di gestione di domande e questionari che vedremo nel dettaglio nei seguenti paragrafi.\\ \\
+	Per la home page si è scelto di adottare un layout il più possibile minimale per renderlo semplice e accessibile ad ogni tipologia di utenza.\\
+	Da ogni pagina del sito è possibile usufruire del comodo menù di navigazione laterale che elenca le funzionalità disponibili del sistema (alcune come ad esempio la creazione della domanda potrebbero essere bloccate qualora l'utente non abbia ancora effettuato l'accesso).
 	\newpage
 	\section{Registrazione}
-	l'utente può registrarsi nell'applicazione cliccando su ...\\
-	immagine form\\
-	l'utente compila il form e se i dati inseriti sono corretti.......
-	\newpage
+	Per poter usufruire delle funzionalità più avanzate di Quizzipedia, l'utente deve necessariamente creare il proprio account nel sistema.\\
+	L'utente può trovare il modulo di registrazione in alto a sinistra alla voce "Register", il modulo si presenta come segue:\\
+	\begin{figure}[h!]
+	\begin{center}
+	\includegraphics[scale=0.85]{../images/form.png}
+	\end{center}
+	\end{figure}	
+	\\
+	E' necessario inserire nei corrispondenti campi un indirizzo email valido e una password che va ripetuta per evitare errori di battitura.\\ \\
+	Se i dati inseriti sono corretti, alla pressione del tasto "Create Account" il nuovo profilo dell'utente verrà effettivamente creato e l'utente potrà accedere a tutte le funzionalità di Quizzipedia, in caso contrario verrà notificato da un messaggio d'errore appropriato.
 	\section{Autenticazione}
-	idem
+	L'autenticazione nel sistema segue lo stesso principio della registrazione: si accede al form dalla voce nel menù Sign In, si inseriscono le proprie credenziali e si logga così nel sistema.\\ Se i dati inseriti non sono corretti ancora una volta l'utente viene notificato da un messaggio d'errore. 
 	\newpage
 	\section{Scelta di un questionario}
-	immagini scelta categoria scelta quiz\\
-	l'utente ha la possibilità di scegliere il questionario da svolgere ordinandoli per argomento, autore, data (?)
+	La scelta del questionario si svolge su due livelli, prima avviene la scelta della categoria e poi avviene la scelta del singolo questionario presente tra i vari possibili questionari della stessa categoria.
+	\begin{figure}[h!]
+	\begin{center}
+	\includegraphics[scale=0.5]{../images/screen_category.png}
+	\end{center}
+	\end{figure}
+	\\
+	Ad ogni questionario è abbinata una breve descrizione generale sugli argomenti che tratta.\\ E' possibile cominciare il questionario semplicemente cliccando sul tasto Svolgi.
 	\newpage
 	\section{Svolgimento di un questionario}
 	spiegazione cosa fa ogni pulsante
@@ -136,11 +154,12 @@ Quizzipedia supporta i seguenti browser:
 	c'è?
 	\newpage
 	\section{Creazione di una domanda}
-	spiegazione form con e senza qml	
+	E' possibile creare una domanda in due modi differenti, tramite l'inserimento di codice QML puro oppure interagendo con un form semplificato da cui è possibile selezionare la categoria della domanda ed inserire il testo di domande e risposte. \\
+	immagine qui delle due possibilità
 	\newpage
 	\section{Creazione di un questionario}
 	foto con spiegazione pulsanti
 	\newpage
 	\section{Sintassi QML}
-	ruberemo qualcosa dalla definizione
+	
 \end{document}
