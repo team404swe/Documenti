@@ -1,0 +1,131 @@
+\documentclass[a4paper,11pt]{article}
+	\input{../../template.tex}
+	\newcommand{\code}[1]{\texttt{#1}}
+
+	\title{\textbf{{\fontsize{8mm}{5mm}\selectfont QUIZZIPEDIA}}}
+	\date{}
+	\author{}	
+
+
+\begin{document}
+	\maketitle
+	\thispagestyle{empty}
+	\begin{center}	
+	\includegraphics{../team_not_found.jpg}\\
+	\fontsize{5mm}{3mm}\url{team404swe@gmail.com}\\
+	
+	\vspace{50mm}
+	\textbf{Manuale Utente 1.0}
+	\end{center}
+	\introtab{Manuale Utente}	%1 nome documento
+			{2.0} 							%2 versione
+			{Esterno} 						%3 Uso
+			{16 agosto 2016} 				%4 Data cre
+			{\today} 						%5 Data mod
+			{Luca Alessio}		%6 Redazione
+			{Martin V. Mbouenda} 			%7 Verifica
+			{Davide Bortot} 				%8 Approvazione
+	\newpage
+	\thispagestyle{empty}
+	\null  
+
+	\newpage
+	\newpage
+	\fancyhead[R]{REGISTRO DELLE MODIFICHE}
+	\fancyfoot[R]{\thepage}
+	
+	\hspace{30 mm}
+	\section*{Registro delle modifiche}
+	
+	\beginregistro
+	
+	\rigaregistro{\textbf{Versione}}{\textbf{Autore}}{\textbf{Data}}		 {\hspace{5 mm}}
+	
+	\rigaregistro{0.0.1}{Luca Alessio (Verificatore)}{16/06/2016}{Creazione del documento}
+	\rigaregistro{0.0.1}{Luca Alessio (Verificatore)}{16/06/2016}{Creazione del documento}
+	\rigaregistro{0.0.3}{Luca Alessio (Verificatore)}{16/06/2016}{Stesurea sezione "Requisiti di sistema"}
+	\rigaregistro{0.0.2}{Luca Alessio (Verificatore)}{16/06/2016}{Stesura sezione "Introduzione"}
+	\rigaregistro{0.0.1}{Luca Alessio (Verificatore)}{16/06/2016}{Creazione del documento}
+	
+	\fineregistro
+
+	\newpage
+	\fancyhead[R]{\leftmark}
+	\tableofcontents
+	\pagenumbering{Roman}
+	\newpage
+	\listoffigures
+	\listoftables
+	
+	\newpage
+	\pagenumbering{arabic}
+	
+	\section*{Sommario}
+	Questo documento rappresenta il Manuale Utente per il software Quizzipedia sviluppato dal Team404 per conto di Zucchetti S.p.A. ed ha lo scopo di illustrare all'utente le modalità di utilizzo e i servizi offerti dell'applicazione.
+	
+	\newpage
+	\section{Introduzione}
+	\subsection{Scopo del documento}
+	Il documento ha lo scopo di definire nel dettaglio la struttura del sistema Quizzipedia, approfondendone la descrizione già definita nel documento di Specifica Tecnica. Per ogni package del sistema verrà data una descrizione estensiva delle sue classi. Per poter sviluppare al meglio il prodotto, i programmatori dovranno attenersi alle specifiche definite in questo documento.
+	
+	\subsection{Scopo del prodotto}
+	Il progetto \textbf{Quizzipedia} ha come obiettivo lo sviluppo di un sistema software basato su tecnologie Web (Javascript\addglos, Node.js\addglos, HTML5\addglos, CSS3\addglos) che permetta la creazione, gestione e fruizione di questionari. Il sistema dovrà quindi poter archiviare i questionari suddivisi per argomento, le cui domande dovranno essere raccolte attraverso uno specifico linguaggio di markup (Quiz Markup Language) d'ora in poi denominato QML\addglos. In un caso d'uso a titolo esemplificativo, un "esaminatore" dovrà poter costruire il proprio questionario scegliendo tra le domande archiviate, ed il questionario così composto sarà presentato e fruibile all' "esaminando", traducendo l'oggetto QML in una pagina HTML\addglos, tramite un'apposita interfaccia web. Il sistema presentato dovrà inoltre poter proporre questionari preconfezionati e valutare le risposte fornite dall'utente finale.
+	\\
+	Per un'analisi più precisa ed approfondita del progetto si rimanda al documento\\ "\textit{analisi\_dei\_requisiti\_4.0.pdf}".
+	\subsection{Glossario}
+	Viene allegato un glossario nel file ``\textit{glossario\_4.0.pdf}'' nel quale viene data una definizione a tutti i termini che in questo documento appaiono con il simbolo '\addglos' a pedice.
+	\subsection{Riferimenti}
+		\subsubsection{Normativi}
+
+		\begin{itemize}
+			\item Capitolato d'appalto Quizzipedia:\\
+			\url{http://www.math.unipd.it/~tullio/IS-1/2015/Progetto/C5.pdf}
+			\item Norme di Progetto: "\textit{norme\_di\_progetto\_4.0.pdf}"
+		\end{itemize}
+		\subsubsection{Informativi}
+		\begin{itemize}
+			\item Corso di Ingegneria del Software anno 2015/2016:\\
+			\url{http://www.math.unipd.it/~tullio/IS-1/2015/}
+			\item Regole del progetto didattico:\\
+			\url{http://www.math.unipd.it/~tullio/IS-1/2015/Dispense/PD01.pdf}\\
+			\url{http://www.math.unipd.it/~tullio/IS-1/2015/Progetto/}
+			\item Specifica Tecnica: "\textit{specifica\_tecnica\_3.0.pdf}"
+			\item Framework Meteor:\\
+			\url{https://www.meteor.com/}
+			\item Framework AngularJs:\\
+			\url{https://www.angularjs.org/}
+		\end{itemize}
+	\pagebreak
+	\newpage
+\section{Requisiti di Sistema}
+Quizzipedia è un'applicazione web, pertanto è mandatorio che il dispositivo utilizzato sia connesso ad internet. Per quanto riguarda l'hardware del dispositivo, non sono invece richieste particolari specifiche.
+\subsection{Browser supportati}
+Quizzipedia supporta i seguenti browser:
+\begin{itemize}
+	\item Chrome
+	\item Firefox 7+
+	\item Internet Explorer 8+
+	\item Safari 4+
+	\item Android stock web browser
+	\item IOS stock web browser
+	\item Opera Desktop e Mobile
+\end{itemize}
+	\newpage
+	\section{L'applicazione a prima vista}
+	\newpage
+	\section{Registrazione}
+	\newpage
+	\section{Autenticazione}
+	\newpage
+	\section{Scelta di un questionario}
+	\newpage
+	\section{Svolgimento di un questionario}
+	\newpage
+	\section{Profilo Utente}
+	\newpage
+	\section{Creazione di una domanda}
+	\newpage
+	\section{Creazione di un questionario}
+	\newpage
+	\section{Sintassi QML}
+\end{document}
