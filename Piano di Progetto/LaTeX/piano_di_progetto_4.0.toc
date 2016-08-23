@@ -65,3 +65,7 @@
 \contentsline {subsubsubsection}{\numberline {8.3.2.1}Verifica e validazione}{36}{subsubsubsection.8.3.2.1}
 \contentsline {subsubsubsection}{\numberline {8.3.2.2}Prospetto Orario Aggiornato}{37}{subsubsubsection.8.3.2.2}
 \contentsline {subsubsubsection}{\numberline {8.3.2.3}Preventivo}{38}{subsubsubsection.8.3.2.3}
+\contentsline {subsection}{\numberline {8.4}Fase di Verifica e validazione}{39}{subsection.8.4}
+\contentsline {subsubsection}{\numberline {8.4.1}Consuntivo del Progetto}{39}{subsubsection.8.4.1}
+\contentsline {subsubsubsection}{\numberline {8.4.1.1}Grafice ripielogativi}{39}{subsubsubsection.8.4.1.1}
+\contentsline {subsubsubsection}{\numberline {8.4.1.2}Conclusioni}{41}{subsubsubsection.8.4.1.2}
