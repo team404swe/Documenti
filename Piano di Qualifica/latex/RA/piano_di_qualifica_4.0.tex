@@ -151,60 +151,15 @@ Vengono di seguito elencati gli obiettivi di qualità che si vogliono raggiunger
 Lo scopo principale è quello di rendere definibili e misurabili tutti i processi di sviluppo e verifica per poterne controllare l'andamento e la produttività. 
 \subsection{Qualità di processo}
 
-Ogni processo coinvolto nell'attività di sviluppo ha bisogno di una costante attività di verifica di supporto in grado di identificare possibili miglioramenti o peggioramenti ed apportare eventuali correzioni. \\
-Il modello che il gruppo intende quindi seguire è il cosiddetto PDCA (o Ciclo di Deming), modello volto al miglioramento continuo che definisce quattro fasi cicliche:
-\begin{itemize}
-\item \textbf{P}lan: definizione del problema, cosa deve essere realizzato e come andrà controllato per la verifica qualitativa;
-\item \textbf{D}o: eseguire le attività secondo i piani;
-\item \textbf{C}heck: verifica nel tempo dei risultati conseguiti in seguito a modifiche e migliorie, confronto tra risultati attesi e risultati effettivi; %spero di non aver stravolto questo punto, apparte questo il resto va bene
-\item \textbf{A}ct: applicazione di soluzioni correttive atte al miglioramento.
-\end{itemize}
-%(vedere Appendice A per una descrizione dettagliata).\\
-Ogni processo deve essere sottoposto a verifica in modo da poterlo migliorare all'iterazione successiva. 
-Le due fasi chiave del modello PDCA sono la prima fase di definizione (P) del problema e la fase di verifica dei risultati attesi (C). 
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.6]{../../images/PDCA}
-\caption{PDCA e miglioramento complessivo}
-\end{figure}
-Il concetto generale fa riferimento anche al metodo di \textit{Correctness by construction}, che ha come principio base quello di fare in modo di non introdurre errori già dall'inizio e/o di correggere tali errori nel \textbf{momento più vicino possibile a quando sono stati introdotti}.\\ L'attività costante di verifica, quindi,  deve servire proprio a far sì che gli errori e le divergenze vengano individuate il prima possibile.
-Piccoli errori iniziali, se non gestiti, possono portare all'assoluta ingestibilità dell'attività di verifica e quindi compromettere pesantemente il successo finale del progetto. Per evitare ciò, un processo dipendente da un altro non può avere inizio finché il precedente non sia stato verificato e ne sia stata accertata la correttezza. 
-%\textbf{DA DESCRIVERE IN APPENDICE I DUE MODELLI}
+Ogni processo coinvolto nell'attività di sviluppo ha bisogno di una costante attività di verifica di supporto in grado di identificare possibili miglioramenti o peggioramenti ed apportare eventuali correzioni. Vedere il documento \textit{norme\_di\_progetto\_4.0.pdf} per una descrizione più approfondita delle modalità utilizzate per la verifica qualitativa.\\
 
-Le linee guida fornite dal modell PDCA per l'attività di controllo ed il miglioramento continuo dei processi sono:
-\begin{itemize}
-\item Pianificazione dettagliata
-\item Monitoraggio costante delle attività pianificate in esecuzione
-\item Definizione delle risorse umane e tecnologiche necessarie per il conseguimento degli obiettivi
-\item Utilizzo di metriche per quantificare e verificare il miglioramento della qualità del processo
-\end{itemize}  
-Sui processi, quindi, vanno effettuate delle misurazioni oggettive che possano dare informazioni utili sull'andamento degli stessi, in modo da poter decidere se intervenire in maniera migliorativa. 
-In generale, tali misurazioni tengono conto dei seguenti elementi: 
-\begin{itemize}
-\item Tempo impiegato per il completamento
-\item Risorse utilizzate 
-\item Attinenza alla pianificazione
-\end{itemize}
 \subsubsection{Standard utilizzati}
 Per quanto riguarda la valutazione qualitativa dei processi si fa riferimento ai seguenti standard: 
 \begin{itemize}
 \item SPICE\addglos : definito dallo standard \underline{ISO/IEC 15504:1998}, fornisce un modello per la valutazione del livello di “maturità”
 dei processi per identificare quali azioni possono essere necessarie per migliorare un processo specifico.
 \item PDCA\addglos : metodo di gestione iterativo utilizzato per il controllo e il miglioramento continuo dei processi e dei prodotti.
-\item \underline{ISO/IEC 12207:2008}: utilizzato come riferimento per l'individuazione dei processi da sottoporre ad attività di verifica qualitativa:
-\begin{itemize}
-\item Infrastructure Management Process
-\item Risk Management ProcessXXXX
-\item System/Software Requirements Analysis Process
-\item System/Software Architectural Design Process
-\item Software Detailed Design Process
-\item Software Construction Process
-\item System/Software Integration Process
-\item System/Software Qualification Testing Process
-\item Software Documentation Management Process
-\item Software Verification Process
-
-\end{itemize} 
+\item \underline{ISO/IEC 12207:2008}: utilizzato come riferimento per l'individuazione dei processi da sottoporre ad attività di verifica qualitativa.
 \end{itemize}
 
 
@@ -218,15 +173,6 @@ Per il controllo qualità del prodotto sono definiti i seguenti processi:
 \end{itemize}
 \subsubsection{Standard utilizzati}
 Come punto di riferimento per la qualità del prodotto software si fa riferimento allo standard \underline{ISO/IEC 9126:2001}.\\
-L'immagine seguente elenca le principali caratteristiche a cui un prodotto software di qualità deve aspirare:\\
-\vspace{6mm}
-\noindent%
-\begin{minipage}{\linewidth}% to keep image and caption on one page
-\makebox[\linewidth]{%        to center the image
-  \includegraphics[keepaspectratio=true,scale=0.6]{../../images/ISO-9126-cut}}
-\captionof{figure}{Riepilogo caratteristiche ISO/IEC 9126:2001}  
-\end{minipage}\\
-
 \newpage
 \section{Verifica qualitativa sui processi}
 
@@ -456,8 +402,8 @@ E = D * V
 	\item Range ottimale: \begin{math}[0 - 300]\end{math}
 	\end{itemize}
 \end{itemize} 
-\subsubsubsection{Dependency count}
-Conteggio del numero di chiamate di tipo \textbf{require}\addglos di ogni metodo. Valori bassi sono da preferire.
+%\subsubsubsection{Dependency count}
+%Conteggio del numero di chiamate di tipo \textbf{require}\addglos di ogni metodo. Valori bassi sono da preferire.
 \subsubsubsection{Maintainability Index} Rappresenta l'indice principale dei risultati dell'analisi effettuata sull'intero codice. Compreso tra 0 e 100, questo indice rappresenta la relativa facilità di manutenzione del codice analizzato. Valori alti rappresentano miglior manutenibilità.\\
 I valori di tolleranza per tale indice sono:
 \begin{itemize}
@@ -598,6 +544,49 @@ In generale risulta che testi con un indice:
 %\subsubsection{Obiettivi}
 %\subsubsection{Metriche e misure}
 \newpage
+\subsection{Misure e metriche: riepilogo parametri di tolleranza}
+Di seguito vengono elencate le metriche adottate per il controllo qualitativo dei processi, dei documenti e del prodotto software in sviluppo. 
+\subsubsection{Processi}
+\begin{center}
+\begin{tabular}{{p{8cm} p{2.5cm} p{2cm}}}
+\textbf{Metrica} & \textbf{Accettazione} & \textbf{Ottimale}\\ \hline
+Schedule Variance &  \begin{math}\ge -(P*5\%)\end{math} & \begin{math} \ge 0\end{math} \\ \hline
+Budget Variance & \begin{math} \ge -(P*10\%) \end{math} & \begin{math} \ge 0 \end{math}\\ \hline
+\end{tabular}
+\end{center}
+\textit{P = PreventivoFase}\\\\
+%\textit{Schedule variance} e \textit{budget variance} danno un resoconto in termini di tempo e di costi effettuati confrontati con il preventivo.\\
+%I margini di tolleranza di errore sono stati impostati al 5\% sulle scadenze prefissate e al 10\% sul budget.
+\subsubsection{Documenti} 
+\begin{center}
+\begin{tabular}{{p{8cm} p{2.5cm} p{2cm}}}
+\textbf{Metrica} & \textbf{Accettazione} & \textbf{Ottimale}\\ \hline
+Gulpease Index &  \begin{math}[50 - 100]\end{math} & \begin{math}[60 - 100]\end{math} \\ \hline
+\end{tabular}
+\end{center}
+
+
+\subsubsection{Software}
+
+\begin{center}
+\begin{tabular}{{p{8cm} p{2.5cm} p{2cm}}}
+\textbf{Metrica} & \textbf{Accettazione} & \textbf{Ottimale}\\ \hline
+Parameters count & \begin{math}[0 - 7]\end{math} & \begin{math}[0 - 5]\end{math}\\ \hline
+%Dependency count & \begin{math} \le 5 \end{math} &\begin{math} = 0 \end{math}\\ \hline
+Halstead's Volume & \begin{math}[20 - 1500]\end{math} & \begin{math}[20 - 1000]\end{math}\\ \hline
+Halstead's Difficulty &  \begin{math}[0 - 30]\end{math} & \begin{math}[0 - 15]\end{math}\\ \hline
+Cyclomatic complexity & \begin{math}[0 - 15]\end{math} & \begin{math}[0 - 10]\end{math}\\ \hline
+%First-order density & \begin{math} \le 20\% \end{math} & \begin{math} \le 15\%  \end{math}\\ \hline
+Change cost & \begin{math} \le 50\% \end{math} & \begin{math} \le 40\%\end{math}\\ \hline
+Core size & \begin{math} \le 30\% \end{math} & \begin{math} \le 25\%\end{math}\\ \hline
+Maintainability Index & \begin{math}[20 - 100]\end{math} & \begin{math}[70 - 100]\end{math}\\ \hline
+Copertura dei requisiti & \begin{math}[80 - 100]\end{math}& \begin{math}[90 - 100]\end{math}\\ \hline
+Copertura dei test di accettazione & \begin{math}[100\%]\end{math}& \begin{math}[100\%]\end{math}\\ \hline
+Copertura dei test di sistema & \begin{math}[80\%]\end{math}& \begin{math}[90\%]\end{math}\\ \hline
+Copertura dei test integrazione & \begin{math}[80\%]\end{math}& \begin{math}[90\%]\end{math}\\ \hline
+Copertura dei test di unità & \begin{math}[90\%]\end{math}& \begin{math}[100\%]\end{math}\\ \hline
+\end{tabular}
+\end{center}
 
 
 %\section{Organizzazione}
@@ -684,51 +673,8 @@ In generale risulta che testi con un indice:
 %\end{itemize}
 %\textit{Si rimanda alla sezione Misure e Metriche del presente documento per una spiegazione dettagliata delle metriche utilizzate da Complexity-report, e al documento Norme-di-progetto.pdf per quanto riguarda le modalità di utilizzo dei sopracitati software.} 
 
-\newpage
 %\end{itemize}
-\section{Misure e metriche: riepilogo parametri di tolleranza}
-Di seguito vengono elencate le metriche adottate per il controllo qualitativo dei processi, dei documenti e del prodotto software in sviluppo. 
-\subsection{Processi}
-\begin{center}
-\begin{tabular}{{p{8cm} p{2.5cm} p{2cm}}}
-\textbf{Metrica} & \textbf{Accettazione} & \textbf{Ottimale}\\ \hline
-Schedule Variance &  \begin{math}\ge -(P*5\%)\end{math} & \begin{math} \ge 0\end{math} \\ \hline
-Budget Variance & \begin{math} \ge -(P*10\%) \end{math} & \begin{math} \ge 0 \end{math}\\ \hline
-\end{tabular}
-\end{center}
-\textit{P = PreventivoFase}\\\\
-%\textit{Schedule variance} e \textit{budget variance} danno un resoconto in termini di tempo e di costi effettuati confrontati con il preventivo.\\
-%I margini di tolleranza di errore sono stati impostati al 5\% sulle scadenze prefissate e al 10\% sul budget.
-\subsection{Documenti} 
-\begin{center}
-\begin{tabular}{{p{8cm} p{2.5cm} p{2cm}}}
-\textbf{Metrica} & \textbf{Accettazione} & \textbf{Ottimale}\\ \hline
-Gulpease Index &  \begin{math}[50 - 100]\end{math} & \begin{math}[60 - 100]\end{math} \\ \hline
-\end{tabular}
-\end{center}
 
-
-\subsection{Software}
-
-\begin{center}
-\begin{tabular}{{p{8cm} p{2.5cm} p{2cm}}}
-\textbf{Metrica} & \textbf{Accettazione} & \textbf{Ottimale}\\ \hline
-Parameters count & \begin{math}[0 - 7]\end{math} & \begin{math}[0 - 5]\end{math}\\ \hline
-Dependency count & \begin{math} \le 5 \end{math} &\begin{math} = 0 \end{math}\\ \hline
-Halstead's Volume & \begin{math}[20 - 1500]\end{math} & \begin{math}[20 - 1000]\end{math}\\ \hline
-Halstead's Difficulty &  \begin{math}[0 - 30]\end{math} & \begin{math}[0 - 15]\end{math}\\ \hline
-Cyclomatic complexity & \begin{math}[0 - 15]\end{math} & \begin{math}[0 - 10]\end{math}\\ \hline
-First-order density & \begin{math} \le 20\% \end{math} & \begin{math} \le 15\%  \end{math}\\ \hline
-Change cost & \begin{math} \le 50\% \end{math} & \begin{math} \le 40\%\end{math}\\ \hline
-Core size & \begin{math} \le 30\% \end{math} & \begin{math} \le 25\%\end{math}\\ \hline
-Maintainability Index & \begin{math}[20 - 100]\end{math} & \begin{math}[70 - 100]\end{math}\\ \hline
-Copertura dei requisiti & \begin{math}[80 - 100]\end{math}& \begin{math}[90 - 100]\end{math}\\ \hline
-Copertura dei test di accettazione & \begin{math}[100\%]\end{math}& \begin{math}[100\%]\end{math}\\ \hline
-Copertura dei test di sistema & \begin{math}[80\%]\end{math}& \begin{math}[90\%]\end{math}\\ \hline
-Copertura dei test integrazione & \begin{math}[80\%]\end{math}& \begin{math}[90\%]\end{math}\\ \hline
-Copertura dei test di unità & \begin{math}[90\%]\end{math}& \begin{math}[100\%]\end{math}\\ \hline
-\end{tabular}
-\end{center}
 %La metrica fondamentale di questo software è il \textbf{Maintainability Index} che offre un valore sul livello di manutenibilità del codice.\\
 %I valori di tolleranza fissati per tale indice sono:
 %\begin{itemize}
@@ -887,7 +833,7 @@ L'utente deve poter:
 \item inserire la password
 \item ricevere un messaggio di errore se la stringa password ha meno di 8 caratteri
 \item inviare i dati di registrazione
-\end{enumerate} & Pianificato\\
+\end{enumerate} & Superato\\
 \midrule
 %F 1.1 &TA 1.1& La sezione dedicata alla registrazione deve permettere l'inserimento dei dati necessari & Pianificato\\
 %\midrule
@@ -902,7 +848,7 @@ F 1.2 \newline F 1.2.1 \newline F 1.2.1.1 \newline F 1.2.1.2 \newline F 1.2.1.3 
 \item i dati non sono stati inseriti
 \item la mail inserita risulta già in uso
 \end{enumerate}
-Se i dati non sono corretti il sistema deve bloccare l'invio. & Pianificato\\
+Se i dati non sono corretti il sistema deve bloccare l'invio. & Superato\\
 %\midrule
 %F 1.2.1 &TA 1.2.1&Prima di inviare i dati viene effettuato un controllo su di essi & Pianificato\\
 %\midrule
@@ -916,7 +862,7 @@ F 1.2.2 \newline F 1.2.3 & TA 1.2 & Quando i dati corretti vengono inviati viene
 \begin{enumerate}
 \item il sistema memorizzi un nuovo account con i dati inseriti
 \item venga effettuato automaticamente il login al completamento della registrazione
-\end{enumerate}   & Pianificato\\
+\end{enumerate}   & Superato\\
 
 %F 1.2.3 & TA 1.2.3&Quando viene creato un nuovo account con la procedura di registrazione viene automaticamente effettuato il login con quell'account & Pianificato\\
 \midrule
@@ -925,8 +871,7 @@ F 2 \newline F 2.1 \newline F 2.1.1 \newline F2.1.2  & TA 2& Verifica che il sis
 \item inserire la propria mail
 \item inserire la propria password
 %\item recuperare la propria password se dimenticata
-\item
-\end{enumerate} & Pianificato\\
+\end{enumerate} & Superato\\
 
 %F 2.1 &TA 2.1 & La sezione dedicata all'autenticazione deve permettere l'inserimento dei dati necessari & Pianificato\\
 %\midrule
@@ -936,11 +881,11 @@ F 2 \newline F 2.1 \newline F 2.1.1 \newline F2.1.2  & TA 2& Verifica che il sis
 %\midrule
 F 2.2 \newline F 2.2.1 \newline F 2.2.2 \newline F 2.2.2.1 \newline F 2.2.2.2 \newline F 2.2.3&TA 2.1&Verifica che la sezione dedicata all'autenticazione fornisca una procedura di recupero password. il sistema deve:
 \begin{enumerate}
-\item permettere l'nserimento della mail
+\item permettere l'inserimento della mail
 \item controllare che la mail risulti registrata e in caso negativo visualizzare un messaggio di errore
 \item bloccare l'invio dei dati se la mail non risulta registrata
 \item mandare una mail all'indirizzo inserito con la password dimenticata
-\end{enumerate} & Pianificato\\
+\end{enumerate} & Superato\\
 \midrule
 %F 2.2.1 &TA 2.2.1&La procedura di recupero password deve permettere l'inserimento della e-mail & Pianificato\\
 %\midrule
@@ -957,7 +902,7 @@ F 2.3 \newline F 2.3.1 \newline F 2.3.1.1 \newline F 2.3.2 & TA 2.2& Verifica ch
 \item effettuare un controllo di correttezza sui dati inseriti
 \item visualizzare un messaggio di errore se la combinazione e-mail/password non è registrata
 \item autenticare l'utente se la combinazione mail/password è corretta
-\end{enumerate} & Pianificato\\
+\end{enumerate} & Superato\\
 \midrule
 %F 2.3.1 & TA 2.3.1&Prima di inviare i dati viene effettuato un controllo su di essi & Pianificato\\
 %\midrule
@@ -970,7 +915,7 @@ F 3 \newline F 3.1 \newline  F 3.1.1 \newline  F 3.1.2 \newline F 3.1.3& TA 3 &V
 \item fornire una sezione con un elenco di categorie
 \item fornire l'elenco dei questionari presenti per la categoria selezionata
 \item fornire il numero di questionari della categoria
-\end{enumerate} & Pianificato\\
+\end{enumerate} & Superato\\
 \midrule
 %F 3.1 & TA 3.1 &Il sistema deve fornire una sezione con un elenco delle categorie di questionari presenti nel database & Pianificato\\
 %\midrule
@@ -986,7 +931,7 @@ F 3.2 \newline F 3.2.1 \newline  F 3.2.2 \newline  F 3.2.3 \newline F 3.2.4& TA 
 \item per ogni elemento dell'elenco venga visualizzato il nome del questionario
 \item per ogni elemento dell'elenco venga visualizzato il numero di domande del questionario
 \item per ogni elemento dell'elenco venga visualizzato l'autore
-\end{enumerate} & Pianificato\\
+\end{enumerate} & Superato\\
 %\midrule
 %F 3.2.1 &TA 3.2.1&Quando l'utente seleziona un questionario viene visualizzata la sezione della compilazione del questionario scelto & Pianificato\\
 %\midrule
@@ -998,7 +943,7 @@ F 3.2 \newline F 3.2.1 \newline  F 3.2.2 \newline  F 3.2.3 \newline F 3.2.4& TA 
 \midrule
 F 4 \newline F 4.1 \newline F 4.2 \newline F 4.2.1 \newline F 4.2.2 \newline F 4.2.3 \newline F 4.2.4 \newline F 4.2.4.1 \newline F 4.2.5 \newline F 4.2.5.1 \newline F 4.2.6 \newline F 4.2.6.1 \newline F 4.3 \newline F 4.4& TA 4& Verifica che il sistema dia la possibilità di compilare un questionario.\newline L'utente deve poter:
 \begin{enumerate}
-\item navigare liberamente tra le domande del questionario
+\item navigare tra le domande del questionario
 \item rispondere alle domande
 \item visualizzare la risposta data
 \item selezionare possibili risposte in caso di risposte multiple
@@ -1008,7 +953,7 @@ F 4 \newline F 4.1 \newline F 4.2 \newline F 4.2.1 \newline F 4.2.2 \newline F 4
 \item rispondere alle domande in qualsiasi ordine
 \item consegnare il questionario completato
 
-\end{enumerate} & Pianificato\\
+\end{enumerate} & Superato\\
 
 %F 4.1 &TA 4.1 &Durante la compilazione del questionario un utente può navigare liberamente tra le domande che lo compongono & Pianificato\\
 %\midrule
@@ -1044,7 +989,7 @@ F 4.5.1 \newline F 4.5.2 \newline F 4.5.2.1 \newline F 4.5.2.1.1 \newline F 4.5.
 \item valuti il questionario e ne visualizzi il risultato
 \item visualizzi il punteggio ottenuto
 \item visualizzi la percentuale di risposte corrette 
-\end{enumerate} & Pianificato\\
+\end{enumerate} & Superato\\
 \midrule
 %F 4.5.2 & TA 4.5.2 &Quando un questionario viene confermato e consegnato viene valutato dal sistema & Pianificato\\
 %\midrule
@@ -1063,7 +1008,7 @@ Il sistema deve:
 \item consegnare automaticamente il questionario allo scadere del tempo massimo anche se incompleto
 \item visualizzare il tempo restante
 
-\end{enumerate} & Pianificato\\
+\end{enumerate} & Superato\\
 \midrule
 %F 4.6.1 & TA 4.6.1 &Allo scadere del tempo il questionario verrà consegnato automaticamente anche se incompleto & Pianificato\\
 %\midrule
@@ -1077,7 +1022,7 @@ L'utente deve potere:
 \item scegliere la categoria della domanda
 \item inserire i dati necessari alla compilazione della domanda in formato QML
 \item inviare i dati inseriti 
-\end{enumerate} & Pianificato\\
+\end{enumerate} & Superato\\
 \midrule
 %F 5.1 &TA 5.1&La sezione dedicata alla creazione di una domanda deve permettere l'inserimento dei dati necessari & Pianificato\\
 %\midrule
@@ -1092,7 +1037,7 @@ F 5.2.1 \newline F 5.2.1.1 \newline F 5.2.1.2 \newline F 5.2.1.3 \newline F 5.2.
 \item visualizzare un messaggio di errore se i dati obbligatori non risultano inseriti
 \item visualizzare un messaggio di errore se il codice QML inserito non risulta valido
 \item visualizzare un messaggio nel caso che i dati siano corretti e la memorizzazione della domanda è andata a buon fine. In caso contrario deve annullare la creazione della domanda ed avvisare l'utente tramite un messaggio a schermo
-\end{enumerate} & Pianificato\\
+\end{enumerate} & Superato\\
 \midrule
 %F 5.2.1.1 & TA 5.2.1.1 &Se i dati obbligatori non risultano inseriti viene visualizzato un messaggio di errore & Pianificato\\
 %\midrule
@@ -1113,7 +1058,7 @@ F 6 \newline F 6.1 \newline F 6.1.1 \newline F 6.1.2 \newline F 6.1.3 \newline F
 \item visualizzare la lista delle domande della categoria
 \item selezionare qualsiasi domanda visualizzata
 \item inviare il nuovo questinario
-\end{enumerate} & Pianificato\\
+\end{enumerate} & Superato\\
 %\midrule
 %F 6.1 &TA 6.1&La sezione dedicata alla creazione di un questionario deve permettere l'inserimento dei dati necessari & Pianificato\\
 %\midrule
@@ -1135,7 +1080,7 @@ F 6.2.1 \newline F 6.2.1.1 \newline F 6.2.1.2 \newline F 6.2.1.3 \newline F 6.2.
 \item crei il nuovo questinario se i dati inseriti sono corretti, avvisando l'utente del successo
 \item avvisi l'utente con un messaggio se la creazione del nuovo questionario non è andata a buon fine
 
-\end{enumerate} & Pianificato\\
+\end{enumerate} & Superato\\
 %\midrule
 %F 6.2.1.1 & TA 6.2.1.1 &Se i dati obbligatori non risultano inseriti viene visualizzato un messaggio di errore & Pianificato\\
 %\midrule
@@ -1188,14 +1133,14 @@ F 6.2.1 \newline F 6.2.1.1 \newline F 6.2.1.2 \newline F 6.2.1.3 \newline F 6.2.
 \subsection{Test di sistema}
 Nella seguente tabella vengono elencati i test di sistema. Sulla quarta colonna viene specificato il tipo di test, se dinamico o statico.
 \subsubsection{Requisiti funzionali}
-	\begin{longtable}{p{0.10\columnwidth}p{0.10\columnwidth}p{0.40\columnwidth}p{0.1\columnwidth}p{0.2\textwidth}}
+	\begin{longtable}{p{0.10\columnwidth}p{0.10\columnwidth}p{0.50\columnwidth}p{0.15\textwidth}}
 			\caption{Test di sistema req. funzionali} \\
 
-\textbf{ID req.} & \textbf{ID test} & \textbf{Da verificare}& \textbf{Tipo} & \textbf{Stato} \\
+\textbf{ID req.} & \textbf{ID test} & \textbf{Da verificare}&  \textbf{Stato} \\
 \midrule
 \endfirsthead
 
-\textbf{ID req.} & \textbf{ID test} & \textbf{Descrizione} & \textbf{Tipo} &\textbf{Stato} \\
+\textbf{ID req.} & \textbf{ID test} & \textbf{Descrizione}  &\textbf{Stato} \\
 \midrule
 \endhead
 
@@ -1204,226 +1149,226 @@ Nella seguente tabella vengono elencati i test di sistema. Sulla quarta colonna 
 
 \multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Requisiti funzionali}
 \endlastfoot
-F 1 & TS 1& Il sistema fornisce la possibilità ad un utente non autenticato di registrarsi & Dinamico & Pianificato \\
+F 1 & TS 1& Il sistema fornisce la possibilità ad un utente non autenticato di registrarsi &  Superato \\
 \midrule
-F 1.1 &TS 1.1& La sezione dedicata alla registrazione permette l'inserimento dei dati necessari & Dinamico &Pianificato\\
+F 1.1 &TS 1.1& La sezione dedicata alla registrazione permette l'inserimento dei dati necessari & Superato\\
 \midrule
-F 1.1.1 &TS 1.1.1& La sezione dedicata alla registrazione deve permettere l'inserimento di una e-mail & Dinamico &Pianificato\\
+F 1.1.1 &TS 1.1.1& La sezione dedicata alla registrazione deve permettere l'inserimento di una e-mail & Superato\\
 \midrule
-F 1.1.2 &TA 1.1.2& La sezione dedicata alla registrazione deve permettere l'inserimento di una password & Dinamico &Pianificato\\
+F 1.1.2 &TA 1.1.2& La sezione dedicata alla registrazione deve permettere l'inserimento di una password & Superato\\
 \midrule
-F 1.1.2.1 &TS 1.1.2.1& Se la password inserita ha meno di 8 caratteri viene visualizzato un messaggio di errore & Dinamico &Pianificato\\
+F 1.1.2.1 &TS 1.1.2.1& Se la password inserita ha meno di 8 caratteri viene visualizzato un messaggio di errore & Superato\\
 \midrule
-F 1.2 & TS 1.2&La sezione dedicata alla registrazione deve permettere l'invio dei dati inseriti & Dinamico &Pianificato\\
+F 1.2 & TS 1.2&La sezione dedicata alla registrazione deve permettere l'invio dei dati inseriti & Superato\\
 \midrule
-F 1.2.1 &TS 1.2.1&Prima di inviare i dati viene effettuato un controllo su di essi & Dinamico &Pianificato\\
+F 1.2.1 &TS 1.2.1&Prima di inviare i dati viene effettuato un controllo su di essi & Superato\\
 \midrule
-F 1.2.1.1 & TS 1.2.1.1&Se i dati richiesti non sono stati inseriti viene visualizzato un messaggio di errore & Dinamico &Pianificato\\
+F 1.2.1.1 & TS 1.2.1.1&Se i dati richiesti non sono stati inseriti viene visualizzato un messaggio di errore & Superato\\
 \midrule
-F 1.2.1.2 &TS 1.2.1.2&Se la email inserita risulta già in uso viene visualizzato un messaggio di errore & Dinamico &Pianificato\\
+F 1.2.1.2 &TS 1.2.1.2&Se la email inserita risulta già in uso viene visualizzato un messaggio di errore & Superato\\
 \midrule
-F 1.2.1.3 & TS 1.2.1.3&Se i dati non risultano corretti ne viene bloccato l'invio & Dinamico &Pianificato\\
+F 1.2.1.3 & TS 1.2.1.3&Se i dati non risultano corretti ne viene bloccato l'invio & Superato\\
 \midrule
-F 1.2.2 & TS 1.2.2&Quando dei dati corretti vengono inviati il sistema memorizza un nuovo account con essi & Dinamico &Pianificato\\
+F 1.2.2 & TS 1.2.2&Quando dei dati corretti vengono inviati il sistema memorizza un nuovo account con essi & Superato\\
 \midrule
-F 1.2.3 & TS 1.2.3&Quando viene creato un nuovo account con la procedura di registrazione viene automaticamente effettuato il login con quell'account & Dinamico &Pianificato\\
+F 1.2.3 & TS 1.2.3&Quando viene creato un nuovo account con la procedura di registrazione viene automaticamente effettuato il login con quell'account & Superato\\
 \midrule
-F 2 & TS 2&Il sistema deve fornire la possibilità ad un utente non autenticato di autenticarsi & Dinamico &Pianificato\\
+F 2 & TS 2&Il sistema deve fornire la possibilità ad un utente non autenticato di autenticarsi & Superato\\
 \midrule
-F 2.1 &TS 2.1 & La sezione dedicata all'autenticazione deve permettere l'inserimento dei dati necessari & Dinamico &Pianificato\\
+F 2.1 &TS 2.1 & La sezione dedicata all'autenticazione deve permettere l'inserimento dei dati necessari & Superato\\
 \midrule
-F 2.1.1 &TS 2.1.1&La sezione dedicata all'autenticazione deve permettere l'inserimento di una e-mail & Dinamico &Pianificato\\
+F 2.1.1 &TS 2.1.1&La sezione dedicata all'autenticazione deve permettere l'inserimento di una e-mail & Superato\\
 \midrule
-F 2.1.2 &TS 2.1.2&La sezione dedicata all'autenticazione deve permettere l'inserimento di una password & Dinamico &Pianificato\\
+F 2.1.2 &TS 2.1.2&La sezione dedicata all'autenticazione deve permettere l'inserimento di una password & Superato\\
 \midrule
-F 2.2 &TS 2.2&La sezione dedicata all'autenticazione deve fornire una procedura di recupero password & Dinamico &Pianificato\\
+F 2.2 &TS 2.2&La sezione dedicata all'autenticazione deve fornire una procedura di recupero password & Superato\\
 \midrule
-F 2.2.1 &TS 2.2.1&La procedura di recupero password deve permettere l'inserimento della e-mail & Dinamico &Pianificato\\
+F 2.2.1 &TS 2.2.1&La procedura di recupero password deve permettere l'inserimento della e-mail & Superato\\
 \midrule
-F 2.2.2 &TS 2.2.2&La procedura di recupero password deve effettuare un controllo sulla e-mail inserita & Dinamico &Pianificato\\
+F 2.2.2 &TS 2.2.2&La procedura di recupero password deve effettuare un controllo sulla e-mail inserita & Superato\\
 \midrule
-F 2.2.2.1 &TS 2.2.2.1&Se la e-mail non risulta registrata viene visualizzato un messaggio di errore & Dinamico &Pianificato\\
+F 2.2.2.1 &TS 2.2.2.1&Se la e-mail non risulta registrata viene visualizzato un messaggio di errore & Superato\\
 \midrule
-F 2.2.2.2 & TS 2.2.2.2&Se la e-mail non risulta registrata viene bloccato l'invio della mail a quell'indirizzo & Dinamico &Pianificato\\
+F 2.2.2.2 & TS 2.2.2.2&Se la e-mail non risulta registrata viene bloccato l'invio della mail a quell'indirizzo & Superato\\
 \midrule
-F 2.2.3 & TS 2.2.3&La procedura di recupero password deve mandare una mail all'indirizzo inserito con la password dimenticata & Dinamico &Pianificato\\
+F 2.2.3 & TS 2.2.3&La procedura di recupero password deve mandare una mail all'indirizzo inserito con la password dimenticata & Superato\\
 \midrule
-F 2.3 & TS 2.3&La sezione dedicata all'autenticazione deve permettere l'invio dei dati inseriti & Dinamico &Pianificato\\
+F 2.3 & TS 2.3&La sezione dedicata all'autenticazione deve permettere l'invio dei dati inseriti & Superato\\
 \midrule
-F 2.3.1 & TS 2.3.1&Prima di inviare i dati viene effettuato un controllo su di essi & Dinamico &Pianificato\\
+F 2.3.1 & TS 2.3.1&Prima di inviare i dati viene effettuato un controllo su di essi & Superato\\
 \midrule
-F 2.3.1.1 & TS 2.3.1.1 &Se la combinazione e-mail/password non è registrata viene visualizzato un messaggio di errore & Dinamico &Pianificato\\
+F 2.3.1.1 & TS 2.3.1.1 &Se la combinazione e-mail/password non è registrata viene visualizzato un messaggio di errore & Superato\\
 \midrule
-F 2.3.2 & TS 2.3.2 &Se la combinazione e-mail/password è registrata l'utente viene autenticato & Dinamico &Pianificato\\
+F 2.3.2 & TS 2.3.2 &Se la combinazione e-mail/password è registrata l'utente viene autenticato & Superato\\
 \midrule
-F 3 & TS 3 &Il sistema deve permettere la navigazione dei questionari per categoria & Dinamico &Pianificato\\
+F 3 & TS 3 &Il sistema deve permettere la navigazione dei questionari per categoria & Superato\\
 \midrule
-F 3.1 & TS 3.1 &Il sistema deve fornire una sezione con un elenco delle categorie di questionari presenti nel database & Dinamico &Pianificato\\
+F 3.1 & TS 3.1 &Il sistema deve fornire una sezione con un elenco delle categorie di questionari presenti nel database & Superato\\
 \midrule
-F 3.1.1 & TS 3.1.1 &Quando l'utente seleziona una categoria viene visualizzata la sezione che elenca i questionari della categoria scelta & Dinamico &Pianificato\\
+F 3.1.1 & TS 3.1.1 &Quando l'utente seleziona una categoria viene visualizzata la sezione che elenca i questionari della categoria scelta & Superato\\
 \midrule
-F 3.1.2 & TS 3.1.2 &Per ogni elemento dell'elenco viene visualizzato il nome della categoria & Dinamico &Pianificato\\
+F 3.1.2 & TS 3.1.2 &Per ogni elemento dell'elenco viene visualizzato il nome della categoria & Superato\\
 \midrule
-F 3.1.3 & TS 3.1.3 &Per ogni elemento dell'elenco viene visualizzato il numero di questionari della categoria & Dinamico &Pianificato\\
+F 3.1.3 & TS 3.1.3 &Per ogni elemento dell'elenco viene visualizzato il numero di questionari della categoria & Superato\\
 \midrule
-F 3.2 & TS 3.2 &Il sistema deve fornire una sezione con un elenco dei questionari relativi ad una categoria & Dinamico &Pianificato\\
+F 3.2 & TS 3.2 &Il sistema deve fornire una sezione con un elenco dei questionari relativi ad una categoria & Superato\\
 \midrule
-F 3.2.1 &TS 3.2.1&Quando l'utente seleziona un questionario viene visualizzata la sezione della compilazione del questionario scelto & Dinamico &Pianificato\\
+F 3.2.1 &TS 3.2.1&Quando l'utente seleziona un questionario viene visualizzata la sezione della compilazione del questionario scelto & Superato\\
 \midrule
-F 3.2.2 &TS 3.2.2&Per ogni elemento dell'elenco viene visualizzato il nome del questionario & Dinamico &Pianificato\\
+F 3.2.2 &TS 3.2.2&Per ogni elemento dell'elenco viene visualizzato il nome del questionario & Superato\\
 \midrule
-F 3.2.3 & TS 3.2.3 &Per ogni elemento dell'elenco viene visualizzato il numero di domande del questionario & Dinamico &Pianificato\\
+F 3.2.3 & TS 3.2.3 &Per ogni elemento dell'elenco viene visualizzato il numero di domande del questionario & Superato\\
 \midrule
-F 3.2.4 &TS 3.2.4 &Per ogni elemento dell'elenco viene visualizzato l'autore & Dinamico &Pianificato\\
+F 3.2.4 &TS 3.2.4 &Per ogni elemento dell'elenco viene visualizzato l'autore & Superato\\
 \midrule
-F 4 & TS 4&Il sistema deve fornire la possibilità di compilare un questionario & Dinamico &Pianificato\\
+F 4 & TS 4&Il sistema deve fornire la possibilità di compilare un questionario & Superato\\
 \midrule
-F 4.1 &TS 4.1 &Durante la compilazione del questionario un utente può navigare liberamente tra le domande che lo compongono & Dinamico &Pianificato\\
+F 4.1 &TS 4.1 &Durante la compilazione del questionario un utente può navigare liberamente tra le domande che lo compongono & Superato\\
 \midrule
-F 4.2 & TS 4.2 &L'utente può rispondere alle domande & Dinamico &Pianificato\\
+F 4.2 & TS 4.2 &L'utente può rispondere alle domande & Superato\\
 \midrule
-F 4.2.1 &TS 4.2.1&Viene visualizzato il testo della domanda & Dinamico &Pianificato\\
+F 4.2.1 &TS 4.2.1&Viene visualizzato il testo della domanda & Superato\\
 \midrule
-F 4.2.2 &TS 4.2.2 &Viene visualizzata la risposta data & Dinamico &Pianificato\\
+F 4.2.2 &TS 4.2.2 &Viene visualizzata la risposta data & Superato\\
 \midrule
-F 4.2.3 & TS 4.2.3 &Se la domanda richiede una risposta inserita dal'utente allora viene fornito un campo per l'inserimento della risposta & Dinamico &Pianificato\\
+F 4.2.3 & TS 4.2.3 &Se la domanda richiede una risposta inserita dal'utente allora viene fornito un campo per l'inserimento della risposta & \textcolor{red}{Non implementato}\\
 \midrule
-F 4.2.4 &TS 4.2.4 &Se la domanda ha delle risposte preimpostate di qualsiasi tipo queste vengono visualizzate & Dinamico &Pianificato\\
+F 4.2.4 &TS 4.2.4 &Se la domanda ha delle risposte preimpostate di qualsiasi tipo queste vengono visualizzate & Superato\\
 \midrule
-F 4.2.4.1 & TS 4.2.4.1 &Deve essere possibile selezionare una risposta & Dinamico &Pianificato\\
+F 4.2.4.1 & TS 4.2.4.1 &Deve essere possibile selezionare una risposta & Superato\\
 \midrule
-F 4.2.5 & TS 4.2.5 &Se la domanda permette associazioni tra elementi deve visualizzare tutti gli elementi associabili & Dinamico &Pianificato\\
+F 4.2.5 & TS 4.2.5 &Se la domanda permette associazioni tra elementi deve visualizzare tutti gli elementi associabili & Superato\\
 \midrule
-F 4.2.5.1 & TS 4.2.5.1 &Deve essere possibile associare due elementi di insiemi diversi & Dinamico &Pianificato\\
+F 4.2.5.1 & TS 4.2.5.1 &Deve essere possibile associare due elementi di insiemi diversi & Superato\\
 \midrule
-F 4.2.6 & TS 4.2.6 &Se la domanda prevede il completamento del testo con delle parole vengono visualizzate le possibili parole & Dinamico &Pianificato\\
+F 4.2.6 & TS 4.2.6 &Se la domanda prevede il completamento del testo con delle parole vengono visualizzate le possibili parole & Superato\\
 \midrule
-F 4.2.6.1 & TS 4.2.6.1 &Deve essere possibile selezionare una parola dalla lista & Dinamico &Pianificato\\
+F 4.2.6.1 & TS 4.2.6.1 &Deve essere possibile selezionare una parola dalla lista & Superato\\
 \midrule
-F 4.3 & TS 4.3&L'utente può cambiare la risposta di una domanda in qualsiasi momento prima della consegna del questionario & Dinamico &Pianificato\\
+F 4.3 & TS 4.3&L'utente può cambiare la risposta di una domanda in qualsiasi momento prima della consegna del questionario & Superato\\
 \midrule
-F 4.4 & TS 4.4 &Le domande possono essere compilate in un ordine qualsiasi & Dinamico &Pianificato\\
+F 4.4 & TS 4.4 &Le domande possono essere compilate in un ordine qualsiasi & Superato\\
 \midrule
-F 4.5 &TS 4.5 &L'utente può consegnare il questionario & Dinamico &Pianificato\\
+F 4.5 &TS 4.5 &L'utente può consegnare il questionario & Superato\\
 \midrule
-F 4.5.1 & TS 4.5.1 &Se alla consegna una o più domande non sono state compilate il sistema avverte l'utente di ciò & Dinamico &Pianificato\\
+F 4.5.1 & TS 4.5.1 &Se alla consegna una o più domande non sono state compilate il sistema avverte l'utente di ciò & Superato\\
 \midrule
-F 4.5.2 & TS 4.5.2 &Quando un questionario viene confermato e consegnato viene valutato dal sistema & Dinamico &Pianificato\\
+F 4.5.2 & TS 4.5.2 &Quando un questionario viene confermato e consegnato viene valutato dal sistema & Superato\\
 \midrule
-F 4.5.2.1 & TS 4.5.2.1 &La valutazione del questionario viene visualizzata all'utente & Dinamico &Pianificato\\
+F 4.5.2.1 & TS 4.5.2.1 &La valutazione del questionario viene visualizzata all'utente & Superato\\
 \midrule
-F 4.5.2.1.1 &TS 4.5.2.1.1 &Viene visualizzato il nome del questionario & Dinamico &Pianificato\\
+F 4.5.2.1.1 &TS 4.5.2.1.1 &Viene visualizzato il nome del questionario & Superato\\
 \midrule
-F 4.5.2.1.2 & TS 4.5.2.1.2 &Viene visualizzato il punteggio ottenuto & Dinamico &Pianificato\\
+F 4.5.2.1.2 & TS 4.5.2.1.2 &Viene visualizzato il punteggio ottenuto & Superato\\
 \midrule
-F 4.5.2.1.3 & TS 4.5.2.1.3 &Viene visualizzata la percentuale delle risposte corrette & Dinamico &Pianificato\\
+F 4.5.2.1.3 & TS 4.5.2.1.3 &Viene visualizzata la percentuale delle risposte corrette & Superato\\
 \midrule
-F 4.6 & TS 4.6&La compilazione del questionario ha un tempo massimo & Dinamico &Pianificato\\
+F 4.6 & TS 4.6&La compilazione del questionario ha un tempo massimo & Superato\\
 \midrule
-F 4.6.1 & TS 4.6.1 &Allo scadere del tempo il questionario verrà consegnato automaticamente anche se incompleto & Dinamico &Pianificato\\
+F 4.6.1 & TS 4.6.1 &Allo scadere del tempo il questionario verrà consegnato automaticamente anche se incompleto & Superato\\
 \midrule
-F 4.6.2 & TS 4.6.2 &Il tempo inizia a scorrere da quando l'utente accede alla pagina & Dinamico &Pianificato\\
+F 4.6.2 & TS 4.6.2 &Il tempo inizia a scorrere da quando l'utente accede alla pagina & Superato\\
 \midrule
-F 4.7 &TS 4.7 &Viene visualizzato il tempo restante & Dinamico &Pianificato\\
+F 4.7 &TS 4.7 &Viene visualizzato il tempo restante & Superato\\
 \midrule
-F 5 & TS 5&Il sistema deve fornire la possibilità ad un utente autenticato di creare una nuova domanda & Dinamico &Pianificato\\
+F 5 & TS 5&Il sistema deve fornire la possibilità ad un utente autenticato di creare una nuova domanda & Superato\\
 \midrule
-F 5.1 &TS 5.1&La sezione dedicata alla creazione di una domanda deve permettere l'inserimento dei dati necessari & Dinamico &Pianificato\\
+F 5.1 &TS 5.1&La sezione dedicata alla creazione di una domanda deve permettere l'inserimento dei dati necessari & Superato\\
 \midrule
-F 5.1.1 & TS 5.1.1 &La sezione dedicata alla creazione di una domanda deve permettere la scelta di una o più categorie & Dinamico &Pianificato\\
+F 5.1.1 & TS 5.1.1 &La sezione dedicata alla creazione di una domanda deve permettere la scelta di una o più categorie & Superato\\
 \midrule
-F 5.1.2 & TS 5.1.2 &La sezione dedicata alla creazione di una domanda deve permettere l'inserimento del codice QML che definisce la domanda & Dinamico &Pianificato\\
+F 5.1.2 & TS 5.1.2 &La sezione dedicata alla creazione di una domanda deve permettere l'inserimento del codice QML che definisce la domanda & Superato\\
 \midrule
-F 5.2 & TS 5.2&La sezione dedicata alla creazione di una domanda deve permettere l'invio dei dati inseriti & Dinamico &Pianificato\\
+F 5.2 & TS 5.2&La sezione dedicata alla creazione di una domanda deve permettere l'invio dei dati inseriti & Superato\\
 \midrule
-F 5.2.1 & TS 5.2.1&Prima di inviare i dati viene effettuato un controllo su di essi & Dinamico &Pianificato\\
+F 5.2.1 & TS 5.2.1&Prima di inviare i dati viene effettuato un controllo su di essi & Superato\\
 \midrule
-F 5.2.1.1 & TS 5.2.1.1 &Se i dati obbligatori non risultano inseriti viene visualizzato un messaggio di errore & Dinamico &Pianificato\\
+F 5.2.1.1 & TS 5.2.1.1 &Se i dati obbligatori non risultano inseriti viene visualizzato un messaggio di errore & Superato\\
 \midrule
-F 5.2.1.2 & TS 5.2.1.2 &Se il codice QML inserito non risulta valido viene visualizzato un messaggio di errore & Dinamico &Pianificato\\
+F 5.2.1.2 & TS 5.2.1.2 &Se il codice QML inserito non risulta valido viene visualizzato un messaggio di errore & Superato\\
 \midrule
-F 5.2.1.3 &TS 5.2.1.3 &Se i dati obbligatori non risultano inseriti o il codice QML non è valido la creazione della nuova domanda viene bloccata & Dinamico &Pianificato\\
+F 5.2.1.3 &TS 5.2.1.3 &Se i dati obbligatori non risultano inseriti o il codice QML non è valido la creazione della nuova domanda viene bloccata & Superato\\
 \midrule
-F 5.2.2 & TS 5.2.2 &Quando dei dati che superano i controlli vengono inviati viene creata una nuova domanda con essi e inserita nel database & Dinamico &Pianificato\\
+F 5.2.2 & TS 5.2.2 &Quando dei dati che superano i controlli vengono inviati viene creata una nuova domanda con essi e inserita nel database & Superato\\
 \midrule
-F 5.2.2.1 & TS 5.2.2.1 &Se la creazione di una nuova domanda va a buon fine il sistema avvisa l'utente & Dinamico &Pianificato\\
+F 5.2.2.1 & TS 5.2.2.1 &Se la creazione di una nuova domanda va a buon fine il sistema avvisa l'utente & Superato\\
 \midrule
-F 5.2.2.2 & TS 5.2.2.2 & Se la creazione di una nuova domanda non va a buon fine il sistema visualizza un messaggio di errore & Dinamico &Pianificato\\
+F 5.2.2.2 & TS 5.2.2.2 & Se la creazione di una nuova domanda non va a buon fine il sistema visualizza un messaggio di errore & Superato\\
 \midrule
-F 6 & TS 6&Il sistema deve fornire la possibilità ad un utente autenticato di creare un nuovo questionario & Dinamico &Pianificato\\
+F 6 & TS 6&Il sistema deve fornire la possibilità ad un utente autenticato di creare un nuovo questionario & Superato\\
 \midrule
-F 6.1 &TS 6.1&La sezione dedicata alla creazione di un questionario deve permettere l'inserimento dei dati necessari & Dinamico &Pianificato\\
+F 6.1 &TS 6.1&La sezione dedicata alla creazione di un questionario deve permettere l'inserimento dei dati necessari & Superato\\
 \midrule
-F 6.1.1 & TS 6.1.1&La sezione dedicata alla creazione di un questionario deve permettere l'inserimento del nome del questionario & Dinamico &Pianificato\\
+F 6.1.1 & TS 6.1.1&La sezione dedicata alla creazione di un questionario deve permettere l'inserimento del nome del questionario & Superato\\
 \midrule
-F 6.1.2 &TS 6.1.2 &La sezione dedicata alla creazione di un questionario deve permettere l'inserimento della categoria del questionario & Dinamico &Pianificato\\
+F 6.1.2 &TS 6.1.2 &La sezione dedicata alla creazione di un questionario deve permettere l'inserimento della categoria del questionario & Superato\\
 \midrule
-F 6.1.3 &TS 6.1.3 &La sezione dedicata alla creazione di un questionario deve visualizzare la lista delle domande della categoria selezionata & Dinamico &Pianificato\\
+F 6.1.3 &TS 6.1.3 &La sezione dedicata alla creazione di un questionario deve visualizzare la lista delle domande della categoria selezionata & Superato\\
 \midrule
-F 6.1.3.1 &TS 6.1.3.1 &Se nessuna categoria è stata selezionata non viene visualizzata alcuna domanda & Dinamico &Pianificato\\
+F 6.1.3.1 &TS 6.1.3.1 &Se nessuna categoria è stata selezionata non viene visualizzata alcuna domanda & Superato\\
 \midrule
-F 6.1.3.2 & TS 6.1.3.2 &Ogni domanda deve essere selezionabile & Dinamico &Pianificato\\
+F 6.1.3.2 & TS 6.1.3.2 &Ogni domanda deve essere selezionabile & Superato\\
 \midrule
-F 6.2 & TS 6.2 &La sezione dedicata alla creazione di un nuovo questionario deve permettere l'invio dei dati inseriti & Dinamico &Pianificato\\
+F 6.2 & TS 6.2 &La sezione dedicata alla creazione di un nuovo questionario deve permettere l'invio dei dati inseriti & Superato\\
 \midrule
-F 6.2.1 & TS 6.2.1 &Prima di inviare i dati viene effettuato un controllo su di essi & Dinamico &Pianificato\\
+F 6.2.1 & TS 6.2.1 &Prima di inviare i dati viene effettuato un controllo su di essi & Superato\\
 \midrule
-F 6.2.1.1 & TS 6.2.1.1 &Se i dati obbligatori non risultano inseriti viene visualizzato un messaggio di errore & Dinamico &Pianificato\\
+F 6.2.1.1 & TS 6.2.1.1 &Se i dati obbligatori non risultano inseriti viene visualizzato un messaggio di errore & Superato\\
 \midrule
-F 6.2.1.2 &TS 6.2.1.2 &Se nessuna domanda è selezionata viene visualizzato un messaggio di errore & Dinamico &Pianificato\\
+F 6.2.1.2 &TS 6.2.1.2 &Se nessuna domanda è selezionata viene visualizzato un messaggio di errore & Superato\\
 \midrule
-F 6.2.1.3 & TS 6.2.1.3 &Se i dati obbligatori non risultano inseriti non è valido nessun dato viene inviato & Dinamico &Pianificato\\
+F 6.2.1.3 & TS 6.2.1.3 &Se i dati obbligatori non risultano inseriti non è valido nessun dato viene inviato & Superato\\
 \midrule
-F 6.2.2 &TS 6.2.2 &Quando dei dati che superano i controlli vengono inviati viene creato un nuovo questionario con essi e inserito nel database & Dinamico &Pianificato\\
+F 6.2.2 &TS 6.2.2 &Quando dei dati che superano i controlli vengono inviati viene creato un nuovo questionario con essi e inserito nel database & Superato\\
 \midrule
-F 6.2.2.1 &TS 6.2.2.1 &Se la creazione di un nuovo questionario va a buon fine il sistema avvisa l'utente & Dinamico &Pianificato\\
+F 6.2.2.1 &TS 6.2.2.1 &Se la creazione di un nuovo questionario va a buon fine il sistema avvisa l'utente & Superato\\
 \midrule
-F 6.2.2.2 & TS 6.2.2.2 &Se la creazione di un nuovo questionario non va a buon fine il sistema visualizza un messaggio di errore & Dinamico &Pianificato\\
+F 6.2.2.2 & TS 6.2.2.2 &Se la creazione di un nuovo questionario non va a buon fine il sistema visualizza un messaggio di errore & Superato\\
 \midrule
-F 7 & TS 7&Il sistema deve fornire la possibilità ad un utente autenticato di uscire facendo il logout & Dinamico &Pianificato\\
+F 7 & TS 7&Il sistema deve fornire la possibilità ad un utente autenticato di uscire facendo il logout & Superato\\
 \midrule
-F 8 & TS 8&Il sistema deve essere in grado di interpretare il codice QML & Dinamico &Pianificato\\
+F 8 & TS 8&Il sistema deve essere in grado di interpretare il codice QML & Superato\\
 \midrule
-F 8.1 & TS 8.1&QML definisce domande & Statico &Pianificato\\
+F 8.1 & TS 8.1&QML definisce domande & Superato\\
 \midrule
-F 8.1.1 &TS 8.1.1&Una domanda è formata dal testo del quesito e da una o più risposte & Statico &Pianificato\\
+F 8.1.1 &TS 8.1.1&Una domanda è formata dal testo del quesito e da una o più risposte & Superato\\
 \midrule
-F 8.1.2 &TS 8.1.2&Una domanda deve avere almeno una risposta esatta & Statico &Pianificato\\
+F 8.1.2 &TS 8.1.2&Una domanda deve avere almeno una risposta esatta & Superato\\
 \midrule
-F 8.1.3 & TS 8.1.3&Una domanda può avere una lista di possibili risposte & Statico &Pianificato\\
+F 8.1.3 & TS 8.1.3&Una domanda può avere una lista di possibili risposte & Superato\\
 \midrule
-F 8.1.4 & TS 8.1.4 &QML permette la definizione di diverse tipologie di domande & Statico &Pianificato\\
+F 8.1.4 & TS 8.1.4 &QML permette la definizione di diverse tipologie di domande & Superato\\
 \midrule
-F 8.1.4.1 &TS 8.1.4.1 &QML definisce domande di tipo vero o falso & Statico &Pianificato\\
+F 8.1.4.1 &TS 8.1.4.1 &QML definisce domande di tipo vero o falso & Superato\\
 \midrule
-F 8.1.4.2 & TS&QML definisce domande a scelta multipla con una sola risposta esatta & Statico &Pianificato\\
+F 8.1.4.2 & TS&QML definisce domande a scelta multipla con una sola risposta esatta & Superato\\
 \midrule
-F 8.1.4.3 & TS 8.1.4.3 &QML definisce domande a scelta multipla con più risposte esatte & Statico &Pianificato\\
+F 8.1.4.3 & TS 8.1.4.3 &QML definisce domande a scelta multipla con più risposte esatte & Superato\\
 \midrule
-F 8.1.4.4 & TS 8.1.4.4 &QML definisce domande a risposta testuale & Statico &Pianificato\\
+F 8.1.4.4 & TS 8.1.4.4 &QML definisce domande a risposta testuale & \textcolor{red}{Non implementato}\\
 \midrule
-F 8.1.4.5 & TS 8.1.4.5 &QML definisce domande di associazione tra elementi di due insiemi & Statico &Pianificato\\
+F 8.1.4.5 & TS 8.1.4.5 &QML definisce domande di associazione tra elementi di due insiemi & Superato\\
 \midrule
-F 8.1.4.5.1 &TS 8.1.4.5.1 &Gli insiemi possono contenere elementi non associabili di disturbo & Statico &Pianificato\\
+F 8.1.4.5.1 &TS 8.1.4.5.1 &Gli insiemi possono contenere elementi non associabili di disturbo & Superato\\
 \midrule
-F 8.1.4.6 & TS 8.1.4.6&QML definisce domande a completamento testuale a scelta da un gruppo di parole date & Statico &Pianificato\\
+F 8.1.4.6 & TS 8.1.4.6&QML definisce domande a completamento testuale a scelta da un gruppo di parole date & \textcolor{red}{Non implementato}\\
 \midrule
-F 8.1.4.6.1 & TS 8.1.4.6.1 &Il gruppo di parole può contenere elementi di disturbo & Statico &Pianificato\\
+F 8.1.4.6.1 & TS 8.1.4.6.1 &Il gruppo di parole può contenere elementi di disturbo & \textcolor{red}{Non implementato}\\
 \midrule
-F 8.1.4.7 & TS 8.1.4.7&QML definisce domande di associazione tra date poste in una timeline e avvenimenti & Statico &Pianificato\\
+F 8.1.4.7 & TS 8.1.4.7&QML definisce domande di associazione tra date poste in una timeline e avvenimenti & Superato\\
 \midrule
-F 8.2 &TS 8.2 &QML gestisce immagini all'interno di domande e risposte preimpostate & Statico &Pianificato\\
+F 8.2 &TS 8.2 &QML gestisce immagini all'interno di domande e risposte preimpostate & \textcolor{red}{Non implementato}\\
 \end{longtable}
 \subsubsection{Requisiti di qualità}
 \begin{longtable}
-{p{0.10\columnwidth}p{0.10\columnwidth}p{0.42\textwidth}p{0.1\columnwidth}p{0.2\textwidth}}
+{p{0.10\columnwidth}p{0.10\columnwidth}p{0.50\textwidth}p{0.15\textwidth}}
 			\caption{Test di sistema req. qualità} \\
 
-\textbf{ID req.} & \textbf{ID test} & \textbf{Da verificare}& \textbf{Tipo} & \textbf{Stato} \\
+\textbf{ID req.} & \textbf{ID test} & \textbf{Da verificare}&  \textbf{Stato} \\
 \midrule
 \endfirsthead
 
-\textbf{ID req.} & \textbf{ID test} & \textbf{Da verificare} & \textbf{Tipo} &\textbf{Stato} \\
+\textbf{ID req.} & \textbf{ID test} & \textbf{Da verificare} &\textbf{Stato} \\
 \midrule
 \endhead
 
@@ -1432,17 +1377,17 @@ F 8.2 &TS 8.2 &QML gestisce immagini all'interno di domande e risposte preimpost
 
 \multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Requisiti di qualità}
 \endlastfoot
-Q 1 & TQ 1 & Ogni file contiene codice scritto in un solo linguaggio per separare struttura, contenuto e comportamento & Statico & Pianificao\\
+Q 1 & TQ 1 & Ogni file contiene codice scritto in un solo linguaggio per separare struttura, contenuto e comportamento &  Superato\\
 \midrule
-Q 1.1 & TQ 1.1 & Il codice html si occupa della struttura delle pagine web & Satico & Pianificato\\
+Q 1.1 & TQ 1.1 & Il codice html si occupa della struttura delle pagine web & Superato\\
 \midrule
-Q 1.2 & TQ 1.2 & Il codice css si occupa dello stile delle pagine web & Statico & Pianificato\\
+Q 1.2 & TQ 1.2 & Il codice css si occupa dello stile delle pagine web &  Superato\\
 \midrule
-Q 1.3 & TQ 1.3 & Il codice javascript si occupa del comportamento delle pagine web & Statico & Pianificato \\
+Q 1.3 & TQ 1.3 & Il codice javascript si occupa del comportamento delle pagine web &  Superato \\
 \midrule
-Q 2 & TQ 2 &Il codice HTML passa il test di validazione del W3C & Dinamico & Pianificato\\
+Q 2 & TQ 2 &Il codice HTML passa il test di validazione del W3C &  Superato\\
 \midrule
-Q 3 & TQ 3 & Il codice CSS passa il test di validazione del W3C & Dinamico & Pianificato \\
+Q 3 & TQ 3 & Il codice CSS passa il test di validazione del W3C &  Superato \\
 \end{longtable}
 		\newpage	
 \subsection{Test di integrazione}
@@ -1465,18 +1410,18 @@ Q 3 & TQ 3 & Il codice CSS passa il test di validazione del W3C & Dinamico & Pia
 \endlastfoot
 TI1 & 
 Viene verificato che Model::Database gestisca correttamente le interazioni con la ViewModel in entrata per le interazini sugli utenti e sulla modifica o creazione di nuovi quiz e questionari, ed in uscita per la notifica alla ViewModel di cambiamenti dei dati nel database. 
- & Pianificato \\  
+ & Superato \\  
  \midrule
-TI2 & Viene verificato che Model::Parser interagisca correttamente con Model::Database nel controllo della correttezza del codice QML e per la visualizzazione delle domande. & Pianificato\\\midrule
-TI3 & Viene verificato che Model::Statistics interagisca correttamente con Model::Database e ViewModel per la memorizzazione delle statistiche e la loro visualizzazione. & Pianificato\\\midrule
-TI4 & Viene verificato che Model::Publishers ... & Pianificato\\\midrule
-TI5 & Viene verificato che View::Pages interagisca correttamente con View::Templates per la composizione delle pagine web da visualizzare & Pianificato\\\midrule
-TI6 & Viene verificato che View::Templates interagisca correttamente con View::Pages & Pianificato\\\midrule
-TI7 & Viene verificato che ViewModel::Controllers interagisca correttamente con i package View, ViewModel::Interpreter e ViewModel::Router per il data-binding; e con i package ViewModel::Subscribers, ViewModel::Methods che interagiscono con Model per richiedere ed aggiornare i dati & Pianificato\\\midrule
-TI8 & Viene verificato che ViewModel::Subscribers interagisca correttamente con Model e ViewModel::Controllers & Pianificato\\\midrule
-TI9 & Viene verificato che ViewModel::Methods interagisca correttamente con Model e ViewModel::Controllers & Pianificato\\\midrule
-TI10 & Viene Verificato che ViewModel::Interpreter interagisca correttamente con ViewModel::Controllers per la traduzione di testo QML in codice HTML5 da visualizzare & Pianificato\\\midrule
-TI11 & Viene verificato che ViewModel::Router interagisca correttamente con ViewModel::Controllers &Pianificato\\
+TI2 & Viene verificato che Model::Parser interagisca correttamente con Model::Database nel controllo della correttezza del codice QML e per la visualizzazione delle domande. & Superato\\\midrule
+TI3 & Viene verificato che Model::Statistics interagisca correttamente con Model::Database e ViewModel per la memorizzazione delle statistiche e la loro visualizzazione. & Superato\\\midrule
+%TI4 & Viene verificato che Model::Publishers ... & Pianificato\\\midrule
+%TI5 & Viene verificato che View::Pages interagisca correttamente con View::Templates per la composizione delle pagine web da visualizzare & Superato\\\midrule
+TI6 & Viene verificato che View::Templates interagisca correttamente con View::Quizzipedia & Superato\\\midrule
+TI7 & Viene verificato che ViewModel::Controllers interagisca correttamente con i package View, ViewModel::Interpreter e ViewModel::Router per il data-binding; e con i package ViewModel::Subscribers, ViewModel::Methods che interagiscono con Model per richiedere ed aggiornare i dati & Superato\\\midrule
+TI8 & Viene verificato che ViewModel::Subscribers interagisca correttamente con Model e ViewModel::Controllers & Superato\\\midrule
+TI9 & Viene verificato che ViewModel::Methods interagisca correttamente con Model e ViewModel::Controllers & Superato\\\midrule
+TI10 & Viene Verificato che ViewModel::Interpreter interagisca correttamente con ViewModel::Controllers per la traduzione di testo QML in codice HTML da visualizzare & Superato\\\midrule
+TI11 & Viene verificato che ViewModel::Router interagisca correttamente con ViewModel::Controllers &Superato\\
 \end{longtable}
 
 
@@ -1502,39 +1447,39 @@ TI11 & Viene verificato che ViewModel::Router interagisca correttamente con View
 
 \multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Test di unità}
 \endlastfoot
-TU1 & Da verificare che i metodi per l'aggiunta, la modifica e la rimozione di un quiz funzionino correttamente & Pianificato\\\midrule
-TU2 & Verifica che i metodi per l'aggiunta, la modifica e la rimozione di una domanda funzionino correttamente & Pianificato\\\midrule
-TU3 & Verifica che il metodo check() funzioni correttamente  & Pianificato\\\midrule
-TU4 & Verifica che i metodi di update delle statistiche sui quiz, le domande sugli utenti funzionino correttamente & Pianificato\\\midrule
-TU5 & Verifica che i metodi che rendono accessibili la collezione degli utenti, dei quiz e delle domande all’avvio funzionino correttamente & Pianificato\\\midrule
-TU6 & Verifica che il metodo salvi correttamente una domanda creata & Pianificato\\\midrule
-TU7 & Verifica che il metodo salvi correttamente un quiz creato & Pianificato\\\midrule
-TU8 & Verifica che il metodo della classe carichi correttamente per la visualizzazione la lista di quiz disponibili nel sistema & Pianificato\\\midrule
-TU9 & Verifica che il metodo visualizzi correttamente le informazioni generali di un qui una volta selezionato dalla lista dei quiz & Pianificato\\\midrule
-TU10 & Verifica che la domanda venga cancellata  & Pianificato\\\midrule
-TU11 & Verifica che il quiz venga cancellato & Pianificato\\\midrule
-TU12 & Verifica che i metodi della classe gestiscano correttamente la somministrazione di un quiz, permettendo di scorrere alla domanda precedente, alla successiva, e di terminare il quiz & Pianificato\\\midrule
-TU13 & Verifica che il metodo somministri correttamente la domanda facente parte di un quiz & Pianificato\\\midrule
-TU14 & Verifica che il metodo esegua correttamente il controllo della sintassi QML della domanda da creare o modificare & Pianificato\\\midrule
-TU15 & Viene verificato & Pianificato\\\midrule
-TU16 & Viene verificato & Pianificato\\\midrule
-TU17 & Viene verificato & Pianificato\\\midrule
-TU18 & Verifica che i metodi insert() e remove() relativi all'inserimento e alla rimozione di una domanda funzionino correttamente & Pianificato\\\midrule
-TU19 & Verifica che i metodi insert() e remove() relativi all'inserimento e alla rimozione di un quiz funzionino correttamente & Pianificato\\\midrule
-TU20 & Verifica che i metodi insert() e remove() relativi all'inserimento e alla rimozione di un utente funzionino correttamente & Pianificato\\\midrule
-TU21 &  & Pianificato\\\midrule
-TU22 & Verifica che il metodo colleghi correttamente un Url dell’applicazione al rispettivo template da caricare & Pianificato\\\midrule
-TU23 & Verifica che venga visualizzato correttamente il form di autenticazione al sistema & Pianificato\\\midrule
-TU24 & Verifica che venga visualizzato correttamente il form di registrazione al sistema & Pianificato\\\midrule
-TU25 & Verifica che venga visualizzato correttamente il form di recupero password & Pianificato\\\midrule
-TU26 & Verifica che il form per la creazione di un questionario venga visualizzato correttamente & Pianificato\\\midrule
-TU27 & Verifica che il form per la modifica di una domanda venga visualizzato correttamente & Pianificato\\\midrule
-TU28 & Verifica che il form per la creazione di una domanda venga visualizzato correttamente & Pianificato\\\midrule
-TU29 & Verifica che i metodi per la visualizzazione, l'ordinamento e la ricerca delle domande funzionino correttamente & Pianificato\\\midrule
-TU30 & Verifica che vengano visualizzati i risultati del questionario compilato & Pianificato\\\midrule
-TU31 & Verifica che la visualizzazione di un questionario avvenga correttamente & Pianificato\\\midrule
-TU32 & Verifica che la visualizzazione della lista di questionari avvenga correttamente e siano permesse e agiscano correttamente la ricerca e l'ordinamento & Pianificato\\\midrule
-TU33 & Verifica che la visualizzazione della lista delle categorie avvenga correttamente e siano permesse e agiscano correttamente la ricerca e l'ordinamento & Pianificato\\\midrule
+TU1 & Verifica che i metodi per l'aggiunta, la modifica e la rimozione di un quiz funzionino correttamente & Superato\\\midrule
+TU2 & Verifica che i metodi per l'aggiunta, la modifica e la rimozione di una domanda funzionino correttamente &Superato\\\midrule
+TU3 & Verifica che il metodo check() funzioni correttamente  &Superato\\\midrule
+TU4 & Verifica che i metodi di update delle statistiche sui quiz e sugli utenti funzionino correttamente &Superato\\\midrule
+TU5 & Verifica che i metodi che rendono accessibili la collezione degli utenti, dei quiz e delle domande all’avvio funzionino correttamente &Superato\\\midrule
+TU6 & Verifica che il metodo salvi correttamente una domanda creata &Superato\\\midrule
+TU7 & Verifica che il metodo salvi correttamente un quiz creato &Superato\\\midrule
+TU8 & Verifica che il metodo della classe carichi correttamente per la visualizzazione la lista di quiz disponibili nel sistema &Superato\\\midrule
+TU9 & Verifica che il metodo visualizzi correttamente le informazioni generali di un quiz una volta selezionato dalla lista dei quiz &Superato\\\midrule
+TU10 & Verifica che la domanda venga cancellata  &Superato\\\midrule
+TU11 & Verifica che il quiz venga cancellato &Superato\\\midrule
+TU12 & Verifica che i metodi della classe gestiscano correttamente la somministrazione di un quiz, permettendo di scorrere alla domanda precedente, alla successiva, e di terminare il quiz &Superato\\\midrule
+TU13 & Verifica che il metodo somministri correttamente la domanda facente parte di un quiz &Superato\\\midrule
+TU14 & Verifica che il metodo esegua correttamente il controllo della sintassi QML della domanda da creare o modificare &Superato\\\midrule
+TU15 & Viene verificato che avvenga correttamente il subscribe relativo alla collezione di domande del sistema& Superato\\\midrule
+TU16 & Viene verificato che avvenga correttamente il subscribe relativo alla collezione di questionari del sistema & Superato\\\midrule
+%**TU17 & Viene verificato & Pianificato\\\midrule
+TU17 & Verifica che i metodi insert() e remove() relativi all'inserimento e alla rimozione di una domanda funzionino correttamente &Superato\\\midrule
+TU19 & Verifica che i metodi insert() e remove() relativi all'inserimento e alla rimozione di un quiz funzionino correttamente &Superato\\\midrule
+TU19 & Verifica che i metodi insert() e remove() relativi all'inserimento e alla rimozione di un utente funzionino correttamente &Superato\\\midrule
+TU20 &  Viene verificato che i metodi HTML2QML() e QML2HTML() all'interno del package Interpreter funzionino correttamente & Superato\\\midrule
+TU21 & Verifica che il metodo colleghi correttamente un Url dell’applicazione al rispettivo template da caricare &Superato\\\midrule
+%TU23 & Verifica che venga visualizzato correttamente il form di autenticazione al sistema &Superato\\\midrule
+%TU24 & Verifica che venga visualizzato correttamente il form di registrazione al sistema &Superato\\\midrule
+%TU25 & Verifica che venga visualizzato correttamente il form di recupero password &Superato\\\midrule
+%TU26 & Verifica che il form per la creazione di un questionario venga visualizzato correttamente &Superato\\\midrule
+%TU27 & Verifica che il form per la modifica di una domanda venga visualizzato correttamente &Superato\\\midrule
+%TU28 & Verifica che il form per la creazione di una domanda venga visualizzato correttamente &Superato\\\midrule
+TU22 & Verifica che i metodi per l'ordinamento e la ricerca delle domande funzionino correttamente & \textcolor{red}{Non implementato}\\\midrule
+%TU30 & Verifica che vengano visualizzati i risultati del questionario compilato &Superato\\\midrule
+%TU31 & Verifica che la visualizzazione di un questionario avvenga correttamente &Superato\\\midrule
+TU23 & Verifica che siano permesse e agiscano correttamente la ricerca e l'ordinamento della lista questionari & \textcolor{red}{Non implementato}\\\midrule
+TU24 & Verifica che siano permesse e agiscano correttamente la ricerca e l'ordinamento delle categorie & \textcolor{red}{Non implementato}\\\midrule
 %TU23 & Viene verificato & Pianificato\\\midrule
 %TU23 & Viene verificato & Pianificato\\\midrule
 %TU23 & Viene verificato & Pianificato\\\midrule
@@ -1543,7 +1488,7 @@ TU33 & Verifica che la visualizzazione della lista delle categorie avvenga corre
 %TU23 & Viene verificato & Pianificato\\\midrule
 \end{longtable}
 
-
+\newpage
 \section{Tracciamento componenti - requisiti}
 
 \begin{center}
@@ -1568,7 +1513,7 @@ Model::Database & TI1 \\\midrule
 Model::Parser & TI2 \\\midrule
 Model::Statistics & TI3 \\\midrule
 Model::Publishers & TI4\\\midrule
-View::Pages & TI5 \\\midrule
+View::Quizzipedia & TI5 \\\midrule
 View::Templates & TI6 \\\midrule
 ViewModel::Controllers & TI7 \\\midrule
 ViewModel::Subscribers & TI8 \\\midrule
@@ -1602,7 +1547,7 @@ TI1 & Model::Database   \\\midrule
 TI2 & Model::Parser  \\\midrule
 TI3 & Model::Statistics  \\\midrule
 TI4 & Model::Publishers  \\\midrule
-TI5 & View::Pages  \\\midrule
+TI5 & View::Quizzipedia  \\\midrule
 TI6 & View::Templates   \\\midrule
 TI7 & ViewModel::Controllers   \\\midrule
 TI8 & ViewModel::Subscribers  \\\midrule
@@ -1633,48 +1578,49 @@ TI11 & ViewModel::Router \\\midrule
 \multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Tracciamento metodi - Test di unità}
 \endlastfoot
 \midrule
-Model::Database::QuizManager::addQuiz() & TU1 \\
-Model::Database::QuizManager::modifyQuiz() &\\
-Model::Database::QuizManager::removeQuiz() &\\\midrule
-Model::Database::QuestionManager::addQuestion() & TU2 \\
-Model::Database::QuestionManager::modifyQuestion()\\
-Model::Database::QuestionManager::removeQuestion()\\\midrule
-Model::Parser::Parser::check() & TU3\\\midrule
-Model::Statistics::Statistics::updateQuestionStats() & TU4\\
-Model::Statistics::Statistics::updateQuizStats() &\\
-Model::Statistics::Statistics::updateUserStatitics() &\\\midrule
-Model::Publishers::UserPublishers::publishUser() & TU5\\
-Model::Publishers::QuizPublishers::publishQuiz() &  \\
-Model::Publishers::QuestionPublishers::publishQuestion()& \\\midrule
-ViewModel::Controllers::NewQuestionController::NewQuestionController()& TU6\\
-ViewModel::Controllers::NewQuestionController::saveQuestion() & \\\midrule
-ViewModel::Controllers::NewQuizController::newQuizController() & TU7\\
-ViewModel::Controllers::NewQuizController::saveQuiz() &\\
+Model::Database::QuizManager::quizzes.insert() & TU1 \\
+Model::Database::QuizManager::quizzes.update() &\\
+Model::Database::QuizManager::quizzes.remove() &\\\midrule
+Model::Database::QuestionManager::quizzes.insert() & TU2 \\
+Model::Database::QuestionManager::quizzes.update()\\
+Model::Database::QuestionManager::quizzes.remove()\\\midrule
+Model::Parser::Parser::checkQML() & TU3\\\midrule
+Model::Statistics::Statistics::statistics.QuizExecutionStats() & TU4\\
+Model::Statistics::Statistics::statistics.UserExecutionStats() &\\
+Model::Statistics::Statistics::statistics.QuestionExecutionStats() &\\\midrule
+Model::Publishers::QuestionPublishers::publishQuestionr() & TU5\\
+Model::Publishers::QuizPublishers::Meteor.publish() &  \\\midrule
+ViewModel::Controller::QuestionFrorm::check()& TU6\\
+ViewModel::Controller::QuestionFrorm::saveQuestion() & \\\midrule
+ViewModel::Controller::QuizCreationForm::saveQuiz() & TU7\\
+%ViewModel::Controller::NewQuizController::saveQuiz() &\\
 \midrule
-ViewModel::Controllers::QuizListController::quizListController()&TU8\\
-ViewModel::Controllers::QuizListController::quizzes()&\\
-ViewModel::Controllers::QuizListController::quizDetails()&\\
-ViewModel::Controllers::QuizListController::orderBy()&\\
+ViewModel::Controller::QuizList::helpers.quizzes()&TU8\\
+ViewModel::Controller::QuizList::helpers.questions()&\\
+ViewModel::Controller::QuizList::helpers.inputCategories&\\\midrule
+%ViewModel::Controller::QuizListController::orderBy()&\\
+ViewModel::Controller::QuizList::helpers.getAuthor() &TU9 \\
+ViewModel::Controller::QuizList::helpers.isOwner() \\
+ViewModel::Controller::QuizList::helpers.setQuiz()\\
 \midrule
-ViewModel::Controllers::QuizDetailsController::quizDetailsController()&TU9 \\
+ViewModel::Controller::QuestionList::deleteQuestion() &TU10\\
+ViewModel::Controller::QuestionList::openAlertQuestion & \\
 \midrule
-ViewModel::Controllers::DeleteQuestionController::\\DeleteQuestionController()&TU10\\
-ViewModel::Controllers::DeleteQuestionController::deleteQuestion() & \\
+ViewModel::Controller::QuizList::deleteQuiz() & TU11\\
+ViewModel::Controller::QuizList::openAlertQuiz()&\\
 \midrule
-ViewModel::Controllers::DeleteQuizController::DeleteQuizController() & TU11\\
-ViewModel::Controllers::DeleteQuizController::deleteQuiz()&\\
+ViewModel::Controller::QuizCompilation.setClass() & TU12\\
+ViewModel::Controller::QuizCompilation.startQuiz() & \\
+ViewModel::Controller::QuizCompilation.prevQuestion() & \\
+ViewModel::Controller::QuizCompilation.nextQuestion() & \\
+ViewModel::Controller::QuizCompilation.goIndex() &\\
+ViewModel::Controller::QuizCompilation.goBack() &\\
+ViewModel::Controller::QuizCompilation.submitQuiz() &\\
+
 \midrule
-ViewModel::Controllers::QuizManagementController::\\QuizManagementController() & TU12\\
-ViewModel::Controllers::QuizManagementController::nextQuestion() & \\
-ViewModel::Controllers::QuizManagementController::previousQuestion() & \\
-ViewModel::Controllers::QuizManagementController::endQuiz() & \\
+ViewModel::Controller::QuizCompilation::setAnswer() & TU13\\
 \midrule
-ViewModel::Controllers::QuestionsManagementController & TU13\\
-::QuestionsManagementController() & \\
-ViewModel::Controllers::QuestionsManagementController::getQuestion() &\\
-\midrule
-ViewModel::Controllers::QMLEditorController::QMLEditorController() & TU 14\\
-ViewModel::Controllers::QMLEditorController::check() & \\
+Model::Parser::Parser::checkQML() & TU14\\
 \midrule
 ViewModel::Subscribers::QuestionsSubscriber::getCollection() & TU15 \\
 ViewModel::Subscribers::QuestionsSubscriber::subscribe()&\\
@@ -1682,61 +1628,61 @@ ViewModel::Subscribers::QuestionsSubscriber::subscribe()&\\
 ViewModel::Subscribers::QuizSubscriber::getCollection() & TU16 \\
 ViewModel::Subscribers::QuizSubscriber::subscribe() &\\
 \midrule
-ViewModel::Subscribers::UsersSubscriber::getCollection() &TU17\\
-ViewModel::Subscribers::UsersSubscriber::subscribe()&\\
+%ViewModel::Subscribers::UsersSubscriber::getCollection() &TU17\\
+%ViewModel::Subscribers::UsersSubscriber::subscribe()&\\
+%\midrule
+ViewModel::Methods::QuestionMethods::questions.insert() & TU17\\
+ViewModel::Methods::QuestionMethods::questions.remove() &\\
 \midrule
-ViewModel::Methods::QuestionMethods::insert() & TU18\\
-ViewModel::Methods::QuestionMethods::remove() &\\
+ViewModel::Methods::QuizMethods::quizzes.insert() & TU18\\
+ViewModel::Methods::QuizMethods::quizzes.remove() &\\
 \midrule
-ViewModel::Methods::QuizMethods::insert() & TU19\\
-ViewModel::Methods::QuizMethods::remove() &\\
-\midrule
-ViewModel::Methods::UserMethods::insert() & TU20\\
+ViewModel::Methods::UserMethods::insert() & TU19\\
 ViewModel::Methods::UserMethods::remove() &\\
 \midrule
-ViewModel::Interpreter::Interpreter::translate() & TU21 \\
+ViewModel::Interpreter::QMLInterpreter::translate() & TU20 \\
 ViewModel::Interpreter::InterpreterFactory::createInterpreter() &\\
-ViewModel::Interpreter::QMLInterpreterFactory::QMLInterpreterFactory() &\\
-ViewModel::Interpreter::QMLInterpreterFactory::getInstance() &\\
-
-ViewModel::Interpreter::QMLInterpreter::translate()&  \\
-
-ViewModel::Interpreter::QML2HTMLInterpreterFactory::translate()&  \\
+ViewModel::Interpreter::QMLInterpreterFactory::createInterpreter() &\\
+ViewModel::Interpreter::QML2HTMLInterpreter::QML2HTML() &\\
+ViewModel::Interpreter::QML2HTMLInterpreter::HTML2QML() & \\
+%ViewModel::Interpreter::QMLInterpreterFactory::getInstance() &\\
 \midrule
-ViewModel::Router::Router::state() & TU22\\
+ViewModel::Router::Router::state() & TU21\\
 \midrule
 %\textit{View::Pages::Page::show()} & TU26 \\
 %\midrule
-View::Pages::LoginPage::show() & TU23\\
+View::Templates::quizHome.html & TU22\\
 \midrule
-View::Pages::RegistrationPage::show() & TU24\\
-\midrule
-View::Pages::PasswordRecoveryPage::show() & TU25\\
-\midrule
-View::Pages::QuizCreationPage::show() & TU26\\
-\midrule
-View::Pages::QuestionUpdatePage::show() & TU27\\
-\midrule
-View::Pages::QuestionCreationPage::show() & TU28\\
-\midrule
-View::Pages::QuestionManagementPage::show() & TU29 \\
-View::Pages::QuestionManagementPage::sort() & \\
-View::Pages::QuestionManagementPage::search()&\\
-\midrule
-View::Pages::QuizResultsPage::show() & TU30\\
-\midrule
-View::Pages::QuizExecutionPage::show() & TU31\\
-View::Pages::QuizExecutionPage::nextQuestion()&\\
-View::Pages::QuizExecutionPage::previousQuestion()&\\
-\midrule
-View::Pages::QuizListPage::show() & TU32 \\
-View::Pages::QuizListPage::sort() & \\
-View::Pages::QuizListPage::search() &\\
-\midrule
-View::Pages::CategoryListPage::show() & TU33 \\
-View::Pages::CategoryListPage::sort() &  \\
-View::Pages::CategoryListPage::search() & \\
-\midrule
+View::Templates::quizHome.html& TU23\\\midrule
+View::Templates::quizHome.html& TU24\\\midrule
+%View::Pages::RegistrationPage::show() & TU24\\
+%\midrule
+%View::Pages::PasswordRecoveryPage::show() & TU25\\
+%\midrule
+%View::Pages::QuizCreationPage::show() & TU26\\
+%\midrule
+%View::Pages::QuestionUpdatePage::show() & TU27\\
+%\midrule
+%View::Pages::QuestionCreationPage::show() & TU28\\
+%\midrule
+%View::Pages::QuestionManagementPage::show() & TU29 \\
+%View::Pages::QuestionManagementPage::sort() & \\
+%View::Pages::QuestionManagementPage::search()&\\
+%\midrule
+%View::Pages::QuizResultsPage::show() & TU30\\
+%\midrule
+%View::Pages::QuizExecutionPage::show() & TU31\\
+%View::Pages::QuizExecutionPage::nextQuestion()&\\
+%View::Pages::QuizExecutionPage::previousQuestion()&\\
+%\midrule
+%View::Pages::QuizListPage::show() & TU32 \\
+%View::Pages::QuizListPage::sort() & \\
+%View::Pages::QuizListPage::search() &\\
+%\midrule
+%View::Pages::CategoryListPage::show() & TU33 \\
+%View::Pages::CategoryListPage::sort() &  \\
+%View::Pages::CategoryListPage::search() & \\
+
 
 
 
@@ -1744,7 +1690,7 @@ View::Pages::CategoryListPage::search() & \\
 
 \end{longtable}
 \end{center}
-
+\newpage
 \section{Tracciamento test di unità - metodi}
 
 \begin{center}
@@ -1766,113 +1712,81 @@ View::Pages::CategoryListPage::search() & \\
 \multicolumn{2}{c}{\footnotesize\itshape\tablename~\thetable: Tracciamento test di unità - metodi}
 \endlastfoot
 \midrule
-TU1 &Model::Database::QuizManager::addQuiz()   \\
- & Model::Database::QuizManager::modifyQuiz() \\
-& Model::Database::QuizManager::removeQuiz() \\\midrule
-TU2 & Model::Database::QuestionManager::addQuestion() \\
-& Model::Database::QuestionManager::modifyQuestion()\\
-& Model::Database::QuestionManager::removeQuestion()\\\midrule
-TU3 & Model::Parser::Parser::check()  \\\midrule
-TU4 & Model::Statistics::Statistics::updateQuestionStats() \\
-& Model::Statistics::Statistics::updateQuizStats() \\
-& Model::Statistics::Statistics::updateUserStatitics()\\\midrule
-TU5 & Model::Publishers::UserPublishers::publishUser() \\
-& Model::Publishers::QuizPublishers::publishQuiz()   \\
-& Model::Publishers::QuestionPublishers::publishQuestion() \\\midrule
- TU6& ViewModel::Controllers::NewQuestionController::NewQuestionController()\\
-& ViewModel::Controllers::NewQuestionController::saveQuestion() \\\midrule
-TU7& ViewModel::Controllers::NewQuizController::newQuizController()  \\
-& ViewModel::Controllers::NewQuizController::saveQuiz() \\
+TU1 & Model::Database::QuizManager::quizzes.insert() \\
+&Model::Database::QuizManager::quizzes.update() \\
+&Model::Database::QuizManager::quizzes.remove()\\\midrule
+TU2&Model::Database::QuestionManager::quizzes.insert()   \\
+&Model::Database::QuestionManager::quizzes.update()\\
+&Model::Database::QuestionManager::quizzes.remove()\\\midrule
+TU3&Model::Parser::Parser::checkQML()  \\\midrule
+TU4&Model::Statistics::Statistics::statistics.QuizExecutionStats()  \\
+&Model::Statistics::Statistics::statistics.UserExecutionStats() \\
+&Model::Statistics::Statistics::statistics.QuestionExecutionStats() \\\midrule
+TU5&Model::Publishers::QuestionPublishers::publishQuestionr()  \\
+&Model::Publishers::QuizPublishers::Meteor.publish()   \\\midrule
+TU6&ViewModel::Controller::QuestionFrorm::check() \\
+&ViewModel::Controller::QuestionFrorm::saveQuestion() \\\midrule
+TU7&ViewModel::Controller::QuizCreationForm::saveQuiz()  \\
+%ViewModel::Controller::NewQuizController::saveQuiz() &\\
 \midrule
-TU8&ViewModel::Controllers::QuizListController::quizListController()\\
-&ViewModel::Controllers::QuizListController::quizzes()\\
-&ViewModel::Controllers::QuizListController::quizDetails()\\
-&ViewModel::Controllers::QuizListController::orderBy()\\
+TU8&ViewModel::Controller::QuizList::helpers.quizzes()\\
+&ViewModel::Controller::QuizList::helpers.questions()\\
+&ViewModel::Controller::QuizList::helpers.inputCategories\\\midrule
+%ViewModel::Controller::QuizListController::orderBy()&\\
+TU9&ViewModel::Controller::QuizList::helpers.getAuthor()  \\
+&ViewModel::Controller::QuizList::helpers.isOwner() \\
+&ViewModel::Controller::QuizList::helpers.setQuiz()\\
 \midrule
-TU9&ViewModel::Controllers::QuizDetailsController::quizDetailsController() \\
+TU10&ViewModel::Controller::QuestionList::deleteQuestion()\\
+&ViewModel::Controller::QuestionList::openAlertQuestion() \\
 \midrule
-TU10&ViewModel::Controllers::DeleteQuestionController::\\&DeleteQuestionController()\\
-&ViewModel::Controllers::DeleteQuestionController::deleteQuestion()  \\
+TU11&ViewModel::Controller::QuizList::deleteQuiz()  \\
+&ViewModel::Controller::QuizList::openAlertQuiz()\\
 \midrule
-TU11&ViewModel::Controllers::DeleteQuizController::DeleteQuizController()  \\
-&ViewModel::Controllers::DeleteQuizController::deleteQuiz()\\
+TU12&ViewModel::Controller::QuizCompilation.setClass()  \\
+&ViewModel::Controller::QuizCompilation.startQuiz()  \\
+&ViewModel::Controller::QuizCompilation.prevQuestion()  \\
+&ViewModel::Controller::QuizCompilation.nextQuestion()  \\
+&ViewModel::Controller::QuizCompilation.goIndex() \\
+&ViewModel::Controller::QuizCompilation.goBack() \\
+&ViewModel::Controller::QuizCompilation.submitQuiz() \\
+
 \midrule
-TU12&ViewModel::Controllers::QuizManagementController::\\&QuizManagementController()  \\
-&ViewModel::Controllers::QuizManagementController::nextQuestion()  \\
-&ViewModel::Controllers::QuizManagementController::previousQuestion()  \\
-&ViewModel::Controllers::QuizManagementController::endQuiz()  \\
+TU13&ViewModel::Controller::QuizCompilation::setAnswer()  \\\midrule
+
+TU14&Model::Parser::Parser::checkQML() \\
 \midrule
-TU13&ViewModel::Controllers::QuestionsManagementController  \\
-&::QuestionsManagementController()  \\
-&ViewModel::Controllers::QuestionsManagementController::getQuestion() \\
-\midrule
-TU14&ViewModel::Controllers::QMLEditorController::QMLEditorController()  \\
-&ViewModel::Controllers::QMLEditorController::check()  \\
-\midrule
-TU15&ViewModel::Subscribers::QuestionsSubscriber::getCollection()  TU15 \\
+TU15&ViewModel::Subscribers::QuestionsSubscriber::getCollection()   \\
 &ViewModel::Subscribers::QuestionsSubscriber::subscribe()\\
 \midrule
 TU16&ViewModel::Subscribers::QuizSubscriber::getCollection()   \\
 &ViewModel::Subscribers::QuizSubscriber::subscribe() \\
 \midrule
-TU17&ViewModel::Subscribers::UsersSubscriber::getCollection() \\
-&ViewModel::Subscribers::UsersSubscriber::subscribe()\\
+%ViewModel::Subscribers::UsersSubscriber::getCollection() &TU17\\
+%ViewModel::Subscribers::UsersSubscriber::subscribe()&\\
+%\midrule
+TU17&ViewModel::Methods::QuestionMethods::questions.insert()  \\
+&ViewModel::Methods::QuestionMethods::questions.remove() \\
 \midrule
-TU18&ViewModel::Methods::QuestionMethods::insert()  \\
-&ViewModel::Methods::QuestionMethods::remove() \\
+TU18&ViewModel::Methods::QuizMethods::quizzes.insert() \\
+&ViewModel::Methods::QuizMethods::quizzes.remove() \\
 \midrule
-TU19&ViewModel::Methods::QuizMethods::insert()  \\
-&ViewModel::Methods::QuizMethods::remove() \\
-\midrule
-TU20&ViewModel::Methods::UserMethods::insert()  \\
+TU19&ViewModel::Methods::UserMethods::insert() \\
 &ViewModel::Methods::UserMethods::remove() \\
 \midrule
-TU21&ViewModel::Interpreter::Interpreter::translate()   \\
-&ViewModel::Interpreter::InterpreterFactory::createInterpreter()\\
-&ViewModel::Interpreter::QMLInterpreterFactory::QMLInterpreterFactory() \\
-&ViewModel::Interpreter::QMLInterpreterFactory::getInstance() \\
-
-&ViewModel::Interpreter::QMLInterpreter::translate()  \\
-
-&ViewModel::Interpreter::QML2HTMLInterpreterFactory::translate()  \\
+TU20&ViewModel::Interpreter::QMLInterpreter::translate()   \\
+&ViewModel::Interpreter::InterpreterFactory::createInterpreter() \\
+&ViewModel::Interpreter::QMLInterpreterFactory::createInterpreter() \\
+&ViewModel::Interpreter::QML2HTMLInterpreter::QML2HTML() \\
+&ViewModel::Interpreter::QML2HTMLInterpreter::HTML2QML()  \\
+%ViewModel::Interpreter::QMLInterpreterFactory::getInstance() &\\
 \midrule
-TU22&ViewModel::Router::Router::state()  \\
+TU21 &ViewModel::Router::Router::state() \\
 \midrule
 %\textit{View::Pages::Page::show()} & TU26 \\
-%\midrule
-TU23&View::Pages::LoginPage::show()  \\
-\midrule
-TU24&View::Pages::RegistrationPage::show()  \\
-\midrule
-TU25&View::Pages::PasswordRecoveryPage::show()  \\
-\midrule
-TU26&View::Pages::QuizCreationPage::show()  \\
-\midrule
-TU27&View::Pages::QuestionUpdatePage::show()  \\
-\midrule
-TU28&View::Pages::QuestionCreationPage::show()  \\
-\midrule
-TU29&View::Pages::QuestionManagementPage::show()   \\
-&View::Pages::QuestionManagementPage::sort()  \\
-&View::Pages::QuestionManagementPage::search()\\
-\midrule
-TU30&View::Pages::QuizResultsPage::show()  \\
-\midrule
-TU31&View::Pages::QuizExecutionPage::show()  \\
-&View::Pages::QuizExecutionPage::nextQuestion()\\
-&View::Pages::QuizExecutionPage::previousQuestion()\\
-\midrule
-TU32&View::Pages::QuizListPage::show()  \\
-&View::Pages::QuizListPage::sort()  \\
-&View::Pages::QuizListPage::search() \\
-\midrule
-TU33 & View::Pages::CategoryListPage::show()   \\
- & View::Pages::CategoryListPage::sort()   \\
- & View::Pages::CategoryListPage::search()  \\
-\midrule
-
-
-
+TU22 & View::Templates::quizHome.html \\\midrule
+TU23&View::Templates::quizHome.html\\\midrule
+TU24&View::Templates::quizHome.html\\\midrule
 
 
 \end{longtable}
@@ -1947,6 +1861,50 @@ Studio di Fattibilità & 53 & Superato & Superato\\
 Specifica Tecnica & 53 & Superato & Superato \\
 Definizione di Prodotto & 47 & Non superato & Non superato \\
 
+
+
+\end{tabular}
+\end{center}
+\subsection{Codifica}
+\subsubsection{Processi}
+\begin{center}
+\begin{tabular}{{p{5cm} p{2.5cm} p{2.5cm} p{2.5cm}}}
+\textbf{Metrica} & \textbf{Valore}&\textbf{Accettazione} & \textbf{Ottimale}\\ \hline
+Schedule Variance & xx & xxx & non xxx\\
+\midrule
+Budget Variance & xx & xxx & xxx\\
+\end{tabular}
+\end{center}
+
+\subsubsection{Documenti}
+\begin{center}
+\begin{tabular}{{p{5cm} p{2cm} p{2.5cm} p{2.5cm}}}
+\textbf{Documento} & \textbf{Gulpease}&\textbf{Accettazione} & \textbf{Ottimale}\\ \hline
+Norme di Progetto & 56 & Superato & Superato\\
+Piano di Progetto & 53 & Superato & Superato\\
+Piano di Qualifica & 55 & Superato & Superato\\
+Analisi dei Requisiti & 69 & Superato & Superato\\
+Studio di Fattibilità & 53 & Superato & Superato\\
+Specifica Tecnica & 53 & Superato & Superato \\
+Definizione di Prodotto & 53 & Superato & Superato \\
+Manuale Utente & 53 & Superato & Superato\\
+
+\end{tabular}
+\end{center}
+\subsubsection{Software}
+\begin{center}
+\begin{tabular}{{p{5.5cm} p{1.8cm} p{2.5cm} p{2.5cm}}}
+\textbf{Metrica} & \textbf{Valore}&\textbf{Accettazione} & \textbf{Ottimale}\\ \hline
+Parameters count & 0.48 & Superato & Superato \\
+Halstead's Volume & 568  & Superato & Superato \\
+Halstead's Difficulty & 17 & Superato & Non superato \\
+Cyclomatic Complexity & 6 & Superato & Superato \\
+Maintainability Index & 89.5 & Superato & Superato \\
+Copertura requisiti & 98\% & Superato & Superato\\
+Copertura Test di Accettazione & 100\% & Superato & Superato \\
+Copertura Test di Sistema & 96\% & Superato & Superato \\ 
+Copertura Test di Integrazione & 100\% & Superato & Superato \\
+Copertura Test di Unità & 87\% & Superato & Superato\\
 \end{tabular}
 \end{center}
 \end{document}

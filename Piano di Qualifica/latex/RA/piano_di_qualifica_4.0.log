@@ -1,12 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.20)  23 JUL 2016 12:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.16)  23 AUG 2016 12:02
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **piano_di_qualifica_4.0.tex
-(piano_di_qualifica_4.0.tex
-LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 68 languages loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+(./piano_di_qualifica_4.0.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 4 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -21,23 +23,26 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(../../../template.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.st
-y"
-Package: inputenc 2014/04/30 v1.2b Input encoding file
+(../../../template.tex
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
    defining Unicode char U+00BB (decimal 187)
    defining Unicode char U+00BF (decimal 191)
    defining Unicode char U+00C0 (decimal 192)
@@ -102,50 +107,94 @@ File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00FD (decimal 253)
    defining Unicode char U+00FE (decimal 254)
    defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
    defining Unicode char U+0102 (decimal 258)
    defining Unicode char U+0103 (decimal 259)
    defining Unicode char U+0104 (decimal 260)
    defining Unicode char U+0105 (decimal 261)
    defining Unicode char U+0106 (decimal 262)
    defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
    defining Unicode char U+010C (decimal 268)
    defining Unicode char U+010D (decimal 269)
    defining Unicode char U+010E (decimal 270)
    defining Unicode char U+010F (decimal 271)
    defining Unicode char U+0110 (decimal 272)
    defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
    defining Unicode char U+0118 (decimal 280)
    defining Unicode char U+0119 (decimal 281)
    defining Unicode char U+011A (decimal 282)
    defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
    defining Unicode char U+011E (decimal 286)
    defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
    defining Unicode char U+0130 (decimal 304)
    defining Unicode char U+0131 (decimal 305)
    defining Unicode char U+0132 (decimal 306)
    defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
    defining Unicode char U+0139 (decimal 313)
    defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
    defining Unicode char U+013D (decimal 317)
    defining Unicode char U+013E (decimal 318)
    defining Unicode char U+0141 (decimal 321)
    defining Unicode char U+0142 (decimal 322)
    defining Unicode char U+0143 (decimal 323)
    defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
    defining Unicode char U+0147 (decimal 327)
    defining Unicode char U+0148 (decimal 328)
    defining Unicode char U+014A (decimal 330)
    defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
    defining Unicode char U+0150 (decimal 336)
    defining Unicode char U+0151 (decimal 337)
    defining Unicode char U+0152 (decimal 338)
    defining Unicode char U+0153 (decimal 339)
    defining Unicode char U+0154 (decimal 340)
    defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
    defining Unicode char U+0158 (decimal 344)
    defining Unicode char U+0159 (decimal 345)
    defining Unicode char U+015A (decimal 346)
    defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
    defining Unicode char U+015E (decimal 350)
    defining Unicode char U+015F (decimal 351)
    defining Unicode char U+0160 (decimal 352)
@@ -154,10 +203,22 @@ File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+0163 (decimal 355)
    defining Unicode char U+0164 (decimal 356)
    defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
    defining Unicode char U+016E (decimal 366)
    defining Unicode char U+016F (decimal 367)
    defining Unicode char U+0170 (decimal 368)
    defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
    defining Unicode char U+0178 (decimal 376)
    defining Unicode char U+0179 (decimal 377)
    defining Unicode char U+017A (decimal 378)
@@ -165,6 +226,31 @@ File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+017C (decimal 380)
    defining Unicode char U+017D (decimal 381)
    defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+01E02 (decimal 7682)
+   defining Unicode char U+01E03 (decimal 7683)
    defining Unicode char U+200C (decimal 8204)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
@@ -183,10 +269,12 @@ File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
    defining Unicode char U+00B8 (decimal 184)
    defining Unicode char U+00BF (decimal 191)
    defining Unicode char U+00C5 (decimal 197)
@@ -204,6 +292,14 @@ File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+0142 (decimal 322)
    defining Unicode char U+0152 (decimal 338)
    defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
    defining Unicode char U+2018 (decimal 8216)
@@ -214,8 +310,8 @@ File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -238,47 +334,35 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\babel\babel.sty"
-Package: babel 2014/09/25 3.9l The Babel package
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/02/24 3.9q The Babel package
 
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
-File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\babel-italian\italian.ldf"
-Language: italian 2014/03/29 v1.3k Italian support from the babel system
+(/usr/share/texlive/texmf-dist/tex/generic/babel-italian/italian.ldf
+Language: italian 2015/03/26 v1.3n Italian support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\babel\babel.def"
-File: babel.def 2014/09/25 3.9l Babel common definitions
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/02/24 3.9q Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
 \it@lettering=\count88
 \it@doublequoteactive=\count89
 \it@ISOcompliance=\count90
-\Virgola=\count91
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
-Package: etoolbox 2015/03/10 v2.1b e-TeX tools for LaTeX (JAW)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\misc\etex.sty"
-Package: etex 2015/03/02 v2.1 eTeX basic definition package (PEB,DPC)
-\et@xins=\count92
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count91
 )
-\etb@tempcnta=\count93
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
-Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
-Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
@@ -309,38 +393,38 @@ Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
 Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen104
-\Hy@linkcounter=\count94
-\Hy@pagecounter=\count95
+\Hy@linkcounter=\count92
+\Hy@pagecounter=\count93
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count96
+\Hy@SavedSpaceFactor=\count94
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -350,15 +434,15 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count97
+\c@Hy@tempcnt=\count95
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen105
-\Fld@menulength=\count98
+\Fld@menulength=\count96
 \Field@Width=\dimen106
 \Fld@charsize=\dimen107
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -370,26 +454,26 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count99
-\c@Item=\count100
-\c@Hfootnote=\count101
+\Hy@abspage=\count97
+\c@Item=\count98
+\c@Hfootnote=\count99
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count102
-\c@bookmark@seq@number=\count103
+\Fld@listcount=\count100
+\c@bookmark@seq@number=\count101
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip43
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen108
 \lightrulewidth=\dimen109
@@ -401,36 +485,36 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen115
 \cmidrulekern=\dimen116
 \defaultaddspace=\dimen117
-\@cmidla=\count104
-\@cmidlb=\count105
+\@cmidla=\count102
+\@cmidlb=\count103
 \@aboverulesep=\dimen118
 \@belowrulesep=\dimen119
-\@thisruleclass=\count106
-\@lastruleclass=\count107
+\@thisruleclass=\count104
+\@lastruleclass=\count105
 \@thisrulewidth=\dimen120
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip44
 \LTright=\skip45
 \LTpre=\skip46
 \LTpost=\skip47
-\LTchunksize=\count108
+\LTchunksize=\count106
 \LTcapwidth=\dimen121
 \LT@head=\box26
 \LT@firsthead=\box27
 \LT@foot=\box28
 \LT@lastfoot=\box29
-\LT@cols=\count109
-\LT@rows=\count110
-\c@LT@tables=\count111
-\c@LT@chunks=\count112
+\LT@cols=\count107
+\LT@rows=\count108
+\c@LT@tables=\count109
+\c@LT@chunks=\count110
 \LT@p@ftn=\toks17
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen122
 \extrarowheight=\dimen123
@@ -443,67 +527,67 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \TX@old@col=\dimen126
 \TX@target=\dimen127
 \TX@delta=\dimen128
-\TX@cols=\count113
+\TX@cols=\count111
 \TX@ftn=\toks19
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
-\lst@mode=\count114
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count112
 \lst@gtempboxa=\box30
 \lst@token=\toks20
-\lst@length=\count115
+\lst@length=\count113
 \lst@currlwidth=\dimen129
-\lst@column=\count116
-\lst@pos=\count117
+\lst@column=\count114
+\lst@pos=\count115
 \lst@lostspace=\dimen130
 \lst@width=\dimen131
-\lst@newlines=\count118
-\lst@lineno=\count119
+\lst@newlines=\count116
+\lst@lineno=\count117
 \lst@maxwidth=\dimen132
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
-File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
-\c@lstnumber=\count120
-\lst@skipnumbers=\count121
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count118
+\lst@skipnumbers=\count119
 \lst@framebox=\box31
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
-File: listings.cfg 2014/09/06 1.5e listings configuration
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
-Package: listings 2014/09/06 1.5e (Carsten Heinz)
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count122
-\c@@ppsavesec=\count123
-\c@@ppsaveapp=\count124
+\c@@pps=\count120
+\c@@ppsavesec=\count121
+\c@@ppsaveapp=\count122
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count125
+\Gread@gobject=\count123
 ))
 \Gin@req@height=\dimen133
 \Gin@req@width=\dimen134
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 57.
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen135
 \captionmargin@=\dimen136
 \captionwidth=\dimen137
@@ -512,15 +596,15 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \caption@parindent=\dimen140
 \caption@hangindent=\dimen141
 )
-\c@ContinuedFloat=\count126
+\c@ContinuedFloat=\count124
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
-Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip50
 \f@ncyO@elh=\skip51
 \f@ncyO@erh=\skip52
@@ -531,11 +615,28 @@ Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 \f@ncyO@olf=\skip57
 \f@ncyO@orf=\skip58
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count127
-\Gm@cntv=\count128
-\c@Gm@tempcnt=\count129
+\Gm@cnth=\count125
+\Gm@cntv=\count126
+\c@Gm@tempcnt=\count127
 \Gm@bindingoffset=\dimen142
 \Gm@wd@mp=\dimen143
 \Gm@odd@mp=\dimen144
@@ -545,12 +646,11 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layouthoffset=\dimen148
 \Gm@layoutvoffset=\dimen149
 \Gm@dimlist=\toks21
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\makeidx.sty"
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -563,15 +663,15 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             only a restricted character set as indicated.
 (textcomp)             Family '?' is the default used for unknown fonts.
 (textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
-File: ts1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00A4 (decimal 164)
@@ -642,90 +742,91 @@ File: ts1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+25EF (decimal 9711)
    defining Unicode char U+266A (decimal 9834)
 ))
-LaTeX Info: Redefining \oldstylenums on input line 266.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
 
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen150
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\rotfloat\rotfloat.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/rotfloat/rotfloat.sty
 Package: rotfloat 2004/01/04 v1.2 Combining float+rotating package (AS)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count130
+\c@float@type=\count128
 \float@exts=\toks22
 \float@box=\box32
 \@float@everytoks=\toks23
 \@floatcapt=\box33
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\rotating\rotating.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count131
+\c@r@tfl@t=\count129
 \rotFPtop=\skip59
 \rotFPbot=\skip60
 \rot@float@box=\box34
@@ -733,11 +834,11 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 Package rotfloat Info: float package v1.3 detected on input line 74.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
-Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
+(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
-Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/15 v2.10.1 Sectioning titles
 \ttl@box=\box35
 \beforetitleunit=\skip61
 \aftertitleunit=\skip62
@@ -748,31 +849,33 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen154
 \titlewidthfirst=\dimen155
 )
-\c@subsubsubsection=\count132
+\c@subsubsubsection=\count130
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
-File: lstlang1.sty 2014/09/06 1.5e listings language file
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cantarell\cantarell.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/cantarell/cantarell.sty
 Package: cantarell 2012/01/03 Cantarell
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\slantsc\slantsc.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/slantsc/slantsc.sty
 Package: slantsc 2012/01/01 v2.11 Provide Slanted an Italic Small Caps
 LaTeX Info: Redefining \upshape on input line 35.
 LaTeX Info: Redefining \slshape on input line 45.
 LaTeX Info: Redefining \itshape on input line 55.
 LaTeX Info: Redefining \scshape on input line 65.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 89.
+Package hyperref Info: Option `colorlinks' set `true' on input line 90.
 )
-(piano_di_qualifica_4.0.aux)
+(./piano_di_qualifica_4.0.aux)
+\openout1 = `piano_di_qualifica_4.0.aux'.
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
@@ -790,59 +893,66 @@ LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 10.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Try loading font information for T1+fca on input line 10.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\cantarell\t1fca.fd"
+(/usr/share/texlive/texmf-dist/tex/latex/cantarell/t1fca.fd
 File: t1fca.fd 2012/06/11 Fontinst v1.933 font definitions for T1/fca.
 )
 LaTeX Info: Redefining \it@ocap on input line 10.
 LaTeX Info: Redefining \it@ccap on input line 10.
 \AtBeginShipoutBox=\box36
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package color Info: Driver file: pdftex.def on input line 137.
-)
 Package hyperref Info: Link coloring ON on input line 10.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count133
+\c@section@level=\count131
 )
 LaTeX Info: Redefining \ref on input line 10.
 LaTeX Info: Redefining \pageref on input line 10.
 LaTeX Info: Redefining \nameref on input line 10.
 
-(piano_di_qualifica_4.0.out) (piano_di_qualifica_4.0.out)
+(./piano_di_qualifica_4.0.out) (./piano_di_qualifica_4.0.out)
 \@outlinefile=\write3
-\c@lstlisting=\count134
+\openout3 = `piano_di_qualifica_4.0.out'.
 
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+\c@lstlisting=\count132
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count135
+\scratchcounter=\count133
 \scratchdimen=\dimen156
 \scratchbox=\box37
-\nofMPsegments=\count136
-\nofMParguments=\count137
+\nofMPsegments=\count134
+\nofMParguments=\count135
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count138
+\MPscratchCnt=\count136
 \MPscratchDim=\dimen157
-\MPnumerator=\count139
-\makeMPintoPDFobject=\count140
+\MPnumerator=\count137
+\makeMPintoPDFobject=\count138
 \everyMPtoPDFconversion=\toks27
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: rotating package is loaded.
@@ -883,11 +993,7 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package lastpage Info: Please have a look at the pageslts package at
-(lastpage)             http://www.ctan.org/tex-archive/ 
-(lastpage)             macros/latex/contrib/pageslts/ 
-(lastpage)             or
-(lastpage)             http://www.ctan.org/tex-archive/ 
-(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
+(lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 10.
 LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/fca/b/n' tried instead on input line 15.
@@ -899,7 +1005,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 15.
-<../../team_not_found.jpg, id=315, 382.42876pt x 153.57375pt>
+<../../team_not_found.jpg, id=329, 382.42876pt x 153.57375pt>
 File: ../../team_not_found.jpg Graphic file (type jpg)
 
 <use ../../team_not_found.jpg>
@@ -907,7 +1013,7 @@ Package pdftex.def Info: ../../team_not_found.jpg used on input line 17.
 (pdftex.def)             Requested size: 382.42781pt x 153.57336pt.
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 18.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Calculating math sizes for size <14.22636> on input line 18
@@ -926,8 +1032,7 @@ LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/fca/b/n' tried instead on input line 35.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <../../team_not_found.jpg>
-]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../../team_not_found.jpg>]
 LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/fca/b/n' tried instead on input line 46.
 LaTeX Font Info:    Font shape `T1/fca/bx/n' in size <9> not available
@@ -996,7 +1101,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--91
 []|\T1/fca/m/n/9 A. Mul-ti-ned-du
  []
 
-<../../team404_small.jpg, id=328, 382.42876pt x 153.57375pt>
+<../../team404_small.jpg, id=342, 382.42876pt x 153.57375pt>
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
@@ -1015,16 +1120,20 @@ File: ../../team404_small.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../../team404_small.jpg used on input line 94.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [3]
-(piano_di_qualifica_4.0.toc
+(./piano_di_qualifica_4.0.toc
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 49.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [4])
 \tf@toc=\write4
+\openout4 = `piano_di_qualifica_4.0.toc'.
 
-(piano_di_qualifica_4.0.lof)
+
+(./piano_di_qualifica_4.0.lof)
 \tf@lof=\write5
+\openout5 = `piano_di_qualifica_4.0.lof'.
+
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
 Package pdftex.def Info: ../../team404_small.jpg used on input line 102.
@@ -1063,12 +1172,13 @@ l.120 	\newpage
                 [2]
 LaTeX Font Info:    Try loading font information for TS1+fca on input line 124.
 
- ("C:\Program Files\MiKTeX 2.9\tex\latex\cantarell\ts1fca.fd"
+
+(/usr/share/texlive/texmf-dist/tex/latex/cantarell/ts1fca.fd
 File: ts1fca.fd 2012/06/11 Fontinst v1.933 font definitions for TS1/fca.
 )
 Overfull \hbox (4.93379pt too wide) in paragraph at lines 132--136
 [][]$\T1/cmtt/m/n/10.95 http : / / www . math . unipd . it / ~tullio / IS-[]1 /
- 2015 / Dispense / PD01 . pdf$[][] [][]$http : / / www . math .$
+ 2015 / Dispense / PD01 . pdf$[][] [][]$http : / / www . math .
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
@@ -1080,1019 +1190,996 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.144 
-       [3] <../../images/PDCA.png, id=459, 636.3775pt x 336.25626pt>
-File: ../../images/PDCA.png Graphic file (type png)
+       [3]
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
-<use ../../images/PDCA.png>
-Package pdftex.def Info: ../../images/PDCA.png used on input line 167.
-(pdftex.def)             Requested size: 381.82944pt x 201.75531pt.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
 File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 173.
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 176.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.173 
-       [4 <../../images/PDCA.png>]
+l.176 \newpage
+               [4]
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 215.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 218.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [5]
-<../../images/ISO-9126-cut.png, id=470, 736.25063pt x 108.405pt>
-File: ../../images/ISO-9126-cut.png Graphic file (type png)
-
-<use ../../images/ISO-9126-cut.png>
-Package pdftex.def Info: ../../images/ISO-9126-cut.png used on input line 226.
-(pdftex.def)             Requested size: 441.75378pt x 65.04349pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 227.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (3.35068pt too wide) in paragraph at lines 220--229
- $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 220--229
+Underfull \hbox (badness 10000) in paragraph at lines 245--247
 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 230.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 266.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [6 <../../images/ISO-9126-cut.png>]
+ [6]
 File: ../../team404_small.jpg Graphic file (type jpg)
-
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 272.
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 308.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [7]
-Underfull \hbox (badness 10000) in paragraph at lines 299--301
-
- []
-
 File: ../../team404_small.jpg Graphic file (type jpg)
+
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 320.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 357.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [8]
+LaTeX Font Info:    Font shape `T1/fca/m/it' in size <6> not available
+(Font)              Font shape `T1/fca/m/sl' tried instead on input line 375.
+LaTeX Font Info:    Font shape `T1/fca/m/it' in size <5> not available
+(Font)              Font shape `T1/fca/m/sl' tried instead on input line 375.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 390.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 390.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 390.
+
 File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 362.
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 409.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [9]
-File: ../../team404_small.jpg Graphic file (type jpg)
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
 
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 411.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 467.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [10]
-LaTeX Font Info:    Font shape `T1/fca/m/it' in size <6> not available
-(Font)              Font shape `T1/fca/m/sl' tried instead on input line 429.
-LaTeX Font Info:    Font shape `T1/fca/m/it' in size <5> not available
-(Font)              Font shape `T1/fca/m/sl' tried instead on input line 429.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 444.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 444.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 444.
-
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 461.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [11]
-Underfull \hbox (badness 10000) in paragraph at lines 468--469
-
- []
-
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 515.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [12]
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 566.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 512.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [11]
+Underfull \hbox (badness 10000) in paragraph at lines 524--527
+
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 546.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [12]
+Underfull \hbox (badness 10000) in paragraph at lines 557--560
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 557--560
+
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 685.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [13]
-Underfull \hbox (badness 10000) in paragraph at lines 578--581
-
- []
-
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 600.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [14]
-Underfull \hbox (badness 10000) in paragraph at lines 699--702
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 699--702
-
- []
-
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 739.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [15]
-<../../images/vmodel-final4.png, id=533, 990.70125pt x 570.63188pt>
+<../../images/vmodel-final4.png, id=532, 990.70125pt x 570.63188pt>
 File: ../../images/vmodel-final4.png Graphic file (type png)
 
 <use ../../images/vmodel-final4.png>
-Package pdftex.def Info: ../../images/vmodel-final4.png used on input line 846.
+Package pdftex.def Info: ../../images/vmodel-final4.png used on input line 792.
 
 (pdftex.def)             Requested size: 396.27348pt x 228.2487pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 843--857
+Underfull \hbox (badness 10000) in paragraph at lines 789--803
 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 864.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 810.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [16 <../../images/vmodel-final4.png>]pdfTeX warning (ext4): destination with t
+ [14 <../../images/vmodel-final4.png>]pdfTeX warning (ext4): destination with t
 he same identifier (name{table.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.867 ...width}p{0.5\columnwidth}p{0.2\textwidth}}
+l.813 ...width}p{0.5\columnwidth}p{0.2\textwidth}}
                                                   
-Overfull \hbox (47.99303pt too wide) in alignment at lines 867--872
+Overfull \hbox (47.99303pt too wide) in alignment at lines 813--818
  [] [] [] [] 
  []
 
 
-Overfull \hbox (47.99303pt too wide) in alignment at lines 872--876
+Overfull \hbox (47.99303pt too wide) in alignment at lines 818--822
  [] [] [] [] 
  []
 
 LaTeX Font Info:    Font shape `T1/fca/m/it' in size <9> not available
-(Font)              Font shape `T1/fca/m/sl' tried instead on input line 878.
+(Font)              Font shape `T1/fca/m/sl' tried instead on input line 824.
 
-Overfull \hbox (47.99303pt too wide) in alignment at lines 876--879
+Overfull \hbox (47.99303pt too wide) in alignment at lines 822--825
  [] [] [] [] 
  []
 
 
-Overfull \hbox (47.99303pt too wide) in alignment at lines 879--882
+Overfull \hbox (47.99303pt too wide) in alignment at lines 825--828
  [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 937--938
+Underfull \hbox (badness 1253) in paragraph at lines 882--883
 []|\T1/fca/m/n/10.95 Verifica che la se-zio-ne de-di-ca-ta al-l'au-ten-ti-
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 937--938
+Underfull \hbox (badness 1163) in paragraph at lines 882--883
 \T1/fca/m/n/10.95 ca-zio-ne for-ni-sca una pro-ce-du-ra di re-cu-pe-ro
  []
 
 
-Underfull \hbox (badness 1769) in paragraph at lines 940--941
+Underfull \hbox (badness 1769) in paragraph at lines 885--886
 \T1/fca/m/n/10.95 ta e in ca-so ne-ga-ti-vo vi-sua-liz-za-re un
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 970--971
+Underfull \hbox (badness 1648) in paragraph at lines 915--916
 []\T1/fca/m/n/10.95 fornire una se-zio-ne con un elen-co di
  []
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 972--973
+Underfull \hbox (badness 2165) in paragraph at lines 917--918
 []\T1/fca/m/n/10.95 fornire il nu-me-ro di que-stio-na-ri del-la
  []
 
 
-Underfull \hbox (badness 4479) in paragraph at lines 986--987
+Underfull \hbox (badness 4479) in paragraph at lines 931--932
 []\T1/fca/m/n/10.95 per ogni ele-men-to del-l'e-len-co ven-ga
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 987--988
+Underfull \hbox (badness 2401) in paragraph at lines 932--933
 \T1/fca/m/n/10.95 sua-liz-za-to il nu-me-ro di do-man-de del
  []
 
 
-Underfull \hbox (badness 4479) in paragraph at lines 988--989
+Underfull \hbox (badness 4479) in paragraph at lines 933--934
 []\T1/fca/m/n/10.95 per ogni ele-men-to del-l'e-len-co ven-ga
  []
 
 
-Underfull \hbox (badness 4156) in paragraph at lines 1008--1009
+Underfull \hbox (badness 4156) in paragraph at lines 953--954
 []\T1/fca/m/n/10.95 rispondere al-le do-man-de in qual-sia-si
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 1044--1045
+Underfull \hbox (badness 1210) in paragraph at lines 989--990
 []\T1/fca/m/n/10.95 valuti il que-stio-na-rio e ne vi-sua-liz-zi il
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 1090--1091
+Underfull \hbox (badness 1558) in paragraph at lines 1035--1036
 []|\T1/fca/m/n/10.95 Verifica che il si-ste-ma ef-fet-tui un con-trol-
  []
 
 
-Underfull \hbox (badness 4013) in paragraph at lines 1090--1091
+Underfull \hbox (badness 4013) in paragraph at lines 1035--1036
 \T1/fca/m/n/10.95 lo sul-la cor-ret-tez-za dei da-ti pri-ma del-la
  []
 
 
-Overfull \hbox (47.99303pt too wide) in alignment at lines 882--1186
+Overfull \hbox (47.99303pt too wide) in alignment at lines 828--1131
  [] [] [] [] 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1186.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1131.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [15]
+File: ../../team404_small.jpg Graphic file (type jpg)
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1131.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [16]
+File: ../../team404_small.jpg Graphic file (type jpg)
+
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1131.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [17]
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1186.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1131.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [18]
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1186.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1135.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [19]
+Overfull \hbox (2.14848pt too wide) in alignment at lines 1136--1141
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.14848pt too wide) in alignment at lines 1141--1145
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.14848pt too wide) in alignment at lines 1145--1148
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.14848pt too wide) in alignment at lines 1148--1151
+ [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 1156--1156
+[]|\T1/fca/m/n/10.95 La se-zio-ne de-di-ca-ta al-la re-gi-stra-zio-ne de-ve
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 1158--1158
+[]|\T1/fca/m/n/10.95 La se-zio-ne de-di-ca-ta al-la re-gi-stra-zio-ne de-ve
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1160--1160
+[]|\T1/fca/m/n/10.95 TS
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 1162--1162
+[]|\T1/fca/m/n/10.95 La se-zio-ne de-di-ca-ta al-la re-gi-stra-zio-ne de-ve
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 1164--1164
+[]|\T1/fca/m/n/10.95 Prima di in-via-re i da-ti vie-ne ef-fet-tua-to un
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1166--1166
+[]|\T1/fca/m/n/10.95 TS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1168--1168
+[]|\T1/fca/m/n/10.95 TS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1170--1170
+[]|\T1/fca/m/n/10.95 TS
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 1172--1172
+[]|\T1/fca/m/n/10.95 Quando dei da-ti cor-ret-ti ven-go-no in-via-ti il
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 1178--1178
+[]|\T1/fca/m/n/10.95 La se-zio-ne de-di-ca-ta al-l'au-ten-ti-ca-zio-ne de-ve
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 1180--1180
+[]|\T1/fca/m/n/10.95 La se-zio-ne de-di-ca-ta al-l'au-ten-ti-ca-zio-ne de-ve
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 1182--1182
+[]|\T1/fca/m/n/10.95 La se-zio-ne de-di-ca-ta al-l'au-ten-ti-ca-zio-ne de-ve
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 1184--1184
+[]|\T1/fca/m/n/10.95 La se-zio-ne de-di-ca-ta al-l'au-ten-ti-ca-zio-ne de-ve
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 1186--1186
+[]|\T1/fca/m/n/10.95 La pro-ce-du-ra di re-cu-pe-ro pas-sword de-ve
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 1188--1188
+[]|\T1/fca/m/n/10.95 La pro-ce-du-ra di re-cu-pe-ro pas-sword de-ve
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1190
+[]|\T1/fca/m/n/10.95 TS
+ []
+
+
+Underfull \hbox (badness 4699) in paragraph at lines 1190--1190
+[]|\T1/fca/m/n/10.95 Se la e-mail non ri-sul-ta re-gi-stra-ta vie-ne
+ []
+
+
+Overfull \hbox (2.14848pt too wide) in alignment at lines 1151--1191
+ [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1192--1192
+[]|\T1/fca/m/n/10.95 TS
+ []
+
+
+Underfull \hbox (badness 4699) in paragraph at lines 1192--1192
+[]|\T1/fca/m/n/10.95 Se la e-mail non ri-sul-ta re-gi-stra-ta vie-ne
+ []
+
+
+Underfull \hbox (badness 3333) in paragraph at lines 1194--1194
+\T1/fca/m/n/10.95 da-re una mail al-l'in-di-riz-zo in-se-ri-to con la
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 1196--1196
+[]|\T1/fca/m/n/10.95 La se-zio-ne de-di-ca-ta al-l'au-ten-ti-ca-zio-ne de-ve
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 1198--1198
+[]|\T1/fca/m/n/10.95 Prima di in-via-re i da-ti vie-ne ef-fet-tua-to un
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1200--1200
+[]|\T1/fca/m/n/10.95 TS
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 1200--1200
+[]|\T1/fca/m/n/10.95 Se la com-bi-na-zio-ne e-mail/password non è
+ []
+
+
+Underfull \hbox (badness 6691) in paragraph at lines 1224--1224
+[]|\T1/fca/m/n/10.95 Il si-ste-ma de-ve for-ni-re la pos-si-bi-li-tà di
+ []
+
+
+Overfull \hbox (2.14848pt too wide) in alignment at lines 1191--1231
+ [] [] [] [] 
+ []
+
 File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1186.
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1231.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [20]
-File: ../../team404_small.jpg Graphic file (type jpg)
+Underfull \hbox (badness 10000) in paragraph at lines 1234--1235
+[]|[]\T1/fca/m/n/10.95 Non
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1238--1238
+[]|\T1/fca/m/n/10.95 TS
+ []
+
+
+Underfull \hbox (badness 4454) in paragraph at lines 1240--1240
+[]|\T1/fca/m/n/10.95 Se la do-man-da per-met-te as-so-cia-zio-ni tra
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1242--1242
+[]|\T1/fca/m/n/10.95 TS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1246
+[]|\T1/fca/m/n/10.95 TS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1258--1258
+[]|\T1/fca/m/n/10.95 TS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1260--1260
+[]|\T1/fca/m/n/10.95 F
+ []
+
+
+Overfull \hbox (1.36061pt too wide) in paragraph at lines 1260--1260
+\T1/fca/m/n/10.95 4.5.2.1.1| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1260--1260
+[]|\T1/fca/m/n/10.95 TS
+ []
+
+
+Overfull \hbox (1.36061pt too wide) in paragraph at lines 1260--1260
+\T1/fca/m/n/10.95 4.5.2.1.1| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1262--1262
+[]|\T1/fca/m/n/10.95 F
+ []
+
+
+Overfull \hbox (1.36061pt too wide) in paragraph at lines 1262--1262
+\T1/fca/m/n/10.95 4.5.2.1.2| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1262--1262
+[]|\T1/fca/m/n/10.95 TS
+ []
+
+
+Overfull \hbox (1.36061pt too wide) in paragraph at lines 1262--1262
+\T1/fca/m/n/10.95 4.5.2.1.2| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1264--1264
+[]|\T1/fca/m/n/10.95 F
+ []
+
+
+Overfull \hbox (1.36061pt too wide) in paragraph at lines 1264--1264
+\T1/fca/m/n/10.95 4.5.2.1.3| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1264--1264
+[]|\T1/fca/m/n/10.95 TS
+ []
+
+
+Overfull \hbox (1.36061pt too wide) in paragraph at lines 1264--1264
+\T1/fca/m/n/10.95 4.5.2.1.3| 
+ []
+
+
+Underfull \hbox (badness 6675) in paragraph at lines 1268--1268
+\T1/fca/m/n/10.95 rà con-se-gna-to au-to-ma-ti-ca-men-te an-che se
+ []
+
+
+Overfull \hbox (2.14848pt too wide) in alignment at lines 1231--1271
+ [] [] [] [] 
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1190.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1271.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [21]
-Overfull \hbox (36.91206pt too wide) in alignment at lines 1191--1196
- [] [] [] [] [] 
+Underfull \hbox (badness 2635) in paragraph at lines 1280--1280
+[]|\T1/fca/m/n/10.95 La se-zio-ne de-di-ca-ta al-la crea-zio-ne di una
  []
 
 
-Overfull \hbox (36.91206pt too wide) in alignment at lines 1196--1200
- [] [] [] [] [] 
+Underfull \hbox (badness 1253) in paragraph at lines 1280--1280
+\T1/fca/m/n/10.95 do-man-da de-ve per-met-te-re l'in-se-ri-men-to del
  []
 
 
-Overfull \hbox (36.91206pt too wide) in alignment at lines 1200--1203
- [] [] [] [] [] 
+Underfull \hbox (badness 2635) in paragraph at lines 1282--1282
+[]|\T1/fca/m/n/10.95 La se-zio-ne de-di-ca-ta al-la crea-zio-ne di una
  []
 
 
-Overfull \hbox (36.91206pt too wide) in alignment at lines 1203--1206
- [] [] [] [] [] 
+Underfull \hbox (badness 1990) in paragraph at lines 1284--1284
+[]|\T1/fca/m/n/10.95 Prima di in-via-re i da-ti vie-ne ef-fet-tua-to un
  []
 
 
-Underfull \hbox (badness 2088) in paragraph at lines 1209--1209
-\T1/fca/m/n/10.95 ne per-met-te l'in-se-ri-men-to dei da-ti
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1215--1215
+Underfull \hbox (badness 10000) in paragraph at lines 1286--1286
 []|\T1/fca/m/n/10.95 TS
  []
 
 
-Underfull \hbox (badness 2253) in paragraph at lines 1215--1215
-[]|\T1/fca/m/n/10.95 Se la pas-sword in-se-ri-ta ha me-no
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1221--1221
+Underfull \hbox (badness 10000) in paragraph at lines 1288--1288
 []|\T1/fca/m/n/10.95 TS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1223--1223
+Underfull \hbox (badness 10000) in paragraph at lines 1290--1290
 []|\T1/fca/m/n/10.95 TS
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 1223--1223
-\T1/fca/m/n/10.95 vie-ne vi-sua-liz-za-to un mes-sag-gio di
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1225--1225
+Underfull \hbox (badness 10000) in paragraph at lines 1294--1294
 []|\T1/fca/m/n/10.95 TS
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 1239--1239
-\T1/fca/m/n/10.95 ne de-ve for-ni-re una pro-ce-du-ra di
- []
-
-
-Underfull \hbox (badness 1755) in paragraph at lines 1243--1243
-\T1/fca/m/n/10.95 de-ve ef-fet-tua-re un con-trol-lo sul-la
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1245--1245
+Underfull \hbox (badness 10000) in paragraph at lines 1296--1296
 []|\T1/fca/m/n/10.95 TS
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 1245--1245
-[]|\T1/fca/m/n/10.95 Se la e-mail non ri-sul-ta re-gi-stra-ta
+Underfull \hbox (badness 5345) in paragraph at lines 1298--1298
+[]|\T1/fca/m/n/10.95 Il si-ste-ma de-ve for-ni-re la pos-si-bi-li-tà ad
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 1245--1245
-\T1/fca/m/n/10.95 vie-ne vi-sua-liz-za-to un mes-sag-gio di
+Underfull \hbox (badness 2913) in paragraph at lines 1298--1298
+\T1/fca/m/n/10.95 un uten-te au-ten-ti-ca-to di crea-re un nuo-vo
  []
 
 
-Overfull \hbox (36.91206pt too wide) in alignment at lines 1206--1246
- [] [] [] [] [] 
+Underfull \hbox (badness 1748) in paragraph at lines 1302--1302
+\T1/fca/m/n/10.95 stio-na-rio de-ve per-met-te-re l'in-se-ri-men-to del
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1247--1247
+Underfull \hbox (badness 4193) in paragraph at lines 1306--1306
+[]|\T1/fca/m/n/10.95 La se-zio-ne de-di-ca-ta al-la crea-zio-ne di un
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 1306--1306
+\T1/fca/m/n/10.95 que-stio-na-rio de-ve vi-sua-liz-za-re la li-sta del-le
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1308--1308
 []|\T1/fca/m/n/10.95 TS
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 1247--1247
-[]|\T1/fca/m/n/10.95 Se la e-mail non ri-sul-ta re-gi-stra-ta
- []
-
-
-Underfull \hbox (badness 1931) in paragraph at lines 1247--1247
-\T1/fca/m/n/10.95 vie-ne bloc-ca-to l'in-vio del-la mail a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1255--1255
+Underfull \hbox (badness 10000) in paragraph at lines 1310--1310
 []|\T1/fca/m/n/10.95 TS
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 1261--1261
-[]|\T1/fca/m/n/10.95 Il si-ste-ma de-ve for-ni-re una se-zio-
- []
-
-
-Underfull \hbox (badness 1082) in paragraph at lines 1271--1271
-[]|\T1/fca/m/n/10.95 Quando l'u-ten-te se-le-zio-na un que-
- []
-
-
-Underfull \hbox (badness 2837) in paragraph at lines 1281--1281
-[]|\T1/fca/m/n/10.95 Durante la com-pi-la-zio-ne del que-
- []
-
-
-Underfull \hbox (badness 1546) in paragraph at lines 1281--1281
-\T1/fca/m/n/10.95 be-ra-men-te tra le do-man-de che lo
- []
-
-
-Overfull \hbox (36.91206pt too wide) in alignment at lines 1246--1286
- [] [] [] [] [] 
+Overfull \hbox (2.14848pt too wide) in alignment at lines 1271--1311
+ [] [] [] [] 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1286.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1311.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [22]
-Underfull \hbox (badness 2205) in paragraph at lines 1291--1291
-\T1/fca/m/n/10.95 im-po-sta-te di qual-sia-si ti-po que-ste
+Underfull \hbox (badness 1990) in paragraph at lines 1314--1314
+[]|\T1/fca/m/n/10.95 Prima di in-via-re i da-ti vie-ne ef-fet-tua-to un
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1293--1293
+Underfull \hbox (badness 10000) in paragraph at lines 1316--1316
 []|\T1/fca/m/n/10.95 TS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1297--1297
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1318
 []|\T1/fca/m/n/10.95 TS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1301--1301
+Underfull \hbox (badness 4441) in paragraph at lines 1318--1318
+[]|\T1/fca/m/n/10.95 Se nes-su-na do-man-da è se-le-zio-na-ta vie-ne
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1320--1320
 []|\T1/fca/m/n/10.95 TS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1313--1313
+Underfull \hbox (badness 10000) in paragraph at lines 1324--1324
 []|\T1/fca/m/n/10.95 TS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1315--1315
-[]|\T1/fca/m/n/10.95 F
- []
-
-
-Overfull \hbox (1.36061pt too wide) in paragraph at lines 1315--1315
-\T1/fca/m/n/10.95 4.5.2.1.1| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1315--1315
+Underfull \hbox (badness 10000) in paragraph at lines 1326--1326
 []|\T1/fca/m/n/10.95 TS
  []
 
 
-Overfull \hbox (1.36061pt too wide) in paragraph at lines 1315--1315
-\T1/fca/m/n/10.95 4.5.2.1.1| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1317--1317
-[]|\T1/fca/m/n/10.95 F
- []
-
-
-Overfull \hbox (1.36061pt too wide) in paragraph at lines 1317--1317
-\T1/fca/m/n/10.95 4.5.2.1.2| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1317--1317
+Underfull \hbox (badness 10000) in paragraph at lines 1342--1342
 []|\T1/fca/m/n/10.95 TS
  []
 
 
-Overfull \hbox (1.36061pt too wide) in paragraph at lines 1317--1317
-\T1/fca/m/n/10.95 4.5.2.1.2| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1319--1319
-[]|\T1/fca/m/n/10.95 F
- []
-
-
-Overfull \hbox (1.36061pt too wide) in paragraph at lines 1319--1319
-\T1/fca/m/n/10.95 4.5.2.1.3| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1319--1319
+Underfull \hbox (badness 10000) in paragraph at lines 1346--1346
 []|\T1/fca/m/n/10.95 TS
  []
 
 
-Overfull \hbox (1.36061pt too wide) in paragraph at lines 1319--1319
-\T1/fca/m/n/10.95 4.5.2.1.3| 
+Underfull \hbox (badness 10000) in paragraph at lines 1348--1348
+[]|\T1/fca/m/n/10.95 TS
  []
 
 
-Underfull \hbox (badness 4726) in paragraph at lines 1323--1323
-\T1/fca/m/n/10.95 ver-rà con-se-gna-to au-to-ma-ti-ca-men-te
+Underfull \hbox (badness 10000) in paragraph at lines 1348--1349
+[]|[]\T1/fca/m/n/10.95 Non
  []
 
 
-Overfull \hbox (36.91206pt too wide) in alignment at lines 1286--1326
- [] [] [] [] [] 
+Underfull \hbox (badness 10000) in paragraph at lines 1350--1350
+[]|\T1/fca/m/n/10.95 TS
+ []
+
+
+Overfull \hbox (2.14848pt too wide) in alignment at lines 1311--1351
+ [] [] [] [] 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1326.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1351.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [23]
-Underfull \hbox (badness 1521) in paragraph at lines 1331--1331
-[]|\T1/fca/m/n/10.95 La se-zio-ne de-di-ca-ta al-la crea-zio-ne
+Underfull \hbox (badness 10000) in paragraph at lines 1352--1352
+[]|\T1/fca/m/n/10.95 F
  []
 
 
-Underfull \hbox (badness 3323) in paragraph at lines 1331--1331
-\T1/fca/m/n/10.95 di una do-man-da de-ve per-met-te-re
+Overfull \hbox (1.36061pt too wide) in paragraph at lines 1352--1352
+\T1/fca/m/n/10.95 8.1.4.5.1| 
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 1333--1333
-[]|\T1/fca/m/n/10.95 La se-zio-ne de-di-ca-ta al-la crea-zio-ne
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1341--1341
+Underfull \hbox (badness 10000) in paragraph at lines 1352--1352
 []|\T1/fca/m/n/10.95 TS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1343--1343
+Overfull \hbox (1.36061pt too wide) in paragraph at lines 1352--1352
+\T1/fca/m/n/10.95 8.1.4.5.1| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1354--1354
 []|\T1/fca/m/n/10.95 TS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1345--1345
+Underfull \hbox (badness 3354) in paragraph at lines 1354--1354
+[]|\T1/fca/m/n/10.95 QML de-fi-ni-sce do-man-de a com-ple-ta-men-to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1354--1355
+[]|[]\T1/fca/m/n/10.95 Non
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1356--1356
+[]|\T1/fca/m/n/10.95 F
+ []
+
+
+Overfull \hbox (1.36061pt too wide) in paragraph at lines 1356--1356
+\T1/fca/m/n/10.95 8.1.4.6.1| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1356--1356
 []|\T1/fca/m/n/10.95 TS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1349--1349
+Overfull \hbox (1.36061pt too wide) in paragraph at lines 1356--1356
+\T1/fca/m/n/10.95 8.1.4.6.1| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1356--1357
+[]|[]\T1/fca/m/n/10.95 Non
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1358--1358
 []|\T1/fca/m/n/10.95 TS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1351--1351
-[]|\T1/fca/m/n/10.95 TS
+Underfull \hbox (badness 10000) in paragraph at lines 1360--1361
+[]|[]\T1/fca/m/n/10.95 Non
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 1355--1355
-[]|\T1/fca/m/n/10.95 La se-zio-ne de-di-ca-ta al-la crea-zio-ne
- []
-
-
-Underfull \hbox (badness 4132) in paragraph at lines 1357--1357
-[]|\T1/fca/m/n/10.95 La se-zio-ne de-di-ca-ta al-la crea-zio-
- []
-
-
-Underfull \hbox (badness 4752) in paragraph at lines 1357--1357
-\T1/fca/m/n/10.95 ne di un que-stio-na-rio de-ve per-
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 1359--1359
-[]|\T1/fca/m/n/10.95 La se-zio-ne de-di-ca-ta al-la crea-zio-ne
- []
-
-
-Underfull \hbox (badness 1694) in paragraph at lines 1359--1359
-\T1/fca/m/n/10.95 di un que-stio-na-rio de-ve per-met-te-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1363--1363
-[]|\T1/fca/m/n/10.95 TS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1365--1365
-[]|\T1/fca/m/n/10.95 TS
- []
-
-
-Overfull \hbox (36.91206pt too wide) in alignment at lines 1326--1366
- [] [] [] [] [] 
+Overfull \hbox (2.14848pt too wide) in alignment at lines 1351--1361
+ [] [] [] [] 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1366.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1361.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [24]
+Overfull \hbox (0.20445pt too wide) in alignment at lines 1364--1369
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.20445pt too wide) in alignment at lines 1369--1373
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.20445pt too wide) in alignment at lines 1373--1376
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.20445pt too wide) in alignment at lines 1376--1379
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.20445pt too wide) in alignment at lines 1379--1391
+ [] [] [] [] 
+ []
+
 File: ../../team404_small.jpg Graphic file (type jpg)
- <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1366.
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1391.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [25]
-Underfull \hbox (badness 4132) in paragraph at lines 1367--1367
-[]|\T1/fca/m/n/10.95 La se-zio-ne de-di-ca-ta al-la crea-zio-
- []
-
-
-Underfull \hbox (badness 1888) in paragraph at lines 1367--1367
-\T1/fca/m/n/10.95 ne di un nuo-vo que-stio-na-rio de-ve
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1371--1371
-[]|\T1/fca/m/n/10.95 TS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1373--1373
-[]|\T1/fca/m/n/10.95 TS
- []
-
-
-Underfull \hbox (badness 1454) in paragraph at lines 1373--1373
-\T1/fca/m/n/10.95 vie-ne vi-sua-liz-za-to un mes-sag-gio di
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1375--1375
-[]|\T1/fca/m/n/10.95 TS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1379--1379
-[]|\T1/fca/m/n/10.95 TS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1381--1381
-[]|\T1/fca/m/n/10.95 TS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1397--1397
-[]|\T1/fca/m/n/10.95 TS
- []
-
-
-Underfull \hbox (badness 3579) in paragraph at lines 1399--1399
-[]|\T1/fca/m/n/10.95 QML de-fi-ni-sce do-man-de a scel-ta
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1401--1401
-[]|\T1/fca/m/n/10.95 TS
- []
-
-
-Underfull \hbox (badness 3579) in paragraph at lines 1401--1401
-[]|\T1/fca/m/n/10.95 QML de-fi-ni-sce do-man-de a scel-ta
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1403--1403
-[]|\T1/fca/m/n/10.95 TS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1405--1405
-[]|\T1/fca/m/n/10.95 TS
- []
-
-
-Overfull \hbox (36.91206pt too wide) in alignment at lines 1366--1406
- [] [] [] [] [] 
- []
-
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1406.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [26]
-Underfull \hbox (badness 10000) in paragraph at lines 1407--1407
-[]|\T1/fca/m/n/10.95 F
- []
-
-
-Overfull \hbox (1.36061pt too wide) in paragraph at lines 1407--1407
-\T1/fca/m/n/10.95 8.1.4.5.1| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1407--1407
-[]|\T1/fca/m/n/10.95 TS
- []
-
-
-Overfull \hbox (1.36061pt too wide) in paragraph at lines 1407--1407
-\T1/fca/m/n/10.95 8.1.4.5.1| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1409--1409
-[]|\T1/fca/m/n/10.95 TS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1411--1411
-[]|\T1/fca/m/n/10.95 F
- []
-
-
-Overfull \hbox (1.36061pt too wide) in paragraph at lines 1411--1411
-\T1/fca/m/n/10.95 8.1.4.6.1| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1411--1411
-[]|\T1/fca/m/n/10.95 TS
- []
-
-
-Overfull \hbox (1.36061pt too wide) in paragraph at lines 1411--1411
-\T1/fca/m/n/10.95 8.1.4.6.1| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1413--1413
-[]|\T1/fca/m/n/10.95 TS
- []
-
-
-Overfull \hbox (36.91206pt too wide) in alignment at lines 1406--1416
- [] [] [] [] [] 
- []
-
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1416.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [27]
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1416.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1392.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [28]
-Overfull \hbox (44.07486pt too wide) in alignment at lines 1419--1424
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (44.07486pt too wide) in alignment at lines 1424--1428
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (44.07486pt too wide) in alignment at lines 1428--1431
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (44.07486pt too wide) in alignment at lines 1431--1434
- [] [] [] [] [] 
- []
-
-
-Underfull \hbox (badness 6188) in paragraph at lines 1441--1441
-[]|\T1/fca/m/n/10.95 Il co-di-ce ja-va-script si oc-cu-pa del
- []
-
-
-Underfull \hbox (badness 6910) in paragraph at lines 1443--1443
-[]|\T1/fca/m/n/10.95 Il co-di-ce HTML pas-sa il te-st di
- []
-
-
-Overfull \hbox (44.07486pt too wide) in alignment at lines 1434--1446
- [] [] [] [] [] 
- []
-
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1447.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [29]
-Underfull \hbox (badness 3302) in paragraph at lines 1475--1475
+ [26]
+Underfull \hbox (badness 3302) in paragraph at lines 1420--1420
 []|\T1/fca/m/n/10.95 Viene ve-ri-fi-ca-to che View-Mo-del::Controllers in-te-ra
 -
  []
 
 
-Underfull \hbox (badness 2359) in paragraph at lines 1475--1475
+Underfull \hbox (badness 2359) in paragraph at lines 1420--1420
 \T1/fca/m/n/10.95 gi-sca cor-ret-ta-men-te con i pac-ka-ge View, View-Mo-
  []
 
 
-Underfull \hbox (badness 2922) in paragraph at lines 1475--1475
+Underfull \hbox (badness 2922) in paragraph at lines 1420--1420
 \T1/fca/m/n/10.95 e con i pac-ka-ge View-Mo-del::Subscribers, View-Mo-
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 1477--1477
+Underfull \hbox (badness 1275) in paragraph at lines 1422--1422
 []|\T1/fca/m/n/10.95 Viene ve-ri-fi-ca-to che View-Mo-del::Methods in-te-ra-gi-
 sca
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 1478--1478
+Underfull \hbox (badness 1033) in paragraph at lines 1423--1423
 []|\T1/fca/m/n/10.95 Viene Ve-ri-fi-ca-to che View-Mo-del::Interpreter in-te-ra
 -gi-
  []
 
 
-Underfull \hbox (badness 5119) in paragraph at lines 1479--1479
+Underfull \hbox (badness 5119) in paragraph at lines 1424--1424
 []|\T1/fca/m/n/10.95 Viene ve-ri-fi-ca-to che View-Mo-del::Router in-te-ra-gi-s
 ca
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1485.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1430.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [30]
-Underfull \hbox (badness 1325) in paragraph at lines 1517--1517
+ [27]
+Underfull \hbox (badness 1325) in paragraph at lines 1462--1462
 []|\T1/fca/m/n/10.95 Verifica che il me-to-do som-mi-ni-stri cor-ret-ta-men-te 
 la
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 1523--1523
+Underfull \hbox (badness 1502) in paragraph at lines 1468--1468
 \T1/fca/m/n/10.95 l'in-se-ri-men-to e al-la ri-mo-zio-ne di un quiz fun-zio-ni-
 no
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
+[]|\T1/fca/m/n/10.95 Viene ve-ri-fi-ca-to che i me-to-di HTML2QML() e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
+\T1/fca/m/n/10.95 QML2HTML() al-l'in-ter-no del pac-ka-ge In-ter-pre-ter
+ []
+
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1544.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1489.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [28]
+File: ../../team404_small.jpg Graphic file (type jpg)
+ <use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1491.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [29]
+File: ../../team404_small.jpg Graphic file (type jpg)
+
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1558.
+(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
+ [30]
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1564--1569
+ [] [] 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1569--1573
+ [] [] 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1573--1576
+ [] [] 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1576--1579
+ [] [] 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1579--1604
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1604
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1604--1636
+ [] [] 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1636--1691
+ [] [] 
+ []
+
+File: ../../team404_small.jpg Graphic file (type jpg)
+<use ../../team404_small.jpg>
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1691.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [31]
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1578.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1693.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [32]
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1619--1624
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1698--1703
  [] [] 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1624--1628
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1703--1707
  [] [] 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1628--1631
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1707--1710
  [] [] 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1631--1634
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1710--1713
  [] [] 
  []
 
 
-Overfull \hbox (9.44951pt too wide) in paragraph at lines 1649--1649
-[]|\T1/fca/m/n/10.95 ViewModel::Controllers::NewQuestionController::NewQuestion
-Controller()| 
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1713--1738
+ [] [] 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1634--1657
+Underfull \vbox (badness 10000) detected at line 1738
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1738--1770
+ [] [] 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1770--1792
  [] [] 
  []
 
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1657.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1792.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
  [33]
-Underfull \vbox (badness 10000) detected at line 1657
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1657--1683
- [] [] 
- []
-
-
-Overfull \hbox (0.98506pt too wide) in paragraph at lines 1699--1699
-[]|\T1/fca/m/n/10.95 ViewModel::Interpreter::QMLInterpreterFactory::QMLInterpre
-terFactory()| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1683--1717
- [] [] 
- []
-
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1717.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [34]
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1717--1745
- [] [] 
- []
-
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1746.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [35]
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1752--1757
- [] [] 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1757--1761
- [] [] 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1761--1764
- [] [] 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1764--1767
- [] [] 
- []
-
-
-Overfull \hbox (9.44951pt too wide) in paragraph at lines 1782--1783
-[]|\T1/fca/m/n/10.95 ViewModel::Controllers::NewQuestionController::NewQuestion
-Controller()| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1767--1790
- [] [] 
- []
-
-
-Underfull \vbox (badness 10000) detected at line 1790
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1790--1816
- [] [] 
- []
-
-
-Overfull \hbox (0.98506pt too wide) in paragraph at lines 1832--1833
-[]|\T1/fca/m/n/10.95 ViewModel::Interpreter::QMLInterpreterFactory::QMLInterpre
-terFactory()| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1816--1850
- [] [] 
- []
-
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1850.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [36]
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1850--1878
- [] [] 
- []
-
-File: ../../team404_small.jpg Graphic file (type jpg)
-<use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1878.
-(pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [37]
 File: ../../team404_small.jpg Graphic file (type jpg)
  <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1880.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1794.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [38]
+ [34]
 File: ../../team404_small.jpg Graphic file (type jpg)
 
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1951.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1867.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [39] 
+ [35] 
 AED: lastpage setting LastPage
 File: ../../team404_small.jpg Graphic file (type jpg)
 <use ../../team404_small.jpg>
-Package pdftex.def Info: ../../team404_small.jpg used on input line 1952.
+Package pdftex.def Info: ../../team404_small.jpg used on input line 1910.
 (pdftex.def)             Requested size: 57.36183pt x 23.03506pt.
- [40]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1952.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1952.
- (piano_di_qualifica_4.0.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1952.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1952.
+ [36]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1910.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1910.
+ (./piano_di_qualifica_4.0.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1910.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1910.
 
 Package rerunfilecheck Info: File `piano_di_qualifica_4.0.out' has not changed.
 
-(rerunfilecheck)             Checksum: F3AD21F34351CDB805F80A658A3C222A;6128.
+(rerunfilecheck)             Checksum: 7F4558243DC1463AA86BAE444FAC3320;6304.
  ) 
 Here is how much of TeX's memory you used:
- 10989 strings out of 493698
- 160428 string characters out of 3144408
- 325350 words of memory out of 3000000
- 13914 multiletter control sequences out of 15000+200000
- 32559 words of font info for 93 fonts, out of 3000000 for 9000
- 1025 hyphenation exceptions out of 8191
- 38i,17n,47p,974b,574s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cantarell/cantarell-03.enc}{C:/P
-rogram Files/MiKTeX 2.9/fonts/enc/dvips/cantarell/cantarell-01.enc}{C:/Program 
-Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/cantarell/Cantarell-Bold.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/cantarell/Cantarell-Regular.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/cantarell/Cantarell-Regular.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1095.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on piano_di_qualifica_4.0.pdf (45 pages, 467703 bytes).
+ 11548 strings out of 494942
+ 167171 string characters out of 6180501
+ 331301 words of memory out of 5000000
+ 14437 multiletter control sequences out of 15000+600000
+ 32559 words of font info for 93 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 38i,17n,49p,974b,580s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cantarell/cantarell-03.enc}{/u
+sr/share/texlive/texmf-dist/fonts/enc/dvips/cantarell/cantarell-01.enc} </home/
+marco/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.600pk> </home/marco/.texm
+f-var/fonts/pk/ljfour/jknappen/ec/ectt1440.600pk></usr/share/texlive/texmf-dist
+/fonts/type1/public/cantarell/Cantarell-Bold.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/cantarell/Cantarell-Regular.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/cantarell/Cantarell-Regular.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+
+Output written on piano_di_qualifica_4.0.pdf (41 pages, 325008 bytes).
 PDF statistics:
- 816 PDF objects out of 1000 (max. 8388607)
- 187 named destinations out of 1000 (max. 500000)
- 650 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 865 PDF objects out of 1000 (max. 8388607)
+ 742 compressed objects within 8 object streams
+ 183 named destinations out of 1000 (max. 500000)
+ 664 words of extra memory for PDF output out of 10000 (max. 10000000)
 
