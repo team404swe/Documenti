@@ -7,12 +7,16 @@
 \BOOKMARK [3][-]{subsubsection.1.4.2}{Informativi}{subsection.1.4}% 7
 \BOOKMARK [1][-]{section.2}{Requisiti di Sistema}{}% 8
 \BOOKMARK [2][-]{subsection.2.1}{Browser supportati}{section.2}% 9
-\BOOKMARK [1][-]{section.3}{L'applicazione a prima vista}{}% 10
-\BOOKMARK [1][-]{section.4}{Registrazione}{}% 11
-\BOOKMARK [1][-]{section.5}{Autenticazione}{}% 12
-\BOOKMARK [1][-]{section.6}{Scelta di un questionario}{}% 13
-\BOOKMARK [1][-]{section.7}{Svolgimento di un questionario}{}% 14
-\BOOKMARK [1][-]{section.8}{Profilo Utente}{}% 15
-\BOOKMARK [1][-]{section.9}{Creazione di una domanda}{}% 16
-\BOOKMARK [1][-]{section.10}{Creazione di un questionario}{}% 17
-\BOOKMARK [1][-]{section.11}{Sintassi QML}{}% 18
+\BOOKMARK [1][-]{section.3}{Installazione}{}% 10
+\BOOKMARK [1][-]{section.4}{L'applicazione a prima vista}{}% 11
+\BOOKMARK [1][-]{section.5}{Registrazione}{}% 12
+\BOOKMARK [1][-]{section.6}{Autenticazione}{}% 13
+\BOOKMARK [1][-]{section.7}{Scelta di un Questionario}{}% 14
+\BOOKMARK [1][-]{section.8}{Svolgimento di un Questionario}{}% 15
+\BOOKMARK [1][-]{section.9}{Profilo Utente}{}% 16
+\BOOKMARK [1][-]{section.10}{Creazione Domanda}{}% 17
+\BOOKMARK [1][-]{section.11}{Creazione Questionario}{}% 18
+\BOOKMARK [1][-]{section.12}{Sintassi QML}{}% 19
+\BOOKMARK [2][-]{subsection.12.1}{Tipologia Domanda}{section.12}% 20
+\BOOKMARK [2][-]{subsection.12.2}{Corpo della domanda}{section.12}% 21
+\BOOKMARK [2][-]{subsection.12.3}{Esempi di domande secondo la sintassi corretta}{section.12}% 22
