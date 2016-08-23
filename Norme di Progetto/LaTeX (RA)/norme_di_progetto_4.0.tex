@@ -449,7 +449,92 @@ Per una descrizione dettagliata delle metriche utilizzate per l'analisi statica 
 						
 			\subsection{Processo di verifica}
 				\subsubsection{Scopo del processo}
-					Questo processo ha per scopo di confermare che ogni componente software sviluppato sia conforme ai requisiti.		
+					Questo processo ha per scopo di confermare che ogni componente software sviluppato sia conforme ai requisiti.
+					
+			
+\subsubsection{Qualità di processo}
+
+Ogni processo coinvolto nell'attività di sviluppo ha bisogno di una costante attività di verifica di supporto in grado di identificare possibili miglioramenti o peggioramenti ed apportare eventuali correzioni. \\
+Il modello che il gruppo intende quindi seguire è il cosiddetto PDCA (o Ciclo di Deming), modello volto al miglioramento continuo che definisce quattro fasi cicliche:
+\begin{itemize}
+\item \textbf{P}lan: definizione del problema, cosa deve essere realizzato e come andrà controllato per la verifica qualitativa;
+\item \textbf{D}o: eseguire le attività secondo i piani;
+\item \textbf{C}heck: verifica nel tempo dei risultati conseguiti in seguito a modifiche e migliorie, confronto tra risultati attesi e risultati effettivi; %spero di non aver stravolto questo punto, apparte questo il resto va bene
+\item \textbf{A}ct: applicazione di soluzioni correttive atte al miglioramento.
+\end{itemize}
+%(vedere Appendice A per una descrizione dettagliata).\\
+Ogni processo deve essere sottoposto a verifica in modo da poterlo migliorare all'iterazione successiva. 
+Le due fasi chiave del modello PDCA sono la prima fase di definizione (P) del problema e la fase di verifica dei risultati attesi (C). 
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{../images/PDCA}
+\caption{PDCA e miglioramento complessivo}
+\end{figure}
+Il concetto generale fa riferimento anche al metodo di \textit{Correctness by construction}, che ha come principio base quello di fare in modo di non introdurre errori già dall'inizio e/o di correggere tali errori nel \textbf{momento più vicino possibile a quando sono stati introdotti}.\\ L'attività costante di verifica, quindi,  deve servire proprio a far sì che gli errori e le divergenze vengano individuate il prima possibile.
+Piccoli errori iniziali, se non gestiti, possono portare all'assoluta ingestibilità dell'attività di verifica e quindi compromettere pesantemente il successo finale del progetto. Per evitare ciò, un processo dipendente da un altro non può avere inizio finché il precedente non sia stato verificato e ne sia stata accertata la correttezza. 
+%\textbf{DA DESCRIVERE IN APPENDICE I DUE MODELLI}
+
+Le linee guida fornite dal modell PDCA per l'attività di controllo ed il miglioramento continuo dei processi sono:
+\begin{itemize}
+\item Pianificazione dettagliata
+\item Monitoraggio costante delle attività pianificate in esecuzione
+\item Definizione delle risorse umane e tecnologiche necessarie per il conseguimento degli obiettivi
+\item Utilizzo di metriche per quantificare e verificare il miglioramento della qualità del processo
+\end{itemize}  
+Sui processi, quindi, vanno effettuate delle misurazioni oggettive che possano dare informazioni utili sull'andamento degli stessi, in modo da poter decidere se intervenire in maniera migliorativa. 
+In generale, tali misurazioni tengono conto dei seguenti elementi: 
+\begin{itemize}
+\item Tempo impiegato per il completamento
+\item Risorse utilizzate 
+\item Attinenza alla pianificazione
+\end{itemize}
+\subsubsubsection{Standard utilizzati}
+Per quanto riguarda la valutazione qualitativa dei processi si fa riferimento ai seguenti standard: 
+\begin{itemize}
+\item SPICE\addglos : definito dallo standard \underline{ISO/IEC 15504:1998}, fornisce un modello per la valutazione del livello di “maturità”
+dei processi per identificare quali azioni possono essere necessarie per migliorare un processo specifico.
+\item PDCA\addglos : metodo di gestione iterativo utilizzato per il controllo e il miglioramento continuo dei processi e dei prodotti.
+\item \underline{ISO/IEC 12207:2008}: utilizzato come riferimento per l'individuazione dei processi da sottoporre ad attività di verifica qualitativa:
+\begin{itemize}
+\item Infrastructure Management Process
+%\item Risk Management ProcessXXXX
+\item System/Software Requirements Analysis Process
+\item System/Software Architectural Design Process
+\item Software Detailed Design Process
+\item Software Construction Process
+\item System/Software Integration Process
+\item System/Software Qualification Testing Process
+\item Software Documentation Management Process
+\item Software Verification Process
+
+\end{itemize} 
+\end{itemize}
+
+
+\subsubsection{Qualità di prodotto}
+Il controllo per la qualità di prodotto definisce i seguenti processi
+Per il controllo qualità del prodotto sono definiti i seguenti processi:
+\begin{itemize}
+\item \textbf{Software Quality Assurance}: insieme delle attività volte a garantire il raggiungimento degli obiettivi di qualità. Queste attività prevedono l'utilizzo di tecniche di analisi statica e dinamica
+\item \textbf{Verifica}: attività costante durante l'intera fase del progetto; serve a controllare che l'output aspettato dalle entità in oggetto di verifica.
+\item \textbf{Validazione}: la conferma oggettiva che il sistema soddisfi i requisiti. 
+\end{itemize}
+\subsubsubsection{Standard utilizzati}
+Come punto di riferimento per la qualità del prodotto software si fa riferimento allo standard \underline{ISO/IEC 9126:2001}.\\
+L'immagine seguente elenca le principali caratteristiche a cui un prodotto software di qualità deve aspirare:\\
+\vspace{6mm}
+\noindent%
+\begin{minipage}{\linewidth}% to keep image and caption on one page
+\makebox[\linewidth]{%        to center the image
+  \includegraphics[keepaspectratio=true,scale=0.6]{../images/ISO-9126-cut}}
+\captionof{figure}{Riepilogo caratteristiche ISO/IEC 9126:2001}  
+\end{minipage}\\
+			
+			
+			
+			
+			
+					
 				\subsubsection{Risultati osservabili}
 				Il processo di verifica produce i seguenti risultati:
 				\begin{itemize}

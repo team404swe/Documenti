@@ -53,41 +53,45 @@
 \BOOKMARK [3][-]{subsubsection.3.1.9}{Elenco dei documenti}{subsection.3.1}% 53
 \BOOKMARK [2][-]{subsection.3.2}{Processo di verifica}{section.3}% 54
 \BOOKMARK [3][-]{subsubsection.3.2.1}{Scopo del processo}{subsection.3.2}% 55
-\BOOKMARK [3][-]{subsubsection.3.2.2}{Risultati osservabili}{subsection.3.2}% 56
-\BOOKMARK [3][-]{subsubsection.3.2.3}{Tecniche di analisi}{subsection.3.2}% 57
-\BOOKMARK [4][-]{subsubsubsection.3.2.3.1}{Analisi statica}{subsubsection.3.2.3}% 58
-\BOOKMARK [4][-]{subsubsubsection.3.2.3.2}{Analisi dinamica}{subsubsection.3.2.3}% 59
-\BOOKMARK [3][-]{subsubsection.3.2.4}{Test}{subsection.3.2}% 60
-\BOOKMARK [4][-]{subsubsubsection.3.2.4.1}{Test di unit\340}{subsubsection.3.2.4}% 61
-\BOOKMARK [4][-]{subsubsubsection.3.2.4.2}{Test di integrazione}{subsubsection.3.2.4}% 62
-\BOOKMARK [4][-]{subsubsubsection.3.2.4.3}{Test di sistema}{subsubsection.3.2.4}% 63
-\BOOKMARK [4][-]{subsubsubsection.3.2.4.4}{Test di regressione}{subsubsection.3.2.4}% 64
-\BOOKMARK [4][-]{subsubsubsection.3.2.4.5}{Test di accettazione}{subsubsection.3.2.4}% 65
-\BOOKMARK [1][-]{section.4}{Processi Organizzativi}{}% 66
-\BOOKMARK [2][-]{subsection.4.1}{Scopo del processo}{section.4}% 67
-\BOOKMARK [2][-]{subsection.4.2}{Processo di gestione}{section.4}% 68
-\BOOKMARK [3][-]{subsubsection.4.2.1}{Ruoli di progetto}{subsection.4.2}% 69
-\BOOKMARK [4][-]{subsubsubsection.4.2.1.1}{Definizione dei ruoli}{subsubsection.4.2.1}% 70
-\BOOKMARK [3][-]{subsubsection.4.2.2}{Comunicazione}{subsection.4.2}% 71
-\BOOKMARK [4][-]{subsubsubsection.4.2.2.1}{Interna}{subsubsection.4.2.2}% 72
-\BOOKMARK [4][-]{subsubsubsection.4.2.2.2}{Esterna}{subsubsection.4.2.2}% 73
-\BOOKMARK [3][-]{subsubsection.4.2.3}{Incontri}{subsection.4.2}% 74
-\BOOKMARK [4][-]{subsubsubsection.4.2.3.1}{Interni}{subsubsection.4.2.3}% 75
-\BOOKMARK [4][-]{subsubsubsection.4.2.3.2}{Esterni}{subsubsection.4.2.3}% 76
-\BOOKMARK [3][-]{subsubsection.4.2.4}{Ticketing}{subsection.4.2}% 77
-\BOOKMARK [2][-]{subsection.4.3}{Processo di Allestimento}{section.4}% 78
-\BOOKMARK [3][-]{subsubsection.4.3.1}{Strumenti di progetto}{subsection.4.3}% 79
-\BOOKMARK [4][-]{subsubsubsection.4.3.1.1}{Sistema operativo}{subsubsection.4.3.1}% 80
-\BOOKMARK [4][-]{subsubsubsection.4.3.1.2}{Codifica dei caratteri}{subsubsection.4.3.1}% 81
-\BOOKMARK [4][-]{subsubsubsection.4.3.1.3}{Versionamento}{subsubsection.4.3.1}% 82
-\BOOKMARK [4][-]{subsubsubsection.4.3.1.4}{Git - Modo d'uso}{subsubsection.4.3.1}% 83
-\BOOKMARK [4][-]{subsubsubsection.4.3.1.5}{GitHub - Modo d'uso}{subsubsection.4.3.1}% 84
-\BOOKMARK [3][-]{subsubsection.4.3.2}{Openshift online}{subsection.4.3}% 85
-\BOOKMARK [4][-]{subsubsubsection.4.3.2.1}{MeteorJS}{subsubsection.4.3.2}% 86
-\BOOKMARK [4][-]{subsubsubsection.4.3.2.2}{AngularJS}{subsubsection.4.3.2}% 87
-\BOOKMARK [4][-]{subsubsubsection.4.3.2.3}{MaterializeCss - da valutare}{subsubsection.4.3.2}% 88
-\BOOKMARK [3][-]{subsubsection.4.3.3}{ Installazione Meteor-Angular-Materialize}{subsection.4.3}% 89
-\BOOKMARK [3][-]{subsubsection.4.3.4}{Produzione dei documenti}{subsection.4.3}% 90
-\BOOKMARK [4][-]{subsubsubsection.4.3.4.1}{Dropbox}{subsubsection.4.3.4}% 91
-\BOOKMARK [4][-]{subsubsubsection.4.3.4.2}{Editor}{subsubsection.4.3.4}% 92
-\BOOKMARK [4][-]{subsubsubsection.4.3.4.3}{Correttore ortografico}{subsubsection.4.3.4}% 93
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Qualit\340 di processo}{subsection.3.2}% 56
+\BOOKMARK [4][-]{subsubsubsection.3.2.2.1}{Standard utilizzati}{subsubsection.3.2.2}% 57
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Qualit\340 di prodotto}{subsection.3.2}% 58
+\BOOKMARK [4][-]{subsubsubsection.3.2.3.1}{Standard utilizzati}{subsubsection.3.2.3}% 59
+\BOOKMARK [3][-]{subsubsection.3.2.4}{Risultati osservabili}{subsection.3.2}% 60
+\BOOKMARK [3][-]{subsubsection.3.2.5}{Tecniche di analisi}{subsection.3.2}% 61
+\BOOKMARK [4][-]{subsubsubsection.3.2.5.1}{Analisi statica}{subsubsection.3.2.5}% 62
+\BOOKMARK [4][-]{subsubsubsection.3.2.5.2}{Analisi dinamica}{subsubsection.3.2.5}% 63
+\BOOKMARK [3][-]{subsubsection.3.2.6}{Test}{subsection.3.2}% 64
+\BOOKMARK [4][-]{subsubsubsection.3.2.6.1}{Test di unit\340}{subsubsection.3.2.6}% 65
+\BOOKMARK [4][-]{subsubsubsection.3.2.6.2}{Test di integrazione}{subsubsection.3.2.6}% 66
+\BOOKMARK [4][-]{subsubsubsection.3.2.6.3}{Test di sistema}{subsubsection.3.2.6}% 67
+\BOOKMARK [4][-]{subsubsubsection.3.2.6.4}{Test di regressione}{subsubsection.3.2.6}% 68
+\BOOKMARK [4][-]{subsubsubsection.3.2.6.5}{Test di accettazione}{subsubsection.3.2.6}% 69
+\BOOKMARK [1][-]{section.4}{Processi Organizzativi}{}% 70
+\BOOKMARK [2][-]{subsection.4.1}{Scopo del processo}{section.4}% 71
+\BOOKMARK [2][-]{subsection.4.2}{Processo di gestione}{section.4}% 72
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Ruoli di progetto}{subsection.4.2}% 73
+\BOOKMARK [4][-]{subsubsubsection.4.2.1.1}{Definizione dei ruoli}{subsubsection.4.2.1}% 74
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Comunicazione}{subsection.4.2}% 75
+\BOOKMARK [4][-]{subsubsubsection.4.2.2.1}{Interna}{subsubsection.4.2.2}% 76
+\BOOKMARK [4][-]{subsubsubsection.4.2.2.2}{Esterna}{subsubsection.4.2.2}% 77
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Incontri}{subsection.4.2}% 78
+\BOOKMARK [4][-]{subsubsubsection.4.2.3.1}{Interni}{subsubsection.4.2.3}% 79
+\BOOKMARK [4][-]{subsubsubsection.4.2.3.2}{Esterni}{subsubsection.4.2.3}% 80
+\BOOKMARK [3][-]{subsubsection.4.2.4}{Ticketing}{subsection.4.2}% 81
+\BOOKMARK [2][-]{subsection.4.3}{Processo di Allestimento}{section.4}% 82
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Strumenti di progetto}{subsection.4.3}% 83
+\BOOKMARK [4][-]{subsubsubsection.4.3.1.1}{Sistema operativo}{subsubsection.4.3.1}% 84
+\BOOKMARK [4][-]{subsubsubsection.4.3.1.2}{Codifica dei caratteri}{subsubsection.4.3.1}% 85
+\BOOKMARK [4][-]{subsubsubsection.4.3.1.3}{Versionamento}{subsubsection.4.3.1}% 86
+\BOOKMARK [4][-]{subsubsubsection.4.3.1.4}{Git - Modo d'uso}{subsubsection.4.3.1}% 87
+\BOOKMARK [4][-]{subsubsubsection.4.3.1.5}{GitHub - Modo d'uso}{subsubsection.4.3.1}% 88
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Openshift online}{subsection.4.3}% 89
+\BOOKMARK [4][-]{subsubsubsection.4.3.2.1}{MeteorJS}{subsubsection.4.3.2}% 90
+\BOOKMARK [4][-]{subsubsubsection.4.3.2.2}{AngularJS}{subsubsection.4.3.2}% 91
+\BOOKMARK [4][-]{subsubsubsection.4.3.2.3}{MaterializeCss - da valutare}{subsubsection.4.3.2}% 92
+\BOOKMARK [3][-]{subsubsection.4.3.3}{ Installazione Meteor-Angular-Materialize}{subsection.4.3}% 93
+\BOOKMARK [3][-]{subsubsection.4.3.4}{Produzione dei documenti}{subsection.4.3}% 94
+\BOOKMARK [4][-]{subsubsubsection.4.3.4.1}{Dropbox}{subsubsection.4.3.4}% 95
+\BOOKMARK [4][-]{subsubsubsection.4.3.4.2}{Editor}{subsubsection.4.3.4}% 96
+\BOOKMARK [4][-]{subsubsubsection.4.3.4.3}{Correttore ortografico}{subsubsection.4.3.4}% 97
